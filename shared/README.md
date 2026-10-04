@@ -1,6 +1,6 @@
 # 运行深度学习课程实验
 
-001与002的计算只使用Python标准库。已有Python和Jupyter环境的学习者不必为了这些实验安装深度学习框架。后续单元逐一声明NumPy、PyTorch等额外依赖及CPU运行方式。
+001–003与006的核心计算只使用Python标准库。004和005使用NumPy；005的Notebook可视化需要Matplotlib与可用中文字体，详见该单元说明。已有Python和Jupyter环境的学习者不必为了这些实验安装深度学习框架。后续单元逐一声明额外依赖及CPU运行方式，深度学习框架在需要时再加入。
 
 建议独立环境：在仓库根目录运行 `conda env create -f shared/environment.yml`，再运行 `conda activate dl-research-course` 和 `jupyter lab`。安装依赖通常需要网络，下载完成后的前两讲实验可离线运行。软件许可和安装权限由使用者确认。
 

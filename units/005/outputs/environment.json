@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "data_sha256": {
+    "entity_split.json": "d9278d95622ed34092cc216f7b1e4b20655988be1b94fb9d086e7828c148ac44",
+    "labels.csv": "672c68475f84d2f186db08874c5e43370f18e7c10abd7e0acfee27b2a1f05870",
+    "memorization.csv": "0070e357bced364e855b29b33d033ad30dbf952f004f511b885fa719bd9406dd",
+    "records_raw.csv": "907f57773f5df77a89344f97518ca8124e1a9807ee2728eaf9b4ce7f14da3d8b",
+    "time_illustration.json": "a6227b490a8db6ac016297fa879290b1ab1a4aa25348b9ef2d9e6658788455cc"
+  }
+}

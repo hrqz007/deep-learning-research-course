@@ -1,0 +1,15 @@
+{
+  "correct_mae": 0.6666666666666666,
+  "wrong_pairwise_mean_absolute_error": 2.4444444444444446,
+  "weighted_axis_0_sum": [
+    12.0,
+    6.0
+  ],
+  "weighted_axis_1_sum": [
+    3.0,
+    6.0,
+    9.0
+  ],
+  "weighted_all_mean": 3.0,
+  "sample_count": 3
+}

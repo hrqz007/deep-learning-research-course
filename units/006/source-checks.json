@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "random",
+      "url": "https://docs.python.org/3.12/library/random.html",
+      "verified": "Opened official Python 3.12 documentation; API behavior and reproducibility limits checked"
+    },
+    {
+      "title": "hashlib",
+      "url": "https://docs.python.org/3.12/library/hashlib.html",
+      "verified": "Opened official Python 3.12 documentation; API behavior and reproducibility limits checked"
+    },
+    {
+      "title": "json",
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "verified": "Opened official Python 3.12 documentation; API behavior and reproducibility limits checked"
+    }
+  ],
+  "originality": "Synthetic devices, protocol, calculations, code and figures are original"
+}

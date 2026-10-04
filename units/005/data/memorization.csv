@@ -1,0 +1,13 @@
+record_id,device_id,visit,target
+A1,A,1,2
+A2,A,2,2
+B1,B,1,5
+B2,B,2,5
+C1,C,1,11
+C2,C,2,11
+D1,D,1,17
+D2,D,2,17
+E1,E,1,29
+E2,E,2,29
+F1,F,1,43
+F2,F,2,43

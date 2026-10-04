@@ -1,0 +1,50 @@
+{
+  "release": "004-006",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "004",
+      "pages": {
+        "lecture": 9,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 7
+    },
+    {
+      "id": "005",
+      "pages": {
+        "lecture": 10,
+        "lab": 4,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 10
+    },
+    {
+      "id": "006",
+      "revision": "v2 isolated run attempts",
+      "pages": {
+        "lecture": 8,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 6
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "unit006_revision": "Each attempt is stored separately with explicit running/complete/failed status; success followed by failed rerun preserves earlier files and rejects the newest incomplete attempt.",
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Tiny original synthetic data; no real-task or statistical inference claim"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

@@ -1,0 +1,61 @@
+{
+  "unit": "004",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Reported separately in course release record; this file records author checks only.",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "numpy": "2.3.5",
+    "notebook": "ipykernel 7.4.0, nbformat 5.11.1"
+  },
+  "checks": {
+    "script": "fresh process passed",
+    "notebook": "7 code cells, fresh process with real IPython InProcessKernel, sequentially executed",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "hand-calculated intermediate arrays and loop equivalence",
+        "reduction axes and keepdims",
+        "silent pairwise bug reproduced and strict metric rejects invalid inputs",
+        "feature shape and finite-value checks",
+        "broadcast compatibility and sample-specific offsets",
+        "matrix multiplication and reshape versus transpose",
+        "basic slice view and explicit copy",
+        "all 24 unique channel markers retain identity"
+      ]
+    },
+    "numeric_oracle": {
+      "status": "passed",
+      "method": "100 deterministic fixtures across N=1,2,3,7,19; independent Fraction(1,10) predictions and absolute means; explicit shape comparison",
+      "core_exact_correct_mae": "2/3",
+      "core_exact_wrong_pairwise_average": "22/9"
+    },
+    "visual": "All 9 lecture, 3 lab, 2 answer pages rendered and individually inspected; 7 original diagrams checked for labels, values and shape conventions"
+  },
+  "pages": {
+    "lecture": 9,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_metrics": {
+    "correct_mae": 0.6666666666666666,
+    "wrong_pairwise_mean_absolute_error": 2.4444444444444446,
+    "weighted_axis_0_sum": [
+      12.0,
+      6.0
+    ],
+    "weighted_axis_1_sum": [
+      3.0,
+      6.0,
+      9.0
+    ],
+    "weighted_all_mean": 3.0,
+    "sample_count": 3
+  },
+  "limitations": [
+    "No Jupyter browser UI or out-of-process kernel transport tested",
+    "No fresh Anaconda or cross-platform package installation test",
+    "Fixed synthetic rule only; no learned-model performance, generalization or speed claim"
+  ]
+}

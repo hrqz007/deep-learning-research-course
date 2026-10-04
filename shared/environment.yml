@@ -3,6 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10.8
   - jupyterlab>=4,<5
   - ipykernel>=6,<8
-# Later units declare their own numerical or framework dependencies.
+# Unit 005 graphics also need an installed CJK font; see its README.

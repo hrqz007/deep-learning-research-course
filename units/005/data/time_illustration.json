@@ -1,0 +1,21 @@
+{
+  "purpose": "illustration only: day 3 test records do not exist in this fixture",
+  "train": [
+    "A01",
+    "B01",
+    "C01",
+    "D01",
+    "E01",
+    "F01"
+  ],
+  "validation": [
+    "A02",
+    "B02",
+    "C02",
+    "D02",
+    "E02",
+    "F02"
+  ],
+  "test_prediction_date": "2026-01-03",
+  "test_records_available": false
+}

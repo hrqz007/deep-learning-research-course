@@ -1,0 +1,67 @@
+{
+  "config": {
+    "candidate_biases": [
+      0,
+      1,
+      2
+    ],
+    "data_files": {
+      "test_inputs": "test_inputs.csv",
+      "test_labels": "test_labels.csv",
+      "train": "train.csv",
+      "validation": "validation.csv"
+    },
+    "descriptive_seeds": [
+      101,
+      102,
+      103
+    ],
+    "fixed_coefficient": 2,
+    "metric": "mean_absolute_error",
+    "model_tie_break": "affine",
+    "primary_seed": 101,
+    "protocol_version": 1,
+    "split_by": "device",
+    "train_sample_count": 8
+  },
+  "config_sha256": "c1766014a8becc0734fe4ae1fb2cfc3ee69ab8d8ec2baae48ffa99117bee24f6",
+  "pretest_data_sha256": {
+    "test_inputs": "d71b13e1775b4dcc4039f869079a0558835b23c85f2aff3d7ef0518de0aae046",
+    "train": "ed394e7468e576d2ef3c781471c7be5e076ff7a21cef9c90edb955a31accb0af",
+    "validation": "1347febfae7a4d1aff7efac1327f1fbb9d663b1920517ad08f56f5d7d08cf18e"
+  },
+  "primary_seed": 101,
+  "selected_model": {
+    "bias": 1,
+    "coefficient": 2,
+    "name": "affine"
+  },
+  "selection_basis": "Primary-seed validation MAE; affine wins ties",
+  "source_sha256": "8dfd2ead8b28551de4b585ab8ab40db944cc1230c138f86d717bc07d8a95662c",
+  "split_devices": {
+    "test": [
+      "F"
+    ],
+    "train": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "validation": [
+      "E"
+    ]
+  },
+  "test_input_ids": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "test_predictions": [
+    3.0,
+    5.0,
+    7.0,
+    9.0
+  ]
+}

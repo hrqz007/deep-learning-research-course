@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "all_descriptive_trials.json": "6a186dbd58ef7de8d814576ae27d5bee3c5a83ad9d4702662535d74838f0d758",
+    "final_result.json": "e4507e35bf0cf47addce487239fa5b2d7fb9f629d4b18ef4aa295418cd635a2d",
+    "frozen_plan_and_predictions.json": "794d201e3d08fdd3148a8eea27e052d35c123c01c62174e79b4ff29df4fde13a",
+    "test_predictions.csv": "2813e5b45376bd048073e4229e5c42ad802283e145677e4d78ebc632d9985ece"
+  },
+  "config_sha256": "c1766014a8becc0734fe4ae1fb2cfc3ee69ab8d8ec2baae48ffa99117bee24f6",
+  "input_sha256": {
+    "test_inputs": "d71b13e1775b4dcc4039f869079a0558835b23c85f2aff3d7ef0518de0aae046",
+    "test_labels": "b27aef120eea93d3755aa757d960bd9a2a6adcc66401f8da00dbb8396845ac2b",
+    "train": "ed394e7468e576d2ef3c781471c7be5e076ff7a21cef9c90edb955a31accb0af",
+    "validation": "1347febfae7a4d1aff7efac1327f1fbb9d663b1920517ad08f56f5d7d08cf18e"
+  },
+  "runtime": {
+    "platform": "Linux",
+    "python": "3.12.14"
+  },
+  "source_sha256": "8dfd2ead8b28551de4b585ab8ab40db944cc1230c138f86d717bc07d8a95662c"
+}

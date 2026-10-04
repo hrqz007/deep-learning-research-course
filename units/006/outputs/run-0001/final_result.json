@@ -1,0 +1,12 @@
+{
+  "primary_seed": 101,
+  "scope": "Public synthetic descriptive exercise; not a blind or population-level finding",
+  "selected_model": {
+    "bias": 1,
+    "coefficient": 2,
+    "name": "affine"
+  },
+  "test_device_count": 1,
+  "test_mae": 2.0,
+  "test_sample_count": 4
+}

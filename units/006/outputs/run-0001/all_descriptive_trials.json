@@ -1,0 +1,140 @@
+[
+  {
+    "candidate_scores": [
+      {
+        "bias": 0,
+        "train_mae": 1.0
+      },
+      {
+        "bias": 1,
+        "train_mae": 0.25
+      },
+      {
+        "bias": 2,
+        "train_mae": 1.0
+      }
+    ],
+    "models": {
+      "affine": {
+        "bias": 1,
+        "coefficient": 2,
+        "name": "affine"
+      },
+      "constant_mean": {
+        "name": "constant_mean",
+        "value": 6.0
+      }
+    },
+    "seed": 101,
+    "selected_train_ids": [
+      "B3",
+      "D3",
+      "C1",
+      "B2",
+      "B4",
+      "A1",
+      "D2",
+      "A4"
+    ],
+    "train_mae": {
+      "affine": 0.25,
+      "constant_mean": 2.25
+    },
+    "validation_mae": {
+      "affine": 0.0,
+      "constant_mean": 2.0
+    }
+  },
+  {
+    "candidate_scores": [
+      {
+        "bias": 0,
+        "train_mae": 0.875
+      },
+      {
+        "bias": 1,
+        "train_mae": 0.625
+      },
+      {
+        "bias": 2,
+        "train_mae": 1.125
+      }
+    ],
+    "models": {
+      "affine": {
+        "bias": 1,
+        "coefficient": 2,
+        "name": "affine"
+      },
+      "constant_mean": {
+        "name": "constant_mean",
+        "value": 5.375
+      }
+    },
+    "seed": 102,
+    "selected_train_ids": [
+      "B1",
+      "C3",
+      "C2",
+      "B2",
+      "A3",
+      "C1",
+      "D2",
+      "C4"
+    ],
+    "train_mae": {
+      "affine": 0.625,
+      "constant_mean": 1.875
+    },
+    "validation_mae": {
+      "affine": 0.0,
+      "constant_mean": 2.0
+    }
+  },
+  {
+    "candidate_scores": [
+      {
+        "bias": 0,
+        "train_mae": 1.0
+      },
+      {
+        "bias": 1,
+        "train_mae": 0.5
+      },
+      {
+        "bias": 2,
+        "train_mae": 1.0
+      }
+    ],
+    "models": {
+      "affine": {
+        "bias": 1,
+        "coefficient": 2,
+        "name": "affine"
+      },
+      "constant_mean": {
+        "name": "constant_mean",
+        "value": 6.5
+      }
+    },
+    "seed": 103,
+    "selected_train_ids": [
+      "D3",
+      "D4",
+      "C4",
+      "D2",
+      "D1",
+      "A4",
+      "A2",
+      "C2"
+    ],
+    "train_mae": {
+      "affine": 0.5,
+      "constant_mean": 1.75
+    },
+    "validation_mae": {
+      "affine": 0.0,
+      "constant_mean": 2.0
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "Absolute basics",
+      "url": "https://numpy.org/doc/2.3/user/absolute_beginners.html",
+      "verified": "Opened versioned official NumPy 2.3 documentation; relevant API/shape semantics checked"
+    },
+    {
+      "title": "Broadcasting",
+      "url": "https://numpy.org/doc/2.3/user/basics.broadcasting.html",
+      "verified": "Opened versioned official NumPy 2.3 documentation; relevant API/shape semantics checked"
+    },
+    {
+      "title": "matmul",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.matmul.html",
+      "verified": "Opened versioned official NumPy 2.3 documentation; relevant API/shape semantics checked"
+    },
+    {
+      "title": "mean",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.mean.html",
+      "verified": "Opened versioned official NumPy 2.3 documentation; relevant API/shape semantics checked"
+    }
+  ],
+  "originality": "All teaching data, diagrams, narrative and numeric fixtures independently authored"
+}

@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Official primary documentation opened with web tool; relevant passages read, not search snippets alone.",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Python 3.12 csv documentation",
+      "url": "https://docs.python.org/3.12/library/csv.html",
+      "status": "opened_and_checked",
+      "checked_claim": "CSV reader handles rows; DictReader maps fields to dictionary keys; parsed file values require explicit numeric conversion.",
+      "used_in": "lecture section 2 and read_csv implementation"
+    },
+    {
+      "id": 2,
+      "title": "scikit-learn Cross-validation: grouped data and time series sections",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "status": "opened_and_checked",
+      "checked_claim": "Evaluation of unseen groups requires group isolation; forward time evaluation addresses future observations. The choice depends on the target, not a universal split rule.",
+      "passages": "Grouped-data sections around lines 407-417; time-series sections around lines 543-549 in retrieved page.",
+      "used_in": "lecture sections 4-5",
+      "scope": "No requirement that learners know cross-validation or probability; no copied implementation or empirical performance claim."
+    },
+    {
+      "id": 3,
+      "title": "NumPy 2.3 numpy.histogram",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.histogram.html",
+      "status": "opened_and_checked",
+      "checked_claim": "density=False returns bin counts; all but final bin are half-open and final bin includes right endpoint.",
+      "passages": "Parameters and Notes, around lines 100-124.",
+      "used_in": "lecture section 6, figure 4 and executed histogram check"
+    },
+    {
+      "id": 4,
+      "title": "scikit-learn Common pitfalls and recommended practices",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "status": "opened_and_checked",
+      "checked_claim": "Split before fitting learned preprocessing; fit only training and apply the learned transformation to held-out data; lack of label access alone does not prevent preprocessing leakage.",
+      "used_in": "lecture section 7 and independent train-only pipeline implementation"
+    }
+  ],
+  "originality": "All narrative, numeric fixtures, code, figures and exercises are original. External documentation supplies API semantics and boundary principles; no third-party dataset or image is included.",
+  "version_note": "Web stable documentation can evolve; learner runtime and immutable synthetic input hashes are recorded separately."
+}

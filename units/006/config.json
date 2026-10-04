@@ -1,0 +1,25 @@
+{
+  "protocol_version": 1,
+  "primary_seed": 101,
+  "descriptive_seeds": [
+    101,
+    102,
+    103
+  ],
+  "train_sample_count": 8,
+  "candidate_biases": [
+    0,
+    1,
+    2
+  ],
+  "fixed_coefficient": 2,
+  "metric": "mean_absolute_error",
+  "model_tie_break": "affine",
+  "split_by": "device",
+  "data_files": {
+    "train": "train.csv",
+    "validation": "validation.csv",
+    "test_inputs": "test_inputs.csv",
+    "test_labels": "test_labels.csv"
+  }
+}

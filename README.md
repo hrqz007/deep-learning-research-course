@@ -4,13 +4,16 @@
 
 ## 已完成的完整单元
 
-当前可学习的正文、实验与练习资料为001–003；其余单元仍在制作，不把大纲条目当作已完成教材。
+当前可学习的正文、实验与练习资料为001–006；其余96个单元仍在制作，不把大纲条目当作已完成教材。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
 |001|深度学习问题与证据|[8页](units/001/lecture.pdf)|[3页](units/001/lab.pdf)|[2页](units/001/answers.pdf)|[进入单元](units/001/README.md)|
 |002|Anaconda与Python第一份实验|[13页](units/002/lecture.pdf)|[6页](units/002/lab.pdf)|[4页](units/002/answers.pdf)|[进入单元](units/002/README.md)|
 |003|函数文件与最小测试|[10页](units/003/lecture.pdf)|[3页](units/003/lab.pdf)|[2页](units/003/answers.pdf)|[进入单元](units/003/README.md)|
+|004|数组张量与形状思维|[9页](units/004/lecture.pdf)|[3页](units/004/lab.pdf)|[2页](units/004/answers.pdf)|[进入单元](units/004/README.md)|
+|005|数据管线与可视化检查|[10页](units/005/lecture.pdf)|[4页](units/005/lab.pdf)|[3页](units/005/answers.pdf)|[进入单元](units/005/README.md)|
+|006|第一次可重跑的研究练习|[8页](units/006/lecture.pdf)|[3页](units/006/lab.pdf)|[2页](units/006/answers.pdf)|[进入单元](units/006/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -25,9 +28,9 @@
 
 ## 运行与验证
 
-前三单元核心实验仅用Python标准库，Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
+001–003与006核心实验仅用Python标准库；004与005使用NumPy，005的可视化还需Matplotlib和中文字体。Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
 
-这三个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[本批核验说明](releases/001-003.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
+这六个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)与[004–006核验说明](releases/004-006.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
 
 ## 资料范围
 

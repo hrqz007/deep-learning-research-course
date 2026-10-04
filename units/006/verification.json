@@ -1,0 +1,61 @@
+{
+  "unit": "006",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Reported separately in course release record; this file records author checks only.",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "dependencies": "Python standard library; Notebook ipykernel 7.4.0, nbformat 5.11.1"
+  },
+  "checks": {
+    "script": "Fresh-process complete run passed; separate test launches another process from unrelated directory",
+    "notebook": "6 code cells, fresh process using real IPython InProcessKernel, all sequential execution passed",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "exact selected IDs, candidate scores and hand-derived parameters",
+        "all declared descriptive seeds and final hand-derived score",
+        "two complete reruns produce identical artifacts",
+        "one-byte artifact change invalidates recorded digest",
+        "test labels physically absent during fitting and model selection",
+        "changing test labels does not affect frozen choices or predictions",
+        "entity overlap rejected",
+        "impossible sample-count configuration rejected",
+        "success then changed-plan failure in same collection preserves old run and marks new failure",
+        "fresh process from unrelated directory reproduces final result",
+        "empty, mismatched and nonfinite metric inputs rejected"
+      ]
+    },
+    "numeric_oracle": {
+      "status": "passed",
+      "method": "Separate Fraction arithmetic from CSV plus actually recorded selected IDs, no experiment functions imported",
+      "checks": "All 9 candidate training scores, 3 constant means, constant validation scores, final test MAE checked exactly"
+    },
+    "visual": "All original 13 pages inspected. Revised lecture pages 7–8 and lab pages 2–3 individually re-inspected; other rendered pages byte-identical to the inspected originals.",
+    "failure_isolation": "Each run gets a new numbered directory and running/complete/failed status. Added same-collection success then changed-bias/missing-label failure regression; old run bytes unchanged, newest rejected as incomplete, no mixed old result."
+  },
+  "pages": {
+    "lecture": 8,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_result": {
+    "primary_seed": 101,
+    "scope": "Public synthetic descriptive exercise; not a blind or population-level finding",
+    "selected_model": {
+      "bias": 1,
+      "coefficient": 2,
+      "name": "affine"
+    },
+    "test_device_count": 1,
+    "test_mae": 2.0,
+    "test_sample_count": 4
+  },
+  "limitations": [
+    "No Jupyter browser UI or out-of-process kernel transport tested",
+    "No new Anaconda or cross-platform installation test",
+    "Public synthetic descriptive exercise; no independent blind-test, statistical, causal or real-device claim"
+  ],
+  "revision": "v2 independent run-attempt directories"
+}

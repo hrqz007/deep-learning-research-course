@@ -1,0 +1,7 @@
+1. Read configuration and named input files
+2. Verified unique IDs and disjoint devices
+3. Fit all declared training-subset seeds; retained every trial
+4. Selected model on primary-seed validation only
+5. Saved frozen model and test predictions
+6. Opened public test labels and saved row-level errors
+7. Saved content digests and runtime versions

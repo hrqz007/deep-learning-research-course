@@ -7,7 +7,10 @@
   "completed_material_units": [
     "001",
     "002",
-    "003"
+    "003",
+    "004",
+    "005",
+    "006"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -26,7 +29,7 @@
       "figure": "同一组点的记忆解与可泛化解；训练和测试的信息边界。",
       "lab": "手算两个预测规则的误差，写出任务、预测时点和封存测试集；解释训练好而测试差的例子。",
       "pitfall": "把深度学习等同于大语言模型；把训练拟合当成现实有效性。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/001/lecture.pdf",
         "lab_pdf": "units/001/lab.pdf",
@@ -35,7 +38,15 @@
         "script": "units/001/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/001-003.json"
+      "release_record": "releases/001-003.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "66d69bb1bcd834e513688a7c0fd64f4216bb46c3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 28,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "002",
@@ -48,7 +59,7 @@
       "figure": "从环境到解释器再到脚本的执行路径。",
       "lab": "建立独立Anaconda环境，重现001的计算并记录Python版本；清空会话后仍得到同样结果。",
       "pitfall": "把安装成功当成理解程序；在不同环境中混用包；依赖Notebook隐藏状态。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/002/lecture.pdf",
         "lab_pdf": "units/002/lab.pdf",
@@ -57,7 +68,15 @@
         "script": "units/002/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/001-003.json"
+      "release_record": "releases/001-003.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "66d69bb1bcd834e513688a7c0fd64f4216bb46c3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 36,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "003",
@@ -70,7 +89,7 @@
       "figure": "数据读取、预测、损失与记录的函数依赖图。",
       "lab": "写可执行脚本和三个边界测试，定位故意植入的索引、类型和路径错误。",
       "pitfall": "静默吞掉异常；把所有逻辑塞入一个单元格；只检查是否报错。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/003/lecture.pdf",
         "lab_pdf": "units/003/lab.pdf",
@@ -79,7 +98,15 @@
         "script": "units/003/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/001-003.json"
+      "release_record": "releases/001-003.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "66d69bb1bcd834e513688a7c0fd64f4216bb46c3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 30,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "004",
@@ -92,7 +119,16 @@
       "figure": "批次、特征、通道三种轴的彩色标注。",
       "lab": "用NumPy重写循环计算并逐项对齐；每个中间量写出shape，构造一个错误广播反例。",
       "pitfall": "把批次轴当特征轴；转置碰巧能运行便认为含义正确。",
-      "status": "in_review"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/004/lecture.pdf",
+        "lab_pdf": "units/004/lab.pdf",
+        "answers_pdf": "units/004/answers.pdf",
+        "notebook": "units/004/experiment.ipynb",
+        "script": "units/004/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/004-006.json"
     },
     {
       "id": "005",
@@ -105,7 +141,16 @@
       "figure": "原始记录到张量的流向；实体与时间拆分示意。",
       "lab": "建立数据字典，绘制分布与样本图，检查重复、标签错位和未来信息；固定训练验证测试名单。",
       "pitfall": "随机拆行造成同一对象泄漏；在全量数据上拟合预处理。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/005/lecture.pdf",
+        "lab_pdf": "units/005/lab.pdf",
+        "answers_pdf": "units/005/answers.pdf",
+        "notebook": "units/005/experiment.ipynb",
+        "script": "units/005/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/004-006.json"
     },
     {
       "id": "006",
@@ -118,7 +163,16 @@
       "figure": "问题、配置、运行、产物与证据的闭环。",
       "lab": "重跑一个提供的极小示例，保存配置、日志和误差样本；写出三条待解释现象，不先宣称机制。",
       "pitfall": "只保存最高分截图；把一次随机运行称为稳定结论。",
-      "status": "in_review"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/006/lecture.pdf",
+        "lab_pdf": "units/006/lab.pdf",
+        "answers_pdf": "units/006/answers.pdf",
+        "notebook": "units/006/experiment.ipynb",
+        "script": "units/006/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/004-006.json"
     },
     {
       "id": "007",
@@ -132,7 +186,7 @@
       "figure": "线性、指数、对数与分段函数的对照图。",
       "lab": "手绘并用代码验证常见函数；解释取对数为何改变乘积表达但不保证所有目标等价。",
       "pitfall": "忽略对数底数和定义域；用符号推演替代对象解释。",
-      "status": "planned"
+      "status": "in_review"
     },
     {
       "id": "008",
@@ -146,7 +200,7 @@
       "figure": "二维投影及高维向量的坐标解释。",
       "lab": "手算三维内积、距离和余弦相似度，再对照NumPy；举出尺度改变模型行为的例子。",
       "pitfall": "把相似度当概率；认为高维直觉与二维图完全一致。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "009",
