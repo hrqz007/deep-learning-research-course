@@ -1,0 +1,85 @@
+{
+  "unit": "020",
+  "title": "经验风险与泛化",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "prerequisites": [
+    "018"
+  ],
+  "pages": {
+    "lecture": 9,
+    "lab": 3,
+    "answers": 3
+  },
+  "original_figures": 8,
+  "runtime": {
+    "python": "3.12.14",
+    "core_dependencies": "Python standard library only"
+  },
+  "checks": {
+    "tests": {
+      "groups": 11,
+      "risk_rules_against_80_atoms": 256,
+      "training_datasets_for_exhaustive_erm": 120,
+      "weighted_populations": 80,
+      "uniform_bound_datasets": 40,
+      "thresholds_per_bound_dataset": 9,
+      "mathematical_rejections": 22,
+      "bad_csv_or_config_output_isolation_cases": 15,
+      "fixed_figure_guard": true,
+      "document_code_snippets": 5,
+      "simulation_trial_selection_checks": 9600,
+      "status": "passed"
+    },
+    "script": "Fresh process and unrelated-cwd python -S, four bundled outputs byte-identical",
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 2.906,
+      "code_cells": 14,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "Four Notebook/script output files byte-identical; three Notebook images match reviewed PNG files",
+    "visual": "All15finalpages and8originalfigures individually viewed; superscript-star/hat notation repaired and affected pages re-rendered and rechecked; answer final page balanced with substantive bias-variance and shift examples; independent review found figure2 legends covered observations, fixed by external legends; final lecture page3 reviewed again, all other pages pixel-identical, Notebook images rechecked",
+    "structural": "No empty pages, out-of-page text, replacement glyphs, math placeholders or private paths; PDF metadata checked",
+    "sources": "Four primary or author sources opened and read; failed access excluded"
+  },
+  "expected": {
+    "best_population_risk": "1/10",
+    "hand_constant_train_population": [
+      "1/2",
+      "1/2"
+    ],
+    "hand_threshold_train_population": [
+      "1/4",
+      "2/5"
+    ],
+    "hand_lookup_train_population": [
+      "0",
+      "1/2"
+    ],
+    "empirical_gap": "1/4",
+    "population_change": "-3/10",
+    "threshold_uniform_deviation": "11/20",
+    "reversed_conditional_risk": "9/10",
+    "changed_input_mass_risk": "43/70"
+  },
+  "limitations": [
+    "No fresh Anaconda, browser Jupyter UI, socket kernel or cross-platform installation test",
+    "Original finite synthetic classification problem only; no real-model generalization guarantee",
+    "Fixed figures and Notebook require default config, original training table and matching saved results; custom runs saved separately",
+    "Squared-loss bias-variance decomposition not claimed for 0-1 loss or arbitrary metrics",
+    "Mathematical validation and serialization precede file writes; no claim of atomic multi-file recovery after OS I/O failure"
+  ],
+  "artifact_sha256": {
+    "test_experiment.py": "511a7ced12c7efe806fab75b21b4cd9ef02e2cbb087b49ce78ac7176a69ce3d1",
+    "lecture.pdf": "244004557ee2f4b39f968f1f21af996b5ddc10c69850b350fd9dd683c895fbb0",
+    "make_figures.py": "856c49394132eb7c54cf25669da160069500cad89c14b92c31db347c651764d1",
+    "answers.pdf": "245578fa8d301cc424e347bd39114ce2cae2d06d8b6b1d3c12802a1d335a81cd",
+    "lab.pdf": "2e507637cada15ea6e23e9274a1d4b751acb08c03de00235a8adcf7162ad95ad",
+    "experiment.py": "7b1245bc974195ac36643dfe5d849298c6b13818ddabd8f770166f26104fff14",
+    "experiment.ipynb": "08ca0aec568a715db0306cbd33b9b227070f680b5568718ec2903740326597cd"
+  }
+}

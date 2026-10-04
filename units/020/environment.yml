@@ -1,0 +1,12 @@
+name: dl-unit-020
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - numpy
+  - matplotlib
+# Core experiment and tests use only the Python standard library.
+# NumPy/matplotlib are optional figure-rebuilding dependencies; installation not tested.

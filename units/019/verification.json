@@ -1,0 +1,113 @@
+{
+  "unit": "019",
+  "title": "熵交叉熵与KL散度",
+  "status": "author_verified_pending_independent_review",
+  "date": "2026-10-04",
+  "prerequisites": {
+    "discrete": [
+      "017",
+      "018"
+    ],
+    "explicit_supplement": "Definition of derivative, derivative of ln, monotonicity criterion; geometric log-inequality cross-check",
+    "not_assumed": [
+      "Jensen inequality",
+      "continuous probability",
+      "neural network training"
+    ]
+  },
+  "pdf_pages": {
+    "lecture": 11,
+    "lab": 4,
+    "answers": 4
+  },
+  "original_figures": 8,
+  "core_dependencies": "Python standard library only",
+  "tests": {
+    "status": "passed",
+    "groups": 11,
+    "rational_distribution_pairs": 784,
+    "exact_label_sequence_fixtures": 363,
+    "precision_decimal_digits": 80,
+    "rejected_cases": 47,
+    "oracles": "Exact rational inputs with Decimal.ln at 80 digits; exact bit code lengths for all sequences of lengths 1..5",
+    "fresh_process_script_runs": "Two subprocess outputs byte-identical and match bundled outputs; different current working directory",
+    "extreme_cases": "Exact zero and common zero; positive float probabilities down to 5e-324; ratio overflow avoided via log differences; rounded-to-one log base rejected",
+    "triangle_and_asymmetry_counterexamples": true,
+    "additional_subnormal_smoothing_rejections": 3,
+    "malformed_csv_output_isolation_cases": 9,
+    "malformed_csv_subprocess_runs": 18
+  },
+  "notebook": {
+    "status": "passed",
+    "code_cells": 14,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "kernel": "real ipykernel InProcessKernel",
+    "fresh_python_process": true,
+    "cleared_outputs_and_sequential_execution": true,
+    "result_files_identical_to_script": true,
+    "nbformat_validation": "passed",
+    "v2_reexecuted": true
+  },
+  "pdf_review": {
+    "all_pages_rendered": true,
+    "all_pages_individually_visually_inspected": true,
+    "all_eight_figures_individually_visually_inspected": true,
+    "no_replacement_glyphs_in_extracted_text": true,
+    "final_unchanged_pages_pixel_hash_identical_to_reviewed_version": true,
+    "corrected_and_rechecked": [
+      "Plain-text subscripts rendered with inline mathematics",
+      "Figure 7 caption changed from row-by-row to state-wise grouping",
+      "Removed duplicated end matter that produced near-empty lab/answers pages"
+    ],
+    "v2_targeted_review": "Lecture10 individually reviewed; other10lecturepages pixel-identical; lab answers and all8figures byte-identical"
+  },
+  "sources": {
+    "major_pages_actually_opened": 4,
+    "record": "source-checks.json",
+    "failed_access_not_counted": true,
+    "source_PDF_visual_screenshot": "attempt unavailable; only source text checked"
+  },
+  "figure_rebuild": "8 PNG files byte-identical across fresh plotting process",
+  "public_hygiene": {
+    "text_files_no_workspace_paths_or_credential_patterns": true,
+    "PDF_links_no_private_paths": true,
+    "no_data_downloads_or_paid_APIs": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.10.8",
+    "weasyprint": "70.0",
+    "Markdown": "3.11",
+    "PyMuPDF": "1.26.6",
+    "Pillow": "12.3.0"
+  },
+  "limits": [
+    "Author verification is not independent QA or publication verification",
+    "Anaconda fresh installation not tested",
+    "Jupyter browser UI not tested",
+    "Out-of-process socket kernel transport not tested",
+    "Cross-platform environment installation not tested",
+    "No real dataset, probability calibration, generative quality, GPU or performance benchmark",
+    "Finite three-candidate comparison is not a general mode-seeking theorem",
+    "Probability canonicalization accepts rounding error <=1e-12; near-equal KL values can have float rounding error",
+    "Build emitted Fontconfig cache permission warnings; generated artifacts were visually inspected"
+  ],
+  "revision": "v2 reject positive mixing-share underflow, validate raw CSV headers and complete rows, validate required distributions and serialize all outputs before writing"
+}

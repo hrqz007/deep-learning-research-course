@@ -1,0 +1,95 @@
+{
+  "fixed": {
+    "constant": {
+      "predictions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "train_risk": "1/2",
+      "population_risk": "1/2",
+      "class_best_risk": "1/2",
+      "approximation_error": "2/5",
+      "estimation_error": "0",
+      "empirical_optimization_error": "0",
+      "uniform_deviation": "0",
+      "excess_bound": "2/5"
+    },
+    "threshold": {
+      "predictions": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "train_risk": "1/4",
+      "population_risk": "2/5",
+      "class_best_risk": "1/10",
+      "approximation_error": "0",
+      "estimation_error": "3/10",
+      "empirical_optimization_error": "0",
+      "uniform_deviation": "11/20",
+      "excess_bound": "11/10"
+    },
+    "lookup": {
+      "predictions": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "train_risk": "0",
+      "population_risk": "1/2",
+      "class_best_risk": "1/10",
+      "approximation_error": "0",
+      "estimation_error": "2/5",
+      "empirical_optimization_error": "0",
+      "uniform_deviation": "7/10",
+      "excess_bound": "7/5"
+    },
+    "empirically_suboptimal_but_better_population": {
+      "threshold4_train": "1/2",
+      "threshold4_population": "1/10",
+      "population_change_from_erm": "-3/10"
+    },
+    "shift": {
+      "old_bayes_source": "1/10",
+      "old_bayes_reversed_conditional": "9/10",
+      "learned_threshold_changed_x_masses": "43/70"
+    },
+    "squared_loss_at_x4": {
+      "conditional_mean": "9/10",
+      "irreducible_noise": "9/100",
+      "one_label_estimator_bias_squared": "0",
+      "one_label_estimator_variance": "9/100",
+      "one_label_total_risk": "9/50",
+      "constant_half_bias_squared": "4/25",
+      "constant_half_variance": "0",
+      "constant_half_total_risk": "1/4"
+    }
+  },
+  "config": {
+    "seed": 20261004,
+    "repeats": 800,
+    "sample_sizes": [
+      8,
+      32,
+      128
+    ],
+    "validation_size": 32,
+    "test_size": 256
+  }
+}

@@ -1,0 +1,11 @@
+name: dl021
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - matplotlib
+# Core experiment and tests use only Python's standard library.
+# This is a suggested environment, not a lockfile or a tested fresh install.

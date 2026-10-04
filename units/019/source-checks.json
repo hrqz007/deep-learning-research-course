@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Shannon 1948",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "observed": "PDF text opened; section 6, PDF pages 10-11 and logarithm unit discussion",
+      "claims": "finite entropy and units; text minus-sign extraction checked against independent mathematics",
+      "status": "opened_and_checked"
+    },
+    {
+      "id": 2,
+      "title": "Goodfellow Bengio Courville author chapter",
+      "url": "https://www.deeplearningbook.org/contents/prob.html",
+      "observed": "HTML opened; section 3.13, equations 3.48-3.51 and restricted-family figure discussion",
+      "claims": "KL direction, nonnegativity, asymmetry, CE decomposition, zero terms",
+      "status": "opened_and_checked"
+    },
+    {
+      "id": 3,
+      "title": "Python math",
+      "url": "https://docs.python.org/3/library/math.html",
+      "observed": "Official HTML opened; log/log2/log1p/fsum/isfinite",
+      "claims": "natural log and float numerical interfaces",
+      "status": "opened_and_checked"
+    },
+    {
+      "id": 4,
+      "title": "Python decimal",
+      "url": "https://docs.python.org/3/library/decimal.html",
+      "observed": "Official HTML opened; Decimal.ln and localcontext",
+      "claims": "80-digit independent oracle interface",
+      "status": "opened_and_checked"
+    }
+  ],
+  "limits": [
+    "Source PDF screenshot attempt unavailable; did not claim source visual review",
+    "Online Python docs displayed 3.14.8; runtime tested separately at 3.12.14",
+    "MacKay 403 and empty/redirecting Euclid/PyTorch attempts not counted as verified sources",
+    "All authored final PDFs are separately rendered and reviewed"
+  ]
+}

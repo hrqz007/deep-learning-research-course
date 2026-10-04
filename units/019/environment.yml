@@ -1,0 +1,13 @@
+name: dl019
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab=4
+  - ipykernel=7
+  - nbformat=5
+  - matplotlib=3.10
+# Core experiment.py and test_experiment.py use Python stdlib only.
+# This is a suggested learner environment, not a fresh-install test record.
+# Figure rebuilding also needs an available Noto Sans CJK system font.
+# PDF build dependencies are documented in ../../shared/build-tools/README.md.

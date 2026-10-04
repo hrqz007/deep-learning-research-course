@@ -1,0 +1,104 @@
+{
+  "unit": "021",
+  "title": "指标拆分与可信评价",
+  "status": "author_verified_pending_independent_review",
+  "date": "2026-10-04",
+  "prerequisites": [
+    "005",
+    "018",
+    "020"
+  ],
+  "not_assumed": [
+    "gradient",
+    "optimization algorithm",
+    "neural-network framework"
+  ],
+  "pdf_pages": {
+    "lecture": 11,
+    "lab": 4,
+    "answers": 5
+  },
+  "original_figures": 8,
+  "core_dependencies": "Python standard library only",
+  "tests": {
+    "status": "passed",
+    "groups": 13,
+    "binary_paired_label_sequences": 1364,
+    "multiclass_paired_label_sequences": 819,
+    "bad_input_cases": 31,
+    "arithmetic_oracles": "Fraction rational arithmetic independent of production counters; hand confusion matrices, threshold costs, regression and calibration examples",
+    "zero_denominators_and_absent_classes": true,
+    "bin_boundaries_and_empty_bins": true,
+    "group_entity_time_checks": true,
+    "holdout_first_read_requires_written_plan": true,
+    "mutated_test_labels_and_scores_leave_frozen_plan_byte_identical": true,
+    "invalid_development_input_never_reads_holdout": true,
+    "data_and_output_symlink_isolation": true,
+    "fresh_script_runs": "Two independent subprocesses plus final audit run; all four outputs byte-identical; changed current directory",
+    "independent_review_fixes": "Constant floating targets recognized after validation; every nonzero squared/averaged residual checked; per-attempt staging freezes before holdout and preserves prior final outputs on input/calculation failure",
+    "new_regression_cases": "16 constant-target configurations,4underflow cases,invalid predictions;bad-holdout retry in existing/new output directories",
+    "fixed_figure_guard": "Checks original four data CSVs and four default output hashes before matplotlib import or figure writes; regression overwrites temporary default outputs with valid custom all-zero validation labels and confirms early rejection without altering figures"
+  },
+  "notebook": {
+    "status": "passed",
+    "code_cells": 12,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "kernel": "real ipykernel InProcessKernel",
+    "fresh_python_process": true,
+    "sequential_execution": true,
+    "four_result_files_byte_identical_to_script": true,
+    "nbformat_validation": "passed"
+  },
+  "pdf_review": {
+    "all_pages_rendered": true,
+    "all_final_pages_individually_visually_inspected": true,
+    "all_eight_figures_individually_visually_inspected": true,
+    "unchanged_pages_pixel_identical_after_final_rebuild": true,
+    "text_replacement_glyph_check": "passed",
+    "private_file_link_check": "passed",
+    "v2_changed_pages": "Lecture2 and lab2 individually reviewed;remaining pages pixel-identical to frozenv1;answers unchanged"
+  },
+  "figure_rebuild": "All 8 PNG files byte-identical across fresh plotting processes",
+  "sources": {
+    "actually_opened": 6,
+    "record": "source-checks.json",
+    "paper_scope": "publisher abstract and bibliography; no full-paper reproduction"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.10.8",
+    "weasyprint": "70.0",
+    "Markdown": "3.11",
+    "PyMuPDF": "1.26.6",
+    "Pillow": "12.3.0"
+  },
+  "limits": [
+    "Author verification is not independent QA or publication verification.",
+    "Fresh Anaconda installation, cross-platform installation, browser Jupyter UI and socket kernel transport not tested.",
+    "No real task performance, population calibration, significant group differences or GPU benchmarks are claimed.",
+    "Holdout file is readable; freeze logging is pedagogical and is not access control or external preregistration.",
+    "Two records per entity may be dependent; no confidence intervals inferred from row count.",
+    "Regression is a bounded floating-point teaching implementation; extreme values or square underflow are rejected.",
+    "Build emitted Fontconfig cache permissions and kernel network-interface discovery warnings; artifacts were actually generated and checked."
+  ],
+  "public_hygiene": {
+    "no_private_paths_or_credential_patterns_in_public_text": true,
+    "no_data_downloads_or_paid_APIs": true,
+    "only_original_synthetic_data": true
+  }
+}

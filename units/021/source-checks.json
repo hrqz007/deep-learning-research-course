@@ -1,0 +1,51 @@
+{
+  "checked_date": "2026-10-04",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+      "actually_opened": true,
+      "checked_scope": "definitions, labels, averaging, zero_division and Notes",
+      "kind": "official documentation"
+    },
+    {
+      "id": "S2",
+      "url": "https://scikit-learn.org/stable/modules/classification_threshold.html",
+      "actually_opened": true,
+      "checked_scope": "statistical scores, decisions, validation threshold selection",
+      "kind": "official documentation"
+    },
+    {
+      "id": "S3",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html",
+      "actually_opened": true,
+      "checked_scope": "negative R2, constant targets, force_finite, n<2",
+      "kind": "official documentation"
+    },
+    {
+      "id": "S4",
+      "url": "https://scikit-learn.org/stable/modules/calibration.html",
+      "actually_opened": true,
+      "checked_scope": "frequency interpretation, reliability diagram, Brier limitations",
+      "kind": "official documentation"
+    },
+    {
+      "id": "S5",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "actually_opened": true,
+      "checked_scope": "publisher landing page, abstract and bibliography only",
+      "kind": "primary research publisher abstract"
+    },
+    {
+      "id": "S6",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "actually_opened": true,
+      "checked_scope": "group and time-series split sections",
+      "kind": "official documentation"
+    }
+  ],
+  "limits": [
+    "No claim of full-paper PDF visual review or external experiment reproduction.",
+    "All course figures, synthetic examples and prose are original."
+  ]
+}

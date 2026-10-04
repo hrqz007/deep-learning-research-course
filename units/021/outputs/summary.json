@@ -1,0 +1,346 @@
+{
+  "audit": [
+    "read_train",
+    "read_validation",
+    "select_threshold_using_validation",
+    "write_frozen_plan",
+    "read_test_after_freeze"
+  ],
+  "baseline_test": {
+    "accuracy": 0.625,
+    "f1": 0.0,
+    "fn": 3,
+    "fp": 0,
+    "n": 8,
+    "precision": 0.0,
+    "predicted_positive": 0,
+    "recall": 0.0,
+    "support": 3,
+    "tn": 5,
+    "tp": 0,
+    "undefined": [
+      "precision"
+    ],
+    "zero_division": 0
+  },
+  "calibration": {
+    "bins": [
+      {
+        "absolute_gap": 0.1,
+        "left": 0.0,
+        "mean_probability": 0.1,
+        "n": 2,
+        "positive_frequency": 0.0,
+        "positives": 0,
+        "right": 0.25,
+        "right_closed": false
+      },
+      {
+        "absolute_gap": 0.15000000000000002,
+        "left": 0.25,
+        "mean_probability": 0.35,
+        "n": 2,
+        "positive_frequency": 0.5,
+        "positives": 1,
+        "right": 0.5,
+        "right_closed": false
+      },
+      {
+        "absolute_gap": 0.07499999999999996,
+        "left": 0.5,
+        "mean_probability": 0.575,
+        "n": 2,
+        "positive_frequency": 0.5,
+        "positives": 1,
+        "right": 0.75,
+        "right_closed": false
+      },
+      {
+        "absolute_gap": 0.125,
+        "left": 0.75,
+        "mean_probability": 0.875,
+        "n": 2,
+        "positive_frequency": 1.0,
+        "positives": 2,
+        "right": 1.0,
+        "right_closed": true
+      }
+    ],
+    "brier": 0.1925,
+    "ece": 0.11249999999999999,
+    "note": "Empirical positive-class bin gaps; not proof of population calibration."
+  },
+  "multiclass": {
+    "accuracy": 0.7692307692307693,
+    "labels": [
+      0,
+      1,
+      2
+    ],
+    "macro_f1": 0.6296296296296297,
+    "micro_f1": 0.7692307692307693,
+    "micro_precision": 0.7692307692307693,
+    "micro_recall": 0.7692307692307693,
+    "n": 13,
+    "per_class": [
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.8888888888888888,
+        "fn": 2,
+        "fp": 0,
+        "label": 0,
+        "n": 13,
+        "precision": 1.0,
+        "predicted_positive": 8,
+        "recall": 0.8,
+        "support": 10,
+        "tn": 3,
+        "tp": 8,
+        "undefined": [],
+        "zero_division": 0
+      },
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.5,
+        "fn": 1,
+        "fp": 1,
+        "label": 1,
+        "n": 13,
+        "precision": 0.5,
+        "predicted_positive": 2,
+        "recall": 0.5,
+        "support": 2,
+        "tn": 10,
+        "tp": 1,
+        "undefined": [],
+        "zero_division": 0
+      },
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.5,
+        "fn": 0,
+        "fp": 2,
+        "label": 2,
+        "n": 13,
+        "precision": 0.3333333333333333,
+        "predicted_positive": 3,
+        "recall": 1.0,
+        "support": 1,
+        "tn": 10,
+        "tp": 1,
+        "undefined": [],
+        "zero_division": 0
+      }
+    ],
+    "weighted_f1": 0.7991452991452992,
+    "zero_division": 0
+  },
+  "multiclass_with_absent_label": {
+    "accuracy": 0.7692307692307693,
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "macro_f1": 0.4722222222222222,
+    "micro_f1": 0.7692307692307693,
+    "micro_precision": 0.7692307692307693,
+    "micro_recall": 0.7692307692307693,
+    "n": 13,
+    "per_class": [
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.8888888888888888,
+        "fn": 2,
+        "fp": 0,
+        "label": 0,
+        "n": 13,
+        "precision": 1.0,
+        "predicted_positive": 8,
+        "recall": 0.8,
+        "support": 10,
+        "tn": 3,
+        "tp": 8,
+        "undefined": [],
+        "zero_division": 0
+      },
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.5,
+        "fn": 1,
+        "fp": 1,
+        "label": 1,
+        "n": 13,
+        "precision": 0.5,
+        "predicted_positive": 2,
+        "recall": 0.5,
+        "support": 2,
+        "tn": 10,
+        "tp": 1,
+        "undefined": [],
+        "zero_division": 0
+      },
+      {
+        "accuracy": 0.8461538461538461,
+        "f1": 0.5,
+        "fn": 0,
+        "fp": 2,
+        "label": 2,
+        "n": 13,
+        "precision": 0.3333333333333333,
+        "predicted_positive": 3,
+        "recall": 1.0,
+        "support": 1,
+        "tn": 10,
+        "tp": 1,
+        "undefined": [],
+        "zero_division": 0
+      },
+      {
+        "accuracy": 1.0,
+        "f1": 0.0,
+        "fn": 0,
+        "fp": 0,
+        "label": 3,
+        "n": 13,
+        "precision": 0.0,
+        "predicted_positive": 0,
+        "recall": 0.0,
+        "support": 0,
+        "tn": 13,
+        "tp": 0,
+        "undefined": [
+          "precision",
+          "recall",
+          "f1"
+        ],
+        "zero_division": 0
+      }
+    ],
+    "weighted_f1": 0.7991452991452992,
+    "zero_division": 0
+  },
+  "panel_entity_split": {
+    "entity_counts": [
+      1,
+      1,
+      1
+    ],
+    "entity_disjoint": true,
+    "row_counts": [
+      3,
+      3,
+      3
+    ],
+    "strict_time_order": false
+  },
+  "panel_time_split": {
+    "entity_counts": [
+      3,
+      3,
+      3
+    ],
+    "entity_disjoint": false,
+    "row_counts": [
+      3,
+      3,
+      3
+    ],
+    "strict_time_order": true
+  },
+  "partitions": {
+    "entity_counts": [
+      4,
+      4,
+      4
+    ],
+    "entity_disjoint": true,
+    "row_counts": [
+      8,
+      8,
+      8
+    ],
+    "strict_time_order": true
+  },
+  "regression": {
+    "bias": 0.0,
+    "mae": 1.0,
+    "mse": 1.5,
+    "n": 4,
+    "r2": 0.7,
+    "r2_undefined_reason": null,
+    "rmse": 1.224744871391589
+  },
+  "sampling_caution": "Repeated rows per entity are dependent; counts alone do not give confidence intervals.",
+  "test": {
+    "accuracy": 0.625,
+    "f1": 0.5714285714285714,
+    "fn": 1,
+    "fp": 2,
+    "mean_cost": 0.625,
+    "n": 8,
+    "precision": 0.5,
+    "predicted_positive": 4,
+    "recall": 0.6666666666666666,
+    "support": 3,
+    "tn": 3,
+    "tp": 2,
+    "undefined": [],
+    "zero_division": 0
+  },
+  "test_groups": {
+    "A": {
+      "accuracy": 0.5,
+      "f1": 0.6666666666666666,
+      "fn": 0,
+      "fp": 2,
+      "n": 4,
+      "precision": 0.5,
+      "predicted_positive": 4,
+      "recall": 1.0,
+      "support": 2,
+      "tn": 0,
+      "tp": 2,
+      "undefined": [],
+      "zero_division": 0
+    },
+    "B": {
+      "accuracy": 0.75,
+      "f1": 0.0,
+      "fn": 1,
+      "fp": 0,
+      "n": 4,
+      "precision": 0.0,
+      "predicted_positive": 0,
+      "recall": 0.0,
+      "support": 1,
+      "tn": 3,
+      "tp": 0,
+      "undefined": [
+        "precision"
+      ],
+      "zero_division": 0
+    }
+  },
+  "threshold": 0.4,
+  "unit": "021",
+  "validation": {
+    "accuracy": 0.75,
+    "f1": 0.75,
+    "fn": 0,
+    "fp": 2,
+    "mean_cost": 0.25,
+    "n": 8,
+    "precision": 0.6,
+    "predicted_positive": 5,
+    "recall": 1.0,
+    "support": 3,
+    "threshold": 0.4,
+    "tn": 3,
+    "total_cost": 2.0,
+    "tp": 3,
+    "undefined": [],
+    "zero_division": 0
+  }
+}

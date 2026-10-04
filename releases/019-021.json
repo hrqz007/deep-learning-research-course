@@ -1,0 +1,57 @@
+{
+  "release": "019-021",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "019",
+      "revision": "v2 support underflow and input/output validation",
+      "pages": {
+        "lecture": 11,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 14
+    },
+    {
+      "id": "020",
+      "revision": "v2 unobscured training-point figure",
+      "pages": {
+        "lecture": 9,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 14
+    },
+    {
+      "id": "021",
+      "revision": "v3 numeric underflow and frozen report guards",
+      "pages": {
+        "lecture": 11,
+        "lab": 4,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 12
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "019": "600 high-precision dyadic distribution pairs,5214 support pairs,500 exact code-length cases,200 exact smoothing cases,100 conditional decompositions; positive support underflow explicitly rejected and malformed inputs preserve outputs",
+    "020": "5120 exact weighted population/rule pairs,180 exhaustive fitted datasets,1620 exact uniform bounds,100 squared-loss bias/variance examples,all9600 trial rows independently reconstructed; held-out and population interventions preserve fitting choices",
+    "021": "1248 binary tables,480 multiclass cases,400 rational regression examples,400 calibration/threshold cases; constant-target and underflow rejection, validation-only plan before first holdout read, malformed-input and report guards verified"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Synthetic CPU examples do not establish real-world generalization, calibration or statistically significant group differences",
+    "Input/calculation validation precedes final output writes; not an atomic multi-file transaction under OS I/O failure"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

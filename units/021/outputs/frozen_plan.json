@@ -1,0 +1,45 @@
+{
+  "baseline_prediction": 0,
+  "calibration_edges": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "cost_false_negative": 3,
+  "cost_false_positive": 1,
+  "decision": "score >= threshold",
+  "development_sha256": {
+    "train.csv": "40d92057ae824d6abb07682ae7d6d82433751184ae7680912d876e7d093a04f0",
+    "validation.csv": "a7ae01ed086ad4fc9e50030c7603732d9f80a555ed3526c82f6d2d47913d46f8"
+  },
+  "group_field": "group",
+  "labels": [
+    0,
+    1
+  ],
+  "model": "score = sensor / 10; fixed before data inspection; no fitting",
+  "positive_label": 1,
+  "report": [
+    "counts",
+    "accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "mean_cost",
+    "by_group"
+  ],
+  "scope": "synthetic later records from held-out entities; descriptive results only",
+  "selection": "validation mean cost, then larger threshold",
+  "threshold": 0.4,
+  "threshold_grid": [
+    0.3,
+    0.4,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "unit": "021",
+  "zero_division": 0
+}

@@ -1,0 +1,96 @@
+{
+  "unit": "019",
+  "data_kind": "original synthetic finite distributions",
+  "log_unit": "nat",
+  "main": {
+    "entropy": 1.0397207708399179,
+    "cross_entropy": 1.2130075659799042,
+    "kl": 0.17328679513998632,
+    "reverse_kl": 0.17328679513998632,
+    "kl_terms": [
+      0.34657359027997264,
+      0.0,
+      -0.17328679513998632
+    ],
+    "entropy_bits": 1.5,
+    "cross_entropy_bits": 1.75,
+    "kl_bits": 0.25
+  },
+  "asymmetry": {
+    "forward": 0.13081203594113697,
+    "reverse": 0.14384103622589045
+  },
+  "empirical": {
+    "labels": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "p_hat": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "mean_nll": 1.2130075659799042,
+    "empirical_cross_entropy": 1.2130075659799042
+  },
+  "zeros": {
+    "forward": "Infinity",
+    "reverse": 0.6931471805599453,
+    "cross_entropy": "Infinity",
+    "common_zero_kl": 0.0
+  },
+  "smoothed": {
+    "alpha": 0.02,
+    "q": [
+      0.9866666666666667,
+      0.006666666666666667,
+      0.006666666666666667
+    ],
+    "cross_entropy": 2.512029157214198
+  },
+  "directional": [
+    {
+      "candidate": "broad",
+      "forward": 0.32128893843963136,
+      "reverse": 0.6809619717262487
+    },
+    {
+      "candidate": "left",
+      "forward": 1.237811159854801,
+      "reverse": 0.5816533152719076
+    },
+    {
+      "candidate": "right",
+      "forward": 1.237811159854801,
+      "reverse": 0.5816533152719076
+    }
+  ],
+  "best_candidates": {
+    "forward": [
+      "broad"
+    ],
+    "reverse": [
+      "left",
+      "right"
+    ]
+  },
+  "nll_examples": {
+    "q_true_0.6": 0.5108256237659907,
+    "q_true_0.99": 0.01005033585350145,
+    "wrong_q_true_0.01": 4.605170185988091
+  },
+  "rare_unseen": {
+    "p_rare": 0.001,
+    "n": 100,
+    "probability_no_rare": 0.9047921471137089,
+    "true_cross_entropy": "Infinity",
+    "observed_mean_nll_if_no_rare": 0.0
+  },
+  "numerics": {
+    "tiny_positive": 1e-300,
+    "finite_loss": 690.7755278982137,
+    "direct_ratio_example": 690.7755278982137
+  }
+}

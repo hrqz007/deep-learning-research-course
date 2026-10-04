@@ -1,0 +1,5 @@
+left,right,right_closed,n,positives,mean_probability,positive_frequency,absolute_gap
+0.0,0.25,False,2,0,0.1,0.0,0.1
+0.25,0.5,False,2,1,0.35,0.5,0.15000000000000002
+0.5,0.75,False,2,1,0.575,0.5,0.07499999999999996
+0.75,1.0,True,2,2,0.875,1.0,0.125

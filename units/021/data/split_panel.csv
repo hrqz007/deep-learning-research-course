@@ -1,0 +1,10 @@
+row_id,entity,time,group,sensor,y
+A1,A,1,panel,1,0
+A2,A,2,panel,2,0
+A3,A,3,panel,3,0
+B1,B,1,panel,1,0
+B2,B,2,panel,2,0
+B3,B,3,panel,3,0
+C1,C,1,panel,1,0
+C2,C,2,panel,2,0
+C3,C,3,panel,3,0

@@ -1,0 +1,5 @@
+{
+  "python": "3.12.14",
+  "core_dependencies": "Python standard library only",
+  "seed": 20261004
+}
