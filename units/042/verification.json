@@ -1,0 +1,153 @@
+{
+  "unit": "042",
+  "title": "可靠神经网络阶段项目",
+  "status": "author_ready_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "prerequisites": [
+    "040"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "experiments": {
+    "neural_fits": 12,
+    "updates": 4200,
+    "parameter_states": 4212,
+    "parameter_coordinates": 105300,
+    "neural_parameters_per_model": 25,
+    "row_presentations_per_mode": 470400,
+    "polynomial_fits": 4,
+    "linear_fits": 1,
+    "constant_fits": 1
+  },
+  "author_side_independent_numerics": {
+    "status": "author_independent_numeric_pass",
+    "all_training_runs": 12,
+    "updates_rebuilt": 4200,
+    "parameter_states_checked": 4212,
+    "parameter_coordinates_checked": 105300,
+    "max_parameter_error": 1.3322676295501878e-15,
+    "max_curve_field_error": 2.220446049250313e-16,
+    "final_seed_predictions_checked": 4728,
+    "max_prediction_error": 1.1102230246251565e-15,
+    "ridge_solutions_checked": 5,
+    "max_ridge_coefficient_error": 2.6645352591003757e-15,
+    "all_entity_metrics_recomputed": true,
+    "all_2000_bootstrap_means_exact": true,
+    "random_smooth_models": 8,
+    "all_parameter_coordinates": 200,
+    "max_numpy_autograd_gradient_error": 1.1102230246251565e-16,
+    "max_central_difference_error": 3.642930401781541e-11,
+    "two_round_sample_parameter_contributions": 42,
+    "max_fraction_autograd_error": 5.551115123125783e-17
+  },
+  "reproducibility": {
+    "six_outputs_normal_optimized_fresh_notebook_and_unrelated_cwd_exact": true,
+    "figures_rebuilt_exact": 15,
+    "CSV_fixtures_regenerated_exact": 3,
+    "lab_python_blocks_executed": 2,
+    "gzip_mtime": 0,
+    "gzip_stored_filename": "",
+    "trace_raw_sha256": "d2911c7a42e564537da895f7b1683979bb710dc2d066cdc8efe2b67ab32f7f44",
+    "trace_raw_bytes": 4741307,
+    "compressed_byte_identity_scope": "recorded runtime only"
+  },
+  "notebook": {
+    "total_cells": 26,
+    "executed_code_cells": 13,
+    "test_groups": 18,
+    "embedded_PNGs": 6,
+    "first_cell_guarded_files": 32,
+    "fresh_process_first_cell_failure_cases": 33,
+    "execution": "fresh Python process; new IPython InProcessKernel; sequential real execution",
+    "browser_UI_tested": false,
+    "socket_transport_tested": false
+  },
+  "failure_protection": {
+    "normal_optimized_unrelated_cwd_tests": 18,
+    "CLI_prewrite_cases": 16,
+    "figure_prewrite_cases": 22,
+    "full_calculation_then_serialization_failure_cases": 2,
+    "post_cast_float64_finiteness_checked": true,
+    "test_label_flip_training_and_selection_unchanged": true,
+    "per_file_atomic_replacement": true,
+    "whole_directory_transaction_claimed": false
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 15,
+      "sha256": "3f8efad53c1624ded218cdfd27338ae5d4b2618da3576560f4372acc56aeb615",
+      "bytes": 2174889,
+      "page_text_chars": [
+        701,
+        579,
+        611,
+        482,
+        646,
+        1022,
+        543,
+        605,
+        682,
+        411,
+        726,
+        459,
+        458,
+        697,
+        413
+      ]
+    },
+    "lab": {
+      "pages": 4,
+      "sha256": "908b8e2afdb2fa38fec84a843cacc5ac3e860736d903ef97695f48841955482f",
+      "bytes": 517241,
+      "page_text_chars": [
+        1139,
+        1322,
+        1299,
+        1206
+      ]
+    },
+    "answers": {
+      "pages": 4,
+      "sha256": "dd97fe6210695dba016281a8ea9c21d2857480e2772a86d7fa1dd21366c874a8",
+      "bytes": 601286,
+      "page_text_chars": [
+        631,
+        769,
+        854,
+        1111
+      ]
+    }
+  },
+  "visual_review": {
+    "every_final_PDF_page_individually_inspected": true,
+    "pages": 23,
+    "original_figures_individually_inspected": 15,
+    "actual_Notebook_PNGs_extracted_and_inspected": 6,
+    "long_parameter_vectors_replaced_by_readable_table": true,
+    "misleading_prespecified_error_plot_label_removed": true
+  },
+  "output_sha256": {
+    "final_evaluation.json": "18f0f26550b456ec29c7fa68a52e29ec602f4bb3c8f950160b1177db2b98617f",
+    "hand_chain.json": "745cdda30f60114ea2c395fecb5c5441f444336f7a28b36168d28dacfae038a4",
+    "identity_leakage.json": "1cfd06997dc74d6fc6116067a55616b4fa8c09c1da3f871053e9a6b1f33f87ff",
+    "results.json": "0c26b41bdea78fcaf002d770ce172ae99a10ec24d94554c07293614dd11f449b",
+    "training_curves.csv": "89b88dcce9a9cced94a044e1a9924deeabf7d073ce1b28c730e266ed394b5450",
+    "training_traces.json.gz": "d2c9e1439d065d41cb2a56df58daaad7d03365b68cef4262b00929bf653babd1"
+  },
+  "limitations": [
+    "Original finite synthetic repeated-measurement task, not real-world performance or universal weighting superiority.",
+    "Both MLP modes match candidates, paired seeds, parameters, update count and training row presentations; wall time was not measured or claimed equal.",
+    "Strong polynomial baseline outperforms both MLP ensembles; left-region regression is retained.",
+    "Validation selection averages seed losses while deployment averages predictions; no claim of direct ensemble-optimal selection.",
+    "Entity-paired bootstrap conditions on fixed training, selection and models; it does not include retraining, retuning or distribution change.",
+    "Identity leakage demonstration is a separate task with different test sets, not a paired causal MLP comparison.",
+    "Published test labels support reproducibility and are not a fresh blind leaderboard.",
+    "No new Anaconda solve, GPU or cross-platform bitwise guarantee.",
+    "Author readiness is separate from independent acceptance and verified remote publication."
+  ]
+}

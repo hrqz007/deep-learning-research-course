@@ -1252,7 +1252,16 @@
       "figure": "诊断决策树、损失曲线及误差分组。",
       "lab": "按预先计划调参，保留失败实验；用单变量和配对比较解释一次可重复改进。",
       "pitfall": "只报最好配置；把验证集反复使用导致的选择偏差忽略。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/040-042.json",
+      "artifacts": {
+        "lecture_pdf": "units/040/lecture.pdf",
+        "lab_pdf": "units/040/lab.pdf",
+        "answers_pdf": "units/040/answers.pdf",
+        "notebook": "units/040/experiment.ipynb",
+        "script": "units/040/experiment.py"
+      }
     },
     {
       "id": "041",
@@ -1266,7 +1275,16 @@
       "figure": "冻结到全量更新的参数与表示变化。",
       "lab": "在合法小数据上比较从零、冻结和微调，控制标签量与预算；诊断一次负迁移。",
       "pitfall": "把预训练数据泄漏当迁移优势；将全部参数都解冻视为默认最优。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/040-042.json",
+      "artifacts": {
+        "lecture_pdf": "units/041/lecture.pdf",
+        "lab_pdf": "units/041/lab.pdf",
+        "answers_pdf": "units/041/answers.pdf",
+        "notebook": "units/041/experiment.ipynb",
+        "script": "units/041/experiment.py"
+      }
     },
     {
       "id": "042",
@@ -1279,7 +1297,16 @@
       "figure": "端到端实验审计图与误差归因图。",
       "lab": "提交MLP研究包：手算、梯度测试、至少一个强基线、预算匹配比较、区间和失败案例。",
       "pitfall": "追求新颖名称却缺少正确性与基线；把复现练习包装成原创贡献。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/040-042.json",
+      "artifacts": {
+        "lecture_pdf": "units/042/lecture.pdf",
+        "lab_pdf": "units/042/lab.pdf",
+        "answers_pdf": "units/042/answers.pdf",
+        "notebook": "units/042/experiment.ipynb",
+        "script": "units/042/experiment.py"
+      }
     },
     {
       "id": "043",

@@ -1,0 +1,77 @@
+{
+  "unit": "042",
+  "question": "Does equal-entity training weighting improve equal-new-entity prediction risk compared with equal-row training weighting in this fixed synthetic repeated-measurement problem?",
+  "target": "uniformly sample a new entity, then uniformly sample one of its measurement rows",
+  "split": {
+    "unit": "entity",
+    "groups": {
+      "train": 40,
+      "validation": 32,
+      "test": 160
+    },
+    "seeds": {
+      "train": 4200,
+      "validation": 4201,
+      "test": 4202
+    }
+  },
+  "network": {
+    "input_dim": 2,
+    "width": 6,
+    "parameters": 25,
+    "activation": "tanh",
+    "output": "linear",
+    "l2_weights_only": 0.002
+  },
+  "objective_modes": [
+    "row",
+    "entity"
+  ],
+  "learning_rates": [
+    0.03,
+    0.1
+  ],
+  "seeds": [
+    4211,
+    4212,
+    4213
+  ],
+  "steps": 350,
+  "selection": "For each objective mode choose learning rate by mean final equal-entity validation half-MSE over all three seeds; first listed rate breaks exact ties. No early stopping. Final deployment averages three predictions.",
+  "normalization": "Both modes use the SAME training-only equal-entity feature mean and population standard deviation. No label standardization.",
+  "primary_contrast": "entity ensemble minus row ensemble, paired equal-test-entity half-MSE",
+  "strong_baseline": {
+    "features": "all monomials of total degree <=3 including intercept",
+    "ridge_lambdas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "penalty": "all coefficients except intercept",
+    "selection": "minimum equal-entity validation half-MSE, first listed lambda breaks exact ties",
+    "solver": "augmented weighted least squares; no matrix inverse"
+  },
+  "simple_baselines": [
+    "equal-entity constant",
+    "equal-entity linear ridge lambda=0.001"
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 4291,
+    "unit": "whole independent test entity",
+    "scope": "conditional on fixed training data, model-selection decisions and fitted ensembles; no retraining or retuning"
+  },
+  "diagnostics": {
+    "identity_leakage_seed": 4280,
+    "identity_leakage_entities": 80,
+    "identity_leakage_replicates": 4,
+    "identity_leakage_note": "Separate identity-only task, not a score for the main MLP problem; compare seen-entity held-out measurement and never-seen entity."
+  },
+  "limits": [
+    "Synthetic finite experiment; no universal benefit of entity weighting",
+    "MLP modes match candidates, seeds, architecture, updates and row presentations, not measured wall time",
+    "Classical baseline solver budgets are disclosed separately, not claimed equal to neural updates",
+    "Published test labels are for reproducibility, not a reusable blind leaderboard"
+  ]
+}

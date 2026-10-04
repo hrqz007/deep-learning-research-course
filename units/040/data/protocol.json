@@ -1,0 +1,192 @@
+{
+  "unit": "040",
+  "version": 1,
+  "seeds": [
+    4001,
+    4002,
+    4003
+  ],
+  "search": [
+    {
+      "width": 8,
+      "lr": 0.01,
+      "l2": 0.0,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr0-l20"
+    },
+    {
+      "width": 8,
+      "lr": 0.01,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr0-l21"
+    },
+    {
+      "width": 8,
+      "lr": 0.01,
+      "l2": 0.01,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr0-l22"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.0,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr1-l20"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr1-l21"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.01,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr1-l22"
+    },
+    {
+      "width": 8,
+      "lr": 0.2,
+      "l2": 0.0,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr2-l20"
+    },
+    {
+      "width": 8,
+      "lr": 0.2,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr2-l21"
+    },
+    {
+      "width": 8,
+      "lr": 0.2,
+      "l2": 0.01,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "lr2-l22"
+    }
+  ],
+  "baseline_id": "lr1-l21",
+  "selection": "minimum arithmetic mean final validation half-MSE across all 3 seeds; incomplete configurations excluded; ties by listed order",
+  "diagnostics": [
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "reference"
+    },
+    {
+      "width": 8,
+      "lr": 1e-05,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "slow"
+    },
+    {
+      "width": 8,
+      "lr": 10.0,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "unstable"
+    },
+    {
+      "width": 0,
+      "lr": 0.05,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "linear"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.001,
+      "input_scale": 1.0,
+      "label_mode": "permuted",
+      "budget": 180,
+      "id": "shuffled_labels"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 0.001,
+      "input_scale": 50.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "saturated_input"
+    },
+    {
+      "width": 8,
+      "lr": 0.05,
+      "l2": 1.0,
+      "input_scale": 1.0,
+      "label_mode": "intact",
+      "budget": 180,
+      "id": "strong_penalty"
+    }
+  ],
+  "tiny_probe": {
+    "width": 16,
+    "lr": 0.1,
+    "l2": 0.0,
+    "input_scale": 1.0,
+    "label_mode": "intact",
+    "budget": 800,
+    "id": "tiny_probe"
+  },
+  "overfit_probe": {
+    "width": 32,
+    "lr": 0.05,
+    "l2": 0.0,
+    "input_scale": 1.0,
+    "label_mode": "intact",
+    "budget": 2500,
+    "id": "overfit_probe"
+  },
+  "loss_limit": 1000000.0,
+  "test_policy": "Search and diagnosis functions accept training and validation only. Evaluate test after selecting one configuration; no post-test tuning.",
+  "deployment": "arithmetic mean predictions of 3 seed models for each configuration",
+  "primary_comparison": "selected ensemble test half-MSE minus baseline ensemble test half-MSE",
+  "bootstrap": {
+    "unit": "test row ID, paired",
+    "replicates": 2000,
+    "seed": 4091,
+    "percentiles": [
+      2.5,
+      97.5
+    ]
+  },
+  "budget_note": "main grid: 9 configurations x 3 seeds x 180 full-batch updates. Diagnostic probes have separate declared budgets. Steps are not equal wall time across widths.",
+  "plan_note": "This is a frozen reproducible teaching plan, not a claim of externally timestamped preregistration."
+}

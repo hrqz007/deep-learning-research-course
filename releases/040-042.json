@@ -1,0 +1,62 @@
+{
+  "release": "040-042",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "040",
+      "pages": {
+        "lecture": 14,
+        "lab": 5,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 14,
+      "original_figures": 13
+    },
+    {
+      "id": "041",
+      "pages": {
+        "lecture": 15,
+        "lab": 5,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 12,
+      "original_figures": 14
+    },
+    {
+      "id": "042",
+      "pages": {
+        "lecture": 15,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13,
+      "original_figures": 15
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "040": "All 51 training runs, 12206 accepted updates and 511130 parameter coordinates independently rebuilt; fixed-budget grid, failed trajectories, paired contrasts, selection/test separation and all 24 pages checked.",
+    "041": "All 24840 source/target updates and 252 target candidates retained; source pretraining, frozen features, fine-tuning, LPFT, strong references and negative-transfer boundaries checked.",
+    "042": "Entity-versus-row risk, full weighted hand chain, matched neural budgets, strong polynomial baseline, all training trajectories, test-entity paired interval and retained subgroup regression checked."
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process; PyTorch2.7.1+cpu, float64 CPU",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No GPU, mixed-precision, distributed or arbitrary-network guarantee",
+    "Finite synthetic examples do not prove real-world generalization or causal mechanisms",
+    "040 diagnostic counterexamples and stopped candidates retained; initialization seeds share one fixed dataset",
+    "041 finite synthetic transfer task and bottleneck-specific negative transfer do not establish universal pretraining benefits; source and target costs differ",
+    "042 test-entity bootstrap is conditional on fixed training, selection and models; polynomial baseline wins and left-region regression are retained; separate identity-memory task is not a paired MLP comparison",
+    "Notebook displays frozen figures; figure scripts were independently rebuilt and exact bytes compared",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

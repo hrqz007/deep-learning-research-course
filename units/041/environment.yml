@@ -1,0 +1,17 @@
+name: dl-unit-041
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - torch==2.7.1
+      - matplotlib==3.10.8
+      - nbformat==5.11.1
+      - ipykernel==7.4.0
+      - jupyterlab>=4,<5
+# Actual CPU author runtime: Python 3.12.14 and torch 2.7.1+cpu.
+# CPU wheels are available from the official PyTorch index.
+# Figures need a CJK font, for example official Noto Sans CJK.
+# No fresh Anaconda solve, GPU, browser UI or socket transport claim.

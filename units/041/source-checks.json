@@ -1,0 +1,35 @@
+{
+  "checked_date": "2026-10-04",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://proceedings.neurips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf",
+      "status": "official_source_opened_and_relevant_text_read",
+      "scope": "Official PDF abstract and sections1-2, pages1-3; not full paper",
+      "supports": "Transfer source/target and frozen/fine-tuned controls; specialization and co-adaptation"
+    },
+    {
+      "id": "S2",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/autograd.html",
+      "status": "official_source_opened_and_relevant_text_read",
+      "scope": "History and local gradient disabling sections, lines30-118; not all chapters",
+      "supports": "requires_grad, no_grad, eval and input gradient paths"
+    },
+    {
+      "id": "S3",
+      "url": "https://docs.pytorch.org/docs/2.7/optim.html",
+      "status": "official_source_opened_and_relevant_text_read",
+      "scope": "Construction, parameter options, steps and deterministic ordering, lines33-114",
+      "supports": "Actual SGD groups and group-specific learning rates"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.detach.html",
+      "status": "official_source_opened_and_relevant_text_read",
+      "scope": "Full short API body lines27-40, excluding navigation",
+      "supports": "detach graph separation and shared storage"
+    }
+  ],
+  "paper_full_text_read": false,
+  "original_math_and_figures": true
+}

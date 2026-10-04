@@ -1,0 +1,14 @@
+{
+  "schema": "unit041-figure-contract-v1",
+  "sha256": {
+    "data/source.csv": "8e378d24b4ae4fd84a02b7c4158d2e80ab75ce7b94e603e2fef679af285fe957",
+    "data/target_test.csv": "3fcd9ccd5089ad80135a611f270e2cee2c45706e45e089bc4899d16a230f2b54",
+    "data/target_train.csv": "9655201602ecbdb461ef62e6db8af22aa194cb76720595a38c20ad4ba4f1cfd6",
+    "data/target_validation.csv": "33c22da3ad65f6a3266dade462db9c9e8334826aa3975511170cdd5346bb0681",
+    "experiment.py": "d4d2d4221a0dab006d8c708f39901de91b2a1298d55173d7700dffb89be2c6f1",
+    "make_figures.py": "f11e39000961a01e1362dc739938f8aa328bdb5d4fc5eaf7514a5b9fe504f5f2",
+    "outputs/calculations.json": "f1ef487c65ece4b75ca1b54c6c28d7a1e669d96941b8ef5d905a93e08e3181be",
+    "outputs/results.json.gz": "3cbf0f1cd2023a856ae83f89bb41174a1e14dbe373825507a2d043cb39c9d28f",
+    "outputs/summary.json": "5acb98ec60981f4669ba795a511bb1b2420dad0d136cf73b9d492904f17ee36a"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "unit": "041",
+  "title": "迁移学习与适配",
+  "prerequisites": [
+    "036",
+    "040"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "AUTHOR_READY_NOT_INDEPENDENT_PASS",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "device": "cpu",
+    "dtype": "float64",
+    "torch_threads": 1,
+    "fresh_anaconda_solve_tested": false,
+    "gpu_tested": false
+  },
+  "scientific_checks": {
+    "unittest_groups": 11,
+    "fresh_normal_optimized_unrelated_cwd_passed": true,
+    "hand_parameter_points": 3,
+    "hand_samples": 2,
+    "all_five_parameter_per_sample_gradients_compared": true,
+    "hand_scalar_center_difference_coordinates": 15,
+    "hand_input_gradients_compared": true,
+    "independent_numpy_reconstructed_updates": 24840,
+    "all_108_ridge_candidate_stationarity_checks": true,
+    "all_252_split_metrics_recomputed": true,
+    "all_selected_predictions_recomputed_from_parameters": true,
+    "all_validation_selections_recomputed": true,
+    "all_28_summary_rows_recomputed": true,
+    "max_absolute_errors": {
+      "hand_fd_max_abs": 3.160016692760337e-11,
+      "independently_reconstructed_updates": 24840,
+      "ridge_stationarity_max_abs": 2.2567837626875226e-16,
+      "training_mse_max_abs": 3.469446951953614e-16,
+      "training_theta_max_abs": 9.992007221626409e-16
+    },
+    "freeze_detach_no_grad_eval_actual_autograd_checks": true,
+    "frozen_batchnorm_running_mean_train_eval_actual_checks": true
+  },
+  "experiments": {
+    "source_training_runs": 3,
+    "source_steps_each": 600,
+    "source_n": 512,
+    "source_sample_presentations": 921600,
+    "target_tasks": [
+      "related",
+      "orthogonal"
+    ],
+    "target_train_sizes": [
+      16,
+      64
+    ],
+    "target_validation_n": 128,
+    "target_test_n": 512,
+    "paired_initialization_seeds": [
+      11,
+      23,
+      37
+    ],
+    "target_groups": 12,
+    "methods": 7,
+    "target_candidates": 252,
+    "target_neural_candidates": 144,
+    "target_neural_steps_each": 160,
+    "target_neural_updates": 23040,
+    "target_neural_sample_presentations": 921600,
+    "target_ridge_solves": 108,
+    "additional_lpft_initialization_solves": 36,
+    "source_history_rows": 1803,
+    "target_neural_history_rows": 23184,
+    "selected_test_predictions": 43008,
+    "all_candidate_final_validation_predictions_saved": true,
+    "all_prespecified_candidates_retained": true,
+    "same_data_across_initialization_seeds": true,
+    "rbf_repeated_results_not_independent_replications": true,
+    "target_label_budget_includes_128_validation_labels": true,
+    "per_method_candidate_count_is_per_task_n_and_seed": 3,
+    "target_test_label_parse_after_all_147_neural_fits_and_144_ridge_solves_verified_live": true,
+    "test_boundary_is_code_order_not_access_control": true,
+    "source_and_target_cost_separate_not_end_to_end_equal_budget": true
+  },
+  "negative_transfer": {
+    "scope": "Same five-parameter architecture and target training data, three paired initializations, three candidate rates,160 full-batch updates per candidate",
+    "case": "orthogonal target n64 finetune_small vs scratch",
+    "mean_scratch_test_mse": 0.00765,
+    "mean_small_finetune_test_mse": 0.59977,
+    "mean_equal_finetune_test_mse": 0.0068,
+    "all_three_small_finetune_paired_deltas_positive": true,
+    "equal_rate_finetuning_recovery_kept": true,
+    "no_general_failure_claim_for_pretraining_or_finetuning": true,
+    "domain_task_distinction": "Source to target changes input marginal; related vs orthogonal share target inputs and change label rule"
+  },
+  "reproducibility": {
+    "three_numerical_outputs_byte_equal_in_fresh_normal_optimized_unrelated_and_notebook_runs": true,
+    "all_14_figures_byte_equal_on_rebuild": true,
+    "four_data_fixtures_regenerated_identically": true,
+    "gzip_contract": {
+      "filename": "results.json.gz",
+      "gzip": {
+        "filename": "",
+        "level": 9,
+        "mtime": 0
+      },
+      "packed_bytes": 3292034,
+      "packed_sha256": "3cbf0f1cd2023a856ae83f89bb41174a1e14dbe373825507a2d043cb39c9d28f",
+      "raw_bytes": 8989849,
+      "raw_sha256": "3dcffe766baaf1cd21f7117170f680bd5b96505df81fb0b42ff5f4fa1a9fd7b4"
+    },
+    "no_samples_or_trajectories_removed_for_size": true
+  },
+  "failure_protection": {
+    "configuration_validated_before_training_and_output_writes": true,
+    "all_fixture_hashes_validated_before_training": true,
+    "all_numerical_outputs_computed_and_serialized_before_output_writes": true,
+    "live_late_serialization_failure_preserves_existing_sentinel": true,
+    "invalid_cli_steps_rejected_under_optimization": [
+      "0",
+      "-1",
+      "2001",
+      "abc",
+      "1.5"
+    ],
+    "invalid_numeric_shape_boolean_string_nan_infinite_cases_tested": true,
+    "figure_code_data_result_integrity_guard_before_output_writes": true,
+    "figure_corrupt_or_missing_classes": 4,
+    "notebook_first_cell_guard_before_experiment_import": true,
+    "notebook_corrupt_or_missing_classes": 4,
+    "explicit_unittest_checks_no_bare_assert": true,
+    "per_file_atomic_replace": true,
+    "cross_file_crash_transaction_claimed": false,
+    "integrity_guards_are_not_adversarial_security": true
+  },
+  "notebook": {
+    "total_cells": 24,
+    "code_cells": 12,
+    "fresh_process_and_fresh_inprocess_kernel": true,
+    "all_old_outputs_cleared_before_execution": true,
+    "actual_execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "errors": 0,
+    "embedded_png_outputs": 4,
+    "all_embedded_images_viewed_and_match_original_bytes": true,
+    "integrity_files": 26,
+    "unit_repository_parent_and_environment_location_behavior": "Unit, repository and explicit environment accepted; unknown location rejected. Parent-folder locator is supplied in code.",
+    "socket_transport_tested": false,
+    "browser_ui_tested": false,
+    "runtime_warning": "Jupyter local-interface discovery was not permitted; InProcessKernel completed. No traceback appears in notebook outputs."
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 15,
+      "sha256": "a4d86455ebd8f448646dc131473e1a765bd0438c76278bcba803f992330b2d43",
+      "bytes": 1988501,
+      "page_text_chars": [
+        781,
+        733,
+        676,
+        394,
+        426,
+        863,
+        845,
+        750,
+        1048,
+        692,
+        535,
+        373,
+        280,
+        1164,
+        206
+      ]
+    },
+    "lab": {
+      "pages": 5,
+      "sha256": "61cfebeffe70533e5b03e7823fe1c902a31d235d00ab0de21c14ad9314438b4a",
+      "bytes": 477119,
+      "page_text_chars": [
+        1129,
+        1239,
+        1047,
+        1056,
+        295
+      ]
+    },
+    "answers": {
+      "pages": 4,
+      "sha256": "e3b17df9a5be9261f67f37e91608ec7e1e1207e5ba0b40100ecf7004e0cc86a9",
+      "bytes": 567617,
+      "page_text_chars": [
+        755,
+        829,
+        995,
+        1018
+      ]
+    }
+  },
+  "visual_review": {
+    "all_final_24_pages_individually_viewed": true,
+    "lecture_pages": 15,
+    "lab_pages": 5,
+    "answers_pages": 4,
+    "render_long_edge_pixels": 1200,
+    "all_14_original_figures_individually_viewed": true,
+    "all_4_notebook_embedded_images_individually_viewed": true,
+    "updated_pages_rerendered_and_rechecked": true,
+    "font_missing_glyph_warnings_in_final_figure_build": 0,
+    "final_pdf_build_stderr_bytes": 0,
+    "no_clipped_text_missing_glyphs_or_overlaid_data_found": true,
+    "pdf_operation_marker_successful_once_before_first_build": true,
+    "tables_continuing_pages_repeat_headers": true
+  },
+  "sources": {
+    "file": "sources.md",
+    "checks": "source-checks.json",
+    "official_paper_sections_read": "Yosinski2014 abstract and sections1-2, not full paper",
+    "official_pytorch_version": "2.7",
+    "short_detach_api_full_body_read": true
+  },
+  "public_text_scan": "No private workspace paths, credentials, accounts or caches in deliverable text. Figure source refers only to public system font locations.",
+  "limitations": [
+    "Author readiness only; independent QA and publication are pending.",
+    "Two-dimensional synthetic regression with five neural parameters; target teacher belongs to model class. Not a real-task performance claim.",
+    "One fixed data split, three paired initialization seeds; no dataset-resampling confidence intervals or significance claim.",
+    "Target neural arms share update/sample budgets, while closed-form ridge arms use different computation; source pretraining and LPFT initialization cost reported separately.",
+    "128 target validation labels accompany16/64 training labels; no free-validation-label claim.",
+    "Pretraining uses source training data only; no independent source evaluation and no forgetting claim.",
+    "Small-rate adaptation failure is specific to this task, grid and160-step budget; equal-rate fine-tuning recovery is retained.",
+    "No fresh Anaconda solve, GPU execution, Jupyter browser UI, or socket-transport test.",
+    "No remote publication performed by author."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "unit": "040",
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://jmlr.org/papers/volume11/cawley10a/cawley10a.pdf",
+      "checked": "Full text: introduction; sections4/4.1; section5.3.",
+      "status": "read"
+    },
+    {
+      "id": "S2",
+      "url": "https://jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf",
+      "checked": "Full text: PDF pages3–4 effective dimensionality; section4.",
+      "status": "read"
+    },
+    {
+      "id": "S3",
+      "url": "https://arxiv.org/html/1206.5533v2",
+      "checked": "Author HTML, section3 log ranges and section4.1 debugging.",
+      "status": "read"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.SGD.html",
+      "checked": "Algorithm and weight_decay semantics; explicit no-momentum update independently checked.",
+      "status": "read"
+    },
+    {
+      "id": "S5",
+      "url": "https://docs.python.org/3.12/library/gzip.html",
+      "checked": "GzipFile filename, fileobj, mtime and text reading; local deterministic compression tests.",
+      "status": "read"
+    }
+  ],
+  "limits": [
+    "No paper benchmark replication claimed",
+    "No copied external figures",
+    "Synthetic experiments and derivations are original"
+  ]
+}

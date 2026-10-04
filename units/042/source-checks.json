@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "Cawley and Talbot 2010",
+      "url": "https://jmlr.org/papers/v11/cawley10a.html",
+      "check": "primary journal abstract checked: model-selection criterion variance and selection overfitting",
+      "status": "primary_or_official_source_read"
+    },
+    {
+      "title": "scikit-learn grouped cross-validation",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data",
+      "check": "official grouped-data section checked: group exclusivity and unseen groups",
+      "status": "primary_or_official_source_read"
+    },
+    {
+      "title": "PyTorch 2.7 Gradcheck mechanics",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/gradcheck.html",
+      "check": "official mechanics page checked: analytic and numerical derivatives",
+      "status": "primary_or_official_source_read"
+    },
+    {
+      "title": "PyTorch 2.7 Reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "check": "official versioned page checked: no cross-release/platform exact guarantee",
+      "status": "primary_or_official_source_read"
+    },
+    {
+      "title": "NumPy 2.3 lstsq",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.lstsq.html",
+      "check": "official versioned least-squares interface checked",
+      "status": "primary_or_official_source_read"
+    }
+  ],
+  "independent_content": "All figures, synthetic data, derivations and teaching text original; sources do not establish the empirical result of this toy experiment."
+}

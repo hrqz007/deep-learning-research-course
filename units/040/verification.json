@@ -1,0 +1,156 @@
+{
+  "unit": "040",
+  "title": "训练诊断与调参实验",
+  "status": "author_ready_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "prerequisites": [
+    "022",
+    "031",
+    "034",
+    "037",
+    "039"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "experiments": {
+    "runs": 51,
+    "accepted_updates": 12206,
+    "curve_rows": 12257,
+    "completed_runs": 48,
+    "stopped_runs": 3
+  },
+  "main_search": {
+    "configurations": 9,
+    "paired_seeds": 3,
+    "updates_each": 180,
+    "total_updates": 4860,
+    "same_fixed_training_data_across_seeds": true,
+    "selected_id": "lr2-l20",
+    "baseline_id": "lr1-l21",
+    "twelve_systematic_single_factor_contrasts_recomputed": true
+  },
+  "author_side_independent_numerics": {
+    "author_side_independent_check": true,
+    "runs_rebuilt": 51,
+    "training_updates_rebuilt": 12206,
+    "parameter_update_coordinates": 511130,
+    "max_parameter_abs_error": 9.094947017729282e-13,
+    "max_logged_metric_abs_error": 2.9103830456733704e-11,
+    "hand_sample_coordinates": 28,
+    "max_hand_abs_error": 1.6653345369377348e-16,
+    "random_models": 30,
+    "random_gradient_coordinates": 340,
+    "max_gradient_abs_error": 2.220446049250313e-16,
+    "max_central_difference_error": 2.817445166058974e-10,
+    "final_seed_prediction_coordinates": 3072,
+    "bootstrap_replicates_rebuilt": 2000
+  },
+  "reproducibility": {
+    "six_outputs_normal_optimized_notebook_exact": true,
+    "thirteen_figures_rebuilt_exact": true,
+    "three_CSV_fixtures_regenerated_exact": true,
+    "lab_python_blocks_executed": 2,
+    "gzip_mtime": 0,
+    "gzip_stored_filename": "",
+    "trace_uncompressed_sha256": "7690bdadca589314f844b71c67b074d0431fc3137876f8a2741139dddc9e45ed",
+    "compressed_byte_identity_scope": "recorded runtime only"
+  },
+  "notebook": {
+    "total_cells": 28,
+    "executed_code_cells": 14,
+    "test_groups": 23,
+    "embedded_PNGs": 6,
+    "first_cell_guarded_files": 30,
+    "fresh_process_first_cell_failure_cases": 31,
+    "execution": "fresh Python process; fresh InProcessKernel; cleared outputs; sequential actual execution",
+    "browser_UI_tested": false,
+    "socket_transport_tested": false
+  },
+  "failure_protection": {
+    "normal_optimized_unrelated_cwd_tests": 23,
+    "figure_prewrite_cases": 24,
+    "CLI_prewrite_cases": 8,
+    "calculation_serialization_failures_prewrite": 2,
+    "per_file_atomic_replacement": true,
+    "whole_directory_transaction_claimed": false
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 14,
+      "sha256": "c38432b4d2b2ffe1bb32e463331af91eebb85233212aca02d401ccba9f78fb0b",
+      "bytes": 2345109,
+      "page_text_chars": [
+        539,
+        568,
+        582,
+        644,
+        969,
+        588,
+        395,
+        812,
+        641,
+        662,
+        727,
+        501,
+        386,
+        658
+      ]
+    },
+    "lab": {
+      "pages": 5,
+      "sha256": "4d3bac8d262ad7e9466eb7b7ce568042b65c74710d7b13fc5679ab7173deee5d",
+      "bytes": 737780,
+      "page_text_chars": [
+        788,
+        998,
+        973,
+        909,
+        988
+      ]
+    },
+    "answers": {
+      "pages": 5,
+      "sha256": "674b4a96b05eb07de6226f1b3b23b203dcc12b911554ff82f07028c19beebd50",
+      "bytes": 603404,
+      "page_text_chars": [
+        502,
+        554,
+        1090,
+        849,
+        782
+      ]
+    }
+  },
+  "visual_review": {
+    "every_final_PDF_page_individually_inspected": true,
+    "pages": 24,
+    "original_figures": 13,
+    "notebook_PNGs": 6,
+    "table_split_and_long_inline_equation_overlap_resolved": true,
+    "artifact_marker_successful_once_for_three_PDFs": true,
+    "caption_revision": "Figure 4 shows 18 runs; other 3 input-scale runs shown in Figure 5; only page 6 changed and was re-inspected; other 13 lecture pages pixel-identical."
+  },
+  "output_sha256": {
+    "final_evaluation.json": "f08c78e5afa55b00d325d4d4b4735ef5f17fde3b94bfb7c0c494f950055f1a3c",
+    "hand_chain.json": "37333bdf448070c490093454eb0e3170e9d8c75c0ff24a770d6171f577271cf5",
+    "results.json": "ae135c68f6abf5e1b481d1008e2418c4cab4f406be91a5e27ba70947061ed8cf",
+    "selection_simulation.json": "2243d8bbc8ff90bd268908e6645ca60c656cffe8c7144cb2cb6b2e8fea4d91fa",
+    "training_curves.csv": "65b474a3a4d6b9f36f248b694acc631e86099562e8ed048e24e48d3080872a0b",
+    "training_traces.json.gz": "de2fd923e36ee9bad0bee347feeb4cad63514adfc5db4aae953504f858eed636"
+  },
+  "limitations": [
+    "Synthetic one-dimensional regression; not real-world, large-model or GPU evidence.",
+    "Initialization seeds do not represent independent training datasets.",
+    "Conditional test-row bootstrap does not include retraining, retuning or distribution shift.",
+    "Diagnostics include retained counterexamples and are not universal causal classifiers.",
+    "Selection averages individual seed validation losses; deployment averages predictions, so the chosen configuration is not asserted to minimize ensemble validation risk.",
+    "Finite search has a fixed computational budget; rejected candidate and evaluation forward passes are not counted as accepted-update sample presentations.",
+    "No new Anaconda solve or cross-platform bitwise reproducibility claim.",
+    "Author readiness is separate from independent acceptance and verified remote publication."
+  ]
+}
