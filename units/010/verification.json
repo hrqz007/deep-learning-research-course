@@ -1,0 +1,69 @@
+{
+  "unit": "010",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Recorded separately in course release record; this file records author checks only.",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "core_dependencies": "standard library",
+    "notebook": "ipykernel 7.4.0, nbformat 5.11.1"
+  },
+  "checks": {
+    "script": "Fresh process passed; repeated complete runs and script/Notebook four output files byte-identical",
+    "notebook": "7 code cells sequentially executed in a fresh process using real IPython InProcessKernel",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "exact square and cube difference expansions",
+        "smooth derivative comparisons and 70-digit Decimal exponential reference",
+        "cusp counterexample distinguishes a difference formula from a derivative",
+        "step positivity, resolvability, denominator, domain and correctly classified overflow checks",
+        "independent Fraction rectangle sums, trapezoids and oriented bounds",
+        "panel-count failures and signed versus absolute area",
+        "exact parameter-step arithmetic and finite-step overshoot",
+        "complete repeated run is byte-identical"
+      ]
+    },
+    "visual": "Final 10 lecture, 3 lab and 2 answer pages individually inspected across revisions. Lecture pages3-10 and lab2-3 re-inspected in v4; lecture1-2, lab1 and answers1-2 remain byte-identical to previously inspected final images. All8 figures unchanged. Exercise and references placed together on last lecture page, avoiding an isolated references-only page.",
+    "numerical_reference": "Exact square/cube difference expansions; 70-digit Decimal exponential at the actual binary input; independent Fraction rectangle sums for six subdivisions; exact Fraction parameter-step calculations.",
+    "numeric_range_regression": "central_difference(lambda t: 1e-308*t, 0.0, 1e308) now rejects overflow of 2*h before evaluating either callback; regression verifies zero callback invocations.",
+    "mathematical_revision": "Shows multiplication by h before telescoping; states basic finite limit operations and their hypotheses, pointwise continuity and interval notation; assumes f continuous on [a,b] and a<x<b for FTC-I in lecture and answers; explicitly cites FTC-II as standard theorem.",
+    "failure_record_regression": "A copied configuration with difference_steps [1000.0,1e-17] produces distinct numeric_range_error and unresolvable_input_step states and empty numeric fields; overflow is not mislabeled as an indistinguishable step."
+  },
+  "pages": {
+    "lecture": 10,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_values": {
+    "square_derivative_at_2": 4,
+    "cusp_left_quotient": -1,
+    "cusp_right_quotient": 1,
+    "cusp_central_difference": 0,
+    "cusp_two_sided_derivative": "undefined",
+    "linear_integral_0_to_2": 4,
+    "square_integral_0_to_2": "8/3",
+    "four_panel_square_midpoint": 2.625,
+    "four_panel_square_trapezoid": 2.75,
+    "parameter_steps": [
+      0.1,
+      0.5,
+      1,
+      1.1
+    ],
+    "new_losses": [
+      5.76,
+      0,
+      9,
+      12.96
+    ]
+  },
+  "limitations": [
+    "No browser Jupyter UI or out-of-process kernel transport tested",
+    "No fresh cross-platform installation test",
+    "Finite differences and finite quadrature do not prove differentiability, limits or integration theorems",
+    "Moderate finite scalar examples; not a general stable solver for extreme ranges or singular integrals"
+  ],
+  "revision": "v4 explicit limit and FTC hypotheses; denominator and distinct numeric-failure guards"
+}

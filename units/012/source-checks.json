@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened official primary-source pages and checked relevant content",
+  "sources": [
+    {
+      "title": "OpenStax Calculus Volume 3 4.5",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-5-the-chain-rule",
+      "checked_scope": "Differentiability conditions and coordinate chain rule",
+      "status": "read"
+    },
+    {
+      "title": "JAX Forward and reverse mode",
+      "url": "https://docs.jax.dev/en/latest/jacobian-vector-products.html",
+      "checked_scope": "JVP and VJP definitions; full Jacobian versus products",
+      "status": "read"
+    },
+    {
+      "title": "PyTorch autograd tutorial",
+      "url": "https://docs.pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html",
+      "checked_scope": "Vector Jacobian products and graph accumulation",
+      "status": "read"
+    },
+    {
+      "title": "NumPy 2.3 sum",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.sum.html",
+      "checked_scope": "axis and keepdims",
+      "status": "read"
+    },
+    {
+      "title": "NumPy broadcasting",
+      "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+      "checked_scope": "trailing-axis compatibility and sharing semantics",
+      "status": "read"
+    },
+    {
+      "title": "NumPy matmul",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.matmul.html",
+      "checked_scope": "two-dimensional matrix product and 1D axis removal",
+      "status": "read"
+    }
+  ],
+  "originality": "Explanations, two-layer network, calculations, figures and code independently authored; no source figures copied"
+}

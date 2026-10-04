@@ -1,0 +1,128 @@
+{
+  "forward": {
+    "x": 2.0,
+    "y": 3.0,
+    "a": 6.0,
+    "z": 8.0,
+    "loss": 64.0
+  },
+  "gradient_row": [
+    [
+      64.0,
+      32.0
+    ]
+  ],
+  "gradient_shape": [
+    1,
+    2
+  ],
+  "path_contributions": {
+    "x_via_a": 48.0,
+    "x_direct": 16.0,
+    "x_total": 64.0,
+    "y_total": 32.0
+  },
+  "direction_3_4_unit_rate": 64.0,
+  "velocity_3_4_rate": 320.0,
+  "tangent_rate": 0.0,
+  "curve_at_t2_rate": 96.0,
+  "linear_checks": [
+    {
+      "delta": [
+        [
+          0.1,
+          0.2
+        ]
+      ],
+      "linear_change": 12.8,
+      "predicted_loss": 76.8,
+      "actual_loss": 77.7924,
+      "remainder": 0.9924000000000035
+    },
+    {
+      "delta": [
+        [
+          0.01,
+          0.02
+        ]
+      ],
+      "linear_change": 1.28,
+      "predicted_loss": 65.28,
+      "actual_loss": 65.28963203999999,
+      "remainder": 0.009632039999985409
+    },
+    {
+      "delta": [
+        [
+          0.001,
+          0.002
+        ]
+      ],
+      "linear_change": 0.128,
+      "predicted_loss": 64.128,
+      "actual_loss": 64.128096032004,
+      "remainder": 9.60320039951057e-05
+    }
+  ],
+  "steps": [
+    {
+      "eta": 0.001,
+      "new_point": [
+        [
+          1.936,
+          2.968
+        ]
+      ],
+      "old_loss": 64.0,
+      "new_loss": 59.013861474304,
+      "linear_predicted_change": -5.12
+    },
+    {
+      "eta": 0.01,
+      "new_point": [
+        [
+          1.3599999999999999,
+          2.68
+        ]
+      ],
+      "old_loss": 64.0,
+      "new_loss": 25.048023039999993,
+      "linear_predicted_change": -51.2
+    },
+    {
+      "eta": 0.1,
+      "new_point": [
+        [
+          -4.4,
+          -0.20000000000000018
+        ]
+      ],
+      "old_loss": 64.0,
+      "new_loss": 12.390399999999998,
+      "linear_predicted_change": -512.0
+    },
+    {
+      "eta": 0.5,
+      "new_point": [
+        [
+          -30.0,
+          -13.0
+        ]
+      ],
+      "old_loss": 64.0,
+      "new_loss": 129600.0,
+      "linear_predicted_change": -2560.0
+    }
+  ],
+  "counterexample": {
+    "central_partials_at_origin": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "diagonal_right_quotient": 0.7071067811865476,
+    "diagonal_left_quotient": -0.7071067811865476,
+    "differentiable_at_origin": false
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "unit": "011",
+  "title": "偏导梯度与链式法则",
+  "prerequisites": [
+    "009",
+    "010"
+  ],
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Course-level independent review and publication managed separately; no publication performed by unit author.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1"
+  },
+  "pages": {
+    "lecture": 12,
+    "lab": 4,
+    "answers": 5
+  },
+  "figures": 9,
+  "lecture_exercises": 12,
+  "lab_tasks": "A-I",
+  "checks": {
+    "script": "passed in fresh Python process",
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.528,
+      "code_cells": 13,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "test_script": {
+      "status": "passed",
+      "groups": 9,
+      "test_groups": [
+        "fixed hand calculations and shared-variable path accumulation",
+        "81 independent rational expanded-polynomial loss, gradient and central differences",
+        "curve central-error identity and 80-digit Decimal oracle",
+        "unit direction versus velocity and orthogonal tangent",
+        "exact local remainder and finite negative-gradient overshoot",
+        "partial existence cannot establish differentiability",
+        "32 shape, type, finite-value, step, norm and overflow rejections; no input mutation",
+        "full repeated run is byte-identical; altered fixed-report point rejected before writing",
+        "all 6 Python document snippets execute in order"
+      ],
+      "rational_fixtures": 81,
+      "rejected_cases": 32,
+      "python_snippets": 6
+    },
+    "document_snippets": {
+      "python": 6,
+      "status": "all executed in sequence against local core code",
+      "bash": "Core script, tests and figure builder commands all actually run with local dependencies"
+    },
+    "cross_run": "results.json, difference_scan.csv and environment.json byte-identical between script and notebook",
+    "visual": "All individual page PNGs rendered by pdftoppm at 1500 px page height and opened at original image resolution; no contact-sheet-only acceptance. Final changed lab page2 and answers page3 separately re-inspected after Boolean test-count correction; all other final render hashes unchanged from inspected files. Coordinator v2: all 4 revised lab and 5 revised answers pages rendered and individually viewed; 12 lecture pages unchanged from reviewed v1.",
+    "pdf_structural": "All pages nonempty; no replacement characters, equation placeholders or out-of-bounds text blocks",
+    "sources": "6 primary source pages read and checked; plus stable NumPy entry pages",
+    "boolean_regression": "Original containers reject boolean scalars and boolean ndarray leaves before NumPy promotion; existing numeric ndarray history cannot be recovered.",
+    "qa_repairs": [
+      "Intermediate hypot overflow rejects before division",
+      "Nested zero-dimensional boolean ndarray rejected",
+      "Loss and scalar partial derivative correctly identified as same scalar shape",
+      "Fixed teaching run rejects point other than [[2,3]] before output writing; modified-copy regression passes"
+    ]
+  },
+  "expected_results": {
+    "loss": 64,
+    "gradient_row": [
+      [
+        64,
+        32
+      ]
+    ],
+    "x_paths": [
+      48,
+      16
+    ],
+    "curve_derivative_at_t2": 96,
+    "unit_direction_rate": 64,
+    "nonunit_velocity_rate": 320,
+    "large_step_eta": 0.5,
+    "large_step_loss": 129600
+  },
+  "limitations": [
+    "No fresh Anaconda or cross-platform installation test",
+    "No browser Jupyter UI or out-of-process socket transport tested",
+    "CPU float64, scalar loss and fixed shape (1,2) finite real input only",
+    "Synthetic mathematical examples; no training, accuracy, speed or general optimization convergence claim",
+    "The fixed report requires point [[2,3]]; general core functions remain configurable",
+    "Counterexample calculation rejects intermediate norm overflow even if a different stable algorithm could represent the final result"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "89f10b207e571740e14f131f7fbe4bd4fe32b085a3b083274d514a69dddc7708",
+    "lab.pdf": "76d4cd8f878153377416ce17add940ba3f43dcd9ac167301ca0ad6129f03aeeb",
+    "answers.pdf": "50d4cd511082d0bf43f863d51788248067e394aba9679ccddc13a7e560d62cf2",
+    "experiment.ipynb": "734824d15e9332c4925f4b18186df4574fd460f2a3faffa121831ea8aacf028f",
+    "experiment.py": "93dfc587139d07f1cfa452277f9878cfa1c4a4e40122ce943e135cb6932ef60a",
+    "test_experiment.py": "e0978ce7e65760fd1314e57a025909120ae275ddb6bcaa25b98e1eb0386ef1c1",
+    "make_figures.py": "80cbe103bb3155883aaf83f203dcce67a4d1a72bed9439ea49a0f16cc16a3fcd",
+    "data/experiment_config.json": "025d2320e16d54b32d98aaa5d2fae2625ba462fdfb8c7180a667fbdf15837f99"
+  }
+}

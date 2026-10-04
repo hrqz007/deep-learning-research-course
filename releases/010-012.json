@@ -1,0 +1,56 @@
+{
+  "release": "010-012",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "010",
+      "revision": "v4 with finite difference and calculus condition corrections",
+      "pages": {
+        "lecture": 10,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 7
+    },
+    {
+      "id": "011",
+      "revision": "v2 with range type and fixed teaching report checks",
+      "pages": {
+        "lecture": 12,
+        "lab": 4,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 13
+    },
+    {
+      "id": "012",
+      "revision": "v2 with distinct correct-result shape wording",
+      "pages": {
+        "lecture": 10,
+        "lab": 4,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 12
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "010": "Independent Fraction polynomial derivatives quadrature and updates, Decimal exponential references, range and unresolvable step regressions",
+    "011": "Independent Fraction polynomial graph gradients, paths, remainders and updates; Decimal counterexample references; fixed report point rejection",
+    "012": "Independent rational dual-number network oracle for 160 rectangular networks, full Jacobians JVP VJP and all parameter/input gradients; shape, batch and range checks"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Synthetic mathematical examples; no training quality, speed or total memory claim"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

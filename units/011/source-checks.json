@@ -1,0 +1,38 @@
+{
+  "unit": "011",
+  "checked_on": "2026-10-04",
+  "method": "actual public web reads of author textbook and official versioned NumPy documentation",
+  "sources": [
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-3-partial-derivatives",
+      "status": "read_and_checked",
+      "supports": "coordinate difference quotients and fixed independent variables"
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-4-tangent-planes-and-linear-approximations",
+      "status": "read_and_checked",
+      "supports": "differentiability remainder, total differential and sufficient continuity conditions"
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-5-the-chain-rule",
+      "status": "read_and_checked",
+      "supports": "chain rule with differentiability hypotheses and sums of path contributions"
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-6-directional-derivatives-and-the-gradient",
+      "status": "read_and_checked",
+      "supports": "unit direction convention and gradient geometry; insufficient partial-existence wording not adopted"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.asarray.html",
+      "status": "read_and_checked",
+      "supports": "dtype inference, conversion and copy semantics"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.isfinite.html",
+      "status": "read_and_checked",
+      "supports": "elementwise finite-value checks"
+    }
+  ],
+  "note": "Directional-derivative source includes an imprecise partials-imply-differentiability sentence. The lesson explicitly requires differentiability and supplies a counterexample; no such implication is adopted."
+}

@@ -1,0 +1,7 @@
+{
+  "provenance": "Original synthetic dimensionless two-layer square-activation network",
+  "X": [[1, 2], [-1, 1]],
+  "Y": [[1], [-1]],
+  "parameters": {"W1": [[1, -1], [0.5, 1]], "b1": [[0, 0.5]], "W2": [[1], [-2]], "b2": [[0.5]]},
+  "difference_steps": [0.1, 0.01, 0.001, 0.0001, 0.00001, 0.000001, 0.00000001, 0.0000000001, 0.000000000001, 1e-17]
+}

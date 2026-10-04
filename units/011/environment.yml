@@ -1,0 +1,10 @@
+name: dl-unit-011
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - jupyterlab>=4,<5
+  - ipykernel>=6,<8
+# Optional figure rebuilding requires matplotlib and Noto Sans CJK fonts.
+# PDF build dependencies are intentionally outside the learner environment.

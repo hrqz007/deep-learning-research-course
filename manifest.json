@@ -13,7 +13,10 @@
     "006",
     "007",
     "008",
-    "009"
+    "009",
+    "010",
+    "011",
+    "012"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -213,7 +216,7 @@
       "figure": "线性、指数、对数与分段函数的对照图。",
       "lab": "手绘并用代码验证常见函数；解释取对数为何改变乘积表达但不保证所有目标等价。",
       "pitfall": "忽略对数底数和定义域；用符号推演替代对象解释。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/007/lecture.pdf",
         "lab_pdf": "units/007/lab.pdf",
@@ -222,7 +225,15 @@
         "script": "units/007/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/007-009.json"
+      "release_record": "releases/007-009.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8e81c74fe12029e124ce253201347aee93e4c64c",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 27,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "008",
@@ -236,7 +247,7 @@
       "figure": "二维投影及高维向量的坐标解释。",
       "lab": "手算三维内积、距离和余弦相似度，再对照NumPy；举出尺度改变模型行为的例子。",
       "pitfall": "把相似度当概率；认为高维直觉与二维图完全一致。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/008/lecture.pdf",
         "lab_pdf": "units/008/lab.pdf",
@@ -245,7 +256,15 @@
         "script": "units/008/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/007-009.json"
+      "release_record": "releases/007-009.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8e81c74fe12029e124ce253201347aee93e4c64c",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 26,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "009",
@@ -259,7 +278,7 @@
       "figure": "基向量变换、矩阵组合和批次数据流。",
       "lab": "手算两层小矩阵乘法，验证结合律及维度；区别偏置广播与数据复制。",
       "pitfall": "交换不可交换的矩阵；省略shape造成错误推导。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/009/lecture.pdf",
         "lab_pdf": "units/009/lab.pdf",
@@ -268,7 +287,15 @@
         "script": "units/009/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/007-009.json"
+      "release_record": "releases/007-009.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8e81c74fe12029e124ce253201347aee93e4c64c",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 29,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "010",
@@ -281,7 +308,16 @@
       "figure": "割线到切线；局部近似与有限步长误差。",
       "lab": "比较解析导数和中心差分，扫描步长；用数值积分核对简单函数。",
       "pitfall": "认为导数在不光滑点总存在；把有限差分误差当模型梯度错误。",
-      "status": "in_review"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/010/lecture.pdf",
+        "lab_pdf": "units/010/lab.pdf",
+        "answers_pdf": "units/010/answers.pdf",
+        "notebook": "units/010/experiment.ipynb",
+        "script": "units/010/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/010-012.json"
     },
     {
       "id": "011",
@@ -295,7 +331,16 @@
       "figure": "等高线、梯度方向与分支计算图。",
       "lab": "手算二参数复合损失并与有限差分核验；解释负梯度只是局部下降信息。",
       "pitfall": "混淆偏导与总导数；漏掉同一变量的多条影响路径。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/011/lecture.pdf",
+        "lab_pdf": "units/011/lab.pdf",
+        "answers_pdf": "units/011/answers.pdf",
+        "notebook": "units/011/experiment.ipynb",
+        "script": "units/011/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/010-012.json"
     },
     {
       "id": "012",
@@ -308,7 +353,16 @@
       "figure": "完整雅可比与乘积传播的内存对比。",
       "lab": "对一个二层批次网络手算各参数梯度及shape；用数值差分交叉核验。",
       "pitfall": "不注明求导布局；把逐元素乘法、外积和矩阵乘法混用。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/012/lecture.pdf",
+        "lab_pdf": "units/012/lab.pdf",
+        "answers_pdf": "units/012/answers.pdf",
+        "notebook": "units/012/experiment.ipynb",
+        "script": "units/012/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/010-012.json"
     },
     {
       "id": "013",
@@ -321,7 +375,7 @@
       "figure": "椭球变换、奇异值谱与低秩截断误差。",
       "lab": "对小矩阵做SVD并重构，比较不同秩误差；展示小扰动被放大的病态例子。",
       "pitfall": "认为低秩一定不损失任务信息；把条件数当成所有训练困难的解释。",
-      "status": "planned"
+      "status": "in_review"
     },
     {
       "id": "014",
@@ -336,7 +390,7 @@
       "figure": "动态范围、误差随步长变化的曲线。",
       "lab": "复现softmax溢出并用稳定实现修复；记录不同dtype的误差与有限值检查。",
       "pitfall": "把更低精度等同于无损加速；只在正常输入上测试。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "015",
@@ -350,7 +404,7 @@
       "figure": "狭长谷地中的迭代轨迹及Hessian主方向。",
       "lab": "在可解析二维二次函数上推导步长稳定范围并验证；区别局部下降和全局最优保证。",
       "pitfall": "把非凸网络的训练成功解释成已证明全局收敛。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "016",

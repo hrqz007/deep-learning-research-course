@@ -1,0 +1,67 @@
+{
+  "difference_function": "exp",
+  "difference_x": 0.7,
+  "analytic_derivative": 2.0137527074704766,
+  "cusp": {
+    "x": 0,
+    "h": 0.001,
+    "right_quotient": 1.0,
+    "left_quotient": -1.0,
+    "central_difference": 0.0,
+    "two_sided_derivative": "undefined"
+  },
+  "local_square_approximation": [
+    {
+      "delta": 0.1,
+      "true_square": 4.41,
+      "tangent_approximation": 4.4,
+      "exact_error_formula": 0.010000000000000002
+    },
+    {
+      "delta": 0.5,
+      "true_square": 6.25,
+      "tangent_approximation": 6.0,
+      "exact_error_formula": 0.25
+    }
+  ],
+  "integration_exact": {
+    "linear_0_to_2": 4,
+    "square_0_to_2": 2.6666666666666665,
+    "signed_t_minus1_to1": 0,
+    "absolute_area": 1
+  },
+  "parameter_steps": [
+    {
+      "step": 0.1,
+      "old_w": 0,
+      "derivative": -6,
+      "new_w": 0.6000000000000001,
+      "old_loss": 9,
+      "new_loss": 5.76
+    },
+    {
+      "step": 0.5,
+      "old_w": 0,
+      "derivative": -6,
+      "new_w": 3.0,
+      "old_loss": 9,
+      "new_loss": 0.0
+    },
+    {
+      "step": 1,
+      "old_w": 0,
+      "derivative": -6,
+      "new_w": 6,
+      "old_loss": 9,
+      "new_loss": 9
+    },
+    {
+      "step": 1.1,
+      "old_w": 0,
+      "derivative": -6,
+      "new_w": 6.6000000000000005,
+      "old_loss": 9,
+      "new_loss": 12.960000000000004
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "OpenStax Calculus Volume 1: Derivative definition",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+      "verified": "Opened original textbook publisher chapter; definitions, conditions and scope checked"
+    },
+    {
+      "title": "OpenStax Calculus Volume 1: Differentiation rules",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules",
+      "verified": "Opened original textbook publisher chapter; definitions, conditions and scope checked"
+    },
+    {
+      "title": "OpenStax Calculus Volume 1: Exponential and logarithmic derivatives",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+      "verified": "Opened original textbook publisher chapter; definitions, conditions and scope checked"
+    },
+    {
+      "title": "OpenStax Calculus Volume 1: Definite integral",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral",
+      "verified": "Opened original textbook publisher chapter; definitions, conditions and scope checked"
+    },
+    {
+      "title": "OpenStax Calculus Volume 1: Fundamental theorem",
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus",
+      "verified": "Opened original textbook publisher chapter; definitions, conditions and scope checked"
+    }
+  ],
+  "originality": "Synthetic function examples, numeric fixtures, code, derivation organization and figures independently authored"
+}

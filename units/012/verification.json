@@ -1,0 +1,78 @@
+{
+  "unit": "012",
+  "title": "雅可比与矩阵求导",
+  "prerequisites": [
+    "011"
+  ],
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "pages": {
+    "lecture": 10,
+    "lab": 4,
+    "answers": 3
+  },
+  "figures": 7,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux"
+  },
+  "checks": {
+    "script": "Fresh Python process passed; repeated unrelated-cwd runs use identical outputs",
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.424,
+      "code_cells": 12,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "tests": {
+      "status": "passed",
+      "groups": 7,
+      "details": [
+        "complete exact hand calculation and explicit 2 by 9 Jacobian",
+        "100 Fraction loop oracles with rectangular dimensions; explicit Jacobian JVP VJP identities",
+        "all nine parameters and four input coordinates independently differenced",
+        "batch duplication mean-loss invariance and permutation equivariance",
+        "31 type shape range step rejection cases; original inputs unchanged",
+        "two full runs produce byte-identical three-file outputs",
+        "6 document Python snippets execute in order"
+      ],
+      "fraction_fixtures": 100,
+      "rejected_cases": 31,
+      "python_snippets": 6
+    },
+    "cross_run": "All three script and notebook files byte-identical",
+    "visual": "All 17 pages rendered and individually viewed; corrected figure subscript glyphs. Final lecture pages1-8 and lab1-2 pixel-identical to viewed renders; final lecture9-10 and lab3-4 separately viewed. All 7 figures and 2 Notebook figure outputs inspected. v2: lab4 corrected shape wording and fully re-viewed; other three lab pages pixel-identical.",
+    "structural": "No empty pages, replacement glyph markers, placeholders or out-of-bounds text blocks",
+    "sources": "Six official source pages read; scope recorded in source-checks.json"
+  },
+  "expected": {
+    "loss": 29.140625,
+    "jacobian_shape": [
+      2,
+      9
+    ],
+    "paired_product": -0.775,
+    "full_jacobian_vjp_error": 0
+  },
+  "limitations": [
+    "No fresh Anaconda or cross-platform installation test",
+    "No browser Jupyter UI or out-of-process socket transport tested",
+    "Finite float64 checks do not guarantee full dynamic-range accuracy or eliminate underflow",
+    "Synthetic CPU experiment only; no model quality speed or peak memory claim",
+    "Parameter-only JVP keeps X fixed; explicit Jacobian restricted to 100000 entries"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "3e620268c2ef00da16ad3cd2a0fb9ede6f0b2c7c68616b2a8168af88a5527358",
+    "lab.pdf": "cf5e70e1e95d5988795942f16e25255f52f48ce9787f39e7f8aacb86d4716ca1",
+    "answers.pdf": "e713922a65ca0c989acc9516d0f4268d5f6cb46cbb17e90038fc724db527c004",
+    "experiment.ipynb": "667950c309b57495f7cce2b607c02ad1915c0e35e19703a859812bef5d167a5a",
+    "experiment.py": "dc78975e12a307e8b9bf496a10c4c0ad58dd7b9453e445355f3af7888b406e6d",
+    "test_experiment.py": "79b78cff756f05cdc4370f91119f503265054188d6526b824f473ad77327a95b",
+    "make_figures.py": "c56f1d08e5c0438e00bf2d939b389e06c09ddf09664fce7291a34b3e70b327b4",
+    "data/network.json": "5e78db1179a3b69053e0b7a61629feab37f643b7a745c5d194d89cfcceeba350"
+  }
+}
