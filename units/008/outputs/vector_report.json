@@ -1,0 +1,125 @@
+{
+  "pairs": {
+    "two_dimensional": {
+      "dimension": 2,
+      "u": [
+        2.0,
+        1.0
+      ],
+      "v": [
+        1.0,
+        3.0
+      ],
+      "elementwise_product": [
+        2.0,
+        3.0
+      ],
+      "sum": [
+        3.0,
+        4.0
+      ],
+      "difference": [
+        1.0,
+        -2.0
+      ],
+      "dot": 5.0,
+      "u_norm": 2.23606797749979,
+      "v_norm": 3.1622776601683795,
+      "distance": 2.23606797749979,
+      "cosine": 0.7071067811865475,
+      "angle_degrees": 45.00000000000001,
+      "projection_coefficient": 0.5,
+      "projection": [
+        0.5,
+        1.5
+      ],
+      "residual": [
+        1.5,
+        -0.5
+      ],
+      "residual_dot_direction": 0.0,
+      "squared_length_decomposition": [
+        5.0,
+        2.5,
+        2.5
+      ]
+    },
+    "three_dimensional": {
+      "dimension": 3,
+      "u": [
+        1.0,
+        2.0,
+        -1.0
+      ],
+      "v": [
+        2.0,
+        0.0,
+        3.0
+      ],
+      "elementwise_product": [
+        2.0,
+        0.0,
+        -3.0
+      ],
+      "sum": [
+        3.0,
+        2.0,
+        2.0
+      ],
+      "difference": [
+        -1.0,
+        2.0,
+        -4.0
+      ],
+      "dot": -1.0,
+      "u_norm": 2.449489742783178,
+      "v_norm": 3.605551275463989,
+      "distance": 4.58257569495584,
+      "cosine": -0.11322770341445959,
+      "angle_degrees": 96.50141223339973,
+      "projection_coefficient": -0.07692307692307693,
+      "projection": [
+        -0.15384615384615385,
+        -0.0,
+        -0.23076923076923078
+      ],
+      "residual": [
+        1.1538461538461537,
+        2.0,
+        -0.7692307692307692
+      ],
+      "residual_dot_direction": 0.0,
+      "squared_length_decomposition": [
+        6.0,
+        0.07692307692307693,
+        5.9230769230769225
+      ]
+    }
+  },
+  "invariances_and_counterexamples": {
+    "same_direction_cosine": 0.9999999999999998,
+    "same_direction_distance": 2.23606797749979,
+    "original_pair_cosine": 0.7071067811865475,
+    "scaled_u_cosine": 0.7071067811865475,
+    "negative_u_cosine": -0.7071067811865475,
+    "translated_distance": 2.23606797749979,
+    "translated_cosine": 0.0,
+    "axis_scale_before_cosine": 0.0,
+    "axis_scale_after_cosine": -0.5999999999999999
+  },
+  "three_component_norms": {
+    "L1": 4.0,
+    "L2": 2.449489742783178,
+    "Linf": 2.0,
+    "L2_squared": 6.0
+  },
+  "high_dimensional_basis": {
+    "shape": [
+      100,
+      100
+    ],
+    "gram_equals_identity": true,
+    "distinct_basis_distance": 1.4142135623730951,
+    "zero_rows_after_two_coordinate_display": 98
+  }
+}

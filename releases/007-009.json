@@ -1,0 +1,55 @@
+{
+  "release": "007-009",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "007",
+      "pages": {
+        "lecture": 9,
+        "lab": 5,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 12
+    },
+    {
+      "id": "008",
+      "revision": "v2 finite-range checks after conversion and projection",
+      "pages": {
+        "lecture": 8,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 7
+    },
+    {
+      "id": "009",
+      "revision": "v2 reject original Boolean leaves before array conversion",
+      "pages": {
+        "lecture": 14,
+        "lab": 4,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 13
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "007": "Fraction equation roots and high-precision Decimal exponential/logarithm references; domain and type rejection",
+    "008": "Fraction vector geometry, projection, Pythagorean identity and closest-line checks; numeric range failures",
+    "009": "Fraction homogeneous augmented-matrix reference for affine composition; mixed Boolean input regressions"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Original small mathematical examples; no real-task or statistical performance claim"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

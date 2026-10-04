@@ -10,7 +10,10 @@
     "003",
     "004",
     "005",
-    "006"
+    "006",
+    "007",
+    "008",
+    "009"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -210,7 +213,16 @@
       "figure": "线性、指数、对数与分段函数的对照图。",
       "lab": "手绘并用代码验证常见函数；解释取对数为何改变乘积表达但不保证所有目标等价。",
       "pitfall": "忽略对数底数和定义域；用符号推演替代对象解释。",
-      "status": "in_review"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/007/lecture.pdf",
+        "lab_pdf": "units/007/lab.pdf",
+        "answers_pdf": "units/007/answers.pdf",
+        "notebook": "units/007/experiment.ipynb",
+        "script": "units/007/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/007-009.json"
     },
     {
       "id": "008",
@@ -224,7 +236,16 @@
       "figure": "二维投影及高维向量的坐标解释。",
       "lab": "手算三维内积、距离和余弦相似度，再对照NumPy；举出尺度改变模型行为的例子。",
       "pitfall": "把相似度当概率；认为高维直觉与二维图完全一致。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/008/lecture.pdf",
+        "lab_pdf": "units/008/lab.pdf",
+        "answers_pdf": "units/008/answers.pdf",
+        "notebook": "units/008/experiment.ipynb",
+        "script": "units/008/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/007-009.json"
     },
     {
       "id": "009",
@@ -238,7 +259,16 @@
       "figure": "基向量变换、矩阵组合和批次数据流。",
       "lab": "手算两层小矩阵乘法，验证结合律及维度；区别偏置广播与数据复制。",
       "pitfall": "交换不可交换的矩阵；省略shape造成错误推导。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/009/lecture.pdf",
+        "lab_pdf": "units/009/lab.pdf",
+        "answers_pdf": "units/009/answers.pdf",
+        "notebook": "units/009/experiment.ipynb",
+        "script": "units/009/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/007-009.json"
     },
     {
       "id": "010",
@@ -251,7 +281,7 @@
       "figure": "割线到切线；局部近似与有限步长误差。",
       "lab": "比较解析导数和中心差分，扫描步长；用数值积分核对简单函数。",
       "pitfall": "认为导数在不光滑点总存在；把有限差分误差当模型梯度错误。",
-      "status": "planned"
+      "status": "in_review"
     },
     {
       "id": "011",
@@ -265,7 +295,7 @@
       "figure": "等高线、梯度方向与分支计算图。",
       "lab": "手算二参数复合损失并与有限差分核验；解释负梯度只是局部下降信息。",
       "pitfall": "混淆偏导与总导数；漏掉同一变量的多条影响路径。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "012",

@@ -1,0 +1,11 @@
+name: dl-unit-007
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  # Optional: only needed to rebuild the supplied teaching figures.
+  - matplotlib
+  # Install Noto Sans CJK through your operating system if rebuilding figures.

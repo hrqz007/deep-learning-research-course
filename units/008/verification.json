@@ -1,0 +1,59 @@
+{
+  "unit": "008",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Recorded separately in course release record; this file records author checks only.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux",
+    "notebook": "ipykernel 7.4.0, nbformat 5.11.1"
+  },
+  "checks": {
+    "script": "Fresh process passed, repeated outputs byte-identical",
+    "notebook": "7 code cells sequentially executed in a fresh process using real IPython InProcessKernel",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "complete hand-calculated 2D dot/norm/distance/angle/projection",
+        "3D negative projection coefficient and exact rational coordinates",
+        "100 independent Fraction dot/projection fixtures and nearest-line checks",
+        "same direction differs in distance; scaling and translation counterexamples",
+        "zero-vector distinctions, shape mismatch and nonfinite failures",
+        "projection coefficient overflow and post-conversion nonfinite values rejected",
+        "100-dimensional coordinates and information loss in 2D display",
+        "repeated experiment produces identical outputs"
+      ]
+    },
+    "visual": "All 8 lecture, 3 lab, 2 answer pages individually inspected. After shortening source heading to avoid an isolated reference-only page, final lecture page8 re-inspected and first7 PNGs byte-identical. 8 original figures checked for equal scales, coordinates, labels and vector semantics. Revised lab page2 re-inspected; lab pages1 and3 remain byte-identical.",
+    "numerical_range_regression": "Rejects finite wider-than-float64 values that overflow on conversion; rejects nonfinite projection coefficient, projection or residual. Regression includes u=[1e150], v=[1e-160] and longdouble 1e400."
+  },
+  "pages": {
+    "lecture": 8,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_values": {
+    "two_dimensional_dot": 5,
+    "two_dimensional_angle_degrees": 45,
+    "projection": [
+      0.5,
+      1.5
+    ],
+    "residual": [
+      1.5,
+      -0.5
+    ],
+    "three_dimensional_dot": -1,
+    "three_dimensional_projection_coefficient": "-1/13",
+    "axis_scaled_cosine": -0.6,
+    "zero_rows_in_two_coordinate_display": 98
+  },
+  "limitations": [
+    "No browser Jupyter UI or out-of-process kernel transport tested",
+    "No fresh cross-platform installation test",
+    "Moderate finite float64 examples; extreme range raises errors rather than claiming universal numerical stability",
+    "Original vectors do not constitute semantic, statistical or real-model performance evidence"
+  ],
+  "revision": "v2 post-conversion and projection finite-value guards"
+}

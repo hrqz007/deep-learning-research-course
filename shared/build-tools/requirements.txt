@@ -1,0 +1,8 @@
+Markdown==3.11
+weasyprint==70.0
+matplotlib==3.10.8
+numpy==2.3.5
+nbformat==5.11.1
+ipykernel==7.4.0
+PyMuPDF==1.26.6
+Pillow==12.3.0

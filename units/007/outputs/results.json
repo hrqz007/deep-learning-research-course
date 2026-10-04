@@ -1,0 +1,69 @@
+{
+  "equation_solutions": [
+    {
+      "kind": "unique",
+      "value": 3.0
+    },
+    {
+      "kind": "all_real",
+      "value": null
+    },
+    {
+      "kind": "no_solution",
+      "value": null
+    }
+  ],
+  "unit_conversion": [
+    {
+      "cm": 1,
+      "mm": 10,
+      "old_prediction": 3,
+      "wrong_old_coefficient": 21,
+      "converted_prediction": 3.0
+    },
+    {
+      "cm": 2,
+      "mm": 20,
+      "old_prediction": 5,
+      "wrong_old_coefficient": 41,
+      "converted_prediction": 5.0
+    },
+    {
+      "cm": 3,
+      "mm": 30,
+      "old_prediction": 7,
+      "wrong_old_coefficient": 61,
+      "converted_prediction": 7.0
+    }
+  ],
+  "loss_objectives": {
+    "A": {
+      "mean": 5.0,
+      "log2_of_mean": 2.321928094887362,
+      "mean_of_log2": 1.5849625007211563
+    },
+    "B": {
+      "mean": 4.0,
+      "log2_of_mean": 2.0,
+      "mean_of_log2": 2.0
+    }
+  },
+  "objective_winners": {
+    "mean": "B",
+    "log2_of_mean": "B",
+    "mean_of_log2": "A"
+  },
+  "composition_at_2": {
+    "f_of_g": 9,
+    "g_of_f": 25
+  },
+  "summation": {
+    "original_sum": 12,
+    "shift_each": 15,
+    "shift_once": 13
+  },
+  "python_precedence": {
+    "parenthesized_negative_base": 4,
+    "unparenthesized_negative": -4
+  }
+}

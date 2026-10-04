@@ -1,0 +1,7 @@
+.deps/
+.build-deps/
+tmp/
+checks/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

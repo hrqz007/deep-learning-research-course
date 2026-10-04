@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "OpenStax Calculus Volume 3, Dot Product",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+      "verified": "Opened original textbook publisher or versioned official NumPy documentation; definitions and API scope checked"
+    },
+    {
+      "title": "NumPy norm",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.norm.html",
+      "verified": "Opened original textbook publisher or versioned official NumPy documentation; definitions and API scope checked"
+    },
+    {
+      "title": "NumPy dot",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.dot.html",
+      "verified": "Opened original textbook publisher or versioned official NumPy documentation; definitions and API scope checked"
+    }
+  ],
+  "originality": "Coordinates, derivation organization, code, figures and counterexamples independently authored"
+}

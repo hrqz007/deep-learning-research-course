@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "Python 3.12 math",
+      "url": "https://docs.python.org/3.12/library/math.html",
+      "verified": "Opened official documentation, checked natural-log default, supplied-base calculation, log2/log10, math.pow float conversion, ValueError for log(0), OverflowError for out-of-range exponentials."
+    },
+    {
+      "title": "Python 3.12 Expressions",
+      "url": "https://docs.python.org/3.12/reference/expressions.html#operator-precedence",
+      "verified": "Opened official language reference and power-operator section; checked unary-minus/power binding and ** semantics."
+    },
+    {
+      "title": "OpenStax College Algebra 2e section 6.3",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/6-3-logarithmic-functions",
+      "verified": "Opened author-published textbook section; checked inverse exponent/log relation and real-domain/base restrictions."
+    },
+    {
+      "title": "OpenStax College Algebra 2e section 6.5",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/6-5-logarithmic-properties",
+      "verified": "Opened author-published textbook section; checked product, quotient, power and change-of-base laws and base conditions."
+    }
+  ],
+  "originality": "Chinese explanation, all eight figures, synthetic grid, A/B loss counterexample, code, notebook and exercises are original. Sources provide verification, not copied lesson text.",
+  "scope": "Standard real scalar algebra and official Python semantics. Numerical examples independently cross-checked; no empirical model-performance claim."
+}

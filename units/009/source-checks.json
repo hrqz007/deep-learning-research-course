@@ -1,0 +1,38 @@
+{
+  "unit": "009",
+  "checked_on": "2026-10-04",
+  "method": "public web read of official documentation and author textbook",
+  "sources": [
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.matmul.html",
+      "status": "read_and_checked",
+      "supports": "2D shape signature, @, no scalars and one-dimensional special cases"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.transpose.html",
+      "status": "read_and_checked",
+      "supports": "axis permutation and unchanged 1D shape"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/user/basics.broadcasting.html",
+      "status": "read_and_checked",
+      "supports": "trailing-axis broadcasting and conceptual expansion"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.broadcast_to.html",
+      "status": "read_and_checked",
+      "supports": "readonly shared-memory broadcast view"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.ndarray.nbytes.html",
+      "status": "read_and_checked",
+      "supports": "element bytes versus object/storage allocation"
+    },
+    {
+      "url": "https://textbooks.math.gatech.edu/ila/linear-transformations.html",
+      "status": "read_and_checked",
+      "supports": "linearity, origin necessary but insufficient, standard coordinate vectors; source uses columns"
+    }
+  ],
+  "note": "Text extraction omitted some textbook formulas; all course equations independently derived and cross-checked rather than relying on missing extracted math."
+}

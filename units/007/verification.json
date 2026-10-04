@@ -1,0 +1,252 @@
+{
+  "unit": "007",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Author checks only; independent review and release handled separately.",
+  "prerequisites": [
+    "001",
+    "003"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "core": "standard library only",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "matplotlib": "3.10.8"
+  },
+  "checks": {
+    "script": "Complete run in fresh process; tests also call absolute script path from unrelated temporary working directory.",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "three equation cases and 100 independent Fraction roots",
+        "unit-conversion invariance and incorrect-coefficient counterexample",
+        "integer powers, negative exponents and Python precedence",
+        "logarithm known values and invalid domains",
+        "product-log identity and sum-log counterexample",
+        "ranking reversal only for per-item log before averaging",
+        "composition order, composition domain and piecewise boundary",
+        "summation expansion and byte-identical repeat outputs",
+        "type, empty-data, nonfinite, overflow and underflow failures",
+        "power and change-of-base laws; decreasing logarithm for base below one",
+        "fresh process from unrelated directory and explicit undefined-value CSV status"
+      ]
+    },
+    "numeric_oracle": {
+      "status": "passed",
+      "oracle": "Independent Fraction exact arithmetic and 60-digit Decimal powers/logarithms; no experiment imports",
+      "numeric_cells_checked": 53,
+      "additional_checks": [
+        "equation classifications",
+        "unit conversion",
+        "expanded composition",
+        "summation",
+        "objective winners"
+      ]
+    },
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.126,
+      "code_cells": 12,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "standalone_code_examples": {
+      "status": "passed",
+      "blocks": 11,
+      "method": "Each Markdown Python code block executed in a separate fresh process."
+    },
+    "figures": "Eight original figures actually rebuilt in a clean process with no missing-glyph warnings; all referenced paths exist.",
+    "visual": "All 18 PDF pages individually inspected at original detail after rendering; full per-page evidence retained in author checks.",
+    "sources": "Four primary sources opened and relevant definitions/API semantics checked."
+  },
+  "pages": {
+    "lecture": 9,
+    "lab": 5,
+    "answers": 4
+  },
+  "expected_result": {
+    "equation_solutions": [
+      {
+        "kind": "unique",
+        "value": 3.0
+      },
+      {
+        "kind": "all_real",
+        "value": null
+      },
+      {
+        "kind": "no_solution",
+        "value": null
+      }
+    ],
+    "unit_conversion": [
+      {
+        "cm": 1,
+        "mm": 10,
+        "old_prediction": 3,
+        "wrong_old_coefficient": 21,
+        "converted_prediction": 3.0
+      },
+      {
+        "cm": 2,
+        "mm": 20,
+        "old_prediction": 5,
+        "wrong_old_coefficient": 41,
+        "converted_prediction": 5.0
+      },
+      {
+        "cm": 3,
+        "mm": 30,
+        "old_prediction": 7,
+        "wrong_old_coefficient": 61,
+        "converted_prediction": 7.0
+      }
+    ],
+    "loss_objectives": {
+      "A": {
+        "mean": 5.0,
+        "log2_of_mean": 2.321928094887362,
+        "mean_of_log2": 1.5849625007211563
+      },
+      "B": {
+        "mean": 4.0,
+        "log2_of_mean": 2.0,
+        "mean_of_log2": 2.0
+      }
+    },
+    "objective_winners": {
+      "mean": "B",
+      "log2_of_mean": "B",
+      "mean_of_log2": "A"
+    },
+    "composition_at_2": {
+      "f_of_g": 9,
+      "g_of_f": 25
+    },
+    "summation": {
+      "original_sum": 12,
+      "shift_each": 15,
+      "shift_once": 13
+    },
+    "python_precedence": {
+      "parenthesized_negative_base": 4,
+      "unparenthesized_negative": -4
+    }
+  },
+  "limitations": [
+    "No Jupyter browser UI or out-of-process socket transport tested.",
+    "No fresh Anaconda installation or cross-platform test.",
+    "Small synthetic scalar example, not empirical ML performance or universal floating-point-stability evidence.",
+    "A mathematically valid real input may exceed floating-point range; domain errors and range failures are reported separately."
+  ],
+  "artifacts": {
+    "README.md": {
+      "bytes": 2699,
+      "sha256": "21ec1313d0517cf2e3e90e3f6022f76219f7f90826a9c10049f99750e124b565"
+    },
+    "answers.md": {
+      "bytes": 9366,
+      "sha256": "c4f2838c540e01093a0e945657e66927a7ce68a38d67c135db42230601b59c2b"
+    },
+    "answers.pdf": {
+      "bytes": 453390,
+      "sha256": "5cdc52b2bc82cd18c4f020286dfd638d45332647575d92afa840bc1911bf823a"
+    },
+    "data/README.md": {
+      "bytes": 513,
+      "sha256": "08dfc814d85e0b681427a0b4a110f33659e53ad6c2f6408f70f801308657ff46"
+    },
+    "data/input_grid.csv": {
+      "bytes": 29,
+      "sha256": "d4263200cfbcd87fcd9352a88d0262f3384be51a8fc35b35ceaae60aee68b8c8"
+    },
+    "environment.yml": {
+      "bytes": 278,
+      "sha256": "c4d5eedea3c318aa27e8c6309e7c43bf6a198f146177151c7c19947c491c5398"
+    },
+    "experiment.ipynb": {
+      "bytes": 156219,
+      "sha256": "8752eb31a349d2620abeb96f380ead7a498eceb257428e78518289f1ac687a1c"
+    },
+    "experiment.py": {
+      "bytes": 4570,
+      "sha256": "f4a8119f944484ec1eae69ea7dfb9a2c3e6e988e6a2b0ba2453f5636ad003cf6"
+    },
+    "figures/01_equation.png": {
+      "bytes": 41362,
+      "sha256": "c36b47fe268a3f29a18569f48b507c2145d8c4a28087d8fbcdc5ff24a9b5a344"
+    },
+    "figures/02_domain.png": {
+      "bytes": 79038,
+      "sha256": "f53595e7acda4a4b4407c3586abfb878e1574c2171ad3bf6e501dac9aefeef35"
+    },
+    "figures/03_units.png": {
+      "bytes": 74555,
+      "sha256": "0c02c249c6e6fa37d202e79b3c1392ca59e4b85fb735555499136b149e1e7c98"
+    },
+    "figures/04_growth.png": {
+      "bytes": 76158,
+      "sha256": "a53d9fb6dfd28256ea1e2786f4a248747f386b2d43e3c1aa9069b1fe1d4fe306"
+    },
+    "figures/05_log.png": {
+      "bytes": 73541,
+      "sha256": "5f720d816ccc152e6360f4da7bdc6e561e9477209d909489885a9cbe78306598"
+    },
+    "figures/06_objectives.png": {
+      "bytes": 67555,
+      "sha256": "e781e0dff663e64ebf8252846d2a73d428edaf54b00f7d891bf8953600eb3524"
+    },
+    "figures/07_composition.png": {
+      "bytes": 39852,
+      "sha256": "c211ea90d80a54fc4d4e446181692bf551e9479ae41273a7a6dab14ff006a35b"
+    },
+    "figures/08_function_family.png": {
+      "bytes": 105874,
+      "sha256": "2518dd0c7c0d8a3d245468d818d0546ffd3414a532240fa067d7e00f364a6a8b"
+    },
+    "lab.md": {
+      "bytes": 10539,
+      "sha256": "97e467359d7732435be0abbc1d7263d7e9d7e2054619092fb98240fb8c544e4d"
+    },
+    "lab.pdf": {
+      "bytes": 463692,
+      "sha256": "ca3b5a633f7022d98e134694c17ccb6e3c74c3fa2fefcc4a96da938d5cbd711f"
+    },
+    "lecture.md": {
+      "bytes": 18970,
+      "sha256": "23ba9b4d6caa14e8a8b6c22dabe235e8c444485a70bafdda8e259a520f989ee0"
+    },
+    "lecture.pdf": {
+      "bytes": 1169011,
+      "sha256": "a5ad17d3c46cfbc290893b9d6ade8d6907e5b8daba5900313ecd798d81ada0cd"
+    },
+    "make_figures.py": {
+      "bytes": 6037,
+      "sha256": "dd2d59b57d702c4e1f4d1b07f069cc35ca4d045c6f9d2bf7f46c7cf8368cdf07"
+    },
+    "outputs/environment.json": {
+      "bytes": 87,
+      "sha256": "af960f1928f80a0af5f68353317866d9e845483a84d45d59b23429e868fd98e5"
+    },
+    "outputs/function_values.csv": {
+      "bytes": 478,
+      "sha256": "4c819afbb7203b972a9eeba56108aeb894a0dc885fedb497d13e2e1e646132c2"
+    },
+    "outputs/results.json": {
+      "bytes": 1244,
+      "sha256": "de0b64897934157a6d1428bdce005d7482aedcd157d3f06402721248d4373810"
+    },
+    "source-checks.json": {
+      "bytes": 1623,
+      "sha256": "a6fd9451315f714780059ff6223b3b5959f23f7d2d40c36fdaeaa988ae4a1145"
+    },
+    "test_experiment.py": {
+      "bytes": 5224,
+      "sha256": "fcd6f59384de9fdd64fbc72675fc8daac18b38324e59e515ba2fdfbac83225d0"
+    }
+  }
+}

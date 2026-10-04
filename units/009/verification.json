@@ -1,0 +1,122 @@
+{
+  "unit": "009",
+  "title": "矩阵线性映射与仿射变换",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Course-level independent review and publication evidence are managed separately.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1"
+  },
+  "pages": {
+    "lecture": 14,
+    "lab": 4,
+    "answers": 5
+  },
+  "figures": 9,
+  "lecture_exercises": 12,
+  "lab_tasks": "A-I",
+  "checks": {
+    "script": "passed in fresh Python process",
+    "notebook": {
+      "status": "passed",
+      "code_cells": 13,
+      "mode": "fresh Python process, real IPython InProcessKernel, sequential execution; no socket/browser UI test"
+    },
+    "test_script": {
+      "status": "passed",
+      "groups": [
+        "central hand arrays and independent Fraction oracle",
+        "64 rational fixtures across non-square shapes and N=1",
+        "basis rows, linearity, affine combination, origin and differences",
+        "noncommutativity, transpose is not inverse, wrong-axis aggregation",
+        "shared bias broadcasting, explicit copy, square-batch silent error",
+        "parameter changes, shared bias shifts and row independence",
+        "20 rejected shape, type, mixed-boolean, finite-input and overflow cases"
+      ],
+      "rational_fixtures": 64,
+      "exact_Y_mm": [
+        [
+          "2",
+          "9/2"
+        ],
+        [
+          "-2",
+          "-3/2"
+        ],
+        [
+          "10",
+          "19/2"
+        ]
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    "pdf_python_fences": {
+      "status": "passed",
+      "count": 4,
+      "method": "fresh-process execution against local fixture"
+    },
+    "cross_run": "script and notebook report.json files identical",
+    "visual": "All 23 final PDF pages rendered at 130 dpi and individually inspected at original resolution. Changed pages re-inspected; unchanged final renders hash-identical to inspected images. v2 changes only answer page5 count/description; re-inspected at full size, other four answer pages rendered identically. Lecture/lab unchanged.",
+    "pdf_structural": "nonempty pages; text blocks in page bounds; no replacement characters or equation placeholders",
+    "sources": "6 primary-source pages actually read; source_checks.md and source-checks.json",
+    "boolean_regression": "Recursive original list/tuple leaf validation rejects mixed bool and np.bool_ in X/W/b before NumPy promotion. Existing ndarray checks use current dtype only; history explicitly not promised."
+  },
+  "expected_results": {
+    "Y_mm": [
+      [
+        2,
+        4.5
+      ],
+      [
+        -2,
+        -1.5
+      ],
+      [
+        10,
+        9.5
+      ]
+    ],
+    "Wc": [
+      [
+        4,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "bc_mm": [
+      -2,
+      -0.5
+    ],
+    "wrong_bias_max_abs_error_R": 3,
+    "new_input_2_minus1_Y_mm": [
+      [
+        6,
+        4.5
+      ]
+    ]
+  },
+  "limitations": [
+    "No fresh Anaconda or cross-platform installation test",
+    "No Jupyter browser UI or out-of-process kernel transport tested",
+    "CPU float64 and finite non-empty 2D real arrays only",
+    "Synthetic fixed rule; no training, task accuracy, speed or real-device generalization claim"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "46916ec648e1a09c90460b172e019a06bdb1431138d2f18ceb69c463a9ae0b9b",
+    "lab.pdf": "98514b460572d949b39e458b0426e3b0489b019542e27e9e8e2d7446637699d3",
+    "answers.pdf": "97233ad8a60756b0f2b6bc070a5e36939c164b0c860a32a950b55f841dcb47d4",
+    "experiment.ipynb": "2c4b2147aa78058f67c651a7cc373600cb987691154a6d482dc966cdb9e153b6",
+    "experiment.py": "113e40aa0a2d0ed34b5d4273d1603b0c3662edd859f0a8e001c297ec4ad2c355",
+    "test_experiment.py": "cbf722e1fa06892ee5185091f67096800098ae082a986a0ccd086b7d950f6e1e",
+    "data/plotter.json": "d2bc4b97bc9ffe6c8b36e01def2671687bf49788f95c18bbc3fea2ed097c149d"
+  },
+  "revision": "v2 preserve Boolean type before array coercion"
+}
