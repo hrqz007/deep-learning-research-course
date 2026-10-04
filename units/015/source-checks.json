@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-04",
+  "method": "Actual read of primary author/official pages with targeted section checks",
+  "sources": [
+    {
+      "id": 1,
+      "title": "Deep Learning Chapter 4 Numerical Computation",
+      "url": "https://www.deeplearningbook.org/contents/numerical.html",
+      "checked_sections": [
+        "4.3, equations 4.6-4.10",
+        "Hessian symmetry under continuous second partials",
+        "Critical-point classification and limits of local models"
+      ],
+      "status": "read",
+      "usage": "Definitions and boundaries; row-convention derivations and figures independently authored"
+    },
+    {
+      "id": 2,
+      "title": "Boyd and Vandenberghe Convex Optimization slides",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf",
+      "checked_pdf_pages_1based": [
+        53,
+        54,
+        295,
+        296,
+        297,
+        298,
+        299,
+        303,
+        304,
+        305
+      ],
+      "status": "read",
+      "usage": "Convex-domain first and second order conditions, descent and coordinate metric; course quadratic proof independently derived"
+    },
+    {
+      "id": 3,
+      "title": "OpenStax Calculus Volume 3 Section 4.7",
+      "url": "https://openstax.org/books/calculus-volume-3/pages/4-7-maxima-minima-problems",
+      "checked_sections": [
+        "Local and absolute extrema",
+        "Theorem 4.17 Second Derivative Test and inconclusive case"
+      ],
+      "status": "read",
+      "usage": "Stationarity, extremum types and assumptions"
+    },
+    {
+      "id": 4,
+      "title": "NumPy 2.3 numpy.linalg.eigh",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.eigh.html",
+      "checked_sections": [
+        "Real symmetric domain",
+        "Ascending eigenvalues",
+        "Eigenvectors returned in columns"
+      ],
+      "status": "read",
+      "usage": "Actual implementation interface"
+    }
+  ],
+  "not_verified": [
+    {
+      "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+      "reason": "Retrieval failed; actual readable author slides used instead"
+    }
+  ],
+  "original_assets": "All ten figures, data, exercise solutions and code are original synthetic teaching material; no source figure copied"
+}

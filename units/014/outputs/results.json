@@ -1,0 +1,287 @@
+{
+  "formats": {
+    "float32": {
+      "bits": 32,
+      "eps": 1.1920928955078125e-07,
+      "smallest_normal": 1.1754943508222875e-38,
+      "smallest_subnormal": 1.401298464324817e-45,
+      "max": 3.4028234663852886e+38,
+      "spacing_at_1": 1.1920928955078125e-07,
+      "spacing_at_2": 2.384185791015625e-07,
+      "one_plus_half_eps_equals_one": true
+    },
+    "float64": {
+      "bits": 64,
+      "eps": 2.220446049250313e-16,
+      "smallest_normal": 2.2250738585072014e-308,
+      "smallest_subnormal": 5e-324,
+      "max": 1.7976931348623157e+308,
+      "spacing_at_1": 2.220446049250313e-16,
+      "spacing_at_2": 4.440892098500626e-16,
+      "one_plus_half_eps_equals_one": true
+    }
+  },
+  "softmax": {
+    "float32": {
+      "large_positive": {
+        "stored_logits": [
+          1000.0,
+          1001.0,
+          999.0
+        ],
+        "naive_all_finite": false,
+        "naive_probabilities": [
+          null,
+          null,
+          null
+        ],
+        "stable_probabilities": [
+          0.2447284609079361,
+          0.6652409434318542,
+          0.09003057330846786
+        ],
+        "stable_log_probabilities": [
+          -1.4076060056686401,
+          -0.40760600566864014,
+          -2.4076061248779297
+        ],
+        "logsumexp": 1001.4075927734375,
+        "zero_tail_terms": 0,
+        "probability_sum": 0.9999999403953552,
+        "reference_probabilities": [
+          0.24472847105479764,
+          0.6652409557748219,
+          0.09003057317038046
+        ],
+        "max_absolute_error": 1.2342967647960279e-08,
+        "logsumexp_absolute_error": 1.3191006928536808e-05
+      },
+      "large_negative": {
+        "stored_logits": [
+          -1000.0,
+          -999.0,
+          -1001.0
+        ],
+        "naive_all_finite": false,
+        "naive_probabilities": [
+          null,
+          null,
+          null
+        ],
+        "stable_probabilities": [
+          0.2447284609079361,
+          0.6652409434318542,
+          0.09003057330846786
+        ],
+        "stable_log_probabilities": [
+          -1.4076060056686401,
+          -0.40760600566864014,
+          -2.4076061248779297
+        ],
+        "logsumexp": -998.5924072265625,
+        "zero_tail_terms": 0,
+        "probability_sum": 0.9999999403953552,
+        "reference_probabilities": [
+          0.24472847105479764,
+          0.6652409557748219,
+          0.09003057317038046
+        ],
+        "max_absolute_error": 1.2342967647960279e-08,
+        "logsumexp_absolute_error": 1.3191006928536808e-05
+      },
+      "tail_underflow": {
+        "stored_logits": [
+          0.0,
+          -200.0
+        ],
+        "naive_all_finite": true,
+        "naive_probabilities": [
+          1.0,
+          0.0
+        ],
+        "stable_probabilities": [
+          1.0,
+          0.0
+        ],
+        "stable_log_probabilities": [
+          0.0,
+          -200.0
+        ],
+        "logsumexp": 0.0,
+        "zero_tail_terms": 1,
+        "probability_sum": 1.0,
+        "reference_probabilities": [
+          1.0,
+          1.3838965267367376e-87
+        ],
+        "max_absolute_error": 1.3838965267367376e-87,
+        "logsumexp_absolute_error": 1.38e-87
+      }
+    },
+    "float64": {
+      "large_positive": {
+        "stored_logits": [
+          1000.0,
+          1001.0,
+          999.0
+        ],
+        "naive_all_finite": false,
+        "naive_probabilities": [
+          null,
+          null,
+          null
+        ],
+        "stable_probabilities": [
+          0.24472847105479764,
+          0.6652409557748218,
+          0.09003057317038046
+        ],
+        "stable_log_probabilities": [
+          -1.4076059644443804,
+          -0.4076059644443804,
+          -2.4076059644443806
+        ],
+        "logsumexp": 1001.4076059644444,
+        "zero_tail_terms": 0,
+        "probability_sum": 0.9999999999999999,
+        "reference_probabilities": [
+          0.24472847105479764,
+          0.6652409557748219,
+          0.09003057317038046
+        ],
+        "max_absolute_error": 1.1102230246251565e-16,
+        "logsumexp_absolute_error": 0.0
+      },
+      "large_negative": {
+        "stored_logits": [
+          -1000.0,
+          -999.0,
+          -1001.0
+        ],
+        "naive_all_finite": false,
+        "naive_probabilities": [
+          null,
+          null,
+          null
+        ],
+        "stable_probabilities": [
+          0.24472847105479764,
+          0.6652409557748218,
+          0.09003057317038046
+        ],
+        "stable_log_probabilities": [
+          -1.4076059644443804,
+          -0.4076059644443804,
+          -2.4076059644443806
+        ],
+        "logsumexp": -998.5923940355556,
+        "zero_tail_terms": 0,
+        "probability_sum": 0.9999999999999999,
+        "reference_probabilities": [
+          0.24472847105479764,
+          0.6652409557748219,
+          0.09003057317038046
+        ],
+        "max_absolute_error": 1.1102230246251565e-16,
+        "logsumexp_absolute_error": 0.0
+      },
+      "tail_underflow": {
+        "stored_logits": [
+          0.0,
+          -200.0
+        ],
+        "naive_all_finite": true,
+        "naive_probabilities": [
+          1.0,
+          1.3838965267367376e-87
+        ],
+        "stable_probabilities": [
+          1.0,
+          1.3838965267367376e-87
+        ],
+        "stable_log_probabilities": [
+          0.0,
+          -200.0
+        ],
+        "logsumexp": 0.0,
+        "zero_tail_terms": 0,
+        "probability_sum": 1.0,
+        "reference_probabilities": [
+          1.0,
+          1.3838965267367376e-87
+        ],
+        "max_absolute_error": 0.0,
+        "logsumexp_absolute_error": 1.38e-87
+      }
+    }
+  },
+  "cancellation": {
+    "float32": [
+      {
+        "stored_x": 9.999999747378752e-05,
+        "direct": 4.9948692321777344e-05,
+        "rationalized": 4.999874727218412e-05,
+        "reference": 4.9998748799453003e-05
+      },
+      {
+        "stored_x": 9.99999993922529e-09,
+        "direct": 0.0,
+        "rationalized": 4.999999969612645e-09,
+        "reference": 4.999999957112646e-09
+      },
+      {
+        "stored_x": 9.999999960041972e-13,
+        "direct": 0.0,
+        "rationalized": 4.999999980020986e-13,
+        "reference": 4.999999980019736e-13
+      },
+      {
+        "stored_x": 1.0000000168623835e-16,
+        "direct": 0.0,
+        "rationalized": 5.0000000843119176e-17,
+        "reference": 5.0000000843119176e-17
+      }
+    ],
+    "float64": [
+      {
+        "stored_x": 0.0001,
+        "direct": 4.9998750062396624e-05,
+        "rationalized": 4.99987500624961e-05,
+        "reference": 4.99987500624961e-05
+      },
+      {
+        "stored_x": 1e-08,
+        "direct": 4.999999969612645e-09,
+        "rationalized": 4.9999999875e-09,
+        "reference": 4.9999999875e-09
+      },
+      {
+        "stored_x": 1e-12,
+        "direct": 5.000444502911705e-13,
+        "rationalized": 4.99999999999875e-13,
+        "reference": 4.99999999999875e-13
+      },
+      {
+        "stored_x": 1e-16,
+        "direct": 0.0,
+        "rationalized": 5e-17,
+        "reference": 5e-17
+      }
+    ]
+  },
+  "cast_information_loss": {
+    "float32": [
+      0.5,
+      0.5
+    ],
+    "float64": [
+      0.2689414213699951,
+      0.7310585786300049
+    ]
+  },
+  "associativity": {
+    "left": 1.0,
+    "right": 0.0,
+    "fsum": 1.0
+  }
+}

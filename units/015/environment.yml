@@ -1,0 +1,10 @@
+name: dl-unit-015
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - jupyterlab>=4,<5
+  - ipykernel>=6,<8
+# Optional figure regeneration: matplotlib=3.10.8 and Noto Sans CJK fonts.
+# PDF generation uses the shared local MathJax/WeasyPrint course builder.

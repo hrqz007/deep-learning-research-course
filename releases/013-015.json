@@ -1,0 +1,54 @@
+{
+  "release": "013-015",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "013",
+      "pages": {
+        "lecture": 12,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13
+    },
+    {
+      "id": "014",
+      "pages": {
+        "lecture": 8,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 10
+    },
+    {
+      "id": "015",
+      "revision": "v2 validates contraction factors and serializes all reports before writing",
+      "pages": {
+        "lecture": 12,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "013": "Rational orthogonal SVD constructions, truncated reconstructions, non-symmetric row solves and perturbations; independent Decimal references",
+    "014": "High-precision Decimal probability log-weight and logsumexp checks, cancellation cases, derivative references and exact rational error identities",
+    "015": "Independent Fraction quadratic and polynomial local models, rotated SPD systems and closed-form trajectories; failed zero-iteration huge-step reports preserve previous outputs"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Synthetic CPU examples; no real training quality speed or full dynamic-range accuracy claim"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

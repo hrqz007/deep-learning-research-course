@@ -1,0 +1,172 @@
+{
+  "singular_values": [
+    4.0,
+    1.9999999999999996
+  ],
+  "svd_shapes": [
+    [
+      2,
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "reconstruction": [
+    [
+      3.0,
+      1.0000000000000002,
+      0.0
+    ],
+    [
+      1.0000000000000004,
+      2.9999999999999996,
+      0.0
+    ]
+  ],
+  "rank_one": [
+    [
+      2.0,
+      2.0,
+      0.0
+    ],
+    [
+      2.0,
+      2.0,
+      0.0
+    ]
+  ],
+  "errors": [
+    {
+      "rank_budget": 0,
+      "frobenius_error": 4.47213595499958,
+      "tail_formula": 4.47213595499958,
+      "spectral_tail": 4.0
+    },
+    {
+      "rank_budget": 1,
+      "frobenius_error": 2.0,
+      "tail_formula": 1.9999999999999996,
+      "spectral_tail": 1.9999999999999996
+    },
+    {
+      "rank_budget": 2,
+      "frobenius_error": 6.661338147750939e-16,
+      "tail_formula": 0.0,
+      "spectral_tail": 0.0
+    }
+  ],
+  "perturbations": [
+    {
+      "epsilon": 1.0,
+      "delta": 1e-06,
+      "condition2": 1.0,
+      "x": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "perturbed_x": [
+        [
+          1.0,
+          1e-06
+        ]
+      ],
+      "relative_b": 1e-06,
+      "relative_x": 1e-06,
+      "amplification": 1.0,
+      "perturbed_residual": 0.0
+    },
+    {
+      "epsilon": 0.01,
+      "delta": 1e-06,
+      "condition2": 100.0,
+      "x": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "perturbed_x": [
+        [
+          1.0,
+          9.999999999999999e-05
+        ]
+      ],
+      "relative_b": 1e-06,
+      "relative_x": 9.999999999999999e-05,
+      "amplification": 100.0,
+      "perturbed_residual": 0.0
+    },
+    {
+      "epsilon": 0.0001,
+      "delta": 1e-06,
+      "condition2": 10000.0,
+      "x": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "perturbed_x": [
+        [
+          1.0,
+          0.009999999999999998
+        ]
+      ],
+      "relative_b": 1e-06,
+      "relative_x": 0.009999999999999998,
+      "amplification": 9999.999999999998,
+      "perturbed_residual": 0.0
+    },
+    {
+      "epsilon": 1e-06,
+      "delta": 1e-06,
+      "condition2": 1000000.0,
+      "x": [
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "perturbed_x": [
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "relative_b": 1e-06,
+      "relative_x": 1.0,
+      "amplification": 1000000.0,
+      "perturbed_residual": 0.0
+    }
+  ],
+  "task_counterexample": {
+    "full_output": [
+      [
+        10.0,
+        0.1
+      ],
+      [
+        10.0,
+        -0.1
+      ]
+    ],
+    "rank_one_output": [
+      [
+        10.0,
+        0.0
+      ],
+      [
+        10.0,
+        0.0
+      ]
+    ],
+    "relative_frobenius_error": 0.009999500037496875
+  }
+}

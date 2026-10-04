@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Public web retrieval of official documentation, author course materials and original paper; no third-party summaries used as evidence",
+  "sources": [
+    {
+      "id": 1,
+      "title": "MIT 18.06 Lecture 29 Singular value decomposition",
+      "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-29-singular-value-decomposition/",
+      "checked": "课程页确认任意矩阵SVD以及正交、对角、正交三个因子；正文引用一般存在性，不宣称本讲证明谱定理。",
+      "access": "official course page read"
+    },
+    {
+      "id": 2,
+      "title": "LAPACK Users Guide Singular Value Decomposition",
+      "url": "https://netlib.org/lapack/lug/node53.html",
+      "checked": "实矩形矩阵的SVD定义、非负降序奇异值、左右向量及直接数值算法路线。",
+      "access": "official technical reference read"
+    },
+    {
+      "id": 3,
+      "title": "NumPy 2.3 numpy.linalg.svd",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.svd.html",
+      "checked": "full_matrices=False的返回形状、s为降序一维数组、Vh已转置、重构与_gesdd接口；本讲限定实二维输入。",
+      "access": "version-pinned official API page read"
+    },
+    {
+      "id": 4,
+      "title": "MIT 18.065 Lecture 7 Eckart Young",
+      "url": "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-7-eckart-young-the-closest-rank-k-matrix-to-a/",
+      "transcript_url": "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/70996912a170cf9c6ebb018f03c1fc85_Y4f7K9XF04k.pdf",
+      "checked": "官方课程页及逐字稿第1–4页：截断SVD在谱与Frobenius等指定范数下给最佳低秩近似。一般谱范数最优性引用，Frobenius部分在本讲独立写出投影证明。",
+      "access": "official course page and 12-page transcript extracted and relevant pages read"
+    },
+    {
+      "id": 5,
+      "title": "NumPy numpy.linalg.cond",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.cond.html",
+      "checked": "p=None使用SVD的2范数条件数；条件数依赖所用范数；本讲推导仅针对可逆方阵右端扰动。稳定入口检查时页面标为v2.5，实际执行为NumPy2.3.5，不混称版本。",
+      "access": "official stable API page read"
+    },
+    {
+      "id": 6,
+      "title": "NumPy 2.3 numpy.linalg.solve",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.solve.html",
+      "checked": "解方阵满秩线性系统；行方程需转置；奇异情况抛LinAlgError。",
+      "access": "version-pinned official API page read"
+    },
+    {
+      "id": 7,
+      "title": "NumPy 2.3 numpy.linalg.matrix_rank",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.matrix_rank.html",
+      "checked": "以超过tol的奇异值数计数；默认阈值考虑尺寸与机器精度；官方说明测量噪声可能需要别的阈值。",
+      "access": "version-pinned official API page read"
+    },
+    {
+      "id": 8,
+      "title": "Hu et al 2021 LoRA",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "full_text_url": "https://arxiv.org/html/2106.09685v2",
+      "checked": "原论文第4.1节固定W0并学习低秩乘积增量。正文把列约定改写为已教的行约定，因子命名为AB；只借用参数化，不引用模型效果数字或声称复現。",
+      "access": "original abstract and full-text section 4.1 read"
+    }
+  ]
+}

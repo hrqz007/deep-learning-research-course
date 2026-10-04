@@ -16,7 +16,10 @@
     "009",
     "010",
     "011",
-    "012"
+    "012",
+    "013",
+    "014",
+    "015"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -399,7 +402,16 @@
       "figure": "椭球变换、奇异值谱与低秩截断误差。",
       "lab": "对小矩阵做SVD并重构，比较不同秩误差；展示小扰动被放大的病态例子。",
       "pitfall": "认为低秩一定不损失任务信息；把条件数当成所有训练困难的解释。",
-      "status": "verified"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/013/lecture.pdf",
+        "lab_pdf": "units/013/lab.pdf",
+        "answers_pdf": "units/013/answers.pdf",
+        "notebook": "units/013/experiment.ipynb",
+        "script": "units/013/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/013-015.json"
     },
     {
       "id": "014",
@@ -414,7 +426,16 @@
       "figure": "动态范围、误差随步长变化的曲线。",
       "lab": "复现softmax溢出并用稳定实现修复；记录不同dtype的误差与有限值检查。",
       "pitfall": "把更低精度等同于无损加速；只在正常输入上测试。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/014/lecture.pdf",
+        "lab_pdf": "units/014/lab.pdf",
+        "answers_pdf": "units/014/answers.pdf",
+        "notebook": "units/014/experiment.ipynb",
+        "script": "units/014/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/013-015.json"
     },
     {
       "id": "015",
@@ -428,7 +449,16 @@
       "figure": "狭长谷地中的迭代轨迹及Hessian主方向。",
       "lab": "在可解析二维二次函数上推导步长稳定范围并验证；区别局部下降和全局最优保证。",
       "pitfall": "把非凸网络的训练成功解释成已证明全局收敛。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/015/lecture.pdf",
+        "lab_pdf": "units/015/lab.pdf",
+        "answers_pdf": "units/015/answers.pdf",
+        "notebook": "units/015/experiment.ipynb",
+        "script": "units/015/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/013-015.json"
     },
     {
       "id": "016",
@@ -441,7 +471,7 @@
       "figure": "概率树与联合分布表。",
       "lab": "手算分类小例子的后验；构造相关但不独立的变量，说明采样单位。",
       "pitfall": "把P(A给定B)倒写为P(B给定A)；把相关性直接当因果。",
-      "status": "planned"
+      "status": "in_review"
     },
     {
       "id": "017",
@@ -454,7 +484,7 @@
       "figure": "概率质量、概率密度与似然作为参数函数的区别。",
       "lab": "离散段写Bernoulli生成器和对数似然并检查参数边界；进入连续模型前补010并验证Gaussian密度积分。",
       "pitfall": "把似然当参数后验；将概率密度直接解释为事件概率。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "018",

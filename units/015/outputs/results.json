@@ -1,0 +1,88 @@
+{
+  "description": "finite synthetic quadratic experiment; no neural-network claim",
+  "bounds": {
+    "minimum_curvature": 1.0,
+    "maximum_curvature": 25.0,
+    "eta_strict_upper": 0.08,
+    "condition_number": 25.0
+  },
+  "initial_gradient": [
+    [
+      26.0,
+      -24.0
+    ]
+  ],
+  "runs": [
+    {
+      "eta": 0.02,
+      "factors": [
+        0.98,
+        0.5
+      ],
+      "initial_loss": 26.0,
+      "first_loss": 7.2104,
+      "final_loss": 0.08853787272595758
+    },
+    {
+      "eta": 0.04,
+      "factors": [
+        0.96,
+        0.0
+      ],
+      "initial_loss": 26.0,
+      "first_loss": 0.9216000000000003,
+      "final_loss": 0.007456722216934438
+    },
+    {
+      "eta": 0.075,
+      "factors": [
+        0.925,
+        -0.875
+      ],
+      "initial_loss": 26.0,
+      "first_loss": 19.996249999999996,
+      "final_loss": 8.924567282214795e-05
+    },
+    {
+      "eta": 0.08,
+      "factors": [
+        0.92,
+        -1.0
+      ],
+      "initial_loss": 26.0,
+      "first_loss": 25.846400000000003,
+      "final_loss": 25.00004513768505
+    },
+    {
+      "eta": 0.09,
+      "factors": [
+        0.91,
+        -1.25
+      ],
+      "initial_loss": 26.0,
+      "first_loss": 39.8906,
+      "final_loss": 10644899600020.291
+    }
+  ],
+  "point_curvature_counterexample": {
+    "eta": 1.0,
+    "H_at_origin": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "initial_loss": 0.0,
+    "new_point": [
+      [
+        -1.0,
+        0.0
+      ]
+    ],
+    "new_loss": 9.5
+  }
+}

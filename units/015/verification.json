@@ -1,0 +1,122 @@
+{
+  "unit": "015",
+  "title": "局部近似与优化几何",
+  "scope": "author validation only; independent review and remote publication not claimed",
+  "checked_at_utc": "2026-10-04T06:09:00Z",
+  "prerequisites": [
+    "011",
+    "013"
+  ],
+  "row_vector_shapes": {
+    "point": [
+      1,
+      2
+    ],
+    "gradient": [
+      1,
+      2
+    ],
+    "Hessian": [
+      2,
+      2
+    ]
+  },
+  "documents": {
+    "lecture": {
+      "pages": 12,
+      "sha256": "6977373e91f1dd64f37ebca84397210e017a5864a30493ef2502ce0377e789ea",
+      "rendered_and_visually_inspected_every_page": true
+    },
+    "lab": {
+      "pages": 4,
+      "sha256": "c20207bb3f6fccf041ae77179d3c007900a305411c1b7516ba92d2cf29387067",
+      "rendered_and_visually_inspected_every_page": true
+    },
+    "answers": {
+      "pages": 4,
+      "sha256": "49e469447334b23511340cb3d33d2de8d21027dc7f44d2b7b88f60bf7e596336",
+      "rendered_and_visually_inspected_every_page": true
+    }
+  },
+  "figures": {
+    "original_png_count": 10,
+    "generated_with": "make_figures.py; matplotlib Agg; explicitly registered Noto Sans CJK font",
+    "chart_data": "analytical functions and validated trajectories; no external samples"
+  },
+  "execution": {
+    "script": "passed in a fresh Python process",
+    "notebook": "13 real code cells, sequentially executed from a fresh IPython InProcessKernel process; all counts 1..13 and no cell errors",
+    "tests": "11 groups passed in a fresh process and inside Notebook",
+    "lab_python_snippets": 5,
+    "output_rows": {
+      "trajectories.csv": 305,
+      "taylor.csv": 4
+    },
+    "script_notebook_output_files_identical": 4,
+    "two_fresh_script_runs_byte_identical": true
+  },
+  "independent_author_oracles": {
+    "Fraction_scalar_fixtures": 99,
+    "Fraction_trajectory_states": 287,
+    "Taylor_remainders": "independent exact Fraction polynomial expansion, including negative increment",
+    "spectral_checks": "orthogonality, reconstruction, eigen residual and expected curvatures",
+    "boundary_checks": [
+      "strict stable interior",
+      "eta 0 fixed point",
+      "eta .08 nonzero limiting loss 25",
+      "eta .09 divergence from default initial point",
+      "eta .09 convergence from pure weak-direction initial point",
+      "eta .08005 initial descent followed by growth"
+    ],
+    "scale_check": "transformed Hessian identity, gradient equals w, one-step mapped point zero",
+    "local_counterexample": "R at origin has H=I but eta 1 raises value from 0 to 9.5"
+  },
+  "failure_coverage": [
+    "row/column shape mismatch",
+    "original bool and zero-dimensional boolean-array leaves",
+    "non-numeric and complex dtypes",
+    "nonfinite input",
+    "post-float64 conversion infinity",
+    "nonsymmetric matrix",
+    "non-SPD stability-bound request",
+    "invalid or excessive iteration count",
+    "nonfinite or non-scalar learning rate",
+    "arithmetic overflow in loss, gradient, Hessian and updates",
+    "finite-difference nonpositive or unresolvable step",
+    "finite-difference denominator overflow before callback",
+    "copied configuration causing arithmetic failure before output creation",
+    "zero iterations with eta=1e308 rejects nonfinite contraction factors before any output write",
+    "both zero and 60 iteration overflow configurations preserve all four previous output files byte-for-byte",
+    "all report numerical data and CSV/JSON serializations prepared before filesystem writes"
+  ],
+  "known_numeric_limit": "float64 rounding, cancellation and underflow still exist; a 1e-200 coordinate has a positive mathematical quadratic loss that underflows to 0 and is documented/tested as a limitation, not exact optimality",
+  "primary_sources_checked": 4,
+  "source_details": "source-checks.json and source_checks.md",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "markdown": "3.11",
+    "weasyprint": "70.0",
+    "device": "CPU"
+  },
+  "not_tested": [
+    "fresh Anaconda environment installation",
+    "cross-platform installation",
+    "Jupyter browser UI",
+    "out-of-process socket kernel transport",
+    "GPU",
+    "real neural-network training or generalization"
+  ],
+  "packaging": "include outputs and executed notebook; exclude duplicate notebook_outputs, caches, QA rasters and internal author logs",
+  "v2_visual": "Revised lecture1 rendered and viewed; lecture2-12 pixel-identical to reviewed v1; other PDFs unchanged",
+  "v2_execution": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 1.251,
+    "code_cells": 13,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14"
+  }
+}

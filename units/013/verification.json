@@ -1,0 +1,102 @@
+{
+  "unit": "013",
+  "title": "秩奇异值与条件数",
+  "prerequisites": [
+    "009"
+  ],
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "independent_review": "Pending separate course-level independent review; no remote publication by this author.",
+  "pages": {
+    "lecture": 12,
+    "lab": 4,
+    "answers": 4
+  },
+  "figures": 9,
+  "lecture_exercises": 12,
+  "lab_tasks": "A-H",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "device": "CPU",
+    "dtype": "float64"
+  },
+  "checks": {
+    "script": "Completed in fresh Python process; supplied default results retained.",
+    "tests": {
+      "status": "passed",
+      "groups": 8,
+      "test_groups": [
+        "fixed rectangular hand SVD, shapes, orthogonality, rank truncations",
+        "100 independent 80-digit Decimal 2x2 singular-value and tail oracles",
+        "28 independent Fraction nonsymmetric row-system oracles",
+        "exact rational perturbation amplification and safe direction",
+        "rank tolerance boundary, zero, singular, negative eigenvalue and repeated spectrum",
+        "explicit type/shape/range/overflow rejections and input immutability",
+        "repeat byte-identical outputs, information loss, invalid config fails before output",
+        "all Python document blocks executed in order"
+      ],
+      "decimal_fixtures": 100,
+      "fraction_solve_fixtures": 28,
+      "rejected_cases": 41,
+      "document_snippets": 5
+    },
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.234,
+      "code_cells": 13,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "All four script and notebook output files are byte-identical.",
+    "visual": "All 20 final PDF page images individually opened; final lecture page10 re-inspected after contour-label improvement, remaining pixels unchanged.",
+    "structural": "All PDF pages nonempty, no replacement glyphs or formula placeholders, no out-of-page text blocks.",
+    "sources": "Eight official/original source records checked, including LoRA full-text section4.1 and MIT Eckart-Young transcript relevant pages.",
+    "configuration": "Invalid zero epsilon and empty epsilon list rejected before creating an output directory."
+  },
+  "expected_results": {
+    "singular_values_exact": [
+      4,
+      2
+    ],
+    "rank_one": [
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ]
+    ],
+    "rank_one_frobenius_error": 2,
+    "full_reconstruction_error": 6.661338147750939e-16,
+    "worst_case_condition": 1000000,
+    "relative_right_side_change": 1e-06,
+    "relative_solution_change": 1.0,
+    "task_counterexample_relative_matrix_error": 0.009999500037496875
+  },
+  "limitations": [
+    "No fresh Anaconda/conda or cross-platform installation test",
+    "No browser Jupyter UI or out-of-process socket transport tested",
+    "Finite real float64 2D matrices only; extreme dynamic-range underflow may mimic a zero singular value",
+    "Condition-number inverse derivation limited to square invertible matrices and nonzero right side, perturbing only that right side",
+    "Synthetic mechanism examples; no task accuracy, training speed, optimizer convergence or large-model performance claims"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "374ca836752131d684c7f071e8f2cbe159b07ed34aa4ca19c96f8360a30f4fb7",
+    "lab.pdf": "9f8de5b9c4b7842722906caf951b39711f5c10237ce5ff4255592235a670e0e2",
+    "answers.pdf": "e21ec72dd359c615ddc72f8f00be2c23df65ddb69215d58f26f704fa21fb5ea4",
+    "experiment.ipynb": "6c134cff32adaaa3ad155950bf4758039527a815d166371c77f33765e22eb11c",
+    "experiment.py": "bf223a4f22c65b539cd08f9368b1df4e65d3d111ca7474c9e285350cb2ab789b",
+    "test_experiment.py": "e4bb057cbdb90ab4c0ba89e4e9a04d736aad351bf53aca2a7c7cd53b0ca25a5a",
+    "make_figures.py": "159130ba1f2825c451474ed74f93c53cacdb032a02384edd3801ac770be6ea7d",
+    "data/config.json": "a177aca6d4c18edc8bea27afc9e44be617bdd02b135ed1f53f22df0002ae0757"
+  }
+}

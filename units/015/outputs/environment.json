@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "device": "CPU",
+  "randomness": "none; seed is reserved metadata",
+  "platform_family": "Linux"
+}

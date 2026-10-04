@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened official primary sources and checked relevant content",
+  "sources": [
+    {
+      "title": "Python Floating Point Arithmetic",
+      "url": "https://docs.python.org/3/tutorial/floatingpoint.html",
+      "checked_scope": "Binary representation, display versus stored value and addition",
+      "status": "read"
+    },
+    {
+      "title": "NumPy 2.3 finfo",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.finfo.html",
+      "checked_scope": "eps, normal and subnormal ranges",
+      "status": "read"
+    },
+    {
+      "title": "SciPy logsumexp",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logsumexp.html",
+      "checked_scope": "Stable logsumexp objective; no SciPy execution dependency",
+      "status": "read"
+    },
+    {
+      "title": "OpenStax Calculus Volume 2 Taylor",
+      "url": "https://openstax.org/books/calculus-volume-2/pages/6-3-taylor-and-maclaurin-series",
+      "checked_scope": "Taylor remainder theorem referenced, cubic difference proved directly",
+      "status": "read"
+    },
+    {
+      "title": "Goldberg authorized Oracle reprint",
+      "url": "https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html",
+      "checked_scope": "Nearest rounding and relative error conditions; epsilon naming distinguished",
+      "status": "read"
+    }
+  ],
+  "originality": "Original explanation examples diagrams and code; no copied source figures"
+}

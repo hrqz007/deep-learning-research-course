@@ -1,0 +1,88 @@
+{
+  "unit": "014",
+  "title": "浮点数与稳定数值计算",
+  "prerequisites": [
+    "004",
+    "007",
+    "010"
+  ],
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "pages": {
+    "lecture": 8,
+    "lab": 3,
+    "answers": 3
+  },
+  "figures": 6,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux"
+  },
+  "checks": {
+    "script": "Fresh Python process plus unrelated-cwd rerun passed",
+    "tests": {
+      "status": "passed",
+      "groups": 9,
+      "details": [
+        "exact format eps spacing and tie-to-even checks",
+        "100 random vectors times two dtypes against independent 110-digit Decimal and exact shifts",
+        "overflow all-zero underflow and finite log-tail cases",
+        "input casting loses score difference before stable formula",
+        "rationalized sqrt Decimal reference including zero and domain endpoint",
+        "82 independent exp derivative references and nine exact cubic difference identities",
+        "23 invalid shape type domain range and step cases; source array unchanged",
+        "associativity counterexample and byte-identical repeated complete runs",
+        "6 document Python snippets execute in order"
+      ],
+      "random_vector_fixtures": 100,
+      "dtype_cases": 200,
+      "rejected_cases": 23,
+      "python_snippets": 6
+    },
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.369,
+      "code_cells": 10,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "All three script and notebook output files byte-identical",
+    "visual": "All14 pages individually viewed. Final range figure enlarged margins and lecture3 reviewed; final answers2 had angle-bracket and Markdown-asterisk wording corrected and re-viewed; all other final pages pixel-identical. Six original figures and four Notebook figure outputs inspected.",
+    "structural": "No empty pages replacement markers equation placeholders or out-of-bounds text blocks",
+    "sources": "Five official source pages checked"
+  },
+  "expected": {
+    "stable_probabilities": [
+      0.2447284711,
+      0.6652409558,
+      0.0900305732
+    ],
+    "logsumexp": 1001.4076059644444,
+    "float32_cast_probabilities": [
+      0.5,
+      0.5
+    ],
+    "rationalized_cancellation_approx": 5e-17,
+    "direct_cancellation_float64_x_1e_minus16": 0
+  },
+  "limitations": [
+    "No browser Jupyter UI or out-of-process socket transport test",
+    "No actual new Anaconda or cross-platform install test",
+    "High precision references are finite-precision calculations",
+    "Stable interface rejects nonfinite shifted differences; not full dynamic-range support",
+    "No GPU training speed accuracy or other-hardware subnormal behavior claim"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "2b3e90db84bf97fd6faa3a540fe7737c68459e559c22041415d895d444a3821c",
+    "lab.pdf": "8674c66d00cc7de710f8bd0d4f00d8078ca769a4c5aa75fb8f3cf481b2c01cda",
+    "answers.pdf": "ad90ada0d19e536899f3881fc1427bfeff6f01098a9084391ab23d9fd37e2242",
+    "experiment.ipynb": "0b110b23d6befc8c0f1759d5b3a420f1608ec032864f138647a041eea81c058b",
+    "experiment.py": "19f48c46e6849f58c3771f9b8022e1b7667ca231c01ef20239187664ffaff3dd",
+    "test_experiment.py": "bbac571ba04928319b2879c6b3ef704a567dbf446d5c1e19fda6d12efeee9aa2",
+    "make_figures.py": "10bcb07f8558e3bddc405e8d20b80fc2e7e91314081a84bb823a56fc535e8273",
+    "data/config.json": "a0b304555386c8eab567a90df3e6e0f39a0d2cc23e8bde2d5e692fb3b6e734bd"
+  }
+}
