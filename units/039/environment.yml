@@ -1,0 +1,16 @@
+name: dl-unit-039
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - torch==2.7.1
+      - matplotlib==3.10.8
+      - nbformat==5.11.1
+      - ipykernel==7.4.0
+      - jupyterlab>=4,<5
+# Actual author run: Python 3.12.14, torch 2.7.1+cpu, CPU float64.
+# CPU-only PyTorch wheels can be obtained from the official PyTorch index.
+# No fresh Anaconda solve or browser Jupyter UI check is claimed.

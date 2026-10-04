@@ -1,0 +1,228 @@
+{
+  "unit": "039",
+  "title": "损失设计失衡与校准",
+  "prerequisites": [
+    "019",
+    "021",
+    "037"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "author_boundary_revision_ready_pending_independent_review",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1,
+    "fresh_anaconda_solve_claimed": false,
+    "gpu_tested": false
+  },
+  "scientific_checks": {
+    "unittest_groups": 16,
+    "normal_optimized_unrelated_cwd_all_succeeded": true,
+    "decimal_precision_digits": 55,
+    "complete_hand_parameter_points": 2,
+    "hand_parameters": 9,
+    "per_sample_gradient_paths_compared": 36,
+    "hand_center_difference_coordinates": 18,
+    "finite_difference_step": 1e-06,
+    "finite_difference_max_abs_error": 4.187752922213406e-11,
+    "all_25_main_model_parameter_gradients_compared": true,
+    "independent_numpy_training_runs": 9,
+    "independent_numpy_updates_reconstructed": 2160,
+    "max_final_parameter_abs_error": 2.220446049250313e-16,
+    "max_training_loss_abs_error": 3.3306690738754696e-16,
+    "temperature_reference": "Independent scalar-math golden-section minimization; final NLL within1e-13 of derivative-bisection result",
+    "temperature_reference_max_beta_difference": 3.108548396468791e-08,
+    "all_162_metric_rows_independently_recomputed": true,
+    "all_45_lecture_summary_values_checked": true,
+    "sampling_expectation_and_random_denominator_counterexample_enumerated": true,
+    "runtime_event_order_checks_training_and_validation_before_test_label_parse": true
+  },
+  "experiments": {
+    "training_methods": 3,
+    "paired_algorithm_seeds": [
+      11,
+      23,
+      37
+    ],
+    "training_runs": 9,
+    "epochs_each": 240,
+    "updates": 2160,
+    "sample_presentations": 518400,
+    "training_history_rows": 2160,
+    "test_prediction_rows": 54000,
+    "metric_rows": 162,
+    "reliability_rows_including_empty_bins": 1620,
+    "validation_cost_rows": 189,
+    "data_rows": {
+      "train": 240,
+      "validation_calibration": 200,
+      "validation_decision": 200,
+      "test": 1000
+    },
+    "all_parameters_temperatures_thresholds_frozen_before_test_labels_parsed": true,
+    "test_hash_checked_before_selection_without_parsing_labels": true,
+    "hyperparameter_search": "none; one prespecified protocol for all methods",
+    "all_prespecified_runs_retained": true,
+    "frozen_plan_is_auditable_code_order_not_access_control": true
+  },
+  "reproducibility": {
+    "fresh_cli_normal": true,
+    "fresh_cli_optimized": true,
+    "fresh_cli_unrelated_cwd": true,
+    "seven_numerical_output_sha256_equal_across_replays": true,
+    "fourteen_figures_byte_identical_on_rebuild": true
+  },
+  "notebook": {
+    "total_cells": 24,
+    "code_cells": 12,
+    "error_outputs": 0,
+    "embedded_png_outputs": 4,
+    "first_cell_integrity_files": 27,
+    "corrupt_or_missing_input_classes_rejected": 4,
+    "execution": "Fresh Python process and fresh InProcessKernel; old outputs cleared and all12 code cells actually executed in order",
+    "full_nine_run_experiment_reexecuted": true,
+    "all_seven_outputs_compared_by_sha256": true,
+    "valid_unit_repository_and_explicit_environment_locators_checked": true,
+    "unrelated_directory_without_override_rejected": true,
+    "browser_ui_tested": false,
+    "socket_transport_tested": false,
+    "runtime_stderr_note": "Jupyter client local-interface discovery warning: operation not permitted. InProcessKernel completed; warning does not appear in delivered notebook cells."
+  },
+  "failure_protection": {
+    "explicit_validation_not_assert_dependent": true,
+    "boolean_string_nan_infinite_shape_label_and_invalid_option_tests": true,
+    "invalid_optimized_cli_cases_without_output": [
+      "0",
+      "-1",
+      "abc",
+      "1.5",
+      "5001"
+    ],
+    "modified_or_missing_inputs_rejected": true,
+    "corrupt_figure_results_preserve_existing_sentinel": true,
+    "large_finite_temperature_inputs_checked": true,
+    "single_file_atomic_replacement": true,
+    "multi_file_crash_atomicity_claimed": false
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 17,
+      "sha256": "886b17b021945009004fd6efcc9a0eb0d97fc35ef177d545bf50f19ae403c288",
+      "bytes": 2069068,
+      "page_text_chars": [
+        791,
+        1144,
+        780,
+        737,
+        1035,
+        794,
+        684,
+        748,
+        942,
+        688,
+        993,
+        696,
+        1183,
+        963,
+        783,
+        354,
+        574
+      ]
+    },
+    "lab": {
+      "pages": 6,
+      "sha256": "e7caa0b988d3624042ec746d28a1bff6880bac010fdcf6844d58d71f30aabc61",
+      "bytes": 541687,
+      "page_text_chars": [
+        1077,
+        1181,
+        1275,
+        1208,
+        1121,
+        418
+      ]
+    },
+    "answers": {
+      "pages": 5,
+      "sha256": "681a046bd7713159e6c8d3d5e22bebc09e9930c264bed0fff5e41499836d22e7",
+      "bytes": 632754,
+      "page_text_chars": [
+        1156,
+        1074,
+        1369,
+        1322,
+        616
+      ]
+    }
+  },
+  "visual_review": {
+    "all_final_pages_individually_inspected": true,
+    "total_final_pages": 28,
+    "lecture_pages": 17,
+    "lab_pages": 6,
+    "answers_pages": 5,
+    "page_render_long_edge_pixels": 1200,
+    "fourteen_original_figures_individually_inspected": true,
+    "changed_pages_and_figures_rerendered_and_rechecked": true,
+    "no_final_clipping_missing_glyphs_or_covered_data_found": true,
+    "artifact_operation_marker_succeeded_once_for_three_pdfs": true,
+    "boundary_revision_lecture_and_lab_pages_reinspected": 23,
+    "answers_pdf_byte_unchanged": true,
+    "boundary_revision_pdf_marker_successful_once_for_two_edits": true
+  },
+  "public_text_private_path_scan": "No workspace paths, root paths, private records or credential-like strings in deliverable text; a public system font path is used by figure source.",
+  "output_sha256": {
+    "predictions.csv": "aa976dd17d7b8f884c469902e655cfd011b4159009d5b81b51b0cae63917844d",
+    "metrics.csv": "13d1136de69dcd85047664aab312d0421e77e39bf760ae70244f8b0cb45b7d58",
+    "frozen-plan.json": "761572bcba6f60ce6dc68f1ac20369abc7914b22b8ecde8667d624e9130260ba",
+    "reliability.csv": "96a8772c925931c06454faecb8ea9b7ae8ea711bd9c2fa259d7607b5d3e6f8c3",
+    "training-history.csv": "c993f00d4ab74d127f55462d6cbfd8c0f431ead9693ab60208dd12e0553f2c4a",
+    "calculations.json": "37b43f04a5ac1b8ee4745555869ec9504a1a05db6e88e81e372fe5ba2fe82031",
+    "validation-cost-curves.csv": "f083125cbca276a12c2c59c8226b646ea79d77a11f84b9593dd4f7579247efc8"
+  },
+  "sources": "sources.md and source-checks.json",
+  "resolved_author_findings": [
+    "Added explicit CJK font registration and fallback font; final figure build emits zero missing-glyph warnings.",
+    "Replaced unmatched bracket in an image caption; all14 raster figures now appear in the lecture PDF.",
+    "Moved figure annotation and gradient legend away from plotted data and rechecked pages.",
+    "Clarified candidate-threshold chart lines only connect measured candidate points.",
+    "Prevented mixed-list booleans and handled bounded-temperature intermediate logits without unnecessarily rejecting valid inputs.",
+    "Corrected first-cell missing-data test to remove validation.csv while retaining the directory locator; missing root is tested separately."
+  ],
+  "limitations": [
+    "Author readiness is not independent QA or publication acceptance.",
+    "Fixed synthetic240/400/1000 split and three paired algorithm seeds; not independent dataset repetitions or real deployment evidence.",
+    "Moderate class imbalance,25parameter model, one learning rate/budget, and no per-method hyperparameter tuning.",
+    "No uncertainty intervals or significance claims; group sample support and bin dependence reported explicitly.",
+    "Prior correction assumes appropriate class-only reweighting/label-shift conditions and well-estimated probabilities; finite models may violate ideal relations.",
+    "Temperature fits validation NLL only and does not guarantee lower test NLL, Brier or ECE, nor groupwise calibration.",
+    "No fresh Anaconda solve, GPU run, Jupyter browser UI, or out-of-process socket transport test.",
+    "No remote publishing performed by author.",
+    "Explicit probability-local hand trace rejects logits outside [-30,30]; stable BCE has its separately declared larger input range."
+  ],
+  "numerical_boundary_revision": {
+    "weights_mean_scaled_by_max_before_sums": true,
+    "count_weighted_risk_overflow_explicitly_rejected": true,
+    "finite_after_float64_cast_required": true,
+    "hand_trace_parameter_abs_limit": 1000000.0,
+    "hand_trace_logit_abs_limit": 30,
+    "positive_label_temperature_residual": "-sigmoid(-beta*logit)",
+    "monotonic_all_correct_and_all_wrong_margins_checked_analytically": true,
+    "mixed_numerical_zero_gradients_status": "numerically_flat; retain beta=1 without asserting optimal boundary",
+    "extreme_mirror_cases": [
+      1000,
+      -1000,
+      1000000.0,
+      -1000000.0
+    ],
+    "new_regression_test_groups": 4,
+    "default_beta_threshold_parameters_predictions_and_metrics_unchanged": true,
+    "only_default_numeric_change": "16 reported temperature-gradient residuals change below 2e-17; all selected beta/temperature values unchanged"
+  }
+}

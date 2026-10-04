@@ -1154,7 +1154,16 @@
       "figure": "拟合曲线与增强所施加的假设。",
       "lab": "分别消融早停、dropout、衰减和增强；记录增强是否改变标签语义及随机性。",
       "pitfall": "把所有正则化同时加入后无法归因；把训练损失降低当正则化成功。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/037-039.json",
+      "artifacts": {
+        "lecture_pdf": "units/037/lecture.pdf",
+        "lab_pdf": "units/037/lab.pdf",
+        "answers_pdf": "units/037/answers.pdf",
+        "notebook": "units/037/experiment.ipynb",
+        "script": "units/037/experiment.py"
+      }
     },
     {
       "id": "038",
@@ -1169,7 +1178,16 @@
       "figure": "插值阈值附近的实验曲线与理论适用区域。",
       "lab": "在合成数据复现一个容量现象并变更数据噪声；写出证据支持和不支持的结论。",
       "pitfall": "把小实验中的双下降当普遍规律；用宽松泛化界预测现实分数。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/037-039.json",
+      "artifacts": {
+        "lecture_pdf": "units/038/lecture.pdf",
+        "lab_pdf": "units/038/lab.pdf",
+        "answers_pdf": "units/038/answers.pdf",
+        "notebook": "units/038/experiment.ipynb",
+        "script": "units/038/experiment.py"
+      }
     },
     {
       "id": "039",
@@ -1184,7 +1202,16 @@
       "figure": "分类边界、可靠性图与代价曲线。",
       "lab": "比较重采样、加权和阈值调整，校准参数只用验证集；分组报告准确性与校准。",
       "pitfall": "在类别重加权后直接把输出当原始分布概率；把校准当准确率提升。",
-      "status": "planned"
+      "status": "verified",
+      "checks": "passed",
+      "release_record": "releases/037-039.json",
+      "artifacts": {
+        "lecture_pdf": "units/039/lecture.pdf",
+        "lab_pdf": "units/039/lab.pdf",
+        "answers_pdf": "units/039/answers.pdf",
+        "notebook": "units/039/experiment.ipynb",
+        "script": "units/039/experiment.py"
+      }
     },
     {
       "id": "040",

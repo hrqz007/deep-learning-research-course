@@ -1,0 +1,61 @@
+{
+  "checked_date": "2026-10-04",
+  "method": "Actually opened official/author/PMLR pages using web tool; scope recorded below",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://cseweb.ucsd.edu/~elkan/rescale.pdf",
+      "title": "Elkan 2001",
+      "verified_scope": "PDF pp.1-4 prose: expected action cost, binary threshold, base-rate change; extracted formulas had missing symbols, so derivations were checked independently rather than copied",
+      "status": "read"
+    },
+    {
+      "id": "S2",
+      "url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "title": "Guo et al. 2017",
+      "verified_scope": "PDF section4.2 p6, positive common temperature, validation NLL and argmax invariance; section5 caveats",
+      "status": "read"
+    },
+    {
+      "id": "S3",
+      "url": "https://proceedings.mlr.press/v80/lipton18a.html",
+      "title": "Lipton et al. 2018",
+      "verified_scope": "Primary PMLR abstract: label marginal changes while X conditional on Y does not; BBSE not implemented",
+      "status": "read"
+    },
+    {
+      "id": "S4",
+      "url": "https://proceedings.mlr.press/v151/roelofs22a/roelofs22a.pdf",
+      "title": "Roelofs et al. 2022",
+      "verified_scope": "Primary PDF: binned ECE formula, finite sample bias and bin-count dependence",
+      "status": "read"
+    },
+    {
+      "id": "S5",
+      "url": "https://proceedings.mlr.press/v89/vaicenavicius19a/vaicenavicius19a.pdf",
+      "title": "Vaicenavicius et al. 2019",
+      "verified_scope": "Primary PDF: calibration conditional probability framework and differences between notions",
+      "status": "read"
+    },
+    {
+      "id": "S6",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.BCEWithLogitsLoss.html",
+      "title": "PyTorch 2.7 BCEWithLogitsLoss",
+      "verified_scope": "Logit stability, positive-term weights, element-count mean; actual 2.7.1 CPU numeric check",
+      "status": "read"
+    },
+    {
+      "id": "S7",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.CrossEntropyLoss.html",
+      "title": "PyTorch 2.7 CrossEntropyLoss",
+      "verified_scope": "Class-index weighted mean denominator; probability-target formula distinction",
+      "status": "read"
+    }
+  ],
+  "external_figures_reused": false,
+  "private_data_used": false,
+  "limitations": [
+    "Not a replication of cited papers datasets or neural benchmarks",
+    "No BBSE or bias-corrected ECE estimator implementation"
+  ]
+}

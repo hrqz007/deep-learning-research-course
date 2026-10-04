@@ -1,0 +1,62 @@
+{
+  "release": "037-039",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "037",
+      "pages": {
+        "lecture": 18,
+        "lab": 5,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 11,
+      "original_figures": 13
+    },
+    {
+      "id": "038",
+      "pages": {
+        "lecture": 14,
+        "lab": 3,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 14,
+      "original_figures": 12
+    },
+    {
+      "id": "039",
+      "pages": {
+        "lecture": 17,
+        "lab": 6,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 12,
+      "original_figures": 14
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "037": "Dropout fixed-mask gradient chain and all 16 mask expectations; seven single-treatment variants with three paired seeds; all 21 trajectories and retained harmful augmentation outcomes checked.",
+    "038": "Exact linear update chain and neuron-duplication gradients; 1944 SVD/ridge fits and all coefficients checked; conditional-risk decomposition, initialization null space and finite theoretical conditions checked.",
+    "039": "All 2160 training updates, 54000 predictions and 162 grouped metrics independently checked; validation temperature and threshold separation, weighting denominators and boundary-safe calibration checked."
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process; PyTorch2.7.1+cpu, float64 CPU",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No GPU, mixed-precision, distributed or arbitrary-network guarantee",
+    "Finite synthetic examples do not prove real-world generalization or causal mechanisms",
+    "037 algorithm seeds share one fixed dataset; invalid augmentation and counterexamples retained",
+    "038 capacity sweeps are finite synthetic linear fits, not universal deep-network laws; median risk is not expected risk",
+    "039 temperature optimizes validation NLL only and need not improve test ECE, Brier or all groups; probability-local hand traces explicitly bound logits to [-30,30]",
+    "Notebook displays frozen figures; figure scripts were independently rebuilt and exact bytes compared",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

@@ -1,0 +1,74 @@
+{
+  "unit": "037",
+  "checked_date": "2026-10-04",
+  "method": "Actual read of primary papers/author manuscript and versioned official documentation with web tools; numerical claims independently executed locally.",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf",
+      "checked": "PDF pp2-6, sections4-5; pp20-22, sections9-10: dropout masks, backpropagation, linear-regression marginalization, inverted convention and nonlinear limitations.",
+      "status": "read"
+    },
+    {
+      "id": "S2",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.Dropout.html",
+      "checked": "p is discard probability; training scale1/(1-p), evaluation identity; actual torch2.7.1 execution for all four mode/gradient combinations.",
+      "status": "read"
+    },
+    {
+      "id": "S3",
+      "url": "https://arxiv.org/abs/1711.05101",
+      "checked": "Author abstract/version3: standard SGD equivalence and adaptive optimizer non-equivalence; extended derivation already established in034 and independently explained here.",
+      "status": "read"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.AdamW.html",
+      "checked": "Algorithm equations and parameter-group semantics; explicit decay/lr/betas/epsilon/foreach/fused setting.",
+      "status": "read"
+    },
+    {
+      "id": "S5",
+      "url": "https://page.mi.fu-berlin.de/prechelt/Biblio/stop_tricks1997.pdf",
+      "checked": "Author manuscript sections1.2,1.3,2: nonmonotone validation, stopping rule and time/generalization tradeoff; no borrowed empirical results.",
+      "status": "read"
+    },
+    {
+      "id": "S6",
+      "url": "https://arxiv.org/pdf/1907.10905",
+      "checked": "PDF pp6,28,36-38: joint/conditional supervised invariance, approximate-invariance caveats; no theorem assumptions claimed for arbitrary networks.",
+      "status": "read"
+    },
+    {
+      "id": "S7",
+      "url": "https://arxiv.org/pdf/1512.00567",
+      "checked": "Section7 pp5-6: softmax CE derivative p-q; mixing with uniform targets; not mistaken for only-wrong-class smoothing.",
+      "status": "read"
+    },
+    {
+      "id": "S8",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.CrossEntropyLoss.html",
+      "checked": "Probability targets, reductions and label_smoothing definition; manual float64 loss compared with implementation.",
+      "status": "read"
+    },
+    {
+      "id": "S9",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/f1748d6b0fd9d439f71450117eba2725-Paper.pdf",
+      "checked": "Abstract, section3 calibration evidence and distillation limitations; no universal calibration guarantee adopted.",
+      "status": "read"
+    },
+    {
+      "id": "S10",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.no_grad.html",
+      "checked": "Disabling new gradient calculations distinguished from module mode; identity-return requires_grad edge checked by actual execution.",
+      "status": "read"
+    },
+    {
+      "id": "S11",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.Module.html#torch.nn.Module.eval",
+      "checked": "Evaluation mode is separate from autograd recording; ties to preceding unit036.",
+      "status": "read"
+    }
+  ],
+  "copyright": "Original prose, synthetic data, derivations and figures; no reproduced source figures or added license to cited works."
+}

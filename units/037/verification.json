@@ -1,0 +1,183 @@
+{
+  "unit": "037",
+  "title": "正则化与数据增强",
+  "prerequisites": [
+    "020",
+    "034",
+    "036"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "author_ready_pending_independent_review",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "dtype": "float64",
+    "device": "cpu",
+    "threads": 1,
+    "fresh_anaconda_solve_claimed": false
+  },
+  "scientific_checks": {
+    "unittest_groups": 15,
+    "normal_optimized_unrelated_cwd_all_passed": true,
+    "exact_fraction_all_nine_parameter_paths": true,
+    "hand_parameter_mask_combinations": 32,
+    "finite_difference_coordinates": 288,
+    "finite_difference_step": 1e-06,
+    "finite_difference_max_abs_error": 1.0473377720643384e-10,
+    "autograd_max_abs_error": 2.220446049250313e-16,
+    "all_697_training_parameter_gradients_compared": true,
+    "independent_numpy_training_runs": 21,
+    "independent_numpy_updates_reconstructed": 8898,
+    "max_final_parameter_abs_error": 1.0227929614359255e-14,
+    "max_epoch_ce_abs_error": 3.3306690738754696e-16,
+    "early_stop_prefix_and_restored_checkpoint_verified": true,
+    "all_test_prediction_metrics_recomputed": true,
+    "sixteen_mask_exact_expectation_and_nonlinearity_checked": true
+  },
+  "experiments": {
+    "configurations": 7,
+    "algorithm_seeds": 3,
+    "training_runs": 21,
+    "updates": 8898,
+    "sample_presentations": 142368,
+    "training_history_rows": 2987,
+    "test_prediction_rows": 8064,
+    "data_rows": {
+      "train": 48,
+      "validation": 96,
+      "test": 384
+    },
+    "test_evaluated_only_after_all_parameters_and_validation_choices_frozen": true,
+    "hyperparameter_search": "none; one prespecified isolated setting per arm",
+    "all_prespecified_runs_retained": true,
+    "early_stop_epochs": [
+      37,
+      24,
+      25
+    ],
+    "restored_epochs": [
+      17,
+      4,
+      5
+    ]
+  },
+  "reproducibility": {
+    "fresh_cli_normal": true,
+    "fresh_cli_optimized": true,
+    "fresh_cli_unrelated_cwd": true,
+    "six_numerical_output_sha256_equal_across_all_replays": true,
+    "thirteen_figures_byte_identical_on_rebuild": true
+  },
+  "notebook": {
+    "total_cells": 23,
+    "code_cells": 11,
+    "errors": 0,
+    "test_groups": 15,
+    "outputs_compared": 6,
+    "execution": "fresh Python process and fresh InProcessKernel; previous outputs cleared; 11 code cells actually executed sequentially",
+    "first_cell_integrity_files": 12,
+    "corrupt_or_missing_first_cell_cases_rejected": 4,
+    "browser_ui_tested": false,
+    "socket_transport_tested": false
+  },
+  "failure_protection": {
+    "invalid_boolean_string_nan_shape_label_and_configuration_rejected": true,
+    "missing_and_modified_input_rejected_before_output_write": true,
+    "optimized_invalid_cli_no_output_directory_created": true,
+    "corrupt_figure_input_existing_sentinel_unchanged": true,
+    "guards_use_explicit_exceptions_not_optimized_away_asserts": true,
+    "multi_file_crash_atomicity_claimed": false
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 18,
+      "sha256": "ffdbd8d04995b07775e180970332598306b16e83efcb6e651a159d7d5c46181f",
+      "bytes": 2081014,
+      "page_text_chars": [
+        959,
+        731,
+        679,
+        635,
+        915,
+        700,
+        1136,
+        1065,
+        857,
+        984,
+        1064,
+        834,
+        888,
+        1286,
+        651,
+        390,
+        1008,
+        320
+      ]
+    },
+    "lab": {
+      "pages": 5,
+      "sha256": "e9666cf2dbf467db8f34ec655de7644a993f1515ffcc08743a3bc7d31bd6d474",
+      "bytes": 476751,
+      "page_text_chars": [
+        1019,
+        1253,
+        1185,
+        1237,
+        595
+      ]
+    },
+    "answers": {
+      "pages": 5,
+      "sha256": "6bf34d42243dd83d6091d9a6070fc609bc6259158415ed158508952b4c4fc61f",
+      "bytes": 469818,
+      "page_text_chars": [
+        1029,
+        1124,
+        855,
+        1142,
+        337
+      ]
+    }
+  },
+  "visual_review": {
+    "every_page_individually_viewed": true,
+    "total_final_pages": 28,
+    "lecture_pages": 18,
+    "lab_pages": 5,
+    "answers_pages": 5,
+    "original_figures_individually_viewed": 13,
+    "render_long_edge_pixels": 1200,
+    "clipping_overlap_missing_glyphs_not_found_in_final_images": true,
+    "changed_pages_re_rendered_and_re_viewed": true,
+    "artifact_creation_marker_succeeded_once_for_three_pdfs": true
+  },
+  "public_text_private_path_scan": "passed",
+  "sources": "sources.md and source-checks.json",
+  "output_sha256": {
+    "ablation.csv": "865d113108e413e1dae3403833434a030ade7294a43ccde7d984972dc99cf190",
+    "calculations.json": "d386873d1be294a5a348d9a8106fcf044bac4a4133ac8ea4bd015d6112045d67",
+    "decision-grid.json": "688f807278eafd452f2484d9ea6aeddda70769daa843d12ab01b8130461fc4f5",
+    "run-details.json": "987d5681fb9359f80d8fd6b3e13f1de4780fd567465c25bfdda8eae3806547be",
+    "test-predictions.csv": "4629468540912f4bb9f78ecd71cf012ebe476b00b9c8b0213e591c647166675d",
+    "training-history.csv": "be857fb73bbe4bae26d23d00d66afe0b6f067d2171e8545c2b5a38516e3588a6"
+  },
+  "resolved_author_findings": [
+    "Initial label-smoothing manual target had default float32 precision; changed to explicit float64 and reran all numerical outputs and tests.",
+    "Closed CSV handles to remove ResourceWarnings and implementation paths from notebook output.",
+    "Wrapped inline mathematical notation and removed a literal line-break escape before final PDF rendering."
+  ],
+  "limitations": [
+    "Author readiness is not independent QA or publication acceptance.",
+    "Synthetic 48/96/384 dataset and three paired algorithm seeds, not independent dataset repeats or real-world performance.",
+    "Fixed per-arm settings were not tuned; no factorial combinations or interaction study.",
+    "No statistical significance or universal calibration/generalization guarantee claimed.",
+    "Brier is not a calibration-only metric.",
+    "No GPU, mixed precision, browser Jupyter UI, out-of-process socket transport or fresh Anaconda solve was tested.",
+    "Directly read test CSV bytes for integrity before fitting; test values were absent from training and selection interfaces.",
+    "Each output replacement is atomic but the set of files is not a crash-atomic transaction."
+  ]
+}

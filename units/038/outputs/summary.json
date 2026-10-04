@@ -1,0 +1,55 @@
+{
+  "n": 24,
+  "widths": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    12,
+    16,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    32,
+    48,
+    72,
+    96
+  ],
+  "noise_levels": [
+    0.0,
+    0.2,
+    0.8
+  ],
+  "ridges": [
+    0.0,
+    0.01,
+    0.1
+  ],
+  "seeds": [
+    3800,
+    3801,
+    3802,
+    3803,
+    3804,
+    3805,
+    3806,
+    3807,
+    3808,
+    3809,
+    3810,
+    3811
+  ],
+  "fit_count": 1944,
+  "fixture_sha256": "5918bdbd00997445ba621d8c0b95e989042535bb6bb5e6c93ed3eb89ddb8a90e",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.7.1+cpu",
+  "device": "CPU",
+  "dtype": "float64",
+  "interpretation": "Fixed 12 design/noise draws; exact clean population risk for known isotropic synthetic target. No real-world test ranking."
+}
