@@ -308,7 +308,7 @@
       "figure": "割线到切线；局部近似与有限步长误差。",
       "lab": "比较解析导数和中心差分，扫描步长；用数值积分核对简单函数。",
       "pitfall": "认为导数在不光滑点总存在；把有限差分误差当模型梯度错误。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/010/lecture.pdf",
         "lab_pdf": "units/010/lab.pdf",
@@ -317,7 +317,15 @@
         "script": "units/010/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/010-012.json"
+      "release_record": "releases/010-012.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "22d38a0b1a99831936fde155a5c8e37b32fa65c8",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 28,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "011",
@@ -331,7 +339,7 @@
       "figure": "等高线、梯度方向与分支计算图。",
       "lab": "手算二参数复合损失并与有限差分核验；解释负梯度只是局部下降信息。",
       "pitfall": "混淆偏导与总导数；漏掉同一变量的多条影响路径。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/011/lecture.pdf",
         "lab_pdf": "units/011/lab.pdf",
@@ -340,7 +348,15 @@
         "script": "units/011/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/010-012.json"
+      "release_record": "releases/010-012.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "22d38a0b1a99831936fde155a5c8e37b32fa65c8",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 29,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "012",
@@ -353,7 +369,7 @@
       "figure": "完整雅可比与乘积传播的内存对比。",
       "lab": "对一个二层批次网络手算各参数梯度及shape；用数值差分交叉核验。",
       "pitfall": "不注明求导布局；把逐元素乘法、外积和矩阵乘法混用。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/012/lecture.pdf",
         "lab_pdf": "units/012/lab.pdf",
@@ -362,7 +378,15 @@
         "script": "units/012/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/010-012.json"
+      "release_record": "releases/010-012.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "22d38a0b1a99831936fde155a5c8e37b32fa65c8",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 26,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "013",
@@ -375,7 +399,7 @@
       "figure": "椭球变换、奇异值谱与低秩截断误差。",
       "lab": "对小矩阵做SVD并重构，比较不同秩误差；展示小扰动被放大的病态例子。",
       "pitfall": "认为低秩一定不损失任务信息；把条件数当成所有训练困难的解释。",
-      "status": "in_review"
+      "status": "verified"
     },
     {
       "id": "014",
