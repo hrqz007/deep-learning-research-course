@@ -402,7 +402,7 @@
       "figure": "椭球变换、奇异值谱与低秩截断误差。",
       "lab": "对小矩阵做SVD并重构，比较不同秩误差；展示小扰动被放大的病态例子。",
       "pitfall": "认为低秩一定不损失任务信息；把条件数当成所有训练困难的解释。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/013/lecture.pdf",
         "lab_pdf": "units/013/lab.pdf",
@@ -411,7 +411,15 @@
         "script": "units/013/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/013-015.json"
+      "release_record": "releases/013-015.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8590178117a9bf4e3678331e6d1857d5cbff9fa3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 30,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "014",
@@ -426,7 +434,7 @@
       "figure": "动态范围、误差随步长变化的曲线。",
       "lab": "复现softmax溢出并用稳定实现修复；记录不同dtype的误差与有限值检查。",
       "pitfall": "把更低精度等同于无损加速；只在正常输入上测试。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/014/lecture.pdf",
         "lab_pdf": "units/014/lab.pdf",
@@ -435,7 +443,15 @@
         "script": "units/014/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/013-015.json"
+      "release_record": "releases/013-015.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8590178117a9bf4e3678331e6d1857d5cbff9fa3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 25,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "015",
@@ -449,7 +465,7 @@
       "figure": "狭长谷地中的迭代轨迹及Hessian主方向。",
       "lab": "在可解析二维二次函数上推导步长稳定范围并验证；区别局部下降和全局最优保证。",
       "pitfall": "把非凸网络的训练成功解释成已证明全局收敛。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/015/lecture.pdf",
         "lab_pdf": "units/015/lab.pdf",
@@ -458,7 +474,15 @@
         "script": "units/015/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/013-015.json"
+      "release_record": "releases/013-015.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "8590178117a9bf4e3678331e6d1857d5cbff9fa3",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 31,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "016",
