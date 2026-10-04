@@ -1,0 +1,49 @@
+{
+  "affine_best_accuracy": 0.75,
+  "affine_best_loss": {
+    "accuracy": 0.5,
+    "bias": 0,
+    "family": "affine",
+    "loss": 0.6931471805599453,
+    "scale": "",
+    "w1": 0,
+    "w2": 0
+  },
+  "affine_candidate_count": 125,
+  "center_absolute_difference_logit": -1.0,
+  "center_triangle_logit": 1.0,
+  "collapsed_bias": [
+    3.0
+  ],
+  "collapsed_weight": [
+    [
+      -2.0
+    ],
+    [
+      -2.0
+    ]
+  ],
+  "identity_same_parameters": {
+    "accuracy": 0.75,
+    "loss": 0.9970931035321028
+  },
+  "parameter_count_2_2_1": 9,
+  "parameter_count_2_3_2_1": 20,
+  "relu_best_loss": {
+    "accuracy": 1.0,
+    "bias": "",
+    "family": "relu_scale",
+    "loss": 0.00033540637289576885,
+    "scale": 8,
+    "w1": "",
+    "w2": ""
+  },
+  "relu_candidate_count": 5,
+  "relu_scale1": {
+    "accuracy": 1.0,
+    "loss": 0.31326168751822286
+  },
+  "sample_count": 4,
+  "schema": 1,
+  "scope": "Synthetic four-corner truth table; candidate search, not unconstrained training or generalization evidence."
+}

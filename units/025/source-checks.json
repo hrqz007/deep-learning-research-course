@@ -1,0 +1,42 @@
+{
+  "checked_date": "2026-10-04",
+  "policy": "Primary author papers or official documentation only; original exposition, synthetic examples and figures. No source content copied as a substitute for the lecture.",
+  "sources": [
+    {
+      "title": "NumPy matmul",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.matmul.html",
+      "checked_claim": "Official API: 2-D matrix product, shape signatures and distinction from elementwise multiplication.",
+      "access_note": "Opened full official page via web tool on 2026-10-04; installed NumPy is 2.3.5, fetched stable docs currently identify a newer release."
+    },
+    {
+      "title": "NumPy maximum",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.maximum.html",
+      "checked_claim": "Official elementwise maximum, broadcasting and NaN behavior. Used only for these stable semantics.",
+      "access_note": "Opened full official page via web tool on 2026-10-04."
+    },
+    {
+      "title": "Boris Hanin 2017 v3",
+      "url": "https://arxiv.org/html/1708.02691v3",
+      "checked_claim": "Sections 1-2 and 5: expressivity, continuous functions on bounded cubes, ReLU piecewise-affine representations. No exact width/depth bound is used in the course.",
+      "access_note": "Opened author paper HTML via web tool on 2026-10-04. Distinguishes theorem conditions and output conventions."
+    },
+    {
+      "title": "Matus Telgarsky COLT 2016",
+      "url": "https://proceedings.mlr.press/v49/telgarsky16.html",
+      "checked_claim": "Official proceedings abstract establishes depth separation as a research topic; serves only as further-reading entry.",
+      "access_note": "Opened official proceedings page and abstract on 2026-10-04; full PDF was not opened and its technical theorem is not claimed as verified."
+    },
+    {
+      "title": "Python json",
+      "url": "https://docs.python.org/3/library/json.html",
+      "checked_claim": "object_pairs_hook duplicate-key handling; parse_constant; allow_nan=False strict serialization.",
+      "access_note": "Opened official documentation on 2026-10-04."
+    }
+  ],
+  "not_used": [
+    {
+      "url": "https://www.deeplearningbook.org/contents/mlp.html",
+      "reason": "Fetch failed with content-size error. Not treated as opened evidence or included in teaching citations."
+    }
+  ]
+}

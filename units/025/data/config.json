@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "affine_grid": [-2, -1, 0, 1, 2],
+  "scales": [0, 1, 2, 4, 8],
+  "threshold_logit": 0
+}

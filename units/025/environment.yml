@@ -1,0 +1,14 @@
+name: dl-unit-025
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10.8
+  - jupyterlab
+  - ipykernel
+  - nbformat
+# Installation recipe, not a tested lockfile. Core: Python + NumPy.
+# Author runtime: Python 3.12.14, NumPy 2.3.5, matplotlib 3.10.8.
+# Browser Jupyter, a freshly created Anaconda environment, and cross-platform
+# installation were not tested. Figure text needs an available CJK font.

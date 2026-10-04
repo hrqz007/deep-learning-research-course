@@ -1,0 +1,58 @@
+{
+  "release": "025-027",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "025",
+      "pages": {
+        "lecture": 13,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13,
+      "revision": "v3 exact Decimal configuration validation"
+    },
+    {
+      "id": "026",
+      "pages": {
+        "lecture": 12,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 14,
+      "revision": "v3 safe scalar operands and beginner bridges"
+    },
+    {
+      "id": "027",
+      "pages": {
+        "lecture": 11,
+        "lab": 3,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 15,
+      "revision": "v2 fixed teaching configuration and output guards"
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "025": "Exact affine-collapse and interpolation examples,independent activation/representation and candidate selection checks;Decimal validation rejects nonzero underflow and near-integer changes before computation;fixed figure and Notebook guards tested",
+    "026": "Independent symbolic computation graphs,path sums,exact scalar networks,high-precision tanh and every training update;both multiplication operands validated before calculation;shared-parameter accumulation and nonlinear derivative bridges reviewed",
+    "027": "Independent batch chain-rule gradients,parameter/input differences,per-sample sums and uneven-microbatch weighting;fixed loss reduction and shape conventions maintained;all script and Notebook results match"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No PyTorch or GPU execution claimed for these three units",
+    "Finite synthetic representation and gradient examples do not prove real-world generalization or optimization success",
+    "Input/calculation protections are not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

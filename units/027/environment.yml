@@ -1,0 +1,12 @@
+name: dl-unit-027
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10
+  - jupyterlab
+  - ipykernel
+  - nbformat
+# This is a learner environment declaration, not a newly tested Anaconda install.
+# Core experiment/test: Python + NumPy. Rebuilding Chinese figures requires Noto Sans CJK.

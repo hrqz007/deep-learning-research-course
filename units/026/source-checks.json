@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-10-04",
+  "policy": "Primary author materials and official documentation only. Original text, scalar examples, diagrams, tests and immutable-edge implementation; no copied textbook or source code.",
+  "sources": [
+    {
+      "title": "PyTorch Autograd mechanics",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/autograd.html",
+      "checked_claim": "Graph history, reverse chain rule, saved intermediates, graph recreation and non-differentiability conventions.",
+      "access_note": "Opened official documentation; relevant sections read. PyTorch was not executed. The custom teaching API deliberately returns a fresh map instead of adopting torch.Tensor.grad accumulation semantics."
+    },
+    {
+      "title": "Python math documentation",
+      "url": "https://docs.python.org/3/library/math.html",
+      "checked_claim": "Official tanh, exp, isfinite, ulp and floating-point API descriptions.",
+      "access_note": "Opened full official page. Fetched documentation currently identifies Python 3.14.8; actual executed runtime is 3.12.14 and uses APIs present there."
+    },
+    {
+      "title": "Andrej Karpathy micrograd engine",
+      "url": "https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py",
+      "raw_url": "https://raw.githubusercontent.com/karpathy/micrograd/master/micrograd/engine.py",
+      "checked_claim": "Author-maintained small scalar reverse-mode implementation as optional comparison reading.",
+      "access_note": "Read all 87 lines from the author repository raw endpoint. No code copied. This course independently implements immutable edge-local partial records, identity-based nodes, iterative DFS, and fresh returned gradient dictionaries."
+    },
+    {
+      "title": "Baydin et al., Automatic Differentiation in Machine Learning: a Survey, JMLR 18(153), 2018",
+      "url": "https://jmlr.org/papers/v18/17-468.html",
+      "checked_claim": "Official abstract distinguishes automatic differentiation and related differentiation techniques; further-reading entry only.",
+      "access_note": "Official abstract opened and read; full paper not inspected and not claimed as verified."
+    },
+    {
+      "title": "Python dataclasses",
+      "url": "https://docs.python.org/3/library/dataclasses.html",
+      "checked_claim": "Class decorator-generated methods, frozen/eq/slots and post-init behavior.",
+      "access_note": "Official documentation opened on 2026-10-04; teaching code actually executes on Python 3.12.14."
+    },
+    {
+      "title": "Python data model numeric types",
+      "url": "https://docs.python.org/3/reference/datamodel.html#emulating-numeric-types",
+      "checked_claim": "Numeric special methods and reflected operator dispatch.",
+      "access_note": "Official documentation opened on 2026-10-04; explanations linked to actual Scalar operators."
+    }
+  ]
+}

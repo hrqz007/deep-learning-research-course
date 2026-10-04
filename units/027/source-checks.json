@@ -1,0 +1,49 @@
+{
+  "checked_date": "2026-10-04",
+  "sources": [
+    {
+      "title": "NumPy Broadcasting",
+      "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+      "read_scope": "General broadcasting rules; singleton and trailing-axis rules",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "NumPy matmul",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.matmul.html",
+      "read_scope": "Parameters and Notes; 2D signature; @",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "NumPy sum",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.sum.html",
+      "read_scope": "axis, keepdims, floating-point accumulation notes",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "Stanford CS231n Backpropagation",
+      "url": "https://cs231n.github.io/optimization-2/",
+      "read_scope": "Chain rule, local backward flow, vectorized gradient discussion",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "Stanford CS231n Gradient Checks",
+      "url": "https://cs231n.github.io/neural-networks-3/",
+      "read_scope": "Gradient Checks: centered differences, relative error, kinks, step size, single-point limitations",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "PyTorch CrossEntropyLoss",
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+      "read_scope": "Class-index/probability targets, weighted mean denominators, logits shapes",
+      "status": "relevant primary-source body read"
+    },
+    {
+      "title": "PyTorch Numerical accuracy",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/numerical_accuracy.html",
+      "read_scope": "Batched computations or slice computations; floating-point non-associativity",
+      "status": "relevant primary-source body read"
+    }
+  ],
+  "execution_scope": "NumPy 2.3.5 CPU only; no PyTorch execution; docs version not runtime version",
+  "originality": "Original derivations, data, hand example, eight diagrams and program; no copied figures"
+}

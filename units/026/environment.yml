@@ -1,0 +1,13 @@
+name: dl-unit-026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - matplotlib=3.10.8
+  - jupyterlab
+  - ipykernel
+  - nbformat
+# Core script and tests use the Python standard library only.
+# Tested runtime: Python 3.12.14; plotting: matplotlib 3.10.8.
+# Recipe, not a tested lockfile. Fresh Anaconda installation, browser Jupyter
+# and out-of-process socket transport were not tested. CJK font is needed for figures.

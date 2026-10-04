@@ -1,0 +1,76 @@
+{
+  "config": {
+    "schema": 1,
+    "x": 2.0,
+    "y": 0.25,
+    "w": 0.5,
+    "b": -0.25,
+    "iterations": 40,
+    "learning_rate": 0.02
+  },
+  "initial": {
+    "x": {
+      "value": 2.0,
+      "gradient": 0.609375
+    },
+    "y": {
+      "value": 0.25,
+      "gradient": -0.8125
+    },
+    "w": {
+      "value": 0.5,
+      "gradient": 3.25
+    },
+    "b": {
+      "value": -0.25,
+      "gradient": 1.21875
+    },
+    "m": {
+      "value": 1.0,
+      "gradient": 1.21875
+    },
+    "a": {
+      "value": 0.75,
+      "gradient": 1.21875
+    },
+    "h": {
+      "value": 0.5625,
+      "gradient": 0.8125
+    },
+    "s": {
+      "value": 1.0625,
+      "gradient": 0.8125
+    },
+    "e": {
+      "value": 0.8125,
+      "gradient": 0.8125
+    },
+    "q": {
+      "value": 0.66015625,
+      "gradient": 0.5
+    },
+    "L": {
+      "value": 0.330078125,
+      "gradient": 1.0
+    }
+  },
+  "explicit_gradient": {
+    "w": 3.25,
+    "b": 1.21875,
+    "x": 0.609375,
+    "y": -0.8125
+  },
+  "node_count": 13,
+  "edge_count": 15,
+  "final": {
+    "step": 40,
+    "w": 0.242368490080261,
+    "b": -0.33110542335802723,
+    "prediction": 0.2659711453258192,
+    "loss": 0.00012753874150921865,
+    "gradient_w": 0.025785833007117207,
+    "gradient_b": 0.004907343840648991
+  },
+  "semantics": "backward returns a fresh gradient map; it does not update parameters",
+  "scope": "one synthetic scalar example, not a statistical evaluation"
+}

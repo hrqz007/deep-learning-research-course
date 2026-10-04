@@ -1,0 +1,151 @@
+{
+  "unit": "027",
+  "title": "批次反向传播与损失归约",
+  "checked_date": "2026-10-04",
+  "status": "author_verified_pending_independent_review",
+  "prerequisites": [
+    "012",
+    "024",
+    "026"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "device": "CPU",
+    "core_dependencies": "Python + NumPy; test oracles use standard-library Decimal/Fraction",
+    "framework_execution": false
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 18.373,
+    "code_cells": 15,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "embedded_pngs": 3,
+    "all_png_bytes_match_final_figure_files": true,
+    "all_five_output_bytes_match_fresh_script": true
+  },
+  "mathematical_checks": {
+    "unittest_groups": 12,
+    "decimal_forward_mode_networks": 72,
+    "decimal_precision_digits": 70,
+    "perturbed_network_full_parameter_fd_fixtures": 36,
+    "parameters_checked_per_fixture": 26,
+    "input_coordinates_checked_per_fixture": 10,
+    "fraction_affine_fixtures": 120,
+    "broadcast_original_shapes": 7,
+    "decimal_cross_entropy_cases": 150,
+    "cross_entropy_precision_digits": 100,
+    "complete_hand_network": true,
+    "batch_repetition_permutation_all_two_part_splits": true,
+    "nonzero_conversion_and_true_zero_guards": true,
+    "relu_nondifferentiable_zero_explicit": true,
+    "intentional_missing_average_double_average_wrong_axis_wrong_microbatch_detected": true
+  },
+  "failure_checks": {
+    "invalid_math_inputs": 23,
+    "bad_csv_or_json_cases": 18,
+    "fresh_process_new_and_existing_output_probes": 36,
+    "input_and_calculation_failures_preserve_old_final_outputs": true,
+    "figure_entry_guard_probes": 7,
+    "invalid_notebook_rejected_in_first_cell_before_outputs": true,
+    "input_arrays_unchanged_by_fd": true,
+    "os_multifile_atomicity_claim": false
+  },
+  "reproducibility": {
+    "fresh_script": true,
+    "fresh_optimized_process_unrelated_working_directory": true,
+    "two_lab_python_snippets_executed": true,
+    "five_outputs_byte_identical_in_tested_environment": true
+  },
+  "visual_review": {
+    "method": "Each final PDF page rendered to PNG and individually viewed; each original figure individually viewed",
+    "lecture_pages": 11,
+    "lab_pages": 3,
+    "answers_pages": 4,
+    "final_pages_viewed": 18,
+    "original_figures_viewed": 8,
+    "text_bounds_and_placeholder_checks": "all 18 pages passed",
+    "corrections": "Registered actual Noto CJK font; clarified ReLU right-limit caption; repaired label ellipsis; kept hand-gradient introduction with formula; removed orphan references-only tail",
+    "notebook_embedded_figure_review": "Three embedded PNGs byte-identical to individually viewed final figures",
+    "class_index_fix": "CE display sum uses j=0..C-1, matching zero-based labels and code. Only lecture page2 changed; re-rendered and viewed, other ten pages pixel-identical."
+  },
+  "sources": {
+    "primary_pages_actually_read": 7,
+    "record": "source-checks.json",
+    "narrative": "sources.md",
+    "runtime_docs_version_caveat": "Read NumPy stable docs displayed 2.5 and PyTorch docs 2.14; runtime was NumPy 2.3.5, no PyTorch execution"
+  },
+  "default_results": {
+    "n": 5,
+    "widths": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "activation": "tanh",
+    "parameter_count": 26,
+    "mean_loss": 1.148978865605775,
+    "sum_loss": 5.744894328028874,
+    "gradient_norm": 0.2782642895824935,
+    "sum_vs_n_mean_max_error": 1.6653345369377348e-16,
+    "samples_vs_mean_max_error": 3.469446951953614e-17,
+    "microbatch_sizes": [
+      2,
+      3
+    ],
+    "weighted_microbatch_max_error": 3.122502256758253e-17,
+    "unweighted_microbatch_max_error": 0.03307739850815247,
+    "fd_h": 1e-05,
+    "fd_max_absolute_error": 1.7971457655363565e-11,
+    "fd_max_relative_error": 1.8646326403589515e-09,
+    "fd_all_pass": true,
+    "learning_rate": 0.1,
+    "after_one_step_loss": 1.1413798716255645,
+    "scope": "synthetic fixed-batch derivative checks; no generalization or convergence claim"
+  },
+  "limits": [
+    "Synthetic derivative fixtures, not real task performance or generalization.",
+    "No newly installed Anaconda, browser Jupyter, socket transport, cross-platform, GPU or PyTorch execution tested.",
+    "Inputs already rounded to zero before entry cannot be reconstructed; calculation-time underflow remains possible.",
+    "Finite difference checks support tested local points; ReLU zero is nondifferentiable; saturation can obscure small derivatives.",
+    "Parameters at the stated domain boundary can fail central perturbation; legal configuration does not promise successful FD or loss descent.",
+    "Final file replacements are atomic per file only; no multi-file OS crash atomicity."
+  ],
+  "artifact_sha256": {
+    "README.md": "fa0c965cc4cd61c1540a9646176a9693bd6cce098157d66000dd779f73d03725",
+    "answers.md": "c162af9322fa76c676afd58cecda88bc7903ba5ef165c1acdbe0c642d53d6bb4",
+    "answers.pdf": "ccaf2f26cc42c85d5e2239d2f93501d70acc0cd3414d2e7d94a2d058cba94015",
+    "data/README.md": "38296c23260cb8bf27f39d93b13f7e74026cd62767210059b0badadaf2483109",
+    "data/batch.csv": "42807a0698a93257e6eb239ede3d1fca4c25487fabb21df777194de74ab1074d",
+    "data/config.json": "949093a235057e2a6ccc725dd703814d93c5f297bd50f5dee139f13ce2e3107f",
+    "environment.yml": "c7ca8d81dd4d785b367bfcda51ac79ce9e3c6263e9b362eb35fb1009f725192c",
+    "experiment.ipynb": "50486d22bbd63c72c3fdd1b2258f4ec1c51cf6510cfd3db793ef7e5c8fa62804",
+    "experiment.py": "6593a2da72b7898ea5b4101d247ab774ea39c089a52bb39f46146bfbb44cabba",
+    "figures/01_shapes.png": "66315cef2a6ef1904c4b30aacf97c2a92fadae224664bb0514fcf5711506bcd0",
+    "figures/02_reduction.png": "51815d059299a308228d433e783e78562a24848dbd0a9c97c05358cfed272564",
+    "figures/03_outer_products.png": "a6279fbb6592ae8f2c2464037513025ffd2bdc5637b3faeb235587f226be604e",
+    "figures/04_activations.png": "182b7a0dff9ac0d9e333c7487ed638570a15a553e2fb31a8bec9cc85c8c13b0b",
+    "figures/05_broadcast.png": "663b2bb1988c86fad0e2964cfa66e4b253b0e4db25864b2f6073c6693d3475a4",
+    "figures/06_microbatch_weights.png": "8284b8b6d702fbddb56f76a467e934385c6fa2ba975d7e7fbd1634af766ca0d8",
+    "figures/07_gradient_scales.png": "260766b63d03d7e9f3c7111208f7f354116bbdead2f2e42d54c36ad7aabb338b",
+    "figures/08_finite_difference.png": "570067828a6a34f65c26f7bd2160b8594e311a38d2e4e0f219af0c7a726798bf",
+    "lab.md": "eb17aa389e61def2b618b92acda9a240dff5cd207165a81a1d98252abc30a810",
+    "lab.pdf": "c01f7d3cac91b75a01a38086096e07b2569e281d96b6036893a11fb25e0ced8e",
+    "lecture.md": "0fff46bfd198ba0b07c83b691506cd70440530fac5d3cf83ce3db2eee3f38f65",
+    "lecture.pdf": "07120063693d19c73e67d9d2ae6013e65c73ec9d5b68c8d6e8c118b0daf0c1bf",
+    "make_figures.py": "891c487fe28a3fa038333124dbdfdffaca0c7b9990c6f989ac05d8e45e4ea73b",
+    "outputs/fd_sweep.csv": "8c0b267ef8074f210fcb44d78512b43a877919bd9154f680854404852a987443",
+    "outputs/gradients.csv": "3b67ab76187a899999ce41b66c2f585806f7a68c629ad43bd1a960ab8ecce406",
+    "outputs/sample_gradients.csv": "db1459be7b12a6b772d080ff848ff9fc423dc02126cd97c6875839d870fda3bf",
+    "outputs/summary.json": "5f2a62d010169df1a687fb6fadfe3239ba3a1f5456da44be5ea0dac1aeec21b1",
+    "outputs/tensors.json": "3ba337cf99e983816775744560613842d5fe17f022200d7dc8ac409d2399d811",
+    "source-checks.json": "bd93b2a46493afcea2ddb06aac5a0f0ffcb28c6c2001b310ede9b11146750b5a",
+    "sources.md": "8252d0dcbdc80a03a045f75b4e3fc8222e9028a0244825098451d929dcff6e1f",
+    "test_experiment.py": "00e899cb01a6df625546737baa99c9897ac602304d98e67e8fdc93af825cddef"
+  }
+}

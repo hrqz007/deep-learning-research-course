@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "x": 2.0,
+  "y": 0.25,
+  "w": 0.5,
+  "b": -0.25,
+  "iterations": 40,
+  "learning_rate": 0.02
+}

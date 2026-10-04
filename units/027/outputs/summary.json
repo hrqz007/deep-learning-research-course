@@ -1,0 +1,29 @@
+{
+  "n": 5,
+  "widths": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "activation": "tanh",
+  "parameter_count": 26,
+  "mean_loss": 1.148978865605775,
+  "sum_loss": 5.744894328028874,
+  "gradient_norm": 0.2782642895824935,
+  "sum_vs_n_mean_max_error": 1.6653345369377348e-16,
+  "samples_vs_mean_max_error": 3.469446951953614e-17,
+  "microbatch_sizes": [
+    2,
+    3
+  ],
+  "weighted_microbatch_max_error": 3.122502256758253e-17,
+  "unweighted_microbatch_max_error": 0.03307739850815247,
+  "fd_h": 1e-05,
+  "fd_max_absolute_error": 1.7971457655363565e-11,
+  "fd_max_relative_error": 1.8646326403589515e-09,
+  "fd_all_pass": true,
+  "learning_rate": 0.1,
+  "after_one_step_loss": 1.1413798716255645,
+  "scope": "synthetic fixed-batch derivative checks; no generalization or convergence claim"
+}

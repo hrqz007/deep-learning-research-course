@@ -1,0 +1,101 @@
+{
+  "unit": "026",
+  "title": "从标量计算图推导反向传播",
+  "prerequisites": [
+    "011",
+    "025"
+  ],
+  "status": "author_checked_pending_independent_review",
+  "checked_date": "2026-10-04",
+  "pages": {
+    "lecture": 12,
+    "lab": 4,
+    "answers": 4
+  },
+  "original_figures": 10,
+  "notebook": {
+    "executed": true,
+    "code_cells": 14,
+    "embedded_pngs": 3,
+    "execution_method": "Fresh Python process, real ipykernel InProcessKernel, sequential saved outputs",
+    "browser_ui_tested": false,
+    "out_of_process_socket_transport_tested": false
+  },
+  "tests": {
+    "groups": 13,
+    "fraction_forward_mode_graphs": 240,
+    "operations_per_random_graph": 24,
+    "fraction_polynomial_cases": 225,
+    "decimal_tanh_cases": 81,
+    "decimal_precision": 100,
+    "training_states_independently_rebuilt": 41,
+    "iterative_chain_nodes": 3001,
+    "malformed_configs": 17,
+    "divergent_legal_config": 1,
+    "bad_cli_processes": 18,
+    "fixed_figure_and_notebook_guard_processes": 12,
+    "document_examples": 2,
+    "document_fragments_in_context": 2,
+    "product_input_rejection_regressions": 6
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "core": "Python standard library only"
+  },
+  "run_comparison": {
+    "fresh_process_other_cwd_modes": [
+      "normal",
+      "-S",
+      "-O"
+    ],
+    "script_and_notebook_files_byte_identical": 5,
+    "notebook_images_match_source_files": 3
+  },
+  "visual_review": {
+    "all_final_pages_individually_viewed": true,
+    "pages_viewed": 20,
+    "all_figures_viewed": 10,
+    "pdf_text_outside_page": false,
+    "notes": "Corrected clipped shared-path curve and empty debugging figure, added a full backward gradient graph, ordered captions sequentially and kept the recurrence lead-in with its equation. Final pages re-rendered and individually viewed; unchanged pages checked pixel-identical to viewed earlier render. v2 adds Python syntax/identity/operator bridge; all seven changed/new lecture pages6–12 re-rendered and viewed, first five pages pixel-identical. Lab/answers and all figures remain unchanged. Final v3 further defines tanh from exponentials with domain/range/parity and quotient-rule derivation; pages9–11 re-rendered and viewed; references no longer orphaned on a separate tail page."
+  },
+  "primary_sources_actually_read": 6,
+  "scope_limits": [
+    "One synthetic scalar record, not a statistical evaluation or generalization result.",
+    "Only scalar addition, multiplication, negation, tanh and ReLU. No arrays, broadcasting or higher-order derivative graph.",
+    "Formal real-operation derivatives evaluated in floating point; not the ordinary derivative of a discretely rounded map.",
+    "Each backward call returns a fresh map; it does not mimic mutable framework .grad accumulation.",
+    "Strict type and numerical bounds; detecting some underflow does not eliminate general rounding error.",
+    "Fresh Anaconda, browser Jupyter, external socket transport and cross-platform installations were not tested.",
+    "All validation/calculation/serialization precede writes; no multi-file OS crash atomicity or hostile concurrent path defense.",
+    "Strict input/output hashes can reject platform last-digit differences.",
+    "PyTorch documentation read, but PyTorch not executed; JMLR abstract only."
+  ],
+  "outputs": [
+    {
+      "file": "outputs/summary.json",
+      "bytes": 1429,
+      "sha256": "8a71cb43f387aaa11dc1da212a741c51f23d64001a3aa1427085fdfdcff2cb39"
+    },
+    {
+      "file": "outputs/graph.csv",
+      "bytes": 293,
+      "sha256": "a47f071fdbc0d3239ff206692f9728730f3ebf9afb024336e4ae3169f1ecf64f"
+    },
+    {
+      "file": "outputs/edges.csv",
+      "bytes": 468,
+      "sha256": "d99398c6612ca984e0e5d0fc38f5e409c4eb382d4854cbc4eec93ee1132596b4"
+    },
+    {
+      "file": "outputs/gradient_check.csv",
+      "bytes": 1935,
+      "sha256": "550bea14d3433c5639d2dc7fba779e02fb4ee672d6841b51b554c0ec4dc57e5c"
+    },
+    {
+      "file": "outputs/training.csv",
+      "bytes": 5028,
+      "sha256": "2a3549610831dcab00a327ba24f05317cfcbd07862d456dd11f493886c767dd7"
+    }
+  ]
+}

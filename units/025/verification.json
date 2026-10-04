@@ -1,0 +1,115 @@
+{
+  "unit": "025",
+  "title": "多层网络与表示",
+  "prerequisites": [
+    "024"
+  ],
+  "status": "author_checked_pending_independent_review",
+  "checked_date": "2026-10-04",
+  "pages": {
+    "lecture": 13,
+    "lab": 4,
+    "answers": 4
+  },
+  "original_figures": 8,
+  "notebook": {
+    "executed": true,
+    "code_cells": 13,
+    "execution_method": "Fresh Python process; real ipykernel InProcessKernel; all code cells sequential; saved outputs; no error outputs",
+    "browser_ui_tested": false,
+    "out_of_process_socket_transport_tested": false
+  },
+  "author_tests": {
+    "groups": 12,
+    "independent_fraction_networks": 180,
+    "activations_per_network": [
+      "relu",
+      "identity"
+    ],
+    "affine_collapses_checked": 180,
+    "independent_decimal_candidates": 130,
+    "decimal_precision": 60,
+    "independent_triangle_references": 606,
+    "api_invalid_cases": 30,
+    "overflow_cases": 2,
+    "malformed_input_cases": 14,
+    "additional_checks": [
+      "hand-calculated XOR",
+      "hidden-unit permutation",
+      "same-corner different-center networks",
+      "stable extreme logit loss",
+      "forced late serialization failure before writes",
+      "symlink path rejection",
+      "fixed teaching input/results guard",
+      "repeated deterministic serialization"
+    ],
+    "extra_underflow_csv_cases": 2,
+    "cast_underflow_regression": "Nonzero extended floats +/-1e-400 rejected before float64 loss; true zeros and smallest nonzero binary64 subnormal preserved. Already-rounded Python float zero cannot reveal an earlier underflow.",
+    "json_exact_token_regression": {
+      "changed_tokens_rejected": 7,
+      "true_zero_texts_accepted": 3,
+      "old_and_new_output_isolation": true,
+      "figure_and_notebook_first_cell_isolated_processes": true,
+      "fix": "parse_float=Decimal; compare fixed values before conversion; normalize accepted config to safe known types"
+    }
+  },
+  "document_snippets": {
+    "normal_python_blocks": 3,
+    "individual_expected_failures": 3,
+    "shell_install_commands_executed": false
+  },
+  "run_comparison": {
+    "fresh_script": true,
+    "fresh_notebook": true,
+    "other_current_directory_script": true,
+    "files_compared_byte_for_byte": [
+      "summary.json",
+      "forward.csv",
+      "search.csv",
+      "depth.csv"
+    ]
+  },
+  "visual_review": {
+    "all_final_pages_individually_viewed": true,
+    "pages_viewed": 21,
+    "figure_labels_and_boundaries_checked": true,
+    "supplementary_pdf_text_bounds_check": true,
+    "notes": "Corrected two missing inline TeX escapes, combined a split truth table, moved references before exercises, and expanded figure limits so corner points remain visible. Final PDFs re-rendered and re-viewed. v3 changes no PDF or figure bytes; all 21 previously viewed pages remain byte-identical."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "primary_sources_actually_opened": 5,
+  "scope_limits": [
+    "Fully synthetic four-corner logic experiment; no real-world performance claim.",
+    "Constructed representation and exhaustive bounded candidate selection, not full-network gradient training.",
+    "Universal approximation is an existence statement with conditions, not an optimization, sample-efficiency or generalization guarantee.",
+    "Fresh Anaconda creation, browser Jupyter UI, out-of-process sockets and cross-platform installation were not tested.",
+    "Output files are fully calculated and serialized before write, but writes are not a multi-file crash transaction and do not defend against concurrent path substitution.",
+    "Strict byte checks can reject cross-platform floating-point last-digit differences."
+  ],
+  "outputs": [
+    {
+      "file": "outputs/depth.csv",
+      "sha256": "54d472a61c722ea213693630859c182271570bb61e42d94e5a89d146d204b8b5",
+      "bytes": 357
+    },
+    {
+      "file": "outputs/forward.csv",
+      "sha256": "27f7f7403768b10938163df24990c9233b5a1a0ab8fc0296b798367bbf29fc20",
+      "bytes": 402
+    },
+    {
+      "file": "outputs/search.csv",
+      "sha256": "1be36124e2b84fd5b054d3e2fd3e11ff3c9ed1d39a1ff538bfbdbf2548bff686",
+      "bytes": 5029
+    },
+    {
+      "file": "outputs/summary.json",
+      "sha256": "74fbffddedb0081a7a1f4dbf34fa1b898b79979929cd2747e9ee09eae633b615",
+      "bytes": 1006
+    }
+  ]
+}

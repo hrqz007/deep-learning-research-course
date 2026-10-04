@@ -682,7 +682,7 @@
       "figure": "配对实验、消融设计与多次试验选择偏差。",
       "lab": "预先写主指标和比较计划，报告多种子配对结果与区间；避免把训练种子当数据抽样。",
       "pitfall": "只挑最好种子；把不显著当等效；把消融相关性写成普遍因果结论。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/022/lecture.pdf",
         "lab_pdf": "units/022/lab.pdf",
@@ -691,7 +691,15 @@
         "script": "units/022/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/022-024.json"
+      "release_record": "releases/022-024.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "00a0614f867a59496ff12b5b844c5248d3245951",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 32,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "023",
@@ -707,7 +715,7 @@
       "figure": "预测到损失再到参数更新的闭环。",
       "lab": "用NumPy写线性回归，检查梯度与收敛；对照常数基线，保存固定拆分。",
       "pitfall": "基线过弱；把正规方程求逆当作稳定数值实现。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/023/lecture.pdf",
         "lab_pdf": "units/023/lab.pdf",
@@ -716,7 +724,15 @@
         "script": "units/023/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/022-024.json"
+      "release_record": "releases/022-024.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "00a0614f867a59496ff12b5b844c5248d3245951",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 30,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "024",
@@ -732,7 +748,7 @@
       "figure": "logit、概率单纯形与分类边界。",
       "lab": "从零实现二分类和多分类，与稳定库结果及有限差分比较；解释极端logit。",
       "pitfall": "先softmax再误用接收logits的损失；混淆总和损失与均值损失。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/024/lecture.pdf",
         "lab_pdf": "units/024/lab.pdf",
@@ -741,7 +757,15 @@
         "script": "units/024/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/022-024.json"
+      "release_record": "releases/022-024.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "00a0614f867a59496ff12b5b844c5248d3245951",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 31,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "025",
@@ -754,7 +778,16 @@
       "figure": "隐藏表示逐层变换及二维决策边界。",
       "lab": "手算一个两层小网络；用NumPy实现XOR并对照无非线性的网络。",
       "pitfall": "把通用逼近定理当作训练、样本效率或现实泛化保证。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/025/lecture.pdf",
+        "lab_pdf": "units/025/lab.pdf",
+        "answers_pdf": "units/025/answers.pdf",
+        "notebook": "units/025/experiment.ipynb",
+        "script": "units/025/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/025-027.json"
     },
     {
       "id": "026",
@@ -768,7 +801,16 @@
       "figure": "带数值的完整前向和反向计算图。",
       "lab": "纸笔完成一个含分支的小网络梯度，写最小标量自动微分器并通过测试。",
       "pitfall": "漏加共享路径梯度；只背反传公式而不知道目标标量是什么。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/026/lecture.pdf",
+        "lab_pdf": "units/026/lab.pdf",
+        "answers_pdf": "units/026/answers.pdf",
+        "notebook": "units/026/experiment.ipynb",
+        "script": "units/026/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/025-027.json"
     },
     {
       "id": "027",
@@ -783,7 +825,16 @@
       "figure": "前后向每个张量的shape与梯度流。",
       "lab": "写NumPy多层网络反传；逐参数有限差分与逐样本求和核验，通过相对误差测试。",
       "pitfall": "遗漏批次归约因子；把bias梯度沿错误轴求和。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/027/lecture.pdf",
+        "lab_pdf": "units/027/lab.pdf",
+        "answers_pdf": "units/027/answers.pdf",
+        "notebook": "units/027/experiment.ipynb",
+        "script": "units/027/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/025-027.json"
     },
     {
       "id": "028",
