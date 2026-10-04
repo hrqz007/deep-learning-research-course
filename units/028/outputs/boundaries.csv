@@ -1,0 +1,7 @@
+case,forward,engine_gradient,comparison,meaning
+relu_at_zero,0.0,0.0,0.5,comparison is symmetric difference; ordinary derivative does not exist
+relu_identity_at_zero,0.0,0.0,1.0,forward equals x; local ReLU conventions compose to0at0
+cube_connected,8.0,12.0,12.0,ordinary derivative of x cubed at2
+cube_with_barrier,8.0,4.0,12.0,"deliberate stopped-gradient rule, not ordinary derivative of forward x cubed"
+polynomial_first,0.28125,1.5,1.5,first derivative at0.5
+rebuilt_derivative,1.5,5.5,5.5,manual derivative expression rebuilt as graph; not automatic higher-order support

@@ -1,0 +1,35 @@
+{
+  "unregistered_parameter_names": [],
+  "unregistered_w_has_gradient": true,
+  "registered_parameter_names": [
+    "w",
+    "layers.0.weight",
+    "layers.0.bias"
+  ],
+  "shallow_state_changed": true,
+  "clone_state_unchanged": true,
+  "momentum_hand": [
+    {
+      "parameter": 0.8,
+      "buffer": 2.0
+    },
+    {
+      "parameter": 0.4,
+      "buffer": 4.0
+    }
+  ],
+  "eval_does_not_prevent_update": true,
+  "no_grad_train_dropout_changes_output": true,
+  "uneven_hand": {
+    "batch_sizes": [
+      2,
+      3
+    ],
+    "batch_means": [
+      1.0,
+      4.0
+    ],
+    "correct": 2.8,
+    "wrong_equal": 2.5
+  }
+}

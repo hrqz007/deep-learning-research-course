@@ -1,0 +1,111 @@
+{
+  "unit": "028",
+  "title": "自动微分机制与边界",
+  "prerequisites": [
+    "027",
+    "014"
+  ],
+  "status": "author_checked_pending_independent_review",
+  "checked_date": "2026-10-04",
+  "pages": {
+    "lecture": 11,
+    "lab": 3,
+    "answers": 4
+  },
+  "original_figures": 11,
+  "notebook": {
+    "executed": true,
+    "code_cells": 15,
+    "embedded_pngs": 3,
+    "execution_method": "Fresh Python process; actual ipykernel InProcessKernel, sequential cells and saved outputs",
+    "browser_ui_tested": false,
+    "external_socket_transport_tested": false
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "jax_executed": false,
+    "pytorch_executed_in_this_unit": false
+  },
+  "tests": {
+    "groups": 13,
+    "fraction_broadcast_graphs": 360,
+    "broadcast_shape_pairs": 9,
+    "independent_reduction_mappings": 14,
+    "full_finite_difference_jacobians": 40,
+    "jacobian_shape": [
+      6,
+      10
+    ],
+    "vjp_jvp_inner_product_checks": 40,
+    "decimal_tanh_points": 121,
+    "decimal_precision": 100,
+    "exact_polynomial_first_and_rebuilt_second_derivative_points": 49,
+    "iterative_chain_nodes": 2201,
+    "bad_config_fixtures": 15,
+    "true_computational_underflow_fixture": 1,
+    "bad_cli_processes": 32,
+    "fixed_figure_and_notebook_guard_processes": 12,
+    "complete_document_snippets": 3,
+    "document_fragment_executed_in_context": 1,
+    "numpy_left_operand_dispatch": true,
+    "defensive_value_copy_and_original_source_mutation": true
+  },
+  "run_comparison": {
+    "fresh_other_cwd": [
+      "normal",
+      "-O"
+    ],
+    "notebook_byte_matching_outputs": 5,
+    "embedded_pngs_byte_match_final_figures": 3
+  },
+  "visual_review": {
+    "all_final_pages_individually_viewed": true,
+    "final_pages_viewed": 18,
+    "all_original_figures_individually_viewed": true,
+    "figure_count": 11,
+    "pdf_text_outside_page": false,
+    "notes": "Improved dark heatmap text contrast, escaped Markdown multiplication signs, added Hessian definition and NumPy reflected-operator explanation, and kept exercises together. All changed final pages re-rendered and individually viewed; unchanged pages pixel-identical to earlier fully viewed render."
+  },
+  "primary_sources_actually_read": 6,
+  "scope_limits": [
+    "First-order CPU NumPy teaching engine with limited operations; no JAX/PyTorch execution in028.",
+    "Synthetic differentiation objective may be negative; not a supervised loss, training study or generalization result.",
+    "Non-smooth local conventions and detach barriers need explicit interpretation; they need not equal ordinary derivatives of equivalent forward functions.",
+    "Second derivative demonstration manually rebuilds the symbolic derivative expression; engine does not automatically construct a derivative graph.",
+    "Each vjp call returns a fresh gradient map and requires an exact-shape seed for non-scalar outputs.",
+    "Input/operation limits are separate caps, not an overall memory budget; floating rounding still occurs.",
+    "Private internal mutation is unsupported; defensive public value copies are tested.",
+    "All validation/calculation/serialization precede writes; no OS multi-file crash transaction or hostile concurrent path defense.",
+    "Fresh Anaconda installation, browser Jupyter, external socket kernels, GPU and cross-platform setups were not tested.",
+    "Strict default teaching file hashes can reject platform last-digit differences."
+  ],
+  "outputs": [
+    {
+      "file": "outputs/summary.json",
+      "bytes": 2091,
+      "sha256": "746a67c1510968d7e5856fed99a2b6dde748357e745b487b57124510f8de3c7a"
+    },
+    {
+      "file": "outputs/coordinates.csv",
+      "bytes": 1127,
+      "sha256": "084244a88755db5de003b1c5418563140fc37ab1145a8e6ea1bfc18887c8f1a1"
+    },
+    {
+      "file": "outputs/vjp.csv",
+      "bytes": 470,
+      "sha256": "405de2f8efbabd17daaafb71991eb4dac2115c9ce026238332ba9394b1f69ca4"
+    },
+    {
+      "file": "outputs/finite_difference.csv",
+      "bytes": 6837,
+      "sha256": "28d47b344b476c6f092a3162423d357d38bb064a3f80af6fa3202692ca84bddc"
+    },
+    {
+      "file": "outputs/boundaries.csv",
+      "bytes": 577,
+      "sha256": "8a2b2df0aed4bfe2dc2c8ac1d597ee6ce53f654bafe205fe4a4ff054e38707bf"
+    }
+  ]
+}

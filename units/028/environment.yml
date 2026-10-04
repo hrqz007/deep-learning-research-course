@@ -1,0 +1,14 @@
+name: dl-unit-028
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10.8
+  - jupyterlab
+  - ipykernel
+  - nbformat
+# Core and tests: Python + NumPy. No JAX/PyTorch dependency.
+# Actual author runtime: Python3.12.14 NumPy2.3.5 matplotlib3.10.8.
+# Installation recipe, not a tested cross-platform lockfile. Fresh Anaconda,
+# browser Jupyter and external socket transport were not tested.

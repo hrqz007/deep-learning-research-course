@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-04",
+  "primary_sources": [
+    {
+      "id": "S1",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.Module.html",
+      "scope_actually_read": "registration, buffers, parameters, eval, forward, shallow state_dict"
+    },
+    {
+      "id": "S2",
+      "url": "https://docs.pytorch.org/docs/2.7/data.html",
+      "scope_actually_read": "Dataset, DataLoader, generator, workers, drop_last"
+    },
+    {
+      "id": "S3",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.SGD.html",
+      "scope_actually_read": "momentum recurrence and first buffer; state dict"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.Dropout.html",
+      "scope_actually_read": "mask, scaling and eval"
+    },
+    {
+      "id": "S5",
+      "url": "https://docs.pytorch.org/tutorials/beginner/saving_loading_models.html",
+      "scope_actually_read": "state snapshots and full checkpoint; page version newer than executed runtime"
+    },
+    {
+      "id": "S6",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "scope_actually_read": "seeds, random sources, determinism and cross-platform limits"
+    },
+    {
+      "id": "S7",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.load.html",
+      "scope_actually_read": "weights_only, map_location and trusted-source warning"
+    }
+  ],
+  "installed_docstrings": [
+    "ModuleList",
+    "Parameter",
+    "ParameterList",
+    "MSELoss",
+    "Module.zero_grad"
+  ],
+  "unavailable_webpages": [
+    "ModuleList 2.7",
+    "Parameter 2.7",
+    "MSELoss 2.7"
+  ],
+  "no_unread_primary_paper_claim": true
+}

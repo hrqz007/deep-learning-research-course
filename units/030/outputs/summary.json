@@ -1,0 +1,49 @@
+{
+  "runtime": {
+    "torch": "2.7.1+cpu",
+    "python": "3.12.14",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "parameters": 17,
+  "split_sizes": {
+    "train": 45,
+    "validation": 15,
+    "test": 12
+  },
+  "epochs": 12,
+  "optimizer_steps": 84,
+  "training_examples_seen": 540,
+  "checkpoint_epoch": 4,
+  "full_resume_equal": true,
+  "best_epoch": 10,
+  "best_validation_mse": 0.045871487874647246,
+  "test_mse": 0.13905110201369023,
+  "final_validation_mse": 0.06185900239178052,
+  "ablations": {
+    "optimizer": {
+      "final_parameter_max_gap": 0.03149809046244717,
+      "same_orders": true,
+      "validation_mse": 0.062036918991123756
+    },
+    "torch_rng": {
+      "final_parameter_max_gap": 0.2416286449105305,
+      "same_orders": true,
+      "validation_mse": 0.08630222464091071
+    },
+    "loader_rng": {
+      "final_parameter_max_gap": 0.33410589685966147,
+      "same_orders": false,
+      "validation_mse": 0.049157368971609335
+    }
+  },
+  "normalization_mean": [
+    0.004444444444444478,
+    -0.13333333333333333
+  ],
+  "normalization_scale": [
+    1.3891573073958754,
+    1.2970050972229146
+  ],
+  "scope": "Synthetic CPU epoch-boundary demonstration; no cross-platform bitwise or real-task performance claim."
+}

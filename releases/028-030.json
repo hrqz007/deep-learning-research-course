@@ -1,0 +1,59 @@
+{
+  "release": "028-030",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "028",
+      "pages": {
+        "lecture": 11,
+        "lab": 3,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 15,
+      "revision": "v1 broadcast and VJP reference checks"
+    },
+    {
+      "id": "029",
+      "pages": {
+        "lecture": 11,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 14,
+      "revision": "v1 actual CPU PyTorch execution"
+    },
+    {
+      "id": "030",
+      "pages": {
+        "lecture": 14,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 15,
+      "revision": "v2 exact total-budget resume and displayed command"
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "028": "500 exact shared polynomial/broadcast graphs;70 high-precision Jacobian and duality models;rebuilt second derivatives,seed semantics,nonsmooth and detach counterexamples;15 fresh notebook cells",
+    "029": "70 high-precision networks,140 unequal microbatch reconstructions,36 parameter/input coordinates;actual PyTorch storage,gradient and history experiments;14 fresh notebook cells",
+    "030": "17 parameter and14 input high-precision derivatives,238 first-step coordinates,84 independent training updates;fresh-process full-state epoch-boundary resume and corrected displayed command;15 fresh notebook cells"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process;029-030 PyTorch2.7.1+cpu,float64 CPU",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No GPU execution;028 implements a teaching automatic-differentiation engine without framework execution",
+    "Finite synthetic examples do not prove real-world generalization or optimization success",
+    "030 does not claim multiworker,prefetch,distributed,mixed-precision,scheduler or mid-epoch restoration",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

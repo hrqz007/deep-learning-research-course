@@ -1,0 +1,184 @@
+{
+  "unit": "029",
+  "title": "PyTorch张量与autograd",
+  "checked_date": "2026-10-04",
+  "status": "author_verified_pending_independent_review",
+  "prerequisites": [
+    "004",
+    "014",
+    "028"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "matplotlib": "3.10.8",
+    "device": "cpu",
+    "primary_dtype": "float64",
+    "secondary_dtype_actually_executed": "float32",
+    "cuda_version": null,
+    "core_dependencies": "Python + NumPy + actual PyTorch, tests also use standard-library Fraction",
+    "framework_execution": true
+  },
+  "pytorch_installation": {
+    "official_cpu_wheel": "https://download-r2.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+    "wheel_sha256": "8f8b3cfc53010a4b4a3c7ecb88c212e9decc4f5eeb6af75c3c803937d2d60947",
+    "isolated_environment": true,
+    "installed_torch_hashed_files_checked_against_RECORD": 11123,
+    "installed_necessary_dependency_hashed_files_checked_against_RECORD": 730,
+    "record_hash_mismatches": 0,
+    "pip_check_passed": true,
+    "global_existing_runtime_modified": false
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 2.433,
+    "code_cells": 14,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "embedded_pngs": 3,
+    "all_png_bytes_match_final_figures": true,
+    "five_output_files_match_fresh_script": true
+  },
+  "mathematical_checks": {
+    "unittest_groups": 12,
+    "same_027_fixed_batch_and_config": true,
+    "forward_and_backward_scalar_coordinates": 197,
+    "all_26_parameter_and_10_input_gradients_compared": true,
+    "each_H_Z_dH_dZ_checked": true,
+    "independent_numpy_random_networks": 72,
+    "both_mean_and_sum_checked_per_network": true,
+    "independent_scalar_forward_fd_default_coordinates": 36,
+    "additional_random_tanh_fd_networks": 18,
+    "additional_fd_coordinates_per_network": 21,
+    "fraction_affine_fixtures": 100,
+    "all_ten_two_plus_three_partitions": true,
+    "polynomial_higher_derivative_points": 21,
+    "explicit_vector_seed_and_returned_grad_semantics": true,
+    "complete_affine_hand_example_checked": true,
+    "relu_zero_rule_compared_to_centered_difference": true
+  },
+  "semantic_probes": {
+    "tensor_clone_detach_reconstruction": true,
+    "numpy_foreign_alias_failure_and_copy_fix": true,
+    "leaf_nonleaf_and_retain_grad": true,
+    "grad_accumulation_and_graph_lifetime_distinct": true,
+    "leaf_inplace_saved_tensor_detached_alias_and_no_grad_before_backward_failures": true,
+    "identical_loss_last_gradient_with_missing_first_layer": true,
+    "train_eval_crossed_with_grad_no_grad_actually_executed": true,
+    "eval_identity_returns_existing_input_flag_caveat": true,
+    "no_grad_factory_exception": true,
+    "safe_post_backward_plain_SGD_update": true
+  },
+  "failure_checks": {
+    "invalid_math_inputs_in_tested_Linux_extended_precision_runtime": 14,
+    "fresh_optimized_bad_input_new_old_output_probes": 8,
+    "seven_figure_entry_guard_probes": true,
+    "modified_notebook_rejected_in_first_cell": true,
+    "input_nonzero_to_zero_conversion_guard": true,
+    "calculation_affine_magnitude_guard": 1000000.0,
+    "os_multifile_crash_atomicity_claim": false
+  },
+  "reproducibility": {
+    "optimized_unrelated_cwd_match": {
+      "summary.json": true,
+      "comparisons.csv": true,
+      "finite-difference.csv": true,
+      "semantic-probes.json": true,
+      "tensors.json": true
+    },
+    "fresh_optimized_bad_input_probes": 8,
+    "figure_guard_probes": 7,
+    "notebook_embedded_figures_verified": 3,
+    "bad_notebook_rejected_cell": 1,
+    "lab_python_snippets_executed": 2,
+    "unit027_ready_v1_comparison": {
+      "source_sha256": "3ba337cf99e983816775744560613842d5fe17f022200d7dc8ac409d2399d811",
+      "max_abs": 1.1102230246251565e-16,
+      "tensor_groups": 18,
+      "individual_errors": {
+        "H0": 0.0,
+        "H1": 5.551115123125783e-17,
+        "H2": 5.551115123125783e-17,
+        "Z1": 0.0,
+        "Z2": 5.551115123125783e-17,
+        "Z3": 2.7755575615628914e-17,
+        "dZ1": 3.469446951953614e-18,
+        "dZ2": 1.3877787807814457e-17,
+        "dZ3": 2.7755575615628914e-17,
+        "dW1": 6.938893903907228e-18,
+        "db1": 1.3877787807814457e-17,
+        "dW2": 1.0408340855860843e-17,
+        "db2": 2.7755575615628914e-17,
+        "dW3": 1.3877787807814457e-17,
+        "db3": 5.551115123125783e-17,
+        "p": 5.551115123125783e-17,
+        "losses": 1.1102230246251565e-16,
+        "dH0": 3.469446951953614e-18
+      },
+      "scope": "original course027 fixture comparison; not an independent QA verdict on027"
+    },
+    "fresh_optimized_unittest_process": true
+  },
+  "visual_review": {
+    "method": "Every final PDF page rendered and individually viewed; unchanged pages additionally checked pixel-identical after local revisions",
+    "lecture_pages": 11,
+    "lab_pages": 3,
+    "answers_pages": 3,
+    "total_final_pages_reviewed": 17,
+    "original_figures_individually_viewed": 8,
+    "text_bounds_and_placeholder_checks_passed": true,
+    "corrections": "Registered available CJK font explicitly; kept CE introduction with formula; moved exercises to their own page; removed orphan answer tail without deleting solutions; shortened a lab sentence to keep its coordinate explanation together",
+    "pdf_integrity": {
+      "lecture": {
+        "pages": 11,
+        "sha256": "e0045104110a38de1a3e3dfb40c5d960c063cccf1953c9497646c75855b77d77",
+        "issues": []
+      },
+      "lab": {
+        "pages": 3,
+        "sha256": "2f3e14469d3ac45a0903fe8fbb048daeabb813d537f7726448c5acb938048af9",
+        "issues": []
+      },
+      "answers": {
+        "pages": 3,
+        "sha256": "2b419b0ef0fef669d535dc382ad20f4a328c24826d8b150dda68dfd436a00868",
+        "issues": []
+      }
+    }
+  },
+  "results": {
+    "torch_version": "2.7.1+cpu",
+    "numpy_version": "2.3.5",
+    "device": "cpu",
+    "dtype": "float64",
+    "shape": [
+      5,
+      2,
+      3,
+      2,
+      3
+    ],
+    "parameter_count": 26,
+    "comparison_coordinates": 197,
+    "comparison_all_pass": true,
+    "comparison_max_abs": 2.220446049250313e-16,
+    "loss": 1.148978865605775,
+    "fd_coordinates": 36,
+    "fd_max_abs": 1.4594110642196512e-11,
+    "float32_loss": 1.1489789485931396,
+    "float32_vs_float64_gradient_max_abs": 2.375191784920183e-08,
+    "scope": "synthetic CPU numerical/semantic checks, not training quality or cross-platform bitwise guarantees"
+  },
+  "limitations": [
+    "Only small synthetic CPU derivative and semantic experiments; no convergence, generalization or real task performance claim",
+    "No newly tested Anaconda installation, browser Jupyter interface, socket transport, GPU or cross-platform installation",
+    "Floating point results and RuntimeError text can vary by library version/device; no cross-platform byte equality claim",
+    "Notebook and figure entry points require fixed input/report hashes; exploration must use separate files/functions",
+    "Extended-precision nonzero conversion checks depend on a platform providing wider longdouble; already-lost caller information cannot be recovered",
+    "Calculation underflow remains possible; central differences may reject perturbations beyond input/parameter boundaries",
+    "All input/calculation/serialization precede writes; replacements are per-file, not one multi-file crash transaction"
+  ]
+}

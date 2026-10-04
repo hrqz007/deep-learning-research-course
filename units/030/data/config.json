@@ -1,0 +1,14 @@
+{
+  "epochs": 12,
+  "checkpoint_epoch": 4,
+  "batch_size": 7,
+  "hidden": 4,
+  "dropout": 0.25,
+  "learning_rate": 0.04,
+  "momentum": 0.8,
+  "seed": 300,
+  "loader_seed": 301,
+  "dtype": "float64",
+  "num_workers": 0,
+  "drop_last": false
+}

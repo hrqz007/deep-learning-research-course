@@ -1,0 +1,80 @@
+{
+  "checked_date": "2026-10-04",
+  "sources": [
+    {
+      "title": "PyTorch tensor",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.tensor.html",
+      "read_scope": "copy construction; detached new leaf; dtype/device",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch from_numpy",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.from_numpy.html",
+      "read_scope": "shared storage and read-only array warning",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch is_leaf",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.is_leaf.html",
+      "read_scope": "leaf definition; nonleaf retain_grad",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch detach",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.detach.html",
+      "read_scope": "history cut and storage sharing",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch Tensor.to",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.to.html",
+      "read_scope": "same object if dtype/device match; conversion copy",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch backward",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.backward.html",
+      "read_scope": "gradient seed, accumulation, retain_graph/create_graph",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch autograd.grad",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.autograd.grad.html",
+      "read_scope": "VJP, returned rather than accumulated gradients; higher-order graph",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch no_grad",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.no_grad.html",
+      "read_scope": "new-operation tracking, factory-function exception, backward-mode scope",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch autograd mechanics",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/autograd.html",
+      "read_scope": "history and saved tensors; grad modes and eval; inplace version checks",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch CrossEntropyLoss",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.CrossEntropyLoss.html",
+      "read_scope": "logits/class-index target, reduction and class-weight denominator",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch numerical accuracy",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/numerical_accuracy.html",
+      "read_scope": "floating-point nonassociativity and no cross-platform bitwise guarantees",
+      "status": "relevant official documentation body read"
+    },
+    {
+      "title": "PyTorch previous versions",
+      "url": "https://pytorch.org/get-started/previous-versions/#v271",
+      "read_scope": "v2.7.1 CPU wheel installation for Linux/Windows and separate OSX instructions",
+      "status": "official relevant installation section read"
+    }
+  ],
+  "runtime": "PyTorch2.7.1+cpu, NumPy2.3.5, Python3.12.14; actual CPU execution",
+  "additional_local_primary_docs": "Installed torch.clone and Tensor.retain_grad docstrings checked against actual installed2.7.1+cpu; web retain_grad page unavailable",
+  "originality": "Original Chinese exposition, hand calculations, diagrams and scripts; fixed data/config reused from same course027"
+}

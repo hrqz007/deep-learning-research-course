@@ -1,0 +1,42 @@
+{
+  "checked_date": "2026-10-04",
+  "policy": "Primary official documentation only; all derivations, examples, figures and engine implementation independently authored.",
+  "sources": [
+    {
+      "title": "NumPy Broadcasting",
+      "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+      "checked_claim": "Right-aligned shape compatibility and conceptual coordinate reuse; adjoint derivation independently written here.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    },
+    {
+      "title": "NumPy sum",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.sum.html",
+      "checked_claim": "axis tuples, negative axes, keepdims, floating summation limitations.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    },
+    {
+      "title": "JAX vjp",
+      "url": "https://docs.jax.dev/en/latest/_autosummary/jax.vjp.html",
+      "checked_claim": "Output-shaped cotangents and returned input-shaped VJP; documentation only, no JAX execution.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    },
+    {
+      "title": "PyTorch autograd.grad",
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.autograd.grad.html",
+      "checked_claim": "Explicit output seeds, returned gradients rather than .grad accumulation, create_graph versus retain_graph; documentation only, no PyTorch execution in028.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    },
+    {
+      "title": "JAX stop_gradient",
+      "url": "https://docs.jax.dev/en/latest/_autosummary/jax.lax.stop_gradient.html",
+      "checked_claim": "Unchanged forward value with stopped differentiation path; custom derivative interpretation, not the ordinary derivative of an unchanged forward numerical map.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    },
+    {
+      "title": "Python property",
+      "url": "https://docs.python.org/3/library/functions.html#property",
+      "checked_claim": "Getter-defined attribute access; custom Tensor property returns a defensive copy.",
+      "access_note": "Official page opened and relevant text read via web tool. NumPy stable pages currently identify2.5 and Python docs3.14.8; actual runtime uses NumPy2.3.5/Python3.12.14 and tested stable APIs."
+    }
+  ]
+}

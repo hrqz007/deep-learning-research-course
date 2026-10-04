@@ -1,0 +1,75 @@
+{
+  "unit": "030",
+  "status": "author_verified_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "runtime": {
+    "torch": "2.7.1+cpu",
+    "python": "3.12.14",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "documents": {
+    "lecture_pages": 14,
+    "lab_pages": 4,
+    "answers_pages": 4,
+    "all_final_pages_visually_inspected": true,
+    "original_figures": 10,
+    "all_figures_inspected_in_final_pages": true,
+    "pdf_bounds_and_placeholder_checks": "passed"
+  },
+  "execution": {
+    "fresh_script": "passed",
+    "optimized_unrelated_cwd_script": "passed",
+    "all_eight_report_files_byte_identical": true,
+    "fresh_process_resume_complete_final_state_json_byte_identical": true,
+    "notebook_code_cells": 15,
+    "notebook_embedded_pngs": 3,
+    "notebook_png_bytes_match_final_figures": true,
+    "kernel": "new process InProcessKernel, all cells in order; browser and socket transport not tested"
+  },
+  "scientific_checks": {
+    "unittest_groups": 12,
+    "independent_numpy_forward_models": 60,
+    "fraction_momentum_sequences": 100,
+    "updates_each_sequence": 6,
+    "complete_resume_seed_boundary_combinations": 9,
+    "complete_first_batch_trace": "all intermediate forward and backward tensors, 17 parameter gradients/updates, same-batch post-update forwards; independent NumPy and 17 coordinate finite differences",
+    "independent_numpy_backprop_all_updates": 84,
+    "maximum_gradient_error": 8.881784197001252e-16,
+    "maximum_update_error": 3.608224830031759e-16,
+    "hand_linear_example": "both updates independently checked with Fraction",
+    "test_interventions": "changed test features and labels preserve full training/selection states; validation label intervention preserves training parameters but changes evaluation logs"
+  },
+  "failure_checks": {
+    "checkpoint_corruptions_in_tests": 17,
+    "fresh_bad_data_cli_processes": 12,
+    "fresh_bad_checkpoint_cli_processes": 6,
+    "figure_guard_processes": 11,
+    "notebook_first_cell_guard_processes": 11,
+    "lab_complete_python_blocks_executed": 2,
+    "output_protection": "invalid input/calculation/serialization fails before creating or replacing output; final writes are atomic per file, not one multi-file crash transaction"
+  },
+  "limitations": [
+    "Only finite bounded synthetic CPU data and fixed report fixtures",
+    "Only completed-epoch boundaries, num_workers=0, no random data transforms",
+    "No GPU, mixed precision, scheduler, distributed/worker-prefetch, mid-batch/gradient-accumulation resume tests",
+    "No cross-platform or cross-version bitwise reproducibility guarantee",
+    "No real-task performance or generalization conclusion",
+    "Anaconda fresh install, browser Jupyter and socket transport not tested",
+    "Checkpoint reader is for trusted self-generated artifacts; weights_only is not a universal safety guarantee"
+  ],
+  "sources": "Seven official pages actually read in stated sections plus five installed docstrings; see source-verification.json",
+  "review_revision": {
+    "version": 2,
+    "changes": [
+      "Clarified that fixed 12-epoch budget has no planned epoch13; actual epoch4 resume starts at5 and ends12",
+      "Bash/zsh explicit continuation command rendered and executed in a fresh process"
+    ],
+    "changed_pdf_pages": [
+      "lab page3",
+      "answers page2"
+    ],
+    "other_pdf_pages": "pixel-identical to individually inspected previous final pages",
+    "new_process_shell_resume": "passed; complete final-state JSON byte-identical"
+  }
+}

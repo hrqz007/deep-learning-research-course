@@ -1,0 +1,23 @@
+{
+  "torch_version": "2.7.1+cpu",
+  "numpy_version": "2.3.5",
+  "device": "cpu",
+  "dtype": "float64",
+  "shape": [
+    5,
+    2,
+    3,
+    2,
+    3
+  ],
+  "parameter_count": 26,
+  "comparison_coordinates": 197,
+  "comparison_all_pass": true,
+  "comparison_max_abs": 2.220446049250313e-16,
+  "loss": 1.148978865605775,
+  "fd_coordinates": 36,
+  "fd_max_abs": 1.4594110642196512e-11,
+  "float32_loss": 1.1489789485931396,
+  "float32_vs_float64_gradient_max_abs": 2.375191784920183e-08,
+  "scope": "synthetic CPU numerical/semantic checks, not training quality or cross-platform bitwise guarantees"
+}

@@ -1,0 +1,18 @@
+name: dl-unit-030
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10.8
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cpu
+      - torch==2.7.1
+# Learner declaration, not a newly tested Anaconda install.
+# Actual execution: Linux x86_64 Python3.12.14 / NumPy2.3.5 / torch2.7.1+cpu.
+# No torchvision, torchaudio, GPU, datasets or paid API required.
+# Chinese figure rebuilding requires a local Noto Sans CJK font.

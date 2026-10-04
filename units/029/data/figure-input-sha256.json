@@ -1,0 +1,9 @@
+{
+  "data/batch.csv": "42807a0698a93257e6eb239ede3d1fca4c25487fabb21df777194de74ab1074d",
+  "data/config.json": "949093a235057e2a6ccc725dd703814d93c5f297bd50f5dee139f13ce2e3107f",
+  "outputs/comparisons.csv": "7a318fac05ef7751e81c5150ddb5387c303d12f9b64f5f40e326758d1e590a18",
+  "outputs/finite-difference.csv": "05489a5e3e033edf31511550db9d69e98385d71b69c73d30451f667e682c34b3",
+  "outputs/semantic-probes.json": "de249d1c6f6bc9f28900ae395cf8a6865e44d8832a7f91275633d5cd581c63eb",
+  "outputs/summary.json": "7bd296d4f0db7c9870ce6906b8befc1c08d0c9e07f834e5d2ce3085e370b4cc9",
+  "outputs/tensors.json": "30979bd5a8bc21fdd0b4c6730e77dad480bffd7cb3f9a6673ef8bb4f0a7e3567"
+}

@@ -1,0 +1,112 @@
+{
+  "storage": {
+    "clone_shares": false,
+    "clone_has_history": true,
+    "detach_shares": true,
+    "detach_requires_grad": false,
+    "detached_clone_shares": false
+  },
+  "leaf": {
+    "input": true,
+    "multiply": false,
+    "float_conversion": false,
+    "same_dtype_returns_same_object": true,
+    "cast_backprop": 1.0
+  },
+  "accumulation": {
+    "first": 4.0,
+    "uncleared_second": 8.0,
+    "after_clear": 4.0
+  },
+  "second_backward_error": "Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward.",
+  "leaf_inplace_error": "a leaf Variable that requires grad is being used in an in-place operation.",
+  "saved_inplace_error": "one of the variables needed for gradient computation has been modified by an inplace operation: [torch.DoubleTensor [1]], which is output 0 of AddBackward0, is at version 1; expected version 0 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).",
+  "detached_alias_error": "one of the variables needed for gradient computation has been modified by an inplace operation: [torch.DoubleTensor [1]], which is output 0 of TanhBackward0, is at version 1; expected version 0 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).",
+  "no_grad_before_backward_error": "one of the variables needed for gradient computation has been modified by an inplace operation: [torch.DoubleTensor [1]] is at version 1; expected version 0 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).",
+  "reconstructed_scalar_error": "element 0 of tensors does not require grad and does not have a grad_fn",
+  "numpy_alias": {
+    "stored_forward_loss": 4.0,
+    "gradient_after_foreign_mutation": 6.0,
+    "expected_at_original_input": 4.0,
+    "copied_tensor_gradient": 4.0,
+    "scope": "observed CPU behavior; never mutate foreign aliases between forward and backward"
+  },
+  "no_grad": {
+    "input_still_requires_grad": true,
+    "result_requires_grad": false,
+    "factory_requires_grad": true
+  },
+  "eval": {
+    "training_output": [
+      0.0,
+      0.0
+    ],
+    "training_input_grad": [
+      0.0,
+      0.0
+    ],
+    "training_no_grad_requires_grad": false,
+    "eval_output": [
+      1.0,
+      2.0
+    ],
+    "eval_requires_grad": true,
+    "eval_input_grad": [
+      1.0,
+      1.0
+    ],
+    "eval_no_grad_requires_grad": false,
+    "raw_eval_returns_input_object": true,
+    "raw_eval_input_flag_unchanged": true
+  },
+  "vjp": {
+    "seed": [
+      3.0,
+      -1.0
+    ],
+    "gradient": [
+      6.0,
+      -4.0
+    ],
+    "leaf_grad_remains_none": true
+  },
+  "higher_order": {
+    "first": 1.5,
+    "second": 5.5,
+    "leaf_grad_remains_none": true
+  },
+  "cuts": {
+    "detach": {
+      "loss_difference": 0.0,
+      "missing": [
+        "dZ1",
+        "dH0",
+        "dH1",
+        "dW1",
+        "db1"
+      ],
+      "last_weight_gradient_difference": 0.0
+    },
+    "reconstruct": {
+      "loss_difference": 0.0,
+      "missing": [
+        "dZ1",
+        "dH0",
+        "dW1",
+        "db1"
+      ],
+      "last_weight_gradient_difference": 0.0
+    }
+  },
+  "microbatch": {
+    "weighted": 4.163336342344337e-17,
+    "unweighted": 0.033077398508152445
+  },
+  "update": {
+    "before": 1.1489788656057747,
+    "after": 1.1413798716255645,
+    "parameters_still_leaf": true
+  },
+  "integer_requires_grad_error": "Only Tensors of floating point and complex dtype can require gradients",
+  "mixed_matmul_error": "expected m1 and m2 to have the same dtype, but got: float != double"
+}
