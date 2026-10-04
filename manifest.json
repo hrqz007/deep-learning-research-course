@@ -966,7 +966,7 @@
       "figure": "从数据到损失再到梯度的调试树。",
       "lab": "构建梯度检查、单批次过拟合、随机标签与输入扰动测试；提交可定位的故障报告。",
       "pitfall": "一开始就改大模型；把随机标签可拟合误当真实泛化能力。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/031/lecture.pdf",
         "lab_pdf": "units/031/lab.pdf",
@@ -975,7 +975,15 @@
         "script": "units/031/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/031-033.json"
+      "release_record": "releases/031-033.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eaf71fd16e2a4a194198cc58806d6835ecb1d657",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 35,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "032",
@@ -990,7 +998,7 @@
       "figure": "批量大小影响轨迹、噪声和吞吐的对照。",
       "lab": "固定数据顺序与预算比较全批量和SGD，分别报告步数、样本数与时间。",
       "pitfall": "不同训练预算直接比优劣；把所有批量梯度都视为无偏独立样本。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/032/lecture.pdf",
         "lab_pdf": "units/032/lab.pdf",
@@ -999,7 +1007,15 @@
         "script": "units/032/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/031-033.json"
+      "release_record": "releases/031-033.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eaf71fd16e2a4a194198cc58806d6835ecb1d657",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 37,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "033",
@@ -1012,7 +1028,7 @@
       "figure": "狭长谷地中SGD和动量路径；学习率曲线。",
       "lab": "在二次函数和小网络上比较动量、固定步长与调度；检查恢复训练后的调度一致性。",
       "pitfall": "把warmup当普遍必需；梯度累积后沿用错误的调度步数。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/033/lecture.pdf",
         "lab_pdf": "units/033/lab.pdf",
@@ -1021,7 +1037,15 @@
         "script": "units/033/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/031-033.json"
+      "release_record": "releases/031-033.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eaf71fd16e2a4a194198cc58806d6835ecb1d657",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 37,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "034",
