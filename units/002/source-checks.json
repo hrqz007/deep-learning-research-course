@@ -1,0 +1,79 @@
+{
+  "unit": "002",
+  "checked_on": "2026-10-04",
+  "method": "Actual web tool page retrieval and inspection; successful page titles/content verified, not HTTP status assertions.",
+  "sources": [
+    {
+      "title": "Anaconda installation navigation",
+      "url": "https://www.anaconda.com/docs/getting-started/installation",
+      "checked_claims": "Official current installation entry; legacy /anaconda/install redirects here.",
+      "status": "content inspected"
+    },
+    {
+      "title": "Windows graphical installer",
+      "url": "https://www.anaconda.com/docs/getting-started/anaconda/install/windows-gui-install",
+      "checked_claims": "Windows installer selection, terms, user-scoped installation guidance, Anaconda Prompt. No hands-on installation claimed.",
+      "status": "content inspected"
+    },
+    {
+      "title": "macOS graphical installer",
+      "url": "https://www.anaconda.com/docs/getting-started/anaconda/install/mac-gui-install",
+      "checked_claims": "Apple silicon installer, /opt/anaconda3 graphical route, Intel Mac builds stopped 2025-08-15; old installers archived.",
+      "status": "content inspected"
+    },
+    {
+      "title": "Linux installer",
+      "url": "https://www.anaconda.com/docs/getting-started/anaconda/install/linux-install",
+      "checked_claims": "Architecture-specific shell installer, SHA-256 verification, shell initialization, ARM caveats.",
+      "status": "content inspected"
+    },
+    {
+      "title": "Environments",
+      "url": "https://www.anaconda.com/docs/getting-started/working-with-conda/environments",
+      "checked_claims": "Named conda environments, package version requests, environment.yml creation; not a cross-platform lock.",
+      "status": "content inspected"
+    },
+    {
+      "title": "Using the Python Interpreter",
+      "url": "https://docs.python.org/3.12/tutorial/interpreter.html",
+      "checked_claims": "Interactive versus script execution, prompt distinction.",
+      "status": "content inspected"
+    },
+    {
+      "title": "An Informal Introduction to Python",
+      "url": "https://docs.python.org/3/tutorial/introduction.html",
+      "checked_claims": "Arithmetic, assignment, int/float/string, list indexing, mutation, comments; no long examples copied.",
+      "status": "content inspected"
+    },
+    {
+      "title": "More Control Flow Tools",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html",
+      "checked_claims": "if/for/range/function/return semantics supporting original calibration examples.",
+      "status": "content inspected"
+    },
+    {
+      "title": "Built-in Functions",
+      "url": "https://docs.python.org/3.12/library/functions.html",
+      "checked_claims": "print, type, len, abs and numeric conversions.",
+      "status": "content inspected"
+    },
+    {
+      "title": "The Jupyter Notebook",
+      "url": "https://jupyter-notebook.readthedocs.io/en/stable/notebook.html",
+      "checked_claims": "Kernel-backed cell execution and notebook behavior. Local browser interaction not tested.",
+      "status": "content inspected"
+    },
+    {
+      "title": "How to open JupyterLab with Miniconda",
+      "url": "https://www.anaconda.com/docs/getting-started/working-with-conda/ides/jupyterlab",
+      "checked_claims": "Reference cross-check for environment-scoped JupyterLab launch; course uses Anaconda environment.",
+      "status": "content inspected"
+    }
+  ],
+  "notes": [
+    "Legacy per-OS install URLs were inaccessible; current URLs were resolved from Anaconda official documentation index and successfully opened.",
+    "Conda manage-environments endpoints returned HTTP 429; corresponding current official Anaconda environments page was successfully inspected instead.",
+    "No Anaconda installation or terms acceptance was performed.",
+    "All calibration data, figures, exercises and explanations are original course work."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "selected_bias": 1.0,
+  "A_train_mae": 0.2,
+  "B_train_mae": 0.0,
+  "A_test_mae": 0.0,
+  "B_test_mae": 7.0,
+  "A_stress_mae": 3.0,
+  "n_train": 5,
+  "n_test": 4
+}

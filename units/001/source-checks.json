@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "Deep Learning, Chapter 1, author-hosted edition",
+      "url": "https://www.deeplearningbook.org/contents/intro.html",
+      "verified": "Opened primary author-hosted chapter; representation learning, deep function composition and scope support only.",
+      "used_in": "lecture section 7",
+      "limits": "Original synthetic calibration example, figures and calculations; no copied textbook text or images."
+    }
+  ]
+}

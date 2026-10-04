@@ -1,0 +1,8 @@
+name: dl-research-course
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab>=4,<5
+  - ipykernel>=6,<8
+# Later units declare their own numerical or framework dependencies.

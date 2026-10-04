@@ -1,0 +1,48 @@
+{
+  "release": "001-003",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "001",
+      "pages": {
+        "lecture": 8,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 6
+    },
+    {
+      "id": "002",
+      "pages": {
+        "lecture": 13,
+        "lab": 6,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 12
+    },
+    {
+      "id": "003",
+      "pages": {
+        "lecture": 10,
+        "lab": 3,
+        "answers": 2
+      },
+      "executed_notebook_code_cells": 7
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "execution_method": "Real IPython InProcessKernel in fresh Python process; sequential cell execution",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Public synthetic teaching labels, not unknown blind-test data"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

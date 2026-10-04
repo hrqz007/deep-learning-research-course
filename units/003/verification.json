@@ -1,0 +1,59 @@
+{
+  "unit": "003",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "dependencies": "Python standard library; Notebook execution uses ipykernel 7.4.0 and nbformat 5.11.1"
+  },
+  "checks": {
+    "script": "Fresh Python process, passed",
+    "notebook": "7 code cells sequentially executed in fresh process with real IPython InProcessKernel, passed",
+    "test_script": {
+      "status": "passed",
+      "test_groups": [
+        "three hand-calculated metric fixtures",
+        "empty, mismatched, nonfinite and text metric inputs rejected",
+        "instance isolation, inherited method and nonmutation",
+        "base interface and ID alignment",
+        "six malformed CSV cases rejected",
+        "three exception faults and a silent wrong denominator reproduced",
+        "integration metrics match independent hand fixtures",
+        "fresh-process import needs no data and creates no result files",
+        "same results from an unrelated working directory"
+      ]
+    },
+    "numeric_oracle": {
+      "method": "100 deterministic independently generated integer fixtures checked with Fraction arithmetic",
+      "fixture_lengths": [
+        1,
+        2,
+        3,
+        5,
+        17
+      ],
+      "status": "passed"
+    },
+    "visual": "All 10 lecture, 3 lab, 2 answer pages rendered and individually inspected. After fixing quoted dictionary keys in figure2, all unchanged rendered pages were byte-identical and changed page2 re-inspected."
+  },
+  "pages": {
+    "lecture": 10,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_metrics": {
+    "selected_bias": 1,
+    "A_train_mae": 0.2,
+    "B_train_mae": 0.0,
+    "A_test_mae": 0.0,
+    "B_test_mae": 7.0,
+    "A_stress_mae": 3.0
+  },
+  "limitations": [
+    "No Jupyter browser UI or out-of-process socket transport tested",
+    "No new Anaconda installation or cross-platform installation test",
+    "Public synthetic examples, not genuine blind evaluation"
+  ],
+  "independent_review": "Reported separately in the course release record; this file records author checks only."
+}

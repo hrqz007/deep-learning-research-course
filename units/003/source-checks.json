@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "Data structures",
+      "url": "https://docs.python.org/3.12/tutorial/datastructures.html",
+      "scope": "dictionary/list semantics",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "pathlib",
+      "url": "https://docs.python.org/3.12/library/pathlib.html",
+      "scope": "Path joining and working directory",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "csv",
+      "url": "https://docs.python.org/3.12/library/csv.html",
+      "scope": "DictReader strings/schema and newline handling",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "Errors and exceptions",
+      "url": "https://docs.python.org/3.12/tutorial/errors.html",
+      "scope": "try, except, raise and chained errors",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "Classes",
+      "url": "https://docs.python.org/3.12/tutorial/classes.html",
+      "scope": "scope, instance methods and inheritance",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "Assert statement",
+      "url": "https://docs.python.org/3.12/reference/simple_stmts.html#the-assert-statement",
+      "scope": "assert removal under optimization",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    },
+    {
+      "title": "Top-level code environment",
+      "url": "https://docs.python.org/3.12/library/__main__.html",
+      "scope": "script versus import entrypoint",
+      "verified": "Opened Python 3.12 official documentation; claims checked against relevant section"
+    }
+  ],
+  "originality": "Original calibration narrative, code, exercises, diagrams and synthetic data"
+}

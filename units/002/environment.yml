@@ -1,0 +1,7 @@
+# Cross-platform intent, not a fully pinned lock file.
+# Review the configured package channels and applicable terms before installing.
+name: dl002
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel

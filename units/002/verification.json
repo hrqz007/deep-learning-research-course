@@ -1,0 +1,203 @@
+{
+  "unit": "002",
+  "title": "Anaconda与Python第一份实验",
+  "prereq": [
+    "001"
+  ],
+  "status": "author_checks_passed",
+  "author_checks": "passed",
+  "checked_on": "2026-10-04",
+  "lecture": {
+    "pages": 13,
+    "figures": 6
+  },
+  "lab": {
+    "pages": 6
+  },
+  "answers": {
+    "pages": 4
+  },
+  "visual_review": {
+    "all_pages_rendered": true,
+    "pages": 23,
+    "method": "All final pages inspected in contact sheets; selected code, table and figure pages also opened at full page size. No clipping, missing glyphs or overlaps observed.",
+    "iteration": "Moved short six-row lab table together; removed redundant final answers section to avoid a mostly empty page; regenerated final figures and PDFs."
+  },
+  "code": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "dependencies": "standard library only",
+    "status": "passed",
+    "test_checks": 43,
+    "fresh_process_repeated_stdout": true,
+    "test_suite_from_unrelated_cwd": true,
+    "data_csv_byte_identical_to_001": true,
+    "rational_hand_table_checks": true
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 0.091,
+    "code_cells": 12,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "unit": "002",
+    "checked_on": "2026-10-04",
+    "all_execution_counts_sequential": true,
+    "saved_error_outputs": 0,
+    "self_contained": true,
+    "private_absolute_paths_in_source_or_output": false,
+    "expected_metrics_verified": true
+  },
+  "sources": "source-checks.json",
+  "limits": [
+    "This file records author checks only; independent review is recorded separately in course release records.",
+    "No Anaconda installation performed on Windows, macOS or Linux for this unit; installation routes verified against official current documentation.",
+    "Jupyter browser UI and out-of-process socket transport not tested.",
+    "Core beginner functions assume finite aligned numeric values and unique training inputs; mae rejects empty or unequal-length lists but is not a general data-validation library.",
+    "Public teaching labels are not a genuine blind test."
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 4138,
+      "sha256": "bea6743ee8fcb526d93a633f51225477c6fb5cecabe025b20be4b5560d7f446e"
+    },
+    "answers.md": {
+      "bytes": 9749,
+      "sha256": "f0a0dbbc797355e22f5c21877cc96aeb1a0b768cd7b11887e25c67e69b5f02dd"
+    },
+    "answers.pdf": {
+      "bytes": 447397,
+      "sha256": "f93f6df524eceab28b30804467c4ff1f0ad7ece30b9d21836310ca3ae45c875b"
+    },
+    "data/README.md": {
+      "bytes": 813,
+      "sha256": "513cc0653a93edef812354c940d9f465bfd51d9032442a6c45581169834ae6ff"
+    },
+    "data/stress_labels.csv": {
+      "bytes": 39,
+      "sha256": "66f14e0a486927d5bad40bbaf8fdeca7b40e04543200d11c3681dad6b1400522"
+    },
+    "data/test_inputs.csv": {
+      "bytes": 37,
+      "sha256": "13bbb631de04f961ddf0a0776830382ce5f24e8b057ea4832b75d5b4705d9697"
+    },
+    "data/test_labels.csv": {
+      "bytes": 30,
+      "sha256": "6ac4bfbafab0ab3a0f975c5997792f5fd3a20ca5a0449383b7aab9d6aeb51d72"
+    },
+    "data/train.csv": {
+      "bytes": 48,
+      "sha256": "8bde2cde546ec4f9c93aebee07ca1f2ad1e87473d57da3a6cac14825709380d8"
+    },
+    "environment.yml": {
+      "bytes": 207,
+      "sha256": "1944f69890644b936bd6d9e9d09f20d6b032b2bce44e5bdac0799e640866b201"
+    },
+    "error_examples/01_name_error.py": {
+      "bytes": 88,
+      "sha256": "0f420adfb454518d562b7b9bca279828dd2c626379e0a65d7f298e0fb88678cf"
+    },
+    "error_examples/02_type_error.py": {
+      "bytes": 89,
+      "sha256": "050980e7481f29218f6adef7b41e88c79589ef7fba115b468731bf6d05dd7302"
+    },
+    "error_examples/03_index_error.py": {
+      "bytes": 122,
+      "sha256": "8e8870337d4e01dfdd724ac7589cdbb75a6f178a45a4a046e02b061d14a341de"
+    },
+    "error_examples/04_indent_error.py": {
+      "bytes": 100,
+      "sha256": "63d3c2d427defc7e33acab5f933e756e33e7831fdce2abd98392cf5831a6fb02"
+    },
+    "error_examples/05_reset_total.py": {
+      "bytes": 250,
+      "sha256": "192fbd9228948b21c1a81ec90e6fdb0ab5033da7c5a659cc430cc39f40f6d7ee"
+    },
+    "error_examples/06_early_return.py": {
+      "bytes": 287,
+      "sha256": "631720c71a8883ed9cac759e6f290adacc80e12798c2400c1cbea06e401df6f9"
+    },
+    "experiment.ipynb": {
+      "bytes": 12903,
+      "sha256": "d2c2535c94752c4ba74c58517baa0213de4647ec72652b8feaa8c50810971d05"
+    },
+    "experiment.py": {
+      "bytes": 2796,
+      "sha256": "b568c666cbcbcc83b615c5b02dd061a72e08b538c33b186472cecedc8a2da9ac"
+    },
+    "figures/01_execution_path.png": {
+      "bytes": 109530,
+      "sha256": "596c1701f079be865e65ad176485efb7aa1d763d49c7cf0846461cafe2162d54"
+    },
+    "figures/02_assignment_time.png": {
+      "bytes": 89183,
+      "sha256": "8a09beb886a05d231e0ef8d565686faf8875fbf6d93bd3cd41a19a65ca4df787"
+    },
+    "figures/03_list_alignment.png": {
+      "bytes": 61570,
+      "sha256": "479f24c1043c461ae0c40106244e5ddfc8c5dbec8b6e917680b43d0fe16543c7"
+    },
+    "figures/04_accumulator.png": {
+      "bytes": 59222,
+      "sha256": "855487fc4ce394d2d6a2897c98607370e8aa5e6e2a8f22b22b6dcf3e33845c59"
+    },
+    "figures/05_candidate_loops.png": {
+      "bytes": 92844,
+      "sha256": "98676d2ef50e0dbf18b0ce79ca1b09e3f8a32c3f7544b272c35246c8c725f375"
+    },
+    "figures/06_notebook_state.png": {
+      "bytes": 114103,
+      "sha256": "0854a301b58ed1da6560b1e10fd783f84838b10894fc211fbe4ba62fdd425416"
+    },
+    "lab.md": {
+      "bytes": 14308,
+      "sha256": "d2dbf2046bb9229e1a270083391cc03d3c162cb0ff41db556321d412413eafa7"
+    },
+    "lab.pdf": {
+      "bytes": 485666,
+      "sha256": "1066783141bfb487f846c55249bd5a80867aa1fd838a1b988c885cc803829003"
+    },
+    "lecture.md": {
+      "bytes": 28612,
+      "sha256": "0f102ccbd588680d5014910a6062457f302f2efe446eab34bdf7246301ce00cb"
+    },
+    "lecture.pdf": {
+      "bytes": 1122025,
+      "sha256": "d5ec59058e035ebbf786fdbeb760ab70c4e3ec055a6967ddec9ece509957ea03"
+    },
+    "make_figures.py": {
+      "bytes": 6140,
+      "sha256": "7157e91ea6d4488c7ff0a318701e5474631cb160bcc56a633d097159402fd2a3"
+    },
+    "notebook-check.json": {
+      "bytes": 543,
+      "sha256": "3ff4fe44a19ea932083a6e87d1981f137a33d5246a004fcdcb6809e588d6224e"
+    },
+    "outputs/actual-result.txt": {
+      "bytes": 434,
+      "sha256": "da95d498675ba0b70773293b7c5f20e75ff6bb92ee1c1dd4028a42b4301457b1"
+    },
+    "outputs/expected-result.txt": {
+      "bytes": 373,
+      "sha256": "95775ade4ad9eca8c0cb2dd97e9567ac8da66732b2e8b52d74dde04f6a088b8e"
+    },
+    "requirements.txt": {
+      "bytes": 273,
+      "sha256": "7a45329ec776bb55c5eb983b693c34804b7a853839adf21b870fd917555f0c9a"
+    },
+    "source-checks.json": {
+      "bytes": 3899,
+      "sha256": "6dc6eea9645ca5a002a8b81a5523e94cfc938f474af64a0c163f45f0613c8c89"
+    },
+    "test-result.json": {
+      "bytes": 1272,
+      "sha256": "06299207cacfc58af7d2543be7ca422a26593f1ed0271159d29e85e834265e03"
+    },
+    "verify_experiment.py": {
+      "bytes": 4627,
+      "sha256": "0954de71ba7d717accef534263f2cbc695bfd9b3ea6dae026f3b1def0d756f51"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "selection": {
+    "bias": 1,
+    "scores": [
+      {
+        "bias": 0,
+        "train_mae": 1.2
+      },
+      {
+        "bias": 1,
+        "train_mae": 0.2
+      },
+      {
+        "bias": 2,
+        "train_mae": 0.8
+      }
+    ]
+  },
+  "lookup_fallback": 0,
+  "input_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04"
+  ],
+  "A": [
+    4.0,
+    6.0,
+    8.0,
+    10.0
+  ],
+  "B": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

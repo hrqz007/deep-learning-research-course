@@ -1,0 +1,45 @@
+{
+  "coefficient": 2,
+  "bias": 1.0,
+  "candidates": [
+    {
+      "bias": 0.0,
+      "train_mae": 1.2
+    },
+    {
+      "bias": 1.0,
+      "train_mae": 0.2
+    },
+    {
+      "bias": 2.0,
+      "train_mae": 0.8
+    }
+  ],
+  "lookup_fallback": 0,
+  "predictions": [
+    {
+      "id": "E01",
+      "x": 1.5,
+      "A": 4.0,
+      "B": 0
+    },
+    {
+      "id": "E02",
+      "x": 2.5,
+      "A": 6.0,
+      "B": 0
+    },
+    {
+      "id": "E03",
+      "x": 3.5,
+      "A": 8.0,
+      "B": 0
+    },
+    {
+      "id": "E04",
+      "x": 4.5,
+      "A": 10.0,
+      "B": 0
+    }
+  ]
+}

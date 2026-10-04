@@ -1,0 +1,4 @@
+# experiment.py and verify_experiment.py require Python standard library only.
+# No pip packages are required for the learner's script experiment.
+# Optional notebook UI/kernel: see environment.yml.
+# Optional authoring-only figures: matplotlib and a Chinese-capable font.

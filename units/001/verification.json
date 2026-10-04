@@ -1,0 +1,44 @@
+{
+  "unit": "001",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "experiment_dependencies": "standard library",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "document_renderer": "70.0",
+    "figure_matplotlib": "3.10.8"
+  },
+  "checks": {
+    "script": "fresh Python process, passed",
+    "notebook": "6 code cells, sequential fresh Python process with real IPython InProcessKernel, passed",
+    "self_tests": "11 checks passed",
+    "additional_failure_tests": "4 malformed CSV cases rejected",
+    "numeric_oracle": "Separate Fraction arithmetic from CSV gave training candidates 6/5, 1/5, 4/5 and B test=7, mean-fallback test=2; no experiment functions used for this arithmetic",
+    "visual": "All 8 lecture, 3 lab and 2 answer pages rendered and individually inspected after final changes. CJK figure font repaired before final PDFs; no clipping or missing glyphs seen."
+  },
+  "pages": {
+    "lecture": 8,
+    "lab": 3,
+    "answers": 2
+  },
+  "expected_metrics": {
+    "selected_bias": 1.0,
+    "A_train_mae": 0.2,
+    "B_train_mae": 0.0,
+    "A_test_mae": 0.0,
+    "B_test_mae": 7.0,
+    "A_stress_mae": 3.0,
+    "n_train": 5,
+    "n_test": 4
+  },
+  "limitations": [
+    "Synthetic public teaching data, not a genuine blind test",
+    "No browser Jupyter UI or out-of-process kernel transport tested; environment prohibits sockets",
+    "No fresh Anaconda installation or cross-platform installation test performed",
+    "No real device or deployment evaluation"
+  ],
+  "independent_review": "Reported separately in the course release record; this file records author checks only."
+}
