@@ -1,0 +1,14 @@
+{
+  "data/samples.json": "700c21b235136c86c6ca4f7f32ed87976028fd9334f2de169d02a375c6d163db",
+  "data/hand-example.json": "c2e88058701be66ea72f1df58355950fc0e24fc7f40287db2de14f78c42d529e",
+  "data/config.json": "0182da5e95f6cf094ca7b7c9c8dd0214160bb9032034e824051a1e5177dc5d74",
+  "outputs/batch-sampling.csv": "03dad447e6699b988a4a4377ed383fa42444248b0d2b9e1072e6f56102e7e9e9",
+  "outputs/training.csv": "ff7cfd0285a18728b376c1703504c542c403837f2c7d079383d4ac6c8ac804cf",
+  "outputs/summary.json": "de2b85e4127ba8910ee12f5dca40ba1f266bde3cf8e9cca9e6a906632d59806c",
+  "outputs/state-modes.json": "d1f114499232cfa43c1abe47d4974cdcd374bb03a86f1a1048b8f256b17988b9",
+  "outputs/batch-sensitivity.json": "682087dab7d7659e96bcd72e5ca72c0e7dcd0d9c8a8a4b82e283b631b8349b19",
+  "outputs/microbatch.json": "2a5a21778d1a54991b2175f0c421b63b04f76efb033c8c2f2ca527095c62a8ab",
+  "outputs/axes.json": "3cf80cca1c63a2b0ab68fed161a08e445e472da7e1bd976c1083de4b66607d3e",
+  "outputs/training-detail.json": "2e449f3331b053318cfcb46618aea463512adb4d061de33244da9e1dd945d682",
+  "outputs/hand-trace.json": "a43057fb70937a9eb55be882fbd24b52d5a0515fb35c2093e14295c1ff0978d3"
+}

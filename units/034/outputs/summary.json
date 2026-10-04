@@ -1,0 +1,61 @@
+{
+  "additional_diagnostic_replays": 9,
+  "candidate_configurations_per_family": 9,
+  "examples_per_run": 768,
+  "hand_after_two_steps_loss": 4.514479977940921e-05,
+  "hand_initial_loss": 0.02209999999999999,
+  "no_time_or_compute_equivalence_claim": true,
+  "runtime": {
+    "device": "cpu",
+    "dtype": "float64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "threads": 1,
+    "torch": "2.7.1+cpu"
+  },
+  "search_examples_per_family": 20736,
+  "search_runs": 81,
+  "search_steps_per_family": 2592,
+  "selected": [
+    {
+      "family": "sgd_momentum",
+      "grid_index": 3,
+      "lr": 0.03,
+      "max_seed_validation": 0.019163717609820097,
+      "mean_validation_half_mse": 0.018919500578885706,
+      "min_seed_validation": 0.018648093464858448,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adam",
+      "grid_index": 6,
+      "lr": 0.01,
+      "max_seed_validation": 0.01862668470259363,
+      "mean_validation_half_mse": 0.018355545955238087,
+      "min_seed_validation": 0.01801622940222209,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adamw",
+      "grid_index": 6,
+      "lr": 0.01,
+      "max_seed_validation": 0.01862668470259363,
+      "mean_validation_half_mse": 0.018355545955238087,
+      "min_seed_validation": 0.01801622940222209,
+      "weight_decay": 0.0
+    }
+  ],
+  "steps_per_run": 96,
+  "test_evaluations_after_selection": 9,
+  "test_means": {
+    "adam": 0.01082883266041576,
+    "adamw": 0.01082883266041576,
+    "sgd_momentum": 0.011159442021543503
+  },
+  "training_seeds": [
+    340,
+    341,
+    342
+  ],
+  "unit": "034"
+}

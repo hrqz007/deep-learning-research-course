@@ -1,0 +1,16 @@
+{
+  "sampling_seed": 3600,
+  "shuffle_seeds": [
+    360,
+    361,
+    362
+  ],
+  "batch_sizes": [
+    2,
+    4,
+    8,
+    32
+  ],
+  "repeats": 200,
+  "eps": 0.001
+}

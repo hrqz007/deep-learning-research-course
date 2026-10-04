@@ -4,7 +4,7 @@
 
 ## 已完成的完整单元
 
-当前可学习的正文、实验与练习资料为001–033；其余69个单元仍在制作，不把大纲条目当作已完成教材。
+当前可学习的正文、实验与练习资料为001–036；其余66个单元仍在制作，不把大纲条目当作已完成教材。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -41,6 +41,9 @@
 |031|梯度核验与最小调试法|[17页](units/031/lecture.pdf)|[4页](units/031/lab.pdf)|[5页](units/031/answers.pdf)|[进入单元](units/031/README.md)|
 |032|小批量随机梯度下降|[10页](units/032/lecture.pdf)|[3页](units/032/lab.pdf)|[3页](units/032/answers.pdf)|[进入单元](units/032/README.md)|
 |033|动量学习率与调度|[13页](units/033/lecture.pdf)|[4页](units/033/lab.pdf)|[4页](units/033/answers.pdf)|[进入单元](units/033/README.md)|
+|034|自适应优化器与权重衰减|[15页](units/034/lecture.pdf)|[3页](units/034/lab.pdf)|[4页](units/034/answers.pdf)|[进入单元](units/034/README.md)|
+|035|激活初始化与信号传播|[17页](units/035/lecture.pdf)|[6页](units/035/lab.pdf)|[5页](units/035/answers.pdf)|[进入单元](units/035/README.md)|
+|036|归一化与训练推理状态|[18页](units/036/lecture.pdf)|[3页](units/036/lab.pdf)|[3页](units/036/answers.pdf)|[进入单元](units/036/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -57,7 +60,7 @@
 
 001–003、006、007、010、016–022与026核心实验仅用Python标准库；004、005、008、009、011–015、023–025与027–028使用NumPy，部分Notebook或重建图需要Matplotlib和中文字体。Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
 
-这三十三个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)、[013–015核验说明](releases/013-015.json)、[016–018核验说明](releases/016-018.json)、[019–021核验说明](releases/019-021.json)、[022–024核验说明](releases/022-024.json)、[025–027核验说明](releases/025-027.json)、[028–030核验说明](releases/028-030.json)与[031–033核验说明](releases/031-033.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
+这三十六个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)、[013–015核验说明](releases/013-015.json)、[016–018核验说明](releases/016-018.json)、[019–021核验说明](releases/019-021.json)、[022–024核验说明](releases/022-024.json)、[025–027核验说明](releases/025-027.json)、[028–030核验说明](releases/028-030.json)、[031–033核验说明](releases/031-033.json)与[034–036核验说明](releases/034-036.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
 
 如需从Markdown重建教材PDF，参见[可选构建工具说明](shared/build-tools/README.md)。阅读现成PDF与运行实验不需要文档构建依赖。
 
@@ -67,4 +70,4 @@
 
 仓库公开供学习。公开可读不等于为第三方参考内容授予额外版权许可；本仓库不替参考文献的作者变更其许可条件。
 
-029–033使用PyTorch2.7.1 CPU与NumPy，已在Linux CPU真实执行；请按各单元环境说明安装。GPU、跨平台新安装和Jupyter浏览器界面未验证。
+029–036使用PyTorch2.7.1 CPU与NumPy，已在Linux CPU真实执行；请按各单元环境说明安装。GPU、跨平台新安装和Jupyter浏览器界面未验证。

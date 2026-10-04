@@ -1,0 +1,1007 @@
+{
+  "protocol": {
+    "dtype": "float64",
+    "device": "cpu",
+    "n": 128,
+    "input_features": 16,
+    "depth": 12,
+    "width": 64,
+    "steps": 100,
+    "lr": 0.03,
+    "scales": [
+      0.5,
+      1.0,
+      1.4142135623730951,
+      2.0
+    ],
+    "seeds": [
+      35,
+      36,
+      37
+    ],
+    "probe": "independent terminal normal / sqrt(n*width)",
+    "loss": "half-MSE mean over samples",
+    "safety_loss_limit": 10000000000.0
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5"
+  },
+  "hand": {
+    "before": [
+      {
+        "x": {
+          "fraction": "1",
+          "float": 1.0
+        },
+        "y": {
+          "fraction": "1/2",
+          "float": 0.5
+        },
+        "z1": [
+          {
+            "fraction": "6/5",
+            "float": 1.2
+          },
+          {
+            "fraction": "-9/10",
+            "float": -0.9
+          }
+        ],
+        "h1": [
+          {
+            "fraction": "6/5",
+            "float": 1.2
+          },
+          {
+            "fraction": "0",
+            "float": 0.0
+          }
+        ],
+        "z2": [
+          {
+            "fraction": "7/10",
+            "float": 0.7
+          },
+          {
+            "fraction": "1/2",
+            "float": 0.5
+          }
+        ],
+        "h2": [
+          {
+            "fraction": "7/10",
+            "float": 0.7
+          },
+          {
+            "fraction": "1/2",
+            "float": 0.5
+          }
+        ],
+        "pred": {
+          "fraction": "11/20",
+          "float": 0.55
+        },
+        "residual": {
+          "fraction": "1/20",
+          "float": 0.05
+        },
+        "e": {
+          "fraction": "1/40",
+          "float": 0.025
+        },
+        "dh2": [
+          {
+            "fraction": "1/40",
+            "float": 0.025
+          },
+          {
+            "fraction": "-1/80",
+            "float": -0.0125
+          }
+        ],
+        "dz2": [
+          {
+            "fraction": "1/40",
+            "float": 0.025
+          },
+          {
+            "fraction": "-1/80",
+            "float": -0.0125
+          }
+        ],
+        "dh1": [
+          {
+            "fraction": "3/320",
+            "float": 0.009375
+          },
+          {
+            "fraction": "-1/80",
+            "float": -0.0125
+          }
+        ],
+        "dz1": [
+          {
+            "fraction": "3/320",
+            "float": 0.009375
+          },
+          {
+            "fraction": "0",
+            "float": 0.0
+          }
+        ]
+      },
+      {
+        "x": {
+          "fraction": "-1",
+          "float": -1.0
+        },
+        "y": {
+          "fraction": "-1/2",
+          "float": -0.5
+        },
+        "z1": [
+          {
+            "fraction": "-4/5",
+            "float": -0.8
+          },
+          {
+            "fraction": "11/10",
+            "float": 1.1
+          }
+        ],
+        "h1": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "11/10",
+            "float": 1.1
+          }
+        ],
+        "z2": [
+          {
+            "fraction": "-7/40",
+            "float": -0.175
+          },
+          {
+            "fraction": "3/4",
+            "float": 0.75
+          }
+        ],
+        "h2": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "3/4",
+            "float": 0.75
+          }
+        ],
+        "pred": {
+          "fraction": "-11/40",
+          "float": -0.275
+        },
+        "residual": {
+          "fraction": "9/40",
+          "float": 0.225
+        },
+        "e": {
+          "fraction": "9/80",
+          "float": 0.1125
+        },
+        "dh2": [
+          {
+            "fraction": "9/80",
+            "float": 0.1125
+          },
+          {
+            "fraction": "-9/160",
+            "float": -0.05625
+          }
+        ],
+        "dz2": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "-9/160",
+            "float": -0.05625
+          }
+        ],
+        "dh1": [
+          {
+            "fraction": "-9/640",
+            "float": -0.0140625
+          },
+          {
+            "fraction": "-9/320",
+            "float": -0.028125
+          }
+        ],
+        "dz1": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "-9/320",
+            "float": -0.028125
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "x": {
+          "fraction": "1",
+          "float": 1.0
+        },
+        "y": {
+          "fraction": "1/2",
+          "float": 0.5
+        },
+        "z1": [
+          {
+            "fraction": "1917/1600",
+            "float": 1.198125
+          },
+          {
+            "fraction": "-9/10",
+            "float": -0.9
+          }
+        ],
+        "h1": [
+          {
+            "fraction": "1917/1600",
+            "float": 1.198125
+          },
+          {
+            "fraction": "0",
+            "float": 0.0
+          }
+        ],
+        "z2": [
+          {
+            "fraction": "1108749/1600000",
+            "float": 0.692968125
+          },
+          {
+            "fraction": "1626251/3200000",
+            "float": 0.5082034375
+          }
+        ],
+        "h2": [
+          {
+            "fraction": "1108749/1600000",
+            "float": 0.692968125
+          },
+          {
+            "fraction": "1626251/3200000",
+            "float": 0.5082034375
+          }
+        ],
+        "pred": {
+          "fraction": "26571801151/51200000000",
+          "float": 0.5189804912304687
+        },
+        "residual": {
+          "fraction": "971801151/51200000000",
+          "float": 0.01898049123046875
+        }
+      },
+      {
+        "x": {
+          "fraction": "-1",
+          "float": -1.0
+        },
+        "y": {
+          "fraction": "-1/2",
+          "float": -0.5
+        },
+        "z1": [
+          {
+            "fraction": "-4/5",
+            "float": -0.8
+          },
+          {
+            "fraction": "1769/1600",
+            "float": 1.105625
+          }
+        ],
+        "h1": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "1769/1600",
+            "float": 1.105625
+          }
+        ],
+        "z2": [
+          {
+            "fraction": "-229/1280",
+            "float": -0.17890625
+          },
+          {
+            "fraction": "19623131/25600000",
+            "float": 0.7665285546875
+          }
+        ],
+        "h2": [
+          {
+            "fraction": "0",
+            "float": 0.0
+          },
+          {
+            "fraction": "19623131/25600000",
+            "float": 0.7665285546875
+          }
+        ],
+        "pred": {
+          "fraction": "-24939726661/81920000000",
+          "float": -0.30444002271728515
+        },
+        "residual": {
+          "fraction": "16020273339/81920000000",
+          "float": 0.19555997728271485
+        }
+      }
+    ],
+    "theta": [
+      {
+        "fraction": "1",
+        "float": 1.0
+      },
+      {
+        "fraction": "-1",
+        "float": -1.0
+      },
+      {
+        "fraction": "1/5",
+        "float": 0.2
+      },
+      {
+        "fraction": "1/10",
+        "float": 0.1
+      },
+      {
+        "fraction": "1/2",
+        "float": 0.5
+      },
+      {
+        "fraction": "-1/4",
+        "float": -0.25
+      },
+      {
+        "fraction": "1/4",
+        "float": 0.25
+      },
+      {
+        "fraction": "1/2",
+        "float": 0.5
+      },
+      {
+        "fraction": "1/10",
+        "float": 0.1
+      },
+      {
+        "fraction": "1/5",
+        "float": 0.2
+      },
+      {
+        "fraction": "1",
+        "float": 1.0
+      },
+      {
+        "fraction": "-1/2",
+        "float": -0.5
+      },
+      {
+        "fraction": "1/10",
+        "float": 0.1
+      }
+    ],
+    "gradient": [
+      {
+        "fraction": "3/320",
+        "float": 0.009375
+      },
+      {
+        "fraction": "9/320",
+        "float": 0.028125
+      },
+      {
+        "fraction": "3/320",
+        "float": 0.009375
+      },
+      {
+        "fraction": "-9/320",
+        "float": -0.028125
+      },
+      {
+        "fraction": "3/100",
+        "float": 0.03
+      },
+      {
+        "fraction": "0",
+        "float": 0.0
+      },
+      {
+        "fraction": "-3/200",
+        "float": -0.015
+      },
+      {
+        "fraction": "-99/1600",
+        "float": -0.061875
+      },
+      {
+        "fraction": "1/40",
+        "float": 0.025
+      },
+      {
+        "fraction": "-11/160",
+        "float": -0.06875
+      },
+      {
+        "fraction": "7/400",
+        "float": 0.0175
+      },
+      {
+        "fraction": "31/320",
+        "float": 0.096875
+      },
+      {
+        "fraction": "11/80",
+        "float": 0.1375
+      }
+    ],
+    "updated": [
+      {
+        "fraction": "3197/3200",
+        "float": 0.9990625
+      },
+      {
+        "fraction": "-3209/3200",
+        "float": -1.0028125
+      },
+      {
+        "fraction": "637/3200",
+        "float": 0.1990625
+      },
+      {
+        "fraction": "329/3200",
+        "float": 0.1028125
+      },
+      {
+        "fraction": "497/1000",
+        "float": 0.497
+      },
+      {
+        "fraction": "-1/4",
+        "float": -0.25
+      },
+      {
+        "fraction": "503/2000",
+        "float": 0.2515
+      },
+      {
+        "fraction": "8099/16000",
+        "float": 0.5061875
+      },
+      {
+        "fraction": "39/400",
+        "float": 0.0975
+      },
+      {
+        "fraction": "331/1600",
+        "float": 0.206875
+      },
+      {
+        "fraction": "3993/4000",
+        "float": 0.99825
+      },
+      {
+        "fraction": "-1631/3200",
+        "float": -0.5096875
+      },
+      {
+        "fraction": "69/800",
+        "float": 0.08625
+      }
+    ],
+    "loss": {
+      "fraction": "17/1280",
+      "float": 0.01328125
+    },
+    "new_loss": {
+      "fraction": "6476670384940290410289/671088640000000000000000",
+      "float": 0.009650990940541462
+    }
+  },
+  "mechanisms": {
+    "relu_moments": {
+      "z": {
+        "mean": 0.0,
+        "variance": 0.9974445577355454,
+        "second": 0.9974445577355454,
+        "q01": -2.326286822656969,
+        "q50": 0.0,
+        "q99": 2.32628682265697,
+        "zero_fraction": 0.0
+      },
+      "relu": {
+        "mean": 0.39850178508195067,
+        "variance": 0.33991860615427155,
+        "second": 0.4987222788677727,
+        "q01": 0.0,
+        "q50": 9.954796177614919e-06,
+        "q99": 2.32628682265697,
+        "zero_fraction": 0.5
+      },
+      "gaussian_prediction_mean": 0.39843221735161105,
+      "gaussian_prediction_variance": 0.3399740470440512
+    },
+    "correlated_input": {
+      "actual_variance": 1.9999999999999996,
+      "diagonal_only": 0.9999999999999998,
+      "full_covariance": 1.9999999999999996
+    },
+    "gate_dependence": {
+      "joint_second": 0.5,
+      "product_of_seconds": 0.25,
+      "relu_at_zero": 0.0,
+      "central_difference_at_zero": 0.5
+    },
+    "jacobian_counterexample": {
+      "balanced": [
+        1.0,
+        1.0
+      ],
+      "rank_deficient": [
+        1.4142135623730951,
+        0.0
+      ],
+      "mean_square_singular_values": 1.0
+    }
+  },
+  "cases": [
+    {
+      "activation": "linear",
+      "alpha": 0.5,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.28905230444621033,
+      "last_recorded_loss": 0.28899639902975227
+    },
+    {
+      "activation": "linear",
+      "alpha": 0.5,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2891222000354839,
+      "last_recorded_loss": 0.28905343626514857
+    },
+    {
+      "activation": "linear",
+      "alpha": 0.5,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2890966140437601,
+      "last_recorded_loss": 0.28903855990393007
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2901381615366594,
+      "last_recorded_loss": 0.0014547442000918767
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.0,
+      "seed": 36,
+      "status": "stopped_loss_limit",
+      "updates_applied": 4,
+      "initial_loss": 1.5075520965605773,
+      "last_recorded_loss": 81.49006617368957
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.0,
+      "seed": 37,
+      "status": "stopped_loss_limit",
+      "updates_applied": 11,
+      "initial_loss": 1.0679066459842173,
+      "last_recorded_loss": 419817.9871939995
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.4142135623730951,
+      "seed": 35,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 546.3393831283171,
+      "last_recorded_loss": 546.3393831283171
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.4142135623730951,
+      "seed": 36,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 4379.452968304209,
+      "last_recorded_loss": 4379.452968304209
+    },
+    {
+      "activation": "linear",
+      "alpha": 1.4142135623730951,
+      "seed": 37,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 3000.8900044901284,
+      "last_recorded_loss": 3000.8900044901284
+    },
+    {
+      "activation": "linear",
+      "alpha": 2.0,
+      "seed": 35,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 2271293.474849573,
+      "last_recorded_loss": 2271293.474849573
+    },
+    {
+      "activation": "linear",
+      "alpha": 2.0,
+      "seed": 36,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 17897908.230598353,
+      "last_recorded_loss": 17897908.230598353
+    },
+    {
+      "activation": "linear",
+      "alpha": 2.0,
+      "seed": 37,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 12278336.718127672,
+      "last_recorded_loss": 12278336.718127672
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.5,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2890614990007393,
+      "last_recorded_loss": 0.28900868192736395
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.5,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2891157012622198,
+      "last_recorded_loss": 0.2890557670443156
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.5,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2890942055850983,
+      "last_recorded_loss": 0.2890396820618557
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.27477853281910536,
+      "last_recorded_loss": 0.011261052615575704
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.0,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3797834003801739,
+      "last_recorded_loss": 0.009980693245916942
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.0,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.32805488499529156,
+      "last_recorded_loss": 0.013104183244455767
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.4142135623730951,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3194359209313013,
+      "last_recorded_loss": 0.001590109477165516
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.4142135623730951,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.8129322267701126,
+      "last_recorded_loss": 0.0006331670768959875
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.4142135623730951,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.5147491024306308,
+      "last_recorded_loss": 0.0037110625314340055
+    },
+    {
+      "activation": "tanh",
+      "alpha": 2.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.4536683049754097,
+      "last_recorded_loss": 0.00021000051673239131
+    },
+    {
+      "activation": "tanh",
+      "alpha": 2.0,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.9246135768779616,
+      "last_recorded_loss": 9.131856776764857e-06
+    },
+    {
+      "activation": "tanh",
+      "alpha": 2.0,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.6342774436901955,
+      "last_recorded_loss": 0.0006271940920250965
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.5,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2890852478363068,
+      "last_recorded_loss": 0.28903414082006285
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.5,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2890851932359355,
+      "last_recorded_loss": 0.2890343863347692
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.5,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.28908507928569077,
+      "last_recorded_loss": 0.28903352127117
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.28973277753709603,
+      "last_recorded_loss": 0.2823372084793706
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.0,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2895906688129589,
+      "last_recorded_loss": 0.28386709775590835
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.0,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.28900922304854015,
+      "last_recorded_loss": 0.2775123644299209
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.4142135623730951,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.4832115661201083,
+      "last_recorded_loss": 0.026976964085412083
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.4142135623730951,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.8029435753467921,
+      "last_recorded_loss": 0.0935184489123653
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.4142135623730951,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3031252787739852,
+      "last_recorded_loss": 0.019014450886620057
+    },
+    {
+      "activation": "relu",
+      "alpha": 2.0,
+      "seed": 35,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 638.0701340186561,
+      "last_recorded_loss": 638.0701340186561
+    },
+    {
+      "activation": "relu",
+      "alpha": 2.0,
+      "seed": 36,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 2005.4082417818734,
+      "last_recorded_loss": 2005.4082417818734
+    },
+    {
+      "activation": "relu",
+      "alpha": 2.0,
+      "seed": 37,
+      "status": "stopped_loss_limit",
+      "updates_applied": 1,
+      "initial_loss": 78.5866465067709,
+      "last_recorded_loss": 78.5866465067709
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 0.5,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3770039764531111,
+      "last_recorded_loss": 0.28903609298850885
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 0.5,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.5953438754627465,
+      "last_recorded_loss": 0.28903609299138433
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 0.5,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3086688667776391,
+      "last_recorded_loss": 0.289036092990469
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.40356127298533895,
+      "last_recorded_loss": 0.2890360897420267
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.0,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.5773325666019289,
+      "last_recorded_loss": 0.2890360967596746
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.0,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3061300933961911,
+      "last_recorded_loss": 0.2890360948359969
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.4142135623730951,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.4280591027768091,
+      "last_recorded_loss": 0.2890359807552984
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.4142135623730951,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.5654575210198599,
+      "last_recorded_loss": 0.2890362089831697
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 1.4142135623730951,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.3030088007455654,
+      "last_recorded_loss": 0.28903617963149275
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 2.0,
+      "seed": 35,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.46305986530547827,
+      "last_recorded_loss": 0.2890339528018335
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 2.0,
+      "seed": 36,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.5379775785174316,
+      "last_recorded_loss": 0.2890377657069136
+    },
+    {
+      "activation": "sigmoid",
+      "alpha": 2.0,
+      "seed": 37,
+      "status": "completed",
+      "updates_applied": 100,
+      "initial_loss": 0.2979859791603484,
+      "last_recorded_loss": 0.2890387107136171
+    }
+  ]
+}

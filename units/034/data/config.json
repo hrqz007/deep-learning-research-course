@@ -1,0 +1,63 @@
+{
+  "data_seed": 3400,
+  "seeds": [
+    340,
+    341,
+    342
+  ],
+  "epochs": 16,
+  "batch_size": 8,
+  "steps": 96,
+  "momentum": 0.8,
+  "betas": [
+    0.9,
+    0.99
+  ],
+  "eps": 1e-08,
+  "decays": [
+    0.0,
+    0.01,
+    0.1
+  ],
+  "learning_rates": {
+    "sgd_momentum": [
+      0.01,
+      0.03,
+      0.1
+    ],
+    "adam": [
+      0.001,
+      0.003,
+      0.01
+    ],
+    "adamw": [
+      0.001,
+      0.003,
+      0.01
+    ]
+  },
+  "initial_theta": [
+    0.5,
+    -0.2,
+    0.3,
+    0.4,
+    0.1,
+    0.2,
+    0.6,
+    -0.5,
+    0.1
+  ],
+  "decay_mask": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "selection": "mean final validation half-MSE across all three fixed training seeds; ties lowest grid index",
+  "scope": "80 synthetic rows, fixed train/validation/test 48/16/16; bounded equal-size grid, no universal optimizer ranking"
+}

@@ -1,0 +1,87 @@
+{
+  "unit": "034",
+  "status": "author_verified_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1
+  },
+  "documents": {
+    "lecture_pages": 15,
+    "lab_pages": 3,
+    "answers_pages": 4,
+    "all_final_pages_visually_inspected": true,
+    "original_figures": 9,
+    "all_figures_inspected_in_final_pages": true,
+    "pdf_text_bounds_and_file_URI_checks": "passed",
+    "layout_fixes": "Removed unsupported plot glyphs; moved two-line lab orphan into coherent final paragraph; final changes viewed with unchanged pages pixel-compared"
+  },
+  "execution": {
+    "fresh_script": "passed",
+    "optimized_unrelated_cwd": "passed",
+    "eight_outputs_byte_identical": true,
+    "notebook": "15 code cells, new Python process actual IPython InProcessKernel;3PNG match final figures",
+    "browser_socket_note": "Browser UI and socket transport not tested"
+  },
+  "scientific_checks": {
+    "unittest_groups": 15,
+    "normal_and_optimized_unittest": "passed",
+    "independent_scalar_networks": 100,
+    "two_step_FD_coordinates": 18,
+    "decimal_precision": 75,
+    "decimal_adam_sequences": "90 scenarios by7steps; coupled and decoupled, betas including0",
+    "fraction_EMA_weight_sum_fixtures": 120,
+    "fraction_plain_SGD_equivalences": 135,
+    "explicit_L2_vs_coupled_Adam_torch_steps": 8,
+    "all_grid_runs_independent_scalar_reconstruction": 81,
+    "selected_trajectories_each_step_checked": "9x96 updates",
+    "same_example_trace": "All forward values,local derivatives,2x9sample contributions,input gradients,9parameter gradients,m/v,corrections,update,next forward through two complete steps",
+    "parameter_group_policy": "Only W and output weights in search; changed or Boolean decay mask rejected; separate state demo decays all9withlambda.1",
+    "state_restore": "In-memory deepcopy state_dict atstep2 resumed through5exact theta; weights-only maximumgap.04286802071652526"
+  },
+  "failure_checks": {
+    "malformed_input_actual_CLI_processes": 12,
+    "actual_figure_guard_processes": 11,
+    "actual_first_notebook_cell_guard_processes": 14,
+    "injected_calculation_and_serialization_protections": 4,
+    "complete_lab_python_blocks_executed": 1
+  },
+  "search_protocol": {
+    "train_validation_test_rows": [
+      48,
+      16,
+      16
+    ],
+    "candidate_configurations_each_family": 9,
+    "shuffle_seeds": [
+      340,
+      341,
+      342
+    ],
+    "fixed_initialization": true,
+    "steps_each_run": 96,
+    "examples_each_run": 768,
+    "search_runs": 81,
+    "search_steps_each_family": 2592,
+    "search_examples_each_family": 20736,
+    "additional_selected_diagnostic_replays": 9,
+    "test_evaluations_after_selection": 9,
+    "criterion": "mean final validation half-MSE; tie lowest grid index",
+    "no_wallclock_budget_claim": true
+  },
+  "output_contract": "Three fixed input hashes;11report/figure input guards;14Notebook entry guards;all calculation and serialization before writes;per-file atomic replacement,not a multi-file crash transaction",
+  "sources": "Seven primary paper/official source locations read with specific scopes;OpenReview blocked and explicitly not relied on",
+  "limitations": [
+    "One synthetic split,fixed initialization,three shuffle seeds only;no universal ranking or population confidence interval",
+    "Adam/AdamW selectedlambda0and match exactly;selectedlr.01atgrid boundary,not demonstrated optimal",
+    "Same steps/examples do not imply same time/memory/compute",
+    "Given-gradient mechanisms are not a neural-network convergence experiment",
+    "State demo in-memory fixed batch,notdisk/crossversion/randomness restoration",
+    "No freshAnaconda,browserJupyter,socket,GPU,mixedprecision,distributed or cross-platform validation"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "unit": "036",
+  "runtime": {
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "dtype": "float64",
+    "device": "cpu",
+    "threads": 1
+  },
+  "hand_losses": [
+    0.04513333333333333,
+    0.04397075698837094,
+    0.043077682406084096
+  ],
+  "training_runs": 6,
+  "training_examples_per_run": 512,
+  "optimizer_steps_by_batch_size": {
+    "4": 128,
+    "16": 32
+  },
+  "limits": [
+    "synthetic fixed dataset and initialization",
+    "three shuffle seeds only",
+    "equal examples do not mean equal optimizer steps or equal running-stat updates",
+    "no held-out test ranking or tuning",
+    "finite CPU checks;no GPU/cross-version guarantee"
+  ]
+}

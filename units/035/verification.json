@@ -1,0 +1,177 @@
+{
+  "unit": "035",
+  "title": "激活初始化与信号传播",
+  "prerequisites": [
+    "018",
+    "027",
+    "031"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "author_transport_revision_ready_pending_independent_review",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "dtype": "float64",
+    "device": "cpu",
+    "threads": 1,
+    "fresh_anaconda_install_claimed": false
+  },
+  "scientific_checks": {
+    "unittest_tests": 18,
+    "normal_and_optimized_passed": true,
+    "independent_exact_fraction_reference": true,
+    "all_parameter_gradients_compared": 13,
+    "full_intermediate_before_backward_after_coordinates": 58,
+    "full_intermediate_max_abs": 2.220446049250313e-16,
+    "central_difference_coordinates": 13,
+    "central_difference_step": 1e-06,
+    "central_difference_max_abs": 4.728287206212656e-12,
+    "finite_correlated_nonzero_mean_input_ensemble_checked": true,
+    "relu_zero_convention_and_central_difference_distinguished": true,
+    "official_he_layout_generator_equality_checked": true,
+    "pooled_variance_decomposition_checked": true
+  },
+  "experiments": {
+    "training_configurations": 48,
+    "initialization_layer_rows": 576,
+    "training_rows": 3761,
+    "completed_100_updates": 37,
+    "stopped_loss_limit": 11,
+    "width_study_rows": 48,
+    "width_study_seeds_per_width": 16,
+    "training_data_rows": 128,
+    "training_data_columns": 16,
+    "held_out_evaluation": false
+  },
+  "reproducibility": {
+    "fresh_cli_process": true,
+    "optimized_cli_from_unrelated_cwd": true,
+    "five_numerical_output_files_sha256_equal": {
+      "layer_statistics.csv": true,
+      "results.json": true,
+      "selected_distributions.json.gz": true,
+      "training_curves.csv": true,
+      "width_study.csv": true
+    },
+    "all_eleven_figures_rebuilt_byte_identically": true
+  },
+  "notebook": {
+    "total_cells": 28,
+    "code_cells": 14,
+    "errors": 0,
+    "executed_tests": 18,
+    "five_output_digests_match": true,
+    "execution": "fresh Python process; fresh InProcessKernel; outputs cleared; all code cells executed sequentially",
+    "browser_ui_tested": false,
+    "socket_transport_tested": false
+  },
+  "failure_protection": {
+    "boolean_string_nan_and_label_shape_rejected": true,
+    "invalid_configuration_before_output_writes": true,
+    "missing_data_before_output_writes": true,
+    "invalid_optimized_cli_existing_sentinel_unchanged": true,
+    "invalid_figure_source_existing_sentinel_unchanged": true,
+    "figure_sources_validated_before_output_creation": true,
+    "multi_file_crash_atomicity_claimed": false,
+    "corrupt_and_missing_gzip_before_figure_writes": true
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 17,
+      "sha256": "c301a34df23292d493e7c469b9ee4877ebb56a4fda59aa1dc7635b91358fb6e4",
+      "bytes": 2434558,
+      "page_text_chars": [
+        688,
+        537,
+        359,
+        837,
+        582,
+        771,
+        654,
+        548,
+        847,
+        761,
+        853,
+        369,
+        334,
+        225,
+        504,
+        690,
+        1034
+      ]
+    },
+    "lab": {
+      "pages": 6,
+      "sha256": "ac0404f24bcc263fa582d5120c246df152cae78cc5b51602c82b241da3e1b4c6",
+      "bytes": 872040,
+      "page_text_chars": [
+        829,
+        1017,
+        687,
+        1127,
+        596,
+        820
+      ]
+    },
+    "answers": {
+      "pages": 5,
+      "sha256": "b2ee6a024a132cc9fbd91d8b0cf5eec6025160f9b62cb6b0bcc3c1af026c1bca",
+      "bytes": 618350,
+      "page_text_chars": [
+        419,
+        473,
+        779,
+        1102,
+        550
+      ]
+    }
+  },
+  "visual_review": {
+    "every_pdf_page_individually_inspected": true,
+    "total_final_pdf_pages": 28,
+    "original_figures_individually_inspected": 11,
+    "render_dpi": 110,
+    "missing_glyphs_clipping_and_table_overflow_resolved": true,
+    "artifact_operation_marker_succeeded_once_for_three_pdfs": true,
+    "transport_revision_lab_pages_individually_reinspected": 6,
+    "transport_revision_other_pdfs_and_all_figures_unchanged": true
+  },
+  "sources": "sources.md and source-checks.json",
+  "public_text_private_path_scan": "passed",
+  "output_sha256": {
+    "layer_statistics.csv": "97783e584960d412b4cc03f1f380b1c1944c32b80bc0d006648d06e4648170a7",
+    "results.json": "5147e0edfc51fc0322390276970410cb4e99695da3a57706ff586d24e66d1c65",
+    "selected_distributions.json.gz": "201a1d6e6551928d876cf6279e30eaf265de9144fcea7572649a58d8b68e62b6",
+    "training_curves.csv": "d671302e7f95c03879e6189c9437c704cfbd87b50a79f528d58886e134f1c999",
+    "width_study.csv": "7700edd89905ceb0847b040935bf6e06f20c2d64c0937a391d96b54c3fc76de0"
+  },
+  "limitations": [
+    "Author readiness is not independent scientific or publication acceptance.",
+    "Small synthetic CPU mechanisms only; no held-out generalization, large-model or GPU result.",
+    "Main sweep has 3 initialization seeds; min/max bands are not confidence intervals.",
+    "Layer distributions are measured at initialization, not after training.",
+    "Fixed learning rate is not a tuned-per-method comparison.",
+    "Independent terminal probe reduces loss-scale confounding but does not establish internal gate independence.",
+    "Notebook browser UI, socket transport and a fresh Anaconda solve were not validated.",
+    "Final multi-file writes are not claimed to be crash-atomic."
+  ],
+  "transport_revision": {
+    "format": "gzip",
+    "path": "outputs/selected_distributions.json.gz",
+    "compresslevel": 9,
+    "mtime": 0,
+    "stored_filename": "",
+    "header_hex": "1f8b08000000000002ff",
+    "compressed_bytes": 10083657,
+    "compressed_sha256": "201a1d6e6551928d876cf6279e30eaf265de9144fcea7572649a58d8b68e62b6",
+    "uncompressed_bytes": 23870931,
+    "uncompressed_sha256": "14aa21584fc6fd57f1b38b84e11aba100c67c0f22b30c7fd7625460c9ac6cd10",
+    "complete_original_json_bytes_preserved": true,
+    "retained_numeric_values": 1179648,
+    "base64_payload_bytes": 13444876,
+    "zlib_runtime_version": "1.3.2",
+    "compressed_byte_reproducibility_scope": "recorded runtime; cross-compressor-version byte identity is not claimed"
+  }
+}

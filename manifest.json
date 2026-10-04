@@ -1058,7 +1058,16 @@
       "figure": "不同参数的有效步长与衰减路径。",
       "lab": "手算前两次更新，再与框架核验；等预算比较SGD、Adam与AdamW并记录超参数搜索。",
       "pitfall": "将AdamW当无条件最佳选择；比较优化器却不给各自合理调参。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/034/lecture.pdf",
+        "lab_pdf": "units/034/lab.pdf",
+        "answers_pdf": "units/034/answers.pdf",
+        "notebook": "units/034/experiment.ipynb",
+        "script": "units/034/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/034-036.json"
     },
     {
       "id": "035",
@@ -1073,7 +1082,16 @@
       "figure": "各层激活与梯度分布随深度变化。",
       "lab": "扫初始化尺度与激活函数，记录层间方差和训练曲线；指出理论假设不成立时的现象。",
       "pitfall": "把经验初始化公式当对所有架构的定理；只检查输出层梯度。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/035/lecture.pdf",
+        "lab_pdf": "units/035/lab.pdf",
+        "answers_pdf": "units/035/answers.pdf",
+        "notebook": "units/035/experiment.ipynb",
+        "script": "units/035/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/034-036.json"
     },
     {
       "id": "036",
@@ -1088,7 +1106,16 @@
       "figure": "BN与LN跨轴计算及train和eval差异。",
       "lab": "手写小张量归一化与框架比对，测试小批量和分布变化；核对推理时统计。",
       "pitfall": "把两种归一化当可随意替换；漏掉训练推理状态差异。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/036/lecture.pdf",
+        "lab_pdf": "units/036/lab.pdf",
+        "answers_pdf": "units/036/answers.pdf",
+        "notebook": "units/036/experiment.ipynb",
+        "script": "units/036/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/034-036.json"
     },
     {
       "id": "037",

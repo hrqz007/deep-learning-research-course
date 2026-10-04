@@ -1,0 +1,13 @@
+{
+  "kind": "synthetic educational data",
+  "rng": "numpy default_rng PCG64",
+  "seed": 35,
+  "shape": [
+    128,
+    16
+  ],
+  "transform": "feature-wise subtract mean and divide population SD on these same 128 rows",
+  "target": "0.6*x0 - 0.4*x1 + 0.3*sin(x2)",
+  "split": "training only; no generalization assessment",
+  "hand_data": "separate exact two-sample pedagogical trace"
+}

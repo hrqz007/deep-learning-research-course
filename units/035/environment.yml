@@ -1,0 +1,17 @@
+name: dl035-signal-propagation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - matplotlib==3.10.8
+      - torch==2.7.1
+      - nbformat==5.11.1
+      - ipykernel==7.4.0
+      - ipython
+# Actual delivery checks used torch 2.7.1+cpu from the official CPU wheel channel.
+# To request CPU wheels explicitly after creating the environment:
+# python -m pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
+# This environment specification was not freshly solved with Anaconda during QA.

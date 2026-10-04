@@ -1,0 +1,83 @@
+{
+  "family_means": {
+    "adam": 0.01082883266041576,
+    "adamw": 0.01082883266041576,
+    "sgd_momentum": 0.011159442021543503
+  },
+  "interpretation": "descriptive on one held-out synthetic split; training seeds are not independent sampled datasets",
+  "rows": [
+    {
+      "family": "sgd_momentum",
+      "grid_index": 3,
+      "lr": 0.03,
+      "seed": 340,
+      "test_half_mse": 0.010957987260062944,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "sgd_momentum",
+      "grid_index": 3,
+      "lr": 0.03,
+      "seed": 341,
+      "test_half_mse": 0.011306134885182095,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "sgd_momentum",
+      "grid_index": 3,
+      "lr": 0.03,
+      "seed": 342,
+      "test_half_mse": 0.011214203919385476,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adam",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 340,
+      "test_half_mse": 0.010156547368642674,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adam",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 341,
+      "test_half_mse": 0.011069047971236947,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adam",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 342,
+      "test_half_mse": 0.011260902641367657,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adamw",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 340,
+      "test_half_mse": 0.010156547368642674,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adamw",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 341,
+      "test_half_mse": 0.011069047971236947,
+      "weight_decay": 0.0
+    },
+    {
+      "family": "adamw",
+      "grid_index": 6,
+      "lr": 0.01,
+      "seed": 342,
+      "test_half_mse": 0.011260902641367657,
+      "weight_decay": 0.0
+    }
+  ],
+  "selection_sha256": "99b668a94ea355e2ab011a05cfbb2fd113fe33c6dec178276dffd591ce949938"
+}

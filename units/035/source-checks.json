@@ -1,0 +1,41 @@
+{
+  "unit": "035",
+  "checked_date": "2026-10-04",
+  "method": "Opened primary full texts and versioned official documentation; checked formula assumptions and exact sections.",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf",
+      "checked": "PDF page 5, section 4.2.1, equations 10–16; linear-regime compromise",
+      "status": "read"
+    },
+    {
+      "id": "S2",
+      "url": "https://arxiv.org/pdf/1502.01852",
+      "checked": "PDF pages 3–5, section 2.2, equations 5–15; second moment, symmetry and backward independence assumptions",
+      "status": "read"
+    },
+    {
+      "id": "S3",
+      "url": "https://docs.pytorch.org/docs/2.7/nn.init.html",
+      "checked": "Xavier/Kaiming definitions, fan modes and transposed layout notes",
+      "status": "read"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/autograd.html",
+      "checked": "Gradients for non-differentiable functions; ReLU convention also executed in torch2.7.1+cpu",
+      "status": "read"
+    },
+    {
+      "id": "S5",
+      "url": "https://docs.python.org/3.12/library/gzip.html",
+      "checked": "GzipFile filename/fileobj, mtime, compression level; open text mode; compress OS-byte note; decompress. Actual 3.12.14 GzipFile output tested.",
+      "status": "read"
+    }
+  ],
+  "access_limitations": [
+    "Initial CVF PDF retrieval returned an error; author arXiv full text was used.",
+    "Initial separate ReLU API retrieval returned an error; autograd notes plus executed operator test were used."
+  ]
+}

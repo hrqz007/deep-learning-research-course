@@ -1,0 +1,387 @@
+{
+  "peer_change": {
+    "anchor": [
+      0.5,
+      -0.5
+    ],
+    "BN_before": [
+      0.0,
+      -1.06767312639037
+    ],
+    "BN_after": [
+      -1.3933442853720912,
+      -1.3996227358826583
+    ],
+    "LN_before": [
+      0.998005980069749,
+      -0.998005980069749
+    ],
+    "LN_after": [
+      0.998005980069749,
+      -0.998005980069749
+    ]
+  },
+  "running_shift": [
+    {
+      "step": 1,
+      "source_mean": 0,
+      "batch_mean": 0.2622703130595644,
+      "running_mean": 0.02622703130595644,
+      "running_var": 0.9949642210918874,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 2,
+      "source_mean": 0,
+      "batch_mean": 0.25365056414245896,
+      "running_mean": 0.048969384589606695,
+      "running_var": 0.974425329810897,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 3,
+      "source_mean": 0,
+      "batch_mean": 0.1819156933366404,
+      "running_mean": 0.06226401546431007,
+      "running_var": 0.9989550369493544,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 4,
+      "source_mean": 0,
+      "batch_mean": -0.41152876695904944,
+      "running_mean": 0.014884737221974115,
+      "running_var": 0.9587051860621424,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 5,
+      "source_mean": 0,
+      "batch_mean": 0.003898954564437198,
+      "running_mean": 0.013786158956220422,
+      "running_var": 0.9485504490496969,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 6,
+      "source_mean": 0,
+      "batch_mean": 0.03797817005305642,
+      "running_mean": 0.016205360065904024,
+      "running_var": 0.9156172091526262,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 7,
+      "source_mean": 0,
+      "batch_mean": -0.06016119317475227,
+      "running_mean": 0.008568704741838394,
+      "running_var": 0.9422649525102352,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 8,
+      "source_mean": 0,
+      "batch_mean": 0.20626610870962994,
+      "running_mean": 0.028338445138617552,
+      "running_var": 0.9411140981992753,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 9,
+      "source_mean": 0,
+      "batch_mean": -0.112895386132086,
+      "running_mean": 0.014215062011547198,
+      "running_var": 0.985470497191626,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 10,
+      "source_mean": 0,
+      "batch_mean": -0.3310414269051473,
+      "running_mean": -0.02031058688012225,
+      "running_var": 0.9597495240746948,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 1.1102230246251565e-16
+    },
+    {
+      "step": 11,
+      "source_mean": 0,
+      "batch_mean": -0.004435250225179021,
+      "running_mean": -0.018723053214627926,
+      "running_var": 0.9581982300028593,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 1.1102230246251565e-16
+    },
+    {
+      "step": 12,
+      "source_mean": 0,
+      "batch_mean": 0.08245565490544488,
+      "running_mean": -0.008605182402620646,
+      "running_var": 0.9603034046877985,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 1.1102230246251565e-16
+    },
+    {
+      "step": 13,
+      "source_mean": 0,
+      "batch_mean": -0.0006348464926805027,
+      "running_mean": -0.007808148811626631,
+      "running_var": 0.934206089643133,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 14,
+      "source_mean": 0,
+      "batch_mean": -0.2127182686021355,
+      "running_mean": -0.02829916079067752,
+      "running_var": 0.9645805074142074,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 15,
+      "source_mean": 0,
+      "batch_mean": 0.35862635204252613,
+      "running_mean": 0.010393390492642842,
+      "running_var": 0.9746121652820248,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 0.0
+    },
+    {
+      "step": 16,
+      "source_mean": 0,
+      "batch_mean": 0.17515652381541524,
+      "running_mean": 0.026869703824920082,
+      "running_var": 0.9480298453869394,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 1.1102230246251565e-16
+    },
+    {
+      "step": 17,
+      "source_mean": 0,
+      "batch_mean": -0.1828544314981035,
+      "running_mean": 0.005897290292617725,
+      "running_var": 1.0097406076136395,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 18,
+      "source_mean": 0,
+      "batch_mean": -0.2155689910002097,
+      "running_mean": -0.016249337836665018,
+      "running_var": 1.0367186216213278,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 19,
+      "source_mean": 0,
+      "batch_mean": 0.05270260114263453,
+      "running_mean": -0.009354143938735062,
+      "running_var": 1.0408172071132387,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 20,
+      "source_mean": 0,
+      "batch_mean": -0.19143274803904597,
+      "running_mean": -0.027562004348766156,
+      "running_var": 1.0358648975680014,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 21,
+      "source_mean": 3,
+      "batch_mean": 2.942655666215176,
+      "running_mean": 0.2694597627076281,
+      "running_var": 1.0477549367548469,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 22,
+      "source_mean": 3,
+      "batch_mean": 3.236684283388779,
+      "running_mean": 0.5661822147757433,
+      "running_var": 1.062306331561895,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 23,
+      "source_mean": 3,
+      "batch_mean": 2.9000124230124125,
+      "running_mean": 0.7995652355994102,
+      "running_var": 1.0534623021369185,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 24,
+      "source_mean": 3,
+      "batch_mean": 2.996699645290366,
+      "running_mean": 1.0192786765685058,
+      "running_var": 1.0407223689782812,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 25,
+      "source_mean": 3,
+      "batch_mean": 2.7333220146211508,
+      "running_mean": 1.1906830103737702,
+      "running_var": 1.0246899694868519,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 26,
+      "source_mean": 3,
+      "batch_mean": 2.899329704188403,
+      "running_mean": 1.3615476797552335,
+      "running_var": 1.040686126359741,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 27,
+      "source_mean": 3,
+      "batch_mean": 2.912741510210098,
+      "running_mean": 1.5166670628007202,
+      "running_var": 0.998607464199119,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 3.3306690738754696e-16
+    },
+    {
+      "step": 28,
+      "source_mean": 3,
+      "batch_mean": 3.2570726185606533,
+      "running_mean": 1.6907076183767136,
+      "running_var": 0.9907430744964406,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 29,
+      "source_mean": 3,
+      "batch_mean": 3.264447885291338,
+      "running_mean": 1.8480816450681763,
+      "running_var": 1.0110427490694411,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 30,
+      "source_mean": 3,
+      "batch_mean": 2.683160624733831,
+      "running_mean": 1.9315895430347418,
+      "running_var": 1.0142810762246324,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    },
+    {
+      "step": 31,
+      "source_mean": 3,
+      "batch_mean": 2.589329749065675,
+      "running_mean": 1.997363563637835,
+      "running_var": 1.0394542054602143,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 32,
+      "source_mean": 3,
+      "batch_mean": 3.0282663967134966,
+      "running_mean": 2.1004538469454013,
+      "running_var": 1.1175192942331647,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 33,
+      "source_mean": 3,
+      "batch_mean": 3.0243479183621713,
+      "running_mean": 2.1928432540870784,
+      "running_var": 1.1557946863243949,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 34,
+      "source_mean": 3,
+      "batch_mean": 2.870049586161897,
+      "running_mean": 2.2605638872945604,
+      "running_var": 1.1269752595335318,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 35,
+      "source_mean": 3,
+      "batch_mean": 3.069441079968913,
+      "running_mean": 2.3414516065619955,
+      "running_var": 1.1212091788106544,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 36,
+      "source_mean": 3,
+      "batch_mean": 3.109601583623138,
+      "running_mean": 2.4182666042681102,
+      "running_var": 1.138306582308373,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 37,
+      "source_mean": 3,
+      "batch_mean": 3.2453464544076653,
+      "running_mean": 2.5009745892820656,
+      "running_var": 1.1118577216881875,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 38,
+      "source_mean": 3,
+      "batch_mean": 2.9609027188659436,
+      "running_mean": 2.546967402240454,
+      "running_var": 1.0914005196912915,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 39,
+      "source_mean": 3,
+      "batch_mean": 2.8925862113371643,
+      "running_mean": 2.581529283150125,
+      "running_var": 1.08409423738116,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 4.440892098500626e-16
+    },
+    {
+      "step": 40,
+      "source_mean": 3,
+      "batch_mean": 3.2407382962813727,
+      "running_mean": 2.6474501844632496,
+      "running_var": 1.1724837264234003,
+      "torch_mean_error": 0.0,
+      "torch_var_error": 2.220446049250313e-16
+    }
+  ],
+  "sampling_design": "same fixed anchor plus independent random peers;200 replicates for each specified batch size;descriptive finite experiment"
+}

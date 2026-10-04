@@ -1,0 +1,204 @@
+{
+  "untracked_eval": {
+    "running_mean_is_none": true,
+    "train_output": [
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "eval_output": [
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "mode_matrix": [
+    {
+      "train": true,
+      "grad_enabled": true,
+      "output_requires_grad": true,
+      "running_mean": [
+        0.2,
+        0.0
+      ],
+      "running_var": [
+        1.0,
+        1.0
+      ],
+      "batches": 1,
+      "output": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "train": true,
+      "grad_enabled": false,
+      "output_requires_grad": false,
+      "running_mean": [
+        0.2,
+        0.0
+      ],
+      "running_var": [
+        1.0,
+        1.0
+      ],
+      "batches": 1,
+      "output": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "train": false,
+      "grad_enabled": true,
+      "output_requires_grad": true,
+      "running_mean": [
+        0.0,
+        0.0
+      ],
+      "running_var": [
+        1.0,
+        1.0
+      ],
+      "batches": 0,
+      "output": [
+        [
+          0.0,
+          -0.8660254037844387
+        ],
+        [
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          1.7320508075688774,
+          0.8660254037844387
+        ]
+      ]
+    },
+    {
+      "train": false,
+      "grad_enabled": false,
+      "output_requires_grad": false,
+      "running_mean": [
+        0.0,
+        0.0
+      ],
+      "running_var": [
+        1.0,
+        1.0
+      ],
+      "batches": 0,
+      "output": [
+        [
+          0.0,
+          -0.8660254037844387
+        ],
+        [
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          1.7320508075688774,
+          0.8660254037844387
+        ]
+      ]
+    }
+  ],
+  "frozen_affine_training": {
+    "running_mean": [
+      0.2,
+      0.0
+    ],
+    "batches": 1
+  },
+  "cumulative_unequal": {
+    "batch_sizes": [
+      2,
+      4
+    ],
+    "running_mean": [
+      6.0
+    ],
+    "running_var": [
+      1.6666666666666665
+    ],
+    "pooled_mean": [
+      7.666666666666667
+    ],
+    "pooled_unbiased_variance": [
+      27.866666666666667
+    ]
+  },
+  "singleton_BN_error": "Expected more than 1 value per channel when training, got input size torch.Size([1, 2])",
+  "BN_N1_L2_output": [
+    [
+      [
+        -0.9999800005999799,
+        0.9999800005999799
+      ],
+      [
+        -0.9999800005999804,
+        0.9999800005999795
+      ]
+    ]
+  ],
+  "LN_D1_output": [
+    [
+      0.0
+    ],
+    [
+      0.0
+    ]
+  ],
+  "state_dict_keys": [
+    "weight",
+    "bias",
+    "running_mean",
+    "running_var",
+    "num_batches_tracked"
+  ],
+  "state_dict_does_not_restore_training_flag": {
+    "source_training": true,
+    "destination_training": false
+  }
+}

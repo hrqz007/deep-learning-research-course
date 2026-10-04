@@ -1,0 +1,76 @@
+{
+  "release": "034-036",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "034",
+      "pages": {
+        "lecture": 15,
+        "lab": 3,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 15,
+      "original_figures": 9
+    },
+    {
+      "id": "035",
+      "pages": {
+        "lecture": 17,
+        "lab": 6,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 14,
+      "original_figures": 11
+    },
+    {
+      "id": "036",
+      "pages": {
+        "lecture": 18,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 14,
+      "original_figures": 11
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "034": "64 high-precision networks and 576 gradient coordinates; 1728 sample-contribution derivatives; 81 grid runs and 7776 independent updates; two complete Adam chains and third forward",
+    "035": "Exact rational dual derivatives and 26 sample contributions; 48 configurations and 576 layer-statistic rows; 3724 independently rebuilt updates and all 11 retained loss-budget stops; fan and second-moment assumptions checked",
+    "036": "Two complete three-sample BN chains; 78 hand loss-source parameter contributions; 48 random networks with 912 parameter/input and 1872 loss-specific derivative coordinates; six independently rebuilt training runs and 480 updates; 800 peer-composition samples"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process; PyTorch 2.7.1+cpu, float64 CPU",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No GPU, mixed-precision, distributed or arbitrary-network guarantee",
+    "Finite synthetic examples do not prove real-world generalization or optimization success",
+    "034 checkpoint demonstration checks declared in-memory state, not arbitrary filesystem restart",
+    "035 layer snapshots describe initialization rather than full layerwise training trajectories",
+    "036 batch-size comparison fixes sample presentations, not update count or time; validation-contamination scores may improve or worsen",
+    "Notebook displays frozen figures; figure scripts were independently rebuilt and exact bytes compared",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks.",
+  "serialization_035": {
+    "format": "gzip",
+    "path": "outputs/selected_distributions.json.gz",
+    "compresslevel": 9,
+    "mtime": 0,
+    "stored_filename": "",
+    "compressed_bytes": 10083657,
+    "compressed_sha256": "201a1d6e6551928d876cf6279e30eaf265de9144fcea7572649a58d8b68e62b6",
+    "uncompressed_bytes": 23870931,
+    "uncompressed_sha256": "14aa21584fc6fd57f1b38b84e11aba100c67c0f22b30c7fd7625460c9ac6cd10",
+    "complete_original_json_bytes_preserved": true,
+    "retained_numeric_values": 1179648,
+    "compressed_byte_reproducibility_scope": "recorded runtime; cross-compressor-version byte identity is not claimed"
+  }
+}
