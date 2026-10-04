@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "device": "CPU",
+  "data": "synthetic",
+  "numerics": "float64; finite bounded logits; tiny probabilities may underflow to zero"
+}

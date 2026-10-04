@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "NIST Confidence Limits for the Mean",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "actually_opened": true,
+      "checked_scope": "Read confidence interpretation, t interval structure and sample-size/scale discussion."
+    },
+    {
+      "title": "NIST t Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3664.htm",
+      "actually_opened": true,
+      "checked_scope": "Read parameter, tail and numerical quantile discussion; course derives its own normal-sample ratio definition."
+    },
+    {
+      "title": "NIST t Critical Values",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3672.htm",
+      "actually_opened": true,
+      "checked_scope": "Read two-sided quantile convention and df7 row, 0.975 column =2.365."
+    },
+    {
+      "title": "SciPy bootstrap official documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+      "actually_opened": true,
+      "checked_scope": "Read paired shared-index definition, percentile/basic/BCa options, degenerate-data warning. Implementation is original stdlib discrete inverse-CDF, not SciPy default equivalence."
+    },
+    {
+      "title": "Bouthillier et al. 2021",
+      "url": "https://arxiv.org/abs/2103.03098",
+      "actually_opened": true,
+      "checked_scope": "Author abstract only, multiple variability sources; no full-paper replication or adoption of paper speedup values."
+    },
+    {
+      "title": "Demsar 2006 JMLR",
+      "url": "https://www.jmlr.org/papers/v7/demsar06a.html",
+      "actually_opened": true,
+      "checked_scope": "Publisher abstract only, scope of multiple algorithms across multiple datasets; not used to justify applying its recommended tests to seed data."
+    }
+  ],
+  "original_work": "All teaching text, derivations, tables, diagrams, data and code authored independently; no source reproduction."
+}

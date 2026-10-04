@@ -1,0 +1,10 @@
+name: dl-unit-024
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3
+  - scipy=1.17
+  - jupyterlab
+  - ipykernel
+  - matplotlib

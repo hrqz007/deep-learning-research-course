@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14",
+  "core": "Python standard library only",
+  "data": "synthetic",
+  "seed": 20261004
+}

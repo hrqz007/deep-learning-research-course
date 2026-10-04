@@ -1,0 +1,13 @@
+name: dl-unit-023
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.14
+  - numpy=2.3.5
+  - matplotlib=3.10.8
+  - jupyterlab>=4,<5
+  - ipykernel=7.4
+  - nbformat=5.11.1
+# Suggested environment, not a tested fresh Anaconda install or cross-platform lock.
+# Core experiment.py and test_experiment.py need only Python and NumPy.
+# Noto Sans CJK is an optional system font for rebuilding the original figures.

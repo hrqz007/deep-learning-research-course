@@ -1,0 +1,6 @@
+{
+  "iterations": 400,
+  "learning_rate": 0.25,
+  "l2": 0.03,
+  "binary_iterations": 400
+}

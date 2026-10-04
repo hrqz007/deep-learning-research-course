@@ -1,0 +1,90 @@
+{
+  "unit": "022",
+  "title": "比较实验与统计不确定性",
+  "status": "author_checks_passed_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "prerequisites": [
+    "018",
+    "021"
+  ],
+  "pages": {
+    "lecture": 11,
+    "lab": 4,
+    "answers": 4
+  },
+  "original_figures": 9,
+  "runtime": {
+    "python": "3.12.14",
+    "core_dependencies": "Python standard library only"
+  },
+  "checks": {
+    "test_groups": 10,
+    "independent_pair_fraction_fixtures": 200,
+    "small_table_exhaustive_bootstrap_fixtures": 117,
+    "rare_true_binary_sequences": 256,
+    "rare_bootstrap_binary_sequences": 2304,
+    "selection_candidate_counts_exhaustively_enumerated": 8,
+    "mathematical_rejections": 28,
+    "invalid_input_output_isolation_calls": 24,
+    "fixed_teaching_guard_probes": 2,
+    "script": "Fresh process, unrelated cwd python -S, python -O, all five outputs byte-identical",
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.216,
+      "code_cells": 13,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "Five Notebook/script files byte-identical;three embedded PNGs equal individually viewed originals",
+    "document_snippets": 3,
+    "visual": "All19finalPDFpages and9originalfigures individually viewed; no occlusion, clipped text or equations",
+    "structural": "Text bounds, missing/replacement glyphs, private-path patterns, PDFmetadata checked",
+    "sources": "Six primary official/author/publisher pages actually opened;two paper abstracts only"
+  },
+  "expected": {
+    "paired_mean": "2",
+    "sample_variance": "48/7",
+    "paired_se_squared": "6/7",
+    "bootstrap_ordered_samples": 16777216,
+    "exact_bootstrap_variance": "3/4",
+    "exact_bootstrap_percentile95": [
+      "1/4",
+      "15/4"
+    ],
+    "rounded_t7_interval": [
+      -0.18956453596208434,
+      4.189564535962084
+    ],
+    "rare_percentile_true_coverage": "38600686125441/500000000000000",
+    "cluster_mean_variance_estimate": "5/3",
+    "wrong_naive_row_mean_variance_estimate": "5/31"
+  },
+  "limits": [
+    "Artificial seed-score table;not real training or real-model performance",
+    "Fixed-data seed variability does not estimate data-level uncertainty",
+    "t finite-sample coverage needs independent normal differences and exact critical value;2.365 is rounded",
+    "Exact empirical bootstrap removes Monte Carlo error,not its statistical approximation error",
+    "Discrete inverse-CDF percentiles need not equal software interpolation/defaultBCa",
+    "Synthetic selection experiment is not a p-value test;separate multiple-testing formula assumes valid independent tests",
+    "Fresh Anaconda, browserJupyter, socketkernel and cross-platform installation untested",
+    "Fixed figures/Notebook require bundled config,plan,seed table and corresponding savedresults;customruns separate",
+    "Inputvalidation andserialization precede writes;no atomicmulti-file guarantee forOS I/Ofailure"
+  ],
+  "artifact_sha256": {
+    "README.md": "caadf232c4df86c21e974fd44a2b1881b425bbcefb6cdd1478b8901630177f23",
+    "answers.md": "f6920bfeed29c56ae0713b94c54ae84234ce35a1809d6a7206735dfff7899ef4",
+    "answers.pdf": "5bfe8bcc0f641510d9540696d71654aef0abdb6ae88f12609b861ef1b648b23e",
+    "environment.yml": "3a2452f1d70fff0aad535e5e5e41cb83399c4c03ccada2a4e7ba2627904acd2b",
+    "experiment.ipynb": "a1eb7b6790cc41b33ae6f18be04ab776634d4ca8cc20657f5253839b6b9f20d6",
+    "experiment.py": "4b437804093444920dc051849bd9c6336146e1f5303179e34c6f50c89d697e4b",
+    "lab.md": "433a26e744e25591676c5dccfdaaf441eff02ecf9e2b1d7ce5d2ef8b7aebf01b",
+    "lab.pdf": "7f4233c0ea2da8044745414b66abcab8cf723ce711f0dfea68881394cea49bde",
+    "lecture.md": "6fcccc5d8cf5d1d48ad824795cb83b6b4e0dc9f2eae75e7d91c491aceacf2c08",
+    "lecture.pdf": "1620b1f92f26118d18f5772b00ed2f627262022216eed90fb8cfb683bc12bba4",
+    "make_figures.py": "e10e5ce5df06bf58efbd3608cf767a7a972e0a8832ee43fccd312c40d1e165a8",
+    "source-checks.json": "8d7e01e40fa7eea06960c681f149cc55a0b31d8b5cdcf15766c7d304a1b8c9a2",
+    "test_experiment.py": "37944826b0085ce7aae9c2c43d5a6a60ad417248b8b7a61c46bb430f4156b389"
+  }
+}

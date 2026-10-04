@@ -1,0 +1,216 @@
+{
+  "unit": "023",
+  "status": "author_verified_independent_review_pending",
+  "checked_on": "2026-10-04",
+  "curriculum": {
+    "title": "线性模型与最小训练闭环",
+    "prerequisites": [
+      "009",
+      "011",
+      "014",
+      "020"
+    ]
+  },
+  "pdfs": {
+    "lecture.pdf": 12,
+    "lab.pdf": 4,
+    "answers.pdf": 4
+  },
+  "original_figures": 9,
+  "exercises": 14,
+  "visual_review": {
+    "all_pages_individually_viewed": 20,
+    "final_render_review": "All final pages individually reviewed, or byte-identical PNG to individually reviewed page; changed final pages re-opened. No clipped math/text, missing glyphs, orphan table rows, or figure collisions observed.",
+    "figure_review": "All 9 original figures viewed in full-page renders; 3 same PNGs embedded in executed notebook.",
+    "page_checks": [
+      {
+        "pdf": "lecture.pdf",
+        "page": 1,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 2,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 3,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 4,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 5,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 6,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 7,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 8,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 9,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 10,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 11,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lecture.pdf",
+        "page": 12,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lab.pdf",
+        "page": 1,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lab.pdf",
+        "page": 2,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lab.pdf",
+        "page": 3,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "lab.pdf",
+        "page": 4,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "answers.pdf",
+        "page": 1,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "answers.pdf",
+        "page": 2,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "answers.pdf",
+        "page": 3,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      },
+      {
+        "pdf": "answers.pdf",
+        "page": 4,
+        "text_bounds": "passed",
+        "visually_reviewed": true
+      }
+    ]
+  },
+  "execution": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "script": "passed in fresh process and from a different current directory",
+    "notebook": "14 code cells executed sequentially in fresh real IPython InProcessKernel process; saved outputs present",
+    "output_comparison": "4 files byte-identical across script, Notebook, and different-working-directory run",
+    "output_sha256": {
+      "summary.json": "3bfb5abea83833c8c26339a8b2659af9464dc55da2de5d7c5bdad8c6d34840b0",
+      "trajectory.csv": "6d222a71f828b3c2e65016cfaa5cfc01606af7aa8f347209648a33e72d012ded",
+      "predictions.csv": "519443532535f7b443347b6780388fc6fd427c4699c8d3902d9fa2dae0def5a9",
+      "gradient_check.csv": "739d4b16a88d9fbd4719ea62e948628a21e61cf25d4fd9bb3023df648f736829"
+    },
+    "document_python_examples": 6,
+    "identical_rebuilt_figures": 9
+  },
+  "independent_author_oracles": {
+    "test_groups": 12,
+    "fraction_loss_gradient_cases": 180,
+    "fraction_trajectory_states": 900,
+    "fraction_least_squares_solutions": 100,
+    "quadratic_expansion_and_fd_cases": 120,
+    "original_rows_checked_against_fraction_generator": 30,
+    "published_prediction_rows_checked": 30,
+    "exact_split_mse_comparisons": 6,
+    "note": "Expected Fraction gradients/trajectories and small exact elimination solutions are constructed independently of the production gradient and np.linalg.lstsq."
+  },
+  "failure_checks": {
+    "invalid_math_cases": 28,
+    "malformed_csv_variants": 12,
+    "invalid_configuration_variants": 8,
+    "extra_config_checks": [
+      "duplicate JSON keys",
+      "divergent valid learning-rate run"
+    ],
+    "output_isolation": "Existing files byte-identical and new directory absent for invalid input, calculation and serialization failures; symlink-chain and input-collision rejections tested.",
+    "fixed_artifact_guards": "Altered default config/data/results rejected; 4 figure failure probes preserve old targets and omit new targets; fresh Notebook altered-config run fails in first code cell before creating notebook_outputs."
+  },
+  "main_results": {
+    "theta_exact": [
+      2,
+      -0.75,
+      1.5
+    ],
+    "baseline": 2.5,
+    "train_mse_exact": "7/60",
+    "validation_mse_exact": "9/320",
+    "test_mse_exact": "2/25",
+    "final_gradient_norm": 6.576448330814683e-13,
+    "max_training_prediction_difference": 1.0536016503692736e-12,
+    "max_scaled_gradient_error": 3.246880542207009e-11
+  },
+  "limitations": [
+    "Suggested environment is not a tested fresh Anaconda install or cross-platform lock.",
+    "Jupyter browser UI and out-of-process socket transport untested; in-process kernel is genuine execution but a different transport.",
+    "No GPU, private data, network experiment, or real-world performance claim.",
+    "Input grid is deterministic rather than an IID sample; no population error or uncertainty guarantee.",
+    "Per-file atomic replacement does not promise a multi-file crash transaction or protection from concurrent path changes.",
+    "Strict fixed-artifact byte/data/result agreement can reject line-ending changes or cross-platform floating-point differences.",
+    "Fontconfig cache permissions and local-network-interface discovery emitted warnings; generated outputs were separately verified."
+  ],
+  "source_policy": "6 official/author primary sources opened; failed optional textbook fetch was excluded; no borrowed source figures.",
+  "revision_v2": {
+    "input_conversion": "Reject nonzero extended precision to float64 zero for arrays/scalars, and nonzero CSV/JSON numeric text parsed to zero; genuinezero accepted",
+    "tests": "12groups plus input conversion reproductions,new/oldCSV+JSON output isolation",
+    "visual": "Lecture1 individually re-viewed; other11lecturepages pixelidentical to frozenv1;lab/answers/figures unchanged",
+    "notebook": "14cells reexecuted in fresh InProcessKernel;4results unchanged",
+    "prerequisite_text": "NumPy described as continued tool from009 rather than newly introduced"
+  }
+}

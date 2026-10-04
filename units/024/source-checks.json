@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {
+      "title": "SciPy expit",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.expit.html",
+      "actually_opened": true,
+      "checked_scope": "Read sigmoid definition and array interface."
+    },
+    {
+      "title": "SciPy softmax",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.softmax.html",
+      "actually_opened": true,
+      "checked_scope": "Read shifting, class-axis convention and gradient relationship."
+    },
+    {
+      "title": "SciPy logsumexp",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logsumexp.html",
+      "actually_opened": true,
+      "checked_scope": "Read stable log exponential sum and axis/keepdims semantics."
+    },
+    {
+      "title": "PyTorch CrossEntropyLoss",
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+      "actually_opened": true,
+      "checked_scope": "Read logits input, LogSoftmax+NLL equivalence, hard/soft targets, reduction and class-weight/ignore denominators. Framework not executed."
+    },
+    {
+      "title": "PyTorch BCEWithLogitsLoss",
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.BCEWithLogitsLoss.html",
+      "actually_opened": true,
+      "checked_scope": "Read fused sigmoid/BCE stability, target and reduction conventions. Framework not executed."
+    }
+  ],
+  "runtime_note": "Official live documentation may show newer versions than locally tested NumPy2.3.5/SciPy1.17.0;no PyTorch runtime verification claimed",
+  "original_work": "All explanations, derivations, figures, data and program independently authored."
+}

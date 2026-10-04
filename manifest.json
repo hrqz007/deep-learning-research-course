@@ -589,7 +589,7 @@
       "figure": "两个分布的质量覆盖及正反KL行为。",
       "lab": "手算离散分布的熵、交叉熵和KL；构造零概率导致无穷损失的例子。",
       "pitfall": "把KL当对称距离；忽略支持集而随意比较目标。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/019/lecture.pdf",
         "lab_pdf": "units/019/lab.pdf",
@@ -598,7 +598,15 @@
         "script": "units/019/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/019-021.json"
+      "release_record": "releases/019-021.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1b74b710a5f376afa5befd65bdf4b525d183214f",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 29,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "020",
@@ -611,7 +619,7 @@
       "figure": "训练数据、模型选择与目标人群的关系图。",
       "lab": "在合成问题改变样本量与模型容量，分离拟合误差和测试误差；记录数据假设。",
       "pitfall": "把训练损失低视为泛化证明；把分布漂移归为优化失败。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/020/lecture.pdf",
         "lab_pdf": "units/020/lab.pdf",
@@ -620,7 +628,15 @@
         "script": "units/020/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/019-021.json"
+      "release_record": "releases/019-021.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1b74b710a5f376afa5befd65bdf4b525d183214f",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 29,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "021",
@@ -635,7 +651,7 @@
       "figure": "训练验证测试隔离与阈值选择流程。",
       "lab": "实现指标并对照手算；按实体或时间拆分，测试集仅在方案冻结后使用。",
       "pitfall": "类别失衡时只报准确率；用测试集反复调参；混淆宏平均与微平均。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/021/lecture.pdf",
         "lab_pdf": "units/021/lab.pdf",
@@ -644,7 +660,15 @@
         "script": "units/021/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/019-021.json"
+      "release_record": "releases/019-021.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1b74b710a5f376afa5befd65bdf4b525d183214f",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 32,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "022",
@@ -658,7 +682,16 @@
       "figure": "配对实验、消融设计与多次试验选择偏差。",
       "lab": "预先写主指标和比较计划，报告多种子配对结果与区间；避免把训练种子当数据抽样。",
       "pitfall": "只挑最好种子；把不显著当等效；把消融相关性写成普遍因果结论。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/022/lecture.pdf",
+        "lab_pdf": "units/022/lab.pdf",
+        "answers_pdf": "units/022/answers.pdf",
+        "notebook": "units/022/experiment.ipynb",
+        "script": "units/022/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/022-024.json"
     },
     {
       "id": "023",
@@ -674,7 +707,16 @@
       "figure": "预测到损失再到参数更新的闭环。",
       "lab": "用NumPy写线性回归，检查梯度与收敛；对照常数基线，保存固定拆分。",
       "pitfall": "基线过弱；把正规方程求逆当作稳定数值实现。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/023/lecture.pdf",
+        "lab_pdf": "units/023/lab.pdf",
+        "answers_pdf": "units/023/answers.pdf",
+        "notebook": "units/023/experiment.ipynb",
+        "script": "units/023/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/022-024.json"
     },
     {
       "id": "024",
@@ -690,7 +732,16 @@
       "figure": "logit、概率单纯形与分类边界。",
       "lab": "从零实现二分类和多分类，与稳定库结果及有限差分比较；解释极端logit。",
       "pitfall": "先softmax再误用接收logits的损失；混淆总和损失与均值损失。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/024/lecture.pdf",
+        "lab_pdf": "units/024/lab.pdf",
+        "answers_pdf": "units/024/answers.pdf",
+        "notebook": "units/024/experiment.ipynb",
+        "script": "units/024/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/022-024.json"
     },
     {
       "id": "025",

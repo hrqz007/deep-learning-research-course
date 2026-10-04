@@ -1,0 +1,58 @@
+{
+  "release": "022-024",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "022",
+      "pages": {
+        "lecture": 11,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13,
+      "revision": "v1"
+    },
+    {
+      "id": "023",
+      "pages": {
+        "lecture": 12,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 14,
+      "revision": "v2 numeric underflow handling"
+    },
+    {
+      "id": "024",
+      "pages": {
+        "lecture": 11,
+        "lab": 3,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 13,
+      "revision": "v1"
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "022": "500 exact paired variance/covariance fixtures,100 enumerated bootstrap tables,495 exact multinomial occupancies,35 rare-event coverage models;4000 bootstrap and6000 selection rows independently reconstructed; sampling levels and coverage conditions explicit",
+    "023": "250 Fraction training models,120 exact full-rank least-squares fixtures,100 quadratic descent checks,all301 training states independently reconstructed; held-out interventions preserve fit,nonzero-to-zero underflow rejected",
+    "024": "360 high-precision multiclass and22 binary vectors,100 independent gradient/curvature/descent fixtures,both401-state trajectories;held-out interventions,malformed inputs and fixed-report guards verified"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Finite synthetic experiments do not establish real-data performance, population calibration or universal optimizer/generalization claims",
+    "Unit022 rounded t critical value and explicitly unverified sampling normality do not establish exact coverage",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

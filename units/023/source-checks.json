@@ -1,0 +1,61 @@
+{
+  "unit": "023",
+  "checked_on": "2026-10-04",
+  "policy": "Only primary official/author sources actually opened; all prose, data and figures independently authored. No source page reproduced.",
+  "sources": [
+    {
+      "id": "1",
+      "title": "CS229 Lecture Notes, Andrew Ng, updated by Tengyu Ma",
+      "url": "https://cs229.stanford.edu/notes2022fall/main_notes.pdf",
+      "sections_checked": "Chapter 1 and 1.1, printed pp.8–11, official PDF text opened",
+      "used_for": "Linear prediction, squared objective and simultaneous batch-gradient updates. Our normalization is 1/(2n); original teaching examples are different.",
+      "status": "checked"
+    },
+    {
+      "id": "2",
+      "title": "NumPy matmul official reference",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.matmul.html",
+      "sections_checked": "Notes: matrix multiplication and 1-D argument promotion/removal; @ semantics",
+      "used_for": "NumPy 2-D by 1-D shape conventions; documented stable page observed as v2.5, local numerical version is 2.3.5.",
+      "status": "checked"
+    },
+    {
+      "id": "3",
+      "title": "NumPy 2.3 Broadcasting",
+      "url": "https://numpy.org/doc/2.3/user/basics.broadcasting.html",
+      "sections_checked": "General broadcasting rules and outer-style broadcasting example",
+      "used_for": "Trailing-axis equal-or-one rule; original 3-by-3 failure example",
+      "status": "checked"
+    },
+    {
+      "id": "4",
+      "title": "NumPy 2.3 numpy.linalg.lstsq",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.linalg.lstsq.html",
+      "sections_checked": "Definition, rcond, rank, singular values, empty residuals, minimum-norm solution",
+      "used_for": "Stable numerical least-squares reference interface and correct output interpretation",
+      "status": "checked"
+    },
+    {
+      "id": "5",
+      "title": "LAPACK Users Guide Linear Least Squares Problems",
+      "url": "https://netlib.org/lapack/lug/node27.html",
+      "sections_checked": "Entire short page; full-rank and rank-deficient driver descriptions",
+      "used_for": "QR/LQ and SVD driver families; no explicit inverse recommended",
+      "status": "checked"
+    },
+    {
+      "id": "6",
+      "title": "Python csv official documentation",
+      "url": "https://docs.python.org/3/library/csv.html",
+      "sections_checked": "reader and DictReader field-width behavior",
+      "used_for": "Reader returns strings; this script adds strict ordered header and row-width validation. Documentation observed as Python 3.14; runtime3.12.14.",
+      "status": "checked"
+    }
+  ],
+  "not_used": [
+    {
+      "url": "https://www.deeplearningbook.org/contents/ml.html",
+      "reason": "Fetch returned content-length error; not cited or relied on."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "learning_rate": 0.1,
+  "steps": 300,
+  "initial": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gradient_point": [
+    0.4,
+    -0.2,
+    0.7
+  ],
+  "fd_step": 1e-05
+}

@@ -1,0 +1,78 @@
+{
+  "config": {
+    "learning_rate": 0.1,
+    "steps": 300,
+    "initial": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gradient_point": [
+      0.4,
+      -0.2,
+      0.7
+    ],
+    "fd_step": 1e-05
+  },
+  "counts": {
+    "train": 12,
+    "validation": 8,
+    "test": 10
+  },
+  "theta_order": [
+    "w1",
+    "w2",
+    "b"
+  ],
+  "theta": [
+    2.0000000000001585,
+    -0.749999999999986,
+    1.4999999999992786
+  ],
+  "reference_theta": [
+    2.0,
+    -0.7500000000000004,
+    1.5000000000000004
+  ],
+  "reference": {
+    "rank": 3,
+    "columns": 3,
+    "singular_values": [
+      6.270392417008392,
+      3.4641016151377544,
+      3.2683602825765163
+    ],
+    "loss": 0.058333333333333286,
+    "gradient_norm": 4.284919151686721e-16
+  },
+  "baseline": 2.5,
+  "mse": {
+    "train": {
+      "trained": 0.11666666666666674,
+      "reference": 0.11666666666666657,
+      "constant": 12.345833333333331
+    },
+    "validation": {
+      "trained": 0.028124999999999935,
+      "reference": 0.02812499999999996,
+      "constant": 11.418750000000001
+    },
+    "test": {
+      "trained": 0.08000000000000006,
+      "reference": 0.07999999999999999,
+      "constant": 8.6425
+    }
+  },
+  "curvature_upper_bound": 5.166666666666667,
+  "sufficient_step_upper_bound": 0.3870967741935484,
+  "initial_loss": 9.297916666666667,
+  "final_loss": 0.05833333333333337,
+  "final_gradient_norm": 6.576448330814683e-13,
+  "max_scaled_gradient_error": 3.246880542207009e-11,
+  "max_training_prediction_difference": 1.0536016503692736e-12,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "scope": "Original deterministic synthetic split; no generalization guarantee; validation/test unused for fitting."
+}

@@ -1,0 +1,104 @@
+{
+  "unit": "024",
+  "title": "逻辑回归与softmax分类",
+  "status": "author_checks_passed_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "prerequisites": [
+    "023",
+    "017",
+    "019",
+    "021"
+  ],
+  "pages": {
+    "lecture": 11,
+    "lab": 3,
+    "answers": 4
+  },
+  "original_figures": 9,
+  "exercises": 15,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy_reference": "1.17.0",
+    "core": "NumPy plus standard library,CPU"
+  },
+  "checks": {
+    "test_groups": 12,
+    "decimal_multiclass_vectors": 243,
+    "decimal_precision": 100,
+    "scipy_batches": 300,
+    "binary_score_label_combinations": 18,
+    "finite_difference_random_batches": 60,
+    "logit_coordinates_per_batch": 9,
+    "parameter_coordinates_per_batch": 9,
+    "mathematical_rejections": 22,
+    "bad_csv_config_new_old_isolation_calls": 22,
+    "input_conversion_cases": "Extended precision arrays,CSV/JSON nonzero-to-zero rejection, truezero acceptance",
+    "fixed_figure_guard_cases": 7,
+    "notebook_guard": "Nondefault config rejected in first code cell of fresh InProcessKernel;no notebook_outputs created",
+    "heldout_intervention": "Changed all test labels leaves weights/training trajectory identical",
+    "script": "Fresh unrelated-cwd andpython-O runs;allfivefiles byte-identical",
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.575,
+      "code_cells": 13,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "embedded_images": "3PNGs equal reviewed originals",
+    "documents": "2Python snippets executed;all18PDFpages and9figures individually reviewed;final correctedfigure3labelpositions/figure7legend,fontsymbols andPDFtailbalance rechecked",
+    "structural": "AllPDFbounds,replacementglyphs,privatepaths,metadata checked",
+    "sources": "5 official primary pages opened and relevantsections read"
+  },
+  "expected": {
+    "initial_loss": "log(3)",
+    "initial_gradient": [
+      [
+        0.5555555555555556,
+        -0.5555555555555556,
+        0
+      ],
+      [
+        0.18518518518518517,
+        0.18518518518518517,
+        -0.37037037037037035
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "train_ce": 0.12365797139822707,
+    "test_ce": 0.06898233157861906,
+    "extreme_wrongclass_ce": 2001.3132616875182,
+    "wrong_double_softmax_ce_at_8": 0.5518711422532396,
+    "binary_w_after400": 4.00124018242324
+  },
+  "limits": [
+    "Onlyoriginalfixedsyntheticdata;nopopulationperformanceorcalibrationguarantee",
+    "Boundedfinitefloat64;tinymathematicalprobabilitiesandgradientsmayunderflow",
+    "NoPyTorchruntimeorautograd/GPUclaim;librarydocumentationandlocalSciPycomparisonseparate",
+    "FreshAnaconda,browserJupyter,socketkernel,crossplatforminstallationuntested",
+    "FixedfiguresandNotebookrequiretwooriginalinputsandfivedefaultoutputs;customrunsseparate",
+    "Inputvalidation/calculation/serializationprecedewrites;noOSmultifilecrashatomicityguarantee",
+    "400iterationsisafixedstoppingpoint,notexactoptimalityorparameteruniqueness"
+  ],
+  "artifact_sha256": {
+    "README.md": "3761f8ee08e403a08ff10e25c068f31c49f00755bfd9a804e57810742e6afd0d",
+    "answers.md": "9635c2b53c3a829a4d36e59a8d09606db2ac7c3fa04fbe606977189427c5d9f6",
+    "answers.pdf": "c27f34b78c5045d6c1b0bcc9b487b07a3de123cf741208333413400da8a6b2e9",
+    "environment.yml": "499f6a7d9809480c2309da65706ecaebd229358c6c4113c7ab2b0439555c2d79",
+    "experiment.ipynb": "3b99352d5c35fa91978a346b371d96fcd1bfdfc7b689ca0834743b461ae19750",
+    "experiment.py": "25e6cefe07c4acfa966642717c390314ef0ed85be8e1c42254373c88e0aa92b5",
+    "lab.md": "700a6fd13fecb7ce3178b78f6b417bb87fab77ac63bce8886b7a04bfd7a37c37",
+    "lab.pdf": "3c94093eee917bbff7e4d5716e5ba25af336f89e57585cdc9e3c45d86d5c47e4",
+    "lecture.md": "dfcc1da37d54e60fd3015048951c4f34f415e7f2624054dc1066f74891d18624",
+    "lecture.pdf": "b9c40a9841b3597042f12d14fe2efc5fbb961b790a57f165e7cce0d224a11a20",
+    "make_figures.py": "fe2269f193ea1e8eb543cf9404aa71090908c882c337d550842f306c271248e7",
+    "source-checks.json": "8ecc510f5c48b28f7b5740289ee940085efcc3d9380f6913473f41eb17e62299",
+    "test_experiment.py": "0b505d72f892ee2dfe8de0c099423b8488be0cd3f51d762c350afb19bc9666cb"
+  }
+}
