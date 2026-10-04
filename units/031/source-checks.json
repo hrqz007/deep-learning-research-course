@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-10-04",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Gradcheck mechanics",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/gradcheck.html",
+      "read_scope": "Notation; real-to-real central difference; real fast directional check",
+      "status": "relevant primary-source content read"
+    },
+    {
+      "id": "S2",
+      "title": "gradcheck API",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.autograd.gradcheck.gradcheck.html",
+      "read_scope": "double precision, nondifferentiability, overlapping storage warnings; arguments and return",
+      "status": "relevant primary-source content read"
+    },
+    {
+      "id": "S3",
+      "title": "Autograd mechanics",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/autograd.html",
+      "read_scope": "graph history; non-smooth gradients; grad modes; eval distinction",
+      "status": "relevant primary-source content read"
+    },
+    {
+      "id": "S4",
+      "title": "Optimizer.zero_grad",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.Optimizer.zero_grad.html",
+      "read_scope": "set_to_none behavior; no-gradient versus zero-gradient",
+      "status": "relevant primary-source content read"
+    },
+    {
+      "id": "S5",
+      "title": "Reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "read_scope": "cross-platform caveat; random generator control",
+      "status": "relevant primary-source content read"
+    },
+    {
+      "id": "S6",
+      "title": "Understanding deep learning requires rethinking generalization",
+      "url": "https://arxiv.org/abs/1611.03530",
+      "read_scope": "official abstract and bibliographic metadata only, not full-text or reproduced experiments",
+      "status": "relevant primary-source content read"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "release": "031-033",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "031",
+      "pages": {
+        "lecture": 17,
+        "lab": 4,
+        "answers": 5
+      },
+      "executed_notebook_code_cells": 13,
+      "revision": "v1 complete debugging chain and independent gradient checks"
+    },
+    {
+      "id": "032",
+      "pages": {
+        "lecture": 10,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 13,
+      "revision": "v1 stochastic mini-batch dynamics and measured timing"
+    },
+    {
+      "id": "033",
+      "pages": {
+        "lecture": 13,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 16,
+      "revision": "v1 momentum scheduling and full-state restart"
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "031": "52 high-precision complex-step networks,676 coordinates,52 sample contributions and8 input derivatives;3200 independent Adam updates;16 test groups;complete debugging and objective counterexamples",
+    "032": "64 high-precision networks,832 coordinates,52 sample contributions,8 input derivatives and3600 updates across12 trajectories;timing newly measured across5 repetitions rather than forced byte equality",
+    "033": "72 high-precision networks,648 coordinates,two complete nine-parameter momentum steps;288 network and320 quadratic updates;real new-process full-state checkpoint resume"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process;PyTorch2.7.1+cpu,float64 CPU",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "No GPU,mixed-precision,distributed or arbitrary-network guarantee",
+    "Finite synthetic examples do not prove real-world generalization or optimization success",
+    "032 actual timing is an observation and not a deterministic reproducibility target",
+    "033 verifies full-epoch restart for the declared model and sampler,not dropout,augmentation or arbitrary mid-epoch recovery",
+    "Per-file output protection is not a multi-file crash transaction"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

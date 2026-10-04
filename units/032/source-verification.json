@@ -1,0 +1,32 @@
+{
+  "checked_on": "2026-10-04",
+  "primary_sources": [
+    {
+      "id": "S1",
+      "url": "https://leon.bottou.org/publications/pdf/tr-optml-2016.pdf",
+      "scope_actually_read": "Sections 3.4,4.1, mini-batch tradeoffs in4.2 and independence/variance parts of5.2; no full paper replication"
+    },
+    {
+      "id": "S2",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/c74d97b01eae257e44aa9d5bade97baf-Paper.pdf",
+      "scope_actually_read": "Abstract,introduction and1.1; not all proofs"
+    },
+    {
+      "id": "S3",
+      "url": "https://docs.pytorch.org/docs/2.7/data.html",
+      "scope_actually_read": "shuffle,sampler,batch,drop_last,generator; main experiment uses saved indices"
+    },
+    {
+      "id": "S4",
+      "url": "https://docs.pytorch.org/docs/2.7/benchmark_utils.html",
+      "scope_actually_read": "warmups,thread control,replicates/median; Timer not called here"
+    },
+    {
+      "id": "S5",
+      "url": "https://docs.python.org/3/library/time.html#time.perf_counter_ns",
+      "scope_actually_read": "perf_counter/perf_counter_ns; page3.14, runtime3.12.14 API actually used"
+    }
+  ],
+  "mathematical_examples": "Original finite-population and scalar recurrence derivations independently checked",
+  "no_unread_paper_reproduction_claim": true
+}

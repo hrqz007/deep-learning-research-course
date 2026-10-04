@@ -1,0 +1,9 @@
+{
+  "seed": 31,
+  "steps": 1600,
+  "hidden": 12,
+  "learning_rate": 0.03,
+  "theta": [0.2, -0.3, 0.4, 0.1, 0.25, -0.2, 0.05, -0.1, 0.15, 0.3, -0.4, 0.2, -0.05],
+  "fd_steps": [0.01, 0.0001, 0.000001, 0.00000001, 0.0000000001, 0.000000000001],
+  "scope": "fixed synthetic CPU diagnostics; no validation/test set and no generalization estimate"
+}

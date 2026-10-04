@@ -1,0 +1,264 @@
+{
+  "gradcheck": {
+    "healthy": true,
+    "detached_hidden": false,
+    "permuted_labels": true
+  },
+  "gradient_compare": {
+    "loss": 0.07877855276232809,
+    "cut_loss": 0.07877855276232809,
+    "healthy_max_abs": 1.2060651088940944e-11,
+    "cut_max_abs": 0.09025067367746109,
+    "cut_failed_coordinates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "missing_mean_factor_max_abs": 0.35141629802505425
+  },
+  "none_vs_zero": {
+    "connected_relu_gradient": 0.0,
+    "unused_gradient_is_none": true
+  },
+  "relu_at_zero": {
+    "autograd": 0.0,
+    "central_difference": 0.5,
+    "ordinary_derivative_exists": false
+  },
+  "direction_blind_spot": {
+    "true_dot": 2.1213203435596424,
+    "wrong_dot": 2.1213203435596424,
+    "coordinate_error_norm": 1.4142135623730951
+  },
+  "broadcast": {
+    "correct_shape": [
+      2,
+      1
+    ],
+    "incorrect_shape": [
+      2,
+      2
+    ],
+    "correct_loss": 0.0,
+    "incorrect_loss": 0.25
+  },
+  "contradictory_duplicate": {
+    "same_input": [
+      0.0,
+      0.0
+    ],
+    "targets": [
+      -1.0,
+      1.0
+    ],
+    "optimal_prediction": 0.0,
+    "minimum_half_mse": 0.5,
+    "actual_final_half_mse": 0.49999999999999994
+  },
+  "one_step": {
+    "healthy": {
+      "loss": 0.3618884807948939,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.47057259402887297,
+          "update_norm": 0.01411717782086618
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.2739297302302089,
+          "update_norm": 0.008217891906906267
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.9808713774768357,
+          "update_norm": 0.029426141324305054
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.40272404199715783,
+          "update_norm": 0.012081721259914734
+        }
+      ]
+    },
+    "no_step": {
+      "loss": 0.3618884807948939,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.47057259402887297,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.2739297302302089,
+          "update_norm": 0.0
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.9808713774768357,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.40272404199715783,
+          "update_norm": 0.0
+        }
+      ]
+    },
+    "zero_lr": {
+      "loss": 0.3618884807948939,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.47057259402887297,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.2739297302302089,
+          "update_norm": 0.0
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.9808713774768357,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.40272404199715783,
+          "update_norm": 0.0
+        }
+      ]
+    },
+    "omit_W1": {
+      "loss": 0.3618884807948939,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": false,
+          "grad_is_none": false,
+          "grad_norm": 0.47057259402887297,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.2739297302302089,
+          "update_norm": 0.008217891906906267
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.9808713774768357,
+          "update_norm": 0.029426141324305054
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.40272404199715783,
+          "update_norm": 0.012081721259914734
+        }
+      ]
+    },
+    "detach_hidden": {
+      "loss": 0.3618884807948939,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": true,
+          "grad_is_none": true,
+          "grad_norm": null,
+          "update_norm": 0.0
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": true,
+          "grad_norm": null,
+          "update_norm": 0.0
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.9808713774768357,
+          "update_norm": 0.029426141324305054
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 0.40272404199715783,
+          "update_norm": 0.012081721259914734
+        }
+      ]
+    },
+    "sum_reduction": {
+      "loss": 1.4475539231795755,
+      "parameters": [
+        {
+          "name": "W1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 1.8822903761154919,
+          "update_norm": 0.05646871128346478
+        },
+        {
+          "name": "b1",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 1.0957189209208356,
+          "update_norm": 0.03287156762762507
+        },
+        {
+          "name": "W2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 3.923485509907343,
+          "update_norm": 0.11770456529722029
+        },
+        {
+          "name": "b2",
+          "in_optimizer": true,
+          "grad_is_none": false,
+          "grad_norm": 1.6108961679886313,
+          "update_norm": 0.048326885039658936
+        }
+      ]
+    }
+  }
+}

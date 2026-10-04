@@ -1,0 +1,80 @@
+{
+  "checked_date": "2026-10-04",
+  "web_sources": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.SGD.html",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/optim.html",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.lr_scheduler.StepLR.html",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.lr_scheduler.CosineAnnealingLR.html",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.optim.lr_scheduler.LambdaLR.html",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/v2.7.1/torch/optim/lr_scheduler.py",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v28/sutskever13.pdf",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1706.02677",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    },
+    {
+      "url": "https://arxiv.org/abs/1608.03983",
+      "status": "actually_read",
+      "scope": "See sources.md for exact sections and access retry history"
+    }
+  ],
+  "installed_version": "2.7.1+cpu",
+  "installed_sources": {
+    "SGD": {
+      "sha256": "a3a7bd389797798410870e80682df67c429700361d3b02c37fe3faf331e8245e",
+      "read": false,
+      "role": "provenance hash; API behavior read in official web documentation"
+    },
+    "LambdaLR.__init__": {
+      "sha256": "7729942848601b7ae374ffba8a3cd2e33cf681fc69c6d826c8536849a71b872d",
+      "read": true
+    },
+    "LambdaLR.state_dict": {
+      "sha256": "c2efd078ed42a360e743e2879cec2c09eec7e6c02436335e3e42f2a56b1ff14c",
+      "read": true
+    },
+    "LambdaLR.load_state_dict": {
+      "sha256": "308c26d81bdf200bf2c03c984d0b2603f595ae3d5bf5a7258b7150b7ec8e7277",
+      "read": true
+    },
+    "LRScheduler.__init__": {
+      "sha256": "d79136488307389a0133dd24d19e71f4c32d0fb0bf8f20dbe0a9a366e6028f8a",
+      "read": true
+    },
+    "StepLR": {
+      "sha256": "1bc2e96f03e8c7d3be525cd6a07834ce4dc04979b618450112c2f54a43c2d9ca",
+      "read": "docstring"
+    }
+  },
+  "retry_note": "Direct docs.pytorch.org LambdaLR/StepLR initially unavailable; pytorch.org version URLs redirected successfully. No unresolved source access needed for claims.",
+  "copyright": "Original exposition, figures and synthetic experiments. No source full text copied into package."
+}

@@ -1,0 +1,13 @@
+{
+  "data/config.json": "2593197098ed324da99f782a1a45c38d39feebf37dd54da2bd80cb712cd6a9fd",
+  "data/hand-example.json": "59683cccabc78b9840bf5c10d14ac7313a3e3f7837449d74ede946ad55eaa1e8",
+  "data/samples.csv": "6b845cc6764a573f1736c4fda7c817e1bbef72e7d535b7104fb86c2d34e3e949",
+  "outputs/checkpoint-epoch-04.json": "a0d3cb71a11cc9e996c48979735ae2a13428552ca40f769403b050d3997b5b4b",
+  "outputs/final-state.json": "10317fad9284cb0a9d5d1ea231849409bd18b985401a4f3fdd8db5ccadf7d2e6",
+  "outputs/network.json": "4e75d60a3ff9ffd8a16677fa10224673e66b656109717ef1eba366b236966489",
+  "outputs/quadratic.json": "329845f526d85a3b8d776ab32aa73bc3d808aa6293b8d3e1c349121efb259a28",
+  "outputs/resume.json": "18a63f9e89adcc486ad14dc66c59589e44764b0750435aef26ebcd921ea29578",
+  "outputs/schedules.csv": "eb015af29009c69a481b3a9b7e7ec7c60b1310d1e69ababcd31b62f981c50a69",
+  "outputs/summary.json": "2298cbaf5267b61cf80fa52914f860fa434b378d4c17536e015440d837c23632",
+  "outputs/trace.json": "ac7f3bad7cfa469fdffe2b58e863d9228edac36d1919ade150b8bc37bdd688bb"
+}

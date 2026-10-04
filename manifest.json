@@ -872,7 +872,7 @@
       "figure": "动态图生命周期、保存激活与梯度累加。",
       "lab": "扩展最小自动微分器支持广播和共享节点；测试不可微点，解释自动微分不验证建模正确性。",
       "pitfall": "把自动微分当数值近似；以非光滑点的差分不一致断言框架出错。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/028/lecture.pdf",
         "lab_pdf": "units/028/lab.pdf",
@@ -881,7 +881,15 @@
         "script": "units/028/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/028-030.json"
+      "release_record": "releases/028-030.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "31ed184a5a9cf385e9da5ec0aeea6d85ab9acbe6",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 33,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "029",
@@ -896,7 +904,7 @@
       "figure": "张量存储、计算图与设备之间的关系。",
       "lab": "把027迁移到PyTorch并逐层比对；制造原地修改和意外detach问题后定位。",
       "pitfall": "用重新构造tensor切断图；忘记清梯度；误以为eval会自动禁用梯度。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/029/lecture.pdf",
         "lab_pdf": "units/029/lab.pdf",
@@ -905,7 +913,15 @@
         "script": "units/029/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/028-030.json"
+      "release_record": "releases/028-030.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "31ed184a5a9cf385e9da5ec0aeea6d85ab9acbe6",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 33,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "030",
@@ -919,7 +935,7 @@
       "figure": "一轮训练和一次验证的时序图。",
       "lab": "写完整小网络训练脚本与Notebook，保存模型、配置、优化器和拆分；中断恢复并核对结果。",
       "pitfall": "验证仍更新参数；漏注册参数；只保存权重却声称能精确恢复训练。",
-      "status": "verified",
+      "status": "published",
       "artifacts": {
         "lecture_pdf": "units/030/lecture.pdf",
         "lab_pdf": "units/030/lab.pdf",
@@ -928,7 +944,15 @@
         "script": "units/030/experiment.py"
       },
       "checks": "passed",
-      "release_record": "releases/028-030.json"
+      "release_record": "releases/028-030.json",
+      "publication": {
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "31ed184a5a9cf385e9da5ec0aeea6d85ab9acbe6",
+        "remote_file_hashes_verified": true,
+        "verified_file_count": 37,
+        "verified_on": "2026-10-04"
+      }
     },
     {
       "id": "031",
@@ -942,7 +966,16 @@
       "figure": "从数据到损失再到梯度的调试树。",
       "lab": "构建梯度检查、单批次过拟合、随机标签与输入扰动测试；提交可定位的故障报告。",
       "pitfall": "一开始就改大模型；把随机标签可拟合误当真实泛化能力。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/031/lecture.pdf",
+        "lab_pdf": "units/031/lab.pdf",
+        "answers_pdf": "units/031/answers.pdf",
+        "notebook": "units/031/experiment.ipynb",
+        "script": "units/031/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/031-033.json"
     },
     {
       "id": "032",
@@ -957,7 +990,16 @@
       "figure": "批量大小影响轨迹、噪声和吞吐的对照。",
       "lab": "固定数据顺序与预算比较全批量和SGD，分别报告步数、样本数与时间。",
       "pitfall": "不同训练预算直接比优劣；把所有批量梯度都视为无偏独立样本。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/032/lecture.pdf",
+        "lab_pdf": "units/032/lab.pdf",
+        "answers_pdf": "units/032/answers.pdf",
+        "notebook": "units/032/experiment.ipynb",
+        "script": "units/032/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/031-033.json"
     },
     {
       "id": "033",
@@ -970,7 +1012,16 @@
       "figure": "狭长谷地中SGD和动量路径；学习率曲线。",
       "lab": "在二次函数和小网络上比较动量、固定步长与调度；检查恢复训练后的调度一致性。",
       "pitfall": "把warmup当普遍必需；梯度累积后沿用错误的调度步数。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/033/lecture.pdf",
+        "lab_pdf": "units/033/lab.pdf",
+        "answers_pdf": "units/033/answers.pdf",
+        "notebook": "units/033/experiment.ipynb",
+        "script": "units/033/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/031-033.json"
     },
     {
       "id": "034",

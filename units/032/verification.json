@@ -1,0 +1,62 @@
+{
+  "unit": "032",
+  "status": "author_verified_pending_independent_review",
+  "checked_on": "2026-10-04",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1
+  },
+  "documents": {
+    "lecture_pages": 10,
+    "lab_pages": 3,
+    "answers_pages": 3,
+    "all_final_pages_visually_inspected": true,
+    "original_figures": 9,
+    "all_figures_inspected_in_final_pages": true,
+    "pdf_text_bounds_and_placeholder_checks": "passed",
+    "layout_revision": "Kept13 gradient coordinates in one aligned block with connected lead-in"
+  },
+  "execution": {
+    "fresh_script": "passed",
+    "optimized_unrelated_cwd": "passed",
+    "seven_deterministic_outputs_byte_identical": true,
+    "timing_excluded_from_deterministic_comparison": true,
+    "provided_timing": "1 warmup and5 actual repeats per4 configurations; rotating order",
+    "notebook": "13 cells,new process InProcessKernel;3PNG match; separate3-repeat timing also executed",
+    "browser_socket_note": "Browser UI and socket transport not tested"
+  },
+  "scientific_checks": {
+    "unittest_groups": 9,
+    "independent_scalar_forward_backward_models": 80,
+    "first_batch_FD_coordinates": 13,
+    "same_example_full_trace": "All forward/backward tensors,13parameter gradients/updates,next forward on IDs25/9/6/4",
+    "exact_fraction_covariance_scenarios": 224,
+    "scalar_IID_paths": "all4^t paths,t1..5,exact first/second moments",
+    "training_reference": "All12 main trajectories,every update/full loss rebuilt with independent scalar-loop chain rule",
+    "network_variance": "13-dimensional gradients on8 rows,all B1/2/4/8 without-replacement subsets",
+    "conditioning": "Exact importance correction and two-history reshuffle counterexample"
+  },
+  "failure_checks": {
+    "fresh_changed_input_numeric_cli": 12,
+    "fresh_changed_input_benchmark_cli": 6,
+    "figure_guards": 11,
+    "notebook_first_cell_guards": 11,
+    "injected_calculation_serialization_failures": 4,
+    "nonpositive_clock_protections": 2,
+    "complete_lab_python_blocks": 1,
+    "timing_median_range_budget_fields_recomputed": true
+  },
+  "output_contract": "Fixed byte guards; all validation/calculation/serialization before output; final replacement atomic per file,not a multi-file crash transaction",
+  "sources": "5 official primary sources read in recorded sections",
+  "limitations": [
+    "Synthetic fixed training objective; no held-out/generalization result",
+    "Fixed-theta covariance,IID scalar theory and reshuffled network are distinct",
+    "No universal batch superiority or learning-rate-scaling claim",
+    "Timing entire guarded train(record=False),sharedCPU; notGPU or purekernel",
+    "No freshAnaconda,browserJupyter,socket,GPU,distributed,multiworker or cross-platform timing validation"
+  ]
+}

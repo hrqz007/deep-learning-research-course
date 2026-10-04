@@ -1,0 +1,11 @@
+{
+  "data/batch.csv": "0fa0ff7f91b8d8760681cd2daba96e123d90a17ed4371b541e3a04c195430267",
+  "data/config.json": "d81b6f450fbc363b7d4ed93fccccacf64ca2ced00e3654a251e7f6f803eeb1d8",
+  "outputs/faults.json": "f67021f6df2abe75a85be49d05f91b8e5ca76d7f4b042ebdfea0b015d27d15a1",
+  "outputs/finite-difference.csv": "56498f25fd2c4a2132b3f126b29a6f71cf0a3ea73b33b07f9b6e9fdb14549478",
+  "outputs/fitted-values.csv": "841ddf54330c856eb1d556786cc68b61b30c8de0986db2f801e27ee9559b6892",
+  "outputs/full-trace.json": "a6eaaa9af3b9914438ab243f342542abc99338a76503dac79fae75963aff8a51",
+  "outputs/perturbations.json": "b4971d4eea1336c575ad655ee6a65999b02148a0226762f6c331d0589cf2b56f",
+  "outputs/summary.json": "5cc3672c44d90f9e00cba1d50d90ecf6d90ac197ba4d21fde51b55afe3577e00",
+  "outputs/training.csv": "497dcefdd66d74fd61f9b18d6543220df8ab4927967c5d23a8e66ed8d33ac524"
+}

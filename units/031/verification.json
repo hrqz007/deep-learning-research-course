@@ -1,0 +1,174 @@
+{
+  "unit": "031",
+  "title": "梯度核验与最小调试法",
+  "prerequisites": [
+    "027",
+    "030"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "author_verified_pending_independent_review",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "matplotlib": "3.10.8",
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1,
+    "fresh_install_claimed": false
+  },
+  "mathematical_checks": {
+    "unittest_groups": 16,
+    "normal_and_optimized_test_runners_passed": true,
+    "fraction_linear_models": 125,
+    "decimal_precision": 70,
+    "decimal_networks": 36,
+    "decimal_parameter_fd_coordinates": 468,
+    "fixed_parameter_fd_coordinates": 13,
+    "fixed_fd_steps": 6,
+    "full_trace_compared_coordinates": 77,
+    "full_trace_max_abs": 5.551115123125783e-17,
+    "full_trace_parameter_contributions_shape": [
+      4,
+      13
+    ],
+    "same_fixture_used_for_trace_and_fd": true,
+    "input_fd_coordinates": 8,
+    "input_fd_max_abs": 1.1038342115354816e-11,
+    "duplicate_exact_fraction_points": 201,
+    "constant_predictor_half_mse_fraction": "39/160",
+    "input_reversal_exact_interpolation_half_mse_fraction": "39/40",
+    "trace_loss_before": 0.07877855276232809,
+    "trace_loss_after_sgd": 0.07241983164894575
+  },
+  "diagnostic_probes": {
+    "one_step_sgd_modes": [
+      "healthy",
+      "no_step",
+      "zero_lr",
+      "omit_W1",
+      "detach_hidden",
+      "sum_reduction"
+    ],
+    "gradcheck_healthy": true,
+    "gradcheck_detached_hidden_expected_failure": true,
+    "gradcheck_wrong_label_permutation_still_passes": true,
+    "relu_zero_convention_and_nondifferentiability": true,
+    "unused_none_vs_connected_zero": true,
+    "single_direction_blind_spot": true,
+    "broadcast_semantic_error": true,
+    "fixed_random_label_fit": true,
+    "contradictory_duplicates_300_steps": true,
+    "local_generator_global_state_unchanged": true,
+    "rule_and_random_1600_updates_each": true,
+    "recorded_training_rows": 3202,
+    "frozen_input_interventions": true
+  },
+  "failure_protection": {
+    "invalid_cli_input_processes_per_suite": 16,
+    "missing_input_rejected_without_new_output": true,
+    "figure_guard_processes_per_suite": 9,
+    "notebook_first_cell_guard_processes_per_suite": 9,
+    "injected_calculation_and_serialization_failures_per_suite": 4,
+    "existing_and_absent_destinations_tested": true,
+    "fixed_input_hash_checked_before_parse": true,
+    "mixed_boolean_values_rejected_before_numeric_coercion": true,
+    "all_computation_and_serialization_before_output_writes": true,
+    "per_file_atomic_replace_only": true,
+    "multi_file_crash_atomicity_claimed": false
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 5.741,
+    "code_cells": 13,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "embedded_pngs": 3,
+    "all_embedded_png_bytes_match": true,
+    "seven_output_files_match": true
+  },
+  "reproducibility": {
+    "fresh-main": {
+      "faults.json": true,
+      "finite-difference.csv": true,
+      "fitted-values.csv": true,
+      "full-trace.json": true,
+      "perturbations.json": true,
+      "summary.json": true,
+      "training.csv": true
+    },
+    "fresh-optimized": {
+      "faults.json": true,
+      "finite-difference.csv": true,
+      "fitted-values.csv": true,
+      "full-trace.json": true,
+      "perturbations.json": true,
+      "summary.json": true,
+      "training.csv": true
+    },
+    "notebook": {
+      "faults.json": true,
+      "finite-difference.csv": true,
+      "fitted-values.csv": true,
+      "full-trace.json": true,
+      "perturbations.json": true,
+      "summary.json": true,
+      "training.csv": true
+    },
+    "notebook_image_matches": [
+      [
+        "03_fd_steps.png"
+      ],
+      [
+        "06_batch_fits.png"
+      ],
+      [
+        "08_input_interventions.png"
+      ]
+    ],
+    "notebook_code_cells": 13,
+    "notebook_execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notebook_errors": []
+  },
+  "pdf_review": {
+    "lecture_pages": 17,
+    "lab_pages": 4,
+    "answers_pages": 5,
+    "all_26_pages_individually_viewed": true,
+    "original_figures": 9,
+    "all_figures_individually_viewed": true,
+    "mathjax_equations_rendered": true,
+    "all_5_python_snippets_executed_in_fresh_processes": true,
+    "private_path_scan_clean": true,
+    "pdf_text_scan_clean": true
+  },
+  "source_verification": {
+    "primary_sources_actually_read": 6,
+    "pytorch_documentation_version": "2.7",
+    "paper_scope": "official arXiv abstract and metadata only; no paper reproduction"
+  },
+  "limitations": [
+    "Synthetic CPU diagnostics only; no validation or test set and no real-world generalization claim.",
+    "No GPU, distributed, mixed-precision, browser Jupyter UI, socket transport or new Anaconda installation tested.",
+    "Cross-platform or cross-version bitwise equality is not promised.",
+    "Fixed-input CLI and figure guards are teaching-result protection, not a generic training framework or a security boundary.",
+    "Random-label loss is not monotone; the observed rebound is retained without asserting a unique cause.",
+    "No multiple-file operating-system crash transaction guarantee."
+  ]
+}

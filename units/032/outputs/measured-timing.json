@@ -1,0 +1,89 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "device": "cpu",
+    "threads": 1
+  },
+  "protocol": {
+    "warmups_each": 1,
+    "repetitions": 5,
+    "rotating_order": true,
+    "timer": "time.perf_counter_ns",
+    "included": "complete train(record=False) call: validation, index flattening, thread setting, tensor initialization, gather/forward/backward/update and guard checks",
+    "excluded": "imports, reading/generating original data, full-risk history logging, final comparison audit and file I/O",
+    "limits": "Shared CPU wall times vary. Tiny-network implementation timing, not a GPU throughput or general algorithmic superiority claim."
+  },
+  "input_sha256": {
+    "config.json": "3f31d1b740f66a4224b3be2ec56f451d3181e5ccd7a17b6749c5114a2ec51c53",
+    "order.json": "f90d8e73c6d8c7db11ce5e39f58ff17c6c1fe55d9b9e42d78ce9b011b65553df",
+    "samples.csv": "9b2e5c6d0ac24372075c01f817150430c171d1995363051ac5a861496e67f402"
+  },
+  "script_sha256": "30e2013e1db3d0947ee066cf6e71aef640b5425da92e2b8ad6f2da98ec3c4334",
+  "rows": [
+    {
+      "batch_size": 1,
+      "steps": 1280,
+      "examples": 1280,
+      "nanoseconds": [
+        393570272,
+        360257768,
+        376665797,
+        476590134,
+        692643138
+      ],
+      "median_seconds": 0.393570272,
+      "minimum_seconds": 0.360257768,
+      "maximum_seconds": 0.692643138,
+      "examples_per_second": 3252.278159870774
+    },
+    {
+      "batch_size": 4,
+      "steps": 320,
+      "examples": 1280,
+      "nanoseconds": [
+        99436002,
+        100787652,
+        114800100,
+        115625060,
+        309009362
+      ],
+      "median_seconds": 0.1148001,
+      "minimum_seconds": 0.099436002,
+      "maximum_seconds": 0.309009362,
+      "examples_per_second": 11149.816071588788
+    },
+    {
+      "batch_size": 16,
+      "steps": 80,
+      "examples": 1280,
+      "nanoseconds": [
+        22010482,
+        23058048,
+        25820621,
+        26364814,
+        72565337
+      ],
+      "median_seconds": 0.025820621,
+      "minimum_seconds": 0.022010482,
+      "maximum_seconds": 0.072565337,
+      "examples_per_second": 49572.78138275606
+    },
+    {
+      "batch_size": 32,
+      "steps": 40,
+      "examples": 1280,
+      "nanoseconds": [
+        13391471,
+        11007917,
+        12950381,
+        13775392,
+        38219426
+      ],
+      "median_seconds": 0.013391471,
+      "minimum_seconds": 0.011007917,
+      "maximum_seconds": 0.038219426,
+      "examples_per_second": 95583.22606978726
+    }
+  ]
+}

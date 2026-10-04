@@ -1,0 +1,13 @@
+run,budget,batch_size,steps,examples,learning_rate,final_training_loss
+equal_examples_b1,equal_examples,1,1280,1280,0.02,0.010846523422225036
+equal_examples_b4,equal_examples,4,320,1280,0.02,0.04282216935915375
+equal_examples_b16,equal_examples,16,80,1280,0.02,0.07010574029094643
+equal_examples_b32,equal_examples,32,40,1280,0.02,0.13855836825809162
+equal_steps_b1,equal_steps,1,40,40,0.02,0.12674367456211635
+equal_steps_b4,equal_steps,4,40,160,0.02,0.1385147314152921
+equal_steps_b16,equal_steps,16,40,640,0.02,0.13848299477160145
+equal_steps_b32,equal_steps,32,40,1280,0.02,0.13855836825809162
+linear_scaled_examples_b1,linear_scaled_examples,1,1280,1280,0.005,0.04282831380362236
+linear_scaled_examples_b4,linear_scaled_examples,4,320,1280,0.02,0.04282216935915375
+linear_scaled_examples_b16,linear_scaled_examples,16,80,1280,0.08,0.042845428126323415
+linear_scaled_examples_b32,linear_scaled_examples,32,40,1280,0.16,0.04285187986076876

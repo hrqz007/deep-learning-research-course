@@ -1,0 +1,17 @@
+name: dl-unit-031
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - matplotlib=3.10.8
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cpu
+      - torch==2.7.1
+# Learner declaration; a new Anaconda installation was not tested.
+# Actual CPU run: Python3.12.14, NumPy2.3.5, torch2.7.1+cpu.
+# No torchvision, GPU, downloaded datasets or paid APIs.

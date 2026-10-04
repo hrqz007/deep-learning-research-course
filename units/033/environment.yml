@@ -1,0 +1,15 @@
+name: dl-unit033
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - torch==2.7.1
+      - matplotlib==3.10.8
+      - jupyterlab
+      - ipykernel
+      - nbformat
+# CPU wheel may require the official https://download.pytorch.org/whl/cpu index.
+# Fresh Anaconda installation was not rerun; see README for the actually tested runtime.

@@ -1,0 +1,117 @@
+{
+  "unit": "033",
+  "title": "动量学习率与调度",
+  "prerequisites": [
+    "032"
+  ],
+  "checked_date": "2026-10-04",
+  "status": "author_verified_pending_independent_review",
+  "runtime": {
+    "device": "cpu",
+    "dtype": "float64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "threads": 1,
+    "torch": "2.7.1+cpu"
+  },
+  "installation": "reused existing approved CPU runtime; no installation during unit authoring",
+  "mathematical_checks": {
+    "unittest_groups": 15,
+    "normal_and_optimized_runners_passed": true,
+    "full_same_batch_trace_updates": 2,
+    "all_parameters_per_update": 9,
+    "local_derivatives_and_paths_recorded": true,
+    "independent_fraction_trace_max_abs": 2.220446049250313e-16,
+    "finite_difference_coordinates": 18,
+    "finite_difference_max_abs": 1.0661735383443727e-11,
+    "fraction_random_networks_checked": 50,
+    "fraction_random_networks_skipped_exact_relu_boundary": 10,
+    "fraction_momentum_sequences": 100,
+    "steps_per_fraction_sequence": 10,
+    "ema_sign_sequences": 1024,
+    "stability_grid_points": 1804,
+    "numpy_training": {
+      "runs": 4,
+      "updates": 288,
+      "max_final_parameter_error": 1.1102230246251565e-16,
+      "max_step_loss_error": 1.734723475976807e-18
+    },
+    "resume_seed_mode_cut_combinations": 36,
+    "bad_checkpoint_structural_cases": 19
+  },
+  "execution": {
+    "script_fresh_process": true,
+    "optimized_script_unrelated_cwd": true,
+    "resume_fresh_process": true,
+    "notebook_fresh_process": true,
+    "notebook_code_cells": 16,
+    "notebook_embedded_png_exact_matches": 4,
+    "all_8_outputs_byte_identical_across_script_optimized_notebook_resume": true,
+    "kernel": "IPython InProcessKernel sequential execution in new Python process",
+    "browser_jupyter_and_socket_transport_tested": false,
+    "lab_python_blocks_executed": 4
+  },
+  "failure_protection": {
+    "fresh_bad_input_cli_cases": 12,
+    "fresh_bad_checkpoint_cli_cases": 6,
+    "fixed_figure_guards": 11,
+    "notebook_first_cell_guards": 15,
+    "serialization_failures_no_output_change": 2,
+    "validation_and_computation_and_serialization_before_output": true,
+    "output_atomicity": "per-file replacement; not a multi-file crash transaction"
+  },
+  "visual_review": {
+    "pdf_pages": {
+      "lecture": 13,
+      "lab": 4,
+      "answers": 4
+    },
+    "total_pages": 21,
+    "every_final_page_individually_viewed": true,
+    "original_figures": 9,
+    "every_final_figure_individually_viewed": true,
+    "resolved_author_issues": [
+      "unsupported Unicode subscript glyphs replaced in figures",
+      "LR annotation moved off plotted line",
+      "orphaned references paragraph compacted without removing source links",
+      "relative prerequisite PDF file URI removed; Markdown link retained"
+    ],
+    "source_and_figure_consistency_checked": true
+  },
+  "results": {
+    "trace_losses": [
+      0.02209999999999999,
+      0.008492561877305594,
+      0.0027086215825890413
+    ],
+    "network_final_loss": {
+      "momentum_cosine": 0.0009418348132445728,
+      "momentum_fixed": 0.00047500897433990023,
+      "momentum_warmup_cosine": 0.0009169358250200086,
+      "sgd_fixed": 0.0015794327081331777
+    },
+    "quadratic_final_loss": {
+      "momentum_cosine": 2.2047556736631845e-06,
+      "momentum_fixed": 4.235781022508658e-07,
+      "momentum_warmup_cosine": 1.2660875422038704e-07,
+      "sgd_fixed": 0.0028428370520598035
+    },
+    "resume_full_state_equal": true,
+    "resume_remaining_updates": 48,
+    "resume_negative_parameter_gaps": {
+      "optimizer": 0.005287684053386574,
+      "rng": 0.0005071817927507771,
+      "scheduler": 0.018318295789003333
+    }
+  },
+  "scope_limits": [
+    "CPU float64 one-thread deterministic synthetic toy",
+    "No validation/test split or generalization estimate",
+    "No systematic per-method hyperparameter search",
+    "No GPU, distributed, multiworker, mixed precision or mid-accumulation resume test",
+    "Only explicit sampler RNG is consumed by training; no global RNG, dropout, random initialization or random augmentation",
+    "Checkpoint checksum detects accidental modification, not adversarial authenticity",
+    "Fresh Anaconda and all-platform installation not tested"
+  ],
+  "source_verification": "See sources.md and source-checks.json for primary-source read scopes and recovered access retries."
+}

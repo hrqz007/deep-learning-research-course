@@ -1,0 +1,121 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1
+  },
+  "runs": [
+    {
+      "run": "equal_examples_b1",
+      "budget": "equal_examples",
+      "batch_size": 1,
+      "steps": 1280,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.010846523422225036
+    },
+    {
+      "run": "equal_examples_b4",
+      "budget": "equal_examples",
+      "batch_size": 4,
+      "steps": 320,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.04282216935915375
+    },
+    {
+      "run": "equal_examples_b16",
+      "budget": "equal_examples",
+      "batch_size": 16,
+      "steps": 80,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.07010574029094643
+    },
+    {
+      "run": "equal_examples_b32",
+      "budget": "equal_examples",
+      "batch_size": 32,
+      "steps": 40,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.13855836825809162
+    },
+    {
+      "run": "equal_steps_b1",
+      "budget": "equal_steps",
+      "batch_size": 1,
+      "steps": 40,
+      "examples": 40,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.12674367456211635
+    },
+    {
+      "run": "equal_steps_b4",
+      "budget": "equal_steps",
+      "batch_size": 4,
+      "steps": 40,
+      "examples": 160,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.1385147314152921
+    },
+    {
+      "run": "equal_steps_b16",
+      "budget": "equal_steps",
+      "batch_size": 16,
+      "steps": 40,
+      "examples": 640,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.13848299477160145
+    },
+    {
+      "run": "equal_steps_b32",
+      "budget": "equal_steps",
+      "batch_size": 32,
+      "steps": 40,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.13855836825809162
+    },
+    {
+      "run": "linear_scaled_examples_b1",
+      "budget": "linear_scaled_examples",
+      "batch_size": 1,
+      "steps": 1280,
+      "examples": 1280,
+      "learning_rate": 0.005,
+      "final_training_loss": 0.04282831380362236
+    },
+    {
+      "run": "linear_scaled_examples_b4",
+      "budget": "linear_scaled_examples",
+      "batch_size": 4,
+      "steps": 320,
+      "examples": 1280,
+      "learning_rate": 0.02,
+      "final_training_loss": 0.04282216935915375
+    },
+    {
+      "run": "linear_scaled_examples_b16",
+      "budget": "linear_scaled_examples",
+      "batch_size": 16,
+      "steps": 80,
+      "examples": 1280,
+      "learning_rate": 0.08,
+      "final_training_loss": 0.042845428126323415
+    },
+    {
+      "run": "linear_scaled_examples_b32",
+      "budget": "linear_scaled_examples",
+      "batch_size": 32,
+      "steps": 40,
+      "examples": 1280,
+      "learning_rate": 0.16,
+      "final_training_loss": 0.04285187986076876
+    }
+  ],
+  "scope": "Optimization on a fixed synthetic training objective, no validation/test/generalization comparison; timings are separate measured runs."
+}

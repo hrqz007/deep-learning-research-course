@@ -1,0 +1,4922 @@
+[
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 1,
+    "mean_theta": 0.9,
+    "variance_theta": 0.05000000000000001,
+    "expected_excess_loss": 0.43000000000000005
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 2,
+    "mean_theta": 0.81,
+    "variance_theta": 0.09050000000000002,
+    "expected_excess_loss": 0.3733000000000001
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 3,
+    "mean_theta": 0.7290000000000001,
+    "variance_theta": 0.12330500000000003,
+    "expected_excess_loss": 0.3273730000000001
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 4,
+    "mean_theta": 0.6561000000000001,
+    "variance_theta": 0.14987705000000004,
+    "expected_excess_loss": 0.2901721300000001
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 5,
+    "mean_theta": 0.5904900000000002,
+    "variance_theta": 0.17140041050000004,
+    "expected_excess_loss": 0.2600394253000001
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 6,
+    "mean_theta": 0.5314410000000002,
+    "variance_theta": 0.18883433250500006,
+    "expected_excess_loss": 0.23563193449300013
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 7,
+    "mean_theta": 0.47829690000000014,
+    "variance_theta": 0.20295580932905008,
+    "expected_excess_loss": 0.2158618669393301
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 8,
+    "mean_theta": 0.43046721000000016,
+    "variance_theta": 0.2143942055565306,
+    "expected_excess_loss": 0.1998481122208574
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 9,
+    "mean_theta": 0.38742048900000015,
+    "variance_theta": 0.22365930650078983,
+    "expected_excess_loss": 0.18687697089889455
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 10,
+    "mean_theta": 0.34867844010000015,
+    "variance_theta": 0.23116403826563978,
+    "expected_excess_loss": 0.1763703464281046
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 11,
+    "mean_theta": 0.31381059609000017,
+    "variance_theta": 0.23724287099516825,
+    "expected_excess_loss": 0.16785998060676474
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 12,
+    "mean_theta": 0.28242953648100017,
+    "variance_theta": 0.2421667255060863,
+    "expected_excess_loss": 0.16096658429147945
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 13,
+    "mean_theta": 0.25418658283290013,
+    "variance_theta": 0.24615504765992993,
+    "expected_excess_loss": 0.15538293327609837
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 14,
+    "mean_theta": 0.22876792454961012,
+    "variance_theta": 0.24938558860454327,
+    "expected_excess_loss": 0.15086017595363968
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 15,
+    "mean_theta": 0.2058911320946491,
+    "variance_theta": 0.25200232676968004,
+    "expected_excess_loss": 0.14719674252244813
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 16,
+    "mean_theta": 0.1853020188851842,
+    "variance_theta": 0.2541218846834408,
+    "expected_excess_loss": 0.144229361443183
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 17,
+    "mean_theta": 0.16677181699666577,
+    "variance_theta": 0.2558387265935871,
+    "expected_excess_loss": 0.14182578276897823
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 18,
+    "mean_theta": 0.1500946352969992,
+    "variance_theta": 0.2572293685408056,
+    "expected_excess_loss": 0.13987888404287238
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 19,
+    "mean_theta": 0.13508517176729928,
+    "variance_theta": 0.2583557885180525,
+    "expected_excess_loss": 0.13830189607472665
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 20,
+    "mean_theta": 0.12157665459056936,
+    "variance_theta": 0.25926818869962254,
+    "expected_excess_loss": 0.13702453582052856
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 21,
+    "mean_theta": 0.10941898913151243,
+    "variance_theta": 0.26000723284669425,
+    "expected_excess_loss": 0.13598987401462814
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 22,
+    "mean_theta": 0.0984770902183612,
+    "variance_theta": 0.26060585860582236,
+    "expected_excess_loss": 0.1351517979518488
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 23,
+    "mean_theta": 0.08862938119652508,
+    "variance_theta": 0.26109074547071615,
+    "expected_excess_loss": 0.13447295634099754
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 24,
+    "mean_theta": 0.07976644307687257,
+    "variance_theta": 0.2614835038312801,
+    "expected_excess_loss": 0.13392309463620802
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 25,
+    "mean_theta": 0.07178979876918531,
+    "variance_theta": 0.2618016381033369,
+    "expected_excess_loss": 0.13347770665532852
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 26,
+    "mean_theta": 0.06461081889226679,
+    "variance_theta": 0.2620593268637029,
+    "expected_excess_loss": 0.13311694239081612
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 27,
+    "mean_theta": 0.05814973700304011,
+    "variance_theta": 0.2622680547595994,
+    "expected_excess_loss": 0.13282472333656106
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 28,
+    "mean_theta": 0.0523347633027361,
+    "variance_theta": 0.26243712435527555,
+    "expected_excess_loss": 0.13258802590261448
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 29,
+    "mean_theta": 0.04710128697246249,
+    "variance_theta": 0.2625740707277732,
+    "expected_excess_loss": 0.13239630098111774
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 30,
+    "mean_theta": 0.042391158275216244,
+    "variance_theta": 0.26268499728949635,
+    "expected_excess_loss": 0.13224100379470538
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 31,
+    "mean_theta": 0.03815204244769462,
+    "variance_theta": 0.26277484780449206,
+    "expected_excess_loss": 0.13211521307371138
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 32,
+    "mean_theta": 0.03433683820292516,
+    "variance_theta": 0.2628476267216386,
+    "expected_excess_loss": 0.13201332258970622
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 33,
+    "mean_theta": 0.030903154382632643,
+    "variance_theta": 0.2629065776445273,
+    "expected_excess_loss": 0.13193079129766205
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 34,
+    "mean_theta": 0.02781283894436938,
+    "variance_theta": 0.26295432789206713,
+    "expected_excess_loss": 0.1318639409511063
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 35,
+    "mean_theta": 0.025031555049932444,
+    "variance_theta": 0.2629930055925744,
+    "expected_excess_loss": 0.1318097921703961
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 36,
+    "mean_theta": 0.0225283995449392,
+    "variance_theta": 0.26302433452998525,
+    "expected_excess_loss": 0.13176593165802084
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 37,
+    "mean_theta": 0.020275559590445278,
+    "variance_theta": 0.2630497109692881,
+    "expected_excess_loss": 0.1317304046429969
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 38,
+    "mean_theta": 0.01824800363140075,
+    "variance_theta": 0.2630702658851234,
+    "expected_excess_loss": 0.1317016277608275
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 39,
+    "mean_theta": 0.016423203268260675,
+    "variance_theta": 0.26308691536694995,
+    "expected_excess_loss": 0.1316783184862703
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.1,
+    "step": 40,
+    "mean_theta": 0.014780882941434608,
+    "variance_theta": 0.26310040144722946,
+    "expected_excess_loss": 0.1316594379738789
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 1,
+    "mean_theta": 0.5,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.75
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 2,
+    "mean_theta": 0.25,
+    "variance_theta": 1.5625,
+    "expected_excess_loss": 0.8125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 3,
+    "mean_theta": 0.125,
+    "variance_theta": 1.640625,
+    "expected_excess_loss": 0.828125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 4,
+    "mean_theta": 0.0625,
+    "variance_theta": 1.66015625,
+    "expected_excess_loss": 0.83203125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 5,
+    "mean_theta": 0.03125,
+    "variance_theta": 1.6650390625,
+    "expected_excess_loss": 0.8330078125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 6,
+    "mean_theta": 0.015625,
+    "variance_theta": 1.666259765625,
+    "expected_excess_loss": 0.833251953125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 7,
+    "mean_theta": 0.0078125,
+    "variance_theta": 1.66656494140625,
+    "expected_excess_loss": 0.83331298828125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 8,
+    "mean_theta": 0.00390625,
+    "variance_theta": 1.6666412353515625,
+    "expected_excess_loss": 0.8333282470703125
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 9,
+    "mean_theta": 0.001953125,
+    "variance_theta": 1.6666603088378906,
+    "expected_excess_loss": 0.8333320617675781
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 10,
+    "mean_theta": 0.0009765625,
+    "variance_theta": 1.6666650772094727,
+    "expected_excess_loss": 0.8333330154418945
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 11,
+    "mean_theta": 0.00048828125,
+    "variance_theta": 1.6666662693023682,
+    "expected_excess_loss": 0.8333332538604736
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 12,
+    "mean_theta": 0.000244140625,
+    "variance_theta": 1.666666567325592,
+    "expected_excess_loss": 0.8333333134651184
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 13,
+    "mean_theta": 0.0001220703125,
+    "variance_theta": 1.666666641831398,
+    "expected_excess_loss": 0.8333333283662796
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 14,
+    "mean_theta": 6.103515625e-05,
+    "variance_theta": 1.6666666604578495,
+    "expected_excess_loss": 0.8333333320915699
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 15,
+    "mean_theta": 3.0517578125e-05,
+    "variance_theta": 1.6666666651144624,
+    "expected_excess_loss": 0.8333333330228925
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 16,
+    "mean_theta": 1.52587890625e-05,
+    "variance_theta": 1.6666666662786156,
+    "expected_excess_loss": 0.8333333332557231
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 17,
+    "mean_theta": 7.62939453125e-06,
+    "variance_theta": 1.666666666569654,
+    "expected_excess_loss": 0.8333333333139308
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 18,
+    "mean_theta": 3.814697265625e-06,
+    "variance_theta": 1.6666666666424135,
+    "expected_excess_loss": 0.8333333333284827
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 19,
+    "mean_theta": 1.9073486328125e-06,
+    "variance_theta": 1.6666666666606034,
+    "expected_excess_loss": 0.8333333333321207
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 20,
+    "mean_theta": 9.5367431640625e-07,
+    "variance_theta": 1.6666666666651508,
+    "expected_excess_loss": 0.8333333333330302
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 21,
+    "mean_theta": 4.76837158203125e-07,
+    "variance_theta": 1.6666666666662877,
+    "expected_excess_loss": 0.8333333333332575
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 22,
+    "mean_theta": 2.384185791015625e-07,
+    "variance_theta": 1.666666666666572,
+    "expected_excess_loss": 0.8333333333333144
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 23,
+    "mean_theta": 1.1920928955078125e-07,
+    "variance_theta": 1.666666666666643,
+    "expected_excess_loss": 0.8333333333333286
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 24,
+    "mean_theta": 5.960464477539063e-08,
+    "variance_theta": 1.6666666666666607,
+    "expected_excess_loss": 0.8333333333333321
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 25,
+    "mean_theta": 2.9802322387695312e-08,
+    "variance_theta": 1.6666666666666652,
+    "expected_excess_loss": 0.833333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 26,
+    "mean_theta": 1.4901161193847656e-08,
+    "variance_theta": 1.6666666666666663,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 27,
+    "mean_theta": 7.450580596923828e-09,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 28,
+    "mean_theta": 3.725290298461914e-09,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 29,
+    "mean_theta": 1.862645149230957e-09,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 30,
+    "mean_theta": 9.313225746154785e-10,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 31,
+    "mean_theta": 4.656612873077393e-10,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 32,
+    "mean_theta": 2.3283064365386963e-10,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 33,
+    "mean_theta": 1.1641532182693481e-10,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 34,
+    "mean_theta": 5.820766091346741e-11,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 35,
+    "mean_theta": 2.9103830456733704e-11,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 36,
+    "mean_theta": 1.4551915228366852e-11,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 37,
+    "mean_theta": 7.275957614183426e-12,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 38,
+    "mean_theta": 3.637978807091713e-12,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 39,
+    "mean_theta": 1.8189894035458565e-12,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 0.5,
+    "step": 40,
+    "mean_theta": 9.094947017729282e-13,
+    "variance_theta": 1.6666666666666665,
+    "expected_excess_loss": 0.8333333333333333
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 1,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 2,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 3,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 4,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 5,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 6,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 7,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 8,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 9,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 10,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 11,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 12,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 13,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 14,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 15,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 16,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 17,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 18,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 19,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 20,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 21,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 22,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 23,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 24,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 25,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 26,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 27,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 28,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 29,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 30,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 31,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 32,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 33,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 34,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 35,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 36,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 37,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 38,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 39,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 1.0,
+    "step": 40,
+    "mean_theta": 0.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 2.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 1,
+    "mean_theta": -1.0,
+    "variance_theta": 20.0,
+    "expected_excess_loss": 10.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 2,
+    "mean_theta": 1.0,
+    "variance_theta": 40.0,
+    "expected_excess_loss": 20.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 3,
+    "mean_theta": -1.0,
+    "variance_theta": 60.0,
+    "expected_excess_loss": 30.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 4,
+    "mean_theta": 1.0,
+    "variance_theta": 80.0,
+    "expected_excess_loss": 40.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 5,
+    "mean_theta": -1.0,
+    "variance_theta": 100.0,
+    "expected_excess_loss": 50.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 6,
+    "mean_theta": 1.0,
+    "variance_theta": 120.0,
+    "expected_excess_loss": 60.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 7,
+    "mean_theta": -1.0,
+    "variance_theta": 140.0,
+    "expected_excess_loss": 70.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 8,
+    "mean_theta": 1.0,
+    "variance_theta": 160.0,
+    "expected_excess_loss": 80.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 9,
+    "mean_theta": -1.0,
+    "variance_theta": 180.0,
+    "expected_excess_loss": 90.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 10,
+    "mean_theta": 1.0,
+    "variance_theta": 200.0,
+    "expected_excess_loss": 100.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 11,
+    "mean_theta": -1.0,
+    "variance_theta": 220.0,
+    "expected_excess_loss": 110.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 12,
+    "mean_theta": 1.0,
+    "variance_theta": 240.0,
+    "expected_excess_loss": 120.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 13,
+    "mean_theta": -1.0,
+    "variance_theta": 260.0,
+    "expected_excess_loss": 130.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 14,
+    "mean_theta": 1.0,
+    "variance_theta": 280.0,
+    "expected_excess_loss": 140.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 15,
+    "mean_theta": -1.0,
+    "variance_theta": 300.0,
+    "expected_excess_loss": 150.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 16,
+    "mean_theta": 1.0,
+    "variance_theta": 320.0,
+    "expected_excess_loss": 160.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 17,
+    "mean_theta": -1.0,
+    "variance_theta": 340.0,
+    "expected_excess_loss": 170.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 18,
+    "mean_theta": 1.0,
+    "variance_theta": 360.0,
+    "expected_excess_loss": 180.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 19,
+    "mean_theta": -1.0,
+    "variance_theta": 380.0,
+    "expected_excess_loss": 190.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 20,
+    "mean_theta": 1.0,
+    "variance_theta": 400.0,
+    "expected_excess_loss": 200.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 21,
+    "mean_theta": -1.0,
+    "variance_theta": 420.0,
+    "expected_excess_loss": 210.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 22,
+    "mean_theta": 1.0,
+    "variance_theta": 440.0,
+    "expected_excess_loss": 220.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 23,
+    "mean_theta": -1.0,
+    "variance_theta": 460.0,
+    "expected_excess_loss": 230.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 24,
+    "mean_theta": 1.0,
+    "variance_theta": 480.0,
+    "expected_excess_loss": 240.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 25,
+    "mean_theta": -1.0,
+    "variance_theta": 500.0,
+    "expected_excess_loss": 250.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 26,
+    "mean_theta": 1.0,
+    "variance_theta": 520.0,
+    "expected_excess_loss": 260.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 27,
+    "mean_theta": -1.0,
+    "variance_theta": 540.0,
+    "expected_excess_loss": 270.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 28,
+    "mean_theta": 1.0,
+    "variance_theta": 560.0,
+    "expected_excess_loss": 280.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 29,
+    "mean_theta": -1.0,
+    "variance_theta": 580.0,
+    "expected_excess_loss": 290.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 30,
+    "mean_theta": 1.0,
+    "variance_theta": 600.0,
+    "expected_excess_loss": 300.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 31,
+    "mean_theta": -1.0,
+    "variance_theta": 620.0,
+    "expected_excess_loss": 310.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 32,
+    "mean_theta": 1.0,
+    "variance_theta": 640.0,
+    "expected_excess_loss": 320.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 33,
+    "mean_theta": -1.0,
+    "variance_theta": 660.0,
+    "expected_excess_loss": 330.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 34,
+    "mean_theta": 1.0,
+    "variance_theta": 680.0,
+    "expected_excess_loss": 340.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 35,
+    "mean_theta": -1.0,
+    "variance_theta": 700.0,
+    "expected_excess_loss": 350.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 36,
+    "mean_theta": 1.0,
+    "variance_theta": 720.0,
+    "expected_excess_loss": 360.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 37,
+    "mean_theta": -1.0,
+    "variance_theta": 740.0,
+    "expected_excess_loss": 370.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 38,
+    "mean_theta": 1.0,
+    "variance_theta": 760.0,
+    "expected_excess_loss": 380.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 39,
+    "mean_theta": -1.0,
+    "variance_theta": 780.0,
+    "expected_excess_loss": 390.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.0,
+    "step": 40,
+    "mean_theta": 1.0,
+    "variance_theta": 800.0,
+    "expected_excess_loss": 400.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 1,
+    "mean_theta": -1.1,
+    "variance_theta": 22.05,
+    "expected_excess_loss": 11.63
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 2,
+    "mean_theta": 1.2100000000000002,
+    "variance_theta": 48.730500000000006,
+    "expected_excess_loss": 25.097300000000004
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 3,
+    "mean_theta": -1.3310000000000004,
+    "variance_theta": 81.01390500000002,
+    "expected_excess_loss": 41.392733000000014
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 4,
+    "mean_theta": 1.4641000000000006,
+    "variance_theta": 120.07682505000004,
+    "expected_excess_loss": 61.11020693000002
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 5,
+    "mean_theta": -1.6105100000000008,
+    "variance_theta": 167.34295831050008,
+    "expected_excess_loss": 84.96835038530004
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 6,
+    "mean_theta": 1.771561000000001,
+    "variance_theta": 224.53497955570515,
+    "expected_excess_loss": 113.83670396621308
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 7,
+    "mean_theta": -1.9487171000000014,
+    "variance_theta": 293.73732526240326,
+    "expected_excess_loss": 148.76741179911784
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 8,
+    "mean_theta": 2.1435888100000016,
+    "variance_theta": 377.472163567508,
+    "expected_excess_loss": 191.0335682769326
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 9,
+    "mean_theta": -2.357947691000002,
+    "variance_theta": 478.79131791668476,
+    "expected_excess_loss": 242.1756176150885
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 10,
+    "mean_theta": 2.5937424601000023,
+    "variance_theta": 601.3874946791886,
+    "expected_excess_loss": 304.05749731425715
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 11,
+    "mean_theta": -2.853116706110003,
+    "variance_theta": 749.7288685618183,
+    "expected_excess_loss": 378.93457175025117
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 12,
+    "mean_theta": 3.1384283767210035,
+    "variance_theta": 929.2219309598003,
+    "expected_excess_loss": 469.53583181780397
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 13,
+    "mean_theta": -3.4522712143931042,
+    "variance_theta": 1146.4085364613584,
+    "expected_excess_loss": 579.1633564995428
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 14,
+    "mean_theta": 3.797498335832415,
+    "variance_theta": 1409.2043291182438,
+    "expected_excess_loss": 711.8126613644469
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 15,
+    "mean_theta": -4.177248169415656,
+    "variance_theta": 1727.1872382330753,
+    "expected_excess_loss": 872.3183202509808
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 16,
+    "mean_theta": 4.594972986357222,
+    "variance_theta": 2111.9465582620214,
+    "expected_excess_loss": 1066.530167503687
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 17,
+    "mean_theta": -5.054470284992944,
+    "variance_theta": 2577.5053354970464,
+    "expected_excess_loss": 1301.5265026794616
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 18,
+    "mean_theta": 5.559917313492239,
+    "variance_theta": 3140.831455951427,
+    "expected_excess_loss": 1585.8720682421488
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 19,
+    "mean_theta": -6.115909044841463,
+    "variance_theta": 3822.4560617012276,
+    "expected_excess_loss": 1929.9302025730005
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 20,
+    "mean_theta": 6.72749994932561,
+    "variance_theta": 4647.221834658486,
+    "expected_excess_loss": 2346.240545113331
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 21,
+    "mean_theta": -7.400249944258172,
+    "variance_theta": 5645.188419936769,
+    "expected_excess_loss": 2849.9760595871307
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 22,
+    "mean_theta": 8.140274938683989,
+    "variance_theta": 6852.727988123492,
+    "expected_excess_loss": 3459.496032100429
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 23,
+    "mean_theta": -8.954302432552389,
+    "variance_theta": 8313.850865629425,
+    "expected_excess_loss": 4197.015198841519
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 24,
+    "mean_theta": 9.849732675807628,
+    "variance_theta": 10081.809547411605,
+    "expected_excess_loss": 5089.413390598239
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 25,
+    "mean_theta": -10.834705943388391,
+    "variance_theta": 12221.039552368044,
+    "expected_excess_loss": 6169.21520262387
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 26,
+    "mean_theta": 11.91817653772723,
+    "variance_theta": 14809.507858365334,
+    "expected_excess_loss": 7475.775395174883
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 27,
+    "mean_theta": -13.109994191499954,
+    "variance_theta": 17941.554508622055,
+    "expected_excess_loss": 9056.713228161609
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 28,
+    "mean_theta": 14.420993610649951,
+    "variance_theta": 21731.330955432688,
+    "expected_excess_loss": 10969.648006075548
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 29,
+    "mean_theta": -15.863092971714948,
+    "variance_theta": 26316.960456073557,
+    "expected_excess_loss": 13284.299087351415
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 30,
+    "mean_theta": 17.449402268886445,
+    "variance_theta": 31865.572151849006,
+    "expected_excess_loss": 16085.026895695213
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 31,
+    "mean_theta": -19.19434249577509,
+    "variance_theta": 38579.39230373731,
+    "expected_excess_loss": 19473.907543791214
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 32,
+    "mean_theta": 21.1137767453526,
+    "variance_theta": 46703.11468752215,
+    "expected_excess_loss": 23574.453127987374
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 33,
+    "mean_theta": -23.22515441988786,
+    "variance_theta": 56532.81877190182,
+    "expected_excess_loss": 28536.11328486473
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 34,
+    "mean_theta": 25.54766986187665,
+    "variance_theta": 68426.76071400121,
+    "expected_excess_loss": 34539.722074686324
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 35,
+    "mean_theta": -28.102436848064315,
+    "variance_theta": 82818.43046394148,
+    "expected_excess_loss": 41804.08871037046
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 36,
+    "mean_theta": 30.91268053287075,
+    "variance_theta": 100232.35086136921,
+    "expected_excess_loss": 50593.972339548265
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 37,
+    "mean_theta": -34.003948586157826,
+    "variance_theta": 121303.19454225677,
+    "expected_excess_loss": 61229.731530853416
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 38,
+    "mean_theta": 37.40434344477361,
+    "variance_theta": 146798.9153961307,
+    "expected_excess_loss": 74099.00015233264
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 39,
+    "mean_theta": -41.14477778925097,
+    "variance_theta": 177648.73762931817,
+    "expected_excess_loss": 89670.8151843225
+  },
+  {
+    "batch_size": 1,
+    "learning_rate": 2.1,
+    "step": 40,
+    "mean_theta": 45.25925556817607,
+    "variance_theta": 214977.022531475,
+    "expected_excess_loss": 108512.71137303024
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 1,
+    "mean_theta": 0.9,
+    "variance_theta": 0.012500000000000002,
+    "expected_excess_loss": 0.41125
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 2,
+    "mean_theta": 0.81,
+    "variance_theta": 0.022625000000000006,
+    "expected_excess_loss": 0.33936250000000007
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 3,
+    "mean_theta": 0.7290000000000001,
+    "variance_theta": 0.030826250000000006,
+    "expected_excess_loss": 0.2811336250000001
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 4,
+    "mean_theta": 0.6561000000000001,
+    "variance_theta": 0.03746926250000001,
+    "expected_excess_loss": 0.23396823625000007
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 5,
+    "mean_theta": 0.5904900000000002,
+    "variance_theta": 0.04285010262500001,
+    "expected_excess_loss": 0.1957642713625001
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 6,
+    "mean_theta": 0.5314410000000002,
+    "variance_theta": 0.047208583126250016,
+    "expected_excess_loss": 0.1648190598036251
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 7,
+    "mean_theta": 0.47829690000000014,
+    "variance_theta": 0.05073895233226252,
+    "expected_excess_loss": 0.13975343844093632
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 8,
+    "mean_theta": 0.43046721000000016,
+    "variance_theta": 0.05359855138913265,
+    "expected_excess_loss": 0.11945028513715844
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 9,
+    "mean_theta": 0.38742048900000015,
+    "variance_theta": 0.05591482662519746,
+    "expected_excess_loss": 0.10300473096109834
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 10,
+    "mean_theta": 0.34867844010000015,
+    "variance_theta": 0.057791009566409944,
+    "expected_excess_loss": 0.08968383207848966
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 11,
+    "mean_theta": 0.31381059609000017,
+    "variance_theta": 0.05931071774879206,
+    "expected_excess_loss": 0.07889390398357665
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 12,
+    "mean_theta": 0.28242953648100017,
+    "variance_theta": 0.06054168137652158,
+    "expected_excess_loss": 0.0701540622266971
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 13,
+    "mean_theta": 0.25418658283290013,
+    "variance_theta": 0.06153876191498248,
+    "expected_excess_loss": 0.06307479040362464
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 14,
+    "mean_theta": 0.22876792454961012,
+    "variance_theta": 0.06234639715113582,
+    "expected_excess_loss": 0.05734058022693596
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 15,
+    "mean_theta": 0.2058911320946491,
+    "variance_theta": 0.06300058169242001,
+    "expected_excess_loss": 0.05269586998381813
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 16,
+    "mean_theta": 0.1853020188851842,
+    "variance_theta": 0.0635304711708602,
+    "expected_excess_loss": 0.04893365468689268
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 17,
+    "mean_theta": 0.16677181699666577,
+    "variance_theta": 0.06395968164839677,
+    "expected_excess_loss": 0.045886260296383076
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 18,
+    "mean_theta": 0.1500946352969992,
+    "variance_theta": 0.0643073421352014,
+    "expected_excess_loss": 0.043417870840070295
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 19,
+    "mean_theta": 0.13508517176729928,
+    "variance_theta": 0.06458894712951313,
+    "expected_excess_loss": 0.04141847538045694
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 20,
+    "mean_theta": 0.12157665459056936,
+    "variance_theta": 0.06481704717490563,
+    "expected_excess_loss": 0.03979896505817012
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 21,
+    "mean_theta": 0.10941898913151243,
+    "variance_theta": 0.06500180821167356,
+    "expected_excess_loss": 0.0384871616971178
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 22,
+    "mean_theta": 0.0984770902183612,
+    "variance_theta": 0.06515146465145559,
+    "expected_excess_loss": 0.03742460097466542
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 23,
+    "mean_theta": 0.08862938119652508,
+    "variance_theta": 0.06527268636767904,
+    "expected_excess_loss": 0.03656392678947899
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 24,
+    "mean_theta": 0.07976644307687257,
+    "variance_theta": 0.06537087595782003,
+    "expected_excess_loss": 0.03586678069947799
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 25,
+    "mean_theta": 0.07178979876918531,
+    "variance_theta": 0.06545040952583422,
+    "expected_excess_loss": 0.03530209236657717
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 26,
+    "mean_theta": 0.06461081889226679,
+    "variance_theta": 0.06551483171592573,
+    "expected_excess_loss": 0.034844694816927514
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 27,
+    "mean_theta": 0.05814973700304011,
+    "variance_theta": 0.06556701368989985,
+    "expected_excess_loss": 0.03447420280171129
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 28,
+    "mean_theta": 0.0523347633027361,
+    "variance_theta": 0.06560928108881889,
+    "expected_excess_loss": 0.03417410426938615
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 29,
+    "mean_theta": 0.04710128697246249,
+    "variance_theta": 0.0656435176819433,
+    "expected_excess_loss": 0.033931024458202785
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 30,
+    "mean_theta": 0.042391158275216244,
+    "variance_theta": 0.06567124932237409,
+    "expected_excess_loss": 0.03373412981114426
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 31,
+    "mean_theta": 0.03815204244769462,
+    "variance_theta": 0.06569371195112302,
+    "expected_excess_loss": 0.033574645147026856
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 32,
+    "mean_theta": 0.03433683820292516,
+    "variance_theta": 0.06571190668040965,
+    "expected_excess_loss": 0.033445462569091755
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 33,
+    "mean_theta": 0.030903154382632643,
+    "variance_theta": 0.06572664441113182,
+    "expected_excess_loss": 0.033340824680964325
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 34,
+    "mean_theta": 0.02781283894436938,
+    "variance_theta": 0.06573858197301678,
+    "expected_excess_loss": 0.03325606799158111
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 35,
+    "mean_theta": 0.025031555049932444,
+    "variance_theta": 0.0657482513981436,
+    "expected_excess_loss": 0.033187415073180696
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 36,
+    "mean_theta": 0.0225283995449392,
+    "variance_theta": 0.06575608363249631,
+    "expected_excess_loss": 0.03313180620927637
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 37,
+    "mean_theta": 0.020275559590445278,
+    "variance_theta": 0.06576242774232202,
+    "expected_excess_loss": 0.03308676302951386
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 38,
+    "mean_theta": 0.01824800363140075,
+    "variance_theta": 0.06576756647128085,
+    "expected_excess_loss": 0.03305027805390623
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 39,
+    "mean_theta": 0.016423203268260675,
+    "variance_theta": 0.06577172884173749,
+    "expected_excess_loss": 0.033020725223664046
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.1,
+    "step": 40,
+    "mean_theta": 0.014780882941434608,
+    "variance_theta": 0.06577510036180736,
+    "expected_excess_loss": 0.03299678743116788
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 1,
+    "mean_theta": 0.5,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.28125
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 2,
+    "mean_theta": 0.25,
+    "variance_theta": 0.390625,
+    "expected_excess_loss": 0.2265625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 3,
+    "mean_theta": 0.125,
+    "variance_theta": 0.41015625,
+    "expected_excess_loss": 0.212890625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 4,
+    "mean_theta": 0.0625,
+    "variance_theta": 0.4150390625,
+    "expected_excess_loss": 0.20947265625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 5,
+    "mean_theta": 0.03125,
+    "variance_theta": 0.416259765625,
+    "expected_excess_loss": 0.2086181640625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 6,
+    "mean_theta": 0.015625,
+    "variance_theta": 0.41656494140625,
+    "expected_excess_loss": 0.208404541015625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 7,
+    "mean_theta": 0.0078125,
+    "variance_theta": 0.4166412353515625,
+    "expected_excess_loss": 0.20835113525390625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 8,
+    "mean_theta": 0.00390625,
+    "variance_theta": 0.4166603088378906,
+    "expected_excess_loss": 0.20833778381347656
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 9,
+    "mean_theta": 0.001953125,
+    "variance_theta": 0.41666507720947266,
+    "expected_excess_loss": 0.20833444595336914
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 10,
+    "mean_theta": 0.0009765625,
+    "variance_theta": 0.41666626930236816,
+    "expected_excess_loss": 0.20833361148834229
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 11,
+    "mean_theta": 0.00048828125,
+    "variance_theta": 0.41666656732559204,
+    "expected_excess_loss": 0.20833340287208557
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 12,
+    "mean_theta": 0.000244140625,
+    "variance_theta": 0.416666641831398,
+    "expected_excess_loss": 0.2083333507180214
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 13,
+    "mean_theta": 0.0001220703125,
+    "variance_theta": 0.4166666604578495,
+    "expected_excess_loss": 0.20833333767950535
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 14,
+    "mean_theta": 6.103515625e-05,
+    "variance_theta": 0.4166666651144624,
+    "expected_excess_loss": 0.20833333441987634
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 15,
+    "mean_theta": 3.0517578125e-05,
+    "variance_theta": 0.4166666662786156,
+    "expected_excess_loss": 0.20833333360496908
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 16,
+    "mean_theta": 1.52587890625e-05,
+    "variance_theta": 0.4166666665696539,
+    "expected_excess_loss": 0.20833333340124227
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 17,
+    "mean_theta": 7.62939453125e-06,
+    "variance_theta": 0.4166666666424135,
+    "expected_excess_loss": 0.20833333335031057
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 18,
+    "mean_theta": 3.814697265625e-06,
+    "variance_theta": 0.41666666666060337,
+    "expected_excess_loss": 0.20833333333757764
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 19,
+    "mean_theta": 1.9073486328125e-06,
+    "variance_theta": 0.41666666666515084,
+    "expected_excess_loss": 0.2083333333343944
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 20,
+    "mean_theta": 9.5367431640625e-07,
+    "variance_theta": 0.4166666666662877,
+    "expected_excess_loss": 0.2083333333335986
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 21,
+    "mean_theta": 4.76837158203125e-07,
+    "variance_theta": 0.4166666666665719,
+    "expected_excess_loss": 0.20833333333339965
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 22,
+    "mean_theta": 2.384185791015625e-07,
+    "variance_theta": 0.416666666666643,
+    "expected_excess_loss": 0.2083333333333499
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 23,
+    "mean_theta": 1.1920928955078125e-07,
+    "variance_theta": 0.41666666666666075,
+    "expected_excess_loss": 0.20833333333333748
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 24,
+    "mean_theta": 5.960464477539063e-08,
+    "variance_theta": 0.4166666666666652,
+    "expected_excess_loss": 0.20833333333333437
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 25,
+    "mean_theta": 2.9802322387695312e-08,
+    "variance_theta": 0.4166666666666663,
+    "expected_excess_loss": 0.2083333333333336
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 26,
+    "mean_theta": 1.4901161193847656e-08,
+    "variance_theta": 0.4166666666666666,
+    "expected_excess_loss": 0.2083333333333334
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 27,
+    "mean_theta": 7.450580596923828e-09,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333334
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 28,
+    "mean_theta": 3.725290298461914e-09,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 29,
+    "mean_theta": 1.862645149230957e-09,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 30,
+    "mean_theta": 9.313225746154785e-10,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 31,
+    "mean_theta": 4.656612873077393e-10,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 32,
+    "mean_theta": 2.3283064365386963e-10,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 33,
+    "mean_theta": 1.1641532182693481e-10,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 34,
+    "mean_theta": 5.820766091346741e-11,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 35,
+    "mean_theta": 2.9103830456733704e-11,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 36,
+    "mean_theta": 1.4551915228366852e-11,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 37,
+    "mean_theta": 7.275957614183426e-12,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 38,
+    "mean_theta": 3.637978807091713e-12,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 39,
+    "mean_theta": 1.8189894035458565e-12,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 0.5,
+    "step": 40,
+    "mean_theta": 9.094947017729282e-13,
+    "variance_theta": 0.41666666666666663,
+    "expected_excess_loss": 0.20833333333333331
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 1,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 2,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 3,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 4,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 5,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 6,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 7,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 8,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 9,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 10,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 11,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 12,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 13,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 14,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 15,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 16,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 17,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 18,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 19,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 20,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 21,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 22,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 23,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 24,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 25,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 26,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 27,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 28,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 29,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 30,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 31,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 32,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 33,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 34,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 35,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 36,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 37,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 38,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 39,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 1.0,
+    "step": 40,
+    "mean_theta": 0.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 0.625
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 1,
+    "mean_theta": -1.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 3.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 2,
+    "mean_theta": 1.0,
+    "variance_theta": 10.0,
+    "expected_excess_loss": 5.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 3,
+    "mean_theta": -1.0,
+    "variance_theta": 15.0,
+    "expected_excess_loss": 8.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 4,
+    "mean_theta": 1.0,
+    "variance_theta": 20.0,
+    "expected_excess_loss": 10.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 5,
+    "mean_theta": -1.0,
+    "variance_theta": 25.0,
+    "expected_excess_loss": 13.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 6,
+    "mean_theta": 1.0,
+    "variance_theta": 30.0,
+    "expected_excess_loss": 15.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 7,
+    "mean_theta": -1.0,
+    "variance_theta": 35.0,
+    "expected_excess_loss": 18.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 8,
+    "mean_theta": 1.0,
+    "variance_theta": 40.0,
+    "expected_excess_loss": 20.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 9,
+    "mean_theta": -1.0,
+    "variance_theta": 45.0,
+    "expected_excess_loss": 23.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 10,
+    "mean_theta": 1.0,
+    "variance_theta": 50.0,
+    "expected_excess_loss": 25.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 11,
+    "mean_theta": -1.0,
+    "variance_theta": 55.0,
+    "expected_excess_loss": 28.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 12,
+    "mean_theta": 1.0,
+    "variance_theta": 60.0,
+    "expected_excess_loss": 30.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 13,
+    "mean_theta": -1.0,
+    "variance_theta": 65.0,
+    "expected_excess_loss": 33.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 14,
+    "mean_theta": 1.0,
+    "variance_theta": 70.0,
+    "expected_excess_loss": 35.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 15,
+    "mean_theta": -1.0,
+    "variance_theta": 75.0,
+    "expected_excess_loss": 38.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 16,
+    "mean_theta": 1.0,
+    "variance_theta": 80.0,
+    "expected_excess_loss": 40.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 17,
+    "mean_theta": -1.0,
+    "variance_theta": 85.0,
+    "expected_excess_loss": 43.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 18,
+    "mean_theta": 1.0,
+    "variance_theta": 90.0,
+    "expected_excess_loss": 45.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 19,
+    "mean_theta": -1.0,
+    "variance_theta": 95.0,
+    "expected_excess_loss": 48.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 20,
+    "mean_theta": 1.0,
+    "variance_theta": 100.0,
+    "expected_excess_loss": 50.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 21,
+    "mean_theta": -1.0,
+    "variance_theta": 105.0,
+    "expected_excess_loss": 53.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 22,
+    "mean_theta": 1.0,
+    "variance_theta": 110.0,
+    "expected_excess_loss": 55.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 23,
+    "mean_theta": -1.0,
+    "variance_theta": 115.0,
+    "expected_excess_loss": 58.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 24,
+    "mean_theta": 1.0,
+    "variance_theta": 120.0,
+    "expected_excess_loss": 60.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 25,
+    "mean_theta": -1.0,
+    "variance_theta": 125.0,
+    "expected_excess_loss": 63.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 26,
+    "mean_theta": 1.0,
+    "variance_theta": 130.0,
+    "expected_excess_loss": 65.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 27,
+    "mean_theta": -1.0,
+    "variance_theta": 135.0,
+    "expected_excess_loss": 68.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 28,
+    "mean_theta": 1.0,
+    "variance_theta": 140.0,
+    "expected_excess_loss": 70.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 29,
+    "mean_theta": -1.0,
+    "variance_theta": 145.0,
+    "expected_excess_loss": 73.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 30,
+    "mean_theta": 1.0,
+    "variance_theta": 150.0,
+    "expected_excess_loss": 75.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 31,
+    "mean_theta": -1.0,
+    "variance_theta": 155.0,
+    "expected_excess_loss": 78.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 32,
+    "mean_theta": 1.0,
+    "variance_theta": 160.0,
+    "expected_excess_loss": 80.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 33,
+    "mean_theta": -1.0,
+    "variance_theta": 165.0,
+    "expected_excess_loss": 83.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 34,
+    "mean_theta": 1.0,
+    "variance_theta": 170.0,
+    "expected_excess_loss": 85.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 35,
+    "mean_theta": -1.0,
+    "variance_theta": 175.0,
+    "expected_excess_loss": 88.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 36,
+    "mean_theta": 1.0,
+    "variance_theta": 180.0,
+    "expected_excess_loss": 90.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 37,
+    "mean_theta": -1.0,
+    "variance_theta": 185.0,
+    "expected_excess_loss": 93.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 38,
+    "mean_theta": 1.0,
+    "variance_theta": 190.0,
+    "expected_excess_loss": 95.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 39,
+    "mean_theta": -1.0,
+    "variance_theta": 195.0,
+    "expected_excess_loss": 98.0
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.0,
+    "step": 40,
+    "mean_theta": 1.0,
+    "variance_theta": 200.0,
+    "expected_excess_loss": 100.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 1,
+    "mean_theta": -1.1,
+    "variance_theta": 5.5125,
+    "expected_excess_loss": 3.36125
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 2,
+    "mean_theta": 1.2100000000000002,
+    "variance_theta": 12.182625000000002,
+    "expected_excess_loss": 6.823362500000001
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 3,
+    "mean_theta": -1.3310000000000004,
+    "variance_theta": 20.253476250000006,
+    "expected_excess_loss": 11.012518625000004
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 4,
+    "mean_theta": 1.4641000000000006,
+    "variance_theta": 30.01920626250001,
+    "expected_excess_loss": 16.081397536250005
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 5,
+    "mean_theta": -1.6105100000000008,
+    "variance_theta": 41.83573957762502,
+    "expected_excess_loss": 22.21474101886251
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 6,
+    "mean_theta": 1.771561000000001,
+    "variance_theta": 56.13374488892629,
+    "expected_excess_loss": 29.636086632823645
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 7,
+    "mean_theta": -1.9487171000000014,
+    "variance_theta": 73.43433131560082,
+    "expected_excess_loss": 38.615914825716615
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 8,
+    "mean_theta": 2.1435888100000016,
+    "variance_theta": 94.368040891877,
+    "expected_excess_loss": 49.48150693911711
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 9,
+    "mean_theta": -2.357947691000002,
+    "variance_theta": 119.69782947917119,
+    "expected_excess_loss": 62.62887339633171
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 10,
+    "mean_theta": 2.5937424601000023,
+    "variance_theta": 150.34687366979716,
+    "expected_excess_loss": 78.53718680956139
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 11,
+    "mean_theta": -2.853116706110003,
+    "variance_theta": 187.43221714045458,
+    "expected_excess_loss": 97.78624603956929
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 12,
+    "mean_theta": 3.1384283767210035,
+    "variance_theta": 232.30548273995007,
+    "expected_excess_loss": 121.07760770787885
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 13,
+    "mean_theta": -3.4522712143931042,
+    "variance_theta": 286.6021341153396,
+    "expected_excess_loss": 149.2601553265334
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 14,
+    "mean_theta": 3.797498335832415,
+    "variance_theta": 352.30108227956094,
+    "expected_excess_loss": 183.36103794510547
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 15,
+    "mean_theta": -4.177248169415656,
+    "variance_theta": 431.7968095582688,
+    "expected_excess_loss": 224.62310591357763
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 16,
+    "mean_theta": 4.594972986357222,
+    "variance_theta": 527.9866395655054,
+    "expected_excess_loss": 274.550208155429
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 17,
+    "mean_theta": -5.054470284992944,
+    "variance_theta": 644.3763338742616,
+    "expected_excess_loss": 334.96200186806914
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 18,
+    "mean_theta": 5.559917313492239,
+    "variance_theta": 785.2078639878567,
+    "expected_excess_loss": 408.0602722603638
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 19,
+    "mean_theta": -6.115909044841463,
+    "variance_theta": 955.6140154253069,
+    "expected_excess_loss": 496.50917943504027
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 20,
+    "mean_theta": 6.72749994932561,
+    "variance_theta": 1161.8054586646215,
+    "expected_excess_loss": 603.5323571163988
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 21,
+    "mean_theta": -7.400249944258172,
+    "variance_theta": 1411.2971049841922,
+    "expected_excess_loss": 733.0304021108426
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 22,
+    "mean_theta": 8.140274938683989,
+    "variance_theta": 1713.181997030873,
+    "expected_excess_loss": 889.7230365541197
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 23,
+    "mean_theta": -8.954302432552389,
+    "variance_theta": 2078.4627164073563,
+    "expected_excess_loss": 1079.3211242304849
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 24,
+    "mean_theta": 9.849732675807628,
+    "variance_theta": 2520.4523868529013,
+    "expected_excess_loss": 1308.734810318887
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 25,
+    "mean_theta": -10.834705943388391,
+    "variance_theta": 3055.259888092011,
+    "expected_excess_loss": 1586.3253704858532
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 26,
+    "mean_theta": 11.91817653772723,
+    "variance_theta": 3702.3769645913335,
+    "expected_excess_loss": 1922.2099482878828
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 27,
+    "mean_theta": -13.109994191499954,
+    "variance_theta": 4485.388627155514,
+    "expected_excess_loss": 2328.6302874283383
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 28,
+    "mean_theta": 14.420993610649951,
+    "variance_theta": 5432.832738858172,
+    "expected_excess_loss": 2820.3988977882896
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 29,
+    "mean_theta": -15.863092971714948,
+    "variance_theta": 6579.240114018389,
+    "expected_excess_loss": 3415.4389163238307
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 30,
+    "mean_theta": 17.449402268886445,
+    "variance_theta": 7966.393037962252,
+    "expected_excess_loss": 4135.437338751835
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 31,
+    "mean_theta": -19.19434249577509,
+    "variance_theta": 9644.848075934327,
+    "expected_excess_loss": 5006.635429889722
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 32,
+    "mean_theta": 21.1137767453526,
+    "variance_theta": 11675.778671880538,
+    "expected_excess_loss": 6060.785120166565
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 33,
+    "mean_theta": -23.22515441988786,
+    "variance_theta": 14133.204692975454,
+    "expected_excess_loss": 7336.306245401545
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 34,
+    "mean_theta": 25.54766986187665,
+    "variance_theta": 17106.690178500303,
+    "expected_excess_loss": 8879.686806935872
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 35,
+    "mean_theta": -28.102436848064315,
+    "variance_theta": 20704.60761598537,
+    "expected_excess_loss": 10747.177286392405
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 36,
+    "mean_theta": 30.91268053287075,
+    "variance_theta": 25058.087715342303,
+    "expected_excess_loss": 13006.840766534815
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 37,
+    "mean_theta": -34.003948586157826,
+    "variance_theta": 30325.79863556419,
+    "expected_excess_loss": 15741.033577507129
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 38,
+    "mean_theta": 37.40434344477361,
+    "variance_theta": 36699.728849032675,
+    "expected_excess_loss": 19049.406878783626
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 39,
+    "mean_theta": -41.14477778925097,
+    "variance_theta": 44412.18440732954,
+    "expected_excess_loss": 23052.53857332819
+  },
+  {
+    "batch_size": 4,
+    "learning_rate": 2.1,
+    "step": 40,
+    "mean_theta": 45.25925556817607,
+    "variance_theta": 53744.25563286875,
+    "expected_excess_loss": 27896.327923727113
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 1,
+    "mean_theta": 0.9,
+    "variance_theta": 0.0031250000000000006,
+    "expected_excess_loss": 0.40656250000000005
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 2,
+    "mean_theta": 0.81,
+    "variance_theta": 0.0056562500000000016,
+    "expected_excess_loss": 0.3308781250000001
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 3,
+    "mean_theta": 0.7290000000000001,
+    "variance_theta": 0.007706562500000002,
+    "expected_excess_loss": 0.2695737812500001
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 4,
+    "mean_theta": 0.6561000000000001,
+    "variance_theta": 0.009367315625000002,
+    "expected_excess_loss": 0.21991726281250007
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 5,
+    "mean_theta": 0.5904900000000002,
+    "variance_theta": 0.010712525656250003,
+    "expected_excess_loss": 0.17969548287812512
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 6,
+    "mean_theta": 0.5314410000000002,
+    "variance_theta": 0.011802145781562504,
+    "expected_excess_loss": 0.14711584113128134
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 7,
+    "mean_theta": 0.47829690000000014,
+    "variance_theta": 0.01268473808306563,
+    "expected_excess_loss": 0.12072633131633788
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 8,
+    "mean_theta": 0.43046721000000016,
+    "variance_theta": 0.013399637847283163,
+    "expected_excess_loss": 0.0993508283662337
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 9,
+    "mean_theta": 0.38742048900000015,
+    "variance_theta": 0.013978706656299364,
+    "expected_excess_loss": 0.0820366709766493
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 10,
+    "mean_theta": 0.34867844010000015,
+    "variance_theta": 0.014447752391602486,
+    "expected_excess_loss": 0.06801220349108594
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 11,
+    "mean_theta": 0.31381059609000017,
+    "variance_theta": 0.014827679437198015,
+    "expected_excess_loss": 0.05665238482777962
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 12,
+    "mean_theta": 0.28242953648100017,
+    "variance_theta": 0.015135420344130394,
+    "expected_excess_loss": 0.04745093171050149
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 13,
+    "mean_theta": 0.25418658283290013,
+    "variance_theta": 0.01538469047874562,
+    "expected_excess_loss": 0.03999775468550621
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 14,
+    "mean_theta": 0.22876792454961012,
+    "variance_theta": 0.015586599287783954,
+    "expected_excess_loss": 0.03396068129526003
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 15,
+    "mean_theta": 0.2058911320946491,
+    "variance_theta": 0.015750145423105003,
+    "expected_excess_loss": 0.029070651849160623
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 16,
+    "mean_theta": 0.1853020188851842,
+    "variance_theta": 0.01588261779271505,
+    "expected_excess_loss": 0.025109727997820103
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 17,
+    "mean_theta": 0.16677181699666577,
+    "variance_theta": 0.015989920412099193,
+    "expected_excess_loss": 0.021901379678234287
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 18,
+    "mean_theta": 0.1500946352969992,
+    "variance_theta": 0.01607683553380035,
+    "expected_excess_loss": 0.019302617539369772
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 19,
+    "mean_theta": 0.13508517176729928,
+    "variance_theta": 0.016147236782378283,
+    "expected_excess_loss": 0.017197620206889516
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 20,
+    "mean_theta": 0.12157665459056936,
+    "variance_theta": 0.01620426179372641,
+    "expected_excess_loss": 0.01549257236758051
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 21,
+    "mean_theta": 0.10941898913151243,
+    "variance_theta": 0.01625045205291839,
+    "expected_excess_loss": 0.014111483617740214
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 22,
+    "mean_theta": 0.0984770902183612,
+    "variance_theta": 0.016287866162863898,
+    "expected_excess_loss": 0.012992801730369574
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 23,
+    "mean_theta": 0.08862938119652508,
+    "variance_theta": 0.01631817159191976,
+    "expected_excess_loss": 0.012086669401599356
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 24,
+    "mean_theta": 0.07976644307687257,
+    "variance_theta": 0.016342718989455007,
+    "expected_excess_loss": 0.011352702215295479
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 25,
+    "mean_theta": 0.07178979876918531,
+    "variance_theta": 0.016362602381458556,
+    "expected_excess_loss": 0.01075818879438934
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 26,
+    "mean_theta": 0.06461081889226679,
+    "variance_theta": 0.016378707928981433,
+    "expected_excess_loss": 0.010276632923455365
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 27,
+    "mean_theta": 0.05814973700304011,
+    "variance_theta": 0.016391753422474963,
+    "expected_excess_loss": 0.009886572667998847
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 28,
+    "mean_theta": 0.0523347633027361,
+    "variance_theta": 0.016402320272204722,
+    "expected_excess_loss": 0.009570623861079068
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 29,
+    "mean_theta": 0.04710128697246249,
+    "variance_theta": 0.016410879420485826,
+    "expected_excess_loss": 0.009314705327474046
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 30,
+    "mean_theta": 0.042391158275216244,
+    "variance_theta": 0.01641781233059352,
+    "expected_excess_loss": 0.009107411315253978
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 31,
+    "mean_theta": 0.03815204244769462,
+    "variance_theta": 0.016423427987780754,
+    "expected_excess_loss": 0.008939503165355724
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 32,
+    "mean_theta": 0.03433683820292516,
+    "variance_theta": 0.01642797667010241,
+    "expected_excess_loss": 0.008803497563938136
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 33,
+    "mean_theta": 0.030903154382632643,
+    "variance_theta": 0.016431661102782956,
+    "expected_excess_loss": 0.00869333302678989
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 34,
+    "mean_theta": 0.02781283894436938,
+    "variance_theta": 0.016434645493254196,
+    "expected_excess_loss": 0.008604099751699812
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 35,
+    "mean_theta": 0.025031555049932444,
+    "variance_theta": 0.0164370628495359,
+    "expected_excess_loss": 0.008531820798876849
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 36,
+    "mean_theta": 0.0225283995449392,
+    "variance_theta": 0.016439020908124078,
+    "expected_excess_loss": 0.008473274847090248
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 37,
+    "mean_theta": 0.020275559590445278,
+    "variance_theta": 0.016440606935580505,
+    "expected_excess_loss": 0.008425852626143102
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 38,
+    "mean_theta": 0.01824800363140075,
+    "variance_theta": 0.016441891617820212,
+    "expected_excess_loss": 0.008387440627175913
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 39,
+    "mean_theta": 0.016423203268260675,
+    "variance_theta": 0.01644293221043437,
+    "expected_excess_loss": 0.00835632690801249
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.1,
+    "step": 40,
+    "mean_theta": 0.014780882941434608,
+    "variance_theta": 0.01644377509045184,
+    "expected_excess_loss": 0.008331124795490117
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 1,
+    "mean_theta": 0.5,
+    "variance_theta": 0.078125,
+    "expected_excess_loss": 0.1640625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 2,
+    "mean_theta": 0.25,
+    "variance_theta": 0.09765625,
+    "expected_excess_loss": 0.080078125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 3,
+    "mean_theta": 0.125,
+    "variance_theta": 0.1025390625,
+    "expected_excess_loss": 0.05908203125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 4,
+    "mean_theta": 0.0625,
+    "variance_theta": 0.103759765625,
+    "expected_excess_loss": 0.0538330078125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 5,
+    "mean_theta": 0.03125,
+    "variance_theta": 0.10406494140625,
+    "expected_excess_loss": 0.052520751953125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 6,
+    "mean_theta": 0.015625,
+    "variance_theta": 0.1041412353515625,
+    "expected_excess_loss": 0.05219268798828125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 7,
+    "mean_theta": 0.0078125,
+    "variance_theta": 0.10416030883789062,
+    "expected_excess_loss": 0.05211067199707031
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 8,
+    "mean_theta": 0.00390625,
+    "variance_theta": 0.10416507720947266,
+    "expected_excess_loss": 0.05209016799926758
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 9,
+    "mean_theta": 0.001953125,
+    "variance_theta": 0.10416626930236816,
+    "expected_excess_loss": 0.052085041999816895
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 10,
+    "mean_theta": 0.0009765625,
+    "variance_theta": 0.10416656732559204,
+    "expected_excess_loss": 0.052083760499954224
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 11,
+    "mean_theta": 0.00048828125,
+    "variance_theta": 0.10416664183139801,
+    "expected_excess_loss": 0.052083440124988556
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 12,
+    "mean_theta": 0.000244140625,
+    "variance_theta": 0.1041666604578495,
+    "expected_excess_loss": 0.05208336003124714
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 13,
+    "mean_theta": 0.0001220703125,
+    "variance_theta": 0.10416666511446238,
+    "expected_excess_loss": 0.052083340007811785
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 14,
+    "mean_theta": 6.103515625e-05,
+    "variance_theta": 0.1041666662786156,
+    "expected_excess_loss": 0.052083335001952946
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 15,
+    "mean_theta": 3.0517578125e-05,
+    "variance_theta": 0.1041666665696539,
+    "expected_excess_loss": 0.05208333375048824
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 16,
+    "mean_theta": 1.52587890625e-05,
+    "variance_theta": 0.10416666664241347,
+    "expected_excess_loss": 0.05208333343762206
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 17,
+    "mean_theta": 7.62939453125e-06,
+    "variance_theta": 0.10416666666060337,
+    "expected_excess_loss": 0.052083333359405515
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 18,
+    "mean_theta": 3.814697265625e-06,
+    "variance_theta": 0.10416666666515084,
+    "expected_excess_loss": 0.05208333333985138
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 19,
+    "mean_theta": 1.9073486328125e-06,
+    "variance_theta": 0.10416666666628771,
+    "expected_excess_loss": 0.052083333334962845
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 20,
+    "mean_theta": 9.5367431640625e-07,
+    "variance_theta": 0.10416666666657193,
+    "expected_excess_loss": 0.05208333333374071
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 21,
+    "mean_theta": 4.76837158203125e-07,
+    "variance_theta": 0.10416666666664298,
+    "expected_excess_loss": 0.05208333333343518
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 22,
+    "mean_theta": 2.384185791015625e-07,
+    "variance_theta": 0.10416666666666075,
+    "expected_excess_loss": 0.052083333333358794
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 23,
+    "mean_theta": 1.1920928955078125e-07,
+    "variance_theta": 0.10416666666666519,
+    "expected_excess_loss": 0.0520833333333397
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 24,
+    "mean_theta": 5.960464477539063e-08,
+    "variance_theta": 0.1041666666666663,
+    "expected_excess_loss": 0.052083333333334925
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 25,
+    "mean_theta": 2.9802322387695312e-08,
+    "variance_theta": 0.10416666666666657,
+    "expected_excess_loss": 0.05208333333333373
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 26,
+    "mean_theta": 1.4901161193847656e-08,
+    "variance_theta": 0.10416666666666664,
+    "expected_excess_loss": 0.05208333333333343
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 27,
+    "mean_theta": 7.450580596923828e-09,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.052083333333333356
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 28,
+    "mean_theta": 3.725290298461914e-09,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.052083333333333336
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 29,
+    "mean_theta": 1.862645149230957e-09,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 30,
+    "mean_theta": 9.313225746154785e-10,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 31,
+    "mean_theta": 4.656612873077393e-10,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 32,
+    "mean_theta": 2.3283064365386963e-10,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 33,
+    "mean_theta": 1.1641532182693481e-10,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 34,
+    "mean_theta": 5.820766091346741e-11,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 35,
+    "mean_theta": 2.9103830456733704e-11,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 36,
+    "mean_theta": 1.4551915228366852e-11,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 37,
+    "mean_theta": 7.275957614183426e-12,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 38,
+    "mean_theta": 3.637978807091713e-12,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 39,
+    "mean_theta": 1.8189894035458565e-12,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 0.5,
+    "step": 40,
+    "mean_theta": 9.094947017729282e-13,
+    "variance_theta": 0.10416666666666666,
+    "expected_excess_loss": 0.05208333333333333
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 1,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 2,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 3,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 4,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 5,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 6,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 7,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 8,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 9,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 10,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 11,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 12,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 13,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 14,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 15,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 16,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 17,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 18,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 19,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 20,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 21,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 22,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 23,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 24,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 25,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 26,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 27,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 28,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 29,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 30,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 31,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 32,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 33,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 34,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 35,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 36,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 37,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 38,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 39,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 1.0,
+    "step": 40,
+    "mean_theta": 0.0,
+    "variance_theta": 0.3125,
+    "expected_excess_loss": 0.15625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 1,
+    "mean_theta": -1.0,
+    "variance_theta": 1.25,
+    "expected_excess_loss": 1.125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 2,
+    "mean_theta": 1.0,
+    "variance_theta": 2.5,
+    "expected_excess_loss": 1.75
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 3,
+    "mean_theta": -1.0,
+    "variance_theta": 3.75,
+    "expected_excess_loss": 2.375
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 4,
+    "mean_theta": 1.0,
+    "variance_theta": 5.0,
+    "expected_excess_loss": 3.0
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 5,
+    "mean_theta": -1.0,
+    "variance_theta": 6.25,
+    "expected_excess_loss": 3.625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 6,
+    "mean_theta": 1.0,
+    "variance_theta": 7.5,
+    "expected_excess_loss": 4.25
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 7,
+    "mean_theta": -1.0,
+    "variance_theta": 8.75,
+    "expected_excess_loss": 4.875
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 8,
+    "mean_theta": 1.0,
+    "variance_theta": 10.0,
+    "expected_excess_loss": 5.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 9,
+    "mean_theta": -1.0,
+    "variance_theta": 11.25,
+    "expected_excess_loss": 6.125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 10,
+    "mean_theta": 1.0,
+    "variance_theta": 12.5,
+    "expected_excess_loss": 6.75
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 11,
+    "mean_theta": -1.0,
+    "variance_theta": 13.75,
+    "expected_excess_loss": 7.375
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 12,
+    "mean_theta": 1.0,
+    "variance_theta": 15.0,
+    "expected_excess_loss": 8.0
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 13,
+    "mean_theta": -1.0,
+    "variance_theta": 16.25,
+    "expected_excess_loss": 8.625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 14,
+    "mean_theta": 1.0,
+    "variance_theta": 17.5,
+    "expected_excess_loss": 9.25
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 15,
+    "mean_theta": -1.0,
+    "variance_theta": 18.75,
+    "expected_excess_loss": 9.875
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 16,
+    "mean_theta": 1.0,
+    "variance_theta": 20.0,
+    "expected_excess_loss": 10.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 17,
+    "mean_theta": -1.0,
+    "variance_theta": 21.25,
+    "expected_excess_loss": 11.125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 18,
+    "mean_theta": 1.0,
+    "variance_theta": 22.5,
+    "expected_excess_loss": 11.75
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 19,
+    "mean_theta": -1.0,
+    "variance_theta": 23.75,
+    "expected_excess_loss": 12.375
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 20,
+    "mean_theta": 1.0,
+    "variance_theta": 25.0,
+    "expected_excess_loss": 13.0
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 21,
+    "mean_theta": -1.0,
+    "variance_theta": 26.25,
+    "expected_excess_loss": 13.625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 22,
+    "mean_theta": 1.0,
+    "variance_theta": 27.5,
+    "expected_excess_loss": 14.25
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 23,
+    "mean_theta": -1.0,
+    "variance_theta": 28.75,
+    "expected_excess_loss": 14.875
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 24,
+    "mean_theta": 1.0,
+    "variance_theta": 30.0,
+    "expected_excess_loss": 15.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 25,
+    "mean_theta": -1.0,
+    "variance_theta": 31.25,
+    "expected_excess_loss": 16.125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 26,
+    "mean_theta": 1.0,
+    "variance_theta": 32.5,
+    "expected_excess_loss": 16.75
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 27,
+    "mean_theta": -1.0,
+    "variance_theta": 33.75,
+    "expected_excess_loss": 17.375
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 28,
+    "mean_theta": 1.0,
+    "variance_theta": 35.0,
+    "expected_excess_loss": 18.0
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 29,
+    "mean_theta": -1.0,
+    "variance_theta": 36.25,
+    "expected_excess_loss": 18.625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 30,
+    "mean_theta": 1.0,
+    "variance_theta": 37.5,
+    "expected_excess_loss": 19.25
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 31,
+    "mean_theta": -1.0,
+    "variance_theta": 38.75,
+    "expected_excess_loss": 19.875
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 32,
+    "mean_theta": 1.0,
+    "variance_theta": 40.0,
+    "expected_excess_loss": 20.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 33,
+    "mean_theta": -1.0,
+    "variance_theta": 41.25,
+    "expected_excess_loss": 21.125
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 34,
+    "mean_theta": 1.0,
+    "variance_theta": 42.5,
+    "expected_excess_loss": 21.75
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 35,
+    "mean_theta": -1.0,
+    "variance_theta": 43.75,
+    "expected_excess_loss": 22.375
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 36,
+    "mean_theta": 1.0,
+    "variance_theta": 45.0,
+    "expected_excess_loss": 23.0
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 37,
+    "mean_theta": -1.0,
+    "variance_theta": 46.25,
+    "expected_excess_loss": 23.625
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 38,
+    "mean_theta": 1.0,
+    "variance_theta": 47.5,
+    "expected_excess_loss": 24.25
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 39,
+    "mean_theta": -1.0,
+    "variance_theta": 48.75,
+    "expected_excess_loss": 24.875
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.0,
+    "step": 40,
+    "mean_theta": 1.0,
+    "variance_theta": 50.0,
+    "expected_excess_loss": 25.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 0,
+    "mean_theta": 1.0,
+    "variance_theta": 0.0,
+    "expected_excess_loss": 0.5
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 1,
+    "mean_theta": -1.1,
+    "variance_theta": 1.378125,
+    "expected_excess_loss": 1.2940625000000001
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 2,
+    "mean_theta": 1.2100000000000002,
+    "variance_theta": 3.0456562500000004,
+    "expected_excess_loss": 2.2548781250000003
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 3,
+    "mean_theta": -1.3310000000000004,
+    "variance_theta": 5.063369062500001,
+    "expected_excess_loss": 3.4174650312500012
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 4,
+    "mean_theta": 1.4641000000000006,
+    "variance_theta": 7.5048015656250024,
+    "expected_excess_loss": 4.824195187812502
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 5,
+    "mean_theta": -1.6105100000000008,
+    "variance_theta": 10.458934894406255,
+    "expected_excess_loss": 6.526338677253129
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 6,
+    "mean_theta": 1.771561000000001,
+    "variance_theta": 14.033436222231572,
+    "expected_excess_loss": 8.585932299476287
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 7,
+    "mean_theta": -1.9487171000000014,
+    "variance_theta": 18.358582828900204,
+    "expected_excess_loss": 11.07804058236631
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 8,
+    "mean_theta": 2.1435888100000016,
+    "variance_theta": 23.59201022296925,
+    "expected_excess_loss": 14.093491604663237
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 9,
+    "mean_theta": -2.357947691000002,
+    "variance_theta": 29.924457369792798,
+    "expected_excess_loss": 17.74218734164252
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 10,
+    "mean_theta": 2.5937424601000023,
+    "variance_theta": 37.58671841744929,
+    "expected_excess_loss": 22.15710918338745
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 11,
+    "mean_theta": -2.853116706110003,
+    "variance_theta": 46.858054285113646,
+    "expected_excess_loss": 27.49916461189882
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 12,
+    "mean_theta": 3.1384283767210035,
+    "variance_theta": 58.076370684987516,
+    "expected_excess_loss": 33.96305168039758
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 13,
+    "mean_theta": -3.4522712143931042,
+    "variance_theta": 71.6505335288349,
+    "expected_excess_loss": 41.78435503328107
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 14,
+    "mean_theta": 3.797498335832415,
+    "variance_theta": 88.07527056989024,
+    "expected_excess_loss": 51.2481320902701
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 15,
+    "mean_theta": -4.177248169415656,
+    "variance_theta": 107.9492023895672,
+    "expected_excess_loss": 62.699302329226825
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 16,
+    "mean_theta": 4.594972986357222,
+    "variance_theta": 131.99665989137634,
+    "expected_excess_loss": 76.55521831836447
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 17,
+    "mean_theta": -5.054470284992944,
+    "variance_theta": 161.0940834685654,
+    "expected_excess_loss": 93.32087666522102
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 18,
+    "mean_theta": 5.559917313492239,
+    "variance_theta": 196.30196599696419,
+    "expected_excess_loss": 113.60732326491747
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 19,
+    "mean_theta": -6.115909044841463,
+    "variance_theta": 238.90350385632672,
+    "expected_excess_loss": 138.15392365055015
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 20,
+    "mean_theta": 6.72749994932561,
+    "variance_theta": 290.45136466615537,
+    "expected_excess_loss": 167.85531011716574
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 21,
+    "mean_theta": -7.400249944258172,
+    "variance_theta": 352.82427624604804,
+    "expected_excess_loss": 203.79398774177056
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 22,
+    "mean_theta": 8.140274938683989,
+    "variance_theta": 428.29549925771823,
+    "expected_excess_loss": 247.27978766754242
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 23,
+    "mean_theta": -8.954302432552389,
+    "variance_theta": 519.6156791018391,
+    "expected_excess_loss": 299.8976055777264
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 24,
+    "mean_theta": 9.849732675807628,
+    "variance_theta": 630.1130967132253,
+    "expected_excess_loss": 363.5651652490489
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 25,
+    "mean_theta": -10.834705943388391,
+    "variance_theta": 763.8149720230027,
+    "expected_excess_loss": 440.6029124513492
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 26,
+    "mean_theta": 11.91817653772723,
+    "variance_theta": 925.5942411478334,
+    "expected_excess_loss": 533.8185865661326
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 27,
+    "mean_theta": -13.109994191499954,
+    "variance_theta": 1121.3471567888785,
+    "expected_excess_loss": 646.6095522450205
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 28,
+    "mean_theta": 14.420993610649951,
+    "variance_theta": 1358.208184714543,
+    "expected_excess_loss": 783.0866207164748
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 29,
+    "mean_theta": -15.863092971714948,
+    "variance_theta": 1644.8100285045973,
+    "expected_excess_loss": 948.2238735669348
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 30,
+    "mean_theta": 17.449402268886445,
+    "variance_theta": 1991.598259490563,
+    "expected_excess_loss": 1148.039949515991
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 31,
+    "mean_theta": -19.19434249577509,
+    "variance_theta": 2411.212018983582,
+    "expected_excess_loss": 1389.8174014143497
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 32,
+    "mean_theta": 21.1137767453526,
+    "variance_theta": 2918.9446679701346,
+    "expected_excess_loss": 1682.3681182113633
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 33,
+    "mean_theta": -23.22515441988786,
+    "variance_theta": 3533.3011732438636,
+    "expected_excess_loss": 2036.35448553575
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 34,
+    "mean_theta": 25.54766986187665,
+    "variance_theta": 4276.672544625076,
+    "expected_excess_loss": 2464.677989998258
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 35,
+    "mean_theta": -28.102436848064315,
+    "variance_theta": 5176.151903996342,
+    "expected_excess_loss": 2982.9494303978927
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 36,
+    "mean_theta": 30.91268053287075,
+    "variance_theta": 6264.521928835576,
+    "expected_excess_loss": 3610.057873281451
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 37,
+    "mean_theta": -34.003948586157826,
+    "variance_theta": 7581.449658891048,
+    "expected_excess_loss": 4368.859089170556
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 38,
+    "mean_theta": 37.40434344477361,
+    "variance_theta": 9174.932212258169,
+    "expected_excess_loss": 5287.0085603963735
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 39,
+    "mean_theta": -41.14477778925097,
+    "variance_theta": 11103.046101832386,
+    "expected_excess_loss": 6397.969420579613
+  },
+  {
+    "batch_size": 16,
+    "learning_rate": 2.1,
+    "step": 40,
+    "mean_theta": 45.25925556817607,
+    "variance_theta": 13436.063908217187,
+    "expected_excess_loss": 7742.232061401332
+  }
+]

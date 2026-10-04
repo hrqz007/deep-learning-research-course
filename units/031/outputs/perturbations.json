@@ -1,0 +1,32 @@
+{
+  "fixed_model": true,
+  "baseline_loss": 3.707415142945429e-33,
+  "joint_row_permutation_loss": 3.707415142945429e-33,
+  "input_only_permutation_loss": 0.9750000000000001,
+  "zero_input_loss_original_targets": 0.24375600778741263,
+  "mean_target_constant_loss": 0.24375000000000002,
+  "small_shifts": [
+    {
+      "epsilon": 0.1,
+      "mean_abs_prediction_change": 0.058413848185920415,
+      "mean_slope": 0.5841384818592041,
+      "known_rule_slope": 0.7,
+      "loss_against_shifted_rule": 0.00016049639417565727
+    },
+    {
+      "epsilon": 0.01,
+      "mean_abs_prediction_change": 0.0058387052753481605,
+      "mean_slope": 0.583870527534816,
+      "known_rule_slope": 0.7,
+      "loss_against_shifted_rule": 1.617335178290586e-06
+    },
+    {
+      "epsilon": 0.001,
+      "mean_abs_prediction_change": 0.0005838273540142783,
+      "mean_slope": 0.5838273540142782,
+      "known_rule_slope": 0.7,
+      "loss_against_shifted_rule": 1.6193661670044126e-08
+    }
+  ],
+  "scope": "synthetic interventions on eight training inputs; no robustness or generalization estimate"
+}

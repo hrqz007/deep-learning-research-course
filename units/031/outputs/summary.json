@@ -1,0 +1,23 @@
+{
+  "torch_version": "2.7.1+cpu",
+  "numpy_version": "2.3.5",
+  "device": "cpu",
+  "dtype": "float64",
+  "trace_coordinates": 77,
+  "trace_max_abs": 5.551115123125783e-17,
+  "trace_loss_after_sgd": 0.07241983164894575,
+  "fd_parameter_count": 13,
+  "fd_coordinates_times_steps": 78,
+  "reference_loss": 0.07877855276232809,
+  "torch_loss": 0.07877855276232809,
+  "reference_gradient_max_abs": 1.3877787807814457e-17,
+  "fd_1e_6_max_abs": 1.2060651088940944e-11,
+  "train_parameters": 49,
+  "batch_size": 8,
+  "updates": 1600,
+  "rule_initial_loss": 0.44711795984452135,
+  "rule_final_loss": 3.707415142945429e-33,
+  "random_initial_loss": 0.2765450395853328,
+  "random_final_loss": 1.7559460464294916e-22,
+  "scope": "fixed synthetic CPU diagnostics; no validation/test set and no generalization estimate"
+}

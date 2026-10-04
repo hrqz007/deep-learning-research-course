@@ -1,0 +1,28 @@
+{
+  "sample_budget": 1280,
+  "step_budget": 40,
+  "batch_sizes": [
+    1,
+    4,
+    16,
+    32
+  ],
+  "learning_rate": 0.02,
+  "initial_parameters": [
+    0.3,
+    -0.2,
+    -0.4,
+    0.1,
+    0.2,
+    0.25,
+    0.05,
+    -0.1,
+    0.15,
+    0.4,
+    -0.3,
+    0.2,
+    0.1
+  ],
+  "dtype": "float64",
+  "seed_note": "precomputed 40 shuffled epochs, seed 320; no runtime sampling for optimization runs"
+}
