@@ -1,0 +1,56 @@
+{
+  "release": "016-018",
+  "checked_on": "2026-10-04",
+  "units": [
+    {
+      "id": "016",
+      "pages": {
+        "lecture": 9,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 11
+    },
+    {
+      "id": "017",
+      "revision": "v2 exact unique CSV header checks before any output creation",
+      "pages": {
+        "lecture": 10,
+        "lab": 4,
+        "answers": 4
+      },
+      "executed_notebook_code_cells": 14
+    },
+    {
+      "id": "018",
+      "revision": "v2 fixed teaching configuration guard and effective sample size boundary",
+      "pages": {
+        "lecture": 11,
+        "lab": 3,
+        "answers": 3
+      },
+      "executed_notebook_code_cells": 14
+    }
+  ],
+  "independent_checks": {
+    "content_and_prerequisites": "passed",
+    "hand_calculations_and_independent_numeric_checks": "passed",
+    "fresh_process_scripts": "passed",
+    "sequential_notebooks_in_fresh_process": "passed",
+    "every_pdf_page_visual_review": "passed",
+    "candidate_file_digests": "passed"
+  },
+  "specific_checks": {
+    "016": "Independent enumeration of 255 finite populations, 65,280 event pairs, 55,536 positive-mass conditionals, 9,744 zero-conditional rejections and 1,280 Fraction Bayes checks; causal mechanism examples and output isolation checked",
+    "017": "Independent 1,530 ordered-sequence probabilities, 411 Fraction posteriors, 300 high-precision Gaussian points, 180 quadrature references and 120 unit conversions; malformed headers preserve old outputs and do not create new output directories",
+    "018": "Independent 200 rational population and covariance fixtures, 2,453 sequences and 2,145 n=64 multinomial terms; all 32,000 simulated batches and 8 summaries recomputed; 20 fixed-config and mismatched-result guards preserve figures and Notebook output"
+  },
+  "execution_method": "Real IPython InProcessKernel in a fresh Python process",
+  "limits": [
+    "No Jupyter browser UI or out-of-process socket transport test",
+    "No fresh Anaconda installation across all operating systems",
+    "Synthetic CPU mechanisms do not establish real-data independence, real-model generalization or real causal identification",
+    "Unit 018 fixed instructional figures and Notebook require the default configuration; custom script simulations are saved separately"
+  ],
+  "remote_verification": "Publication transport is verified separately; this record describes content checks."
+}

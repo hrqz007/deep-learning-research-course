@@ -1,0 +1,243 @@
+{
+  "population": 1000,
+  "joint": {
+    "00": {
+      "fraction": "441/500",
+      "decimal": 0.882
+    },
+    "01": {
+      "fraction": "49/500",
+      "decimal": 0.098
+    },
+    "10": {
+      "fraction": "1/500",
+      "decimal": 0.002
+    },
+    "11": {
+      "fraction": "9/500",
+      "decimal": 0.018
+    }
+  },
+  "defect_probability": {
+    "fraction": "1/50",
+    "decimal": 0.02
+  },
+  "flag_probability": {
+    "fraction": "29/250",
+    "decimal": 0.116
+  },
+  "flag_given_defect": {
+    "fraction": "9/10",
+    "decimal": 0.9
+  },
+  "flag_given_good": {
+    "fraction": "1/10",
+    "decimal": 0.1
+  },
+  "defect_given_flag": {
+    "fraction": "9/58",
+    "decimal": 0.15517241379310345
+  },
+  "independent": false,
+  "bayes_reconstruction": {
+    "prior": {
+      "fraction": "1/50",
+      "decimal": 0.02
+    },
+    "joint_defect_flag": {
+      "fraction": "9/500",
+      "decimal": 0.018
+    },
+    "joint_good_flag": {
+      "fraction": "49/500",
+      "decimal": 0.098
+    },
+    "flag_probability": {
+      "fraction": "29/250",
+      "decimal": 0.116
+    },
+    "posterior_defect_given_flag": {
+      "fraction": "9/58",
+      "decimal": 0.15517241379310345
+    }
+  },
+  "replacement": {
+    "with_replacement": {
+      "ordered_pairs": 25,
+      "both_defective": {
+        "fraction": "4/25",
+        "decimal": 0.16
+      },
+      "second_given_first_defective": {
+        "fraction": "2/5",
+        "decimal": 0.4
+      }
+    },
+    "without_replacement": {
+      "ordered_pairs": 20,
+      "both_defective": {
+        "fraction": "1/10",
+        "decimal": 0.1
+      },
+      "second_given_first_defective": {
+        "fraction": "1/4",
+        "decimal": 0.25
+      }
+    }
+  },
+  "xor": {
+    "rows": [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "mass": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        }
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 1,
+        "mass": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        }
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 1,
+        "mass": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        }
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "mass": {
+          "fraction": "1/4",
+          "decimal": 0.25
+        }
+      }
+    ],
+    "pairwise_independent": {
+      "xy": true,
+      "xz": true,
+      "yz": true
+    },
+    "triple_111": {
+      "fraction": "0",
+      "decimal": 0.0
+    },
+    "product_of_three_marginals": {
+      "fraction": "1/8",
+      "decimal": 0.125
+    }
+  },
+  "causal_models": {
+    "chain": {
+      "observed_rows": [
+        {
+          "u": 0,
+          "x": 0,
+          "y": 0,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "u": 1,
+          "x": 1,
+          "y": 1,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ],
+      "intervention_rows": [
+        {
+          "u": 0,
+          "x": 1,
+          "y": 1,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "u": 1,
+          "x": 1,
+          "y": 1,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ],
+      "P_Y1_given_X1": {
+        "fraction": "1",
+        "decimal": 1.0
+      },
+      "P_Y1_do_X1": {
+        "fraction": "1",
+        "decimal": 1.0
+      }
+    },
+    "common_cause": {
+      "observed_rows": [
+        {
+          "u": 0,
+          "x": 0,
+          "y": 0,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "u": 1,
+          "x": 1,
+          "y": 1,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ],
+      "intervention_rows": [
+        {
+          "u": 0,
+          "x": 1,
+          "y": 0,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "u": 1,
+          "x": 1,
+          "y": 1,
+          "mass": {
+            "fraction": "1/2",
+            "decimal": 0.5
+          }
+        }
+      ],
+      "P_Y1_given_X1": {
+        "fraction": "1",
+        "decimal": 1.0
+      },
+      "P_Y1_do_X1": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      }
+    }
+  }
+}

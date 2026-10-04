@@ -1,0 +1,62 @@
+{
+  "population": {
+    "mean": "2",
+    "second_moment": "10",
+    "variance": "6"
+  },
+  "fixed_eight_groups": {
+    "values": [
+      0,
+      0,
+      2,
+      6,
+      0,
+      2,
+      0,
+      6
+    ],
+    "mean": "2",
+    "sample_variance": "48/7",
+    "estimated_mean_variance": "6/7",
+    "estimated_se": 0.9258200997725514
+  },
+  "same_groups_copied_eight_times": {
+    "rows": 64,
+    "mean": "2",
+    "row_sample_variance": "128/21",
+    "naive_estimated_mean_variance": "2/21",
+    "naive_se": 0.3086066999241838,
+    "unit_correct_se": 0.9258200997725514
+  },
+  "true_mean_variance_n64": {
+    "iid": "3/32",
+    "copied_eight": "3/4"
+  },
+  "uncorrelated_dependent": {
+    "covariance": "0"
+  },
+  "rare_event": {
+    "p": "1/1000",
+    "n": 100,
+    "prob_all_zero": 0.904792147113709,
+    "true_se": 0.0031606961258558216,
+    "observed_se_if_all_zero": 0.0
+  },
+  "config": {
+    "seed": 20261004,
+    "repeats": 4000,
+    "sample_sizes": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "copies": 8,
+    "atoms": [
+      0,
+      0,
+      2,
+      6
+    ]
+  }
+}

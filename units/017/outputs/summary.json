@@ -1,0 +1,70 @@
+{
+  "data_kind": "original synthetic teaching data",
+  "observed": [
+    1,
+    1,
+    1,
+    0
+  ],
+  "n": 4,
+  "successes": 3,
+  "generated_seed17_p3of4": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "long_sample_n": 2000,
+  "long_product": 0.0,
+  "long_log_likelihood": -1386.2943611198905,
+  "posterior_prior_9to1": [
+    0.5000000000000002,
+    0.4999999999999998
+  ],
+  "peak_sigma_0_1": 3.989422804014326,
+  "area_minus0_1_to0_1_sigma0_1": 0.682689512301314,
+  "log_density_tail40": -800.9189385332047,
+  "density_tail40": 0.0,
+  "narrow_peak_coarse_area": 2.9734390294686117e-05,
+  "narrow_peak_fine_area": 1.0000000000000009,
+  "failures": [
+    {
+      "case": "invalid_probability",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "boolean_label",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "empty_sample",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "zero_scale",
+      "status": "rejected",
+      "exception": "ValueError"
+    },
+    {
+      "case": "numeric_range",
+      "status": "rejected",
+      "exception": "ArithmeticError"
+    },
+    {
+      "case": "unresolvable_grid",
+      "status": "rejected",
+      "exception": "ArithmeticError"
+    }
+  ]
+}

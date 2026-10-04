@@ -1,0 +1,12 @@
+name: dl017
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel=7.4
+  - nbformat=5.11
+  - matplotlib=3.10
+# Core experiment.py and test_experiment.py use only the Python standard library.
+# This is a suggested environment specification, not a fresh-install receipt.
+# PDF build dependencies are documented in shared/build-tools, separately.

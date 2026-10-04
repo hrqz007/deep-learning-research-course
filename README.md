@@ -4,7 +4,7 @@
 
 ## 已完成的完整单元
 
-当前可学习的正文、实验与练习资料为001–015；其余87个单元仍在制作，不把大纲条目当作已完成教材。
+当前可学习的正文、实验与练习资料为001–018；其余84个单元仍在制作，不把大纲条目当作已完成教材。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -23,6 +23,9 @@
 |013|秩奇异值与条件数|[12页](units/013/lecture.pdf)|[4页](units/013/lab.pdf)|[4页](units/013/answers.pdf)|[进入单元](units/013/README.md)|
 |014|浮点数与稳定数值计算|[8页](units/014/lecture.pdf)|[3页](units/014/lab.pdf)|[3页](units/014/answers.pdf)|[进入单元](units/014/README.md)|
 |015|局部近似与优化几何|[12页](units/015/lecture.pdf)|[4页](units/015/lab.pdf)|[4页](units/015/answers.pdf)|[进入单元](units/015/README.md)|
+|016|随机变量与条件概率|[9页](units/016/lecture.pdf)|[3页](units/016/lab.pdf)|[3页](units/016/answers.pdf)|[进入单元](units/016/README.md)|
+|017|分布密度与似然|[10页](units/017/lecture.pdf)|[4页](units/017/lab.pdf)|[4页](units/017/answers.pdf)|[进入单元](units/017/README.md)|
+|018|期望方差与抽样误差|[11页](units/018/lecture.pdf)|[3页](units/018/lab.pdf)|[3页](units/018/answers.pdf)|[进入单元](units/018/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -37,9 +40,9 @@
 
 ## 运行与验证
 
-001–003、006、007与010核心实验仅用Python标准库；004、005、008、009、011–015使用NumPy，部分Notebook或重建图需要Matplotlib和中文字体。Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
+001–003、006、007、010与016–018核心实验仅用Python标准库；004、005、008、009、011–015使用NumPy，部分Notebook或重建图需要Matplotlib和中文字体。Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
 
-这十五个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)与[013–015核验说明](releases/013-015.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
+这十八个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)、[013–015核验说明](releases/013-015.json)与[016–018核验说明](releases/016-018.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
 
 如需从Markdown重建教材PDF，参见[可选构建工具说明](shared/build-tools/README.md)。阅读现成PDF与运行实验不需要文档构建依赖。
 

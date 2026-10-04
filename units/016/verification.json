@@ -1,0 +1,82 @@
+{
+  "unit": "016",
+  "title": "随机变量与条件概率",
+  "prerequisites": [
+    "007"
+  ],
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "pages": {
+    "lecture": 9,
+    "lab": 3,
+    "answers": 3
+  },
+  "figures": 6,
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "core_dependencies": "standard library only"
+  },
+  "checks": {
+    "script": "New Python process and unrelated-cwd python -S run passed",
+    "tests": {
+      "status": "passed",
+      "groups": 8,
+      "details": [
+        "main joint marginal posterior and negative-flag hand results",
+        "100 enumerated populations and all 256 event pairs per population",
+        "copied count ownership, duplicate event membership and exact prior scan",
+        "all ordered draws and pairwise versus joint independence",
+        "two observationally identical mechanisms under both interventions",
+        "26 invalid table event probability and intervention rejections",
+        "byte-identical reruns and three malformed-copy CSV failures before output creation",
+        "6 document Python snippets execute in order"
+      ],
+      "population_fixtures": 100,
+      "event_pairs": 25600,
+      "conditional_comparisons": 23424,
+      "bayes_comparisons": 98,
+      "rejected_cases": 26,
+      "malformed_csv_cases": 3,
+      "python_snippets": 6
+    },
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.907,
+      "code_cells": 11,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "Three output files byte-identical across script notebook and unrelated-cwd -S execution",
+    "visual": "All15 final pages individually viewed; final lecture1 pixel-identical to initially viewed page, pages2-9 individually viewed after original 1000-point population figure and section reflow. Six figures and three Notebook figure outputs inspected.",
+    "structural": "No empty pages replacement markers equation placeholders or out-of-bounds text blocks",
+    "sources": "Six primary source records checked"
+  },
+  "expected": {
+    "population": 1000,
+    "defect_given_flag": "9/58",
+    "defect_given_no_flag": "1/442",
+    "pairwise_independent_xor": true,
+    "joint_independent_xor": false,
+    "chain_do_x1": "1",
+    "common_cause_do_x1": "1/2"
+  },
+  "limitations": [
+    "No fresh Anaconda or cross-platform installation test",
+    "No browser Jupyter UI or out-of-process socket kernel transport test",
+    "Synthetic finite population and assumed mechanisms only; no real device or causal identification claim",
+    "Bayes helper restricts prior to open interval so both observed conditional class rates are defined"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "54790704b480592efae60c37091242f1c0a0970a3fabc2dc9f17bec641362827",
+    "lab.pdf": "83fe88d63b058780df44a774643439179e0e665f27a1bcf0f927c4a8c4429a1b",
+    "answers.pdf": "a7bbc870a41e893cb09fb4225874ff6ab2da343cb4b5ae3e5557857776d73603",
+    "experiment.ipynb": "f8ff8fe95fb86150a41a3222de1336853b15b8404dc4daf5b14ad42403a7ed39",
+    "experiment.py": "957063a0ee58d660cc45a16873b88881f5a4f4741061ff7eaaecb91b578feabd",
+    "test_experiment.py": "5781ae2eac39189b42ed057802f7e58bc10e47e4ad12a70107dc528b32b406b3",
+    "make_figures.py": "a6ebb0c18a73519848e46d3cd28fa6126d751771d48fdda09ac905fc6656ac7b",
+    "data/inspection_counts.csv": "4770f430b8bdc7b95d8e5add8ca21e5d9b16ec2176f6e8a685eb5f3b3ec8d884"
+  }
+}

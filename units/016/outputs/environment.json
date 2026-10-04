@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "arithmetic": "exact Fraction; float only for display",
+  "network_used": false
+}

@@ -1,0 +1,98 @@
+{
+  "unit": "017",
+  "title": "分布密度与似然",
+  "status": "author_verified_pending_independent_review",
+  "date": "2026-10-04",
+  "prerequisites": {
+    "discrete": [
+      "016"
+    ],
+    "continuous_additional": [
+      "010"
+    ],
+    "not_assumed": [
+      "018 expectation and variance"
+    ]
+  },
+  "pdf_pages": {
+    "lecture": 10,
+    "lab": 4,
+    "answers": 4
+  },
+  "original_figures": 9,
+  "core_dependencies": "Python standard library only",
+  "tests": {
+    "status": "passed",
+    "groups": 9,
+    "exact_fraction_sequence_fixtures": 2142,
+    "exhaustive_finite_generator_mappings": 230,
+    "decimal_log_fixtures": 21,
+    "decimal_gaussian_point_fixtures": 72,
+    "independent_series_integral_references": 4,
+    "invalid_and_numeric_rejections": 47,
+    "precision_decimal_digits": 90,
+    "oracles": "Fraction event enumeration; independent Machin pi; Decimal exp/ln; integrated power series with declining alternating tail <1e-85 for a<=6",
+    "fresh_process_script_runs": "passed; two subprocess outputs byte-identical and match bundled outputs",
+    "csv_rejections": 7,
+    "malformed_header_output_isolation": "Duplicate y, duplicate trial, and extra header: new output absent and all three old output files unchanged"
+  },
+  "notebook": {
+    "status": "passed",
+    "code_cells": 14,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "kernel": "real ipykernel InProcessKernel",
+    "fresh_python_process": true,
+    "cleared_outputs_and_sequential_execution": true,
+    "result_files_identical_to_script": true
+  },
+  "pdf_review": {
+    "all_pages_rendered": true,
+    "all_pages_individually_visually_inspected": true,
+    "no_missing_replacement_glyphs_in_extracted_text": true,
+    "corrected_and_rechecked": [
+      "figure annotation overlap",
+      "orphan exercise page",
+      "split small boundary table",
+      "final lecture section placement"
+    ]
+  },
+  "sources": {
+    "major_pages_actually_opened": 8,
+    "record": "source-checks.json"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.10.8",
+    "weasyprint": "70.0",
+    "Markdown": "3.11",
+    "PyMuPDF": "1.26.6",
+    "Pillow": "12.3.0"
+  },
+  "limits": [
+    "Author verification is not independent QA or publication verification",
+    "Anaconda fresh installation not tested",
+    "Jupyter browser UI not tested",
+    "Out-of-process socket kernel transport not tested",
+    "No real dataset, independence validation, calibration claim, GPU or performance benchmark",
+    "Finite-interval numerical integration is not an analytic proof",
+    "Extreme floating-point inputs may be rejected; ordinary density or posterior values may underflow while log values remain finite"
+  ],
+  "revision": "v2 exact unique ordered CSV header checked before row materialization and before output mkdir"
+}

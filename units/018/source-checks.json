@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened author-written probability lectures and official Python documentation; original finite examples and proofs independently derived",
+  "sources": [
+    {
+      "title": "Marco Taboga Expected value",
+      "url": "https://www.statlect.com/fundamentals-of-probability/expected-value",
+      "checked_scope": "Finite expectation linearity and absolute integrability",
+      "status": "read"
+    },
+    {
+      "title": "Marco Taboga Variance",
+      "url": "https://www.statlect.com/fundamentals-of-probability/variance",
+      "checked_scope": "Centered second moment and affine scaling",
+      "status": "read"
+    },
+    {
+      "title": "Marco Taboga Covariance",
+      "url": "https://www.statlect.com/fundamentals-of-probability/covariance",
+      "checked_scope": "Centered product and variance of a sum",
+      "status": "read"
+    },
+    {
+      "title": "Python statistics",
+      "url": "https://docs.python.org/3/library/statistics.html",
+      "checked_scope": "variance pvariance and mean semantics; used as separate arithmetic oracle",
+      "status": "read"
+    },
+    {
+      "title": "Marco Taboga Law of Large Numbers",
+      "url": "https://www.statlect.com/asymptotic-theory/law-of-large-numbers",
+      "checked_scope": "Chebyshev finite-variance weak law and distinct IID integrable strong-law hypothesis",
+      "status": "read"
+    },
+    {
+      "title": "Marco Taboga Central Limit Theorem",
+      "url": "https://www.statlect.com/asymptotic-theory/central-limit-theorem",
+      "checked_scope": "IID finite positive variance standardization and convergence in distribution",
+      "status": "read"
+    },
+    {
+      "title": "Python random",
+      "url": "https://docs.python.org/3/library/random.html",
+      "checked_scope": "Random instance randrange pseudorandom sampling and version reproduction caveat",
+      "status": "read"
+    }
+  ]
+}

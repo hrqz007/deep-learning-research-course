@@ -19,7 +19,10 @@
     "012",
     "013",
     "014",
-    "015"
+    "015",
+    "016",
+    "017",
+    "018"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -495,7 +498,16 @@
       "figure": "概率树与联合分布表。",
       "lab": "手算分类小例子的后验；构造相关但不独立的变量，说明采样单位。",
       "pitfall": "把P(A给定B)倒写为P(B给定A)；把相关性直接当因果。",
-      "status": "in_review"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/016/lecture.pdf",
+        "lab_pdf": "units/016/lab.pdf",
+        "answers_pdf": "units/016/answers.pdf",
+        "notebook": "units/016/experiment.ipynb",
+        "script": "units/016/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/016-018.json"
     },
     {
       "id": "017",
@@ -508,7 +520,16 @@
       "figure": "概率质量、概率密度与似然作为参数函数的区别。",
       "lab": "离散段写Bernoulli生成器和对数似然并检查参数边界；进入连续模型前补010并验证Gaussian密度积分。",
       "pitfall": "把似然当参数后验；将概率密度直接解释为事件概率。",
-      "status": "drafting"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/017/lecture.pdf",
+        "lab_pdf": "units/017/lab.pdf",
+        "answers_pdf": "units/017/answers.pdf",
+        "notebook": "units/017/experiment.ipynb",
+        "script": "units/017/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/016-018.json"
     },
     {
       "id": "018",
@@ -521,7 +542,16 @@
       "figure": "重复抽样分布与样本量对误差的影响。",
       "lab": "模拟独立与相关样本的均值误差；估计Monte Carlo标准误并说明失效条件。",
       "pitfall": "把大量相关样本当同量独立证据；把标准差当均值标准误。",
-      "status": "planned"
+      "status": "verified",
+      "artifacts": {
+        "lecture_pdf": "units/018/lecture.pdf",
+        "lab_pdf": "units/018/lab.pdf",
+        "answers_pdf": "units/018/answers.pdf",
+        "notebook": "units/018/experiment.ipynb",
+        "script": "units/018/experiment.py"
+      },
+      "checks": "passed",
+      "release_record": "releases/016-018.json"
     },
     {
       "id": "019",
@@ -535,7 +565,7 @@
       "figure": "两个分布的质量覆盖及正反KL行为。",
       "lab": "手算离散分布的熵、交叉熵和KL；构造零概率导致无穷损失的例子。",
       "pitfall": "把KL当对称距离；忽略支持集而随意比较目标。",
-      "status": "planned"
+      "status": "in_review"
     },
     {
       "id": "020",
@@ -548,7 +578,7 @@
       "figure": "训练数据、模型选择与目标人群的关系图。",
       "lab": "在合成问题改变样本量与模型容量，分离拟合误差和测试误差；记录数据假设。",
       "pitfall": "把训练损失低视为泛化证明；把分布漂移归为优化失败。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "021",
@@ -563,7 +593,7 @@
       "figure": "训练验证测试隔离与阈值选择流程。",
       "lab": "实现指标并对照手算；按实体或时间拆分，测试集仅在方案冻结后使用。",
       "pitfall": "类别失衡时只报准确率；用测试集反复调参；混淆宏平均与微平均。",
-      "status": "planned"
+      "status": "drafting"
     },
     {
       "id": "022",

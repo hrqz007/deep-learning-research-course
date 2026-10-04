@@ -1,0 +1,87 @@
+{
+  "unit": "018",
+  "title": "期望方差与抽样误差",
+  "status": "author_checks_passed",
+  "checked_on": "2026-10-04",
+  "prerequisites": {
+    "main": [
+      "017"
+    ],
+    "continuous_additional": [
+      "010",
+      "017 continuous section"
+    ]
+  },
+  "pages": {
+    "lecture": 11,
+    "lab": 3,
+    "answers": 3
+  },
+  "original_figures": 9,
+  "runtime": {
+    "python": "3.12.14",
+    "core_dependencies": "Python standard library only"
+  },
+  "checks": {
+    "script": "Fresh Python process, plus unrelated cwd python -S; outputs identical",
+    "tests": {
+      "groups": 11,
+      "expanded_populations": 150,
+      "iid_sequences": 1360,
+      "copied_group_sequences": 1008,
+      "covariance_models": 100,
+      "exact_mean_distributions_n": [
+        1,
+        4,
+        16,
+        64
+      ],
+      "math_input_rejections": 26,
+      "config_rejections_preserve_outputs": 12,
+      "document_python_snippets": 5,
+      "simulation_rows": 32000,
+      "status": "passed",
+      "fixed_config_mismatch_guards": 2
+    },
+    "notebook": {
+      "notebook": "experiment.ipynb",
+      "status": "passed",
+      "seconds": 0.664,
+      "code_cells": 14,
+      "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+      "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+      "python": "3.12.14"
+    },
+    "cross_run": "All four script and Notebook output files byte-identical",
+    "visual": "Final17pages checked. Revised lecturepage6 and all3labpages individually viewed; other10lecturepages and3answers pages pixel-identical to previously inspected finals.9figures unchanged.3Notebook images unchanged. Fixed teaching-config guard checked before display and output mutation.",
+    "structural": "No empty pages, placeholder or replacement markers, private paths or out-of-page text blocks",
+    "sources": "Seven primary/author-source pages actually opened"
+  },
+  "expected": {
+    "population_mean": "2",
+    "population_variance": "6",
+    "true_iid_mean_variance_n64": "3/32",
+    "true_copied_mean_variance_n64_copies8": "3/4",
+    "fixed_groups_estimated_mean_variance": "6/7",
+    "naive_copied_rows_estimated_mean_variance": "2/21",
+    "rare_event_all_zero_probability": 0.904792147113709
+  },
+  "limitations": [
+    "No fresh Anaconda installation or cross-platform test",
+    "No Jupyter browser UI or out-of-process socket kernel test",
+    "Synthetic sampling mechanisms only; no real population independence or model generalization proof",
+    "Classical CLT is stated with conditions, not claimed proved; finite-variance weak LLN is derived",
+    "squared SE estimates are unbiased under the specified IID unit design; square roots are not claimed unbiased",
+    "Fixed teaching figures and Notebook require original default config and matching bundled results; custom script simulations must be saved separately"
+  ],
+  "artifact_sha256": {
+    "test_experiment.py": "a2ff771872dcce0bdfe9a0ab4011ce3601356fb7b8a06c113e99a7bd4690c42e",
+    "lecture.pdf": "fe1fdf894d1a1b214810ad336cafb2c42e9b06e8e2c137e2f5cd1709dbaaa12a",
+    "make_figures.py": "b5dc4e6fbeadb222900dc594d25ab744abcf21ee2f2e17b6368ca9aa29f93be0",
+    "answers.pdf": "9b90d852070180062e9d7a4af69d192d0356a01693db2058a91af90d3ec40836",
+    "lab.pdf": "31502e866c7a76d4ed1fe4533b41284437219bdf8929bdd65adca2a1a538a735",
+    "experiment.py": "ee67fa0ecdb18f8ba87556ed498dcb2907df065ffacd26c31d1fe0bf08601cfa",
+    "experiment.ipynb": "dfb47127bfbd67358adf76ce42faa9b32616f5105ad196e79663004c07e63adb"
+  },
+  "revision": "v2 fixed teaching configuration guard before figure/Notebook output, and positive effective-sample-size denominator"
+}

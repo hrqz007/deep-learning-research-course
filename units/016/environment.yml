@@ -1,0 +1,9 @@
+name: dl-unit-016
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab>=4,<5
+  - ipykernel>=6,<8
+# Core experiment and tests require only the Python standard library.
+# Optional figure rebuilding: matplotlib, NumPy, Noto Sans CJK fonts.

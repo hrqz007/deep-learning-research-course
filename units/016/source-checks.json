@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Official textbook and documentation pages opened; original author paper checked",
+  "sources": [
+    {
+      "title": "OpenStax probability terminology",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+      "checked_scope": "Sample space events and positive-mass conditional probability",
+      "status": "read"
+    },
+    {
+      "title": "OpenStax addition and multiplication",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-3-two-basic-rules-of-probability",
+      "checked_scope": "Addition and conditional multiplication",
+      "status": "read"
+    },
+    {
+      "title": "OpenStax discrete random variable",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-1-probability-distribution-function-pdf-for-a-discrete-random-variable",
+      "checked_scope": "Discrete random variables and finite weights",
+      "status": "read"
+    },
+    {
+      "title": "Python fractions",
+      "url": "https://docs.python.org/3/library/fractions.html",
+      "checked_scope": "Rational input and exact Fraction semantics",
+      "status": "read"
+    },
+    {
+      "title": "OpenStax independence",
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/3-2-independent-and-mutually-exclusive-events",
+      "checked_scope": "Independence mutual exclusion replacement",
+      "status": "read"
+    },
+    {
+      "title": "Pearl 2009 causal overview",
+      "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf",
+      "checked_scope": "Sections2 and3.2.1 observational conditioning versus structural intervention",
+      "status": "read"
+    }
+  ],
+  "originality": "Original finite population table diagrams narratives and code; no copied source figure"
+}

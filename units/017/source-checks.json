@@ -1,0 +1,68 @@
+{
+  "checked_date": "2026-10-04",
+  "method": "Actual public web page open/read; formula cross-check plus independently authored calculations",
+  "sources": [
+    {
+      "title": "Python random 3.12",
+      "url": "https://docs.python.org/3.12/library/random.html",
+      "location": "Random, randrange, Notes on Reproducibility",
+      "status": "opened; finite integer generator and version limits checked"
+    },
+    {
+      "title": "Bernoulli distribution by Marco Taboga",
+      "url": "https://www.statlect.com/probability-distributions/Bernoulli-distribution",
+      "location": "How the distribution is used; Definition",
+      "status": "opened; prose checked; image formulas cross-checked with NIST"
+    },
+    {
+      "title": "NIST Binomial Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366i.htm",
+      "location": "Probability Mass Function",
+      "status": "opened; n=1 specialization checked"
+    },
+    {
+      "title": "Python math 3.12",
+      "url": "https://docs.python.org/3.12/library/math.html",
+      "location": "log1p, fsum, exp, prod, isfinite",
+      "status": "opened; interfaces and finite precision limits checked"
+    },
+    {
+      "title": "NIST Normal Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm",
+      "location": "Probability Density Function; Cumulative Distribution Function",
+      "status": "opened; formula and normalization role checked"
+    },
+    {
+      "title": "NIST Location and Scale Parameters",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda364.htm",
+      "location": "Location, Scale, Standard Form",
+      "status": "opened; inverse-scale factor and positivity checked"
+    },
+    {
+      "title": "NIST DLMF 7.2",
+      "url": "https://dlmf.nist.gov/7.2",
+      "location": "7.2.1, 7.2.2, 7.2.4",
+      "status": "opened; Gaussian integral constant cross-check"
+    },
+    {
+      "title": "NIST Maximum likelihood estimation",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section4/apr412.htm",
+      "location": "Opening likelihood description; uncensored product of densities",
+      "status": "opened; parameter-function role and density product checked; asymptotic claims not adopted"
+    }
+  ],
+  "excluded_unverified": [
+    "Penn State pages that timed out; not sole support for any claim"
+  ],
+  "original_content": [
+    "all teaching examples",
+    "all 9 figures",
+    "all exercises and answers",
+    "all Python implementations and exact/high-precision oracle tests"
+  ],
+  "limits": [
+    "No real-data distribution validation",
+    "No copied third-party images",
+    "No claim that numerical integration proves Gaussian normalization"
+  ]
+}
