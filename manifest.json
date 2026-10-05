@@ -56,7 +56,8 @@
     "051",
     "052",
     "053",
-    "054"
+    "054",
+    "055"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1786,7 +1787,32 @@
       "figure": "损失随数据、参数和计算预算变化的图。",
       "lab": "训练可承担的小型decoder，记录有效token、吞吐、显存与验证损失；给出预算上限。",
       "pitfall": "拿小规模实验外推前沿模型能力；忽略数据质量和重复度。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/055/lecture.pdf",
+        "lab_pdf": "units/055/lab.pdf",
+        "answers_pdf": "units/055/answers.pdf",
+        "notebook": "units/055/experiment.ipynb",
+        "script": "units/055/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "3365e1cc79ac165d7b09adaeb1e33444fb50efb0",
+        "verified_file_count": 77,
+        "verified_bytes": 5434271,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-05"
+      },
+      "release_record": "releases/053-055.json"
     },
     {
       "id": "056",
@@ -2553,6 +2579,7 @@
     "051",
     "052",
     "053",
-    "054"
+    "054",
+    "055"
   ]
 }
