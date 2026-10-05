@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "torch": "2.7.1+cpu",
+  "numpy": "2.3.5",
+  "dtype": "float64",
+  "device": "CPU",
+  "threads": 1
+}

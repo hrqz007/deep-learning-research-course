@@ -1,0 +1,17 @@
+{
+  "unit": "054",
+  "model_seed": 5401,
+  "mlm_seed": 5410,
+  "mlm_rate": 0.3,
+  "mlm_policy": "all selected normal tokens replaced by MASK; force >=1 per document",
+  "dtype": "float64",
+  "dropout": 0,
+  "layers": 2,
+  "width": 12,
+  "heads": 3,
+  "ffn": 24,
+  "mask_true": "allowed",
+  "packing": "independent documents, no truncation, reset absolute positions",
+  "evaluation": "untrained structure probe; no objective ranking",
+  "loss": "sum NLL / effective target count; no class weights or label smoothing"
+}

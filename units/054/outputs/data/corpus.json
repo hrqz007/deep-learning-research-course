@@ -1,0 +1,204 @@
+{
+  "vocabulary": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<mask>",
+    "蓝",
+    "红",
+    "白",
+    "猫",
+    "狗",
+    "鸟",
+    "追",
+    "看",
+    "球",
+    "云",
+    "。"
+  ],
+  "vocabulary_policy": "predeclared closed synthetic alphabet, not fit on held-out text",
+  "raw": [
+    {
+      "id": "d00",
+      "text": "蓝 猫 追 红 球"
+    },
+    {
+      "id": "d01",
+      "text": "红 狗 追 蓝 球"
+    },
+    {
+      "id": "d02",
+      "text": "蓝 鸟 看 白 云"
+    },
+    {
+      "id": "d03",
+      "text": "白 猫 看"
+    },
+    {
+      "id": "d04",
+      "text": "红 鸟 追 白 云 。"
+    },
+    {
+      "id": "d05",
+      "text": "白 狗 看 球"
+    },
+    {
+      "id": "d06",
+      "text": "蓝 猫 看 白 云"
+    },
+    {
+      "id": "d07",
+      "text": "红 狗 看 红 球"
+    },
+    {
+      "id": "d08",
+      "text": "蓝   猫 追 红 球"
+    },
+    {
+      "id": "d09",
+      "text": "白 鸟 追 蓝 球"
+    },
+    {
+      "id": "d10",
+      "text": "蓝 狗 追 白 云"
+    }
+  ],
+  "documents": [
+    {
+      "id": "d00",
+      "text": "蓝 猫 追 红 球",
+      "tokens": [
+        4,
+        7,
+        10,
+        5,
+        12
+      ],
+      "split": "train",
+      "normalized_sha256": "6a85c72fe2e5bedc8f8d9605b4a2ce4efcea159233b7fb692645dc0288899d33"
+    },
+    {
+      "id": "d01",
+      "text": "红 狗 追 蓝 球",
+      "tokens": [
+        5,
+        8,
+        10,
+        4,
+        12
+      ],
+      "split": "train",
+      "normalized_sha256": "03e25cdc004e6c725e24c732e7d0ff072a9eaa40c4c5fb5194be6b2c8eca2cc5"
+    },
+    {
+      "id": "d02",
+      "text": "蓝 鸟 看 白 云",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        13
+      ],
+      "split": "train",
+      "normalized_sha256": "9d0b7819c1e90900407683dad3d8da7ffce00819baccb618d7e9493a57f22c63"
+    },
+    {
+      "id": "d03",
+      "text": "白 猫 看",
+      "tokens": [
+        6,
+        7,
+        11
+      ],
+      "split": "train",
+      "normalized_sha256": "1352a3a594f3dfcd73910cba95c5622367987b0444c9bc83b5751166b40500ba"
+    },
+    {
+      "id": "d04",
+      "text": "红 鸟 追 白 云 。",
+      "tokens": [
+        5,
+        9,
+        10,
+        6,
+        13,
+        14
+      ],
+      "split": "train",
+      "normalized_sha256": "c89d13397283cd2c9276cbb53a13aa1e5c5fda2ceaff4487a1abccaeba1e8fee"
+    },
+    {
+      "id": "d05",
+      "text": "白 狗 看 球",
+      "tokens": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "split": "train",
+      "normalized_sha256": "a714d4e3562417deab70ccb74882d4845b096ff14f451d4f24af7aa881ce214d"
+    },
+    {
+      "id": "d06",
+      "text": "蓝 猫 看 白 云",
+      "tokens": [
+        4,
+        7,
+        11,
+        6,
+        13
+      ],
+      "split": "validation",
+      "normalized_sha256": "9ed256a41e9bb405ef7d1de27f75669062bef5ad889afa04fc0aea25471e1a76"
+    },
+    {
+      "id": "d07",
+      "text": "红 狗 看 红 球",
+      "tokens": [
+        5,
+        8,
+        11,
+        5,
+        12
+      ],
+      "split": "validation",
+      "normalized_sha256": "c0f97c63497e419dc2fa3bd01e6aacfbbbacde33699bbcebc2169eceba7212ee"
+    },
+    {
+      "id": "d09",
+      "text": "白 鸟 追 蓝 球",
+      "tokens": [
+        6,
+        9,
+        10,
+        4,
+        12
+      ],
+      "split": "test",
+      "normalized_sha256": "03cf4bcf725794b83743f1d0147a921de42ecb56953612a82cfa6a1e6a931f28"
+    },
+    {
+      "id": "d10",
+      "text": "蓝 狗 追 白 云",
+      "tokens": [
+        4,
+        8,
+        10,
+        6,
+        13
+      ],
+      "split": "test",
+      "normalized_sha256": "734d13ef616db4382f7b24505a366d6cee531bff362b171b03aa021c81423c84"
+    }
+  ],
+  "duplicates": [
+    {
+      "removed": "d08",
+      "kept": "d00",
+      "normalized_sha256": "6a85c72fe2e5bedc8f8d9605b4a2ce4efcea159233b7fb692645dc0288899d33"
+    }
+  ],
+  "split_policy": "deduplicate exact NFC+whitespace normalized texts; first6 train, next2 validation, last2 test"
+}

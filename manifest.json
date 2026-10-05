@@ -54,7 +54,8 @@
     "047",
     "048",
     "051",
-    "052"
+    "052",
+    "053"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1702,7 +1703,32 @@
       "figure": "encoder、decoder与完整块的张量流。",
       "lab": "从基础算子搭建小Transformer块，与参考实现对齐；测试排列、长度与位置变化。",
       "pitfall": "把并行训练当成自回归生成也能完全并行；忽略归一化位置。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/053/lecture.pdf",
+        "lab_pdf": "units/053/lab.pdf",
+        "answers_pdf": "units/053/answers.pdf",
+        "notebook": "units/053/experiment.ipynb",
+        "script": "units/053/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "463b8a84899f1fbde1bf9879a06f212e0ac4532a",
+        "verified_file_count": 35,
+        "verified_bytes": 3971630,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-05"
+      },
+      "release_record": "releases/053-055.json"
     },
     {
       "id": "054",
@@ -2499,6 +2525,7 @@
     "049",
     "050",
     "051",
-    "052"
+    "052",
+    "053"
   ]
 }
