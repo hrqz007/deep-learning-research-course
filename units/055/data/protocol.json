@@ -1,0 +1,108 @@
+{
+  "version": "1",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "steps": 80,
+  "batch_size": 16,
+  "sequence_length": 7,
+  "heads": 4,
+  "layers": 2,
+  "ffn_multiplier": 2,
+  "dropout": 0,
+  "lr": 0.003,
+  "weight_decay": 0.01,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "grad_clip": 1.0,
+  "warmup_timing_steps": 5,
+  "checkpoints": [
+    0,
+    20,
+    40,
+    60,
+    74,
+    80
+  ],
+  "effective_token_limit_per_run": 8960,
+  "aggregate_effective_token_limit": 107520,
+  "training_timeout_seconds_per_worker": 180,
+  "declared_scope": "2 widths x2 distinct training pools x3 initializations; no scaling-law fit",
+  "test_policy": "test split retained but not scored or used for tuning",
+  "configs": [
+    {
+      "d": 16,
+      "pool": 32,
+      "seed": 5501,
+      "name": "d16_n32_s5501"
+    },
+    {
+      "d": 16,
+      "pool": 32,
+      "seed": 5502,
+      "name": "d16_n32_s5502"
+    },
+    {
+      "d": 16,
+      "pool": 32,
+      "seed": 5503,
+      "name": "d16_n32_s5503"
+    },
+    {
+      "d": 16,
+      "pool": 128,
+      "seed": 5501,
+      "name": "d16_n128_s5501"
+    },
+    {
+      "d": 16,
+      "pool": 128,
+      "seed": 5502,
+      "name": "d16_n128_s5502"
+    },
+    {
+      "d": 16,
+      "pool": 128,
+      "seed": 5503,
+      "name": "d16_n128_s5503"
+    },
+    {
+      "d": 32,
+      "pool": 32,
+      "seed": 5501,
+      "name": "d32_n32_s5501"
+    },
+    {
+      "d": 32,
+      "pool": 32,
+      "seed": 5502,
+      "name": "d32_n32_s5502"
+    },
+    {
+      "d": 32,
+      "pool": 32,
+      "seed": 5503,
+      "name": "d32_n32_s5503"
+    },
+    {
+      "d": 32,
+      "pool": 128,
+      "seed": 5501,
+      "name": "d32_n128_s5501"
+    },
+    {
+      "d": 32,
+      "pool": 128,
+      "seed": 5502,
+      "name": "d32_n128_s5502"
+    },
+    {
+      "d": 32,
+      "pool": 128,
+      "seed": 5503,
+      "name": "d32_n128_s5503"
+    }
+  ]
+}

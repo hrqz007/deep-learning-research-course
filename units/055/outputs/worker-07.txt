@@ -1,0 +1,1 @@
+{"config": {"d": 32, "pool": 32, "seed": 5502, "name": "d32_n32_s5502"}, "final_validation_nll": 1.493101954460144}

@@ -1,0 +1,6 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "primary papers and official API documentation opened",
+  "sources": "sources.md",
+  "notes": "CPU-only training, no external corpus; no scaling law fitted"
+}

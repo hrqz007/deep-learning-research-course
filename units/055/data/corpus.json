@@ -1,0 +1,3613 @@
+{
+  "vocab": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "蓝",
+    "红",
+    "白",
+    "绿",
+    "猫",
+    "狗",
+    "鸟",
+    "鱼",
+    "看",
+    "追",
+    "找",
+    "拿",
+    "球",
+    "云",
+    "书",
+    "花",
+    "。"
+  ],
+  "rule": "color2=(color1_index+animal_index+verb_index) mod4; 4 free choices, each4; punctuation fixed",
+  "split_seed": 5500,
+  "documents": [
+    {
+      "id": "3331",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        16,
+        19
+      ],
+      "text": "绿 鱼 拿 红 云 。",
+      "split": "train",
+      "split_order": 0
+    },
+    {
+      "id": "2231",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        16,
+        19
+      ],
+      "text": "白 鸟 拿 绿 云 。",
+      "split": "train",
+      "split_order": 1
+    },
+    {
+      "id": "0322",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        17,
+        19
+      ],
+      "text": "蓝 鱼 找 红 书 。",
+      "split": "train",
+      "split_order": 2
+    },
+    {
+      "id": "3101",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        16,
+        19
+      ],
+      "text": "绿 狗 看 蓝 云 。",
+      "split": "train",
+      "split_order": 3
+    },
+    {
+      "id": "3222",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        17,
+        19
+      ],
+      "text": "绿 鸟 找 绿 书 。",
+      "split": "train",
+      "split_order": 4
+    },
+    {
+      "id": "3321",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        16,
+        19
+      ],
+      "text": "绿 鱼 找 蓝 云 。",
+      "split": "train",
+      "split_order": 5
+    },
+    {
+      "id": "1010",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        15,
+        19
+      ],
+      "text": "红 猫 追 白 球 。",
+      "split": "train",
+      "split_order": 6
+    },
+    {
+      "id": "3013",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        18,
+        19
+      ],
+      "text": "绿 猫 追 蓝 花 。",
+      "split": "train",
+      "split_order": 7
+    },
+    {
+      "id": "1321",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        16,
+        19
+      ],
+      "text": "红 鱼 找 白 云 。",
+      "split": "train",
+      "split_order": 8
+    },
+    {
+      "id": "3313",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        18,
+        19
+      ],
+      "text": "绿 鱼 追 绿 花 。",
+      "split": "train",
+      "split_order": 9
+    },
+    {
+      "id": "2210",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        15,
+        19
+      ],
+      "text": "白 鸟 追 红 球 。",
+      "split": "train",
+      "split_order": 10
+    },
+    {
+      "id": "1223",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        18,
+        19
+      ],
+      "text": "红 鸟 找 红 花 。",
+      "split": "train",
+      "split_order": 11
+    },
+    {
+      "id": "2333",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        18,
+        19
+      ],
+      "text": "白 鱼 拿 蓝 花 。",
+      "split": "train",
+      "split_order": 12
+    },
+    {
+      "id": "0330",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        15,
+        19
+      ],
+      "text": "蓝 鱼 拿 白 球 。",
+      "split": "train",
+      "split_order": 13
+    },
+    {
+      "id": "0130",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        15,
+        19
+      ],
+      "text": "蓝 狗 拿 蓝 球 。",
+      "split": "train",
+      "split_order": 14
+    },
+    {
+      "id": "2303",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        18,
+        19
+      ],
+      "text": "白 鱼 看 红 花 。",
+      "split": "train",
+      "split_order": 15
+    },
+    {
+      "id": "3111",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        16,
+        19
+      ],
+      "text": "绿 狗 追 红 云 。",
+      "split": "train",
+      "split_order": 16
+    },
+    {
+      "id": "0301",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        16,
+        19
+      ],
+      "text": "蓝 鱼 看 绿 云 。",
+      "split": "train",
+      "split_order": 17
+    },
+    {
+      "id": "0111",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        16,
+        19
+      ],
+      "text": "蓝 狗 追 白 云 。",
+      "split": "train",
+      "split_order": 18
+    },
+    {
+      "id": "3010",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        15,
+        19
+      ],
+      "text": "绿 猫 追 蓝 球 。",
+      "split": "train",
+      "split_order": 19
+    },
+    {
+      "id": "3323",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        18,
+        19
+      ],
+      "text": "绿 鱼 找 蓝 花 。",
+      "split": "train",
+      "split_order": 20
+    },
+    {
+      "id": "3103",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        18,
+        19
+      ],
+      "text": "绿 狗 看 蓝 花 。",
+      "split": "train",
+      "split_order": 21
+    },
+    {
+      "id": "0033",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        18,
+        19
+      ],
+      "text": "蓝 猫 拿 绿 花 。",
+      "split": "train",
+      "split_order": 22
+    },
+    {
+      "id": "1203",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        18,
+        19
+      ],
+      "text": "红 鸟 看 绿 花 。",
+      "split": "train",
+      "split_order": 23
+    },
+    {
+      "id": "0012",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        17,
+        19
+      ],
+      "text": "蓝 猫 追 红 书 。",
+      "split": "train",
+      "split_order": 24
+    },
+    {
+      "id": "3231",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        16,
+        19
+      ],
+      "text": "绿 鸟 拿 蓝 云 。",
+      "split": "train",
+      "split_order": 25
+    },
+    {
+      "id": "0001",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        16,
+        19
+      ],
+      "text": "蓝 猫 看 蓝 云 。",
+      "split": "train",
+      "split_order": 26
+    },
+    {
+      "id": "0202",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        17,
+        19
+      ],
+      "text": "蓝 鸟 看 白 书 。",
+      "split": "train",
+      "split_order": 27
+    },
+    {
+      "id": "2101",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        16,
+        19
+      ],
+      "text": "白 狗 看 绿 云 。",
+      "split": "train",
+      "split_order": 28
+    },
+    {
+      "id": "2120",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        15,
+        19
+      ],
+      "text": "白 狗 找 红 球 。",
+      "split": "train",
+      "split_order": 29
+    },
+    {
+      "id": "1002",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        17,
+        19
+      ],
+      "text": "红 猫 看 红 书 。",
+      "split": "train",
+      "split_order": 30
+    },
+    {
+      "id": "3121",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        16,
+        19
+      ],
+      "text": "绿 狗 找 白 云 。",
+      "split": "train",
+      "split_order": 31
+    },
+    {
+      "id": "3303",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        18,
+        19
+      ],
+      "text": "绿 鱼 看 白 花 。",
+      "split": "train",
+      "split_order": 32
+    },
+    {
+      "id": "2131",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        16,
+        19
+      ],
+      "text": "白 狗 拿 白 云 。",
+      "split": "train",
+      "split_order": 33
+    },
+    {
+      "id": "2022",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        17,
+        19
+      ],
+      "text": "白 猫 找 蓝 书 。",
+      "split": "train",
+      "split_order": 34
+    },
+    {
+      "id": "2223",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        18,
+        19
+      ],
+      "text": "白 鸟 找 白 花 。",
+      "split": "train",
+      "split_order": 35
+    },
+    {
+      "id": "3312",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        17,
+        19
+      ],
+      "text": "绿 鱼 追 绿 书 。",
+      "split": "train",
+      "split_order": 36
+    },
+    {
+      "id": "0010",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        15,
+        19
+      ],
+      "text": "蓝 猫 追 红 球 。",
+      "split": "train",
+      "split_order": 37
+    },
+    {
+      "id": "0122",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        17,
+        19
+      ],
+      "text": "蓝 狗 找 绿 书 。",
+      "split": "train",
+      "split_order": 38
+    },
+    {
+      "id": "0231",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        16,
+        19
+      ],
+      "text": "蓝 鸟 拿 红 云 。",
+      "split": "train",
+      "split_order": 39
+    },
+    {
+      "id": "1322",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        17,
+        19
+      ],
+      "text": "红 鱼 找 白 书 。",
+      "split": "train",
+      "split_order": 40
+    },
+    {
+      "id": "3031",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        16,
+        19
+      ],
+      "text": "绿 猫 拿 白 云 。",
+      "split": "train",
+      "split_order": 41
+    },
+    {
+      "id": "2000",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        15,
+        19
+      ],
+      "text": "白 猫 看 白 球 。",
+      "split": "train",
+      "split_order": 42
+    },
+    {
+      "id": "1313",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        18,
+        19
+      ],
+      "text": "红 鱼 追 红 花 。",
+      "split": "train",
+      "split_order": 43
+    },
+    {
+      "id": "0003",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        18,
+        19
+      ],
+      "text": "蓝 猫 看 蓝 花 。",
+      "split": "train",
+      "split_order": 44
+    },
+    {
+      "id": "0113",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        18,
+        19
+      ],
+      "text": "蓝 狗 追 白 花 。",
+      "split": "train",
+      "split_order": 45
+    },
+    {
+      "id": "3122",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        17,
+        19
+      ],
+      "text": "绿 狗 找 白 书 。",
+      "split": "train",
+      "split_order": 46
+    },
+    {
+      "id": "0023",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        18,
+        19
+      ],
+      "text": "蓝 猫 找 白 花 。",
+      "split": "train",
+      "split_order": 47
+    },
+    {
+      "id": "2011",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        16,
+        19
+      ],
+      "text": "白 猫 追 绿 云 。",
+      "split": "train",
+      "split_order": 48
+    },
+    {
+      "id": "2020",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        15,
+        19
+      ],
+      "text": "白 猫 找 蓝 球 。",
+      "split": "train",
+      "split_order": 49
+    },
+    {
+      "id": "1121",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        16,
+        19
+      ],
+      "text": "红 狗 找 蓝 云 。",
+      "split": "train",
+      "split_order": 50
+    },
+    {
+      "id": "0321",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        16,
+        19
+      ],
+      "text": "蓝 鱼 找 红 云 。",
+      "split": "train",
+      "split_order": 51
+    },
+    {
+      "id": "2301",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        16,
+        19
+      ],
+      "text": "白 鱼 看 红 云 。",
+      "split": "train",
+      "split_order": 52
+    },
+    {
+      "id": "3132",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        17,
+        19
+      ],
+      "text": "绿 狗 拿 绿 书 。",
+      "split": "train",
+      "split_order": 53
+    },
+    {
+      "id": "0331",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        16,
+        19
+      ],
+      "text": "蓝 鱼 拿 白 云 。",
+      "split": "train",
+      "split_order": 54
+    },
+    {
+      "id": "1120",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        15,
+        19
+      ],
+      "text": "红 狗 找 蓝 球 。",
+      "split": "train",
+      "split_order": 55
+    },
+    {
+      "id": "0333",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        18,
+        19
+      ],
+      "text": "蓝 鱼 拿 白 花 。",
+      "split": "train",
+      "split_order": 56
+    },
+    {
+      "id": "1330",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        15,
+        19
+      ],
+      "text": "红 鱼 拿 绿 球 。",
+      "split": "train",
+      "split_order": 57
+    },
+    {
+      "id": "3012",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        17,
+        19
+      ],
+      "text": "绿 猫 追 蓝 书 。",
+      "split": "train",
+      "split_order": 58
+    },
+    {
+      "id": "2322",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        17,
+        19
+      ],
+      "text": "白 鱼 找 绿 书 。",
+      "split": "train",
+      "split_order": 59
+    },
+    {
+      "id": "1112",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        17,
+        19
+      ],
+      "text": "红 狗 追 绿 书 。",
+      "split": "train",
+      "split_order": 60
+    },
+    {
+      "id": "3032",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        17,
+        19
+      ],
+      "text": "绿 猫 拿 白 书 。",
+      "split": "train",
+      "split_order": 61
+    },
+    {
+      "id": "1131",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        16,
+        19
+      ],
+      "text": "红 狗 拿 红 云 。",
+      "split": "train",
+      "split_order": 62
+    },
+    {
+      "id": "1033",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        18,
+        19
+      ],
+      "text": "红 猫 拿 蓝 花 。",
+      "split": "train",
+      "split_order": 63
+    },
+    {
+      "id": "3203",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        18,
+        19
+      ],
+      "text": "绿 鸟 看 红 花 。",
+      "split": "train",
+      "split_order": 64
+    },
+    {
+      "id": "0200",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        15,
+        19
+      ],
+      "text": "蓝 鸟 看 白 球 。",
+      "split": "train",
+      "split_order": 65
+    },
+    {
+      "id": "1130",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        15,
+        19
+      ],
+      "text": "红 狗 拿 红 球 。",
+      "split": "train",
+      "split_order": 66
+    },
+    {
+      "id": "1302",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        17,
+        19
+      ],
+      "text": "红 鱼 看 蓝 书 。",
+      "split": "train",
+      "split_order": 67
+    },
+    {
+      "id": "0133",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        18,
+        19
+      ],
+      "text": "蓝 狗 拿 蓝 花 。",
+      "split": "train",
+      "split_order": 68
+    },
+    {
+      "id": "1303",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        18,
+        19
+      ],
+      "text": "红 鱼 看 蓝 花 。",
+      "split": "train",
+      "split_order": 69
+    },
+    {
+      "id": "2111",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        16,
+        19
+      ],
+      "text": "白 狗 追 蓝 云 。",
+      "split": "train",
+      "split_order": 70
+    },
+    {
+      "id": "1020",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        15,
+        19
+      ],
+      "text": "红 猫 找 绿 球 。",
+      "split": "train",
+      "split_order": 71
+    },
+    {
+      "id": "0121",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        16,
+        19
+      ],
+      "text": "蓝 狗 找 绿 云 。",
+      "split": "train",
+      "split_order": 72
+    },
+    {
+      "id": "0021",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        16,
+        19
+      ],
+      "text": "蓝 猫 找 白 云 。",
+      "split": "train",
+      "split_order": 73
+    },
+    {
+      "id": "1230",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        15,
+        19
+      ],
+      "text": "红 鸟 拿 白 球 。",
+      "split": "train",
+      "split_order": 74
+    },
+    {
+      "id": "2123",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        18,
+        19
+      ],
+      "text": "白 狗 找 红 花 。",
+      "split": "train",
+      "split_order": 75
+    },
+    {
+      "id": "1331",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        16,
+        19
+      ],
+      "text": "红 鱼 拿 绿 云 。",
+      "split": "train",
+      "split_order": 76
+    },
+    {
+      "id": "1001",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        16,
+        19
+      ],
+      "text": "红 猫 看 红 云 。",
+      "split": "train",
+      "split_order": 77
+    },
+    {
+      "id": "0212",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        17,
+        19
+      ],
+      "text": "蓝 鸟 追 绿 书 。",
+      "split": "train",
+      "split_order": 78
+    },
+    {
+      "id": "2102",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        17,
+        19
+      ],
+      "text": "白 狗 看 绿 书 。",
+      "split": "train",
+      "split_order": 79
+    },
+    {
+      "id": "3123",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        18,
+        19
+      ],
+      "text": "绿 狗 找 白 花 。",
+      "split": "train",
+      "split_order": 80
+    },
+    {
+      "id": "0232",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        17,
+        19
+      ],
+      "text": "蓝 鸟 拿 红 书 。",
+      "split": "train",
+      "split_order": 81
+    },
+    {
+      "id": "0310",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        15,
+        19
+      ],
+      "text": "蓝 鱼 追 蓝 球 。",
+      "split": "train",
+      "split_order": 82
+    },
+    {
+      "id": "1102",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        17,
+        19
+      ],
+      "text": "红 狗 看 白 书 。",
+      "split": "train",
+      "split_order": 83
+    },
+    {
+      "id": "3221",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        16,
+        19
+      ],
+      "text": "绿 鸟 找 绿 云 。",
+      "split": "train",
+      "split_order": 84
+    },
+    {
+      "id": "0320",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        15,
+        19
+      ],
+      "text": "蓝 鱼 找 红 球 。",
+      "split": "train",
+      "split_order": 85
+    },
+    {
+      "id": "0102",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        17,
+        19
+      ],
+      "text": "蓝 狗 看 红 书 。",
+      "split": "train",
+      "split_order": 86
+    },
+    {
+      "id": "0011",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        16,
+        19
+      ],
+      "text": "蓝 猫 追 红 云 。",
+      "split": "train",
+      "split_order": 87
+    },
+    {
+      "id": "1011",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        16,
+        19
+      ],
+      "text": "红 猫 追 白 云 。",
+      "split": "train",
+      "split_order": 88
+    },
+    {
+      "id": "3130",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        15,
+        19
+      ],
+      "text": "绿 狗 拿 绿 球 。",
+      "split": "train",
+      "split_order": 89
+    },
+    {
+      "id": "0303",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        18,
+        19
+      ],
+      "text": "蓝 鱼 看 绿 花 。",
+      "split": "train",
+      "split_order": 90
+    },
+    {
+      "id": "0213",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        18,
+        19
+      ],
+      "text": "蓝 鸟 追 绿 花 。",
+      "split": "train",
+      "split_order": 91
+    },
+    {
+      "id": "2021",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        16,
+        19
+      ],
+      "text": "白 猫 找 蓝 云 。",
+      "split": "train",
+      "split_order": 92
+    },
+    {
+      "id": "0311",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        16,
+        19
+      ],
+      "text": "蓝 鱼 追 蓝 云 。",
+      "split": "train",
+      "split_order": 93
+    },
+    {
+      "id": "3022",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        17,
+        19
+      ],
+      "text": "绿 猫 找 红 书 。",
+      "split": "train",
+      "split_order": 94
+    },
+    {
+      "id": "0313",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        18,
+        19
+      ],
+      "text": "蓝 鱼 追 蓝 花 。",
+      "split": "train",
+      "split_order": 95
+    },
+    {
+      "id": "0000",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        15,
+        19
+      ],
+      "text": "蓝 猫 看 蓝 球 。",
+      "split": "train",
+      "split_order": 96
+    },
+    {
+      "id": "2002",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        17,
+        19
+      ],
+      "text": "白 猫 看 白 书 。",
+      "split": "train",
+      "split_order": 97
+    },
+    {
+      "id": "2030",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        15,
+        19
+      ],
+      "text": "白 猫 拿 红 球 。",
+      "split": "train",
+      "split_order": 98
+    },
+    {
+      "id": "3232",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        17,
+        19
+      ],
+      "text": "绿 鸟 拿 蓝 书 。",
+      "split": "train",
+      "split_order": 99
+    },
+    {
+      "id": "0210",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        15,
+        19
+      ],
+      "text": "蓝 鸟 追 绿 球 。",
+      "split": "train",
+      "split_order": 100
+    },
+    {
+      "id": "3003",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        18,
+        19
+      ],
+      "text": "绿 猫 看 绿 花 。",
+      "split": "train",
+      "split_order": 101
+    },
+    {
+      "id": "0300",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        15,
+        19
+      ],
+      "text": "蓝 鱼 看 绿 球 。",
+      "split": "train",
+      "split_order": 102
+    },
+    {
+      "id": "2010",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        15,
+        19
+      ],
+      "text": "白 猫 追 绿 球 。",
+      "split": "train",
+      "split_order": 103
+    },
+    {
+      "id": "2003",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        18,
+        19
+      ],
+      "text": "白 猫 看 白 花 。",
+      "split": "train",
+      "split_order": 104
+    },
+    {
+      "id": "2332",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        17,
+        19
+      ],
+      "text": "白 鱼 拿 蓝 书 。",
+      "split": "train",
+      "split_order": 105
+    },
+    {
+      "id": "3202",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        17,
+        19
+      ],
+      "text": "绿 鸟 看 红 书 。",
+      "split": "train",
+      "split_order": 106
+    },
+    {
+      "id": "1101",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        16,
+        19
+      ],
+      "text": "红 狗 看 白 云 。",
+      "split": "train",
+      "split_order": 107
+    },
+    {
+      "id": "1110",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        15,
+        19
+      ],
+      "text": "红 狗 追 绿 球 。",
+      "split": "train",
+      "split_order": 108
+    },
+    {
+      "id": "3311",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        16,
+        19
+      ],
+      "text": "绿 鱼 追 绿 云 。",
+      "split": "train",
+      "split_order": 109
+    },
+    {
+      "id": "2320",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        15,
+        19
+      ],
+      "text": "白 鱼 找 绿 球 。",
+      "split": "train",
+      "split_order": 110
+    },
+    {
+      "id": "0211",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        16,
+        19
+      ],
+      "text": "蓝 鸟 追 绿 云 。",
+      "split": "train",
+      "split_order": 111
+    },
+    {
+      "id": "2302",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        17,
+        19
+      ],
+      "text": "白 鱼 看 红 书 。",
+      "split": "train",
+      "split_order": 112
+    },
+    {
+      "id": "1201",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        16,
+        19
+      ],
+      "text": "红 鸟 看 绿 云 。",
+      "split": "train",
+      "split_order": 113
+    },
+    {
+      "id": "1113",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        18,
+        19
+      ],
+      "text": "红 狗 追 绿 花 。",
+      "split": "train",
+      "split_order": 114
+    },
+    {
+      "id": "0101",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        16,
+        19
+      ],
+      "text": "蓝 狗 看 红 云 。",
+      "split": "train",
+      "split_order": 115
+    },
+    {
+      "id": "0302",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        17,
+        19
+      ],
+      "text": "蓝 鱼 看 绿 书 。",
+      "split": "train",
+      "split_order": 116
+    },
+    {
+      "id": "3230",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        15,
+        19
+      ],
+      "text": "绿 鸟 拿 蓝 球 。",
+      "split": "train",
+      "split_order": 117
+    },
+    {
+      "id": "3320",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        15,
+        19
+      ],
+      "text": "绿 鱼 找 蓝 球 。",
+      "split": "train",
+      "split_order": 118
+    },
+    {
+      "id": "0123",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        18,
+        19
+      ],
+      "text": "蓝 狗 找 绿 花 。",
+      "split": "train",
+      "split_order": 119
+    },
+    {
+      "id": "1030",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        15,
+        19
+      ],
+      "text": "红 猫 拿 蓝 球 。",
+      "split": "train",
+      "split_order": 120
+    },
+    {
+      "id": "0201",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        16,
+        19
+      ],
+      "text": "蓝 鸟 看 白 云 。",
+      "split": "train",
+      "split_order": 121
+    },
+    {
+      "id": "0020",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        15,
+        19
+      ],
+      "text": "蓝 猫 找 白 球 。",
+      "split": "train",
+      "split_order": 122
+    },
+    {
+      "id": "2201",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        16,
+        19
+      ],
+      "text": "白 鸟 看 蓝 云 。",
+      "split": "train",
+      "split_order": 123
+    },
+    {
+      "id": "2233",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        18,
+        19
+      ],
+      "text": "白 鸟 拿 绿 花 。",
+      "split": "train",
+      "split_order": 124
+    },
+    {
+      "id": "3332",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        17,
+        19
+      ],
+      "text": "绿 鱼 拿 红 书 。",
+      "split": "train",
+      "split_order": 125
+    },
+    {
+      "id": "1133",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        18,
+        19
+      ],
+      "text": "红 狗 拿 红 花 。",
+      "split": "train",
+      "split_order": 126
+    },
+    {
+      "id": "0132",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        17,
+        19
+      ],
+      "text": "蓝 狗 拿 蓝 书 。",
+      "split": "train",
+      "split_order": 127
+    },
+    {
+      "id": "1000",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        15,
+        19
+      ],
+      "text": "红 猫 看 红 球 。",
+      "split": "validation",
+      "split_order": 128
+    },
+    {
+      "id": "3131",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        16,
+        19
+      ],
+      "text": "绿 狗 拿 绿 云 。",
+      "split": "validation",
+      "split_order": 129
+    },
+    {
+      "id": "0030",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        15,
+        19
+      ],
+      "text": "蓝 猫 拿 绿 球 。",
+      "split": "validation",
+      "split_order": 130
+    },
+    {
+      "id": "2113",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        18,
+        19
+      ],
+      "text": "白 狗 追 蓝 花 。",
+      "split": "validation",
+      "split_order": 131
+    },
+    {
+      "id": "1023",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        18,
+        19
+      ],
+      "text": "红 猫 找 绿 花 。",
+      "split": "validation",
+      "split_order": 132
+    },
+    {
+      "id": "3300",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        15,
+        19
+      ],
+      "text": "绿 鱼 看 白 球 。",
+      "split": "validation",
+      "split_order": 133
+    },
+    {
+      "id": "3133",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        18,
+        19
+      ],
+      "text": "绿 狗 拿 绿 花 。",
+      "split": "validation",
+      "split_order": 134
+    },
+    {
+      "id": "2200",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        15,
+        19
+      ],
+      "text": "白 鸟 看 蓝 球 。",
+      "split": "validation",
+      "split_order": 135
+    },
+    {
+      "id": "2323",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        18,
+        19
+      ],
+      "text": "白 鱼 找 绿 花 。",
+      "split": "validation",
+      "split_order": 136
+    },
+    {
+      "id": "0032",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        17,
+        19
+      ],
+      "text": "蓝 猫 拿 绿 书 。",
+      "split": "validation",
+      "split_order": 137
+    },
+    {
+      "id": "3233",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        18,
+        19
+      ],
+      "text": "绿 鸟 拿 蓝 花 。",
+      "split": "validation",
+      "split_order": 138
+    },
+    {
+      "id": "1132",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        17,
+        19
+      ],
+      "text": "红 狗 拿 红 书 。",
+      "split": "validation",
+      "split_order": 139
+    },
+    {
+      "id": "2202",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        17,
+        19
+      ],
+      "text": "白 鸟 看 蓝 书 。",
+      "split": "validation",
+      "split_order": 140
+    },
+    {
+      "id": "3210",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        15,
+        19
+      ],
+      "text": "绿 鸟 追 白 球 。",
+      "split": "validation",
+      "split_order": 141
+    },
+    {
+      "id": "2032",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        17,
+        19
+      ],
+      "text": "白 猫 拿 红 书 。",
+      "split": "validation",
+      "split_order": 142
+    },
+    {
+      "id": "3213",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        18,
+        19
+      ],
+      "text": "绿 鸟 追 白 花 。",
+      "split": "validation",
+      "split_order": 143
+    },
+    {
+      "id": "3001",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        16,
+        19
+      ],
+      "text": "绿 猫 看 绿 云 。",
+      "split": "validation",
+      "split_order": 144
+    },
+    {
+      "id": "2220",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        15,
+        19
+      ],
+      "text": "白 鸟 找 白 球 。",
+      "split": "validation",
+      "split_order": 145
+    },
+    {
+      "id": "0110",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        15,
+        19
+      ],
+      "text": "蓝 狗 追 白 球 。",
+      "split": "validation",
+      "split_order": 146
+    },
+    {
+      "id": "1300",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        15,
+        19
+      ],
+      "text": "红 鱼 看 蓝 球 。",
+      "split": "validation",
+      "split_order": 147
+    },
+    {
+      "id": "1103",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        18,
+        19
+      ],
+      "text": "红 狗 看 白 花 。",
+      "split": "validation",
+      "split_order": 148
+    },
+    {
+      "id": "3112",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        17,
+        19
+      ],
+      "text": "绿 狗 追 红 书 。",
+      "split": "validation",
+      "split_order": 149
+    },
+    {
+      "id": "0222",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        17,
+        19
+      ],
+      "text": "蓝 鸟 找 蓝 书 。",
+      "split": "validation",
+      "split_order": 150
+    },
+    {
+      "id": "3322",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        17,
+        19
+      ],
+      "text": "绿 鱼 找 蓝 书 。",
+      "split": "validation",
+      "split_order": 151
+    },
+    {
+      "id": "2221",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        16,
+        19
+      ],
+      "text": "白 鸟 找 白 云 。",
+      "split": "validation",
+      "split_order": 152
+    },
+    {
+      "id": "3100",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        15,
+        19
+      ],
+      "text": "绿 狗 看 蓝 球 。",
+      "split": "validation",
+      "split_order": 153
+    },
+    {
+      "id": "1212",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        17,
+        19
+      ],
+      "text": "红 鸟 追 蓝 书 。",
+      "split": "validation",
+      "split_order": 154
+    },
+    {
+      "id": "0002",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        17,
+        19
+      ],
+      "text": "蓝 猫 看 蓝 书 。",
+      "split": "validation",
+      "split_order": 155
+    },
+    {
+      "id": "2230",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        15,
+        19
+      ],
+      "text": "白 鸟 拿 绿 球 。",
+      "split": "validation",
+      "split_order": 156
+    },
+    {
+      "id": "2222",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        17,
+        19
+      ],
+      "text": "白 鸟 找 白 书 。",
+      "split": "validation",
+      "split_order": 157
+    },
+    {
+      "id": "3220",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        15,
+        19
+      ],
+      "text": "绿 鸟 找 绿 球 。",
+      "split": "validation",
+      "split_order": 158
+    },
+    {
+      "id": "0312",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        17,
+        19
+      ],
+      "text": "蓝 鱼 追 蓝 书 。",
+      "split": "validation",
+      "split_order": 159
+    },
+    {
+      "id": "3030",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        15,
+        19
+      ],
+      "text": "绿 猫 拿 白 球 。",
+      "split": "validation",
+      "split_order": 160
+    },
+    {
+      "id": "0230",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        15,
+        19
+      ],
+      "text": "蓝 鸟 拿 红 球 。",
+      "split": "validation",
+      "split_order": 161
+    },
+    {
+      "id": "1022",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        17,
+        19
+      ],
+      "text": "红 猫 找 绿 书 。",
+      "split": "validation",
+      "split_order": 162
+    },
+    {
+      "id": "0013",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        18,
+        19
+      ],
+      "text": "蓝 猫 追 红 花 。",
+      "split": "validation",
+      "split_order": 163
+    },
+    {
+      "id": "0120",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        15,
+        19
+      ],
+      "text": "蓝 狗 找 绿 球 。",
+      "split": "validation",
+      "split_order": 164
+    },
+    {
+      "id": "1032",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        17,
+        19
+      ],
+      "text": "红 猫 拿 蓝 书 。",
+      "split": "validation",
+      "split_order": 165
+    },
+    {
+      "id": "2033",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        18,
+        19
+      ],
+      "text": "白 猫 拿 红 花 。",
+      "split": "validation",
+      "split_order": 166
+    },
+    {
+      "id": "2031",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        16,
+        19
+      ],
+      "text": "白 猫 拿 红 云 。",
+      "split": "validation",
+      "split_order": 167
+    },
+    {
+      "id": "1311",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        16,
+        19
+      ],
+      "text": "红 鱼 追 红 云 。",
+      "split": "validation",
+      "split_order": 168
+    },
+    {
+      "id": "2211",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        16,
+        19
+      ],
+      "text": "白 鸟 追 红 云 。",
+      "split": "validation",
+      "split_order": 169
+    },
+    {
+      "id": "3330",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        15,
+        19
+      ],
+      "text": "绿 鱼 拿 红 球 。",
+      "split": "validation",
+      "split_order": 170
+    },
+    {
+      "id": "3102",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        17,
+        19
+      ],
+      "text": "绿 狗 看 蓝 书 。",
+      "split": "validation",
+      "split_order": 171
+    },
+    {
+      "id": "3200",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        15,
+        19
+      ],
+      "text": "绿 鸟 看 红 球 。",
+      "split": "validation",
+      "split_order": 172
+    },
+    {
+      "id": "3020",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        15,
+        19
+      ],
+      "text": "绿 猫 找 红 球 。",
+      "split": "validation",
+      "split_order": 173
+    },
+    {
+      "id": "2203",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        18,
+        19
+      ],
+      "text": "白 鸟 看 蓝 花 。",
+      "split": "validation",
+      "split_order": 174
+    },
+    {
+      "id": "1111",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        16,
+        19
+      ],
+      "text": "红 狗 追 绿 云 。",
+      "split": "validation",
+      "split_order": 175
+    },
+    {
+      "id": "1221",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        16,
+        19
+      ],
+      "text": "红 鸟 找 红 云 。",
+      "split": "validation",
+      "split_order": 176
+    },
+    {
+      "id": "2213",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        18,
+        19
+      ],
+      "text": "白 鸟 追 红 花 。",
+      "split": "validation",
+      "split_order": 177
+    },
+    {
+      "id": "3211",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        16,
+        19
+      ],
+      "text": "绿 鸟 追 白 云 。",
+      "split": "validation",
+      "split_order": 178
+    },
+    {
+      "id": "1013",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        18,
+        19
+      ],
+      "text": "红 猫 追 白 花 。",
+      "split": "validation",
+      "split_order": 179
+    },
+    {
+      "id": "0332",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        17,
+        19
+      ],
+      "text": "蓝 鱼 拿 白 书 。",
+      "split": "validation",
+      "split_order": 180
+    },
+    {
+      "id": "2130",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        15,
+        19
+      ],
+      "text": "白 狗 拿 白 球 。",
+      "split": "validation",
+      "split_order": 181
+    },
+    {
+      "id": "3002",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        17,
+        19
+      ],
+      "text": "绿 猫 看 绿 书 。",
+      "split": "validation",
+      "split_order": 182
+    },
+    {
+      "id": "1231",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        16,
+        19
+      ],
+      "text": "红 鸟 拿 白 云 。",
+      "split": "validation",
+      "split_order": 183
+    },
+    {
+      "id": "0100",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        15,
+        19
+      ],
+      "text": "蓝 狗 看 红 球 。",
+      "split": "validation",
+      "split_order": 184
+    },
+    {
+      "id": "1333",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        18,
+        19
+      ],
+      "text": "红 鱼 拿 绿 花 。",
+      "split": "validation",
+      "split_order": 185
+    },
+    {
+      "id": "2331",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        16,
+        19
+      ],
+      "text": "白 鱼 拿 蓝 云 。",
+      "split": "validation",
+      "split_order": 186
+    },
+    {
+      "id": "1332",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        17,
+        19
+      ],
+      "text": "红 鱼 拿 绿 书 。",
+      "split": "validation",
+      "split_order": 187
+    },
+    {
+      "id": "1003",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        18,
+        19
+      ],
+      "text": "红 猫 看 红 花 。",
+      "split": "validation",
+      "split_order": 188
+    },
+    {
+      "id": "1210",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        15,
+        19
+      ],
+      "text": "红 鸟 追 蓝 球 。",
+      "split": "validation",
+      "split_order": 189
+    },
+    {
+      "id": "3033",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        18,
+        19
+      ],
+      "text": "绿 猫 拿 白 花 。",
+      "split": "validation",
+      "split_order": 190
+    },
+    {
+      "id": "1301",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        16,
+        19
+      ],
+      "text": "红 鱼 看 蓝 云 。",
+      "split": "validation",
+      "split_order": 191
+    },
+    {
+      "id": "1100",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        15,
+        19
+      ],
+      "text": "红 狗 看 白 球 。",
+      "split": "test",
+      "split_order": 192
+    },
+    {
+      "id": "3023",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        18,
+        19
+      ],
+      "text": "绿 猫 找 红 花 。",
+      "split": "test",
+      "split_order": 193
+    },
+    {
+      "id": "2300",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        15,
+        19
+      ],
+      "text": "白 鱼 看 红 球 。",
+      "split": "test",
+      "split_order": 194
+    },
+    {
+      "id": "2330",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        15,
+        19
+      ],
+      "text": "白 鱼 拿 蓝 球 。",
+      "split": "test",
+      "split_order": 195
+    },
+    {
+      "id": "2310",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        15,
+        19
+      ],
+      "text": "白 鱼 追 白 球 。",
+      "split": "test",
+      "split_order": 196
+    },
+    {
+      "id": "1310",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        15,
+        19
+      ],
+      "text": "红 鱼 追 红 球 。",
+      "split": "test",
+      "split_order": 197
+    },
+    {
+      "id": "2312",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        17,
+        19
+      ],
+      "text": "白 鱼 追 白 书 。",
+      "split": "test",
+      "split_order": 198
+    },
+    {
+      "id": "2133",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        18,
+        19
+      ],
+      "text": "白 狗 拿 白 花 。",
+      "split": "test",
+      "split_order": 199
+    },
+    {
+      "id": "0112",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        17,
+        19
+      ],
+      "text": "蓝 狗 追 白 书 。",
+      "split": "test",
+      "split_order": 200
+    },
+    {
+      "id": "1031",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        16,
+        19
+      ],
+      "text": "红 猫 拿 蓝 云 。",
+      "split": "test",
+      "split_order": 201
+    },
+    {
+      "id": "2110",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        15,
+        19
+      ],
+      "text": "白 狗 追 蓝 球 。",
+      "split": "test",
+      "split_order": 202
+    },
+    {
+      "id": "3113",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        18,
+        19
+      ],
+      "text": "绿 狗 追 红 花 。",
+      "split": "test",
+      "split_order": 203
+    },
+    {
+      "id": "2321",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        16,
+        19
+      ],
+      "text": "白 鱼 找 绿 云 。",
+      "split": "test",
+      "split_order": 204
+    },
+    {
+      "id": "3000",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        15,
+        19
+      ],
+      "text": "绿 猫 看 绿 球 。",
+      "split": "test",
+      "split_order": 205
+    },
+    {
+      "id": "0103",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        18,
+        19
+      ],
+      "text": "蓝 狗 看 红 花 。",
+      "split": "test",
+      "split_order": 206
+    },
+    {
+      "id": "0220",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        15,
+        19
+      ],
+      "text": "蓝 鸟 找 蓝 球 。",
+      "split": "test",
+      "split_order": 207
+    },
+    {
+      "id": "2212",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        17,
+        19
+      ],
+      "text": "白 鸟 追 红 书 。",
+      "split": "test",
+      "split_order": 208
+    },
+    {
+      "id": "0022",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        17,
+        19
+      ],
+      "text": "蓝 猫 找 白 书 。",
+      "split": "test",
+      "split_order": 209
+    },
+    {
+      "id": "2100",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        15,
+        19
+      ],
+      "text": "白 狗 看 绿 球 。",
+      "split": "test",
+      "split_order": 210
+    },
+    {
+      "id": "1320",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        15,
+        19
+      ],
+      "text": "红 鱼 找 白 球 。",
+      "split": "test",
+      "split_order": 211
+    },
+    {
+      "id": "1211",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        16,
+        19
+      ],
+      "text": "红 鸟 追 蓝 云 。",
+      "split": "test",
+      "split_order": 212
+    },
+    {
+      "id": "0131",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        16,
+        19
+      ],
+      "text": "蓝 狗 拿 蓝 云 。",
+      "split": "test",
+      "split_order": 213
+    },
+    {
+      "id": "3301",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        16,
+        19
+      ],
+      "text": "绿 鱼 看 白 云 。",
+      "split": "test",
+      "split_order": 214
+    },
+    {
+      "id": "1202",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        17,
+        19
+      ],
+      "text": "红 鸟 看 绿 书 。",
+      "split": "test",
+      "split_order": 215
+    },
+    {
+      "id": "2023",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        18,
+        19
+      ],
+      "text": "白 猫 找 蓝 花 。",
+      "split": "test",
+      "split_order": 216
+    },
+    {
+      "id": "0223",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        18,
+        19
+      ],
+      "text": "蓝 鸟 找 蓝 花 。",
+      "split": "test",
+      "split_order": 217
+    },
+    {
+      "id": "2103",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        18,
+        19
+      ],
+      "text": "白 狗 看 绿 花 。",
+      "split": "test",
+      "split_order": 218
+    },
+    {
+      "id": "1323",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        18,
+        19
+      ],
+      "text": "红 鱼 找 白 花 。",
+      "split": "test",
+      "split_order": 219
+    },
+    {
+      "id": "0221",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        16,
+        19
+      ],
+      "text": "蓝 鸟 找 蓝 云 。",
+      "split": "test",
+      "split_order": 220
+    },
+    {
+      "id": "1213",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        18,
+        19
+      ],
+      "text": "红 鸟 追 蓝 花 。",
+      "split": "test",
+      "split_order": 221
+    },
+    {
+      "id": "1222",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        17,
+        19
+      ],
+      "text": "红 鸟 找 红 书 。",
+      "split": "test",
+      "split_order": 222
+    },
+    {
+      "id": "1122",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        17,
+        19
+      ],
+      "text": "红 狗 找 蓝 书 。",
+      "split": "test",
+      "split_order": 223
+    },
+    {
+      "id": "0323",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        18,
+        19
+      ],
+      "text": "蓝 鱼 找 红 花 。",
+      "split": "test",
+      "split_order": 224
+    },
+    {
+      "id": "1021",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        16,
+        19
+      ],
+      "text": "红 猫 找 绿 云 。",
+      "split": "test",
+      "split_order": 225
+    },
+    {
+      "id": "3310",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        15,
+        19
+      ],
+      "text": "绿 鱼 追 绿 球 。",
+      "split": "test",
+      "split_order": 226
+    },
+    {
+      "id": "1123",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        18,
+        19
+      ],
+      "text": "红 狗 找 蓝 花 。",
+      "split": "test",
+      "split_order": 227
+    },
+    {
+      "id": "2122",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        17,
+        19
+      ],
+      "text": "白 狗 找 红 书 。",
+      "split": "test",
+      "split_order": 228
+    },
+    {
+      "id": "3110",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        15,
+        19
+      ],
+      "text": "绿 狗 追 红 球 。",
+      "split": "test",
+      "split_order": 229
+    },
+    {
+      "id": "1233",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        18,
+        19
+      ],
+      "text": "红 鸟 拿 白 花 。",
+      "split": "test",
+      "split_order": 230
+    },
+    {
+      "id": "2121",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        16,
+        19
+      ],
+      "text": "白 狗 找 红 云 。",
+      "split": "test",
+      "split_order": 231
+    },
+    {
+      "id": "3021",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        16,
+        19
+      ],
+      "text": "绿 猫 找 红 云 。",
+      "split": "test",
+      "split_order": 232
+    },
+    {
+      "id": "1232",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        17,
+        19
+      ],
+      "text": "红 鸟 拿 白 书 。",
+      "split": "test",
+      "split_order": 233
+    },
+    {
+      "id": "2132",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        17,
+        19
+      ],
+      "text": "白 狗 拿 白 书 。",
+      "split": "test",
+      "split_order": 234
+    },
+    {
+      "id": "3223",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        18,
+        19
+      ],
+      "text": "绿 鸟 找 绿 花 。",
+      "split": "test",
+      "split_order": 235
+    },
+    {
+      "id": "0233",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        18,
+        19
+      ],
+      "text": "蓝 鸟 拿 红 花 。",
+      "split": "test",
+      "split_order": 236
+    },
+    {
+      "id": "2311",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        16,
+        19
+      ],
+      "text": "白 鱼 追 白 云 。",
+      "split": "test",
+      "split_order": 237
+    },
+    {
+      "id": "2112",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        17,
+        19
+      ],
+      "text": "白 狗 追 蓝 书 。",
+      "split": "test",
+      "split_order": 238
+    },
+    {
+      "id": "2232",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        17,
+        19
+      ],
+      "text": "白 鸟 拿 绿 书 。",
+      "split": "test",
+      "split_order": 239
+    },
+    {
+      "id": "0031",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        16,
+        19
+      ],
+      "text": "蓝 猫 拿 绿 云 。",
+      "split": "test",
+      "split_order": 240
+    },
+    {
+      "id": "0203",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        18,
+        19
+      ],
+      "text": "蓝 鸟 看 白 花 。",
+      "split": "test",
+      "split_order": 241
+    },
+    {
+      "id": "3212",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        17,
+        19
+      ],
+      "text": "绿 鸟 追 白 书 。",
+      "split": "test",
+      "split_order": 242
+    },
+    {
+      "id": "3201",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        16,
+        19
+      ],
+      "text": "绿 鸟 看 红 云 。",
+      "split": "test",
+      "split_order": 243
+    },
+    {
+      "id": "1012",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        17,
+        19
+      ],
+      "text": "红 猫 追 白 书 。",
+      "split": "test",
+      "split_order": 244
+    },
+    {
+      "id": "3302",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        17,
+        19
+      ],
+      "text": "绿 鱼 看 白 书 。",
+      "split": "test",
+      "split_order": 245
+    },
+    {
+      "id": "2313",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        18,
+        19
+      ],
+      "text": "白 鱼 追 白 花 。",
+      "split": "test",
+      "split_order": 246
+    },
+    {
+      "id": "2013",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        18,
+        19
+      ],
+      "text": "白 猫 追 绿 花 。",
+      "split": "test",
+      "split_order": 247
+    },
+    {
+      "id": "2012",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        17,
+        19
+      ],
+      "text": "白 猫 追 绿 书 。",
+      "split": "test",
+      "split_order": 248
+    },
+    {
+      "id": "3011",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        16,
+        19
+      ],
+      "text": "绿 猫 追 蓝 云 。",
+      "split": "test",
+      "split_order": 249
+    },
+    {
+      "id": "1200",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        15,
+        19
+      ],
+      "text": "红 鸟 看 绿 球 。",
+      "split": "test",
+      "split_order": 250
+    },
+    {
+      "id": "3333",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        18,
+        19
+      ],
+      "text": "绿 鱼 拿 红 花 。",
+      "split": "test",
+      "split_order": 251
+    },
+    {
+      "id": "1312",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        17,
+        19
+      ],
+      "text": "红 鱼 追 红 书 。",
+      "split": "test",
+      "split_order": 252
+    },
+    {
+      "id": "1220",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        15,
+        19
+      ],
+      "text": "红 鸟 找 红 球 。",
+      "split": "test",
+      "split_order": 253
+    },
+    {
+      "id": "3120",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        15,
+        19
+      ],
+      "text": "绿 狗 找 白 球 。",
+      "split": "test",
+      "split_order": 254
+    },
+    {
+      "id": "2001",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        16,
+        19
+      ],
+      "text": "白 猫 看 白 云 。",
+      "split": "test",
+      "split_order": 255
+    }
+  ],
+  "vocab_policy": "predeclared synthetic alphabet"
+}

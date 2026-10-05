@@ -1,0 +1,2107 @@
+{
+  "protocol": {
+    "version": "1",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 1,
+    "steps": 80,
+    "batch_size": 16,
+    "sequence_length": 7,
+    "heads": 4,
+    "layers": 2,
+    "ffn_multiplier": 2,
+    "dropout": 0,
+    "lr": 0.003,
+    "weight_decay": 0.01,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "grad_clip": 1.0,
+    "warmup_timing_steps": 5,
+    "checkpoints": [
+      0,
+      20,
+      40,
+      60,
+      74,
+      80
+    ],
+    "effective_token_limit_per_run": 8960,
+    "aggregate_effective_token_limit": 107520,
+    "training_timeout_seconds_per_worker": 180,
+    "declared_scope": "2 widths x2 distinct training pools x3 initializations; no scaling-law fit",
+    "test_policy": "test split retained but not scored or used for tuning",
+    "configs": [
+      {
+        "d": 16,
+        "pool": 32,
+        "seed": 5501,
+        "name": "d16_n32_s5501"
+      },
+      {
+        "d": 16,
+        "pool": 32,
+        "seed": 5502,
+        "name": "d16_n32_s5502"
+      },
+      {
+        "d": 16,
+        "pool": 32,
+        "seed": 5503,
+        "name": "d16_n32_s5503"
+      },
+      {
+        "d": 16,
+        "pool": 128,
+        "seed": 5501,
+        "name": "d16_n128_s5501"
+      },
+      {
+        "d": 16,
+        "pool": 128,
+        "seed": 5502,
+        "name": "d16_n128_s5502"
+      },
+      {
+        "d": 16,
+        "pool": 128,
+        "seed": 5503,
+        "name": "d16_n128_s5503"
+      },
+      {
+        "d": 32,
+        "pool": 32,
+        "seed": 5501,
+        "name": "d32_n32_s5501"
+      },
+      {
+        "d": 32,
+        "pool": 32,
+        "seed": 5502,
+        "name": "d32_n32_s5502"
+      },
+      {
+        "d": 32,
+        "pool": 32,
+        "seed": 5503,
+        "name": "d32_n32_s5503"
+      },
+      {
+        "d": 32,
+        "pool": 128,
+        "seed": 5501,
+        "name": "d32_n128_s5501"
+      },
+      {
+        "d": 32,
+        "pool": 128,
+        "seed": 5502,
+        "name": "d32_n128_s5502"
+      },
+      {
+        "d": 32,
+        "pool": 128,
+        "seed": 5503,
+        "name": "d32_n128_s5503"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "config": {
+        "d": 16,
+        "pool": 32,
+        "seed": 5501,
+        "name": "d16_n32_s5501"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.4378231589926145,
+      "steady_training_step_seconds": 0.406331666994447,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 20672.767303944333,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325390336,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.1026134490966797,
+          "sum_nll": 1389.9708251953125,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.052940845489502,
+            3.4275667667388916,
+            2.7970588207244873,
+            2.714543581008911,
+            3.1547937393188477,
+            2.9260876178741455,
+            3.645303726196289
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 1.9268938302993774,
+          "sum_nll": 863.2484130859375,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.021361827850342,
+            2.6738243103027344,
+            2.2328619956970215,
+            2.1526999473571777,
+            2.441077947616577,
+            1.0977518558502197,
+            0.8686797618865967
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.4197190999984741,
+          "sum_nll": 636.0341796875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6491594314575195,
+            1.9311983585357666,
+            1.83538818359375,
+            1.7052202224731445,
+            2.0405893325805664,
+            0.42168235778808594,
+            0.3547952175140381
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.22576105594635,
+          "sum_nll": 549.1409301757812,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5281881093978882,
+            1.6441885232925415,
+            1.648749828338623,
+            1.557233452796936,
+            1.8454171419143677,
+            0.19230645895004272,
+            0.1642434000968933
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.1804884672164917,
+          "sum_nll": 528.8588256835938,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5052118301391602,
+            1.568176507949829,
+            1.611527442932129,
+            1.5156176090240479,
+            1.8309617042541504,
+            0.12353014945983887,
+            0.10839443653821945
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.1737908124923706,
+          "sum_nll": 525.8582763671875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4848744869232178,
+            1.5438798666000366,
+            1.6130218505859375,
+            1.509381890296936,
+            1.8670222759246826,
+            0.10526508092880249,
+            0.0930897668004036
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0083237886428833,
+        "sum_nll": 225.86451721191406,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.3934482336044312,
+          1.462035059928894,
+          1.3759028911590576,
+          1.3671321868896484,
+          1.2639952898025513,
+          0.10292594134807587,
+          0.09282601624727249
+        ]
+      },
+      "final_validation": {
+        "nll": 1.1737908124923706,
+        "sum_nll": 525.8582763671875,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4848744869232178,
+          1.5438798666000366,
+          1.6130218505859375,
+          1.509381890296936,
+          1.8670222759246826,
+          0.10526508092880249,
+          0.0930897668004036
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 16,
+        "pool": 32,
+        "seed": 5502,
+        "name": "d16_n32_s5502"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.30867424700045376,
+      "steady_training_step_seconds": 0.28816244100198674,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 29150.225028604913,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325877760,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.0406882762908936,
+          "sum_nll": 1362.2283935546875,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.9520351886749268,
+            2.83290696144104,
+            3.2704238891601562,
+            3.033978223800659,
+            2.938159704208374,
+            3.4614455699920654,
+            2.7958688735961914
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 2.021754503250122,
+          "sum_nll": 905.7460327148438,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.208789587020874,
+            2.3699913024902344,
+            2.866666316986084,
+            2.282175064086914,
+            2.3373525142669678,
+            1.3000435829162598,
+            0.7872628569602966
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.5325289964675903,
+          "sum_nll": 686.572998046875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.7117156982421875,
+            1.95220148563385,
+            2.490133762359619,
+            1.7817769050598145,
+            2.0900259017944336,
+            0.4311005175113678,
+            0.2707488536834717
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.277883768081665,
+          "sum_nll": 572.491943359375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.553622841835022,
+            1.6830332279205322,
+            1.9863948822021484,
+            1.589021921157837,
+            1.849050760269165,
+            0.15849043428897858,
+            0.12557275593280792
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.1997472047805786,
+          "sum_nll": 537.4867553710938,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5070996284484863,
+            1.5824750661849976,
+            1.8180882930755615,
+            1.5340324640274048,
+            1.7775030136108398,
+            0.09411376714706421,
+            0.08491837978363037
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.1856905221939087,
+          "sum_nll": 531.1893310546875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4942988157272339,
+            1.567070722579956,
+            1.7750324010849,
+            1.5205849409103394,
+            1.7906413078308105,
+            0.07836416363716125,
+            0.07384040951728821
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.012690782546997,
+        "sum_nll": 226.84274291992188,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.3968663215637207,
+          1.4222503900527954,
+          1.4129884243011475,
+          1.4114876985549927,
+          1.2944830656051636,
+          0.07671573758125305,
+          0.07404453307390213
+        ]
+      },
+      "final_validation": {
+        "nll": 1.1856905221939087,
+        "sum_nll": 531.1893310546875,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4942988157272339,
+          1.567070722579956,
+          1.7750324010849,
+          1.5205849409103394,
+          1.7906413078308105,
+          0.07836416363716125,
+          0.07384040951728821
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 16,
+        "pool": 32,
+        "seed": 5503,
+        "name": "d16_n32_s5503"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.288511277996804,
+      "steady_training_step_seconds": 0.2707022259983205,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 31030.406081892048,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325750784,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.1204912662506104,
+          "sum_nll": 1397.9801025390625,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.7145018577575684,
+            2.9288196563720703,
+            3.3023109436035156,
+            3.0632901191711426,
+            3.292557716369629,
+            2.8037548065185547,
+            3.738203525543213
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 2.059224843978882,
+          "sum_nll": 922.53271484375,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.1070144176483154,
+            2.4394545555114746,
+            2.676201105117798,
+            2.533025026321411,
+            2.5607728958129883,
+            1.1515103578567505,
+            0.9465942978858948
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.474273920059204,
+          "sum_nll": 660.4747314453125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6898860931396484,
+            1.849915862083435,
+            2.234975814819336,
+            1.8013834953308105,
+            1.9762580394744873,
+            0.384382963180542,
+            0.383114755153656
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.2468106746673584,
+          "sum_nll": 558.5711669921875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5520286560058594,
+            1.63316011428833,
+            1.8531686067581177,
+            1.5542964935302734,
+            1.8248618841171265,
+            0.1507004201412201,
+            0.1594580113887787
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.18413245677948,
+          "sum_nll": 530.4913330078125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.511095643043518,
+            1.568014144897461,
+            1.7379647493362427,
+            1.4975945949554443,
+            1.7811285257339478,
+            0.09180335700511932,
+            0.10132662206888199
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.173512578010559,
+          "sum_nll": 525.733642578125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4947527647018433,
+            1.5544465780258179,
+            1.7308897972106934,
+            1.4875496625900269,
+            1.783908724784851,
+            0.07703593373298645,
+            0.08600455522537231
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0031346082687378,
+        "sum_nll": 224.70216369628906,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.3868379592895508,
+          1.4376075267791748,
+          1.376624345779419,
+          1.3879573345184326,
+          1.2743542194366455,
+          0.07444418966770172,
+          0.08411722630262375
+        ]
+      },
+      "final_validation": {
+        "nll": 1.173512578010559,
+        "sum_nll": 525.733642578125,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4947527647018433,
+          1.5544465780258179,
+          1.7308897972106934,
+          1.4875496625900269,
+          1.783908724784851,
+          0.07703593373298645,
+          0.08600455522537231
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 16,
+        "pool": 128,
+        "seed": 5501,
+        "name": "d16_n128_s5501"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.2860097820102965,
+      "steady_training_step_seconds": 0.26864742500947614,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 31267.748051944673,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325648384,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.1026134490966797,
+          "sum_nll": 1389.9708251953125,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.052940845489502,
+            3.4275667667388916,
+            2.7970588207244873,
+            2.714543581008911,
+            3.1547937393188477,
+            2.9260876178741455,
+            3.645303726196289
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 1.9363019466400146,
+          "sum_nll": 867.4632568359375,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.09541392326355,
+            2.6946778297424316,
+            2.2533130645751953,
+            2.18019962310791,
+            2.3505468368530273,
+            1.0967168807983398,
+            0.8832451105117798
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.4111404418945312,
+          "sum_nll": 632.19091796875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.680347204208374,
+            1.9899815320968628,
+            1.8256175518035889,
+            1.7296608686447144,
+            1.8945257663726807,
+            0.40373873710632324,
+            0.3541106581687927
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.2041044235229492,
+          "sum_nll": 539.4387817382812,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5739601850509644,
+            1.6844134330749512,
+            1.6143091917037964,
+            1.5698111057281494,
+            1.6499907970428467,
+            0.17652125656604767,
+            0.15972504019737244
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.1395323276519775,
+          "sum_nll": 510.510498046875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5023202896118164,
+            1.6064168214797974,
+            1.548750638961792,
+            1.5198571681976318,
+            1.5855025053024292,
+            0.11022073775529861,
+            0.10365886986255646
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.1246274709701538,
+          "sum_nll": 503.8331298828125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5042246580123901,
+            1.5817930698394775,
+            1.5272001028060913,
+            1.5085489749908447,
+            1.568742036819458,
+            0.09328550100326538,
+            0.08859812468290329
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0869256258010864,
+        "sum_nll": 973.8853759765625,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.4488199949264526,
+          1.5179176330566406,
+          1.4973015785217285,
+          1.4526220560073853,
+          1.5096675157546997,
+          0.093565434217453,
+          0.08858620375394821
+        ]
+      },
+      "final_validation": {
+        "nll": 1.1246274709701538,
+        "sum_nll": 503.8331298828125,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.5042246580123901,
+          1.5817930698394775,
+          1.5272001028060913,
+          1.5085489749908447,
+          1.568742036819458,
+          0.09328550100326538,
+          0.08859812468290329
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 16,
+        "pool": 128,
+        "seed": 5502,
+        "name": "d16_n128_s5502"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.3032870420047402,
+      "steady_training_step_seconds": 0.2704007860047568,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 31064.998456965393,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325746688,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.0406882762908936,
+          "sum_nll": 1362.2283935546875,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.9520351886749268,
+            2.83290696144104,
+            3.2704238891601562,
+            3.033978223800659,
+            2.938159704208374,
+            3.4614455699920654,
+            2.7958688735961914
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 2.0295662879943848,
+          "sum_nll": 909.2456665039062,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.277294635772705,
+            2.398555040359497,
+            2.8122668266296387,
+            2.3423051834106445,
+            2.2769861221313477,
+            1.2952039241790771,
+            0.8043508529663086
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.522866129875183,
+          "sum_nll": 682.2440185546875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.7242571115493774,
+            2.0079469680786133,
+            2.4244179725646973,
+            1.8127074241638184,
+            1.9332077503204346,
+            0.4734955430030823,
+            0.28402993083000183
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.2620450258255005,
+          "sum_nll": 565.3961791992188,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5785388946533203,
+            1.732445478439331,
+            1.946338176727295,
+            1.6079319715499878,
+            1.6722216606140137,
+            0.1680029332637787,
+            0.12883609533309937
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.1660652160644531,
+          "sum_nll": 522.397216796875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.510869026184082,
+            1.6051576137542725,
+            1.735647201538086,
+            1.5464024543762207,
+            1.5807855129241943,
+            0.09716849774122238,
+            0.08642591536045074
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.141072154045105,
+          "sum_nll": 511.2003173828125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4856761693954468,
+            1.5814043283462524,
+            1.6788256168365479,
+            1.5297727584838867,
+            1.556999683380127,
+            0.0805821567773819,
+            0.074244424700737
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.1000373363494873,
+        "sum_nll": 985.6334838867188,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.4509738683700562,
+          1.5216572284698486,
+          1.5915489196777344,
+          1.458430528640747,
+          1.524038314819336,
+          0.07950539886951447,
+          0.07410754263401031
+        ]
+      },
+      "final_validation": {
+        "nll": 1.141072154045105,
+        "sum_nll": 511.2003173828125,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4856761693954468,
+          1.5814043283462524,
+          1.6788256168365479,
+          1.5297727584838867,
+          1.556999683380127,
+          0.0805821567773819,
+          0.074244424700737
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 16,
+        "pool": 128,
+        "seed": 5503,
+        "name": "d16_n128_s5503"
+      },
+      "parameter_count": 5252,
+      "parameter_bytes": 21008,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 1089536,
+      "estimated_train_matmul_flops": 261488640,
+      "training_step_seconds_sum": 0.301196609994804,
+      "steady_training_step_seconds": 0.28124367999407696,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 29867.3378195624,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 325910528,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.1204912662506104,
+          "sum_nll": 1397.9801025390625,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.7145018577575684,
+            2.9288196563720703,
+            3.3023109436035156,
+            3.0632901191711426,
+            3.292557716369629,
+            2.8037548065185547,
+            3.738203525543213
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 2.094947576522827,
+          "sum_nll": 938.5365600585938,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.184725284576416,
+            2.499565601348877,
+            2.709825038909912,
+            2.6022610664367676,
+            2.545726776123047,
+            1.1563692092895508,
+            0.9661604166030884
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.4949042797088623,
+          "sum_nll": 669.7171020507812,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.7177634239196777,
+            1.9247536659240723,
+            2.201444149017334,
+            1.9047572612762451,
+            1.9281654357910156,
+            0.3944263756275177,
+            0.39301881194114685
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.2386195659637451,
+          "sum_nll": 554.9015502929688,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5894001722335815,
+            1.6930015087127686,
+            1.8120644092559814,
+            1.5829920768737793,
+            1.670211672782898,
+            0.15887616574764252,
+            0.1637907326221466
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.156360387802124,
+          "sum_nll": 518.0494384765625,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5102736949920654,
+            1.6012272834777832,
+            1.6745648384094238,
+            1.51005220413208,
+            1.598724365234375,
+            0.09721624851226807,
+            0.1024637445807457
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.1324410438537598,
+          "sum_nll": 507.3335876464844,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4866141080856323,
+            1.5811840295791626,
+            1.622637152671814,
+            1.494093418121338,
+            1.5738539695739746,
+            0.08189202845096588,
+            0.08681230247020721
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0937097072601318,
+        "sum_nll": 979.9638671875,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.4407544136047363,
+          1.5342860221862793,
+          1.5354276895523071,
+          1.4641404151916504,
+          1.5131909847259521,
+          0.08170587569475174,
+          0.0864620953798294
+        ]
+      },
+      "final_validation": {
+        "nll": 1.1324410438537598,
+        "sum_nll": 507.3335876464844,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4866141080856323,
+          1.5811840295791626,
+          1.622637152671814,
+          1.494093418121338,
+          1.5738539695739746,
+          0.08189202845096588,
+          0.08681230247020721
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 32,
+        "seed": 5501,
+        "name": "d32_n32_s5501"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.31548381900392997,
+      "steady_training_step_seconds": 0.29242406700541324,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 28725.405832771292,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 326078464,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.0408756732940674,
+          "sum_nll": 1362.312255859375,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.6631126403808594,
+            3.5628983974456787,
+            3.0841917991638184,
+            3.0996665954589844,
+            2.8270933628082275,
+            3.048684597015381,
+            3.0004799365997314
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 1.4205373525619507,
+          "sum_nll": 636.4007568359375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5852532386779785,
+            2.190997838973999,
+            1.859724521636963,
+            1.6687296628952026,
+            1.9882383346557617,
+            0.3769635558128357,
+            0.2738543152809143
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.178982138633728,
+          "sum_nll": 528.1840209960938,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5052467584609985,
+            1.616767406463623,
+            1.652182936668396,
+            1.5162584781646729,
+            1.8335535526275635,
+            0.06455077975988388,
+            0.06431519985198975
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.2729042768478394,
+          "sum_nll": 570.2611083984375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.475661277770996,
+            1.5363600254058838,
+            1.7336498498916626,
+            1.6697373390197754,
+            2.437755823135376,
+            0.02762572094798088,
+            0.029539484530687332
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.4188196659088135,
+          "sum_nll": 635.6312255859375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4899488687515259,
+            1.5010266304016113,
+            1.882322072982788,
+            1.9538168907165527,
+            3.063526153564453,
+            0.01972271129488945,
+            0.021374834701418877
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.4556419849395752,
+          "sum_nll": 652.1276245117188,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.429325819015503,
+            1.5169051885604858,
+            1.9441418647766113,
+            2.024508237838745,
+            3.2376160621643066,
+            0.017735760658979416,
+            0.019261416047811508
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 0.6881327033042908,
+        "sum_nll": 154.1417236328125,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.3479059934616089,
+          1.3049511909484863,
+          1.0631487369537354,
+          0.7684566378593445,
+          0.29639726877212524,
+          0.01702636294066906,
+          0.019042670726776123
+        ]
+      },
+      "final_validation": {
+        "nll": 1.4556419849395752,
+        "sum_nll": 652.1276245117188,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.429325819015503,
+          1.5169051885604858,
+          1.9441418647766113,
+          2.024508237838745,
+          3.2376160621643066,
+          0.017735760658979416,
+          0.019261416047811508
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 32,
+        "seed": 5502,
+        "name": "d32_n32_s5502"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.3173380719999841,
+      "steady_training_step_seconds": 0.2953011499994318,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 28445.537716382623,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 326213632,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.3564300537109375,
+          "sum_nll": 1503.6806640625,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.511831045150757,
+            2.998544454574585,
+            3.004638910293579,
+            3.37034273147583,
+            3.3577494621276855,
+            3.624001979827881,
+            3.6279001235961914
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 1.4530805349349976,
+          "sum_nll": 650.9801025390625,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.668257236480713,
+            1.8177714347839355,
+            1.9029715061187744,
+            1.731035828590393,
+            2.2013912200927734,
+            0.5404813885688782,
+            0.3096557855606079
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.18146812915802,
+          "sum_nll": 529.2977294921875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5286411046981812,
+            1.519665241241455,
+            1.7370189428329468,
+            1.5148394107818604,
+            1.8174275159835815,
+            0.07839252799749374,
+            0.07429160177707672
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.2425228357315063,
+          "sum_nll": 556.6502075195312,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4754964113235474,
+            1.536334753036499,
+            1.8235217332839966,
+            1.7898359298706055,
+            2.0103514194488525,
+            0.031203892081975937,
+            0.030914686620235443
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.4234888553619385,
+          "sum_nll": 637.7230224609375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4985737800598145,
+            1.5110089778900146,
+            1.9996099472045898,
+            2.122314691543579,
+            2.7864606380462646,
+            0.02436392568051815,
+            0.02208958938717842
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.493101954460144,
+          "sum_nll": 668.90966796875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4450876712799072,
+            1.5129835605621338,
+            2.0468010902404785,
+            2.2562687397003174,
+            3.1486334800720215,
+            0.022047074511647224,
+            0.019891653209924698
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 0.6920186877250671,
+        "sum_nll": 155.01219177246094,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.350396990776062,
+          1.2988969087600708,
+          1.0596619844436646,
+          0.6958620548248291,
+          0.39785313606262207,
+          0.02202657237648964,
+          0.019432909786701202
+        ]
+      },
+      "final_validation": {
+        "nll": 1.493101954460144,
+        "sum_nll": 668.90966796875,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4450876712799072,
+          1.5129835605621338,
+          2.0468010902404785,
+          2.2562687397003174,
+          3.1486334800720215,
+          0.022047074511647224,
+          0.019891653209924698
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 32,
+        "seed": 5503,
+        "name": "d32_n32_s5503"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 32,
+      "unique_train_documents_seen": 32,
+      "unique_target_positions_seen": 224,
+      "repeat_exposure_ratio": 40.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.3197438270035491,
+      "steady_training_step_seconds": 0.2982574409998051,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 28163.589051934126,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 326074368,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.19667649269104,
+          "sum_nll": 1432.111083984375,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.2489778995513916,
+            3.4402449131011963,
+            3.3587427139282227,
+            3.076443910598755,
+            3.2435402870178223,
+            2.910261631011963,
+            3.0985240936279297
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 32,
+          "nll": 1.4320279359817505,
+          "sum_nll": 641.5485229492188,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6826412677764893,
+            1.9481233358383179,
+            1.9249926805496216,
+            1.722704291343689,
+            2.1981234550476074,
+            0.24638991057872772,
+            0.3012198805809021
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 32,
+          "nll": 1.1664924621582031,
+          "sum_nll": 522.588623046875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4986183643341064,
+            1.5704666376113892,
+            1.6102385520935059,
+            1.5022956132888794,
+            1.8654017448425293,
+            0.050420716404914856,
+            0.06800611317157745
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 32,
+          "nll": 1.2059822082519531,
+          "sum_nll": 540.280029296875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4824740886688232,
+            1.5177298784255981,
+            1.7067917585372925,
+            1.4930343627929688,
+            2.1869702339172363,
+            0.022849896922707558,
+            0.032025039196014404
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 32,
+          "nll": 1.3533903360366821,
+          "sum_nll": 606.31884765625,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.5003188848495483,
+            1.5286160707473755,
+            1.8476192951202393,
+            1.5902178287506104,
+            2.9636855125427246,
+            0.018535759299993515,
+            0.024738747626543045
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 32,
+          "nll": 1.387266755104065,
+          "sum_nll": 621.4954833984375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4927091598510742,
+            1.54819917678833,
+            1.8920114040374756,
+            1.6749612092971802,
+            3.062993288040161,
+            0.01792999729514122,
+            0.022062499076128006
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 0.7823533415794373,
+        "sum_nll": 175.2471466064453,
+        "effective_tokens": 224,
+        "position_nll": [
+          1.349698781967163,
+          1.302004098892212,
+          1.1391249895095825,
+          1.1510009765625,
+          0.4964297413825989,
+          0.016521649435162544,
+          0.021693406626582146
+        ]
+      },
+      "final_validation": {
+        "nll": 1.387266755104065,
+        "sum_nll": 621.4954833984375,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4927091598510742,
+          1.54819917678833,
+          1.8920114040374756,
+          1.6749612092971802,
+          3.062993288040161,
+          0.01792999729514122,
+          0.022062499076128006
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7727230937170897,
+        "train_bigram_add1_nll": 1.8990334719288156,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 128,
+        "seed": 5501,
+        "name": "d32_n128_s5501"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.3303264890164428,
+      "steady_training_step_seconds": 0.3048920650180662,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 27550.73340299054,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 327081984,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.0408756732940674,
+          "sum_nll": 1362.312255859375,
+          "effective_tokens": 448,
+          "position_nll": [
+            2.6631126403808594,
+            3.5628983974456787,
+            3.0841917991638184,
+            3.0996665954589844,
+            2.8270933628082275,
+            3.048684597015381,
+            3.0004799365997314
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 1.4114816188812256,
+          "sum_nll": 632.34375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6363074779510498,
+            2.1464250087738037,
+            1.8626198768615723,
+            1.7210246324539185,
+            1.8463300466537476,
+            0.3873334228992462,
+            0.28032970428466797
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.1308362483978271,
+          "sum_nll": 506.6146240234375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4863933324813843,
+            1.663914680480957,
+            1.5694808959960938,
+            1.518834114074707,
+            1.5464956760406494,
+            0.0646013468503952,
+            0.06613335758447647
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.0806924104690552,
+          "sum_nll": 484.1501770019531,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4916554689407349,
+            1.5464826822280884,
+            1.4889039993286133,
+            1.4835013151168823,
+            1.4992090463638306,
+            0.0262705497443676,
+            0.028823386877775192
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.0625849962234497,
+          "sum_nll": 476.0380859375,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4357898235321045,
+            1.4859501123428345,
+            1.5015876293182373,
+            1.474703073501587,
+            1.5015162229537964,
+            0.018435083329677582,
+            0.020113445818424225
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.0607497692108154,
+          "sum_nll": 475.21588134765625,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4367594718933105,
+            1.4992811679840088,
+            1.482377290725708,
+            1.478936791419983,
+            1.4936391115188599,
+            0.016421053558588028,
+            0.01783333718776703
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0028444528579712,
+        "sum_nll": 898.5486450195312,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.3893520832061768,
+          1.415851354598999,
+          1.4010387659072876,
+          1.382800579071045,
+          1.3968968391418457,
+          0.016164951026439667,
+          0.01780669391155243
+        ]
+      },
+      "final_validation": {
+        "nll": 1.0607497692108154,
+        "sum_nll": 475.21588134765625,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4367594718933105,
+          1.4992811679840088,
+          1.482377290725708,
+          1.478936791419983,
+          1.4936391115188599,
+          0.016421053558588028,
+          0.01783333718776703
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 128,
+        "seed": 5502,
+        "name": "d32_n128_s5502"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.3123608690166293,
+      "steady_training_step_seconds": 0.2919100590152084,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 28775.986782841093,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 326955008,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.3564300537109375,
+          "sum_nll": 1503.6806640625,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.511831045150757,
+            2.998544454574585,
+            3.004638910293579,
+            3.37034273147583,
+            3.3577494621276855,
+            3.624001979827881,
+            3.6279001235961914
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 1.4421271085739136,
+          "sum_nll": 646.0729370117188,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6887654066085815,
+            1.8260287046432495,
+            1.8787915706634521,
+            1.781826138496399,
+            2.066364049911499,
+            0.538259744644165,
+            0.3148549795150757
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.1255042552947998,
+          "sum_nll": 504.22589111328125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.483319640159607,
+            1.5732693672180176,
+            1.5788965225219727,
+            1.4983779191970825,
+            1.5876073837280273,
+            0.0799584835767746,
+            0.07709996402263641
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.0786370038986206,
+          "sum_nll": 483.2294006347656,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.50921630859375,
+            1.4836503267288208,
+            1.5000108480453491,
+            1.4778962135314941,
+            1.5182726383209229,
+            0.03013703227043152,
+            0.031276099383831024
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.0596269369125366,
+          "sum_nll": 474.7128601074219,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4403471946716309,
+            1.4740958213806152,
+            1.506015658378601,
+            1.4592208862304688,
+            1.4959468841552734,
+            0.020466681569814682,
+            0.02129480615258217
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.0599987506866455,
+          "sum_nll": 474.87945556640625,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4584954977035522,
+            1.4820797443389893,
+            1.482409954071045,
+            1.463539719581604,
+            1.49674391746521,
+            0.018039502203464508,
+            0.01868364028632641
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0043330192565918,
+        "sum_nll": 899.8823852539062,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.3944131135940552,
+          1.4078658819198608,
+          1.4031426906585693,
+          1.3847746849060059,
+          1.4033888578414917,
+          0.01812225766479969,
+          0.018623704090714455
+        ]
+      },
+      "final_validation": {
+        "nll": 1.0599987506866455,
+        "sum_nll": 474.87945556640625,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4584954977035522,
+          1.4820797443389893,
+          1.482409954071045,
+          1.463539719581604,
+          1.49674391746521,
+          0.018039502203464508,
+          0.01868364028632641
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    },
+    {
+      "config": {
+        "d": 32,
+        "pool": 128,
+        "seed": 5503,
+        "name": "d32_n128_s5503"
+      },
+      "parameter_count": 18676,
+      "parameter_bytes": 74704,
+      "effective_tokens": 8960,
+      "processed_input_tokens": 8960,
+      "unique_train_documents_available": 128,
+      "unique_train_documents_seen": 128,
+      "unique_target_positions_seen": 896,
+      "repeat_exposure_ratio": 10.0,
+      "forward_matmul_flops_per_step": 4014080,
+      "estimated_train_matmul_flops": 963379200,
+      "training_step_seconds_sum": 0.32100378499490034,
+      "steady_training_step_seconds": 0.2933233899948391,
+      "steady_effective_tokens": 8400,
+      "steady_tokens_per_second": 28637.334377418025,
+      "timing_excludes": "first5 updates from steady metric; all evaluation, model construction, file writing and process startup",
+      "peak_worker_rss_bytes": 326877184,
+      "rss_scope": "fresh Linux worker peak includes interpreter, model, optimizer, training and validation; not just tensors",
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_status": "not measured: CPU-only experiment",
+      "trace": [
+        {
+          "step": 0,
+          "seen_tokens": 0,
+          "unique_docs_seen": 0,
+          "nll": 3.19667649269104,
+          "sum_nll": 1432.111083984375,
+          "effective_tokens": 448,
+          "position_nll": [
+            3.2489778995513916,
+            3.4402449131011963,
+            3.3587427139282227,
+            3.076443910598755,
+            3.2435402870178223,
+            2.910261631011963,
+            3.0985240936279297
+          ]
+        },
+        {
+          "step": 20,
+          "seen_tokens": 2240,
+          "unique_docs_seen": 128,
+          "nll": 1.4157731533050537,
+          "sum_nll": 634.266357421875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.6863597631454468,
+            1.9890809059143066,
+            1.951197624206543,
+            1.747493863105774,
+            1.9840545654296875,
+            0.25461655855178833,
+            0.29760873317718506
+          ]
+        },
+        {
+          "step": 40,
+          "seen_tokens": 4480,
+          "unique_docs_seen": 128,
+          "nll": 1.1267246007919312,
+          "sum_nll": 504.77264404296875,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4841015338897705,
+            1.6191009283065796,
+            1.5690524578094482,
+            1.5073935985565186,
+            1.5886178016662598,
+            0.05128011852502823,
+            0.06752654910087585
+          ]
+        },
+        {
+          "step": 60,
+          "seen_tokens": 6720,
+          "unique_docs_seen": 128,
+          "nll": 1.074347734451294,
+          "sum_nll": 481.3077697753906,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4790894985198975,
+            1.5319496393203735,
+            1.48761785030365,
+            1.4700310230255127,
+            1.4998502731323242,
+            0.02251439541578293,
+            0.029381215572357178
+          ]
+        },
+        {
+          "step": 74,
+          "seen_tokens": 8288,
+          "unique_docs_seen": 128,
+          "nll": 1.0605140924453735,
+          "sum_nll": 475.1103210449219,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4434565305709839,
+            1.4718105792999268,
+            1.4928343296051025,
+            1.4522161483764648,
+            1.5265899896621704,
+            0.016065649688243866,
+            0.02062532864511013
+          ]
+        },
+        {
+          "step": 80,
+          "seen_tokens": 8960,
+          "unique_docs_seen": 128,
+          "nll": 1.0546478033065796,
+          "sum_nll": 472.48223876953125,
+          "effective_tokens": 448,
+          "position_nll": [
+            1.4261653423309326,
+            1.4949681758880615,
+            1.4702719449996948,
+            1.4611847400665283,
+            1.4971375465393066,
+            0.014451109804213047,
+            0.01835625432431698
+          ]
+        }
+      ],
+      "final_train": {
+        "nll": 1.0055135488510132,
+        "sum_nll": 900.940185546875,
+        "effective_tokens": 896,
+        "position_nll": [
+          1.3955790996551514,
+          1.4084869623184204,
+          1.4070756435394287,
+          1.3941456079483032,
+          1.4006969928741455,
+          0.01429202500730753,
+          0.018318673595786095
+        ]
+      },
+      "final_validation": {
+        "nll": 1.0546478033065796,
+        "sum_nll": 472.48223876953125,
+        "effective_tokens": 448,
+        "position_nll": [
+          1.4261653423309326,
+          1.4949681758880615,
+          1.4702719449996948,
+          1.4611847400665283,
+          1.4971375465393066,
+          0.014451109804213047,
+          0.01835625432431698
+        ]
+      },
+      "baselines": {
+        "uniform_nll": 2.995732273553991,
+        "train_unigram_add1_nll": 2.7522423439862473,
+        "train_bigram_add1_nll": 1.482737781292968,
+        "smoothing": "add-one over declared V=20 classes, fit training pool only"
+      },
+      "test_set_evaluated": false
+    }
+  ],
+  "total_effective_training_tokens": 107520,
+  "negative_results": "all configurations retained; compare baselines and validation, not training loss alone",
+  "scope": "descriptive tiny synthetic grammar; no fitted scaling law or frontier extrapolation"
+}
