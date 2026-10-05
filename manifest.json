@@ -22,14 +22,45 @@
     "015",
     "016",
     "017",
-    "018"
+    "018",
+    "019",
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "038",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "046",
+    "047",
+    "048"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
     "drafting": "内容制作中",
     "in_review": "资料正在核对",
     "verified": "完整资料通过内容、执行与视觉核对",
-    "published": "已完成远端文件核验"
+    "published": "已完成远端文件核验",
+    "archived_pending_review": "完整作者包原样备份并完成远端大小/SHA256核对，独立内容验收尚未完成；不计入已验收教材。"
   },
   "units": [
     {
@@ -1345,7 +1376,22 @@
       "figure": "滑窗计算、共享权重与边界效应。",
       "lab": "手算二维小卷积并实现前后向，与框架核验；检验平移等变性的条件。",
       "pitfall": "把平移等变与不变混为一谈；忽略步幅和边界打破的对称性。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/043/lecture.pdf",
+        "lab_pdf": "units/043/lab.pdf",
+        "answers_pdf": "units/043/answers.pdf",
+        "notebook": "units/043/experiment.ipynb",
+        "script": "units/043/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 32,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "044",
@@ -1360,7 +1406,22 @@
       "figure": "普通堆叠和残差路径的计算图。",
       "lab": "搭建小型CNN与ResNet，对照参数量和预算；记录层间梯度及训练稳定性。",
       "pitfall": "把残差网络优势完全归结为一个口号；忽略宽度和计算预算混杂。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/044/lecture.pdf",
+        "lab_pdf": "units/044/lab.pdf",
+        "answers_pdf": "units/044/answers.pdf",
+        "notebook": "units/044/experiment.ipynb",
+        "script": "units/044/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 50,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "045",
@@ -1374,7 +1435,22 @@
       "figure": "增强前后的样本及标签几何变换。",
       "lab": "做增强审计与消融，加入背景变化测试；保存可视化样本和可重放随机参数。",
       "pitfall": "对医学或科学图像盲用自然图像增强；旋转图像却不更新标注。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/045/lecture.pdf",
+        "lab_pdf": "units/045/lab.pdf",
+        "answers_pdf": "units/045/answers.pdf",
+        "notebook": "units/045/experiment.ipynb",
+        "script": "units/045/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 35,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "046",
@@ -1389,7 +1465,22 @@
       "figure": "框匹配、分割掩码与多尺度特征图。",
       "lab": "选择检测或分割一种任务完成小实验；核对空目标、重叠目标及评估实现。",
       "pitfall": "把检测mAP与分类准确率直接比较；标注与预测坐标系不一致。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/046/lecture.pdf",
+        "lab_pdf": "units/046/lab.pdf",
+        "answers_pdf": "units/046/answers.pdf",
+        "notebook": "units/046/experiment.ipynb",
+        "script": "units/046/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 53,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "047",
@@ -1403,7 +1494,22 @@
       "figure": "CNN感受野与patch注意力的连接图。",
       "lab": "等训练预算比较小型CNN与ViT，记录数据量敏感性和显存；不推导为普遍排名。",
       "pitfall": "小数据小预算结果被外推到大规模；忽略预训练条件差异。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/047/lecture.pdf",
+        "lab_pdf": "units/047/lab.pdf",
+        "answers_pdf": "units/047/answers.pdf",
+        "notebook": "units/047/experiment.ipynb",
+        "script": "units/047/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 34,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "048",
@@ -1419,7 +1525,22 @@
       "figure": "主结果、子群误差和域偏移的证据图。",
       "lab": "交付数据许可说明、强基线、公平预算、消融、跨域检查和失败案例；保留封存测试。",
       "pitfall": "把数据增强泄漏或预训练重叠造成的优势当方法贡献。",
-      "status": "planned"
+      "status": "published",
+      "checks": "independent_passed",
+      "artifacts": {
+        "lecture_pdf": "units/048/lecture.pdf",
+        "lab_pdf": "units/048/lab.pdf",
+        "answers_pdf": "units/048/answers.pdf",
+        "notebook": "units/048/experiment.ipynb",
+        "script": "units/048/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 84,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "049",
@@ -1434,7 +1555,30 @@
       "figure": "文本到token再到embedding的形状链。",
       "lab": "训练一个小型词元化与嵌入实验，核对未知符号、特殊token和序列边界。",
       "pitfall": "把词元数当字数；忽略分词变化对损失和速度比较的影响。",
-      "status": "planned"
+      "status": "archived_pending_review",
+      "checks": "author_complete_independent_pending",
+      "artifacts": {
+        "lecture_pdf": "units/049/lecture.pdf",
+        "lab_pdf": "units/049/lab.pdf",
+        "answers_pdf": "units/049/answers.pdf",
+        "notebook": "units/049/experiment.ipynb",
+        "script": "units/049/experiment.py"
+      },
+      "publication": {
+        "status": "archived_pending_review",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 36,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json",
+        "asset_outside_git_tree": {
+          "path": "units/049/outputs/training_traces.json.gz",
+          "url": "https://github.com/hrqz007/deep-learning-research-course/releases/download/dl049-author-backup-20261005/training_traces.json.gz",
+          "bytes": 30437808,
+          "sha256": "8ad2753061c52b838b8810532f21fbd9cb6bdd47e81da292556a43dd4841982d",
+          "exact_original_match": true
+        },
+        "restoration_instructions": "units/049/PUBLICATION_STATUS.md"
+      }
     },
     {
       "id": "050",
@@ -1449,7 +1593,22 @@
       "figure": "时间展开图及梯度沿时间传播。",
       "lab": "实现小RNN并核验短序列梯度；用延迟任务观察依赖长度与梯度变化。",
       "pitfall": "把截断BPTT当完整梯度；错误地跨独立序列携带状态。",
-      "status": "planned"
+      "status": "archived_pending_review",
+      "checks": "author_complete_independent_pending",
+      "artifacts": {
+        "lecture_pdf": "units/050/lecture.pdf",
+        "lab_pdf": "units/050/lab.pdf",
+        "answers_pdf": "units/050/answers.pdf",
+        "notebook": "units/050/experiment.ipynb",
+        "script": "units/050/experiment.py"
+      },
+      "publication": {
+        "status": "archived_pending_review",
+        "content_commit": "df2acaf8ec613005a70c3c9c8628651333c24547",
+        "verified_original_file_count": 51,
+        "remote_size_and_sha256_matched": true,
+        "release_record": "releases/043-050-backup.json"
+      }
     },
     {
       "id": "051",
@@ -2235,5 +2394,57 @@
       "pitfall": "速度提升没有质量约束；模拟结果写成生产保证；不报告长尾延迟。",
       "status": "planned"
     }
+  ],
+  "archived_material_units": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "038",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "046",
+    "047",
+    "048",
+    "049",
+    "050"
   ]
 }
