@@ -1,0 +1,7 @@
+"""Freeze the original synthetic values and the protocol before run()."""
+from experiment import ROOT,dump,generate_dataset
+import hashlib
+if __name__=='__main__':
+    dump(ROOT/'data/sequences.json',generate_dataset())
+    dump(ROOT/'data/manifest.json',{'file':'sequences.json','sha256':hashlib.sha256((ROOT/'data/sequences.json').read_bytes()).hexdigest(),'license':'CC0-1.0 for original synthetic values','source':'NumPy PCG64 standard normal; seeds 5201,5202,5203; train then test; no external data'})
+    dump(ROOT/'data/protocol.json',{'frozen_before_first_run':True,'task':'predict x[t+1] at t=0,1,2 from iid N(0,1) sequences of length 4','legal_information':'x[0:t+1] inclusive current, never x[t+1:]','train_sequences':128,'test_sequences':512,'seeds':[5201,5202,5203],'score_alpha':[0.,8.],'conditions':['causal','unmasked'],'fit':'least squares on 384 training targets with intercept; 2 trainable scalars; no test selection','metric':'MSE per target, retain per-sequence MSE','baseline':'constant zero, population optimal for independent future','hand_demo':'6 parameters; eta=0.1; 2 simultaneous SGD updates, full third forward; half-MSE over 4 targets','negative_result_policy':'retain all seeds and conditions; no seed replacement or favorable-only report','interpretation':'unmasked held-out score invalid for causal forecasting','resource':'CPU float64 one thread; no peak-memory or throughput claim'})

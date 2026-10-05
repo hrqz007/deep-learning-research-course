@@ -1,0 +1,43 @@
+{
+  "date_utc": "2026-10-05",
+  "scope": "author execution evidence, not independent QA approval",
+  "normal_tests": 15,
+  "optimized_tests": 15,
+  "full_experiment_normal_and_optimized_results_byte_equal": true,
+  "notebook_code_cells": 11,
+  "notebook_actual_png_count": 9,
+  "notebook_execution": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 5.348,
+    "code_cells": 11,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14"
+  },
+  "pdf_pages": {
+    "lecture": 17,
+    "lab": 5,
+    "answers": 5
+  },
+  "finite_difference_coordinates": 14,
+  "finite_difference_max_abs": 3.232136780439987e-12,
+  "api_sdpa_max_abs": 0.0,
+  "api_mha_max_abs": 0.0,
+  "hand_losses": [
+    0.016128563004114718,
+    0.015241267063239023,
+    0.014489698297080595
+  ],
+  "fits": 12,
+  "not_tested": [
+    "browser UI",
+    "socket transport",
+    "GPU",
+    "half precision",
+    "dropout",
+    "KV caching",
+    "long context",
+    "cross-platform fresh install"
+  ]
+}

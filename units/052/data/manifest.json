@@ -1,0 +1,6 @@
+{
+  "file": "sequences.json",
+  "sha256": "4db4cd724ca90beae1523f44e09ce1c3419584d7d617a96dd92935d2e40b6b58",
+  "license": "CC0-1.0 for original synthetic values",
+  "source": "NumPy PCG64 standard normal; seeds 5201,5202,5203; train then test; no external data"
+}

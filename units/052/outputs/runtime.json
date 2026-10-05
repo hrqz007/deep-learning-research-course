@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.7.1+cpu",
+  "device": "CPU",
+  "dtype": "float64",
+  "torch_num_threads": 1,
+  "elapsed_seconds": 0.9716889709998213,
+  "meaning": "compute and JSON writing; not a speed benchmark; no peak-memory instrumentation",
+  "parameters": {
+    "hand_trainable": 6,
+    "readout_trainable_per_fit": 2,
+    "fixed_qk_scalars": 28
+  },
+  "scope": "single process; no GPU, half precision, dropout, sparse attention, long context or distributed measurements"
+}

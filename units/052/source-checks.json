@@ -1,0 +1,29 @@
+{
+  "checked_utc_date": "2026-10-05",
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/abs/1706.03762",
+      "access": "Opened successfully using web tool; current pinned documentation or original paper landing page",
+      "scope": "paper structure/background, not imported experimental claims"
+    },
+    {
+      "id": 2,
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.functional.scaled_dot_product_attention.html",
+      "access": "Opened successfully using web tool; current pinned documentation or original paper landing page",
+      "scope": "PyTorch 2.7 SDPA mask and parameter semantics"
+    },
+    {
+      "id": 3,
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.MultiheadAttention.html",
+      "access": "Opened successfully using web tool; current pinned documentation or original paper landing page",
+      "scope": "PyTorch 2.7 MHA mask and projection semantics"
+    },
+    {
+      "id": 4,
+      "url": "https://aclanthology.org/N19-1357/",
+      "access": "Opened successfully using web tool; current pinned documentation or original paper landing page",
+      "scope": "original research page; explanation caution only"
+    }
+  ]
+}
