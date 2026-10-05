@@ -1,0 +1,25 @@
+{
+  "unit": "053",
+  "seeds": [
+    5301,
+    5302,
+    5303
+  ],
+  "B": 2,
+  "L": 5,
+  "D": 4,
+  "heads": 2,
+  "ffn_width": 7,
+  "dtype": "float64",
+  "device": "cpu",
+  "dropout": 0,
+  "modes": [
+    "pre",
+    "post"
+  ],
+  "allow_true": "permitted key",
+  "alignment_atol": 2e-10,
+  "hand_sgd_lr": 0.05,
+  "hand_updates": 2,
+  "data": "original deterministic synthetic tensors; no training corpus"
+}
