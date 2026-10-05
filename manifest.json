@@ -55,7 +55,8 @@
     "048",
     "051",
     "052",
-    "053"
+    "053",
+    "054"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1743,7 +1744,32 @@
       "figure": "三类目标可见信息的掩码图。",
       "lab": "构造同一语料上的两种目标，核验标签移位和样本边界；报告按有效token归约的损失。",
       "pitfall": "把训练输入与目标错位；跨样本注意力泄漏；将困惑度跨分词器直接比较。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/054/lecture.pdf",
+        "lab_pdf": "units/054/lab.pdf",
+        "answers_pdf": "units/054/answers.pdf",
+        "notebook": "units/054/experiment.ipynb",
+        "script": "units/054/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "bc3e00d51ebf299f3db98941c4b9f79f5915fb01",
+        "verified_file_count": 39,
+        "verified_bytes": 3198886,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-05"
+      },
+      "release_record": "releases/053-055.json"
     },
     {
       "id": "055",
@@ -2526,6 +2552,7 @@
     "050",
     "051",
     "052",
-    "053"
+    "053",
+    "054"
   ]
 }

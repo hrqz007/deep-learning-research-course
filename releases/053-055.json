@@ -6,7 +6,8 @@
     "055"
   ],
   "published_lessons": [
-    "053"
+    "053",
+    "054"
   ],
   "units": {
     "053": {
@@ -155,6 +156,171 @@
         "units/053/test_experiment.py": {
           "bytes": 3631,
           "sha256": "3c469e5508ab238df44c3aea6a02bd98be3c42baea3e80d62121b3ba1d177471"
+        }
+      }
+    },
+    "054": {
+      "content_commit": "bc3e00d51ebf299f3db98941c4b9f79f5915fb01",
+      "independent_review": "passed",
+      "remote_verified_on": "2026-10-05",
+      "file_count": 39,
+      "bytes": 3198886,
+      "files": {
+        "units/054/DATA_LICENSE.md": {
+          "bytes": 360,
+          "sha256": "ac3c5c6ecc0b59f5af4358e3a20f0f6159cc5ed5701e4c8562c5a160cfc8facd"
+        },
+        "units/054/README.md": {
+          "bytes": 1638,
+          "sha256": "6617fc02d68b291cdd8436897a27d9eba04b1faa6dfc329aa23f473a165f042b"
+        },
+        "units/054/answers.md": {
+          "bytes": 8207,
+          "sha256": "9aa9ff829be6dbfcff424345469a4ceaa946b8d2bb46a55bd2cd884d07439968"
+        },
+        "units/054/answers.pdf": {
+          "bytes": 573987,
+          "sha256": "2a2a0877352a9eec0462de8d438b8b59c13414ccfbebdd92ba731644e4f804c3"
+        },
+        "units/054/build-tools/README.md": {
+          "bytes": 1528,
+          "sha256": "565607a064789d238ee4b1bb1461408ae17e6ee8c5ab81c54bdd9f36139de23c"
+        },
+        "units/054/build-tools/base_pdf.py": {
+          "bytes": 4799,
+          "sha256": "925090612bf5ec1431bb9581dc4f972395dd43b6fb02f4058d53d98d8c38e7c1"
+        },
+        "units/054/build-tools/mathjax_render.cjs": {
+          "bytes": 1156,
+          "sha256": "711cdfaa8c2e4f033477c906dfa4609476c05791c0289df446b62a0d3bfafed5"
+        },
+        "units/054/build-tools/package-lock.json": {
+          "bytes": 3172,
+          "sha256": "e2afd36f12d8d76f888407559ccb92e2134c194a91a64d93da8b3178cead22cc"
+        },
+        "units/054/build-tools/package.json": {
+          "bytes": 207,
+          "sha256": "a93e5fbb8752453a33db37dd39ecc62af9cf06c64d38666f73e00a010eb5ba39"
+        },
+        "units/054/build-tools/requirements.txt": {
+          "bytes": 129,
+          "sha256": "3d05858f73505150c0d0ff416bec7c2f77bafedd8039fa9e28b488a0d4a98406"
+        },
+        "units/054/build_pdf.py": {
+          "bytes": 3205,
+          "sha256": "8b50c248cace8c53de243710d9bb4d89f168bbdb08da17c49babea72f599b50f"
+        },
+        "units/054/create_notebook.py": {
+          "bytes": 3153,
+          "sha256": "093987b83955b8ae849678bc3197959154201adf2f801fd0928fb47a16418414"
+        },
+        "units/054/data/corpus.json": {
+          "bytes": 4034,
+          "sha256": "9a7f7b12e85616b90b7a925a81f199494260b5acfb3cdaa11f1c74021034d76c"
+        },
+        "units/054/data/manifest.json": {
+          "bytes": 127,
+          "sha256": "da184ef0f0162967982e332899e894e5f2d8f3e4ee429ec3751e4c0bb47b1f46"
+        },
+        "units/054/data/protocol.json": {
+          "bytes": 518,
+          "sha256": "c15608ffe20cea2fc726cab39c4cc61686c3fd1f8e6a20a538dc686f777e13e8"
+        },
+        "units/054/environment.yml": {
+          "bytes": 229,
+          "sha256": "42bcfa30197ed3f104b8e4a2210b665c6778950703c7245d5ba9386e6b10c992"
+        },
+        "units/054/execute_notebook.py": {
+          "bytes": 2091,
+          "sha256": "0dcadf39c53f13037d5b0c7e7b0ef43afdcafb0cd25df380a2ebae0df06a66e3"
+        },
+        "units/054/experiment.ipynb": {
+          "bytes": 543510,
+          "sha256": "ee4e9685d194f6389da14e3a2ebddd4310ac73d453789dad15c15b13ff1cc637"
+        },
+        "units/054/experiment.py": {
+          "bytes": 10141,
+          "sha256": "346245ff963bf817a89e6a7889ed1cc247b3db9b5e743f4a6dda4c16bbc0293f"
+        },
+        "units/054/figures/01_objectives.png": {
+          "bytes": 81124,
+          "sha256": "085aaad926af2feca87ada430d91be4f8f46098d4902f49174bad3fed5219a81"
+        },
+        "units/054/figures/02_targets.png": {
+          "bytes": 59130,
+          "sha256": "44008dc78a62422ced8411af286d2f5d1b437d9f110ba6cdae76f08444112d8d"
+        },
+        "units/054/figures/03_packing.png": {
+          "bytes": 43731,
+          "sha256": "5cd9352806628ff63e6a20c993ba0cf597b9fa54f6826f3bb8c7cc268e5d0992"
+        },
+        "units/054/figures/04_nll.png": {
+          "bytes": 62557,
+          "sha256": "d64a7acd7464410478a3061e5a3d19840a78a9301a6c059ecfa00754c84d7c49"
+        },
+        "units/054/figures/05_reduction.png": {
+          "bytes": 62641,
+          "sha256": "23042c12cb5caf0eb92a697f67382bf66ba2c1a7fa828797f04ecd46443a68da"
+        },
+        "units/054/figures/06_diagnostics.png": {
+          "bytes": 75412,
+          "sha256": "9692838e73649ca25842aee2534e42f2fa9d8ffb37f3e9c2ae01cff5dee438f3"
+        },
+        "units/054/generate_data.py": {
+          "bytes": 2047,
+          "sha256": "dfca2120a47d479672d6b031a8bd0c0a3140ae5f35d12154b4ef0dd8d000db09"
+        },
+        "units/054/lab.md": {
+          "bytes": 7560,
+          "sha256": "609da723d1fcd83abdc3d83c59a8d1ff160061212d8af4e0f7ad1e9f8774bb8f"
+        },
+        "units/054/lab.pdf": {
+          "bytes": 570335,
+          "sha256": "b5294c7f1562daf374a9f1dd425e9c973c3da5a02fd6bde313f0bf04968715ca"
+        },
+        "units/054/lecture.md": {
+          "bytes": 16671,
+          "sha256": "1d13636b2a29add16552cd2d9fa5f1c40fb68b4a929e61ed47c124404aa4c4da"
+        },
+        "units/054/lecture.pdf": {
+          "bytes": 988969,
+          "sha256": "8a24ca8f21b68c98faf44e9610fa39b0788ecfc901501e01b5226342578e06c0"
+        },
+        "units/054/make_figures.py": {
+          "bytes": 5339,
+          "sha256": "714c12323730d2029ee66455a7ddec38b9834cd0b9dcd8ed6cc78234e764446e"
+        },
+        "units/054/outputs/data/corpus.json": {
+          "bytes": 4034,
+          "sha256": "9a7f7b12e85616b90b7a925a81f199494260b5acfb3cdaa11f1c74021034d76c"
+        },
+        "units/054/outputs/data/manifest.json": {
+          "bytes": 127,
+          "sha256": "da184ef0f0162967982e332899e894e5f2d8f3e4ee429ec3751e4c0bb47b1f46"
+        },
+        "units/054/outputs/results.json": {
+          "bytes": 51767,
+          "sha256": "e389fa65f3cd5abfee07fef4e3507e63492dfb64bc2bec8d4202e0fdf5179262"
+        },
+        "units/054/outputs/runtime.json": {
+          "bytes": 127,
+          "sha256": "912a1cc18caa21bc724c75a1ab994567b49c0d8035b314358a512813239733f1"
+        },
+        "units/054/requirements.txt": {
+          "bytes": 96,
+          "sha256": "55fa89bc0b5d0a06f3f7d5430bef08012516fa0aa6de0524c01fabe6f14fbd6c"
+        },
+        "units/054/source-checks.json": {
+          "bytes": 131,
+          "sha256": "d65b9c3caf274aaf196964feb1550fe1e86146f70d87d24705933a156ee25fe6"
+        },
+        "units/054/sources.md": {
+          "bytes": 919,
+          "sha256": "9e36e016c17f142767e1a9c8b086108a3b2a19da1c9e2615851a195d8d0017e4"
+        },
+        "units/054/test_experiment.py": {
+          "bytes": 3978,
+          "sha256": "c96a6b37c3c8e037e04d6e1a8317643102d4750a6b97736fb7b2c50afdf7adce"
         }
       }
     }
