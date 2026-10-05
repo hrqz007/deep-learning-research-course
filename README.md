@@ -2,9 +2,9 @@
 
 从零基础走向可复查研究的中文课程。完整大纲包含 **72个主线单元与30个进阶单元，共102个单元**。按先修关系选择路线，编号不总是学习顺序。
 
-## 已完成的完整单元
+## 课程目录
 
-第001–048讲已完成独立验收。第049、050讲为完整作者包的待验收备份，不计入已验收教材。现有资料已备份至第050讲，教程制作目前暂停；其余52个单元尚未完成。第049讲有一个大数据文件保存在本仓库Release资产中，使用前须按下方说明恢复。
+第001–050讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -50,21 +50,20 @@
 |040|训练诊断与调参实验|[14页](units/040/lecture.pdf)|[5页](units/040/lab.pdf)|[5页](units/040/answers.pdf)|[进入单元](units/040/README.md)|
 |041|迁移学习与适配|[15页](units/041/lecture.pdf)|[5页](units/041/lab.pdf)|[4页](units/041/answers.pdf)|[进入单元](units/041/README.md)|
 |042|可靠神经网络阶段项目|[15页](units/042/lecture.pdf)|[4页](units/042/lab.pdf)|[4页](units/042/answers.pdf)|[进入单元](units/042/README.md)|
+|043|卷积局部性与平移结构|[14页](units/043/lecture.pdf)|[5页](units/043/lab.pdf)|[4页](units/043/answers.pdf)|[进入单元](units/043/README.md)|
+|044|深层卷积与残差网络|[13页](units/044/lecture.pdf)|[5页](units/044/lab.pdf)|[6页](units/044/answers.pdf)|[进入单元](units/044/README.md)|
+|045|视觉输入与增强设计|[12页](units/045/lecture.pdf)|[4页](units/045/lab.pdf)|[4页](units/045/answers.pdf)|[进入单元](units/045/README.md)|
+|046|检测分割与结构化预测|[14页](units/046/lecture.pdf)|[4页](units/046/lab.pdf)|[5页](units/046/answers.pdf)|[进入单元](units/046/README.md)|
+|047|视觉Transformer与混合结构|[14页](units/047/lecture.pdf)|[4页](units/047/lab.pdf)|[4页](units/047/answers.pdf)|[进入单元](units/047/README.md)|
+|048|视觉研究项目|[10页](units/048/lecture.pdf)|[4页](units/048/lab.pdf)|[5页](units/048/answers.pdf)|[进入单元](units/048/README.md)|
+|049|词元嵌入与序列数据|[10页](units/049/lecture.pdf)|[4页](units/049/lab.pdf)|[4页](units/049/answers.pdf)|[进入单元](units/049/README.md)|
+|050|循环网络与时间反向传播|[17页](units/050/lecture.pdf)|[5页](units/050/lab.pdf)|[12页](units/050/answers.pdf)|[进入单元](units/050/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
-## 第043–050讲备份状态
+## 第049讲大文件恢复
 
-- [043 卷积局部性与平移结构](units/043/README.md)：独立验收通过，原文件已入库
-- [044 深层卷积与残差网络](units/044/README.md)：独立验收通过，原文件已入库
-- [045 视觉输入与增强设计](units/045/README.md)：独立验收通过，原文件已入库
-- [046 检测分割与结构化预测](units/046/README.md)：独立验收通过，原文件已入库
-- [047 视觉Transformer与混合结构](units/047/README.md)：独立验收通过，原文件已入库
-- [048 视觉研究项目](units/048/README.md)：独立验收通过，原文件已入库
-- [049 词元嵌入与序列数据](units/049/README.md)：完整作者包备份，待独立验收；[大轨迹文件须从Release恢复](units/049/PUBLICATION_STATUS.md)
-- [050 循环网络与时间反向传播](units/050/README.md)：完整作者包备份，待独立验收
-
-[逐文件大小、SHA256与存储位置](releases/043-050-backup.json)。第049讲大文件不在Git文件树或源码ZIP里，请使用[同库Release原始资产](https://github.com/hrqz007/deep-learning-research-course/releases/tag/dl049-author-backup-20261005)并按[恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。本次仅备份已有材料，没有新增教程或重新开展科学验收。
+第049讲的大轨迹文件不在 Git 文件树或源码 ZIP 里。请下载[同库 Release 原始资产](https://github.com/hrqz007/deep-learning-research-course/releases/tag/dl049-author-backup-20261005)，按[恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径，并核对[文件大小与 SHA256](releases/043-050-backup.json)。
 
 ## 完整路线
 
