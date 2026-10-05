@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–052讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–053讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -60,6 +60,7 @@
 |050|循环网络与时间反向传播|[17页](units/050/lecture.pdf)|[5页](units/050/lab.pdf)|[12页](units/050/answers.pdf)|[进入单元](units/050/README.md)|
 |051|门控记忆与编码解码|[11页](units/051/lecture.pdf)|[4页](units/051/lab.pdf)|[4页](units/051/answers.pdf)|[进入单元](units/051/README.md)|
 |052|注意力的逐项计算|[17页](units/052/lecture.pdf)|[5页](units/052/lab.pdf)|[5页](units/052/answers.pdf)|[进入单元](units/052/README.md)|
+|053|Transformer块与位置|[13页](units/053/lecture.pdf)|[4页](units/053/lab.pdf)|[7页](units/053/answers.pdf)|[进入单元](units/053/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
