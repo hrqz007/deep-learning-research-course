@@ -52,7 +52,9 @@
     "045",
     "046",
     "047",
-    "048"
+    "048",
+    "051",
+    "052"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1621,7 +1623,32 @@
       "figure": "门控状态流与encoder-decoder的信息瓶颈。",
       "lab": "完成复制或小型转换任务，比较RNN与一种门控模型；检查起止符和长度处理。",
       "pitfall": "把门控等同于无限记忆；只在teacher forcing下评估生成。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/051/lecture.pdf",
+        "lab_pdf": "units/051/lab.pdf",
+        "answers_pdf": "units/051/answers.pdf",
+        "notebook": "units/051/experiment.ipynb",
+        "script": "units/051/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "64d971c3d585f8a1c04a887a4581cc6f1f45dfef",
+        "verified_file_count": 40,
+        "verified_bytes": 28165681,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-05"
+      },
+      "release_record": "releases/051-052.json"
     },
     {
       "id": "052",
@@ -1636,7 +1663,32 @@
       "figure": "一个可手算的注意力矩阵与信息流。",
       "lab": "手算小注意力并与PyTorch对齐；检查padding和因果mask，注入未来信息检测泄漏。",
       "pitfall": "把注意力权重直接当因果解释；混淆不同API的mask布尔语义。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/052/lecture.pdf",
+        "lab_pdf": "units/052/lab.pdf",
+        "answers_pdf": "units/052/answers.pdf",
+        "notebook": "units/052/experiment.ipynb",
+        "script": "units/052/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "64d971c3d585f8a1c04a887a4581cc6f1f45dfef",
+        "verified_file_count": 35,
+        "verified_bytes": 5352270,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-05"
+      },
+      "release_record": "releases/051-052.json"
     },
     {
       "id": "053",
@@ -2445,6 +2497,8 @@
     "047",
     "048",
     "049",
-    "050"
+    "050",
+    "051",
+    "052"
   ]
 }
