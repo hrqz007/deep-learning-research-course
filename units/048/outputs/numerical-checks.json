@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "numerical_errors": {
+    "hand_autograd_0": 0.0,
+    "hand_finite_difference_0": 3.254271851993451e-11,
+    "hand_autograd_1": 0.0,
+    "hand_finite_difference_1": 6.41162956060981e-11,
+    "hand_autograd_2": 1.3877787807814457e-17,
+    "hand_finite_difference_2": 4.3697018226040996e-11,
+    "full_cnn_numpy_forward": 3.469446951953614e-17
+  },
+  "boundary_cases": 26,
+  "checks": [
+    "three full hand rounds vs autograd and finite differences",
+    "full CNN NumPy forward",
+    "stable CE extreme logits",
+    "reproducible nonmutating augmentation",
+    "unsupported input rejection",
+    "all final metrics and groups",
+    "development-only selection recomputation",
+    "disjoint identities and bytes",
+    "freeze event before first test load"
+  ]
+}

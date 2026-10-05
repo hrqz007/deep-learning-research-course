@@ -1,0 +1,22 @@
+{
+  "verified_runtime_python": "3.12.14",
+  "python_packages": {
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "matplotlib": "3.10.8",
+    "fonttools": "4.61.1",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "markdown": "3.11",
+    "weasyprint": "70.0",
+    "pypdf": "6.10.0",
+    "pillow": "12.3.0"
+  },
+  "node_dependency": {
+    "mathjax-full": "3.2.2"
+  },
+  "fonts": "Noto Sans CJK SC and Noto Serif CJK SC from distribution fonts-noto-cjk; font binaries not bundled",
+  "platform_scope": "Linux x86_64 CPU float64; browser UI/socket/GPU not tested",
+  "learner_manifest": "../requirements.txt and ../environment.yml",
+  "pdf_manifest": "requirements-build.txt and package.json"
+}

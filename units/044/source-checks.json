@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-05",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/1512.03385v1",
+      "type": "primary",
+      "status": "read",
+      "use": "residual mapping, matching, projection"
+    },
+    {
+      "url": "https://arxiv.org/html/1603.05027v3",
+      "type": "primary",
+      "status": "read",
+      "use": "identity assumptions and activation placement"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/v2.7.1/torch/nn/modules/conv.py",
+      "type": "primary",
+      "status": "read",
+      "use": "versioned Conv2d semantics"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.7.1/torch/nn/modules/batchnorm.py",
+      "type": "primary",
+      "status": "read",
+      "use": "versioned BN state semantics"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "type": "primary",
+      "status": "read",
+      "use": "reproducibility limitations"
+    }
+  ],
+  "retrieval_limitations": [
+    "Some unversioned documentation URLs returned redirects only; used versioned official sources.",
+    "GitHub batchnorm.py page initially unavailable; same version official raw file read successfully."
+  ]
+}

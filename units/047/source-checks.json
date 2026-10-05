@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-05",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2010.11929v2",
+      "scope": "primary author fulltext method/patch/position/hybrid"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v139/touvron21a.html",
+      "scope": "primary proceedings abstract, not reproduction"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.MultiheadAttention.html",
+      "scope": "official version2.7 interface"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/autograd.html",
+      "scope": "official saved_tensors_hooks documentation"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.cuda.max_memory_allocated.html",
+      "scope": "official peak-allocated-memory definition; GPU not executed"
+    }
+  ],
+  "origin": "all instructional data, figures, numerical examples and prose original"
+}

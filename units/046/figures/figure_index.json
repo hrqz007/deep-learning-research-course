@@ -1,0 +1,67 @@
+[
+  {
+    "file": "01_tasks.png",
+    "description": "相同输入，分类、检测与语义分割的输出对象不同",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "02_iou_branches.png",
+    "description": "IoU分段几何及不可微边界",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "03_box_regression.png",
+    "description": "框编码与稳健的分段回归损失",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "04_matching_nms.png",
+    "description": "NMS不读取真值；评估匹配读取真值且不可重复使用",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "05_ap_convention.png",
+    "description": "相同排序在不同AP采样约定下可有不同结果",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "06_multiscale.png",
+    "description": "多尺度特征图的语义与坐标权衡",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "07_hand_gradient.png",
+    "description": "两个图像四个像素的梯度贡献与重新计算的损失",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "08_data.png",
+    "description": "四种标注情况均存在于每个数据拆分",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "09_all_traces.png",
+    "description": "21次训练完整验证曲线，虚线压力实验也保留",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "10_results.png",
+    "description": "每个点是预定种子；确定性逐像素模型的三个点重合",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "11_predictions.png",
+    "description": "固定展示test-000至003，不挑选最好样本；模型种子11",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "12_all_test_images.png",
+    "description": "九个冻结选择模型在48张测试图上的全部逐图IoU",
+    "origin": "original code, specified toy example or retained experiment data"
+  },
+  {
+    "file": "13_threshold_empty.png",
+    "description": "阈值搜索和空图误报揭示损失与决策的区别",
+    "origin": "original code, specified toy example or retained experiment data"
+  }
+]

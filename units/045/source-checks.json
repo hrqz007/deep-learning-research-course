@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-05",
+  "sources": [
+    {
+      "url": "https://docs.pytorch.org/vision/stable/transforms.html",
+      "read_scope": "official page, current0.29; no local torchvision claim"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.functional.interpolate.html",
+      "read_scope": "official version2.7 interpolation conventions"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v119/lee20c.html",
+      "read_scope": "primary proceedings abstract and bibliographic record"
+    },
+    {
+      "url": "https://arxiv.org/abs/2004.07780",
+      "read_scope": "author abstract and publication record"
+    }
+  ],
+  "scope": "All data, figures and numerical teaching examples original; cited paper methods/results not reproduced"
+}

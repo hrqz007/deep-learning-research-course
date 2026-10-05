@@ -1,0 +1,96 @@
+{
+  "unit": "043",
+  "checked_on": "2026-10-05",
+  "status": "author_checked_pending_independent_review",
+  "author_checks": {
+    "normal_tests": "9 meaningful groups passed",
+    "optimized_tests": "same 9 groups passed under Python -O",
+    "full_experiment": "normal and -O from external cwd byte-identical to frozen results.json",
+    "data_regeneration": "byte-identical using numpy2.3.5",
+    "figures_regeneration": "all 11 PNGs byte-identical in recorded runtime",
+    "notebook": {
+      "kernel": "new Python process, actual IPython InProcessKernel, all cells sequentially executed",
+      "code_cells": 8,
+      "embedded_png": 4,
+      "errors": 0,
+      "runtime_images_visual_review": "all 4 actual embedded PNG outputs inspected"
+    },
+    "pdf_visual_review": {
+      "lecture": 14,
+      "lab": 5,
+      "answers": 4,
+      "method": "each final rendered page individually visually inspected; formulas, all 11 figures, tables, clipping and page flow checked"
+    }
+  },
+  "independent_numerical_references": [
+    "official PyTorch2.7.1+cpu forward and autograd across distinct shape/stride/padding/dilation cases",
+    "all-coordinate central differences on a smooth small scalar operator",
+    "independent framework basis matrix and transpose/adjoint inner-product check",
+    "exact Fraction two-sample three-state ledger, all five parameter gradients and all input coordinates",
+    "independent einsum generator and least-squares window design for the fixed learning problem"
+  ],
+  "supported_domain": {
+    "dtype": "finite real arrays converted to CPU float64; bool/complex/object rejected",
+    "layout": "nonempty NCHW; groups=1; symmetric integer zero-padding; positive integer stride/dilation",
+    "resource_limits": "each raw/padded/output array <=1e6 elements; <=2e7 multiply-add sites per call",
+    "rejections": [
+      "invalid shape/channel/bias/upstream",
+      "NaN/Inf",
+      "invalid geometry",
+      "unsupported groups keyword",
+      "operation overflow",
+      "resource limit exceeded"
+    ]
+  },
+  "limitations": [
+    "not independent QA or publication approval",
+    "no browser Jupyter UI, GPU, all-platform Anaconda fresh install or out-of-process socket transport claim",
+    "direct dependency versions are not a complete cross-platform lockfile",
+    "toy system identification and deterministic mechanism probes; no universal real-image performance conclusion",
+    "float64 roundoff and underflow remain; numeric comparisons require meaningful tolerances"
+  ],
+  "retained_negative_results": [
+    "zero-padding full-image translation error 4.5 despite internal error0",
+    "stride2 input shift1 has no integer output-shift counterpart; both diagnostic alignments fail",
+    "sample1 worsens while the two-sample mean improves",
+    "80-step SGD remains above independent least-squares training optimum"
+  ],
+  "artifacts": {
+    "lecture.pdf": {
+      "sha256": "98f99f565725e4ec56a2a8ac7252c62de791da7595cd394094f62ae349b9e705",
+      "bytes": 1747937
+    },
+    "lab.pdf": {
+      "sha256": "7de00146ef965b0526b3a20405cfd0c3f69e837abcb77af2e458036a8a4ec32a",
+      "bytes": 575914
+    },
+    "answers.pdf": {
+      "sha256": "a345fee800e5675d3e35a8fd706d24cf7a7ed9a6d37281f67b379c21b55bb813",
+      "bytes": 528396
+    },
+    "experiment.ipynb": {
+      "sha256": "7c34829923bf4841eb04417acd86de8adf620db72d396b982775cb9172903cb7",
+      "bytes": 176763
+    },
+    "experiment.py": {
+      "sha256": "a8b302af65eea6a95a6818576ad7236284b170a0bdd84e688e47adc6bf05b5c4",
+      "bytes": 13028
+    },
+    "test_experiment.py": {
+      "sha256": "fc1b0b0e03e321b8e0e56d660f7bf1836be3f22099610467db997283bad2e868",
+      "bytes": 6568
+    },
+    "generate_data.py": {
+      "sha256": "06d0297731852637d5028e807dbd1d3d820d05ec27edaceb896d824832362f08",
+      "bytes": 1693
+    },
+    "make_figures.py": {
+      "sha256": "228b1465de03f566d905a6613d941fd0a8530f535897b0aa1b26e068ca9a57a2",
+      "bytes": 9479
+    },
+    "outputs/results.json": {
+      "sha256": "2a155fcf39ca6d97ffecb49ad63966b4cc4aa68f9af914de6bb34c67e80685ce",
+      "bytes": 116672
+    }
+  }
+}

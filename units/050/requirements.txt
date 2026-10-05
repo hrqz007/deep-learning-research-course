@@ -1,0 +1,8 @@
+numpy==2.3.5
+torch==2.7.1
+matplotlib==3.10.8
+fonttools==4.61.1
+nbformat==5.11.1
+ipykernel==7.4.0
+# Optional browser UI; not exercised during author execution:
+notebook>=7,<8

@@ -1,0 +1,112 @@
+{
+  "protocol_sha256": "7c50edc6a4a46d450fb02f31131181c7751959d1f669b285e8f4a1da9afbed5e",
+  "data_manifest_sha256": "b73b1498c61f6e524412160cbeebd72261a9916cb0f9d79418eb497eafef38d3",
+  "selected": {
+    "plain": {
+      "lr": 0.1,
+      "score": 0.175403393805027,
+      "ids": [
+        "plain_lr0.1_seed11",
+        "plain_lr0.1_seed22",
+        "plain_lr0.1_seed33"
+      ]
+    },
+    "brightness": {
+      "lr": 0.1,
+      "score": 0.21545798579851785,
+      "ids": [
+        "brightness_lr0.1_seed11",
+        "brightness_lr0.1_seed22",
+        "brightness_lr0.1_seed33"
+      ]
+    },
+    "random_stamp": {
+      "lr": 0.1,
+      "score": 0.10198653986056645,
+      "ids": [
+        "random_stamp_lr0.1_seed11",
+        "random_stamp_lr0.1_seed22",
+        "random_stamp_lr0.1_seed33"
+      ]
+    },
+    "mask_stamp": {
+      "lr": 0.03,
+      "score": 0.3110844666759173,
+      "ids": [
+        "mask_stamp_lr0.03_seed11",
+        "mask_stamp_lr0.03_seed22",
+        "mask_stamp_lr0.03_seed33"
+      ]
+    }
+  },
+  "winner": "random_stamp",
+  "scores": [
+    {
+      "method": "plain",
+      "lr": 0.03,
+      "mean_dev_ce": 0.3047265186905861
+    },
+    {
+      "method": "plain",
+      "lr": 0.1,
+      "mean_dev_ce": 0.175403393805027
+    },
+    {
+      "method": "brightness",
+      "lr": 0.03,
+      "mean_dev_ce": 0.3565852592388789
+    },
+    {
+      "method": "brightness",
+      "lr": 0.1,
+      "mean_dev_ce": 0.21545798579851785
+    },
+    {
+      "method": "random_stamp",
+      "lr": 0.03,
+      "mean_dev_ce": 0.34064651528994244
+    },
+    {
+      "method": "random_stamp",
+      "lr": 0.1,
+      "mean_dev_ce": 0.10198653986056645
+    },
+    {
+      "method": "mask_stamp",
+      "lr": 0.03,
+      "mean_dev_ce": 0.3110844666759173
+    },
+    {
+      "method": "mask_stamp",
+      "lr": 0.1,
+      "mean_dev_ce": 0.3174152858555317
+    }
+  ],
+  "all_checkpoint_sha256": {
+    "plain_lr0.03_seed11": "be0e469de1a28fb586a836b6efb73c3b6ea5ee21b13ee9844ed0c44de8f3088f",
+    "plain_lr0.03_seed22": "6092ac2e857ffccdd6d33f44032c2639310f70addbebe721dbcd99e5010d318e",
+    "plain_lr0.03_seed33": "779e9ad87ffcf212720c23e5a6d696843d6a1d0984c93b5ba5c28229f53b57f5",
+    "plain_lr0.1_seed11": "001ccec0daaf1d462542f585ac2433084b28a7a3f50bb638e5db1cecf128759e",
+    "plain_lr0.1_seed22": "a800923002eb64d4140aeb630d0906a77b8b891c1a640eeaddee7d5a6e562002",
+    "plain_lr0.1_seed33": "955b87f9782fc7c0fa6252677c7c3f0ceee52ecc6f6799bfca6c4d3c1308b00d",
+    "brightness_lr0.03_seed11": "46819465a715036cf7939ecbe91e99583a0480eea249ada4ddec702800768d82",
+    "brightness_lr0.03_seed22": "4843f0bff5878c7df15e379f33264f692b1bc0589a3dd9582b2409eb24bb8a2d",
+    "brightness_lr0.03_seed33": "7eee887eb922e0f06a61bdfdb31598c4adbcf4aaa8c30b5f7993c01a6c189b4a",
+    "brightness_lr0.1_seed11": "adeda18cb5d3b281c00fa246324f10ac395172eb0734096695db6bc12f996583",
+    "brightness_lr0.1_seed22": "8824ac37bcb6f9056e2188180b1e9942fe9e91d2ec55b35f87bbc12e7464a5cc",
+    "brightness_lr0.1_seed33": "67e2dc93c2b518c8dbe177a85897719a83a96237f9f098120256780563566d8e",
+    "random_stamp_lr0.03_seed11": "191be0966d8dec75d382a00692a9368b7eb1775cec04202e00bf34481cb18d50",
+    "random_stamp_lr0.03_seed22": "6d7e578253e1d9aacbaf723c70068ebd47817beae178fe6241b77515e518e8ec",
+    "random_stamp_lr0.03_seed33": "25462b85625f18d68b03c57300bbaea5bafae109a7456fcf523be6fd24c04ccd",
+    "random_stamp_lr0.1_seed11": "19e094b4ae044405052a83539cfda866305cc2fe7d95bf9d041d83b22bf7c0df",
+    "random_stamp_lr0.1_seed22": "5687df03767cf73d712ed774b1ee5de0d553ee5c7500b0835f5a96d15ff0389a",
+    "random_stamp_lr0.1_seed33": "eb19b7404ab12bf96107ca805fa499a3fe98b1fda30fd8c125f728aea5aaa383",
+    "mask_stamp_lr0.03_seed11": "6eb39e7ca11d0abea26ab6a7e9f32adc7db16b27f192354ced42bed9dba9c4b8",
+    "mask_stamp_lr0.03_seed22": "943b77e2497169cfea11cbb16f4f9d1df22d2675f819325a3b14a4ce01628ea5",
+    "mask_stamp_lr0.03_seed33": "6cfcf855d149e98ac9d2cc5dc35427c51728d4965b9cab829bab39986b9d794a",
+    "mask_stamp_lr0.1_seed11": "48ee1da8d37246865f7b162c33072a1e96fe6ce8a1858535f8955810ad1a62ed",
+    "mask_stamp_lr0.1_seed22": "6773b775bc52b09daee990dd494bbc294558072f0eb1ebe9b43df0ff264a8f53",
+    "mask_stamp_lr0.1_seed33": "6fd5aafecb7a768ea2b0ea9068cb802d3505c43eadd1b63f5e4f395973061fa1"
+  },
+  "before_test_arrays_loaded": true
+}

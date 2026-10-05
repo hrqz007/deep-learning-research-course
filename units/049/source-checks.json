@@ -1,0 +1,35 @@
+{
+  "checked_utc_date": "2026-10-05",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.unicode.org/reports/tr29/",
+      "scope": "official HTML; text segmentation background, not implementation conformance",
+      "access": "opened successfully"
+    },
+    {
+      "id": "S2",
+      "url": "https://unicode.org/reports/tr15/",
+      "scope": "official HTML; normalization background, no normalization performed",
+      "access": "opened successfully"
+    },
+    {
+      "id": "S3",
+      "url": "https://aclanthology.org/P16-1162.pdf",
+      "scope": "author paper PDF; abstract and subword/BPE method background",
+      "access": "opened successfully"
+    },
+    {
+      "id": "S4",
+      "url": "https://aclanthology.org/D18-2012.pdf",
+      "scope": "author paper PDF; tokenizer-system background only",
+      "access": "opened successfully"
+    },
+    {
+      "id": "S5",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.Embedding.html",
+      "scope": "official pinned-version documentation; shape, padding_idx and options",
+      "access": "opened successfully"
+    }
+  ]
+}

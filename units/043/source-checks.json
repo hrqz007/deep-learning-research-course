@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-05",
+  "torch_installed": "2.7.1+cpu",
+  "torch_conv2d_source_sha256": "566c7b4286b795bb035b52796f4582b4f1e71e7b901f794c375bbc60274be24d",
+  "sources": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.modules.conv.Conv2d.html",
+      "read": "official current webpage; version differs from experiment"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/blob/v2.7.1/torch/nn/modules/conv.py",
+      "read": "installed official v2.7.1+cpu Conv2d docstring/source inspected; linked GitHub is source locator, not claimed downloaded"
+    },
+    {
+      "url": "https://distill.pub/2019/computing-receptive-fields/",
+      "read": "primary article receptive field/coordinate definitions and holes"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v97/zhang19a.html",
+      "read": "primary proceedings article abstract; no result replication claimed"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "read": "official versioned reproducibility page"
+    }
+  ],
+  "limitations": [
+    "2.7 Conv2d web fetch failed; installed version checked instead",
+    "book chapter full-page fetch exceeded size; not counted as fully read"
+  ]
+}

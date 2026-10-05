@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-10-05",
+  "platform_scope": "Linux CPU float64; isolated authoring environment",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.7.1+cpu",
+  "matplotlib": "3.10.8",
+  "nbformat": "5.11.1",
+  "ipykernel": "7.4.0",
+  "Markdown": "3.11",
+  "weasyprint": "70.0",
+  "mathjax-full": "3.2.2",
+  "font_family": "Noto Sans/Serif CJK installed from system distribution; binaries not bundled",
+  "recreation": "environment.yml for experiment; shared/build-tools requirements and package.json for optional PDF rebuild",
+  "limitations": "Direct versions are not a full cross-platform lockfile; system Pango and fonts affect PDF layout; GPU/Jupyter browser UI/fresh Anaconda install on other OS not tested."
+}

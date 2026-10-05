@@ -1,0 +1,83 @@
+{
+  "unit": "048",
+  "figure_count": 11,
+  "figures": [
+    {
+      "file": "figures/01_evidence_flow.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/02_data_samples.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/03_split_domains.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/04_hand_graph.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/05_hand_gradients.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/06_hand_updates.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/07_all_candidates.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/08_test_results.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/09_group_errors.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/10_counterfactual.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    },
+    {
+      "file": "figures/11_failure_cases.png",
+      "origin": "original generated with make_figures.py",
+      "data": "outputs/results.json; data arrays; independent hand ledger",
+      "legend_policy": "outside data axes in separate lower band whenever a legend exists",
+      "review": "author visually inspected full image and actual embedded Notebook image; no clipping or legend/data overlap observed"
+    }
+  ]
+}

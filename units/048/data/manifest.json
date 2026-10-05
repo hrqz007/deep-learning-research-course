@@ -1,0 +1,63 @@
+{
+  "generator": "048-original-v1",
+  "split_before_augmentation": true,
+  "files": {
+    "dev_iid_meta.json": "07f2076410d981efe024154842487e2e1d7ec169d79baff9cb0b834bae6f3f9e",
+    "dev_iid_x.npy": "b5e1f59bc9756b277ab2a544fab3db8bab2ad635004d4b1f3bbeb0f706c7db0d",
+    "dev_iid_y.npy": "7bddc7a642685792cf97c831fe2f98d34f1651acdf04ade63732c76e988fe5c1",
+    "dev_shift_meta.json": "78f04e677745b992619d15568e8e4887729c9e17cc6ec09cce03f99e94cebc49",
+    "dev_shift_x.npy": "b6624862496a9995ca42b41eac52709c2182b043b7d622b982dc93d1560e1f89",
+    "dev_shift_y.npy": "8efee9e9b58db6a6ac76f103b84de49960a960ba0acdc89149db9fd749a0460b",
+    "test_iid_meta.json": "39f340b809429f0d1c441a5e0ad2ee3ff6f63c25b202e40766d45b10fc030eb8",
+    "test_iid_x.npy": "6ff3f9b30e7cce8b41a66179d5816e79b504e2514da902adf54dd5046ff32858",
+    "test_iid_y.npy": "394136378ac3255f9798f8485779388d43b116a7dcc8b679546bde22c8597ae6",
+    "test_shift_meta.json": "7f9fc842d708422a6839ab9dd3d2428f07808d1f2a1b74108ec8e7d0754b723d",
+    "test_shift_x.npy": "5b75c3cb245408d45694ff24c1e2cbd212dfae667767329d34fdedc2985e1907",
+    "test_shift_y.npy": "1eaf01c4411d9826177a1e2cae6121635d69a2b4e349725db5d20b515e865c14",
+    "train_meta.json": "e73c5647a41d7ac3dbb322d9e54a293819d772d382ec38a4eb46b35ee1ac39d1",
+    "train_x.npy": "331af3af9ff01a8f5813cfce841793dd5cf42353e16d39b862ddf026696f708e",
+    "train_y.npy": "5226afa278f543b2d53a61b2ac63b7d792291a85c402eab11ab2f9f6ee4ae5ce"
+  },
+  "splits": {
+    "train": {
+      "n": 384,
+      "class_counts": [
+        192,
+        192
+      ],
+      "stamp_match_actual": 0.8723958333333334
+    },
+    "dev_iid": {
+      "n": 192,
+      "class_counts": [
+        96,
+        96
+      ],
+      "stamp_match_actual": 0.9166666666666666
+    },
+    "dev_shift": {
+      "n": 192,
+      "class_counts": [
+        96,
+        96
+      ],
+      "stamp_match_actual": 0.53125
+    },
+    "test_iid": {
+      "n": 256,
+      "class_counts": [
+        128,
+        128
+      ],
+      "stamp_match_actual": 0.890625
+    },
+    "test_shift": {
+      "n": 256,
+      "class_counts": [
+        128,
+        128
+      ],
+      "stamp_match_actual": 0.11328125
+    }
+  }
+}

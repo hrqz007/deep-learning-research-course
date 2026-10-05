@@ -1,0 +1,162 @@
+{
+  "unit": "050",
+  "figure_count": 13,
+  "figures": [
+    {
+      "file": "figures/01_unrolled.png",
+      "width_height": [
+        1760,
+        768
+      ],
+      "sha256": "c2ab0627c5a6f8faec6a0b66f7a290ff167826acb841e5f0fceadbbcd341e81d",
+      "origin": "original source-generated diagram",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/02_hand_forward.png",
+      "width_height": [
+        1760,
+        720
+      ],
+      "sha256": "97b61e8c945e3c53b17bf4424f6acc04ed8614e94f9b748077ee09edc814062e",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/03_local_backward.png",
+      "width_height": [
+        1760,
+        720
+      ],
+      "sha256": "98f5ad1c1e28a9f0890502f3dd8fbb740291ffbae40928d44423d3d0c4ceec3d",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/04_shared_gradients.png",
+      "width_height": [
+        1600,
+        800
+      ],
+      "sha256": "b00b553067f0c6e13283dafc839d49d3d1f1243431a3f3b6ccee1157d69d2c18",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/05_update.png",
+      "width_height": [
+        1600,
+        720
+      ],
+      "sha256": "a25eacae2bf734e0e1074eda344e06b02393e12941b01a8cca0bd62b22d0baa5",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/06_jacobian.png",
+      "width_height": [
+        1760,
+        736
+      ],
+      "sha256": "623449fb6e3aa37d1c7b83188df930ca6826c7279042a1c5f872ef15bad97c2a",
+      "origin": "original mechanism plot",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/07_detach.png",
+      "width_height": [
+        1760,
+        640
+      ],
+      "sha256": "b50cb7fc70f54d63778891fb0ebd0d6141f064737528340316958db44677473f",
+      "origin": "original source-generated diagram",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/08_data.png",
+      "width_height": [
+        1760,
+        800
+      ],
+      "sha256": "d808d81ce9e6a7780f8f5ffeb9a6c4a6f893bd61728e844fd07fc763d3a01c89",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/09_training.png",
+      "width_height": [
+        1920,
+        736
+      ],
+      "sha256": "384e7d9b59d14e550d38b410fc5eb93c9a6b093af55e65b78f2a974f245b9e82",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/10_test_results.png",
+      "width_height": [
+        1760,
+        768
+      ],
+      "sha256": "be67f48b574b949e16b030af8469b86e0500bb015970f3bd13ce43a09820c783",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": "arithmetic mean points for BCE without invalid negative SD error bars on log scale"
+    },
+    {
+      "file": "figures/11_clipping.png",
+      "width_height": [
+        1760,
+        768
+      ],
+      "sha256": "1c639638ebc6d841ccc4180a2ae8ef3290157b424d20658df4c48a36b9b28c92",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": ""
+    },
+    {
+      "file": "figures/12_input_gradients.png",
+      "width_height": [
+        1760,
+        752
+      ],
+      "sha256": "149995fa5fa27ba3bb6238544732170e5a867c925b7eb57d38713fa433b8545c",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": "display floor 1e-18 represents exact zero in truncated early gradient"
+    },
+    {
+      "file": "figures/13_counterfactual.png",
+      "width_height": [
+        1760,
+        720
+      ],
+      "sha256": "6e971475e9df57ec4033255dabf4ee3835f4c653f7458b15ce88480ebaef1819",
+      "origin": "actual stored scientific data from this unit",
+      "legend_policy": "all legends outside data axes in dedicated blank bands; colorbars adjacent to axes",
+      "review": "author inspected final source image, actual embedded Notebook PNG, and every containing PDF page",
+      "special_note": "post-hoc diagnostic, not used for selection"
+    }
+  ]
+}

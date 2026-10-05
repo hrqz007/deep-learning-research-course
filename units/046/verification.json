@@ -1,0 +1,141 @@
+{
+  "unit": "046",
+  "title": "检测分割与结构化预测",
+  "prerequisites": [
+    "039",
+    "044",
+    "045"
+  ],
+  "status": "author_execution_and_visual_review_completed; independent review not claimed",
+  "execution_date_utc": "2026-10-05",
+  "scripts": {
+    "test_experiment": "10 unittest methods pass normal/-O, with explicit non-assert checks; actual run regression forces float32 default and verifies float64 positive weight and independent first update",
+    "experiment": "normal/-O full execution; scientific JSON equal except wall_seconds; 77 arrays equal",
+    "generate_data": "all 8 NPY files and metadata byte-identical normal/-O",
+    "make_figures": "v1 regenerated 13 PNGs; all byte-identical to v0 normal/-O images",
+    "pdf_build": "v0 three PDFs built normal/-O; v1 affected lecture/lab rebuilt, unchanged answers retained; changed pages re-inspected and all other page pixels unchanged",
+    "notebook": "v1 creation and full 21-model execution in a fresh normal Python process, real ipykernel InProcessKernel"
+  },
+  "numerical_max_errors": {
+    "cnn_all_parameters_and_inputs_fd_max": 1.7813820904488686e-10,
+    "actual_training_positive_weight_value_error": 0.0,
+    "actual_training_first_update_max": 1.1102230246251565e-16
+  },
+  "training": {
+    "candidates": 21,
+    "updates_each": 100,
+    "updates_total": 2100,
+    "parameter_states_each": 101,
+    "completed": 21,
+    "nonfinite_runs": 0,
+    "selected_models": 9,
+    "baseline_threshold_candidates": 50,
+    "npz_arrays": 77,
+    "negative_findings_retained": [
+      "Pixel head and low-LR CNN have final foreground IoU zero.",
+      "All three lr=10 stress runs remain finite but final validation IoU is zero.",
+      "Weighted CNN does not improve mean test IoU and increases empty-image false-positive rate.",
+      "Brightness shift reduces segmentation IoU."
+    ]
+  },
+  "notebook": {
+    "code_cells": 12,
+    "image_png_outputs": 13,
+    "sequential_execution_counts": true,
+    "errors": 0,
+    "complete_training_rerun": true,
+    "scientific_result_equality": true,
+    "all_embedded_images_equal_to_retained_figures": true,
+    "execution": "new Python process, real ipykernel InProcessKernel",
+    "limitation": "socket transport and browser Jupyter UI not tested"
+  },
+  "pdf_pages": {
+    "lecture": 14,
+    "lab": 4,
+    "answers": 5
+  },
+  "visual_review": {
+    "lecture_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "lab_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "answers_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "actual_notebook_pngs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "method": "v0 final 23 PDF pages and 13 actual notebook PNGs inspected. v1 changed lecture pages 8,9,10 and lab page 3 re-inspected; all other rendered pages pixel-identical; all 13 regenerated figures and actual notebook PNGs byte-identical.",
+    "result": "no visible clipping, missing glyphs or overlapping labels after corrections"
+  },
+  "data": {
+    "original_synthetic": true,
+    "total_images": 176,
+    "exact_image_hashes_unique": 176,
+    "split_sizes": {
+      "train": 64,
+      "validation": 32,
+      "test": 48,
+      "shift": 32
+    },
+    "coordinates": "half-open XYXY; NCHW images; N1HW masks; overlaps use semantic union"
+  },
+  "limitations": [
+    "Teaching single-class AP does not implement full COCO.",
+    "Synthetic task; no real-world or cross-hardware performance claims.",
+    "Three initialization seeds reuse fixed test data; pixel repeats are deterministic.",
+    "Equal SGD updates do not imply equal FLOPs."
+  ],
+  "revision": {
+    "version": 1,
+    "reason": "Explicit positive-weight dtype/device equal to logits; regress real training entry with float32 default; rerun all scientific artifacts.",
+    "actual_positive_weight": 9.132343846629562,
+    "positive_weight_dtype": "torch.float64",
+    "selection_and_reported_iou_unchanged": true,
+    "changed_pdf_pages": {
+      "lecture": [
+        8,
+        9,
+        10
+      ],
+      "lab": [
+        3
+      ],
+      "answers": []
+    }
+  }
+}

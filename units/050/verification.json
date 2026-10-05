@@ -1,0 +1,63 @@
+{
+  "unit": "050",
+  "status": "author_checked_pending_independent_review",
+  "checked_on": "2026-10-05",
+  "title": "循环网络与时间反向传播",
+  "prerequisites": [
+    "027",
+    "035",
+    "049"
+  ],
+  "author_checks": {
+    "numerical_and_behavioral": [
+      "independent math-scalar forward and BCE",
+      "scalar and matrix NumPy BPTT vs autograd and central finite differences at three epsilons; every parameter and input",
+      "shared recurrent weight equals sum of independently untied temporal copies",
+      "torch.nn.RNN official cell mapping with explicit dtype/device and merged bias",
+      "state freeze and loss mask make padding inert",
+      "batch vs independent sequences and batch permutation invariance",
+      "detach identical forward values; zero early gradient across fixed block boundary",
+      "production SGD entry vs independent NumPy terminal loss, clipping, synchronous update and next forward",
+      "explicit input bounds and invalid dtype/length/truncation/rate checks active under -O",
+      "data regeneration, balance, distinct rows across splits and array hashes"
+    ],
+    "normal_and_optimized_tests_complete": true,
+    "full_experiment": "27 fixed-protocol runs in normal and -O entry; all scientific histories, terminal metrics and 135 parameter arrays exactly equal to archived results in the recorded environment",
+    "notebook": {
+      "execution": "fresh Python process; actual IPython InProcessKernel; all cells sequential",
+      "code_cells": 10,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual_embedded_pngs": 13,
+      "errors": 0,
+      "all_pngs_byte_identical_to_final_figures": true
+    },
+    "pdf": {
+      "lecture": 17,
+      "lab": 5,
+      "answers": 12
+    },
+    "visual_review": "Author inspected every final PDF page and every actual Notebook PNG; no missing glyph, clipping, legend/data overlap or broken formula observed. Long tables repeat headers.",
+    "production_step": "Independent NumPy terminal-loss gradients, global clipping with implementation epsilon, synchronous SGD and next-forward check cover actual step entry.",
+    "dtype_device": "All tensor constructors explicitly declare dtype/device; float64 CPU only, integer lengths int64; upstream differentiable embedding chains remain supported."
+  },
+  "not_tested": [
+    "browser Jupyter UI",
+    "external kernel socket transport",
+    "GPU or MPS",
+    "float32 or mixed precision",
+    "extreme or arbitrary-size inputs",
+    "real-language task generalization"
+  ],
+  "interpretation_limit": "Toy evidence only; author verification does not constitute independent QA certification."
+}

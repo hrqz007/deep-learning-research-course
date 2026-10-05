@@ -1,0 +1,68 @@
+[
+  {
+    "file": "figures/01_plain_residual.png",
+    "purpose": "plain versus residual graph with post-addition gate",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/02_projection_shapes.png",
+    "purpose": "odd-spatial projection shapes and adjoint paths",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/03_hand_forward.png",
+    "purpose": "complete sample A forward",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/04_parameter_ledger.png",
+    "purpose": "per-sample shared-parameter gradient ledger",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/05_hand_updates.png",
+    "purpose": "two updates and three complete forwards",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/06_data.png",
+    "purpose": "first 12 original training images",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/07_all_learning_curves.png",
+    "purpose": "all 24 candidate validation trajectories",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/08_gradient_profiles.png",
+    "purpose": "fixed-probe parameter gradient RMS for all seeds",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/09_bn_instability.png",
+    "purpose": "same-weight post-hoc BN state diagnostics",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/10_paired_test.png",
+    "purpose": "12 formally selected paired test results",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  },
+  {
+    "file": "figures/11_all_errors.png",
+    "purpose": "all five mistakes of designated residual model",
+    "origin": "original course diagram or plot",
+    "source": "make_figures.py; reference.py; outputs/results.json; data/"
+  }
+]

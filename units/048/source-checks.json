@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-05",
+  "sources": [
+    {
+      "id": "shortcut",
+      "url": "https://arxiv.org/abs/2004.07780",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    },
+    {
+      "id": "datasheets",
+      "url": "https://arxiv.org/abs/1803.09010",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    },
+    {
+      "id": "wilds",
+      "url": "https://proceedings.mlr.press/v139/koh21a.html",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    },
+    {
+      "id": "reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.7/notes/randomness.html",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    },
+    {
+      "id": "cross_entropy",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.CrossEntropyLoss.html",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    },
+    {
+      "id": "cc0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+      "status": "opened primary source successfully",
+      "use": "concept or API reference; no reproduced figure or result"
+    }
+  ]
+}

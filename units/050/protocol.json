@@ -1,0 +1,30 @@
+{
+  "unit": "050",
+  "title": "循环网络与时间反向传播",
+  "frozen_before_first_training": "2026-10-05T05:34:00Z",
+  "task": "binary delayed first-sign recall, synthetic independent sequences",
+  "data_seeds": {"train": 5101, "validation": 5102, "test": 5103},
+  "counts": {"train": 256, "validation": 128, "test": 256},
+  "delays": [2, 8, 24],
+  "model_seeds": [7, 19, 41],
+  "input_size": 3,
+  "hidden_size": 12,
+  "dtype": "float64",
+  "device": "cpu",
+  "recurrent_orthogonal_gain": 1.1,
+  "steps": 320,
+  "optimizer": "full-batch SGD without momentum",
+  "learning_rate": 0.3,
+  "conditions": [
+    {"name":"full", "truncate":null, "clip":null},
+    {"name":"full_clip", "truncate":null, "clip":0.25},
+    {"name":"tbptt4_clip", "truncate":4, "clip":0.25}
+  ],
+  "state_policy":"zero reset before every independent sequence and every epoch; no cross-batch carry",
+  "checkpoint_policy":"fixed final step 320, no best-seed or validation selection",
+  "evaluation":"all seeds, all conditions, validation and once final test; per-run BCE and accuracy; 3-seed descriptive mean and sample SD, not population CI",
+  "gradient_probe":"initial and final gradient of one final logit with respect to each input timestep; full graph, separately record training-graph gradient with detach",
+  "negative_results":"retain every run; no hyperparameter tuning based on validation or test; identical initialization and data paired across conditions",
+  "interpretation_limit":"mechanistic toy evidence only, no natural-language or real-world generalization claim",
+  "limits":{"max_examples":4096,"max_steps":1000,"max_time":128,"max_hidden":64,"max_abs_input":10,"max_abs_parameter":100,"gpu":false}
+}

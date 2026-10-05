@@ -1,0 +1,235 @@
+{
+  "unit": "049",
+  "status": "author_checked_pending_independent_review",
+  "checked_on": "2026-10-05",
+  "prerequisites": [
+    "017",
+    "024",
+    "030"
+  ],
+  "author_checks": {
+    "tests": "11 meaningful unittest groups passed normal/-O; explicit assertions remain under optimization",
+    "experiment": "all6 full fits normal/-O; results.json and both compressed parameter files byte-identical",
+    "independent_author_reference": {
+      "all_numpy_update_checks": 720,
+      "max_update_abs_gap": 4.440892098500626e-16,
+      "max_training_loss_gap": 1.7763568394002505e-15,
+      "notebook_cells": 7,
+      "notebook_png": 4,
+      "notebook_normal_and_O_png_byte_identical": true
+    },
+    "notebook": {
+      "method": "normal and -O separate new Python processes, real IPython InProcessKernel; final saved execution -O",
+      "code_cells": 7,
+      "actual_png": 4,
+      "errors": 0,
+      "complete_training_replays": 2,
+      "image_review": "all4 actual embedded PNGs inspected; normal/-O PNG bytes identical"
+    },
+    "pdf": {
+      "pages": {
+        "lecture": 10,
+        "lab": 4,
+        "answers": 4
+      },
+      "review": "all18 final pages inspected; final literal <PAD> rendering fixed, unchanged pages pixel-identical to inspected render",
+      "normal_O_build": "all3 PDFs byte-identical"
+    },
+    "data": "normal/-O generator output byte-identical to provided originals",
+    "figures": "all11 regenerated -O PNGs byte-identical to normal; all appear in visually inspected lecture"
+  },
+  "scientific_reference_scope": [
+    "known BPE pairs, overlap counting, lexicographic ties and document boundaries",
+    "Unicode byte roundtrips and invalid UTF-8 rejection",
+    "one-hot lookup identity and consistent vocabulary ID permutation invariance",
+    "right-padding invariance of objective and all gradients",
+    "all33 free small-model coordinates central difference",
+    "exact Fraction hand ledger at3 states versus full autograd",
+    "independent NumPy objective/gradient for all720 recorded updates",
+    "all6 final models and all144 test-document NLL recomputed by per-token scalar loop",
+    "real training nonfinite failure preserves old result files"
+  ],
+  "numerical_max_errors": {
+    "sampled_torch_numpy_loss_or_gradient": 8.881784197001252e-16,
+    "all720_updates": 4.440892098500626e-16,
+    "all720_training_losses": 1.7763568394002505e-15
+  },
+  "experiment": {
+    "fits": 6,
+    "updates": 720,
+    "full_parameter_states": 726,
+    "tokenizers": [
+      "all256 bytes plus4 special IDs",
+      "16 train-only byte-BPE merges"
+    ],
+    "test_utf8_bytes": 730,
+    "test_target_counts": [
+      754,
+      554
+    ],
+    "train_target_counts": [
+      1506,
+      1098
+    ],
+    "selection": "no search; validation descriptive, all120-step endpoints retained",
+    "negative_result": "both neural arms worse than corresponding train-only add-one unigram baseline"
+  },
+  "supported_domain": {
+    "tokenizer": "valid Unicode text <=4096 UTF-8 bytes/document, fit1..512 documents <=200000 bytes, merge budget0..64; no normalization or pretokenization",
+    "padding": "BOS+content IDs>=4+EOS only, right padding, no automatic truncation, width<=4097 and B*T<=200000",
+    "numpy_reference": "finite real parameters converted to float64, integer same-shape IDs/targets, boolean mask with valid count>0, <=2000000 logits; explicit overflow rejection",
+    "output_write": "training and serialization completed before writes, per-file atomic replace only, no directory transaction"
+  },
+  "limitations": [
+    "author checks are not independent QA approval",
+    "synthetic template corpus, no real language understanding/generalization claim",
+    "not SentencePiece/WordPiece/GPT compatible",
+    "byte coverage does not guarantee semantics; arbitrary token sequences may be invalid UTF-8",
+    "token perplexity differs in unit between tokenizers; bits/byte is canonical-path cost excluding side information, not text probability marginalization",
+    "same update counts differ in effective token presentations and parameters; no throughput or VRAM measured",
+    "browser Jupyter UI, socket transport and fresh installations on every platform not tested",
+    "fixed CPU float64 environment replay; no universal cross-backend bitwise guarantee"
+  ],
+  "artifacts": {
+    "README.md": {
+      "sha256": "97df5f51e882b0e104d2357db4e8f2afce24d4cb740024cf63e5135d83d6ef71",
+      "bytes": 3327
+    },
+    "answers.md": {
+      "sha256": "ba9ced1827f7cba76acbb0bd5b1c2d8b572c72cc59296a9660ac054bef797b57",
+      "bytes": 9224
+    },
+    "answers.pdf": {
+      "sha256": "72a722aadff1033492fcaa299a5e9b6569c6946f387df701cf7abdfdb7ba6c1f",
+      "bytes": 573576
+    },
+    "create_notebook.py": {
+      "sha256": "1782db5733687e139e330a42a472d2b24a4dabd1b1956511dd1b85f96170bf8a",
+      "bytes": 9412
+    },
+    "data/README.md": {
+      "sha256": "2afc14e5739923e73d16fb34dca7c678286bbca4ab082eaff7f508da48850fd2",
+      "bytes": 799
+    },
+    "data/corpus.json": {
+      "sha256": "22d35d917a1e07c06b8b02983b88dd12eae4381b1bca519d921181c7c281b5a9",
+      "bytes": 4161
+    },
+    "data/data_manifest.json": {
+      "sha256": "d9c4705b2bfa0bebdd8cc44c0d70d1e02a639e49b76a569e1b6945cf66d8b1fa",
+      "bytes": 188
+    },
+    "environment.yml": {
+      "sha256": "43f99e07477d24e61201e035a5413f062559201de15a0363c13d113420320d30",
+      "bytes": 229
+    },
+    "experiment.ipynb": {
+      "sha256": "0b722bd08f558d8d75e54d79bbf77312af04853e25ad68aed12ba2e0a168cd63",
+      "bytes": 222052
+    },
+    "experiment.py": {
+      "sha256": "825768c3a312db0eca239477f5869f6855d3604b859290d60b149090ce3aea0e",
+      "bytes": 15489
+    },
+    "figures/01_pipeline.png": {
+      "sha256": "aad5be3942123c8ea2a3f48a176caa3fe3fc83a7f092b6fcd1082ec64ae243de",
+      "bytes": 60191
+    },
+    "figures/02_counts.png": {
+      "sha256": "c784334ef51b4cb0de1198faa676c19ed987900a8d172172c8ef409f73a9299a",
+      "bytes": 59920
+    },
+    "figures/03_bpe_history.png": {
+      "sha256": "0216b2fda2ab03eec3bc392e2fa0c4c39d1630dd77394555a2f2017ca72a5f33",
+      "bytes": 101576
+    },
+    "figures/04_merge_boundaries.png": {
+      "sha256": "c028a02791ab19e716f0879e0ff385067c55d9aea4cc6740ca68cc357969e952",
+      "bytes": 57524
+    },
+    "figures/05_lookup.png": {
+      "sha256": "dafe7ac6afb17c8548d066f16240307daa745c29b728fedcc541ed18a444513c",
+      "bytes": 65600
+    },
+    "figures/06_padding.png": {
+      "sha256": "0cb4101b0f67be3f7c4b0a88d28c118e359c5c625dc7d1702170f650a53315ef",
+      "bytes": 64839
+    },
+    "figures/07_scatter.png": {
+      "sha256": "887b2fe370acf5d3dc3670fc2e9ddc480da4cb2d22cda8c9a6bf6e8de52539e5",
+      "bytes": 92555
+    },
+    "figures/08_hand_updates.png": {
+      "sha256": "f47538fabc47f9c83d3bb3240eda682769e2fb2e8fe4bf972f798c2f45372ed2",
+      "bytes": 99077
+    },
+    "figures/09_training.png": {
+      "sha256": "bf866d04edfeb54fe22703a23f79ad28de9d19ab07b086f37c7c336157fb43c5",
+      "bytes": 97924
+    },
+    "figures/10_metrics.png": {
+      "sha256": "aeb00fb5897737306c6bd9941b979ad96e07265de8d6b97756243aed21da5ef8",
+      "bytes": 70012
+    },
+    "figures/11_budgets.png": {
+      "sha256": "42469f375e68654813c7ac73c0571289b5d3c87400754bec7b671d096fc1f7f9",
+      "bytes": 134772
+    },
+    "generate_data.py": {
+      "sha256": "bfba198cb64a0633547743066bf7e83f2379a20506f4fa734e23ba78fe3a4861",
+      "bytes": 1872
+    },
+    "lab.md": {
+      "sha256": "a8f4494dae30d9f522cf976c6d663b5ba74f7d72fd2ea2e045e5143c4440965d",
+      "bytes": 8997
+    },
+    "lab.pdf": {
+      "sha256": "a828e2ed347d0ae72d2a19e392e2ac650aefa2222646506117b088c42762c325",
+      "bytes": 563311
+    },
+    "lecture.md": {
+      "sha256": "b212798cf3be8642444a83fbd439a68837b3d556f0180949575a0182dc85f8a5",
+      "bytes": 21176
+    },
+    "lecture.pdf": {
+      "sha256": "b2e95023642ffd4b026a028adad7662de364dba67c66179e9a7feb69497827bb",
+      "bytes": 1660811
+    },
+    "make_figures.py": {
+      "sha256": "bb3af6a7af9b50a879685c2f221793000197a9a617d4f8b11ae47401f9b51282",
+      "bytes": 9197
+    },
+    "outputs/README.md": {
+      "sha256": "05761918684c9957429137fa54ae7417429c8cabe7ee7271156dfe59e6055967",
+      "bytes": 1169
+    },
+    "outputs/final_states.json.gz": {
+      "sha256": "5d471b4686e6423c891297c4e9f743bceda7886f2f23a2ab54151e5bc5f53c48",
+      "bytes": 252809
+    },
+    "outputs/results.json": {
+      "sha256": "2f73ac47d5631b45cc7e3afa910acd1661bff184d3a55478ecdeac3deb56327c",
+      "bytes": 79345
+    },
+    "outputs/training_traces.json.gz": {
+      "sha256": "8ad2753061c52b838b8810532f21fbd9cb6bdd47e81da292556a43dd4841982d",
+      "bytes": 30437808
+    },
+    "runtime_versions.json": {
+      "sha256": "9e3b03b12759ef1eee38959dff125fa7faaabec6bcc3dc5aec21d4c8094fc990",
+      "bytes": 456
+    },
+    "source-checks.json": {
+      "sha256": "ae4f6e8a66f7c47c9131e6a017246546a04b53d4d7033b77f05a015f9699e06c",
+      "bytes": 1115
+    },
+    "sources.md": {
+      "sha256": "3263bbfad2ee21c3532a1d6bda4cb289147b4785a2edf81ca1f96ffbde4e5e08",
+      "bytes": 1544
+    },
+    "test_experiment.py": {
+      "sha256": "59b7a7fd7d5daba69f246e37a240a68e7dcaa5ab81b67785db7640a2bf78f5dc",
+      "bytes": 8818
+    }
+  }
+}

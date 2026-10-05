@@ -1,0 +1,2734 @@
+{
+  "license": "CC0-1.0; original procedurally generated data",
+  "coordinates": "half-open XYXY; x=column edge, y=row edge; image NCHW, mask N1HW",
+  "splits": {
+    "train": {
+      "n": 64,
+      "seed": 4601,
+      "shift": 0,
+      "records": [
+        {
+          "id": "train-000",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.14624174598238188,
+          "contrast": 0.3827073707330202
+        },
+        {
+          "id": "train-001",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              1,
+              9,
+              7
+            ]
+          ],
+          "background": 0.2238832873011693,
+          "contrast": 0.4807018190605449
+        },
+        {
+          "id": "train-002",
+          "kind": "overlap",
+          "boxes": [
+            [
+              8,
+              2,
+              13,
+              8
+            ],
+            [
+              9,
+              3,
+              15,
+              10
+            ]
+          ],
+          "background": 0.1560541920755061,
+          "contrast": 0.4443557675801211
+        },
+        {
+          "id": "train-003",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.19659431561535123,
+          "contrast": 0.33414961063620835
+        },
+        {
+          "id": "train-004",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.07501582056467065,
+          "contrast": 0.49013902572378076
+        },
+        {
+          "id": "train-005",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              8,
+              11,
+              12
+            ]
+          ],
+          "background": 0.061871111945112016,
+          "contrast": 0.41973377470175793
+        },
+        {
+          "id": "train-006",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              4,
+              13,
+              10
+            ],
+            [
+              8,
+              5,
+              15,
+              12
+            ]
+          ],
+          "background": 0.2987577583168043,
+          "contrast": 0.3270309933236078
+        },
+        {
+          "id": "train-007",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.14976481652754928,
+          "contrast": 0.4088518401212447
+        },
+        {
+          "id": "train-008",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.25360882641990157,
+          "contrast": 0.37301911504256485
+        },
+        {
+          "id": "train-009",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              1,
+              5,
+              6
+            ]
+          ],
+          "background": 0.09774982597990015,
+          "contrast": 0.3956120526446484
+        },
+        {
+          "id": "train-010",
+          "kind": "overlap",
+          "boxes": [
+            [
+              8,
+              1,
+              13,
+              6
+            ],
+            [
+              9,
+              2,
+              15,
+              8
+            ]
+          ],
+          "background": 0.1809079467869817,
+          "contrast": 0.40578390434882367
+        },
+        {
+          "id": "train-011",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.21462294432238305,
+          "contrast": 0.33618881052199295
+        },
+        {
+          "id": "train-012",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.14831884775273266,
+          "contrast": 0.5019949790110111
+        },
+        {
+          "id": "train-013",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              1,
+              10,
+              6
+            ]
+          ],
+          "background": 0.24622169010767564,
+          "contrast": 0.34181325262187406
+        },
+        {
+          "id": "train-014",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              5,
+              10,
+              10
+            ],
+            [
+              8,
+              6,
+              12,
+              12
+            ]
+          ],
+          "background": 0.3401743392231159,
+          "contrast": 0.5019353404349707
+        },
+        {
+          "id": "train-015",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.11192582444753454,
+          "contrast": 0.4471990442118188
+        },
+        {
+          "id": "train-016",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.06560625561656304,
+          "contrast": 0.3479095462149829
+        },
+        {
+          "id": "train-017",
+          "kind": "single",
+          "boxes": [
+            [
+              7,
+              2,
+              13,
+              7
+            ]
+          ],
+          "background": 0.3025569198058882,
+          "contrast": 0.4893400446993103
+        },
+        {
+          "id": "train-018",
+          "kind": "overlap",
+          "boxes": [
+            [
+              2,
+              2,
+              8,
+              7
+            ],
+            [
+              3,
+              3,
+              10,
+              9
+            ]
+          ],
+          "background": 0.19432397429554898,
+          "contrast": 0.4050285408857747
+        },
+        {
+          "id": "train-019",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.21034237617915214,
+          "contrast": 0.3610156107837835
+        },
+        {
+          "id": "train-020",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.2783918298209046,
+          "contrast": 0.5194905947961626
+        },
+        {
+          "id": "train-021",
+          "kind": "single",
+          "boxes": [
+            [
+              3,
+              7,
+              8,
+              10
+            ]
+          ],
+          "background": 0.13299377809558474,
+          "contrast": 0.3791286011832962
+        },
+        {
+          "id": "train-022",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              8,
+              7,
+              14
+            ],
+            [
+              5,
+              9,
+              9,
+              16
+            ]
+          ],
+          "background": 0.3439797548788526,
+          "contrast": 0.3272825438530384
+        },
+        {
+          "id": "train-023",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.05127191244180232,
+          "contrast": 0.35786289170177765
+        },
+        {
+          "id": "train-024",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.23258493891182214,
+          "contrast": 0.49749748606193955
+        },
+        {
+          "id": "train-025",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              4,
+              7,
+              9
+            ]
+          ],
+          "background": 0.11374634087194359,
+          "contrast": 0.47094483352512
+        },
+        {
+          "id": "train-026",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              8,
+              10,
+              11
+            ],
+            [
+              6,
+              9,
+              12,
+              13
+            ]
+          ],
+          "background": 0.19840265198596163,
+          "contrast": 0.3354871637438069
+        },
+        {
+          "id": "train-027",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.2500810808716026,
+          "contrast": 0.47039043444889794
+        },
+        {
+          "id": "train-028",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.18538383892778398,
+          "contrast": 0.42005605765786536
+        },
+        {
+          "id": "train-029",
+          "kind": "single",
+          "boxes": [
+            [
+              3,
+              7,
+              8,
+              11
+            ]
+          ],
+          "background": 0.27132096590021754,
+          "contrast": 0.4613046572666455
+        },
+        {
+          "id": "train-030",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              6,
+              9,
+              9
+            ],
+            [
+              5,
+              7,
+              11,
+              11
+            ]
+          ],
+          "background": 0.13131944809338583,
+          "contrast": 0.4758531721599678
+        },
+        {
+          "id": "train-031",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.06172813944614756,
+          "contrast": 0.39060039761763277
+        },
+        {
+          "id": "train-032",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.10592036777630721,
+          "contrast": 0.3848560324675775
+        },
+        {
+          "id": "train-033",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              3,
+              9,
+              7
+            ]
+          ],
+          "background": 0.18979733337153354,
+          "contrast": 0.42997480195837984
+        },
+        {
+          "id": "train-034",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              5,
+              8,
+              10
+            ],
+            [
+              5,
+              6,
+              10,
+              12
+            ]
+          ],
+          "background": 0.2837964726263843,
+          "contrast": 0.4838571138014587
+        },
+        {
+          "id": "train-035",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.18333644570723706,
+          "contrast": 0.4814810463760576
+        },
+        {
+          "id": "train-036",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.18868939493977493,
+          "contrast": 0.39506895370913375
+        },
+        {
+          "id": "train-037",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              6,
+              9,
+              11
+            ]
+          ],
+          "background": 0.19936417454060412,
+          "contrast": 0.4230667127329063
+        },
+        {
+          "id": "train-038",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              3,
+              11,
+              7
+            ],
+            [
+              8,
+              4,
+              13,
+              9
+            ]
+          ],
+          "background": 0.3419585361265329,
+          "contrast": 0.390545894129554
+        },
+        {
+          "id": "train-039",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.2412742229953549,
+          "contrast": 0.5033206013325382
+        },
+        {
+          "id": "train-040",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.05391870266760073,
+          "contrast": 0.36362019794596245
+        },
+        {
+          "id": "train-041",
+          "kind": "single",
+          "boxes": [
+            [
+              5,
+              1,
+              11,
+              5
+            ]
+          ],
+          "background": 0.29639978324181027,
+          "contrast": 0.4332740866915935
+        },
+        {
+          "id": "train-042",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              3,
+              9,
+              6
+            ],
+            [
+              7,
+              4,
+              11,
+              8
+            ]
+          ],
+          "background": 0.26700214445036125,
+          "contrast": 0.518147114951501
+        },
+        {
+          "id": "train-043",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.16426208845171747,
+          "contrast": 0.35055124213676325
+        },
+        {
+          "id": "train-044",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.2582381472139197,
+          "contrast": 0.3761274469083252
+        },
+        {
+          "id": "train-045",
+          "kind": "single",
+          "boxes": [
+            [
+              8,
+              7,
+              13,
+              12
+            ]
+          ],
+          "background": 0.2417588262411588,
+          "contrast": 0.4552249353274384
+        },
+        {
+          "id": "train-046",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              7,
+              12,
+              10
+            ],
+            [
+              8,
+              8,
+              14,
+              12
+            ]
+          ],
+          "background": 0.11728757879581897,
+          "contrast": 0.3654878221861661
+        },
+        {
+          "id": "train-047",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.2169855077373392,
+          "contrast": 0.4667896468426096
+        },
+        {
+          "id": "train-048",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.23189474954224298,
+          "contrast": 0.337493241451948
+        },
+        {
+          "id": "train-049",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              5,
+              9,
+              8
+            ]
+          ],
+          "background": 0.08604252508593781,
+          "contrast": 0.3485110342491346
+        },
+        {
+          "id": "train-050",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              5,
+              11,
+              9
+            ],
+            [
+              8,
+              6,
+              13,
+              11
+            ]
+          ],
+          "background": 0.20428773599648375,
+          "contrast": 0.5053980818987733
+        },
+        {
+          "id": "train-051",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.20354810901701642,
+          "contrast": 0.33407882212756124
+        },
+        {
+          "id": "train-052",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.27019441496441293,
+          "contrast": 0.4413048376902312
+        },
+        {
+          "id": "train-053",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              6,
+              12,
+              12
+            ]
+          ],
+          "background": 0.1838863727133893,
+          "contrast": 0.35912259607031155
+        },
+        {
+          "id": "train-054",
+          "kind": "overlap",
+          "boxes": [
+            [
+              2,
+              7,
+              8,
+              12
+            ],
+            [
+              3,
+              8,
+              10,
+              14
+            ]
+          ],
+          "background": 0.26968867948941916,
+          "contrast": 0.476254327986784
+        },
+        {
+          "id": "train-055",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.1030495340954411,
+          "contrast": 0.3241662629092197
+        },
+        {
+          "id": "train-056",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.13340811540422443,
+          "contrast": 0.49122152159183974
+        },
+        {
+          "id": "train-057",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              4,
+              7,
+              10
+            ]
+          ],
+          "background": 0.3205137358488293,
+          "contrast": 0.38674702588194254
+        },
+        {
+          "id": "train-058",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              4,
+              8,
+              9
+            ],
+            [
+              5,
+              5,
+              10,
+              11
+            ]
+          ],
+          "background": 0.261205829648499,
+          "contrast": 0.3529751343588188
+        },
+        {
+          "id": "train-059",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.05963641300434067,
+          "contrast": 0.3843182917386979
+        },
+        {
+          "id": "train-060",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.33456913199425503,
+          "contrast": 0.3842179080016617
+        },
+        {
+          "id": "train-061",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              5,
+              6,
+              8
+            ]
+          ],
+          "background": 0.058782944544932283,
+          "contrast": 0.4472568182462635
+        },
+        {
+          "id": "train-062",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              2,
+              12,
+              6
+            ],
+            [
+              7,
+              3,
+              14,
+              8
+            ]
+          ],
+          "background": 0.12248759941302548,
+          "contrast": 0.47225697989581955
+        },
+        {
+          "id": "train-063",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.1795914853703242,
+          "contrast": 0.42111709568744893
+        }
+      ],
+      "files": {
+        "train_x.npy": "6ab8966c06ed4ca599dc034a8d89fca396c59834f7a1a332c35f8b3bd5acc98a",
+        "train_y.npy": "495ca3fb007a683d123ac676edce9980423d81968b33a8580207936953a8cc54"
+      }
+    },
+    "validation": {
+      "n": 32,
+      "seed": 4602,
+      "shift": 0,
+      "records": [
+        {
+          "id": "validation-000",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.20326466560971845,
+          "contrast": 0.49254600564552525
+        },
+        {
+          "id": "validation-001",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              2,
+              10,
+              7
+            ]
+          ],
+          "background": 0.08114115134518315,
+          "contrast": 0.37236305872915854
+        },
+        {
+          "id": "validation-002",
+          "kind": "overlap",
+          "boxes": [
+            [
+              3,
+              1,
+              9,
+              6
+            ],
+            [
+              4,
+              2,
+              11,
+              8
+            ]
+          ],
+          "background": 0.13699182532679335,
+          "contrast": 0.4507799653933259
+        },
+        {
+          "id": "validation-003",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.21348177191539597,
+          "contrast": 0.368681817591562
+        },
+        {
+          "id": "validation-004",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.052775095166815125,
+          "contrast": 0.4852310691760655
+        },
+        {
+          "id": "validation-005",
+          "kind": "single",
+          "boxes": [
+            [
+              8,
+              4,
+              12,
+              9
+            ]
+          ],
+          "background": 0.3201156646844448,
+          "contrast": 0.4936439892597974
+        },
+        {
+          "id": "validation-006",
+          "kind": "overlap",
+          "boxes": [
+            [
+              2,
+              4,
+              8,
+              7
+            ],
+            [
+              3,
+              5,
+              10,
+              9
+            ]
+          ],
+          "background": 0.27804454043445853,
+          "contrast": 0.4656814494212218
+        },
+        {
+          "id": "validation-007",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.2109975060446697,
+          "contrast": 0.4182753525623286
+        },
+        {
+          "id": "validation-008",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.23529990171611176,
+          "contrast": 0.47064238369770406
+        },
+        {
+          "id": "validation-009",
+          "kind": "single",
+          "boxes": [
+            [
+              5,
+              3,
+              8,
+              7
+            ]
+          ],
+          "background": 0.05652656939206222,
+          "contrast": 0.5104036559521471
+        },
+        {
+          "id": "validation-010",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              3,
+              12,
+              6
+            ],
+            [
+              7,
+              4,
+              14,
+              8
+            ]
+          ],
+          "background": 0.17760796529243666,
+          "contrast": 0.36887673097047324
+        },
+        {
+          "id": "validation-011",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.12928820048772516,
+          "contrast": 0.35884779183975507
+        },
+        {
+          "id": "validation-012",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.31737631489305723,
+          "contrast": 0.39272145090307525
+        },
+        {
+          "id": "validation-013",
+          "kind": "single",
+          "boxes": [
+            [
+              3,
+              7,
+              9,
+              11
+            ]
+          ],
+          "background": 0.29335401599281974,
+          "contrast": 0.5094944335826196
+        },
+        {
+          "id": "validation-014",
+          "kind": "overlap",
+          "boxes": [
+            [
+              3,
+              5,
+              7,
+              8
+            ],
+            [
+              4,
+              6,
+              9,
+              10
+            ]
+          ],
+          "background": 0.21085328306689533,
+          "contrast": 0.4941789182413311
+        },
+        {
+          "id": "validation-015",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.12223596407803501,
+          "contrast": 0.35253431769841403
+        },
+        {
+          "id": "validation-016",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.06949748501023251,
+          "contrast": 0.4540110846647116
+        },
+        {
+          "id": "validation-017",
+          "kind": "single",
+          "boxes": [
+            [
+              7,
+              8,
+              12,
+              11
+            ]
+          ],
+          "background": 0.2306757175522659,
+          "contrast": 0.4703676878274396
+        },
+        {
+          "id": "validation-018",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              2,
+              7,
+              8
+            ],
+            [
+              5,
+              3,
+              9,
+              10
+            ]
+          ],
+          "background": 0.22959895691484028,
+          "contrast": 0.48192097305938325
+        },
+        {
+          "id": "validation-019",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.05633163183664515,
+          "contrast": 0.4551466026726092
+        },
+        {
+          "id": "validation-020",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.25095873550901093,
+          "contrast": 0.45762108717788796
+        },
+        {
+          "id": "validation-021",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              2,
+              9,
+              5
+            ]
+          ],
+          "background": 0.2642671156655811,
+          "contrast": 0.49475502786859665
+        },
+        {
+          "id": "validation-022",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              5,
+              9,
+              11
+            ],
+            [
+              6,
+              6,
+              11,
+              13
+            ]
+          ],
+          "background": 0.09584952472973987,
+          "contrast": 0.4240636365825593
+        },
+        {
+          "id": "validation-023",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.08333638695378842,
+          "contrast": 0.5191126649712393
+        },
+        {
+          "id": "validation-024",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.06676828696513892,
+          "contrast": 0.4370797950520817
+        },
+        {
+          "id": "validation-025",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              3,
+              5,
+              8
+            ]
+          ],
+          "background": 0.12867016872641554,
+          "contrast": 0.40852266482169264
+        },
+        {
+          "id": "validation-026",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              1,
+              10,
+              7
+            ],
+            [
+              6,
+              2,
+              12,
+              9
+            ]
+          ],
+          "background": 0.25425895881738186,
+          "contrast": 0.32173625531680566
+        },
+        {
+          "id": "validation-027",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.3228438848387828,
+          "contrast": 0.4935998935738587
+        },
+        {
+          "id": "validation-028",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.07299242182372133,
+          "contrast": 0.44789981077532254
+        },
+        {
+          "id": "validation-029",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              1,
+              9,
+              5
+            ]
+          ],
+          "background": 0.2947879011141312,
+          "contrast": 0.5033068857667103
+        },
+        {
+          "id": "validation-030",
+          "kind": "overlap",
+          "boxes": [
+            [
+              8,
+              4,
+              14,
+              10
+            ],
+            [
+              9,
+              5,
+              16,
+              12
+            ]
+          ],
+          "background": 0.3254664047341587,
+          "contrast": 0.4624821818036667
+        },
+        {
+          "id": "validation-031",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.18055908997842446,
+          "contrast": 0.35595845500485424
+        }
+      ],
+      "files": {
+        "validation_x.npy": "58f1209c8bc113e44cdd678012dd71bd3af11890735bf8540bd8a44e3a766383",
+        "validation_y.npy": "07c6695db7d581220b9f68fc29b9d7e750c590511ac01bc5b5d927f251c6cb0b"
+      }
+    },
+    "test": {
+      "n": 48,
+      "seed": 4603,
+      "shift": 0,
+      "records": [
+        {
+          "id": "test-000",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.14550675498901372,
+          "contrast": 0.40302709973832057
+        },
+        {
+          "id": "test-001",
+          "kind": "single",
+          "boxes": [
+            [
+              3,
+              3,
+              8,
+              9
+            ]
+          ],
+          "background": 0.2792418079110719,
+          "contrast": 0.3534430098597231
+        },
+        {
+          "id": "test-002",
+          "kind": "overlap",
+          "boxes": [
+            [
+              1,
+              8,
+              6,
+              14
+            ],
+            [
+              2,
+              9,
+              8,
+              16
+            ]
+          ],
+          "background": 0.31079616993842435,
+          "contrast": 0.3333421622982707
+        },
+        {
+          "id": "test-003",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.23542972020864839,
+          "contrast": 0.3495444780787085
+        },
+        {
+          "id": "test-004",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.162877590069465,
+          "contrast": 0.41766340734515506
+        },
+        {
+          "id": "test-005",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              8,
+              9,
+              13
+            ]
+          ],
+          "background": 0.23334327084284218,
+          "contrast": 0.3257596686534213
+        },
+        {
+          "id": "test-006",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              4,
+              11,
+              10
+            ],
+            [
+              7,
+              5,
+              13,
+              12
+            ]
+          ],
+          "background": 0.27859950349357604,
+          "contrast": 0.3581718610138699
+        },
+        {
+          "id": "test-007",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.19738215901102646,
+          "contrast": 0.43999949674663014
+        },
+        {
+          "id": "test-008",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.1730813842164775,
+          "contrast": 0.37654960678958704
+        },
+        {
+          "id": "test-009",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              8,
+              6,
+              14
+            ]
+          ],
+          "background": 0.17525014548216483,
+          "contrast": 0.41981618143909316
+        },
+        {
+          "id": "test-010",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              8,
+              12,
+              14
+            ],
+            [
+              8,
+              9,
+              14,
+              16
+            ]
+          ],
+          "background": 0.050684412466831544,
+          "contrast": 0.46059951835196955
+        },
+        {
+          "id": "test-011",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.3460792466218455,
+          "contrast": 0.35201628665374735
+        },
+        {
+          "id": "test-012",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.32367071567110445,
+          "contrast": 0.38208947903145535
+        },
+        {
+          "id": "test-013",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              8,
+              5,
+              13
+            ]
+          ],
+          "background": 0.06519468607071399,
+          "contrast": 0.40990114911813436
+        },
+        {
+          "id": "test-014",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              3,
+              9,
+              9
+            ],
+            [
+              5,
+              4,
+              11,
+              11
+            ]
+          ],
+          "background": 0.1751009913852143,
+          "contrast": 0.32004449560273174
+        },
+        {
+          "id": "test-015",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.13106982983036147,
+          "contrast": 0.4337857959006236
+        },
+        {
+          "id": "test-016",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.24461805950836069,
+          "contrast": 0.4332898010847348
+        },
+        {
+          "id": "test-017",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              5,
+              5,
+              8
+            ]
+          ],
+          "background": 0.28009142831081196,
+          "contrast": 0.48609967318502034
+        },
+        {
+          "id": "test-018",
+          "kind": "overlap",
+          "boxes": [
+            [
+              4,
+              7,
+              9,
+              13
+            ],
+            [
+              5,
+              8,
+              11,
+              15
+            ]
+          ],
+          "background": 0.27115604965875456,
+          "contrast": 0.40075117005499844
+        },
+        {
+          "id": "test-019",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.21662900933734325,
+          "contrast": 0.4676964945329668
+        },
+        {
+          "id": "test-020",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.11624503703911118,
+          "contrast": 0.3746957484103564
+        },
+        {
+          "id": "test-021",
+          "kind": "single",
+          "boxes": [
+            [
+              5,
+              4,
+              8,
+              9
+            ]
+          ],
+          "background": 0.053425173631358416,
+          "contrast": 0.41005537300932016
+        },
+        {
+          "id": "test-022",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              7,
+              10,
+              13
+            ],
+            [
+              8,
+              8,
+              12,
+              15
+            ]
+          ],
+          "background": 0.3183817262128857,
+          "contrast": 0.4612751477210948
+        },
+        {
+          "id": "test-023",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.24437012740732594,
+          "contrast": 0.342432346930386
+        },
+        {
+          "id": "test-024",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.3067861140346097,
+          "contrast": 0.5174690220838447
+        },
+        {
+          "id": "test-025",
+          "kind": "single",
+          "boxes": [
+            [
+              8,
+              1,
+              14,
+              5
+            ]
+          ],
+          "background": 0.1516699442454685,
+          "contrast": 0.3677109276355564
+        },
+        {
+          "id": "test-026",
+          "kind": "overlap",
+          "boxes": [
+            [
+              2,
+              8,
+              8,
+              11
+            ],
+            [
+              3,
+              9,
+              10,
+              13
+            ]
+          ],
+          "background": 0.141170691723864,
+          "contrast": 0.4819382009977302
+        },
+        {
+          "id": "test-027",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.15354769100463214,
+          "contrast": 0.3879989405495009
+        },
+        {
+          "id": "test-028",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.13572423367017328,
+          "contrast": 0.3839581958638104
+        },
+        {
+          "id": "test-029",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              3,
+              4,
+              8
+            ]
+          ],
+          "background": 0.15565280170708815,
+          "contrast": 0.40285634131918446
+        },
+        {
+          "id": "test-030",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              5,
+              10,
+              8
+            ],
+            [
+              6,
+              6,
+              12,
+              10
+            ]
+          ],
+          "background": 0.05144634892348159,
+          "contrast": 0.35711471776725956
+        },
+        {
+          "id": "test-031",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.15350940856523357,
+          "contrast": 0.392289618073753
+        },
+        {
+          "id": "test-032",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.06353929904690052,
+          "contrast": 0.43761162139740967
+        },
+        {
+          "id": "test-033",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              4,
+              9,
+              8
+            ]
+          ],
+          "background": 0.06199877024983901,
+          "contrast": 0.38290276382028077
+        },
+        {
+          "id": "test-034",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              7,
+              8,
+              10
+            ],
+            [
+              6,
+              8,
+              10,
+              12
+            ]
+          ],
+          "background": 0.12596390285881037,
+          "contrast": 0.4090931582985718
+        },
+        {
+          "id": "test-035",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.11635415532282502,
+          "contrast": 0.38198570841832424
+        },
+        {
+          "id": "test-036",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.1033432073452788,
+          "contrast": 0.47341745043995187
+        },
+        {
+          "id": "test-037",
+          "kind": "single",
+          "boxes": [
+            [
+              4,
+              8,
+              10,
+              14
+            ]
+          ],
+          "background": 0.18834195325128705,
+          "contrast": 0.45188455376932113
+        },
+        {
+          "id": "test-038",
+          "kind": "overlap",
+          "boxes": [
+            [
+              2,
+              4,
+              8,
+              7
+            ],
+            [
+              3,
+              5,
+              10,
+              9
+            ]
+          ],
+          "background": 0.23987083879956606,
+          "contrast": 0.39506651448444763
+        },
+        {
+          "id": "test-039",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.08438019127394536,
+          "contrast": 0.5154644412657574
+        },
+        {
+          "id": "test-040",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.06957439487232733,
+          "contrast": 0.3810953120659233
+        },
+        {
+          "id": "test-041",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              7,
+              5,
+              10
+            ]
+          ],
+          "background": 0.1829241115894354,
+          "contrast": 0.42273487195501797
+        },
+        {
+          "id": "test-042",
+          "kind": "overlap",
+          "boxes": [
+            [
+              5,
+              4,
+              11,
+              10
+            ],
+            [
+              6,
+              5,
+              13,
+              12
+            ]
+          ],
+          "background": 0.16611106482187915,
+          "contrast": 0.46792665408085177
+        },
+        {
+          "id": "test-043",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.18369848585525972,
+          "contrast": 0.37592873559215945
+        },
+        {
+          "id": "test-044",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.18169527617272452,
+          "contrast": 0.44556628317968694
+        },
+        {
+          "id": "test-045",
+          "kind": "single",
+          "boxes": [
+            [
+              8,
+              1,
+              14,
+              7
+            ]
+          ],
+          "background": 0.12622132174101133,
+          "contrast": 0.3762285539393989
+        },
+        {
+          "id": "test-046",
+          "kind": "overlap",
+          "boxes": [
+            [
+              8,
+              2,
+              12,
+              6
+            ],
+            [
+              9,
+              3,
+              14,
+              8
+            ]
+          ],
+          "background": 0.3439678272865895,
+          "contrast": 0.38868822516547935
+        },
+        {
+          "id": "test-047",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.31951917522261225,
+          "contrast": 0.4453262241998134
+        }
+      ],
+      "files": {
+        "test_x.npy": "ab63110dd7bd7cd535dd57a76488a23320495e6b7670eee694ce89b6e2efeeb6",
+        "test_y.npy": "57207c6d33eb67b4f4be7ee162e77dc9fdc65dbd104b525186819bff8d046a78"
+      }
+    },
+    "shift": {
+      "n": 32,
+      "seed": 4604,
+      "shift": 0.16,
+      "records": [
+        {
+          "id": "shift-000",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.4076848083890816,
+          "contrast": 0.3782684307274092
+        },
+        {
+          "id": "shift-001",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              1,
+              6,
+              5
+            ]
+          ],
+          "background": 0.38055440534220286,
+          "contrast": 0.45612771154876786
+        },
+        {
+          "id": "shift-002",
+          "kind": "overlap",
+          "boxes": [
+            [
+              8,
+              2,
+              13,
+              7
+            ],
+            [
+              9,
+              3,
+              15,
+              9
+            ]
+          ],
+          "background": 0.30638316770956253,
+          "contrast": 0.4532154018826088
+        },
+        {
+          "id": "shift-003",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.41077354771841224,
+          "contrast": 0.3205667194087643
+        },
+        {
+          "id": "shift-004",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.22939133726746025,
+          "contrast": 0.39834071841981306
+        },
+        {
+          "id": "shift-005",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              2,
+              5,
+              7
+            ]
+          ],
+          "background": 0.5085203740898303,
+          "contrast": 0.4297736618029253
+        },
+        {
+          "id": "shift-006",
+          "kind": "overlap",
+          "boxes": [
+            [
+              3,
+              5,
+              7,
+              8
+            ],
+            [
+              4,
+              6,
+              9,
+              10
+            ]
+          ],
+          "background": 0.23407990475387516,
+          "contrast": 0.3705527920759643
+        },
+        {
+          "id": "shift-007",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.3858325731832012,
+          "contrast": 0.3930722987229887
+        },
+        {
+          "id": "shift-008",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.32329005882846973,
+          "contrast": 0.44449895424838626
+        },
+        {
+          "id": "shift-009",
+          "kind": "single",
+          "boxes": [
+            [
+              6,
+              3,
+              12,
+              8
+            ]
+          ],
+          "background": 0.24385621410312788,
+          "contrast": 0.3946123052847853
+        },
+        {
+          "id": "shift-010",
+          "kind": "overlap",
+          "boxes": [
+            [
+              1,
+              3,
+              6,
+              9
+            ],
+            [
+              2,
+              4,
+              8,
+              11
+            ]
+          ],
+          "background": 0.42370639804219856,
+          "contrast": 0.3875226368665861
+        },
+        {
+          "id": "shift-011",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.5048163671904976,
+          "contrast": 0.39230936803005506
+        },
+        {
+          "id": "shift-012",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.45103245079114396,
+          "contrast": 0.35620316060839285
+        },
+        {
+          "id": "shift-013",
+          "kind": "single",
+          "boxes": [
+            [
+              7,
+              6,
+              10,
+              12
+            ]
+          ],
+          "background": 0.37915442484371387,
+          "contrast": 0.42194875139699584
+        },
+        {
+          "id": "shift-014",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              7,
+              13,
+              10
+            ],
+            [
+              8,
+              8,
+              15,
+              12
+            ]
+          ],
+          "background": 0.24187530102622684,
+          "contrast": 0.4202183884770375
+        },
+        {
+          "id": "shift-015",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.3646601919207806,
+          "contrast": 0.4717294960744175
+        },
+        {
+          "id": "shift-016",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.38819359102079587,
+          "contrast": 0.47804742193018496
+        },
+        {
+          "id": "shift-017",
+          "kind": "single",
+          "boxes": [
+            [
+              1,
+              4,
+              6,
+              9
+            ]
+          ],
+          "background": 0.39473655918142136,
+          "contrast": 0.465439543924826
+        },
+        {
+          "id": "shift-018",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              5,
+              11,
+              11
+            ],
+            [
+              7,
+              6,
+              13,
+              13
+            ]
+          ],
+          "background": 0.4666567887324353,
+          "contrast": 0.3368187150783172
+        },
+        {
+          "id": "shift-019",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.32236179423585715,
+          "contrast": 0.3245437589174133
+        },
+        {
+          "id": "shift-020",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.505066582379033,
+          "contrast": 0.47573846128302094
+        },
+        {
+          "id": "shift-021",
+          "kind": "single",
+          "boxes": [
+            [
+              5,
+              6,
+              8,
+              9
+            ]
+          ],
+          "background": 0.3068465820738774,
+          "contrast": 0.43872921895352957
+        },
+        {
+          "id": "shift-022",
+          "kind": "overlap",
+          "boxes": [
+            [
+              6,
+              6,
+              11,
+              11
+            ],
+            [
+              7,
+              7,
+              13,
+              13
+            ]
+          ],
+          "background": 0.32948431867645345,
+          "contrast": 0.4063722933848056
+        },
+        {
+          "id": "shift-023",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.4086984960182124,
+          "contrast": 0.5020503616496497
+        },
+        {
+          "id": "shift-024",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.3993954755811401,
+          "contrast": 0.34175382163551454
+        },
+        {
+          "id": "shift-025",
+          "kind": "single",
+          "boxes": [
+            [
+              2,
+              8,
+              5,
+              12
+            ]
+          ],
+          "background": 0.45494396707097606,
+          "contrast": 0.4718825846712094
+        },
+        {
+          "id": "shift-026",
+          "kind": "overlap",
+          "boxes": [
+            [
+              1,
+              6,
+              5,
+              10
+            ],
+            [
+              2,
+              7,
+              7,
+              12
+            ]
+          ],
+          "background": 0.21346899615985626,
+          "contrast": 0.4706606534063147
+        },
+        {
+          "id": "shift-027",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.2938470242197223,
+          "contrast": 0.33028668807196027
+        },
+        {
+          "id": "shift-028",
+          "kind": "empty",
+          "boxes": [],
+          "background": 0.4183552003832738,
+          "contrast": 0.40937819482649146
+        },
+        {
+          "id": "shift-029",
+          "kind": "single",
+          "boxes": [
+            [
+              8,
+              7,
+              12,
+              12
+            ]
+          ],
+          "background": 0.48298998476206867,
+          "contrast": 0.462792387316041
+        },
+        {
+          "id": "shift-030",
+          "kind": "overlap",
+          "boxes": [
+            [
+              7,
+              1,
+              13,
+              7
+            ],
+            [
+              8,
+              2,
+              15,
+              9
+            ]
+          ],
+          "background": 0.2714381419025579,
+          "contrast": 0.46144884710680234
+        },
+        {
+          "id": "shift-031",
+          "kind": "separate",
+          "boxes": [
+            [
+              1,
+              2,
+              5,
+              7
+            ],
+            [
+              10,
+              9,
+              14,
+              14
+            ]
+          ],
+          "background": 0.3335484470334472,
+          "contrast": 0.37125500354404833
+        }
+      ],
+      "files": {
+        "shift_x.npy": "315fb55144be9c2814129df51473907571cf66a0976d6f6a27ad7c1124067aa3",
+        "shift_y.npy": "fa22e2618532727d0f92565694795d9bb76ef60b7b86e7fdb613f9fc9569da02"
+      }
+    }
+  }
+}

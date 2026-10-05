@@ -1,0 +1,109 @@
+{
+  "unit": "045",
+  "checked_on": "2026-10-05",
+  "status": "author_checked_pending_independent_review",
+  "author_checks": {
+    "normal_and_optimized_tests": "8 meaningful unittest groups passed in each mode; tests survive -O",
+    "normal_and_optimized_full_experiment": "12 fits each, from external cwd; both output files byte-identical to each other and originals",
+    "data_regeneration": "images and full augmentation plans byte-identical",
+    "figure_regeneration": "12 PNG files byte-identical",
+    "notebook": {
+      "kind": "fresh Python process, actual IPython InProcessKernel, sequential execution",
+      "code_cells": 7,
+      "embedded_png": 4,
+      "all_outputs_checked": true,
+      "full_training_reexecuted": true,
+      "trace_states_compared": 1932
+    },
+    "pdf_visual_review": {
+      "lecture": 12,
+      "lab": 4,
+      "answers": 4,
+      "method": "each final rendered page visually checked; unchanged final-page PNG bytes reuse direct earlier inspection; all changed pages reviewed again",
+      "runtime_notebook_images": "all4 actual embedded PNGs individually viewed"
+    }
+  },
+  "independent_references": [
+    "PyTorch2.7.1 bilinear/nearest-exact across mixed resize geometries",
+    "known mask pixel bounds versus half-open transformed box",
+    "Fraction exact three-state ledger versus PyTorch all-parameter and original-input gradients",
+    "independent NumPy CNN forward/gradient and all297 parameter central differences",
+    "NumPy versus autograd at0,79,159 in all12 fits",
+    "replay equality, foreground preservation and label-swap checks"
+  ],
+  "experiment": {
+    "models": 12,
+    "parameters_per_model": 297,
+    "updates": 1920,
+    "training_image_presentations": 92160,
+    "parameter_states": 1932,
+    "all_test_logits_retained": true,
+    "max_numpy_reference_gap": 1.942890293094024e-16
+  },
+  "retained_failures": [
+    "unaugmented original test100% vs reversed background0%",
+    "background augmentation raises original-domain NLL",
+    "correct rotation not uniformly better than background-only NLL",
+    "stale labels show large seed variation and not exactly50%; spatial-phase confound disclosed"
+  ],
+  "supported_domain": {
+    "geometry": "finite real nonempty CHW; integer HW masks; internal integer crops; bool horizontal flip; finite valid half-open XYXY; empty boxes allowed",
+    "resampling": "bilinear half-pixel, clamp-to-edge, align_corners=False, antialias=False; nearest-exact ID sampling",
+    "normalization": "positive finite per-channel std; training fit only in full experiment",
+    "resource_limits": "images and resized outputs at most1e6 elements",
+    "fixed_experiment": "hash-verified original data and replay plans only"
+  },
+  "limitations": [
+    "not independent QA or remote publication status",
+    "no GPU, browser Jupyter UI, out-of-process sockets or cross-platform fresh Anaconda claim",
+    "not a production image decoder; no EXIF/color-management/general arbitrary geometry implementation",
+    "antialias illustration uses official Torch separately",
+    "known synthetic masks are extra training information",
+    "paired test views and training seeds are not independent real-world datasets; no significance or real-image generalization claim",
+    "float64 underflow/roundoff and version variation remain; direct dependency versions not full cross-platform lockfile",
+    "each output file atomic, no whole-directory transaction"
+  ],
+  "artifacts": {
+    "lecture.pdf": {
+      "bytes": 1754725,
+      "sha256": "8f5f409f9a51647e18df6080a77e0ae89b0d2e23320e3825899ee36aa42c4390"
+    },
+    "lab.pdf": {
+      "bytes": 548486,
+      "sha256": "85881ed872ade1c25a2831e5f45a4cde9e913657f70a20a551279aa675938149"
+    },
+    "answers.pdf": {
+      "bytes": 563967,
+      "sha256": "1ffbbbf1dc55fab3e8ccd10351d4fe9b0439adbb1560acbfd99cbb1b0e15d8ce"
+    },
+    "experiment.ipynb": {
+      "bytes": 154187,
+      "sha256": "4407d5c5ed1eeee3e135fe5deeec436ef642044df5a6622819e834e476665a77"
+    },
+    "experiment.py": {
+      "bytes": 12905,
+      "sha256": "a96e908cf46ed9c65bc833626b551c1606bbec4cc9b71469a1899febf2b48c93"
+    },
+    "test_experiment.py": {
+      "bytes": 5517,
+      "sha256": "6cde5575a4f322c5a5fd1b902dbd49294c6e0317a15a9f761e9aa5123ea954ae"
+    },
+    "generate_data.py": {
+      "bytes": 2693,
+      "sha256": "a70506d4f84d2c13e76caec2c947ed9d8132eec8f1dac9c5322b374f2d43ec22"
+    },
+    "make_figures.py": {
+      "bytes": 9547,
+      "sha256": "a05c5cc4e49bce9c0f3c1e3935ce8384f3726af894fb212c2692546540515d11"
+    },
+    "outputs/results.json": {
+      "bytes": 513251,
+      "sha256": "1455333df2163bad7723529cd8d5e57cee3d8591cf8ce8c76c8636404f1b6b8c"
+    },
+    "outputs/training_traces.json.gz": {
+      "bytes": 5283393,
+      "sha256": "7f6bc8343d9c33b33af6f19fced4ef0362b653b045f29d7f4375f3ef342671e7"
+    }
+  },
+  "revision_note": "Visual-only revision: legends moved outside data axes in figures09/11 and Notebook comparison chart. Scientific source, data and both numerical result files unchanged."
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.7.1+cpu",
+  "device": "cpu",
+  "dtype": "float64",
+  "torch_num_threads": 1,
+  "seconds": 28.233454302999235,
+  "protocol_sha256": "ae7233cef0c890ee57bde1d5dfe8e0c4b5751f5c7e2af85d48bbacb8ff875c67",
+  "command": "python experiment.py --out /workspace/scratch/1577d0a62398/dl-course-production/units/050/outputs",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

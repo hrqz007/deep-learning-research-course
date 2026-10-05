@@ -1,0 +1,13 @@
+{
+  "experiment_data_sha256": "ec1c96566aaf6a13f6a6366ffaf3aab696ef3d31278676e5b1f419e092912f13",
+  "origin": "original synthetic arrays; no people or external dataset",
+  "numpy": "2.3.5",
+  "seeds": [
+    4301,
+    4302,
+    4303
+  ],
+  "noise_std": 0.05,
+  "train_images": 12,
+  "test_images": 20
+}

@@ -1,0 +1,5 @@
+{
+  "images_sha256": "6e497b2fbe1ec3aa1570d757e59a215a0d4ca7ccd82d040afa3dda22ffa6b8db",
+  "numpy": "2.3.5",
+  "origin": "original synthetic 8x8 bars, balanced fixed class counts, independent noise/positions"
+}

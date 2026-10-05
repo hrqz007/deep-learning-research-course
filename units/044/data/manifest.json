@@ -1,0 +1,77 @@
+{
+  "train_x.npy": {
+    "sha256": "d13fbd3101f18c6331c1a48e833c38508dfe7adc3e1ee8fda0bbf0d6b99e23f3",
+    "shape": [
+      256,
+      1,
+      12,
+      12
+    ],
+    "dtype": "float32"
+  },
+  "train_y.npy": {
+    "sha256": "f82b3adc80d50f55277a908ad3dce85e45ac06535a0890b775cc6a1680e745eb",
+    "shape": [
+      256
+    ],
+    "dtype": "int64"
+  },
+  "train_meta.npy": {
+    "sha256": "95e11ca50e4637f0807ed0524d33875c393c9a0b32097f870bbe322dffa67b40",
+    "shape": [
+      256,
+      5
+    ],
+    "dtype": "float64"
+  },
+  "validation_x.npy": {
+    "sha256": "d048d6b04516faf16ec9967071e130bb5616cd06b7175d810f0c63d68115c17b",
+    "shape": [
+      128,
+      1,
+      12,
+      12
+    ],
+    "dtype": "float32"
+  },
+  "validation_y.npy": {
+    "sha256": "b6803a767e054a3d973504e86b9f8d8bac7f5977c5f9214309a927b8227e6f88",
+    "shape": [
+      128
+    ],
+    "dtype": "int64"
+  },
+  "validation_meta.npy": {
+    "sha256": "aca2967756d6016a9a4a828470d20fe0d6478be6282a1baa40acac931de56a00",
+    "shape": [
+      128,
+      5
+    ],
+    "dtype": "float64"
+  },
+  "test_x.npy": {
+    "sha256": "930ad5546237c5807884dee46d40f55cc1e5df4825d5bc6300dcdebc561154fb",
+    "shape": [
+      512,
+      1,
+      12,
+      12
+    ],
+    "dtype": "float32"
+  },
+  "test_y.npy": {
+    "sha256": "be8d344370b101ee18d03074924c6789a6102b5e6053c284fe3f369954445d8d",
+    "shape": [
+      512
+    ],
+    "dtype": "int64"
+  },
+  "test_meta.npy": {
+    "sha256": "4461caee5c1bec3f067c3b019b35ffe46fe3ab00339bcdd222988f2bafee6cf2",
+    "shape": [
+      512,
+      5
+    ],
+    "dtype": "float64"
+  }
+}

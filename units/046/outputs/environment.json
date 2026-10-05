@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.7.1+cpu",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "data_sha256": {
+    "shift_x.npy": "315fb55144be9c2814129df51473907571cf66a0976d6f6a27ad7c1124067aa3",
+    "shift_y.npy": "fa22e2618532727d0f92565694795d9bb76ef60b7b86e7fdb613f9fc9569da02",
+    "test_x.npy": "ab63110dd7bd7cd535dd57a76488a23320495e6b7670eee694ce89b6e2efeeb6",
+    "test_y.npy": "57207c6d33eb67b4f4be7ee162e77dc9fdc65dbd104b525186819bff8d046a78",
+    "train_x.npy": "6ab8966c06ed4ca599dc034a8d89fca396c59834f7a1a332c35f8b3bd5acc98a",
+    "train_y.npy": "495ca3fb007a683d123ac676edce9980423d81968b33a8580207936953a8cc54",
+    "validation_x.npy": "58f1209c8bc113e44cdd678012dd71bd3af11890735bf8540bd8a44e3a766383",
+    "validation_y.npy": "07c6695db7d581220b9f68fc29b9d7e750c590511ac01bc5b5d927f251c6cb0b"
+  }
+}

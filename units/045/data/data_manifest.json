@@ -1,0 +1,8 @@
+{
+  "origin": "original synthetic orientation bars and fixed replay parameters",
+  "sha256": {
+    "images.json": "b69d30e95c4ede4f041fdda756d271c5b9e0cd9e0a3b268505b731cbcefc03b7",
+    "augmentation_plans.json": "033b5efc563414469bbf7e5f7c24cbbf194693698fa017d1e0d27febcd2063be"
+  },
+  "numpy": "2.3.5"
+}

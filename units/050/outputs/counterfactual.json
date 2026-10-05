@@ -1,0 +1,304 @@
+{
+  "status": "post-hoc mechanistic diagnostic, no checkpoint or hyperparameter selection",
+  "constant_zero_logit_bce": 0.6931471805599453,
+  "constant_class_accuracy": 0.5,
+  "runs": [
+    {
+      "id": "d2_s7_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0014822304822053958,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.9977808448703573,
+        "accuracy": 0.4921875
+      }
+    },
+    {
+      "id": "d2_s7_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.001534036553449297,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.9962393277431417,
+        "accuracy": 0.4921875
+      }
+    },
+    {
+      "id": "d2_s7_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.001534036553449297,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.9962393277431417,
+        "accuracy": 0.4921875
+      }
+    },
+    {
+      "id": "d2_s19_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0012291993989846795,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.7636572997937512,
+        "accuracy": 0.5546875
+      }
+    },
+    {
+      "id": "d2_s19_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0012661738661062503,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.7647603862149057,
+        "accuracy": 0.55078125
+      }
+    },
+    {
+      "id": "d2_s19_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0012661738661062503,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.7647603862149057,
+        "accuracy": 0.55078125
+      }
+    },
+    {
+      "id": "d2_s41_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0012407921721927352,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.749610225744939,
+        "accuracy": 0.48828125
+      }
+    },
+    {
+      "id": "d2_s41_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0012647807283570735,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.7497802286912507,
+        "accuracy": 0.49609375
+      }
+    },
+    {
+      "id": "d2_s41_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0012647807283570735,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 0.7497802286912507,
+        "accuracy": 0.49609375
+      }
+    },
+    {
+      "id": "d8_s7_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0013020014303424493,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.7601413335531144,
+        "accuracy": 0.4609375
+      }
+    },
+    {
+      "id": "d8_s7_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0013171764112461042,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.7998694179030306,
+        "accuracy": 0.46484375
+      }
+    },
+    {
+      "id": "d8_s7_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0068210762862790705,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.6089008260148046,
+        "accuracy": 0.4921875
+      }
+    },
+    {
+      "id": "d8_s19_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0011531127404257437,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.5028268126085842,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "id": "d8_s19_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0011768465069231927,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.5454607014510393,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "id": "d8_s19_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.007638068245442565,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 2.1381526923981795,
+        "accuracy": 0.51171875
+      }
+    },
+    {
+      "id": "d8_s41_full",
+      "flipped_signal_and_label": {
+        "bce": 0.0012297051467300769,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.954584893387024,
+        "accuracy": 0.50390625
+      }
+    },
+    {
+      "id": "d8_s41_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0012460082589994025,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.9877978926775581,
+        "accuracy": 0.49609375
+      }
+    },
+    {
+      "id": "d8_s41_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0008925748164147792,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 2.613448895626205,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "id": "d24_s7_full",
+      "flipped_signal_and_label": {
+        "bce": 0.6921226411931412,
+        "accuracy": 0.5234375
+      },
+      "erased_first_signal": {
+        "bce": 0.694507007816823,
+        "accuracy": 0.48046875
+      }
+    },
+    {
+      "id": "d24_s7_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.002579328705664503,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 2.1247061466984416,
+        "accuracy": 0.47265625
+      }
+    },
+    {
+      "id": "d24_s7_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.3243439382671728,
+        "accuracy": 0.875
+      },
+      "erased_first_signal": {
+        "bce": 1.1987911217743652,
+        "accuracy": 0.49609375
+      }
+    },
+    {
+      "id": "d24_s19_full",
+      "flipped_signal_and_label": {
+        "bce": 0.6932135932974031,
+        "accuracy": 0.46875
+      },
+      "erased_first_signal": {
+        "bce": 0.6930821932116138,
+        "accuracy": 0.53125
+      }
+    },
+    {
+      "id": "d24_s19_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0010652940299792344,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 2.4908747619744935,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "id": "d24_s19_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.0021352388969915785,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 2.2910287751775833,
+        "accuracy": 0.51171875
+      }
+    },
+    {
+      "id": "d24_s41_full",
+      "flipped_signal_and_label": {
+        "bce": 0.7046697502322045,
+        "accuracy": 0.47265625
+      },
+      "erased_first_signal": {
+        "bce": 0.7000238907261787,
+        "accuracy": 0.52734375
+      }
+    },
+    {
+      "id": "d24_s41_full_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.07495758173600714,
+        "accuracy": 0.984375
+      },
+      "erased_first_signal": {
+        "bce": 2.8233438671756783,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "id": "d24_s41_tbptt4_clip",
+      "flipped_signal_and_label": {
+        "bce": 0.008591031926253781,
+        "accuracy": 1.0
+      },
+      "erased_first_signal": {
+        "bce": 1.3876474829729006,
+        "accuracy": 0.48828125
+      }
+    }
+  ]
+}

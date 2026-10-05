@@ -1,0 +1,66 @@
+{
+  "unit": "044",
+  "title": "深层卷积与残差网络",
+  "prerequisites": [
+    "035",
+    "036",
+    "043"
+  ],
+  "status": "author_execution_and_visual_review_completed; independent review not claimed",
+  "execution_date_utc": "2026-10-05",
+  "scripts": {
+    "experiment": "full normal and python -O executions; scientific values identical after excluding wall_seconds",
+    "test_experiment": "normal and python -O; framework-independent sliding-window, all-element finite differences, hand Fraction ledger, explicit invalid-input rejection",
+    "generate_data": "all .npy files byte-identical after python -O regeneration",
+    "make_figures": "all 11 PNG files byte-identical normal and python -O",
+    "pdf_build": "all three PDFs built normal and python -O; extracted text and page counts equal"
+  },
+  "numerical_max_errors": {
+    "c2_2_h4_s1": 1.4492851363456793e-09,
+    "c2_3_h5_s2": 3.9140065494214227e-10,
+    "c1_2_h4_s2": 1.3344089722089336e-10,
+    "hand_round_0": 5.551115123125783e-17,
+    "hand_round_1": 1.1102230246251565e-16,
+    "hand_round_2": 2.498001805406602e-16
+  },
+  "notebook": {
+    "code_cells": 8,
+    "image_png_outputs": 11,
+    "execution": "new Python process, real ipykernel InProcessKernel, sequential execution",
+    "complete_training_rerun": true,
+    "scientific_results_equal_to_retained_run": true,
+    "all_embedded_images_equal_to_retained_figures": true,
+    "limitation": "TCP and IPC socket kernel launch unavailable in build environment; browser Jupyter UI not tested"
+  },
+  "training": {
+    "candidates": 24,
+    "updates_per_candidate": 144,
+    "total_updates_per_protocol_run": 3456,
+    "completed": 24,
+    "nonfinite_runs": 0,
+    "negative_findings_retained": [
+      "Shallow residual has worse mean final validation CE at lr=0.03.",
+      "Deep plain CNN also fits training data.",
+      "High learning rate produces severe transient eval loss spikes; all histories and gradients retained."
+    ],
+    "diagnostic": "BN peak-checkpoint mechanism analysis is post-hoc and does not alter model selection or formal test scores."
+  },
+  "pdf_pages": {
+    "lecture": 13,
+    "lab": 5,
+    "answers": 6
+  },
+  "original_figures": 11,
+  "visual_review": "Author inspected every final PDF page and every actual embedded Notebook PNG; this is not an independent QA verdict.",
+  "limitations": [
+    "Synthetic fixed-distribution toy task only.",
+    "Three initialization seeds share one dataset split.",
+    "Equal updates are not equal MACs across depths.",
+    "No GPU, external dataset, pretrained model or Jupyter-browser test claim."
+  ],
+  "curriculum": {
+    "units": 102,
+    "sha256": "1efdc84cfd2eb5a6b8124264e9910ff0bb982ed94da253170e19d64ff56ec7c1",
+    "modified_by_this_unit": false
+  }
+}

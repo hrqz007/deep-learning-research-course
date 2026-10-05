@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-05",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/1506.01497v3",
+      "type": "primary",
+      "status": "read",
+      "use": "box encoding and separate training classification/regression supervision"
+    },
+    {
+      "url": "https://docs.pytorch.org/vision/0.22/generated/torchvision.ops.nms.html",
+      "type": "primary",
+      "status": "read",
+      "use": "strict IoU > threshold and equal-score caveat"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocoapi/master/PythonAPI/pycocotools/cocoeval.py",
+      "type": "primary",
+      "status": "read",
+      "use": "COCO IoU and recall grids, maxDets, ignore/crowd, absent categories"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.BCEWithLogitsLoss.html",
+      "type": "primary",
+      "status": "read",
+      "use": "stable logit loss, positive weighting and reduction"
+    },
+    {
+      "url": "https://arxiv.org/abs/1505.04597",
+      "type": "primary",
+      "status": "read",
+      "use": "U-Net conceptual architecture motivation only"
+    },
+    {
+      "url": "https://arxiv.org/abs/1612.03144",
+      "type": "primary",
+      "status": "read",
+      "use": "FPN conceptual multi-scale feature motivation only"
+    }
+  ],
+  "retrieval_limitations": [
+    "Old pytorch.org NMS URL failed; current official docs.pytorch.org page succeeded."
+  ],
+  "originality": "All teaching text, diagrams, examples, synthetic data and experimental results original; no paper figures copied."
+}

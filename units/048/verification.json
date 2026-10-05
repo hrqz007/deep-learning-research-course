@@ -1,0 +1,85 @@
+{
+  "unit": "048",
+  "title": "视觉研究项目",
+  "prerequisites": [
+    "022",
+    "040",
+    "044",
+    "045"
+  ],
+  "status": "author_execution_and_visual_review_completed; independent review not claimed",
+  "execution_date_utc": "2026-10-05",
+  "scripts": {
+    "experiment": "full normal, final-source python -O, and notebook executions; all scientific results equal excluding wall_seconds; all 24 weight archives byte-identical",
+    "tests": "normal and python -O explicit exception tests; 26 invalid-input cases; additional augmentation check under global default float64",
+    "data": "normal and python -O regeneration, all file bytes identical",
+    "figures": "normal and python -O, all 11 PNG bytes identical",
+    "pdf": "normal and python -O builds; all 3 final PDF bytes identical"
+  },
+  "numerical_max_errors": {
+    "hand_autograd_0": 0.0,
+    "hand_finite_difference_0": 3.254271851993451e-11,
+    "hand_autograd_1": 0.0,
+    "hand_finite_difference_1": 6.41162956060981e-11,
+    "hand_autograd_2": 1.3877787807814457e-17,
+    "hand_finite_difference_2": 4.3697018226040996e-11,
+    "full_cnn_numpy_forward": 3.469446951953614e-17
+  },
+  "notebook": {
+    "code_cells": 9,
+    "image_png_outputs": 11,
+    "execution": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "complete_training_rerun": true,
+    "scientific_results_equal": true,
+    "actual_png_bytes_equal_to_visually_inspected_figures": true,
+    "limitation": "No external socket kernel or browser Jupyter UI verification; optional notebook UI package not installed in author runtime"
+  },
+  "experiment": {
+    "candidates": 24,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "updates_per_candidate": 108,
+    "total_updates": 2592,
+    "parameters": 1066,
+    "macs_per_example_excluding_bias_activation_pool_augmentation": 86800,
+    "all_candidates_completed": true,
+    "test_finalists": 12,
+    "winner": "random_stamp",
+    "freeze_before_test_array_load": true,
+    "negative_results_retained": [
+      "brightness worse than baseline under fixed budget",
+      "known-location masking not the best method",
+      "same mean IID accuracy but worse IID cross entropy for random_stamp",
+      "plain seed33 much worse in shifted test than other seeds"
+    ]
+  },
+  "pdf_pages": {
+    "lecture": 10,
+    "lab": 4,
+    "answers": 5
+  },
+  "original_figures": 11,
+  "visual_review": "Author inspected every final PDF page and every actual embedded Notebook image; no clipped content or legend-data overlap observed. This is not an independent QA verdict.",
+  "curriculum": {
+    "units": 102,
+    "sha256": "1efdc84cfd2eb5a6b8124264e9910ff0bb982ed94da253170e19d64ff56ec7c1",
+    "modified_by_this_unit": false
+  },
+  "scope": [
+    "original synthetic classification only",
+    "one fixed split and 3 initialization seeds",
+    "no external data, pretrained model, GPU or API",
+    "CPU float32 bounded image interface; independent references float64"
+  ],
+  "revision": {
+    "version": 1,
+    "reason": "Clarify Noto CJK prerequisite for plotting and complete Notebook, not only PDF rebuild",
+    "scope": "README/lab/build-tools instructions and rebuilt lab PDF only; science code/data/results/notebook/figures unchanged",
+    "font_check": "fresh writable TMPDIR; import make_figures succeeds on verified Linux Noto TTC path",
+    "visual_check": "all four revised lab pages viewed; other15 PDF pages and all11 notebook PNGs unchanged from reviewed v0",
+    "lab_pdf_normal_O": "byte-identical"
+  }
+}

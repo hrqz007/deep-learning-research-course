@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-05",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://proceedings.mlr.press/v28/pascanu13.html",
+      "status": "read",
+      "scope": "Original PMLR research article; full paper also inspected at https://proceedings.mlr.press/v28/pascanu13.pdf"
+    },
+    {
+      "id": "S2",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.utils.clip_grad_norm_.html",
+      "status": "read",
+      "scope": "Official 2.7 API; total parameter gradient norm and in-place clipping"
+    },
+    {
+      "id": "S3",
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.Tensor.detach.html",
+      "status": "read",
+      "scope": "Official 2.7 API; detached graph and shared storage"
+    },
+    {
+      "id": "S4",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.7.1/torch/nn/modules/rnn.py",
+      "status": "read",
+      "scope": "Official fixed-version source; recurrence, shapes, two biases"
+    }
+  ],
+  "unavailable_source": "2.7 RNN API HTML retrieval failed; accessible official v2.7.1 source used instead",
+  "original_content": "All numeric ledgers, synthetic data and plots are original; source citations do not claim endorsement of toy results"
+}

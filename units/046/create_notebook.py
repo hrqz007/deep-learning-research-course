@@ -1,0 +1,31 @@
+"""Create a reproducible learner notebook; execute with the bundled helper."""
+from pathlib import Path
+import nbformat as nbf
+ROOT=Path(__file__).resolve().parent
+cells=[]
+def md(s):cells.append(nbf.v4.new_markdown_cell(s))
+def code(s):cells.append(nbf.v4.new_code_cell(s))
+md('# 046 检测分割与结构化预测\n\n从干净内核顺序运行。数据为原创合成，离线CPU。这个Notebook真正执行21次固定训练、比较保存结果、生成13张图。纸笔问题与完整答案分别见lab和answers。发布版使用新Python进程的真实InProcessKernel；未测试socket传输及浏览器Jupyter界面。')
+code("from pathlib import Path\nimport os, json, tempfile, numpy as np, torch\nfrom IPython.display import display, Image\nfrom reference import *\nfrom experiment import run, load_data\nROOT = Path.cwd()\nif not (ROOT / 'data' / 'metadata.json').is_file():\n    raise RuntimeError('请从046目录启动内核')\nworkspace = Path(tempfile.mkdtemp(prefix='dl046-notebook-'))\nprint('NumPy', np.__version__, 'PyTorch', torch.__version__)\nprint('结果写入本次独立临时目录；原始发布结果不覆盖。')")
+md('## 1 半开框、去重与AP\n先预测数值：两个2×2框水平错开1，IoU多少？相同定位重复预测为何降低AP？以下单类评估没有crowd/ignore等，不能称完整COCO。')
+code("print('IoU:', iou([[0,0,2,2]], [[1,0,3,2]])[0,0])\nprint('编码:', encode_boxes([[0,0,2,2]], [[1,0,5,2]]))\nprint('NMS:', nms([[0,0,2,2],[0,0,2,2],[2,0,4,2]], [.9,.9,.8]))\ngt=[{'image_id':'a','box':[0,0,2,2]},{'image_id':'b','box':[0,0,2,2]}]\npred=[dict(gt[0],score=.9),dict(gt[0],score=.8),dict(gt[1],score=.7)]\nprint(json.dumps(detection_ap(gt,pred),indent=2))")
+md('## 2 四像素共享梯度\n所有像素共享w和b。下方记录包括每条局部导数和贡献；先手算第一轮，再检查两次同步更新及下一次前向。')
+code("ledger=hand_ledger()\nfor round_ in ledger:\n    print('step', round_['step'], 'theta', round_['theta'], 'loss', round_['loss'], 'gradient', round_['gradient'])\nfor i,sample in enumerate(ledger[0]['samples']):\n    print('sample',i)\n    for pixel in sample['pixels']: print(pixel)")
+md('## 3 独立参照与输入域\nNumPy参照不使用自动微分；逐元素差分同时覆盖CNN全部67参数及24个输入。边界测试覆盖空图、重叠、重复检测、坐标及非法输入。')
+code("import unittest, test_experiment\nsuite=unittest.defaultTestLoader.loadTestsFromTestCase(test_experiment.Tests)\ncheck=unittest.TextTestRunner(verbosity=1).run(suite)\nif not check.wasSuccessful(): raise RuntimeError('数值或输入域检查失败')\nprint(test_experiment.ERRORS)")
+md('## 4 数据与冻结预算\n验证集选择设置，测试集不参与选择。固定训练全批100步，三个种子；像素线性头固定初始化所以重复种子相同。shift是独立亮背景数据，不是逐图配对。')
+code("data=load_data()\nmeta=json.loads((ROOT/'data/metadata.json').read_text())\nfor split,(x,y) in data.items():\n    print(split, x.shape, y.shape, 'foreground fraction',float(y.mean()), 'empty',int((y.sum((1,2,3))==0).sum()))\nprint('训练正类权重：',(1-data['train'][1].mean())/data['train'][1].mean())")
+md('## 5 真实重新训练\n这一步执行全部候选，不读取既有成绩来模拟输出。强度与均值基线均保留25个验证阈值候选。')
+code("fresh=run(workspace/'outputs')\nprint('候选数',len(fresh['candidates']),'冻结选择模型数',len(fresh['selected']))\nprint('完成更新数',sum(len(c['history']) for c in fresh['candidates']))")
+md('## 6 逐项复现核对\n只排除运行时间；不忽略失败候选或不利结果。压缩容器本身的时间戳不是科学值，因此逐数组比较。')
+code("retained=json.loads((ROOT/'outputs/results.json').read_text())\na={k:v for k,v in retained.items() if k!='wall_seconds'}\nb={k:v for k,v in json.loads((workspace/'outputs/results.json').read_text()).items() if k!='wall_seconds'}\nif a!=b: raise RuntimeError('科学JSON与发布记录不同，请保留环境和差异')\nwith np.load(ROOT/'outputs/arrays.npz') as old, np.load(workspace/'outputs/arrays.npz') as new:\n    if set(old.files)!=set(new.files): raise RuntimeError('数组名称不同')\n    for key in old.files:\n        if old[key].dtype!=new[key].dtype or not np.array_equal(old[key],new[key]): raise RuntimeError('数组不同: '+key)\n    print('逐数组完全相同:',len(old.files))")
+md('## 7 重新生成并显示全部原创图\n图像直接嵌入Notebook，不依赖plt.show的环境差异。图11固定展示前四张测试图，图12包含所有测试图。')
+code("from make_figures import main as make_figures\nmake_figures(workspace/'outputs/results.json',workspace/'figures')\npaths=sorted((workspace/'figures').glob('*.png'))\nfor path in paths:\n    original=ROOT/'figures'/path.name\n    if original.read_bytes()!=path.read_bytes(): raise RuntimeError('图像字节不一致: '+path.name)\nprint('全部',len(paths),'张图与发布图逐字节相同')")
+code("for path in paths[:5]:\n    print(path.name)\n    display(Image(data=path.read_bytes()))")
+code("for path in paths[5:9]:\n    print(path.name)\n    display(Image(data=path.read_bytes()))")
+code("for path in paths[9:]:\n    print(path.name)\n    display(Image(data=path.read_bytes()))")
+md('## 8 结果不是口号\n报告原始种子值。相同训练更新预算不意味着相同FLOP。权重改变损失及有效阈值，主实验没有验证集调神经阈值。三种子不等于三份独立测试集。')
+code("for arm in ['pixel','cnn_bce','cnn_weighted']:\n    rows=[s for s in fresh['selected'] if s['arm']==arm]\n    print(arm,'lr',rows[0]['selected_lr'])\n    for row in rows:\n        print('seed',row['seed'],'test IoU',row['metrics']['test']['foreground_iou_micro'],'shift IoU',row['metrics']['shift']['foreground_iou_micro'],'empty FPR',row['metrics']['test']['empty_false_positive_rate'])\nprint('全背景测试像素准确率',fresh['baselines']['all_background']['metrics']['test']['pixel_accuracy'])")
+md('## 独立练习\n\n1. 改变空集合约定，只重算指标，哪些排名可能改变？\n2. 解释加权CNN空图误报与固定阈值之间的可能关系，并区分观察与机制。\n3. 写出公平调阈值的预注册计划；新结论需要新封存测试集。\n4. 为什么本Notebook中的AP不能与前景IoU或分类准确率直接对比？\n\n完整任务和答案见lab.md、answers.md。')
+nb=nbf.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python','version':'3.12'}})
+nbf.write(nb,ROOT/'experiment.ipynb');print(len([c for c in cells if c.cell_type=='code']),'code cells')

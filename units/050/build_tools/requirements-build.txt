@@ -1,0 +1,5 @@
+# In addition to ../requirements.txt. System libraries and fonts: README.md.
+markdown==3.11
+weasyprint==70.0
+pypdf==6.10.0
+pillow==12.3.0

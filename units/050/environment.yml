@@ -1,0 +1,15 @@
+name: dl050-rnn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - numpy==2.3.5
+      - torch==2.7.1+cpu
+      - matplotlib==3.10.8
+      - fonttools==4.61.1
+      - nbformat==5.11.1
+      - ipykernel==7.4.0
+      - notebook>=7,<8

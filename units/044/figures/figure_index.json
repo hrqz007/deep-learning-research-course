@@ -1,0 +1,13 @@
+[
+  "01_plain_residual.png",
+  "02_projection_shapes.png",
+  "03_hand_forward.png",
+  "04_parameter_ledger.png",
+  "05_hand_updates.png",
+  "06_data.png",
+  "07_all_learning_curves.png",
+  "08_gradient_profiles.png",
+  "09_bn_instability.png",
+  "10_paired_test.png",
+  "11_all_errors.png"
+]
