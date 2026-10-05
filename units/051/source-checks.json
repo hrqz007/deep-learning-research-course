@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-10-05",
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/1406.1078",
+      "access": "official page opened successfully",
+      "scope": "paper abstract and previously opened author PDF, encoder-decoder/gated background"
+    },
+    {
+      "url": "https://arxiv.org/abs/1409.3215",
+      "access": "official page opened successfully",
+      "scope": "paper abstract and previously opened author PDF, seq2seq background"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.GRUCell.html",
+      "access": "official page opened successfully",
+      "scope": "official pinned2.7 equation and shape"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.nn.LSTM.html",
+      "access": "official page opened successfully",
+      "scope": "official pinned2.7 equation and state definitions"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+"""Fixed, source-disjoint sequence reversal task; no external data."""
+from pathlib import Path
+import json,hashlib,argparse,itertools
+import numpy as np
+ROOT=Path(__file__).resolve().parent
+PROTOCOL={'task':'reverse four-symbol source sequence; decoder predicts reversed content then EOS','alphabet_ids':[4,5,6,7],'special_ids':{'PAD':0,'BOS':1,'EOS':2,'UNK':3},'train_lengths':[2,3,4],'long_lengths':[5,6],'split_sizes':{'train':96,'validation':32,'test':64,'long_test':64},'split_seed':5101,'models':['rnn','gru'],'seeds':[5111,5112,5113],'embedding_dim':8,'hidden_dim':12,'steps':300,'learning_rate':.5,'clip_global_norm':1.,'optimizer':'full-batch SGD, no momentum or weight decay','training':'teacher forcing only; mean over non-PAD targets including EOS','selection':'none; validation descriptive; fixed final checkpoint for all six runs','decoding':'greedy; unfiltered full8-class argmax, stop first EOS, max10 emitted tokens; no gold length used','dtype':'CPU float64','attention':False,'diagnostic':'predeclared encoder-context zeroing at inference, no retraining; not an equal-capacity model','encoder':'BOS+source+EOS; freeze hidden state at right padding','decoder':'initial state=encoder final; BOS then preceding gold token during training; own output during inference'}
+def generate():
+ rng=np.random.default_rng(PROTOCOL['split_seed']);pool=[list(t) for n in [2,3,4] for t in itertools.product(range(4,8),repeat=n)];order=rng.permutation(len(pool));pool=[pool[i] for i in order];long=[list(t) for n in [5,6] for t in itertools.product(range(4,8),repeat=n)];long=[long[i] for i in rng.choice(len(long),64,replace=False)]
+ return {'protocol':PROTOCOL,'train':pool[:96],'validation':pool[96:128],'test':pool[128:192],'long_test':long}
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--output',type=Path,default=ROOT/'data');a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True);b=(json.dumps(generate(),indent=2)+'\n').encode();(a.output/'sequences.json').write_bytes(b);(a.output/'manifest.json').write_text(json.dumps({'sha256':hashlib.sha256(b).hexdigest(),'origin':'original exhaustive finite four-symbol pool; fixed random disjoint split; no external data'},indent=2)+'\n');print(hashlib.sha256(b).hexdigest())

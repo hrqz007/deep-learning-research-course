@@ -1,0 +1,128 @@
+{
+  "unit": "051",
+  "title": "门控记忆与编码解码",
+  "prerequisites": [
+    "050"
+  ],
+  "status": "author_checked_pending_independent_review",
+  "checked_date": "2026-10-05",
+  "author_checks": {
+    "tests": "12 unittest groups normal/-O passed; checks remain active under optimization",
+    "experiment": "all6 full fits normal/-O; results plus both compressed parameter files byte-identical",
+    "hand": "all14 parameters and3 inputs at3 states versus autograd; all14 central differences; Decimal70 forward; normal/-O ledger bytes equal",
+    "all_recorded_updates_numpy": {
+      "updates": 1800,
+      "states": 1806,
+      "max_update_abs": 4.440892098500626e-16,
+      "max_loss_abs": 8.881784197001252e-16,
+      "max_gradient_norm_abs": 8.881784197001252e-16
+    },
+    "data": "normal/-O regenerated data bytes equal; frozen protocol unchanged",
+    "figures": "all12 final PNGs normal/-O byte-identical",
+    "notebook": {
+      "fresh_kernels": 2,
+      "method": "normal and -O fresh Python processes, actual IPython InProcessKernel, complete6-fit rerun and NumPy1800-update audit",
+      "code_cells": 8,
+      "actual_png": 5,
+      "all5_images_visually_reviewed": true,
+      "normal_O_png_byte_identical": true,
+      "final_saved_mode": "-O",
+      "browser_socket_scope": "browser UI and external socket transport not tested"
+    },
+    "pdf": {
+      "pages": {
+        "lecture": 11,
+        "lab": 4,
+        "answers": 4
+      },
+      "normal_O_pdf_byte_equal": true,
+      "visual": "Every final page and all12 embedded scientific figures visually inspected; 14-column gradient plot split into2 rows and example table enlarged; final changed pages re-viewed, unchanged pages pixel-identical to reviewed render"
+    }
+  },
+  "scientific_reference_scope": [
+    "official RNNCell/GRUCell forward plus every input/state/parameter gradient with nonzero prior state",
+    "complete NumPy encoder-decoder BPTT for both models including state/loss masks and shared embeddings",
+    "all62 RNN and110 GRU small-model free coordinates finite differences",
+    "LSTM explicit-gate numerical state and direct cell-memory gradient",
+    "independent official-cell teacher logits and free rollouts for every final model on both test splits",
+    "deterministic teacher-forced sequence-exact/greedy-exact identity under stated conditions",
+    "EOS early-stop, cap and unfiltered invalid-control probes; future decoder-input perturbation",
+    "real run failure preserves previous result files"
+  ],
+  "experiment": {
+    "fits": 6,
+    "updates": 1800,
+    "full_parameter_states": 1806,
+    "parameters": {
+      "rnn": 696,
+      "gru": 1752
+    },
+    "train_validation_test_long": [
+      96,
+      32,
+      64,
+      64
+    ],
+    "dtype": "CPU float64",
+    "selection": "no search or early stop, validation descriptive; all300-step endpoints retained",
+    "fixed_protocol_sha256": "f680bd2804338b001729dc9ce98e0b90717b1a1b17fa9921f951b129fa8a0ab8",
+    "negative_results": [
+      "GRU worse than RNN in fixed small budget",
+      "all6 models have zero longer-sequence strict exact",
+      "one RNN long-sequence nontermination retained",
+      "hand sample2 loss increases despite decreasing mean",
+      "one seed free aligned-token score slightly exceeds teacher-token score; no universal inequality claimed"
+    ]
+  },
+  "limits": [
+    "only independent content lists of IDs4..7, lengths0..32, batch1..256, extra padding0..32",
+    "CPU/NumPy float64 parameter shapes checked, D/H1..64, finite |parameter|<=1e6, fixed zero PAD row; references raise on overflow",
+    "no equal-FLOP/equal-parameter/time claim; no GPU/throughput benchmark",
+    "no natural-language generalization, infinite-memory or universal architecture ranking",
+    "LSTM only numerical gate example, not a third trained architecture",
+    "all outputs built before writes and atomically replaced per-file; no directory-wide transaction",
+    "author checks do not constitute independent acceptance"
+  ],
+  "artifacts": {
+    "lecture.pdf": {
+      "bytes": 1760975,
+      "sha256": "59ea1f222af4f3496ac29be5c8a4c44f86516d0c287959719d23b9e0fb5c6fcd"
+    },
+    "lab.pdf": {
+      "bytes": 538278,
+      "sha256": "f0bb070853b120ec8b0f9afe9a56c9439c5aca44fc70be4dc0c3e625ce7e7aa5"
+    },
+    "answers.pdf": {
+      "bytes": 552441,
+      "sha256": "57cd9b7f8b4bb3c0cdfc43f0c4ad0a2700eca465a4713a722b2a73bb22ab198c"
+    },
+    "experiment.ipynb": {
+      "bytes": 307144,
+      "sha256": "b47c81ec15f4fc06b4e818b3b921138ac0e04cec90c1fbe2cc8f489e6a34eb67"
+    },
+    "experiment.py": {
+      "bytes": 13506,
+      "sha256": "b6ed2a31f82785c9aad2ab7940d65b2ca598b48e64347c8c6427772b60c17dc7"
+    },
+    "test_experiment.py": {
+      "bytes": 9651,
+      "sha256": "a8b68e71e1b959d90626132d233ffc46cafc69b8b601c10ccd477545574957d9"
+    },
+    "audit_records.py": {
+      "bytes": 1559,
+      "sha256": "2f5b30f4a12a6cb7c4dec40bbfbb8e1714116120c59853fd61d7b0371313b9ea"
+    },
+    "hand_calculation.py": {
+      "bytes": 3486,
+      "sha256": "54d4734d986e9ef1bfcfec837ad25baba671a101fe949323bfca8c00ef5296e2"
+    },
+    "make_figures.py": {
+      "bytes": 9384,
+      "sha256": "854f0b382cbfa2df8377121fb0068ac302aef7bd58d59ca9883f837add477099"
+    },
+    "outputs/results.json": {
+      "bytes": 3916069,
+      "sha256": "a927ddb5e5781fcec301209fde57af37166830b80ba40ca4735e0c426524b056"
+    }
+  }
+}

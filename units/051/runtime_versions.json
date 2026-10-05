@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.7.1+cpu",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "IPython": "9.17.1",
+    "Markdown": "3.11",
+    "weasyprint": "70.0"
+  },
+  "device": "CPU float64",
+  "cpu_threads": 1,
+  "font": "Noto Sans CJK from system TTC; optional DL_CJK_FONT override",
+  "scope": "Exact same-environment replay; browser UI, socket transport, GPU and all-platform fresh installation not tested"
+}
