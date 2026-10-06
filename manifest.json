@@ -57,7 +57,10 @@
     "052",
     "053",
     "054",
-    "055"
+    "055",
+    "056",
+    "057",
+    "058"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1825,7 +1828,32 @@
       "figure": "逐token解码与缓存复用的时序图。",
       "lab": "固定prompt比较解码配置，核对缓存与无缓存输出；统计长度、延迟及重复退化。",
       "pitfall": "把采样变化当模型变强；声称温度等于可信度；忽略终止条件。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/056/lecture.pdf",
+        "lab_pdf": "units/056/lab.pdf",
+        "answers_pdf": "units/056/answers.pdf",
+        "notebook": "units/056/experiment.ipynb",
+        "script": "units/056/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "9849de7e257b2892da4548401463337cad09172f",
+        "verified_file_count": 32,
+        "verified_bytes": 2583692,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-06"
+      },
+      "release_record": "releases/056-058.json"
     },
     {
       "id": "057",
@@ -1841,7 +1869,32 @@
       "figure": "预训练指标到下游任务的证据链。",
       "lab": "交付小型语言模型、盲测题集、污染检查、误差分类与不确定性；若专做适配，改走L1加共同评价单元。",
       "pitfall": "只挑有利prompt；单一模型裁判替代验证；把流畅度当事实正确。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/057/lecture.pdf",
+        "lab_pdf": "units/057/lab.pdf",
+        "answers_pdf": "units/057/answers.pdf",
+        "notebook": "units/057/experiment.ipynb",
+        "script": "units/057/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "9849de7e257b2892da4548401463337cad09172f",
+        "verified_file_count": 35,
+        "verified_bytes": 2817850,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-06"
+      },
+      "release_record": "releases/056-058.json"
     },
     {
       "id": "058",
@@ -1855,7 +1908,32 @@
       "figure": "数据空间到潜在空间再到重构的图。",
       "lab": "实现基础和去噪自编码器，比较重构与下游线性探测；检查模型是否仅复制输入。",
       "pitfall": "把重构好等同于语义表示好；把二维可视化当真实类别分离证明。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/058/lecture.pdf",
+        "lab_pdf": "units/058/lab.pdf",
+        "answers_pdf": "units/058/answers.pdf",
+        "notebook": "units/058/experiment.ipynb",
+        "script": "units/058/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "a025ada8a9566698824a8e97a7158f3e68e2bd7c",
+        "verified_file_count": 51,
+        "verified_bytes": 3885574,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-06"
+      },
+      "release_record": "releases/056-058.json"
     },
     {
       "id": "059",
@@ -2580,6 +2658,9 @@
     "052",
     "053",
     "054",
-    "055"
+    "055",
+    "056",
+    "057",
+    "058"
   ]
 }

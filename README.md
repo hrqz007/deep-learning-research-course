@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–055讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–058讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -63,6 +63,9 @@
 |053|Transformer块与位置|[13页](units/053/lecture.pdf)|[4页](units/053/lab.pdf)|[7页](units/053/answers.pdf)|[进入单元](units/053/README.md)|
 |054|预训练目标与数据构造|[9页](units/054/lecture.pdf)|[4页](units/054/lab.pdf)|[4页](units/054/answers.pdf)|[进入单元](units/054/README.md)|
 |055|小型语言模型训练与规模|[13页](units/055/lecture.pdf)|[4页](units/055/lab.pdf)|[4页](units/055/answers.pdf)|[进入单元](units/055/README.md)|
+|056|生成解码与KV缓存|[8页](units/056/lecture.pdf)|[4页](units/056/lab.pdf)|[3页](units/056/answers.pdf)|[进入单元](units/056/README.md)|
+|057|语言模型实验与评价|[7页](units/057/lecture.pdf)|[3页](units/057/lab.pdf)|[3页](units/057/answers.pdf)|[进入单元](units/057/README.md)|
+|058|自编码器与潜在表示|[13页](units/058/lecture.pdf)|[5页](units/058/lab.pdf)|[5页](units/058/answers.pdf)|[进入单元](units/058/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -83,9 +86,11 @@
 
 001–003、006、007、010、016–022与026核心实验仅用Python标准库；004、005、008、009、011–015、023–025与027–028使用NumPy，部分Notebook或重建图需要Matplotlib和中文字体。Notebook需要JupyterLab与ipykernel。每单元README和environment.yml给出说明；[共享运行说明](shared/README.md)提供课程环境入口。
 
-这四十二个单元已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)、[013–015核验说明](releases/013-015.json)、[016–018核验说明](releases/016-018.json)、[019–021核验说明](releases/019-021.json)、[022–024核验说明](releases/022-024.json)、[025–027核验说明](releases/025-027.json)、[028–030核验说明](releases/028-030.json)、[031–033核验说明](releases/031-033.json)、[034–036核验说明](releases/034-036.json)、[037–039核验说明](releases/037-039.json)与[040–042核验说明](releases/040-042.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
+第001–042讲已做独立内容与数值核对、脚本新进程执行、Notebook顺序执行、全部PDF页面视觉检查及文件摘要核对。详细范围见[001–003核验说明](releases/001-003.json)、[004–006核验说明](releases/004-006.json)、[007–009核验说明](releases/007-009.json)、[010–012核验说明](releases/010-012.json)、[013–015核验说明](releases/013-015.json)、[016–018核验说明](releases/016-018.json)、[019–021核验说明](releases/019-021.json)、[022–024核验说明](releases/022-024.json)、[025–027核验说明](releases/025-027.json)、[028–030核验说明](releases/028-030.json)、[031–033核验说明](releases/031-033.json)、[034–036核验说明](releases/034-036.json)、[037–039核验说明](releases/037-039.json)与[040–042核验说明](releases/040-042.json)。Notebook使用新进程内的真实IPython InProcessKernel；未声称验证Jupyter浏览器界面、外进程内核传输或所有操作系统上的Anaconda安装。
 
 如需从Markdown重建教材PDF，参见[可选构建工具说明](shared/build-tools/README.md)。阅读现成PDF与运行实验不需要文档构建依赖。
+
+第056–058讲的文件清单与远端校验记录见[核验说明](releases/056-058.json)。各单元已验证的执行方式与环境边界以单元说明为准。
 
 ## 资料范围
 
