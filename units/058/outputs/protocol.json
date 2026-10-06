@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    5801,
+    5802,
+    5803
+  ],
+  "steps": 250,
+  "batch": 64,
+  "lr": 0.005,
+  "bottleneck": 2,
+  "architecture": "8->16 ReLU->2->16 ReLU->8",
+  "noise_std": 0.5,
+  "split_sizes": {
+    "train": 640,
+    "validation": 160,
+    "test": 320
+  },
+  "labeled_probe_train": 128,
+  "ridge": 1.0,
+  "normalization": "subtract full training input mean only for AE/PCA; probe feature mean/std fit on128 labeled training examples",
+  "selection": "fixed250 steps; no checkpoint search, no tuning with test or validation labels",
+  "max_train_seconds_per_run": 120,
+  "metrics": "MSE averaged over all N*8 coordinates; probe accuracy on320 test examples",
+  "scope": "3 initializations, one fixed data split; no significance or universal representation claim"
+}

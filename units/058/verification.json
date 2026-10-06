@@ -1,0 +1,110 @@
+{
+  "unit": "058",
+  "title": "自编码器与潜在表示",
+  "verified_on": "2026-10-06",
+  "tests": {
+    "normal": {
+      "command": "python test_experiment.py",
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O test_experiment.py",
+      "status": "passed"
+    },
+    "coverage": [
+      "hand MSE and exact chain-rule gradients",
+      "one explicit SGD step",
+      "loss shape/empty guards and invalid penalties",
+      "PCA discarded energy",
+      "train-only probe normalization and constant feature",
+      "11 exact unique result rows",
+      "6 exact checkpoints required",
+      "all checkpoint full-test latent and reconstruction replay",
+      "all saved probe scores and accuracies"
+    ]
+  },
+  "script_replay": {
+    "status": "passed",
+    "configurations_trained": 6,
+    "steps_each": 250,
+    "max_metric_absolute_delta": 0.0,
+    "reference_unchanged": true
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 3.721,
+    "code_cells": 10,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14"
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 13,
+      "rendered_and_visually_inspected_pages": 13,
+      "status": "passed; no clipping, overlapping text, missing CJK glyphs or nearly empty continuation pages",
+      "content_correction": "Page 7: undercomplete/overcomplete inequalities expressed in Chinese to prevent Markdown HTML parsing; terms verified in extracted PDF text and rendered page.",
+      "final_render_comparison": {
+        "changed_pages": [
+          7
+        ],
+        "other_pages_pixel_identical": true,
+        "corrected_page_visual_review": "passed",
+        "page_count_unchanged": true
+      }
+    },
+    "lab": {
+      "pages": 5,
+      "rendered_and_visually_inspected_pages": 5,
+      "status": "passed; no clipping, overlapping text, missing CJK glyphs or nearly empty continuation pages"
+    },
+    "answers": {
+      "pages": 5,
+      "rendered_and_visually_inspected_pages": 5,
+      "status": "passed; no clipping, overlapping text, missing CJK glyphs or nearly empty continuation pages"
+    }
+  },
+  "figures": {
+    "count": 6,
+    "type": "5 source-backed numerical figures plus original architecture diagram"
+  },
+  "sources": {
+    "verified_primary_links": 5,
+    "record": "source-checks.json"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "threads": 1,
+    "device": "cpu",
+    "wall_seconds": 0.750169120999999
+  },
+  "privacy_scan": {
+    "status": "passed",
+    "scope": "public text, code and notebook outputs contain no build-workspace absolute paths"
+  },
+  "limits": [
+    "synthetic low-variance label factor",
+    "one fixed data split and three initializations",
+    "fixed linear probe only; failure does not establish complete information absence",
+    "sparse penalty tested numerically; no sparse-AE training claim",
+    "in-process sequential IPython execution, not browser Jupyter UI testing",
+    "cross-version/hardware bitwise identity not promised"
+  ],
+  "artifact_sha256": {
+    "lecture.pdf": "1cdcdbe9f6303e0ad5050a0ad74b0bb87345f2b9e41d16418c57d7b412159cf5",
+    "lab.pdf": "bc61edd52a063aeedb2355d897194c392a46916d971c1a4f98c7c671c1a12836",
+    "answers.pdf": "5252a18737e5ce4559e09e7274337fceca86309bdcb751873440c3868f33c7cb",
+    "experiment.ipynb": "8d8c11655cd35bdf290806f5a00946de4c0fe7d046a38917e4ff717377b6d3c2",
+    "experiment.py": "ff7ddffb4d420913b6b9e863d3f5b72360d37c4053681d26174b42d72a0e70c7",
+    "test_experiment.py": "d1e011389872209e34780e90511b115286c5f59c42b265b1343433f5066c12ec",
+    "lecture.md": "e89d18d7fa2192e8d7fa0a0838a9dc63fbd3f3c074a13386dd3830e344a2cff3"
+  },
+  "markdown_html_hazard_scan": {
+    "status": "passed",
+    "scope": "all public unit Markdown",
+    "remaining_less_than_tokens": "intentional page-break div elements only"
+  }
+}

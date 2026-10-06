@@ -1,0 +1,347 @@
+{
+  "protocol": {
+    "seeds": [
+      5801,
+      5802,
+      5803
+    ],
+    "steps": 250,
+    "batch": 64,
+    "lr": 0.005,
+    "bottleneck": 2,
+    "architecture": "8->16 ReLU->2->16 ReLU->8",
+    "noise_std": 0.5,
+    "split_sizes": {
+      "train": 640,
+      "validation": 160,
+      "test": 320
+    },
+    "labeled_probe_train": 128,
+    "ridge": 1.0,
+    "normalization": "subtract full training input mean only for AE/PCA; probe feature mean/std fit on128 labeled training examples",
+    "selection": "fixed250 steps; no checkpoint search, no tuning with test or validation labels",
+    "max_train_seconds_per_run": 120,
+    "metrics": "MSE averaged over all N*8 coordinates; probe accuracy on320 test examples",
+    "scope": "3 initializations, one fixed data split; no significance or universal representation claim"
+  },
+  "results": [
+    {
+      "representation": "raw",
+      "seed": 0,
+      "test_reconstruction_mse": 0.0,
+      "corrupted_test_denoising_mse": 0.24312858283519745,
+      "probe_accuracy": 1.0,
+      "probe_correct": 320,
+      "probe_n": 320,
+      "trace": []
+    },
+    {
+      "representation": "pca2",
+      "seed": 0,
+      "test_reconstruction_mse": 0.03896292671561241,
+      "corrupted_test_denoising_mse": 0.09683980792760849,
+      "probe_accuracy": 0.478125,
+      "probe_correct": 153,
+      "probe_n": 320,
+      "trace": []
+    },
+    {
+      "representation": "random2",
+      "seed": 5801,
+      "test_reconstruction_mse": 1.6146045923233032,
+      "corrupted_test_denoising_mse": 1.6161859035491943,
+      "probe_accuracy": 0.553125,
+      "probe_correct": 177,
+      "probe_n": 320,
+      "trace": []
+    },
+    {
+      "representation": "ae",
+      "seed": 5801,
+      "test_reconstruction_mse": 0.04180938005447388,
+      "corrupted_test_denoising_mse": 0.11223119497299194,
+      "probe_accuracy": 0.46875,
+      "probe_correct": 150,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.5640716552734375,
+          "clean_validation_mse": 1.5319149494171143
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.10843151062726974,
+          "clean_validation_mse": 0.10978177934885025
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.04955504834651947,
+          "clean_validation_mse": 0.053271811455488205
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.04703618213534355,
+          "clean_validation_mse": 0.04527315869927406
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.040118664503097534,
+          "clean_validation_mse": 0.042569078505039215
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.04125271365046501,
+          "clean_validation_mse": 0.04138718917965889
+        }
+      ]
+    },
+    {
+      "representation": "dae",
+      "seed": 5801,
+      "test_reconstruction_mse": 0.04623326659202576,
+      "corrupted_test_denoising_mse": 0.09888779371976852,
+      "probe_accuracy": 0.48125,
+      "probe_correct": 154,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.5645827054977417,
+          "clean_validation_mse": 1.532108187675476
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.15905985236167908,
+          "clean_validation_mse": 0.1030745878815651
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.13007217645645142,
+          "clean_validation_mse": 0.057508159428834915
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.11971832811832428,
+          "clean_validation_mse": 0.048176638782024384
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.10195545852184296,
+          "clean_validation_mse": 0.0462997667491436
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.09067951142787933,
+          "clean_validation_mse": 0.04560946300625801
+        }
+      ]
+    },
+    {
+      "representation": "random2",
+      "seed": 5802,
+      "test_reconstruction_mse": 1.6808388233184814,
+      "corrupted_test_denoising_mse": 1.683203101158142,
+      "probe_accuracy": 0.453125,
+      "probe_correct": 145,
+      "probe_n": 320,
+      "trace": []
+    },
+    {
+      "representation": "ae",
+      "seed": 5802,
+      "test_reconstruction_mse": 0.04280010610818863,
+      "corrupted_test_denoising_mse": 0.11894786357879639,
+      "probe_accuracy": 0.471875,
+      "probe_correct": 151,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.6166399717330933,
+          "clean_validation_mse": 1.6044986248016357
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.178166463971138,
+          "clean_validation_mse": 0.16445845365524292
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.05292484164237976,
+          "clean_validation_mse": 0.05735637992620468
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.05018403381109238,
+          "clean_validation_mse": 0.049174677580595016
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.04174889251589775,
+          "clean_validation_mse": 0.04481640085577965
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.04202638566493988,
+          "clean_validation_mse": 0.04283852130174637
+        }
+      ]
+    },
+    {
+      "representation": "dae",
+      "seed": 5802,
+      "test_reconstruction_mse": 0.04707253724336624,
+      "corrupted_test_denoising_mse": 0.10085509717464447,
+      "probe_accuracy": 0.471875,
+      "probe_correct": 151,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.6193807125091553,
+          "clean_validation_mse": 1.6043205261230469
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.2251293808221817,
+          "clean_validation_mse": 0.14612647891044617
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.13495491445064545,
+          "clean_validation_mse": 0.06110833212733269
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.1113676130771637,
+          "clean_validation_mse": 0.05046437308192253
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.10736808180809021,
+          "clean_validation_mse": 0.04791753366589546
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.0944734737277031,
+          "clean_validation_mse": 0.0468449592590332
+        }
+      ]
+    },
+    {
+      "representation": "random2",
+      "seed": 5803,
+      "test_reconstruction_mse": 1.613305687904358,
+      "corrupted_test_denoising_mse": 1.6162359714508057,
+      "probe_accuracy": 0.5375,
+      "probe_correct": 172,
+      "probe_n": 320,
+      "trace": []
+    },
+    {
+      "representation": "ae",
+      "seed": 5803,
+      "test_reconstruction_mse": 0.04303158447146416,
+      "corrupted_test_denoising_mse": 0.11032267659902573,
+      "probe_accuracy": 0.49375,
+      "probe_correct": 158,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.5879173278808594,
+          "clean_validation_mse": 1.5243899822235107
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.3388982117176056,
+          "clean_validation_mse": 0.3140438199043274
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.05902797356247902,
+          "clean_validation_mse": 0.06249869614839554
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.04664136469364166,
+          "clean_validation_mse": 0.04491351917386055
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.04290959611535072,
+          "clean_validation_mse": 0.04269181564450264
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.04311918467283249,
+          "clean_validation_mse": 0.04116225242614746
+        }
+      ]
+    },
+    {
+      "representation": "dae",
+      "seed": 5803,
+      "test_reconstruction_mse": 0.04606231302022934,
+      "corrupted_test_denoising_mse": 0.09946545958518982,
+      "probe_accuracy": 0.4875,
+      "probe_correct": 156,
+      "probe_n": 320,
+      "trace": [
+        {
+          "step": 1,
+          "minibatch_loss": 1.587802529335022,
+          "clean_validation_mse": 1.5248069763183594
+        },
+        {
+          "step": 50,
+          "minibatch_loss": 0.37703099846839905,
+          "clean_validation_mse": 0.3280889391899109
+        },
+        {
+          "step": 100,
+          "minibatch_loss": 0.1272076964378357,
+          "clean_validation_mse": 0.08243997395038605
+        },
+        {
+          "step": 150,
+          "minibatch_loss": 0.10856258124113083,
+          "clean_validation_mse": 0.0478772297501564
+        },
+        {
+          "step": 200,
+          "minibatch_loss": 0.10844279825687408,
+          "clean_validation_mse": 0.04737687110900879
+        },
+        {
+          "step": 250,
+          "minibatch_loss": 0.09619008004665375,
+          "clean_validation_mse": 0.045281123369932175
+        }
+      ]
+    }
+  ],
+  "pca_train_eigenvalues": [
+    8.93760871887207,
+    4.312086582183838,
+    0.25830358266830444,
+    0.011105048470199108,
+    0.01061280071735382,
+    0.010084318928420544,
+    0.009777987375855446,
+    0.009215189144015312
+  ],
+  "pca_train_optimum_mse": 0.038637369871139526,
+  "identity_reconstruction_mse": 0.0,
+  "identity_bottleneck_dimension": 8,
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "threads": 1,
+    "device": "cpu",
+    "wall_seconds": 0.750169120999999
+  },
+  "limits": "labels describe a synthetic low-variance factor; common test set and one data split; random-encoder reconstruction is untrained baseline"
+}

@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-06",
+  "method": "Opened primary sources with public web retrieval; verified relevant title and content, not merely search snippets.",
+  "sources": [
+    {
+      "url": "https://www.deeplearningbook.org/contents/autoencoders.html",
+      "status": "verified",
+      "title": "Deep Learning Chapter 14 Autoencoders",
+      "supports": "encoder/decoder, undercomplete and regularized autoencoder concepts"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v11/vincent10a.html",
+      "status": "verified",
+      "title": "Stacked Denoising Autoencoders",
+      "supports": "primary research provenance for the denoising criterion",
+      "scope": "abstract and publication metadata; no claim to reproduce paper experiments"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.MSELoss.html",
+      "status": "verified",
+      "title": "MSELoss PyTorch 2.14",
+      "supports": "mean reduction over all elements",
+      "redirect_note": "stable documentation redirects to version 2.14"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html",
+      "status": "verified",
+      "title": "numpy.linalg.svd",
+      "supports": "U/s/Vh interface, reduced shapes and singular value order",
+      "version_note": "retrieved stable page says NumPy 2.5; tested runtime is 2.3.5"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+      "status": "verified",
+      "title": "Reproducibility",
+      "supports": "determinism settings and limits of cross-release and cross-platform reproduction"
+    }
+  ],
+  "original_material": "Synthetic dataset, worked numbers, trained models, metrics and figures are original to this unit."
+}
