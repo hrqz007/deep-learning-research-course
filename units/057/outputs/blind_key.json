@@ -1,0 +1,182 @@
+[
+  {
+    "candidate_id": "C001",
+    "seed": 5702,
+    "group": 48
+  },
+  {
+    "candidate_id": "C002",
+    "seed": 5702,
+    "group": 62
+  },
+  {
+    "candidate_id": "C003",
+    "seed": 5701,
+    "group": 20
+  },
+  {
+    "candidate_id": "C004",
+    "seed": 5703,
+    "group": 49
+  },
+  {
+    "candidate_id": "C005",
+    "seed": 5702,
+    "group": 42
+  },
+  {
+    "candidate_id": "C006",
+    "seed": 5703,
+    "group": 48
+  },
+  {
+    "candidate_id": "C007",
+    "seed": 5702,
+    "group": 11
+  },
+  {
+    "candidate_id": "C008",
+    "seed": 5703,
+    "group": 56
+  },
+  {
+    "candidate_id": "C009",
+    "seed": 5703,
+    "group": 62
+  },
+  {
+    "candidate_id": "C010",
+    "seed": 5701,
+    "group": 16
+  },
+  {
+    "candidate_id": "C011",
+    "seed": 5702,
+    "group": 49
+  },
+  {
+    "candidate_id": "C012",
+    "seed": 5701,
+    "group": 48
+  },
+  {
+    "candidate_id": "C013",
+    "seed": 5702,
+    "group": 22
+  },
+  {
+    "candidate_id": "C014",
+    "seed": 5701,
+    "group": 62
+  },
+  {
+    "candidate_id": "C015",
+    "seed": 5701,
+    "group": 56
+  },
+  {
+    "candidate_id": "C016",
+    "seed": 5701,
+    "group": 18
+  },
+  {
+    "candidate_id": "C017",
+    "seed": 5703,
+    "group": 20
+  },
+  {
+    "candidate_id": "C018",
+    "seed": 5703,
+    "group": 42
+  },
+  {
+    "candidate_id": "C019",
+    "seed": 5703,
+    "group": 11
+  },
+  {
+    "candidate_id": "C020",
+    "seed": 5703,
+    "group": 16
+  },
+  {
+    "candidate_id": "C021",
+    "seed": 5701,
+    "group": 12
+  },
+  {
+    "candidate_id": "C022",
+    "seed": 5702,
+    "group": 56
+  },
+  {
+    "candidate_id": "C023",
+    "seed": 5701,
+    "group": 22
+  },
+  {
+    "candidate_id": "C024",
+    "seed": 5703,
+    "group": 12
+  },
+  {
+    "candidate_id": "C025",
+    "seed": 5703,
+    "group": 1
+  },
+  {
+    "candidate_id": "C026",
+    "seed": 5701,
+    "group": 1
+  },
+  {
+    "candidate_id": "C027",
+    "seed": 5702,
+    "group": 1
+  },
+  {
+    "candidate_id": "C028",
+    "seed": 5703,
+    "group": 18
+  },
+  {
+    "candidate_id": "C029",
+    "seed": 5701,
+    "group": 49
+  },
+  {
+    "candidate_id": "C030",
+    "seed": 5702,
+    "group": 20
+  },
+  {
+    "candidate_id": "C031",
+    "seed": 5702,
+    "group": 16
+  },
+  {
+    "candidate_id": "C032",
+    "seed": 5702,
+    "group": 12
+  },
+  {
+    "candidate_id": "C033",
+    "seed": 5702,
+    "group": 18
+  },
+  {
+    "candidate_id": "C034",
+    "seed": 5701,
+    "group": 42
+  },
+  {
+    "candidate_id": "C035",
+    "seed": 5703,
+    "group": 22
+  },
+  {
+    "candidate_id": "C036",
+    "seed": 5701,
+    "group": 11
+  }
+]

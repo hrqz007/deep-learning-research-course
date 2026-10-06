@@ -1,0 +1,21 @@
+{
+  "verified_on": "2026-10-06",
+  "python": "3.12.14",
+  "tests": {
+    "normal": "PASS",
+    "optimized_O": "PASS",
+    "notebook_fresh_process_sequential": "PASS",
+    "notebook_code_cells": 6,
+    "recorded_sample_replay": "160 of 160 same token/stop/repetition fields",
+    "weight_sha256": "320103fb1caf40cbc6e2ca383272bd3087d37aaccd03ad8bb4df9c4f63f82f23",
+    "cache_error_max": 1.430511474609375e-06
+  },
+  "pdf_visual_review": {
+    "lecture_pages": 8,
+    "lab_pages": 4,
+    "answers_pages": 3,
+    "all_pages_rendered_and_inspected": true
+  },
+  "notebook_transport": "fresh in-process ipykernel; browser UI and socket transport not tested",
+  "scope": "fixed teaching checkpoint, 4 prompts x8 seeds x5 rules; no external language benchmark; timings vary"
+}

@@ -1,0 +1,3355 @@
+{
+  "vocab": [
+    "PAD",
+    "BOS",
+    "EOS",
+    "红",
+    "蓝",
+    "绿",
+    "黄",
+    "猫",
+    "狗",
+    "鸟",
+    "鱼",
+    "看",
+    "拿",
+    "找",
+    "推",
+    "球",
+    "书",
+    "盒",
+    "杯",
+    "。"
+  ],
+  "documents": [
+    {
+      "id": "g54_o0",
+      "group": 54,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g54_o1",
+      "group": 54,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g54_o2",
+      "group": 54,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g54_o3",
+      "group": 54,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        13,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g53_o0",
+      "group": 53,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g53_o1",
+      "group": 53,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g53_o2",
+      "group": 53,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g53_o3",
+      "group": 53,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        12,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g04_o0",
+      "group": 4,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g04_o1",
+      "group": 4,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g04_o2",
+      "group": 4,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g04_o3",
+      "group": 4,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        11,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g14_o0",
+      "group": 14,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g14_o1",
+      "group": 14,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g14_o2",
+      "group": 14,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g14_o3",
+      "group": 14,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        13,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g19_o0",
+      "group": 19,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g19_o1",
+      "group": 19,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g19_o2",
+      "group": 19,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g19_o3",
+      "group": 19,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        14,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g15_o0",
+      "group": 15,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g15_o1",
+      "group": 15,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g15_o2",
+      "group": 15,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g15_o3",
+      "group": 15,
+      "split": "train",
+      "tokens": [
+        3,
+        10,
+        14,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g58_o0",
+      "group": 58,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g58_o1",
+      "group": 58,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g58_o2",
+      "group": 58,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g58_o3",
+      "group": 58,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        13,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g21_o0",
+      "group": 21,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g21_o1",
+      "group": 21,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g21_o2",
+      "group": 21,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g21_o3",
+      "group": 21,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        12,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g37_o0",
+      "group": 37,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g37_o1",
+      "group": 37,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g37_o2",
+      "group": 37,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g37_o3",
+      "group": 37,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        12,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g45_o0",
+      "group": 45,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g45_o1",
+      "group": 45,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g45_o2",
+      "group": 45,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g45_o3",
+      "group": 45,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        12,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g03_o0",
+      "group": 3,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g03_o1",
+      "group": 3,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g03_o2",
+      "group": 3,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g03_o3",
+      "group": 3,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        14,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g63_o0",
+      "group": 63,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g63_o1",
+      "group": 63,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g63_o2",
+      "group": 63,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g63_o3",
+      "group": 63,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        14,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g47_o0",
+      "group": 47,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g47_o1",
+      "group": 47,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g47_o2",
+      "group": 47,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g47_o3",
+      "group": 47,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        14,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g61_o0",
+      "group": 61,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g61_o1",
+      "group": 61,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g61_o2",
+      "group": 61,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g61_o3",
+      "group": 61,
+      "split": "train",
+      "tokens": [
+        6,
+        10,
+        12,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g32_o0",
+      "group": 32,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g32_o1",
+      "group": 32,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g32_o2",
+      "group": 32,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g32_o3",
+      "group": 32,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        11,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g23_o0",
+      "group": 23,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g23_o1",
+      "group": 23,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g23_o2",
+      "group": 23,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g23_o3",
+      "group": 23,
+      "split": "train",
+      "tokens": [
+        4,
+        8,
+        14,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g28_o0",
+      "group": 28,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g28_o1",
+      "group": 28,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g28_o2",
+      "group": 28,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g28_o3",
+      "group": 28,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        11,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g27_o0",
+      "group": 27,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g27_o1",
+      "group": 27,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g27_o2",
+      "group": 27,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g27_o3",
+      "group": 27,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        14,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g26_o0",
+      "group": 26,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g26_o1",
+      "group": 26,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g26_o2",
+      "group": 26,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g26_o3",
+      "group": 26,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        13,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g44_o0",
+      "group": 44,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g44_o1",
+      "group": 44,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g44_o2",
+      "group": 44,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g44_o3",
+      "group": 44,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        11,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g40_o0",
+      "group": 40,
+      "split": "train",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g40_o1",
+      "group": 40,
+      "split": "train",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g40_o2",
+      "group": 40,
+      "split": "train",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g40_o3",
+      "group": 40,
+      "split": "train",
+      "tokens": [
+        5,
+        9,
+        11,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g35_o0",
+      "group": 35,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g35_o1",
+      "group": 35,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g35_o2",
+      "group": 35,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g35_o3",
+      "group": 35,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        14,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g31_o0",
+      "group": 31,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g31_o1",
+      "group": 31,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g31_o2",
+      "group": 31,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g31_o3",
+      "group": 31,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        14,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g25_o0",
+      "group": 25,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g25_o1",
+      "group": 25,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g25_o2",
+      "group": 25,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g25_o3",
+      "group": 25,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        12,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g46_o0",
+      "group": 46,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g46_o1",
+      "group": 46,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g46_o2",
+      "group": 46,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g46_o3",
+      "group": 46,
+      "split": "train",
+      "tokens": [
+        5,
+        10,
+        13,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g29_o0",
+      "group": 29,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g29_o1",
+      "group": 29,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g29_o2",
+      "group": 29,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g29_o3",
+      "group": 29,
+      "split": "train",
+      "tokens": [
+        4,
+        10,
+        12,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g57_o0",
+      "group": 57,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g57_o1",
+      "group": 57,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g57_o2",
+      "group": 57,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g57_o3",
+      "group": 57,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        12,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g38_o0",
+      "group": 38,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g38_o1",
+      "group": 38,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g38_o2",
+      "group": 38,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g38_o3",
+      "group": 38,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        13,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g00_o0",
+      "group": 0,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g00_o1",
+      "group": 0,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g00_o2",
+      "group": 0,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g00_o3",
+      "group": 0,
+      "split": "train",
+      "tokens": [
+        3,
+        7,
+        11,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g55_o0",
+      "group": 55,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g55_o1",
+      "group": 55,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g55_o2",
+      "group": 55,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g55_o3",
+      "group": 55,
+      "split": "train",
+      "tokens": [
+        6,
+        8,
+        14,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g10_o0",
+      "group": 10,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g10_o1",
+      "group": 10,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g10_o2",
+      "group": 10,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g10_o3",
+      "group": 10,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        13,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g36_o0",
+      "group": 36,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g36_o1",
+      "group": 36,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g36_o2",
+      "group": 36,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g36_o3",
+      "group": 36,
+      "split": "train",
+      "tokens": [
+        5,
+        8,
+        11,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g05_o0",
+      "group": 5,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g05_o1",
+      "group": 5,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g05_o2",
+      "group": 5,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g05_o3",
+      "group": 5,
+      "split": "train",
+      "tokens": [
+        3,
+        8,
+        12,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g59_o0",
+      "group": 59,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g59_o1",
+      "group": 59,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g59_o2",
+      "group": 59,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g59_o3",
+      "group": 59,
+      "split": "train",
+      "tokens": [
+        6,
+        9,
+        14,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g34_o0",
+      "group": 34,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g34_o1",
+      "group": 34,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g34_o2",
+      "group": 34,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g34_o3",
+      "group": 34,
+      "split": "train",
+      "tokens": [
+        5,
+        7,
+        13,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g17_o0",
+      "group": 17,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g17_o1",
+      "group": 17,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g17_o2",
+      "group": 17,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g17_o3",
+      "group": 17,
+      "split": "train",
+      "tokens": [
+        4,
+        7,
+        12,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g24_o0",
+      "group": 24,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g24_o1",
+      "group": 24,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g24_o2",
+      "group": 24,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g24_o3",
+      "group": 24,
+      "split": "train",
+      "tokens": [
+        4,
+        9,
+        11,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g51_o0",
+      "group": 51,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g51_o1",
+      "group": 51,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g51_o2",
+      "group": 51,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g51_o3",
+      "group": 51,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        14,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g08_o0",
+      "group": 8,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g08_o1",
+      "group": 8,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g08_o2",
+      "group": 8,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g08_o3",
+      "group": 8,
+      "split": "train",
+      "tokens": [
+        3,
+        9,
+        11,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g50_o0",
+      "group": 50,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g50_o1",
+      "group": 50,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g50_o2",
+      "group": 50,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g50_o3",
+      "group": 50,
+      "split": "train",
+      "tokens": [
+        6,
+        7,
+        13,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g41_o0",
+      "group": 41,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g41_o1",
+      "group": 41,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g41_o2",
+      "group": 41,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g41_o3",
+      "group": 41,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        12,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g09_o0",
+      "group": 9,
+      "split": "validation",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g09_o1",
+      "group": 9,
+      "split": "validation",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g09_o2",
+      "group": 9,
+      "split": "validation",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g09_o3",
+      "group": 9,
+      "split": "validation",
+      "tokens": [
+        3,
+        9,
+        12,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g43_o0",
+      "group": 43,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g43_o1",
+      "group": 43,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g43_o2",
+      "group": 43,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g43_o3",
+      "group": 43,
+      "split": "validation",
+      "tokens": [
+        5,
+        9,
+        14,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g30_o0",
+      "group": 30,
+      "split": "validation",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g30_o1",
+      "group": 30,
+      "split": "validation",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g30_o2",
+      "group": 30,
+      "split": "validation",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g30_o3",
+      "group": 30,
+      "split": "validation",
+      "tokens": [
+        4,
+        10,
+        13,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g60_o0",
+      "group": 60,
+      "split": "validation",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g60_o1",
+      "group": 60,
+      "split": "validation",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g60_o2",
+      "group": 60,
+      "split": "validation",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g60_o3",
+      "group": 60,
+      "split": "validation",
+      "tokens": [
+        6,
+        10,
+        11,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g39_o0",
+      "group": 39,
+      "split": "validation",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g39_o1",
+      "group": 39,
+      "split": "validation",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g39_o2",
+      "group": 39,
+      "split": "validation",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g39_o3",
+      "group": 39,
+      "split": "validation",
+      "tokens": [
+        5,
+        8,
+        14,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g07_o0",
+      "group": 7,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g07_o1",
+      "group": 7,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g07_o2",
+      "group": 7,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g07_o3",
+      "group": 7,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        14,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g06_o0",
+      "group": 6,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g06_o1",
+      "group": 6,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g06_o2",
+      "group": 6,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g06_o3",
+      "group": 6,
+      "split": "validation",
+      "tokens": [
+        3,
+        8,
+        13,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g52_o0",
+      "group": 52,
+      "split": "validation",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g52_o1",
+      "group": 52,
+      "split": "validation",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g52_o2",
+      "group": 52,
+      "split": "validation",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g52_o3",
+      "group": 52,
+      "split": "validation",
+      "tokens": [
+        6,
+        8,
+        11,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g13_o0",
+      "group": 13,
+      "split": "validation",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g13_o1",
+      "group": 13,
+      "split": "validation",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g13_o2",
+      "group": 13,
+      "split": "validation",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g13_o3",
+      "group": 13,
+      "split": "validation",
+      "tokens": [
+        3,
+        10,
+        12,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g33_o0",
+      "group": 33,
+      "split": "validation",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g33_o1",
+      "group": 33,
+      "split": "validation",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g33_o2",
+      "group": 33,
+      "split": "validation",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g33_o3",
+      "group": 33,
+      "split": "validation",
+      "tokens": [
+        5,
+        7,
+        12,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g02_o0",
+      "group": 2,
+      "split": "validation",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g02_o1",
+      "group": 2,
+      "split": "validation",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g02_o2",
+      "group": 2,
+      "split": "validation",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g02_o3",
+      "group": 2,
+      "split": "validation",
+      "tokens": [
+        3,
+        7,
+        13,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g42_o0",
+      "group": 42,
+      "split": "test",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g42_o1",
+      "group": 42,
+      "split": "test",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g42_o2",
+      "group": 42,
+      "split": "test",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g42_o3",
+      "group": 42,
+      "split": "test",
+      "tokens": [
+        5,
+        9,
+        13,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g22_o0",
+      "group": 22,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g22_o1",
+      "group": 22,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g22_o2",
+      "group": 22,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g22_o3",
+      "group": 22,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        13,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g62_o0",
+      "group": 62,
+      "split": "test",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g62_o1",
+      "group": 62,
+      "split": "test",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g62_o2",
+      "group": 62,
+      "split": "test",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g62_o3",
+      "group": 62,
+      "split": "test",
+      "tokens": [
+        6,
+        10,
+        13,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g20_o0",
+      "group": 20,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g20_o1",
+      "group": 20,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g20_o2",
+      "group": 20,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g20_o3",
+      "group": 20,
+      "split": "test",
+      "tokens": [
+        4,
+        8,
+        11,
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g49_o0",
+      "group": 49,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g49_o1",
+      "group": 49,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g49_o2",
+      "group": 49,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g49_o3",
+      "group": 49,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        12,
+        3,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g16_o0",
+      "group": 16,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g16_o1",
+      "group": 16,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g16_o2",
+      "group": 16,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g16_o3",
+      "group": 16,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        11,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g01_o0",
+      "group": 1,
+      "split": "test",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g01_o1",
+      "group": 1,
+      "split": "test",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g01_o2",
+      "group": 1,
+      "split": "test",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g01_o3",
+      "group": 1,
+      "split": "test",
+      "tokens": [
+        3,
+        7,
+        12,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g18_o0",
+      "group": 18,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g18_o1",
+      "group": 18,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g18_o2",
+      "group": 18,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g18_o3",
+      "group": 18,
+      "split": "test",
+      "tokens": [
+        4,
+        7,
+        13,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g12_o0",
+      "group": 12,
+      "split": "test",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g12_o1",
+      "group": 12,
+      "split": "test",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g12_o2",
+      "group": 12,
+      "split": "test",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g12_o3",
+      "group": 12,
+      "split": "test",
+      "tokens": [
+        3,
+        10,
+        11,
+        6,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g56_o0",
+      "group": 56,
+      "split": "test",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g56_o1",
+      "group": 56,
+      "split": "test",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g56_o2",
+      "group": 56,
+      "split": "test",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g56_o3",
+      "group": 56,
+      "split": "test",
+      "tokens": [
+        6,
+        9,
+        11,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g11_o0",
+      "group": 11,
+      "split": "test",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g11_o1",
+      "group": 11,
+      "split": "test",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g11_o2",
+      "group": 11,
+      "split": "test",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g11_o3",
+      "group": 11,
+      "split": "test",
+      "tokens": [
+        3,
+        9,
+        14,
+        4,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "g48_o0",
+      "group": 48,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "g48_o1",
+      "group": 48,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "g48_o2",
+      "group": 48,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "g48_o3",
+      "group": 48,
+      "split": "test",
+      "tokens": [
+        6,
+        7,
+        11,
+        6,
+        18,
+        19
+      ]
+    }
+  ],
+  "rule": "color2=(color1+animal+action)mod4"
+}

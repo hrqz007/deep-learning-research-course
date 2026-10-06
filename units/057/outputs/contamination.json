@@ -1,0 +1,23 @@
+{
+  "train_validation": {
+    "exact_document_overlap": 0,
+    "prefix_group_overlap": 0,
+    "token_vocabulary_overlap": 17,
+    "test_documents": 48,
+    "test_groups": 12
+  },
+  "train_test": {
+    "exact_document_overlap": 0,
+    "prefix_group_overlap": 0,
+    "token_vocabulary_overlap": 17,
+    "test_documents": 48,
+    "test_groups": 12
+  },
+  "validation_test": {
+    "exact_document_overlap": 0,
+    "prefix_group_overlap": 0,
+    "token_vocabulary_overlap": 17,
+    "test_documents": 48,
+    "test_groups": 12
+  }
+}

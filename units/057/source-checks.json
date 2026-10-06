@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-10-06",
+  "checks": [
+    {
+      "url": "https://arxiv.org/abs/2211.09110",
+      "title": "Holistic Evaluation of Language Models",
+      "scope": "多维度评价与场景，不代表运行HELM",
+      "status": "opened"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.07958",
+      "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+      "scope": "事实性需要单独测量，不代表运行TruthfulQA",
+      "status": "opened"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.05685",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "scope": "模型裁判偏差，不代表已经有裁判分",
+      "status": "opened"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "title": "NIST 7.2.4.1 Confidence intervals",
+      "scope": "Wilson比例区间公式与边界",
+      "status": "opened"
+    },
+    {
+      "url": "https://doi.org/10.1080/01621459.1927.10502953",
+      "status": "publisher_403",
+      "scope": "bibliography only; formula verified at NIST"
+    }
+  ]
+}

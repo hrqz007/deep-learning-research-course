@@ -1,0 +1,63 @@
+{
+  "seed_range": [
+    5601,
+    5602,
+    5603,
+    5604,
+    5605,
+    5606,
+    5607,
+    5608
+  ],
+  "prompt_document_ids": [
+    "3331",
+    "2231",
+    "0322",
+    "3101"
+  ],
+  "prompts": [
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "configs": {
+    "greedy": {
+      "greedy": true
+    },
+    "T0.7": {
+      "temperature": 0.7
+    },
+    "T1.3": {
+      "temperature": 1.3
+    },
+    "top-k3": {
+      "temperature": 1.0,
+      "top_k": 3
+    },
+    "top-p0.8": {
+      "temperature": 1.0,
+      "top_p": 0.8
+    }
+  },
+  "max_new": 6,
+  "forbidden_outputs": [
+    0,
+    1
+  ],
+  "weight_sha256": "320103fb1caf40cbc6e2ca383272bd3087d37aaccd03ad8bb4df9c4f63f82f23",
+  "benchmark": "fixed7 input tokens from one training document; 3 warmups,20 interleaved repetitions; no sampling,no EOS stop",
+  "scope": "4 training prefixes x8 seeds x5 decoding rules; fixed model; no model selection"
+}

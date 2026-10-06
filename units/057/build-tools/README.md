@@ -1,0 +1,1 @@
+PDF使用原始Markdown、Matplotlib数学排版和WeasyPrint离线构建。安装 requirements.txt 所列构建依赖及 Noto Serif/Sans CJK、DejaVu 字体后，在本单元运行 python build_pdf.py lecture.md（lab.md 与 answers.md 同理）。无需前面单元、npm或网络。字体缺失会造成方框，应先安装官方字体。

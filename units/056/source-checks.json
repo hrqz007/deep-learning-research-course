@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-10-06",
+  "checks": [
+    {
+      "url": "https://arxiv.org/abs/1904.09751",
+      "status": "opened",
+      "title": "The Curious Case of Neural Text Degeneration",
+      "type": "original_paper"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/cache_explanation",
+      "status": "opened",
+      "title": "How caching works",
+      "type": "official_docs"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.7/generated/torch.multinomial.html",
+      "status": "opened",
+      "title": "torch.multinomial",
+      "type": "official_versioned_docs",
+      "note": "stable entry redirect did not expose content; verified 2.7 interface and executed on runtime version recorded separately"
+    }
+  ]
+}

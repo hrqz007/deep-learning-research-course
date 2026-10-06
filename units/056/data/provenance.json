@@ -1,0 +1,9 @@
+{
+  "source_unit": "055",
+  "source_commit": "bcaf32f74c2b001d42f039667f8dc7dc4ddb6b16",
+  "configuration": "d16_n128_s5501; fixed teaching checkpoint, no056 search",
+  "source_path": "units/055/outputs/runs/d16_n128_s5501/weights.npz",
+  "sha256": "320103fb1caf40cbc6e2ca383272bd3087d37aaccd03ad8bb4df9c4f63f82f23",
+  "training_steps": 80,
+  "test_policy": "056 uses4 fixed training prompts only; no test evaluation"
+}

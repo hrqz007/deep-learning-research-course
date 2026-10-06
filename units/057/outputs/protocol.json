@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    5701,
+    5702,
+    5703
+  ],
+  "width": 16,
+  "steps": 120,
+  "batch_size": 16,
+  "learning_rate": 0.003,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "validation_checkpoints": [
+    0,
+    40,
+    120
+  ],
+  "test_checkpoint": 120,
+  "selection": "fixed final120 steps; no best-validation selection, no test-based tuning",
+  "split": "64 prefix groups shuffled by5700:40train,12validation,12test;4 objects each",
+  "task": "given BOS and3 rule input symbols, generate color,object,period,EOS; greedy, PAD/BOS suppressed",
+  "budget_effective_tokens_per_seed": 13440,
+  "max_train_seconds_per_seed": 120,
+  "human_evaluation_status": "not performed; blank blinded rating sheet only",
+  "uncertainty": "Wilson95 on12 prompt groups for each seed, approximate iid-superpopulation interpretation; fixed finite synthetic split"
+}

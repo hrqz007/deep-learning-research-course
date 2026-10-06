@@ -1,0 +1,24 @@
+{
+  "verified_on": "2026-10-06",
+  "python": "3.12.14",
+  "tests": {
+    "normal": "PASS",
+    "optimized_O": "PASS",
+    "notebook_fresh_process_sequential": "PASS",
+    "notebook_code_cells": 6,
+    "three_seed_replay": "all test fields equal to recorded output",
+    "released_weight_readback": "all three required checkpoints reproduce NLL and every prediction",
+    "parameter_count": 5252,
+    "test_documents": 48,
+    "effective_tokens": 336,
+    "prompt_groups": 12
+  },
+  "pdf_visual_review": {
+    "lecture_pages": 7,
+    "lab_pages": 3,
+    "answers_pages": 3,
+    "all_pages_rendered_and_inspected": true
+  },
+  "notebook_transport": "fresh in-process ipykernel; browser UI and socket transport not tested",
+  "scope": "fixed finite synthetic grouped split; no external language benchmarks; blank human rating sheet only"
+}
