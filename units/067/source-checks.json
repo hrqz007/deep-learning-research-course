@@ -1,0 +1,23 @@
+[
+  {
+    "title": "PyTorch DDP design",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/ddp.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "梯度bucket、跨rank平均与相同更新"
+  },
+  {
+    "title": "PyTorch DDP API",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.parallel.DistributedDataParallel.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "DDP假设、no_sync与用户数据划分责任"
+  },
+  {
+    "title": "PyTorch data",
+    "url": "https://docs.pytorch.org/docs/2.14/data.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "DistributedSampler填充、丢弃与set_epoch"
+  }
+]

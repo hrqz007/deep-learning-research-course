@@ -1,0 +1,123 @@
+{
+  "unit": "067",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "dtype": "float64",
+    "device": "cpu",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 14,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 14,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "kernel": "actual IPython InProcessKernel; no browser or external transport validation",
+    "code_cells": 8,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "cell": 11,
+        "bytes": 45838,
+        "width": 933,
+        "height": 426
+      },
+      {
+        "cell": 13,
+        "bytes": 32898,
+        "width": 840,
+        "height": 426
+      }
+    ],
+    "retraining": "full original experiment rerun into notebook_outputs",
+    "reexecution": "deterministic numerical fields match originals; timing and profiler fields deliberately excluded where present"
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 8,
+      "lab": 3,
+      "answers": 4
+    },
+    "figures": 6,
+    "visual_review": "All pages independently rasterized with Poppler and visually inspected; no missing CJK, formula clipping, figure overlap or blank orphan pages observed."
+  },
+  "checkpoint_reload": [
+    {
+      "file": "duplicated_rank_seed11.pt",
+      "value": 0.3963043638545797,
+      "expected": 0.3963043638545797
+    },
+    {
+      "file": "duplicated_rank_seed23.pt",
+      "value": 0.411232906394035,
+      "expected": 0.411232906394035
+    },
+    {
+      "file": "duplicated_rank_seed37.pt",
+      "value": 0.3786506756194592,
+      "expected": 0.3786506756194592
+    },
+    {
+      "file": "full_seed11.pt",
+      "value": 0.22250540677571704,
+      "expected": 0.22250540677571704
+    },
+    {
+      "file": "full_seed23.pt",
+      "value": 0.21005973940162115,
+      "expected": 0.21005973940162115
+    },
+    {
+      "file": "full_seed37.pt",
+      "value": 0.1833021742723039,
+      "expected": 0.1833021742723039
+    },
+    {
+      "file": "rank_mean_seed11.pt",
+      "value": 0.25499236631686156,
+      "expected": 0.25499236631686156
+    },
+    {
+      "file": "rank_mean_seed23.pt",
+      "value": 0.23258846184537688,
+      "expected": 0.23258846184537688
+    },
+    {
+      "file": "rank_mean_seed37.pt",
+      "value": 0.20568232855621638,
+      "expected": 0.20568232855621638
+    },
+    {
+      "file": "weighted_seed11.pt",
+      "value": 0.22250540677571704,
+      "expected": 0.22250540677571704
+    },
+    {
+      "file": "weighted_seed23.pt",
+      "value": 0.21005973940162115,
+      "expected": 0.21005973940162115
+    },
+    {
+      "file": "weighted_seed37.pt",
+      "value": 0.18330217427230389,
+      "expected": 0.18330217427230389
+    }
+  ],
+  "sources_checked": true,
+  "limitations": [
+    "single-process numerical simulation; no real distributed process group or network benchmark"
+  ],
+  "scope": "only this curriculum unit; no later unit executed"
+}
