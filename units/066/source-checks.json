@@ -1,0 +1,44 @@
+[
+  {
+    "title": "PyTorch Type Info",
+    "url": "https://docs.pytorch.org/docs/2.14/type_info.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "finfo的eps与tiny含义"
+  },
+  {
+    "title": "PyTorch AMP",
+    "url": "https://docs.pytorch.org/docs/2.14/amp.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "autocast按设备与算子选dtype"
+  },
+  {
+    "title": "Mixed Precision Training",
+    "url": "https://arxiv.org/abs/1710.03740",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "混合精度与loss scaling研究背景"
+  },
+  {
+    "title": "PyTorch AMP examples",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/amp_examples.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "累积时scale不变、unscale和裁剪时机"
+  },
+  {
+    "title": "Training Deep Nets with Sublinear Memory Cost",
+    "url": "https://arxiv.org/abs/1604.06174",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "用重算交换激活保存空间"
+  },
+  {
+    "title": "PyTorch checkpoint",
+    "url": "https://docs.pytorch.org/docs/2.14/checkpoint.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "use_reentrant与preserve_rng_state语义"
+  }
+]

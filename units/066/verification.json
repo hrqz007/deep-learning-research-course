@@ -1,0 +1,122 @@
+{
+  "unit": "066",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "device": "cpu",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 14,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 14,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "kernel": "actual IPython InProcessKernel; no browser or external transport validation",
+    "code_cells": 8,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "cell": 11,
+        "bytes": 37441,
+        "width": 933,
+        "height": 426
+      },
+      {
+        "cell": 13,
+        "bytes": 29211,
+        "width": 1201,
+        "height": 391
+      }
+    ],
+    "retraining": "full original experiment rerun into notebook_outputs",
+    "reexecution": "deterministic numerical fields match originals; timing and profiler fields deliberately excluded where present"
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 8,
+      "lab": 3,
+      "answers": 4
+    },
+    "figures": 6,
+    "visual_review": "All pages independently rasterized with Poppler and visually inspected; no missing CJK, formula clipping, figure overlap or blank orphan pages observed."
+  },
+  "checkpoint_reload": [
+    {
+      "file": "accumulate_seed11.pt",
+      "value": 0.12438775599002838,
+      "expected": 0.12438775599002838
+    },
+    {
+      "file": "accumulate_seed23.pt",
+      "value": 0.12131506204605103,
+      "expected": 0.12131506204605103
+    },
+    {
+      "file": "accumulate_seed37.pt",
+      "value": 0.11926794052124023,
+      "expected": 0.11926794052124023
+    },
+    {
+      "file": "bf16_seed11.pt",
+      "value": 0.12440479546785355,
+      "expected": 0.12440479546785355
+    },
+    {
+      "file": "bf16_seed23.pt",
+      "value": 0.12136544287204742,
+      "expected": 0.12136544287204742
+    },
+    {
+      "file": "bf16_seed37.pt",
+      "value": 0.11931803077459335,
+      "expected": 0.11931803077459335
+    },
+    {
+      "file": "checkpoint_seed11.pt",
+      "value": 0.12438774853944778,
+      "expected": 0.12438774853944778
+    },
+    {
+      "file": "checkpoint_seed23.pt",
+      "value": 0.12131506204605103,
+      "expected": 0.12131506204605103
+    },
+    {
+      "file": "checkpoint_seed37.pt",
+      "value": 0.11926794797182083,
+      "expected": 0.11926794797182083
+    },
+    {
+      "file": "fp32_seed11.pt",
+      "value": 0.12438774853944778,
+      "expected": 0.12438774853944778
+    },
+    {
+      "file": "fp32_seed23.pt",
+      "value": 0.12131506204605103,
+      "expected": 0.12131506204605103
+    },
+    {
+      "file": "fp32_seed37.pt",
+      "value": 0.11926794797182083,
+      "expected": 0.11926794797182083
+    }
+  ],
+  "sources_checked": true,
+  "limitations": [
+    "CPU BF16 actual; CUDA FP16 GradScaler not run; saved storage is not peak memory"
+  ],
+  "scope": "only this curriculum unit; no later unit executed"
+}

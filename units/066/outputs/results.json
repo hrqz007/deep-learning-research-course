@@ -1,0 +1,739 @@
+{
+  "unit": "066",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "device": "cpu",
+    "threads": 1
+  },
+  "comparisons": {
+    "fp32": {
+      "loss": 0.707336962223053,
+      "gradient_relative_error": 0.0,
+      "gradient_max_abs_error": 0.0
+    },
+    "bf16": {
+      "loss": 0.7069359421730042,
+      "gradient_relative_error": 0.0023765580262988806,
+      "gradient_max_abs_error": 0.0008195042610168457
+    },
+    "accumulate": {
+      "loss": 0.707336962223053,
+      "gradient_relative_error": 1.272079686032157e-07,
+      "gradient_max_abs_error": 5.960464477539063e-08
+    },
+    "checkpoint": {
+      "loss": 0.707336962223053,
+      "gradient_relative_error": 0.0,
+      "gradient_max_abs_error": 0.0
+    },
+    "wrong_equal": {
+      "loss": 0.7239277213811874,
+      "gradient_relative_error": 0.05167796090245247,
+      "gradient_max_abs_error": 0.02092975378036499
+    }
+  },
+  "casting": {
+    "torch.float32": [
+      "9.99999993922529e-09",
+      "1.0",
+      "1.0009765625",
+      "70000.0"
+    ],
+    "torch.float16": [
+      "0.0",
+      "1.0",
+      "1.0009765625",
+      "inf"
+    ],
+    "torch.bfloat16": [
+      "1.0011717677116394e-08",
+      "1.0",
+      "1.0",
+      "70144.0"
+    ]
+  },
+  "scaling": {
+    "original": 9.99999993922529e-09,
+    "fp16_direct": 0.0,
+    "scale_then_cast_unscale": 9.997165761888027e-09,
+    "cast_then_scale_unscale": 0.0,
+    "scope": "scalar arithmetic demonstration, not an actual CUDA GradScaler run"
+  },
+  "dropout": {
+    "preserve_rng_relative_error": 0.0,
+    "no_preserve_relative_error": 0.5413431525230408
+  },
+  "batchnorm_accumulation_relative_error": 0.19860661029815674,
+  "saved_tensors": {
+    "full": {
+      "saved_nonparameter_unique_storage_bytes": 164864,
+      "saved_tensor_calls": 15,
+      "scope": "unique non-parameter storage retained by forward autograd; includes input/target; not peak memory"
+    },
+    "checkpoint": {
+      "saved_nonparameter_unique_storage_bytes": 66560,
+      "saved_tensor_calls": 5,
+      "scope": "unique non-parameter storage retained by forward autograd; includes input/target; not peak memory"
+    }
+  },
+  "timing": {
+    "full": {
+      "seconds_per_forward_backward": [
+        0.000538529200002813,
+        0.0006218612000338907,
+        0.0005508677999387146,
+        0.0007468423999853257,
+        0.0006278884000494144,
+        0.0005649009999615373,
+        0.0005789864000689704
+      ],
+      "median_seconds": 0.0005789864000689704,
+      "scope": "CPU forward+backward+zero_grad; no optimizer step; separate from saved-tensor instrumentation"
+    },
+    "checkpoint": {
+      "seconds_per_forward_backward": [
+        0.0010479322000719548,
+        0.0010545942000135256,
+        0.0010070884000015212,
+        0.0010740115999396949,
+        0.001281105199996091,
+        0.0010973769999509386,
+        0.0011970417999691563
+      ],
+      "median_seconds": 0.0010740115999396949,
+      "scope": "CPU forward+backward+zero_grad; no optimizer step; separate from saved-tensor instrumentation"
+    }
+  },
+  "runs": [
+    {
+      "seed": 11,
+      "mode": "fp32",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.707336962223053,
+          "test_mse_fp32_inference": 0.5494063496589661
+        },
+        {
+          "step": 21,
+          "train_mse": 0.4349988102912903,
+          "test_mse_fp32_inference": 0.5476192235946655
+        },
+        {
+          "step": 41,
+          "train_mse": 0.10564234852790833,
+          "test_mse_fp32_inference": 0.3112778067588806
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03705897927284241,
+          "test_mse_fp32_inference": 0.19522465765476227
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021596847102046013,
+          "test_mse_fp32_inference": 0.15463107824325562
+        },
+        {
+          "step": 101,
+          "train_mse": 0.01601445861160755,
+          "test_mse_fp32_inference": 0.138490691781044
+        },
+        {
+          "step": 121,
+          "train_mse": 0.01297758612781763,
+          "test_mse_fp32_inference": 0.13084065914154053
+        },
+        {
+          "step": 141,
+          "train_mse": 0.010871704667806625,
+          "test_mse_fp32_inference": 0.12671339511871338
+        },
+        {
+          "step": 160,
+          "train_mse": 0.009302081540226936,
+          "test_mse_fp32_inference": 0.12438774853944778
+        }
+      ],
+      "final_test_mse": 0.12438774853944778
+    },
+    {
+      "seed": 11,
+      "mode": "bf16",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.7069359421730042,
+          "test_mse_fp32_inference": 0.549401044845581
+        },
+        {
+          "step": 21,
+          "train_mse": 0.43503081798553467,
+          "test_mse_fp32_inference": 0.5476041436195374
+        },
+        {
+          "step": 41,
+          "train_mse": 0.10559436678886414,
+          "test_mse_fp32_inference": 0.3112967014312744
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03704920411109924,
+          "test_mse_fp32_inference": 0.19530358910560608
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021618973463773727,
+          "test_mse_fp32_inference": 0.15459108352661133
+        },
+        {
+          "step": 101,
+          "train_mse": 0.01598900556564331,
+          "test_mse_fp32_inference": 0.13857053220272064
+        },
+        {
+          "step": 121,
+          "train_mse": 0.012975710444152355,
+          "test_mse_fp32_inference": 0.1308341920375824
+        },
+        {
+          "step": 141,
+          "train_mse": 0.010902569629251957,
+          "test_mse_fp32_inference": 0.12667560577392578
+        },
+        {
+          "step": 160,
+          "train_mse": 0.009297311305999756,
+          "test_mse_fp32_inference": 0.12440479546785355
+        }
+      ],
+      "final_test_mse": 0.12440479546785355
+    },
+    {
+      "seed": 11,
+      "mode": "accumulate",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.707336962223053,
+          "test_mse_fp32_inference": 0.5494063496589661
+        },
+        {
+          "step": 21,
+          "train_mse": 0.4349987804889679,
+          "test_mse_fp32_inference": 0.5476192235946655
+        },
+        {
+          "step": 41,
+          "train_mse": 0.10564235970377922,
+          "test_mse_fp32_inference": 0.3112778067588806
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03705898579210043,
+          "test_mse_fp32_inference": 0.19522467255592346
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021596854086965322,
+          "test_mse_fp32_inference": 0.1546310931444168
+        },
+        {
+          "step": 101,
+          "train_mse": 0.0160144604742527,
+          "test_mse_fp32_inference": 0.138490691781044
+        },
+        {
+          "step": 121,
+          "train_mse": 0.012977587291970849,
+          "test_mse_fp32_inference": 0.13084067404270172
+        },
+        {
+          "step": 141,
+          "train_mse": 0.010871706530451775,
+          "test_mse_fp32_inference": 0.12671341001987457
+        },
+        {
+          "step": 160,
+          "train_mse": 0.00930208177305758,
+          "test_mse_fp32_inference": 0.12438775599002838
+        }
+      ],
+      "final_test_mse": 0.12438775599002838
+    },
+    {
+      "seed": 11,
+      "mode": "checkpoint",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.707336962223053,
+          "test_mse_fp32_inference": 0.5494063496589661
+        },
+        {
+          "step": 21,
+          "train_mse": 0.4349988102912903,
+          "test_mse_fp32_inference": 0.5476192235946655
+        },
+        {
+          "step": 41,
+          "train_mse": 0.10564234852790833,
+          "test_mse_fp32_inference": 0.3112778067588806
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03705897927284241,
+          "test_mse_fp32_inference": 0.19522465765476227
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021596847102046013,
+          "test_mse_fp32_inference": 0.15463107824325562
+        },
+        {
+          "step": 101,
+          "train_mse": 0.01601445861160755,
+          "test_mse_fp32_inference": 0.138490691781044
+        },
+        {
+          "step": 121,
+          "train_mse": 0.01297758612781763,
+          "test_mse_fp32_inference": 0.13084065914154053
+        },
+        {
+          "step": 141,
+          "train_mse": 0.010871704667806625,
+          "test_mse_fp32_inference": 0.12671339511871338
+        },
+        {
+          "step": 160,
+          "train_mse": 0.009302081540226936,
+          "test_mse_fp32_inference": 0.12438774853944778
+        }
+      ],
+      "final_test_mse": 0.12438774853944778
+    },
+    {
+      "seed": 23,
+      "mode": "fp32",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.658434271812439,
+          "test_mse_fp32_inference": 0.5775514841079712
+        },
+        {
+          "step": 21,
+          "train_mse": 0.40693944692611694,
+          "test_mse_fp32_inference": 0.5159232020378113
+        },
+        {
+          "step": 41,
+          "train_mse": 0.08003827184438705,
+          "test_mse_fp32_inference": 0.20899498462677002
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03166186437010765,
+          "test_mse_fp32_inference": 0.13195279240608215
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021040787920355797,
+          "test_mse_fp32_inference": 0.11703431606292725
+        },
+        {
+          "step": 101,
+          "train_mse": 0.016605215147137642,
+          "test_mse_fp32_inference": 0.1154259517788887
+        },
+        {
+          "step": 121,
+          "train_mse": 0.013965316116809845,
+          "test_mse_fp32_inference": 0.11708921194076538
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012029479257762432,
+          "test_mse_fp32_inference": 0.1193319708108902
+        },
+        {
+          "step": 160,
+          "train_mse": 0.010520748794078827,
+          "test_mse_fp32_inference": 0.12131506204605103
+        }
+      ],
+      "final_test_mse": 0.12131506204605103
+    },
+    {
+      "seed": 23,
+      "mode": "bf16",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.658434271812439,
+          "test_mse_fp32_inference": 0.5775521993637085
+        },
+        {
+          "step": 21,
+          "train_mse": 0.40697985887527466,
+          "test_mse_fp32_inference": 0.5160022377967834
+        },
+        {
+          "step": 41,
+          "train_mse": 0.08020422607660294,
+          "test_mse_fp32_inference": 0.20919963717460632
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03172137215733528,
+          "test_mse_fp32_inference": 0.13200396299362183
+        },
+        {
+          "step": 81,
+          "train_mse": 0.02105199359357357,
+          "test_mse_fp32_inference": 0.11705373972654343
+        },
+        {
+          "step": 101,
+          "train_mse": 0.016552487388253212,
+          "test_mse_fp32_inference": 0.11536852270364761
+        },
+        {
+          "step": 121,
+          "train_mse": 0.01397097110748291,
+          "test_mse_fp32_inference": 0.11705097556114197
+        },
+        {
+          "step": 141,
+          "train_mse": 0.01197839342057705,
+          "test_mse_fp32_inference": 0.11933198571205139
+        },
+        {
+          "step": 160,
+          "train_mse": 0.010484051890671253,
+          "test_mse_fp32_inference": 0.12136544287204742
+        }
+      ],
+      "final_test_mse": 0.12136544287204742
+    },
+    {
+      "seed": 23,
+      "mode": "accumulate",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.6584343314170837,
+          "test_mse_fp32_inference": 0.5775514841079712
+        },
+        {
+          "step": 21,
+          "train_mse": 0.40693946182727814,
+          "test_mse_fp32_inference": 0.5159232020378113
+        },
+        {
+          "step": 41,
+          "train_mse": 0.08003829047083855,
+          "test_mse_fp32_inference": 0.20899498462677002
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03166186157613993,
+          "test_mse_fp32_inference": 0.13195279240608215
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021040786989033222,
+          "test_mse_fp32_inference": 0.11703430861234665
+        },
+        {
+          "step": 101,
+          "train_mse": 0.016605214681476355,
+          "test_mse_fp32_inference": 0.1154259592294693
+        },
+        {
+          "step": 121,
+          "train_mse": 0.013965314952656627,
+          "test_mse_fp32_inference": 0.11708918958902359
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012029478326439857,
+          "test_mse_fp32_inference": 0.1193319633603096
+        },
+        {
+          "step": 160,
+          "train_mse": 0.010520749259740114,
+          "test_mse_fp32_inference": 0.12131506204605103
+        }
+      ],
+      "final_test_mse": 0.12131506204605103
+    },
+    {
+      "seed": 23,
+      "mode": "checkpoint",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.658434271812439,
+          "test_mse_fp32_inference": 0.5775514841079712
+        },
+        {
+          "step": 21,
+          "train_mse": 0.40693944692611694,
+          "test_mse_fp32_inference": 0.5159232020378113
+        },
+        {
+          "step": 41,
+          "train_mse": 0.08003827184438705,
+          "test_mse_fp32_inference": 0.20899498462677002
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03166186437010765,
+          "test_mse_fp32_inference": 0.13195279240608215
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021040787920355797,
+          "test_mse_fp32_inference": 0.11703431606292725
+        },
+        {
+          "step": 101,
+          "train_mse": 0.016605215147137642,
+          "test_mse_fp32_inference": 0.1154259517788887
+        },
+        {
+          "step": 121,
+          "train_mse": 0.013965316116809845,
+          "test_mse_fp32_inference": 0.11708921194076538
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012029479257762432,
+          "test_mse_fp32_inference": 0.1193319708108902
+        },
+        {
+          "step": 160,
+          "train_mse": 0.010520748794078827,
+          "test_mse_fp32_inference": 0.12131506204605103
+        }
+      ],
+      "final_test_mse": 0.12131506204605103
+    },
+    {
+      "seed": 37,
+      "mode": "fp32",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.6018196940422058,
+          "test_mse_fp32_inference": 0.5395605564117432
+        },
+        {
+          "step": 21,
+          "train_mse": 0.2926931381225586,
+          "test_mse_fp32_inference": 0.4348950982093811
+        },
+        {
+          "step": 41,
+          "train_mse": 0.06592947244644165,
+          "test_mse_fp32_inference": 0.20035293698310852
+        },
+        {
+          "step": 61,
+          "train_mse": 0.031491972506046295,
+          "test_mse_fp32_inference": 0.1439826339483261
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021894272416830063,
+          "test_mse_fp32_inference": 0.12692025303840637
+        },
+        {
+          "step": 101,
+          "train_mse": 0.017512280493974686,
+          "test_mse_fp32_inference": 0.12116436660289764
+        },
+        {
+          "step": 121,
+          "train_mse": 0.01479004044085741,
+          "test_mse_fp32_inference": 0.11936350911855698
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012790663167834282,
+          "test_mse_fp32_inference": 0.11905794590711594
+        },
+        {
+          "step": 160,
+          "train_mse": 0.011253569275140762,
+          "test_mse_fp32_inference": 0.11926794797182083
+        }
+      ],
+      "final_test_mse": 0.11926794797182083
+    },
+    {
+      "seed": 37,
+      "mode": "bf16",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.6018794775009155,
+          "test_mse_fp32_inference": 0.539565920829773
+        },
+        {
+          "step": 21,
+          "train_mse": 0.29283684492111206,
+          "test_mse_fp32_inference": 0.43508249521255493
+        },
+        {
+          "step": 41,
+          "train_mse": 0.0660535991191864,
+          "test_mse_fp32_inference": 0.20044097304344177
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03147675096988678,
+          "test_mse_fp32_inference": 0.1439542919397354
+        },
+        {
+          "step": 81,
+          "train_mse": 0.02190582826733589,
+          "test_mse_fp32_inference": 0.1269235610961914
+        },
+        {
+          "step": 101,
+          "train_mse": 0.01743333600461483,
+          "test_mse_fp32_inference": 0.12114136666059494
+        },
+        {
+          "step": 121,
+          "train_mse": 0.014761226251721382,
+          "test_mse_fp32_inference": 0.11937510222196579
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012806438840925694,
+          "test_mse_fp32_inference": 0.11909251660108566
+        },
+        {
+          "step": 160,
+          "train_mse": 0.011198839172720909,
+          "test_mse_fp32_inference": 0.11931803077459335
+        }
+      ],
+      "final_test_mse": 0.11931803077459335
+    },
+    {
+      "seed": 37,
+      "mode": "accumulate",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.6018197238445282,
+          "test_mse_fp32_inference": 0.5395605564117432
+        },
+        {
+          "step": 21,
+          "train_mse": 0.2926931530237198,
+          "test_mse_fp32_inference": 0.4348951280117035
+        },
+        {
+          "step": 41,
+          "train_mse": 0.06592946872115135,
+          "test_mse_fp32_inference": 0.20035293698310852
+        },
+        {
+          "step": 61,
+          "train_mse": 0.03149197343736887,
+          "test_mse_fp32_inference": 0.1439826488494873
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021894277539104223,
+          "test_mse_fp32_inference": 0.12692026793956757
+        },
+        {
+          "step": 101,
+          "train_mse": 0.017512282822281122,
+          "test_mse_fp32_inference": 0.12116436660289764
+        },
+        {
+          "step": 121,
+          "train_mse": 0.014790039975196123,
+          "test_mse_fp32_inference": 0.11936349421739578
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012790660606697202,
+          "test_mse_fp32_inference": 0.11905794590711594
+        },
+        {
+          "step": 160,
+          "train_mse": 0.011253570206463337,
+          "test_mse_fp32_inference": 0.11926794052124023
+        }
+      ],
+      "final_test_mse": 0.11926794052124023
+    },
+    {
+      "seed": 37,
+      "mode": "checkpoint",
+      "history": [
+        {
+          "step": 1,
+          "train_mse": 0.6018196940422058,
+          "test_mse_fp32_inference": 0.5395605564117432
+        },
+        {
+          "step": 21,
+          "train_mse": 0.2926931381225586,
+          "test_mse_fp32_inference": 0.4348950982093811
+        },
+        {
+          "step": 41,
+          "train_mse": 0.06592947244644165,
+          "test_mse_fp32_inference": 0.20035293698310852
+        },
+        {
+          "step": 61,
+          "train_mse": 0.031491972506046295,
+          "test_mse_fp32_inference": 0.1439826339483261
+        },
+        {
+          "step": 81,
+          "train_mse": 0.021894272416830063,
+          "test_mse_fp32_inference": 0.12692025303840637
+        },
+        {
+          "step": 101,
+          "train_mse": 0.017512280493974686,
+          "test_mse_fp32_inference": 0.12116436660289764
+        },
+        {
+          "step": 121,
+          "train_mse": 0.01479004044085741,
+          "test_mse_fp32_inference": 0.11936350911855698
+        },
+        {
+          "step": 141,
+          "train_mse": 0.012790663167834282,
+          "test_mse_fp32_inference": 0.11905794590711594
+        },
+        {
+          "step": 160,
+          "train_mse": 0.011253569275140762,
+          "test_mse_fp32_inference": 0.11926794797182083
+        }
+      ],
+      "final_test_mse": 0.11926794797182083
+    }
+  ],
+  "cuda_fp16_gradscaler": {
+    "status": "not_run",
+    "reason": "CPU-only verified environment"
+  },
+  "gpu_peak_memory": null
+}
