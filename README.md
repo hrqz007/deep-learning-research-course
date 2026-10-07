@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–062讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–067讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -70,7 +70,11 @@
 |060|变分自编码器与ELBO|[11页](units/060/lecture.pdf)|[5页](units/060/lab.pdf)|[5页](units/060/answers.pdf)|[进入单元](units/060/README.md)|
 |061|对抗生成与博弈训练|[12页](units/061/lecture.pdf)|[5页](units/061/lab.pdf)|[5页](units/061/answers.pdf)|[进入单元](units/061/README.md)|
 |062|离散扩散与去噪学习|[14页](units/062/lecture.pdf)|[5页](units/062/lab.pdf)|[5页](units/062/answers.pdf)|[进入单元](units/062/README.md)|
+|063|生成模型评价与风险|[14页](units/063/lecture.pdf)|[5页](units/063/lab.pdf)|[5页](units/063/answers.pdf)|[进入单元](units/063/README.md)|
+|064|表示或生成研究项目|[14页](units/064/lecture.pdf)|[5页](units/064/lab.pdf)|[5页](units/064/answers.pdf)|[进入单元](units/064/README.md)|
 |065|设备显存与性能测量|[8页](units/065/lecture.pdf)|[4页](units/065/lab.pdf)|[3页](units/065/answers.pdf)|[进入单元](units/065/README.md)|
+|066|混合精度与激活重计算|[8页](units/066/lecture.pdf)|[3页](units/066/lab.pdf)|[4页](units/066/answers.pdf)|[进入单元](units/066/README.md)|
+|067|分布式训练的基本语义|[8页](units/067/lecture.pdf)|[3页](units/067/lab.pdf)|[4页](units/067/answers.pdf)|[进入单元](units/067/README.md)|
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -99,7 +103,7 @@
 
 第059–062讲的文件清单与逐文件远端校验记录见[核验说明](releases/059-062.json)。各单元已验证的执行方式与环境边界以单元说明为准。
 
-第063–067讲已发布部分的文件清单与逐文件远端校验记录见[核验说明](releases/063-067.json)。各单元执行方式及环境边界以单元说明为准。
+第063–067讲的文件清单与逐文件远端校验记录见[核验说明](releases/063-067.json)。各单元执行方式及环境边界以单元说明为准。
 
 ## 资料范围
 

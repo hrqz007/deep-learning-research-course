@@ -65,7 +65,11 @@
     "060",
     "061",
     "062",
-    "065"
+    "063",
+    "064",
+    "065",
+    "066",
+    "067"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2117,7 +2121,32 @@
       "figure": "质量覆盖二维对照及最近邻审计。",
       "lab": "为两类小生成模型设计公平协议，核对预处理、样本量和种子；加入近邻记忆检查。",
       "pitfall": "只看精选样本；把单一FID排序当绝对质量；忽略训练数据与评估样本重叠。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/063/lecture.pdf",
+        "lab_pdf": "units/063/lab.pdf",
+        "answers_pdf": "units/063/answers.pdf",
+        "notebook": "units/063/experiment.ipynb",
+        "script": "units/063/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "e92f9500ccfc80c1c63c8cd2a042dd0dc3fc98f8",
+        "verified_file_count": 46,
+        "verified_bytes": 4553199,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/063-067.json"
     },
     {
       "id": "064",
@@ -2132,7 +2161,32 @@
       "figure": "假设、机制、干预与证据的项目图。",
       "lab": "交付可复跑实验、目标推导、强基线、失败样本与限制；只对实际训练规模作结论。",
       "pitfall": "把学完所有生成家族设为开题条件；把样本美观当研究假设成立。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/064/lecture.pdf",
+        "lab_pdf": "units/064/lab.pdf",
+        "answers_pdf": "units/064/answers.pdf",
+        "notebook": "units/064/experiment.ipynb",
+        "script": "units/064/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "4e9a3ca4b3eef88524ca77b334fe38bef36e8d91",
+        "verified_file_count": 60,
+        "verified_bytes": 8968598,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/063-067.json"
     },
     {
       "id": "065",
@@ -2186,7 +2240,32 @@
       "figure": "精度路径和保存激活对比重算的图。",
       "lab": "逐项验证全精度、混合精度、累积和checkpoint；比较梯度与结果误差并报告不支持条件。",
       "pitfall": "把累积批次视为与大批次完全等价，忽略BN及随机状态；所有张量强制半精度。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/066/lecture.pdf",
+        "lab_pdf": "units/066/lab.pdf",
+        "answers_pdf": "units/066/answers.pdf",
+        "notebook": "units/066/experiment.ipynb",
+        "script": "units/066/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "ab24e7feaebb4b5b8af039089876487a0050ac24",
+        "verified_file_count": 41,
+        "verified_bytes": 3408879,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/063-067.json"
     },
     {
       "id": "067",
@@ -2201,7 +2280,32 @@
       "figure": "多rank采样、反传、all-reduce和更新时序。",
       "lab": "先以本地多进程或数值模拟核对梯度，再在有资源时实跑；无GPU时明确只验证语义。",
       "pitfall": "各rank重复相同数据；损失重复除法；把模拟通信时间当真实集群性能。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/067/lecture.pdf",
+        "lab_pdf": "units/067/lab.pdf",
+        "answers_pdf": "units/067/answers.pdf",
+        "notebook": "units/067/experiment.ipynb",
+        "script": "units/067/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1cb008ca14c392894ad86e38ef968f7f6189bfc4",
+        "verified_file_count": 41,
+        "verified_bytes": 2651693,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/063-067.json"
     },
     {
       "id": "068",
@@ -2796,6 +2900,10 @@
     "060",
     "061",
     "062",
-    "065"
+    "063",
+    "064",
+    "065",
+    "066",
+    "067"
   ]
 }
