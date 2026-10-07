@@ -60,7 +60,11 @@
     "055",
     "056",
     "057",
-    "058"
+    "058",
+    "059",
+    "060",
+    "061",
+    "062"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -1949,7 +1953,32 @@
       "figure": "增强视图、嵌入分布与负样本构造。",
       "lab": "用小数据比较随机初始化、对比预训练与监督预训练；固定线性探测协议并做增强消融。",
       "pitfall": "把所有无标签目标视为等价；正负样本语义错误；在线性探测中偷偷全量微调。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/059/lecture.pdf",
+        "lab_pdf": "units/059/lab.pdf",
+        "answers_pdf": "units/059/answers.pdf",
+        "notebook": "units/059/experiment.ipynb",
+        "script": "units/059/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "c5f3d5ed57bc133db107792551db57a79fa3fe19",
+        "verified_file_count": 57,
+        "verified_bytes": 3203058,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/059-062.json"
     },
     {
       "id": "060",
@@ -1964,7 +1993,32 @@
       "figure": "生成模型、推断模型与重参数化噪声流。",
       "lab": "用二维和小图像数据训练VAE，核对KL和重构项；观察后验坍塌并测试一个干预。",
       "pitfall": "把ELBO等同精确似然；误解重参数化适用所有离散潜变量。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/060/lecture.pdf",
+        "lab_pdf": "units/060/lab.pdf",
+        "answers_pdf": "units/060/answers.pdf",
+        "notebook": "units/060/experiment.ipynb",
+        "script": "units/060/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "2cb0476d3a05f1d18849386cd2e6731d44ae4632",
+        "verified_file_count": 45,
+        "verified_bytes": 3981617,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/059-062.json"
     },
     {
       "id": "061",
@@ -1979,7 +2033,32 @@
       "figure": "生成器判别器博弈及模式坍塌示意。",
       "lab": "在二维分布训练小GAN，记录覆盖度和不同种子；展示一次模式坍塌与诊断。",
       "pitfall": "将判别损失下降直接当生成质量提高；把理想化理论套到有限训练。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/061/lecture.pdf",
+        "lab_pdf": "units/061/lab.pdf",
+        "answers_pdf": "units/061/answers.pdf",
+        "notebook": "units/061/experiment.ipynb",
+        "script": "units/061/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "6a583bb59dfcbaa9cdeb7763010e6e4b006a82c0",
+        "verified_file_count": 37,
+        "verified_bytes": 6642366,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/059-062.json"
     },
     {
       "id": "062",
@@ -1997,7 +2076,32 @@
       "figure": "前向噪声链和反向去噪链。",
       "lab": "从二维数据开始实现DDPM，再选小图像；验证噪声日程、时间嵌入与采样边界。",
       "pitfall": "把简化噪声MSE在任意设置下都称为精确似然；混用时间索引和方差公式。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/062/lecture.pdf",
+        "lab_pdf": "units/062/lab.pdf",
+        "answers_pdf": "units/062/answers.pdf",
+        "notebook": "units/062/experiment.ipynb",
+        "script": "units/062/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "6a583bb59dfcbaa9cdeb7763010e6e4b006a82c0",
+        "verified_file_count": 36,
+        "verified_bytes": 4655507,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/059-062.json"
     },
     {
       "id": "063",
@@ -2661,6 +2765,10 @@
     "055",
     "056",
     "057",
-    "058"
+    "058",
+    "059",
+    "060",
+    "061",
+    "062"
   ]
 }
