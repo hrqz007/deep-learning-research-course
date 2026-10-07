@@ -64,7 +64,8 @@
     "059",
     "060",
     "061",
-    "062"
+    "062",
+    "065"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2145,7 +2146,32 @@
       "figure": "一次训练step的时间线与显存分解。",
       "lab": "profile一个CPU或可用GPU实验，报告峰值显存和稳态吞吐；定位真实瓶颈。",
       "pitfall": "忘记同步便宣称加速；只算参数显存；把首次启动时间当稳态性能。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/065/lecture.pdf",
+        "lab_pdf": "units/065/lab.pdf",
+        "answers_pdf": "units/065/answers.pdf",
+        "notebook": "units/065/experiment.ipynb",
+        "script": "units/065/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "b5faff3b151df3262a52a8c0192f0d70df70142b",
+        "verified_file_count": 31,
+        "verified_bytes": 2687594,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-07"
+      },
+      "release_record": "releases/063-067.json"
     },
     {
       "id": "066",
@@ -2769,6 +2795,7 @@
     "059",
     "060",
     "061",
-    "062"
+    "062",
+    "065"
   ]
 }
