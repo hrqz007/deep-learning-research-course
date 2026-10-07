@@ -1,0 +1,70 @@
+{
+  "unit": "065",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 11,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 11,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "kernel": "actual IPython InProcessKernel; no browser or external transport validation",
+    "code_cells": 8,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "cell": 9,
+        "bytes": 36047,
+        "width": 1201,
+        "height": 391
+      },
+      {
+        "cell": 11,
+        "bytes": 17182,
+        "width": 811,
+        "height": 400
+      }
+    ],
+    "retraining": "full original experiment rerun into notebook_outputs",
+    "reexecution": "deterministic numerical fields match originals; timing and profiler fields deliberately excluded where present"
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 8,
+      "lab": 4,
+      "answers": 3
+    },
+    "figures": 6,
+    "visual_review": "All pages independently rasterized with Poppler and visually inspected; no missing CJK, formula clipping, figure overlap or blank orphan pages observed."
+  },
+  "checkpoint_reload": [
+    {
+      "file": "trained_model.pt",
+      "value": 0.92578125,
+      "expected": 0.92578125
+    }
+  ],
+  "sources_checked": true,
+  "limitations": [
+    "CPU timing changes with load; no portability claim",
+    "CPU logical ledger is not peak memory",
+    "Profiler self memory values are event attribution, not peak RSS"
+  ],
+  "scope": "only this curriculum unit; no later unit executed"
+}

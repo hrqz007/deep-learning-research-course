@@ -1,0 +1,23 @@
+[
+  {
+    "title": "PyTorch CUDA semantics",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/cuda.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "异步计时、同步与allocated/reserved内存语义"
+  },
+  {
+    "title": "PyTorch Profiler",
+    "url": "https://docs.pytorch.org/docs/2.14/profiler.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "self/total、形状与内存记录选项"
+  },
+  {
+    "title": "PyTorch Benchmark utilities",
+    "url": "https://docs.pytorch.org/docs/2.14/benchmark_utils.html",
+    "checked_at": "2026-10-07",
+    "access": "public primary source retrieved",
+    "used_for": "测量边界与重复测量"
+  }
+]

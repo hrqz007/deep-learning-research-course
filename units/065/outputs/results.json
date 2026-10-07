@@ -1,0 +1,654 @@
+{
+  "unit": "065",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "threads": 1
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4540289640426636,
+      "test_accuracy": 0.83203125
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.21815243363380432,
+      "test_accuracy": 0.90234375
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.13541322946548462,
+      "test_accuracy": 0.9140625
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.07786190509796143,
+      "test_accuracy": 0.912109375
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.046161361038684845,
+      "test_accuracy": 0.908203125
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.05019379034638405,
+      "test_accuracy": 0.90234375
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.022991400212049484,
+      "test_accuracy": 0.919921875
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.02190437912940979,
+      "test_accuracy": 0.927734375
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.005959700793027878,
+      "test_accuracy": 0.91796875
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.004630621522665024,
+      "test_accuracy": 0.921875
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.003166555892676115,
+      "test_accuracy": 0.916015625
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0024112118408083916,
+      "test_accuracy": 0.916015625
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0020090360194444656,
+      "test_accuracy": 0.91796875
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0017079465324059129,
+      "test_accuracy": 0.916015625
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.001480288803577423,
+      "test_accuracy": 0.921875
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.0012970037059858441,
+      "test_accuracy": 0.921875
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.0011448173318058252,
+      "test_accuracy": 0.921875
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.0010174090275540948,
+      "test_accuracy": 0.921875
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.0009088878287002444,
+      "test_accuracy": 0.92578125
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0008160175057128072,
+      "test_accuracy": 0.92578125
+    }
+  ],
+  "memory_before_first_step": {
+    "parameter_bytes": 83976,
+    "gradient_bytes": 0,
+    "optimizer_tensor_bytes": 0,
+    "logical_total_bytes": 83976,
+    "scope": "tensor element payload only; excludes activations, allocator, workspaces and Python overhead"
+  },
+  "memory_after_training": {
+    "parameter_bytes": 83976,
+    "gradient_bytes": 83976,
+    "optimizer_tensor_bytes": 167976,
+    "logical_total_bytes": 335928,
+    "scope": "tensor element payload only; excludes activations, allocator, workspaces and Python overhead"
+  },
+  "measurements": [
+    {
+      "implementation": "vectorized",
+      "batch": 64,
+      "first_step_seconds": 0.0006809510000493901,
+      "warmup_steps": 5,
+      "repeats": 7,
+      "steps_per_repeat": 10,
+      "seconds_per_step_blocks": [
+        0.0005282799000269733,
+        0.0005321367000306054,
+        0.0004780849999860948,
+        0.0005257721999896603,
+        0.0004937716999847908,
+        0.0005880915000034293,
+        0.0005269589999898017
+      ],
+      "median_seconds": 0.0005269589999898017,
+      "q25_seconds": 0.0005097719499872256,
+      "q75_seconds": 0.0005302083000287894,
+      "samples_per_second": 121451.57403372672,
+      "boundary": "resident tensors, zero_grad + forward + mean CE + backward + Adam; no I/O or transfer"
+    },
+    {
+      "implementation": "row_loop",
+      "batch": 64,
+      "first_step_seconds": 0.005919111999901361,
+      "warmup_steps": 5,
+      "repeats": 7,
+      "steps_per_repeat": 10,
+      "seconds_per_step_blocks": [
+        0.004926995300002091,
+        0.005271465799978614,
+        0.005020944599982613,
+        0.005318264900006397,
+        0.0050498592000167266,
+        0.004904988799989951,
+        0.004983842199999344
+      ],
+      "median_seconds": 0.005020944599982613,
+      "q25_seconds": 0.004955418750000717,
+      "q75_seconds": 0.00516066249999767,
+      "samples_per_second": 12746.60548937776,
+      "boundary": "resident tensors, zero_grad + forward + mean CE + backward + Adam; no I/O or transfer"
+    }
+  ],
+  "batch_sweep": [
+    {
+      "implementation": "vectorized",
+      "batch": 16,
+      "first_step_seconds": 0.0005713249997825187,
+      "warmup_steps": 5,
+      "repeats": 7,
+      "steps_per_repeat": 10,
+      "seconds_per_step_blocks": [
+        0.00040902640002968835,
+        0.0004094791000170517,
+        0.00040575140001237743,
+        0.0004184066000107123,
+        0.00040626720001455394,
+        0.00042026549999718554,
+        0.00041323479999846315
+      ],
+      "median_seconds": 0.0004094791000170517,
+      "q25_seconds": 0.00040764680002212115,
+      "q75_seconds": 0.00041582070000458773,
+      "samples_per_second": 39074.03332510431,
+      "boundary": "resident tensors, zero_grad + forward + mean CE + backward + Adam; no I/O or transfer"
+    },
+    {
+      "implementation": "vectorized",
+      "batch": 64,
+      "first_step_seconds": 0.0006782069999644591,
+      "warmup_steps": 5,
+      "repeats": 7,
+      "steps_per_repeat": 10,
+      "seconds_per_step_blocks": [
+        0.00047972249999475027,
+        0.00048499150002498934,
+        0.00048022220003076657,
+        0.000492852400020638,
+        0.0005280627000047389,
+        0.0005350893000013457,
+        0.0004772057000081986
+      ],
+      "median_seconds": 0.00048499150002498934,
+      "q25_seconds": 0.0004799723500127584,
+      "q75_seconds": 0.0005104575500126885,
+      "samples_per_second": 131961.07559968036,
+      "boundary": "resident tensors, zero_grad + forward + mean CE + backward + Adam; no I/O or transfer"
+    },
+    {
+      "implementation": "vectorized",
+      "batch": 256,
+      "first_step_seconds": 0.0009730830001899449,
+      "warmup_steps": 5,
+      "repeats": 7,
+      "steps_per_repeat": 10,
+      "seconds_per_step_blocks": [
+        0.0008132475999900635,
+        0.0008478178000132175,
+        0.0008245767000062187,
+        0.0007673209999666142,
+        0.000842282499979774,
+        0.0008258156000010786,
+        0.0008039264000217373
+      ],
+      "median_seconds": 0.0008245767000062187,
+      "q25_seconds": 0.0008085870000059004,
+      "q75_seconds": 0.0008340490499904263,
+      "samples_per_second": 310462.32569762075,
+      "boundary": "resident tensors, zero_grad + forward + mean CE + backward + Adam; no I/O or transfer"
+    }
+  ],
+  "profile": [
+    {
+      "operator": "Optimizer.step#Adam.step",
+      "calls": 5,
+      "self_cpu_us": 673.4400000000062,
+      "cpu_total_us": 1530.6990000000003,
+      "self_cpu_memory_bytes": -839760
+    },
+    {
+      "operator": "aten::mm",
+      "calls": 25,
+      "self_cpu_us": 621.8439999999991,
+      "cpu_total_us": 625.5590000000003,
+      "self_cpu_memory_bytes": 1070080
+    },
+    {
+      "operator": "course_backward",
+      "calls": 5,
+      "self_cpu_us": 457.9140000000045,
+      "cpu_total_us": 1726.5449999999998,
+      "self_cpu_memory_bytes": -20
+    },
+    {
+      "operator": "aten::addmm",
+      "calls": 15,
+      "self_cpu_us": 384.7520000000005,
+      "cpu_total_us": 434.53000000000014,
+      "self_cpu_memory_bytes": 660480
+    },
+    {
+      "operator": "course_forward",
+      "calls": 5,
+      "self_cpu_us": 183.50800000000007,
+      "cpu_total_us": 903.1570000000002,
+      "self_cpu_memory_bytes": -655360
+    },
+    {
+      "operator": "aten::t",
+      "calls": 70,
+      "self_cpu_us": 129.69299999999689,
+      "cpu_total_us": 224.62799999999692,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::_to_copy",
+      "calls": 120,
+      "self_cpu_us": 121.00500000000454,
+      "cpu_total_us": 236.81100000000276,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::sqrt",
+      "calls": 30,
+      "self_cpu_us": 119.52199999999914,
+      "cpu_total_us": 119.52199999999914,
+      "self_cpu_memory_bytes": 419880
+    },
+    {
+      "operator": "aten::addcmul_",
+      "calls": 30,
+      "self_cpu_us": 110.30799999999977,
+      "cpu_total_us": 110.30799999999977,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::add_",
+      "calls": 60,
+      "self_cpu_us": 99.41899999999941,
+      "cpu_total_us": 239.82399999999973,
+      "self_cpu_memory_bytes": -240
+    },
+    {
+      "operator": "aten::sum",
+      "calls": 15,
+      "self_cpu_us": 85.60800000000165,
+      "cpu_total_us": 96.9460000000006,
+      "self_cpu_memory_bytes": 5160
+    },
+    {
+      "operator": "aten::copy_",
+      "calls": 135,
+      "self_cpu_us": 80.61199999999985,
+      "cpu_total_us": 80.61199999999985,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::div",
+      "calls": 30,
+      "self_cpu_us": 72.16199999999628,
+      "cpu_total_us": 141.68699999999876,
+      "self_cpu_memory_bytes": 419760
+    },
+    {
+      "operator": "Optimizer.zero_grad#Adam.zero_grad",
+      "calls": 5,
+      "self_cpu_us": 70.35699999999991,
+      "cpu_total_us": 70.35699999999991,
+      "self_cpu_memory_bytes": -335904
+    },
+    {
+      "operator": "aten::empty_strided",
+      "calls": 125,
+      "self_cpu_us": 70.33899999999801,
+      "cpu_total_us": 70.33899999999801,
+      "self_cpu_memory_bytes": 500
+    },
+    {
+      "operator": "AddmmBackward0",
+      "calls": 15,
+      "self_cpu_us": 70.22800000000166,
+      "cpu_total_us": 774.7750000000001,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::transpose",
+      "calls": 70,
+      "self_cpu_us": 68.48099999999977,
+      "cpu_total_us": 94.93500000000003,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "course_optimizer",
+      "calls": 5,
+      "self_cpu_us": 66.97999999999979,
+      "cpu_total_us": 1597.679,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: AddmmBackward0",
+      "calls": 15,
+      "self_cpu_us": 65.91599999999715,
+      "cpu_total_us": 951.9879999999982,
+      "self_cpu_memory_bytes": -660480
+    },
+    {
+      "operator": "aten::mul_",
+      "calls": 30,
+      "self_cpu_us": 54.38799999999935,
+      "cpu_total_us": 126.2619999999979,
+      "self_cpu_memory_bytes": -120
+    },
+    {
+      "operator": "aten::lerp_",
+      "calls": 30,
+      "self_cpu_us": 49.49299999999914,
+      "cpu_total_us": 49.49299999999914,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::threshold_backward",
+      "calls": 10,
+      "self_cpu_us": 48.66300000000069,
+      "cpu_total_us": 48.66300000000069,
+      "self_cpu_memory_bytes": 655360
+    },
+    {
+      "operator": "aten::to",
+      "calls": 125,
+      "self_cpu_us": 46.394999999998504,
+      "cpu_total_us": 283.20600000000127,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::addcdiv_",
+      "calls": 30,
+      "self_cpu_us": 45.64800000000025,
+      "cpu_total_us": 45.64800000000025,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: ReluBackward0",
+      "calls": 10,
+      "self_cpu_us": 40.895000000000095,
+      "cpu_total_us": 102.42800000000034,
+      "self_cpu_memory_bytes": -1310720
+    },
+    {
+      "operator": "aten::clamp_min",
+      "calls": 10,
+      "self_cpu_us": 32.688999999999965,
+      "cpu_total_us": 32.688999999999965,
+      "self_cpu_memory_bytes": 655360
+    },
+    {
+      "operator": "aten::as_strided",
+      "calls": 85,
+      "self_cpu_us": 30.974999999999994,
+      "cpu_total_us": 30.974999999999994,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::_log_softmax",
+      "calls": 5,
+      "self_cpu_us": 30.797000000000594,
+      "cpu_total_us": 30.797000000000594,
+      "self_cpu_memory_bytes": 5120
+    },
+    {
+      "operator": "aten::linear",
+      "calls": 15,
+      "self_cpu_us": 22.883000000001374,
+      "cpu_total_us": 578.5350000000007,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: torch::autograd::AccumulateGrad",
+      "calls": 30,
+      "self_cpu_us": 22.34399999999721,
+      "cpu_total_us": 65.89899999999682,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "torch::autograd::AccumulateGrad",
+      "calls": 30,
+      "self_cpu_us": 21.83099999999888,
+      "cpu_total_us": 43.55499999999961,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::relu",
+      "calls": 10,
+      "self_cpu_us": 21.1429999999998,
+      "cpu_total_us": 53.831999999999766,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::nll_loss_forward",
+      "calls": 5,
+      "self_cpu_us": 18.658000000000357,
+      "cpu_total_us": 18.658000000000357,
+      "self_cpu_memory_bytes": 40
+    },
+    {
+      "operator": "aten::item",
+      "calls": 30,
+      "self_cpu_us": 17.03100000000154,
+      "cpu_total_us": 24.514999999999418,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::_log_softmax_backward_data",
+      "calls": 5,
+      "self_cpu_us": 16.836000000000297,
+      "cpu_total_us": 16.836000000000297,
+      "self_cpu_memory_bytes": 5120
+    },
+    {
+      "operator": "detach",
+      "calls": 35,
+      "self_cpu_us": 16.6509999999995,
+      "cpu_total_us": 16.6509999999995,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::nll_loss_backward",
+      "calls": 5,
+      "self_cpu_us": 16.59800000000024,
+      "cpu_total_us": 17.957999999999913,
+      "self_cpu_memory_bytes": 5120
+    },
+    {
+      "operator": "aten::cross_entropy_loss",
+      "calls": 5,
+      "self_cpu_us": 14.711000000000354,
+      "cpu_total_us": 87.28199999999964,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::view",
+      "calls": 15,
+      "self_cpu_us": 14.35100000000034,
+      "cpu_total_us": 14.35100000000034,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: TBackward0",
+      "calls": 15,
+      "self_cpu_us": 14.33600000000024,
+      "cpu_total_us": 47.60300000000018,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::detach",
+      "calls": 35,
+      "self_cpu_us": 14.217000000001462,
+      "cpu_total_us": 30.86800000000096,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::expand",
+      "calls": 15,
+      "self_cpu_us": 14.088000000000193,
+      "cpu_total_us": 18.608999999999924,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: NllLossBackward0",
+      "calls": 5,
+      "self_cpu_us": 13.79199999999986,
+      "cpu_total_us": 42.96399999999994,
+      "self_cpu_memory_bytes": -20
+    },
+    {
+      "operator": "aten::fill_",
+      "calls": 20,
+      "self_cpu_us": 13.411999999998613,
+      "cpu_total_us": 13.411999999998613,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "ReluBackward0",
+      "calls": 10,
+      "self_cpu_us": 12.86999999999955,
+      "cpu_total_us": 61.53300000000024,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "NllLossBackward0",
+      "calls": 5,
+      "self_cpu_us": 11.21400000000017,
+      "cpu_total_us": 29.172000000000082,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "LogSoftmaxBackward0",
+      "calls": 5,
+      "self_cpu_us": 10.33500000000032,
+      "cpu_total_us": 27.171000000000618,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::log_softmax",
+      "calls": 5,
+      "self_cpu_us": 9.36399999999918,
+      "cpu_total_us": 41.562999999999704,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "TBackward0",
+      "calls": 15,
+      "self_cpu_us": 8.749000000000365,
+      "cpu_total_us": 33.26699999999994,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::ones_like",
+      "calls": 5,
+      "self_cpu_us": 8.373000000000332,
+      "cpu_total_us": 22.344999999999914,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "autograd::engine::evaluate_function: LogSoftmaxBackward0",
+      "calls": 5,
+      "self_cpu_us": 8.232999999999379,
+      "cpu_total_us": 35.403999999999996,
+      "self_cpu_memory_bytes": -10240
+    },
+    {
+      "operator": "aten::_local_scalar_dense",
+      "calls": 30,
+      "self_cpu_us": 7.483999999997877,
+      "cpu_total_us": 7.483999999997877,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::nll_loss_nd",
+      "calls": 5,
+      "self_cpu_us": 6.772999999999399,
+      "cpu_total_us": 31.007999999999583,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::resolve_conj",
+      "calls": 90,
+      "self_cpu_us": 6.088000000001159,
+      "cpu_total_us": 6.088000000001159,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::nll_loss",
+      "calls": 5,
+      "self_cpu_us": 5.576999999999828,
+      "cpu_total_us": 24.235000000000184,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::empty_like",
+      "calls": 5,
+      "self_cpu_us": 5.548999999999978,
+      "cpu_total_us": 11.89799999999991,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "aten::zero_",
+      "calls": 5,
+      "self_cpu_us": 1.3599999999996726,
+      "cpu_total_us": 1.3599999999996726,
+      "self_cpu_memory_bytes": 0
+    },
+    {
+      "operator": "[memory]",
+      "calls": 10,
+      "self_cpu_us": 0.0,
+      "cpu_total_us": 0.0,
+      "self_cpu_memory_bytes": -5140
+    }
+  ],
+  "gpu_memory": null,
+  "limitations": [
+    "CPU timing changes with load; no portability claim",
+    "CPU logical ledger is not peak memory",
+    "Profiler self memory values are event attribution, not peak RSS"
+  ]
+}
