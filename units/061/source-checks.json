@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-07",
+  "method": "web open of primary full text and official versioned documentation",
+  "sources": [
+    {"url":"https://arxiv.org/html/1406.2661v1","status":"opened","title":"Generative Adversarial Nets","sections":"3,4","claims":"minimax objective; non-saturating alternative; ideal discriminator; JS connection with assumptions"},
+    {"url":"https://docs.pytorch.org/docs/2.14/generated/torch.nn.BCEWithLogitsLoss.html","status":"opened","title":"BCEWithLogitsLoss","claims":"logit-form binary cross entropy and numerical stability"},
+    {"url":"https://docs.pytorch.org/docs/2.14/notes/randomness.html","status":"opened","title":"Reproducibility","claims":"seeding and cross-platform reproducibility limitations"}
+  ],
+  "original_material": "All data, training, code, diagrams, worked examples and prose created for this unit; no external figures or datasets."
+}

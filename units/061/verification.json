@@ -1,0 +1,90 @@
+{
+  "unit": "061",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "CPU",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "code_cells": 8,
+    "sequential_execution_counts": true,
+    "error_outputs": 0,
+    "actual_retraining": "three 3000-round baseline runs and one 2200-round stress run",
+    "kernel": "IPython in-process; no browser Jupyter UI test",
+    "execution_seconds": 24.426,
+    "startup_context": "relative unit identifier only",
+    "numerical_reexecution_check": "All results excluding elapsed seconds match original outputs; every saved sample array matches exactly.",
+    "identical_sample_arrays": 116,
+    "embedded_images": [
+      {
+        "cell_index": 12,
+        "code_execution_count": 7,
+        "mime": "image/png",
+        "bytes": 36999,
+        "width": 967,
+        "height": 469
+      }
+    ],
+    "image_rendering": "Explicit BytesIO PNG plus IPython.display.Image, independent of inline backend. Embedded image payloads decoded and visually inspected."
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 12,
+      "lab": 5,
+      "answers": 5
+    },
+    "visual_review": "All pages previously rendered with Poppler and inspected; revised lecture pages2,8,10 and lab page1 rendered and inspected at page resolution. Diagram annotation no longer overlaps Real data box; mode-region label and API identifier render legibly. No clipping, missing CJK glyphs or orphan pages observed.",
+    "figures": 5
+  },
+  "checkpoint_regeneration": [
+    "baseline seed11: weights regenerate saved 4096 samples exactly",
+    "baseline seed23: weights regenerate saved 4096 samples exactly",
+    "baseline seed37: weights regenerate saved 4096 samples exactly",
+    "stress diagnostic: saved step800 weights regenerate single-mode samples exactly"
+  ],
+  "key_results": {
+    "baseline_seed11_valid": 0.624267578125,
+    "baseline_seed23_valid": 0.6748046875,
+    "baseline_seed37_valid": 0.604248046875,
+    "baseline_coverage": [
+      8,
+      8,
+      8
+    ],
+    "trained_collapse_step": 800,
+    "trained_collapse_coverage": 1,
+    "trained_collapse_valid_fraction": 1.0,
+    "stress_final_step": 2200,
+    "stress_final_coverage": 0,
+    "stress_final_valid_fraction": 0.0
+  },
+  "limitations": [
+    "Three seeds do not estimate universal convergence probability.",
+    "Stress configuration changes three optimization factors together; no single-factor causal conclusion.",
+    "Constructed constant samples are metric controls, not claimed training collapse.",
+    "Synthetic 2D metrics are not real-image quality metrics."
+  ],
+  "sources_checked": true,
+  "revision_checks": [
+    "Diagram annotation wrapped and repositioned without changing experiment data.",
+    "Final stress outputs described using radius0.35 mode neighborhoods, not mathematical distribution support.",
+    "Dunder API name rendered as inline code."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "unit": "062",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "CPU",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 18,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 18,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "code_cells": 8,
+    "sequential_execution_counts": true,
+    "error_outputs": 0,
+    "actual_retraining": "three full 7000-update DDPM runs",
+    "kernel": "IPython in-process; no browser Jupyter UI test",
+    "execution_seconds": 31.704,
+    "startup_context": "relative unit identifier only",
+    "numerical_reexecution_check": "All results excluding elapsed seconds match original outputs; every saved sample array matches exactly.",
+    "identical_sample_arrays": 24,
+    "embedded_images": [
+      {
+        "cell_index": 9,
+        "code_execution_count": 5,
+        "mime": "image/png",
+        "bytes": 156815,
+        "width": 1417,
+        "height": 371
+      },
+      {
+        "cell_index": 13,
+        "code_execution_count": 7,
+        "mime": "image/png",
+        "bytes": 194450,
+        "width": 1552,
+        "height": 332
+      }
+    ],
+    "image_rendering": "Explicit BytesIO PNG plus IPython.display.Image, independent of inline backend. Embedded image payloads decoded and visually inspected."
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 14,
+      "lab": 5,
+      "answers": 5
+    },
+    "visual_review": "All pages previously rendered with Poppler and inspected; revised lecture pages2,3 and lab page1 rendered and inspected at page resolution. Reverse-joint product displayed on its own line with legible limits; module dunder identifier preserved. No clipping, missing CJK glyphs or orphan pages observed.",
+    "figures": 6
+  },
+  "checkpoint_regeneration": [
+    "seed11: both default and positive-variance endpoint samples regenerated exactly from saved weights, 4096 samples each",
+    "seed23: both default and positive-variance endpoint samples regenerated exactly from saved weights, 4096 samples each",
+    "seed37: both default and positive-variance endpoint samples regenerated exactly from saved weights, 4096 samples each"
+  ],
+  "key_results": {
+    "abar_T": 0.006121965125203133,
+    "seed11_valid": 0.984619140625,
+    "seed23_valid": 0.9833984375,
+    "seed37_valid": 0.99267578125,
+    "coverage": [
+      8,
+      8,
+      8
+    ],
+    "validation_mse": [
+      0.2908857762813568,
+      0.2986595630645752,
+      0.2868298292160034
+    ],
+    "zero_predictor_validation_mse": 0.9801324605941772
+  },
+  "mathematical_checks": [
+    "Forward closed-form and independent sequential chain conditional moments",
+    "Known-x0 posterior by completing square and epsilon-form reverse mean",
+    "Fixed posterior-variance Gaussian KL mean term equals time-weighted epsilon squared sum",
+    "t=0 forward identity; t=1 zero posterior variance; invalid reverse t=0 rejected",
+    "Sampler network calls exactly T,...,1; endpoint mean versus positive variance explicitly tested"
+  ],
+  "limitations": [
+    "Simple per-coordinate noise MSE is not exact likelihood or a full ELBO value.",
+    "Standard normal terminal prior is approximate because alpha_bar_T is nonzero.",
+    "Default final mean output is distinct from sampling the defined positive-variance Gaussian decoder; both modes saved.",
+    "Three seeds and a synthetic 2D distribution do not imply general image performance."
+  ],
+  "sources_checked": true,
+  "revision_checks": [
+    "Loss scalar logging detaches before float conversion; all calculations and numerical results unchanged.",
+    "Reverse-joint formula rendered as display math; lecture remains14pages.",
+    "Dunder names rendered as inline code in lab and README."
+  ]
+}

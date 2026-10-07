@@ -1,0 +1,11 @@
+{
+  "checked_at":"2026-10-07",
+  "method":"web open of primary paper full text and official versioned documentation",
+  "sources":[
+    {"url":"https://arxiv.org/html/2006.11239v2","status":"opened","title":"Denoising Diffusion Probabilistic Models","sections":"2,3; Algorithms1,2; equations1-14","claims":"forward Markov and closed form; posterior; variational bound; Gaussian KL to weighted epsilon MSE; simplified objective; endpoint convention"},
+    {"url":"https://arxiv.org/abs/1503.03585","status":"opened abstract","title":"Deep Unsupervised Learning using Nonequilibrium Thermodynamics","claims":"historical attribution of forward corruption and learned reverse process only"},
+    {"url":"https://docs.pytorch.org/docs/2.14/notes/randomness.html","status":"opened","title":"Reproducibility","claims":"seed and deterministic settings have platform/version limitations"}
+  ],
+  "original_material":"All synthetic data, figures, worked examples, network implementation and actual training results independently created for this unit.",
+  "scope_note":"Discrete time and continuous state. No image benchmark replication. Simple MSE is not presented as exact likelihood."
+}
