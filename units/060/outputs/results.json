@@ -1,0 +1,151 @@
+{
+  "protocol": {
+    "unit": "060",
+    "seeds": [
+      6001,
+      6002
+    ],
+    "steps": 600,
+    "batch": 64,
+    "latent_dim": 2,
+    "gaussian_sigma": 0.25,
+    "reduction": "sum observation and latent coordinates, then mean batch; natural log nats/example",
+    "mc_eval_draws": 16,
+    "mc_eval_seed": 6099,
+    "configs": {
+      "standard": "beta1 all600",
+      "high_beta": "beta100 all600",
+      "restore_beta": "beta100 first300 then beta1 last300"
+    },
+    "selection": "All predeclared endpoints, no test selection",
+    "device": "cpu",
+    "threads": 1
+  },
+  "results": [
+    {
+      "kind": "xy",
+      "config": "standard",
+      "seed": 6001,
+      "mc_nll": -0.005508289206773043,
+      "kl": 2.819645643234253,
+      "negative_elbo": 2.8141372203826904,
+      "mu_variance": 1.0728672742843628,
+      "shuffle_nll_delta": 43.36127853393555
+    },
+    {
+      "kind": "xy",
+      "config": "high_beta",
+      "seed": 6001,
+      "mc_nll": 22.10761070251465,
+      "kl": 0.00019617057114373893,
+      "negative_elbo": 22.107803344726562,
+      "mu_variance": 0.00016518938355147839,
+      "shuffle_nll_delta": 0.022848064079880714
+    },
+    {
+      "kind": "xy",
+      "config": "restore_beta",
+      "seed": 6001,
+      "mc_nll": 0.08417990058660507,
+      "kl": 2.8316361904144287,
+      "negative_elbo": 2.915816068649292,
+      "mu_variance": 1.1735954284667969,
+      "shuffle_nll_delta": 43.290496826171875
+    },
+    {
+      "kind": "xy",
+      "config": "standard",
+      "seed": 6002,
+      "mc_nll": 0.03310437873005867,
+      "kl": 2.772209882736206,
+      "negative_elbo": 2.805314302444458,
+      "mu_variance": 1.0486271381378174,
+      "shuffle_nll_delta": 43.30604934692383
+    },
+    {
+      "kind": "xy",
+      "config": "high_beta",
+      "seed": 6002,
+      "mc_nll": 22.084775924682617,
+      "kl": 0.00010539263166720048,
+      "negative_elbo": 22.084882736206055,
+      "mu_variance": 9.370758925797418e-05,
+      "shuffle_nll_delta": 0.011538702063262463
+    },
+    {
+      "kind": "xy",
+      "config": "restore_beta",
+      "seed": 6002,
+      "mc_nll": 0.10003159195184708,
+      "kl": 2.8258800506591797,
+      "negative_elbo": 2.9259111881256104,
+      "mu_variance": 1.0667732954025269,
+      "shuffle_nll_delta": 42.4991340637207
+    },
+    {
+      "kind": "image",
+      "config": "standard",
+      "seed": 6001,
+      "mc_nll": 17.865129470825195,
+      "kl": 2.7678966522216797,
+      "negative_elbo": 20.633028030395508,
+      "mu_variance": 1.4407522678375244,
+      "shuffle_nll_delta": 16.98695182800293
+    },
+    {
+      "kind": "image",
+      "config": "high_beta",
+      "seed": 6001,
+      "mc_nll": 25.853126525878906,
+      "kl": 7.633773748239037e-06,
+      "negative_elbo": 25.853132247924805,
+      "mu_variance": 5.536535354622174e-06,
+      "shuffle_nll_delta": 0.00018730263400357217
+    },
+    {
+      "kind": "image",
+      "config": "restore_beta",
+      "seed": 6001,
+      "mc_nll": 21.65351676940918,
+      "kl": 1.721419334411621,
+      "negative_elbo": 23.37493324279785,
+      "mu_variance": 0.9352082014083862,
+      "shuffle_nll_delta": 9.150130271911621
+    },
+    {
+      "kind": "image",
+      "config": "standard",
+      "seed": 6002,
+      "mc_nll": 17.218320846557617,
+      "kl": 2.7540886402130127,
+      "negative_elbo": 19.972408294677734,
+      "mu_variance": 1.3074849843978882,
+      "shuffle_nll_delta": 18.4547061920166
+    },
+    {
+      "kind": "image",
+      "config": "high_beta",
+      "seed": 6002,
+      "mc_nll": 25.821929931640625,
+      "kl": 7.4164540819765534e-06,
+      "negative_elbo": 25.821937561035156,
+      "mu_variance": 5.128807515575318e-06,
+      "shuffle_nll_delta": 0.00041898092604242265
+    },
+    {
+      "kind": "image",
+      "config": "restore_beta",
+      "seed": 6002,
+      "mc_nll": 21.328096389770508,
+      "kl": 1.7554341554641724,
+      "negative_elbo": 23.083528518676758,
+      "mu_variance": 0.9159986972808838,
+      "shuffle_nll_delta": 10.03727912902832
+    }
+  ],
+  "runtime": {
+    "seconds": 7.3126762629999575,
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5"
+  }
+}

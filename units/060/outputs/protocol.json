@@ -1,0 +1,22 @@
+{
+  "unit": "060",
+  "seeds": [
+    6001,
+    6002
+  ],
+  "steps": 600,
+  "batch": 64,
+  "latent_dim": 2,
+  "gaussian_sigma": 0.25,
+  "reduction": "sum observation and latent coordinates, then mean batch; natural log nats/example",
+  "mc_eval_draws": 16,
+  "mc_eval_seed": 6099,
+  "configs": {
+    "standard": "beta1 all600",
+    "high_beta": "beta100 all600",
+    "restore_beta": "beta100 first300 then beta1 last300"
+  },
+  "selection": "All predeclared endpoints, no test selection",
+  "device": "cpu",
+  "threads": 1
+}
