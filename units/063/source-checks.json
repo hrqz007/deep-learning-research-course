@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-07",
+  "unit": "063",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/1312.6114v11",
+      "title": "Auto-Encoding Variational Bayes",
+      "scope": "VAE probability model, ELBO, reparameterization and diagonal Gaussian KL",
+      "method": "Opened primary full text, sections2 and3 and appendixB"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+      "title": "PyTorch2.14 Reproducibility",
+      "scope": "Random seeds and deterministic settings do not guarantee identity across releases/devices",
+      "method": "Opened official versioned documentation"
+    },
+    {
+      "url": "https://arxiv.org/html/1406.2661v1",
+      "title": "Generative Adversarial Nets",
+      "scope": "Original GAN training and non-saturating generator objective",
+      "method": "Opened primary full text"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1706.08500",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "scope": "FID attribution and fitted-Gaussian feature distance",
+      "method": "Opened primary PDF"
+    },
+    {
+      "url": "https://arxiv.org/abs/1806.00035",
+      "title": "Assessing Generative Models via Precision and Recall",
+      "scope": "Separate quality and coverage as conceptual dimensions; this lesson does not implement that estimator",
+      "method": "Opened primary abstract"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1911.07023",
+      "title": "Effectively Unbiased FID and Inception Score and where to find them",
+      "scope": "Finite-sample bias can affect FID estimates; original synthetic sample-size experiment",
+      "method": "Opened primary PDF"
+    },
+    {
+      "url": "https://arxiv.org/abs/1802.08232",
+      "title": "The Secret Sharer",
+      "scope": "Memorization risk background only; no implementation of exposure or privacy attack",
+      "method": "Opened primary abstract"
+    }
+  ],
+  "original_material": "All Chinese exposition, derivations of elementary examples, synthetic datasets, code, trained results and figures independently created for this lesson",
+  "scope": "Primary sources only. Experiments are original teaching experiments, not benchmark reproductions."
+}

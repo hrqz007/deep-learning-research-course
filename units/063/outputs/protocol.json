@@ -1,0 +1,26 @@
+{
+  "unit": "063",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "steps": 4000,
+  "batch": 128,
+  "training_rows": 2048,
+  "generated_rows": 4096,
+  "reference_rows": 4096,
+  "equalized": "same real-data minibatch count and primary generative-model optimizer updates; GAN also updates D once per round",
+  "not_equalized": "FLOPs, total optimizer calls, parameter counts and convergence",
+  "selection": "Fixed final endpoint for every seed; no cherry-picked samples or test tuning",
+  "feature_maps": [
+    "xy",
+    "radius",
+    "radial_angle"
+  ],
+  "quality_radius": 0.35,
+  "mode_minimum_total_fraction": 0.01,
+  "vae_sigma": 0.15,
+  "vae_beta": 1.0,
+  "evaluation_seed_base": 9300
+}
