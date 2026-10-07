@@ -1,0 +1,88 @@
+{
+  "unit": "064",
+  "verified_at": "2026-10-07",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "CPU",
+    "threads": 1
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 20,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 20,
+      "status": "passed"
+    }
+  },
+  "training": {
+    "models": 15,
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "arms": {
+      "constant": 2000,
+      "warmup": 2000,
+      "long_constant": 4000
+    },
+    "batch": 64,
+    "checkpoints": "fifteen actually trained VAE .pt files"
+  },
+  "notebook": {
+    "fresh_process": true,
+    "code_cells": 8,
+    "sequential_execution_counts": true,
+    "error_outputs": 0,
+    "execution_seconds": 37.973,
+    "actual_retraining": "all fifteen full model runs; 2000/2000/4000 updates by arm",
+    "kernel": "IPython in-process; browser Jupyter UI not tested",
+    "embedded_png_images": 3,
+    "image_review": "All 3 embedded PNG payloads decoded and individually viewed",
+    "reexecution": "All results excluding elapsed seconds match original results exactly;135 saved arrays match exactly",
+    "post_execution_change": "Only corrected Markdown caption from first 16 to first 8 examples; executed code and outputs unchanged; nbformat.validate passed"
+  },
+  "checkpoint_regeneration": {
+    "count": 15,
+    "result": "All 15 checkpoints regenerate binary samples and probabilities exactly in executed Notebook"
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 14,
+      "lab": 5,
+      "answers": 5
+    },
+    "visual_review": "All 24 pages rendered with Poppler at 100 dpi and individually viewed at page resolution. Equations, CJK glyphs, tables, figure captions and code checked; no clipping, missing glyphs or orphan pages observed. Clarified 1-based template row/column numbering versus zero-based arrays, then re-rendered and viewed revised lecture page 3.",
+    "figures": 6
+  },
+  "sources_checked": true,
+  "key_results": {
+    "mean_delta": 0.045798110961914065,
+    "std_delta": 0.05588565041649673,
+    "wins": 0,
+    "mean_valid_delta": -0.00703125,
+    "t_interval_95": [
+      -0.023581964741177783,
+      0.11517818666500591
+    ],
+    "supports_predeclared_hypothesis": false,
+    "interval_note": "approximate t interval over five training seeds, df=4, fixed split; not proof of generalization"
+  },
+  "limitations": [
+    "Single original synthetic binary-image distribution and fixed train/validation/test split.",
+    "Five seeds describe optimization variation conditional on that split, not uncertainty over new datasets.",
+    "32-draw negative ELBO is a Monte Carlo estimate, not exact log likelihood.",
+    "Warmup hypothesis is not supported; this does not establish that all warmup schedules are ineffective.",
+    "Template validity is a transparent proxy, not a complete visual-quality measure.",
+    "Only monotonic warmup is implemented; no cyclical schedule or language model replication."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "unit": "064",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "arms": [
+    "constant",
+    "warmup",
+    "long_constant"
+  ],
+  "base_steps": 2000,
+  "long_steps": 4000,
+  "warmup_steps": 500,
+  "batch": 64,
+  "learning_rate": 0.003,
+  "latent_dimensions": 4,
+  "train_rows": 1024,
+  "validation_rows": 256,
+  "test_rows": 512,
+  "mc_draws": 32,
+  "evaluation_seed": 6499,
+  "sample_count": 1024,
+  "hypothesis": "Warmup minus constant mean held-out negative ELBO <= -0.2 nats/example, at least 4/5 paired wins, and mean generated template-valid drop <= 0.02",
+  "selection": "Fixed endpoint; no test-based selection; validation is a diagnostic, not a tuning loop",
+  "paired": "same architecture, initialization, training minibatch and epsilon streams in equal-budget arms",
+  "limitations": "one fixed data split; seeds quantify optimization variation, not new-dataset uncertainty"
+}
