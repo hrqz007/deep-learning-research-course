@@ -1,0 +1,1 @@
+PDF由本单元build_pdf.py使用Markdown、Matplotlib公式与WeasyPrint离线生成。安装本目录requirements.txt，以及官方Noto Serif/Sans CJK和DejaVu字体。运行python build_pdf.py lecture.md，对lab.md、answers.md同理。预生成PDF不需这些构建依赖。

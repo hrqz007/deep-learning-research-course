@@ -1,0 +1,25 @@
+{
+  "unit": "059",
+  "steps": 350,
+  "batch_originals": 64,
+  "anchors": 128,
+  "temperature": 0.2,
+  "probe_labeled_prefix": 128,
+  "probe_ridge": 1.0,
+  "probe_features": 2,
+  "pretrain_labeled_count": {
+    "random": 0,
+    "contrastive_good": 0,
+    "contrastive_bad": 0,
+    "supervised": 768
+  },
+  "seeds": [
+    5901,
+    5902,
+    5903
+  ],
+  "selection": "No validation or test model selection; all fixed endpoints reported",
+  "data": "Original synthetic independent splits; quadrants are the designated target",
+  "device": "cpu",
+  "threads": 1
+}

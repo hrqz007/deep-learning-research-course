@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-07",
+  "sources": [
+    {
+      "title": "SimCLR",
+      "url": "https://proceedings.mlr.press/v119/chen20j.html",
+      "kind": "primary research",
+      "verified": "opened publisher or arXiv source",
+      "scope": "双视图、投影头和冻结评价的原始研究；本课非规模复现"
+    },
+    {
+      "title": "InfoNCE / CPC",
+      "url": "https://arxiv.org/abs/1807.03748",
+      "kind": "primary research",
+      "verified": "opened publisher or arXiv source",
+      "scope": "对比预测目标的原始研究"
+    },
+    {
+      "title": "BYOL",
+      "url": "https://arxiv.org/abs/2006.07733",
+      "kind": "primary research",
+      "verified": "opened publisher or arXiv source",
+      "scope": "非对比目标网络与预测器思路，仅解释未复现"
+    }
+  ]
+}

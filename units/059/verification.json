@@ -1,0 +1,65 @@
+{
+  "unit": "059",
+  "verified_on": "2026-10-07",
+  "tests": {
+    "normal": "passed: python test_experiment.py",
+    "optimized": "passed: python -O test_experiment.py"
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 4.808,
+    "code_cells": 8,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "socket transport unavailable in build sandbox; Jupyter browser UI not tested",
+    "python": "3.12.14"
+  },
+  "pdfs": {
+    "lecture": {
+      "pages": 10,
+      "rendered_and_visually_inspected_pages": 10,
+      "status": "passed; all page contact sheets and detail inspected; no clipping or missing CJK glyphs"
+    },
+    "lab": {
+      "pages": 5,
+      "rendered_and_visually_inspected_pages": 5,
+      "status": "passed; all page contact sheets and detail inspected; no clipping or missing CJK glyphs"
+    },
+    "answers": {
+      "pages": 5,
+      "rendered_and_visually_inspected_pages": 5,
+      "status": "passed; all page contact sheets and detail inspected; no clipping or missing CJK glyphs"
+    }
+  },
+  "runtime": {
+    "seconds": 2.553601479000008,
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5"
+  },
+  "limits": [
+    "original synthetic data; one fixed split",
+    "all predeclared seeds reported; no test selection",
+    "in-process sequential notebook execution, not browser Jupyter UI"
+  ],
+  "artifact_sha256": {
+    "test_experiment.py": "617e0ee7c01743df14edc5e5fbc9cd6262fe88540a8792a5fe74ed0b779dc5e4",
+    "lecture.md": "24ef9760e5ac2829f2f4c22759dfcc379bb95e796bd826586d6e808655997afe",
+    "DATA_LICENSE.md": "ae7f03cfe7c2cebecf532718bd7bcd5122a557b7a5f29c8df3229e97fd73f020",
+    "build_pdf.py": "b2fcf8d82464afd6c7032306fa580bb456f98dbe53411f252ba35f8fdc9fdf37",
+    "experiment.py": "b649b67363885e3c787352a6265d8fce85a5f6b545365e9280379279f373ab4e",
+    "sources.md": "1a44e9a2bfed25f526789f26990e52880de1d933d6f0be9c7eb9b66e5a1d8685",
+    "create_notebook.py": "82a848b5393b6184b07f12140ff8a3e1d382b9a09dcdc00def312d26c9e4e139",
+    "experiment.ipynb": "aeaf4b0d0868479e52c2f209ebbe47752a02dcfc603a4470356b85ed764d4942",
+    "execute_notebook.py": "a708d111fe8d376d2c1520a3f6103125d1f68d0919ff7535fd5b7b707f17b8ba",
+    "environment.yml": "4c6b83c01bdab680e4f41ffbd598356619690484f46985b3ddb4873e2cad78cc",
+    "lab.pdf": "05109bf213bfd7251f9f7b16ee8ff70ef9b53168af08c8bc7b05de430f8a3e5d",
+    "make_figures.py": "f777c1a4a4f56f2eddce3c7e17262bcc53d60f35fdf39d6cacd2d9553929cde0",
+    "answers.pdf": "5a9505fb1edf29dce089b3f74f541f63dedc29c99c0a95eb84506da89577078b",
+    "source-checks.json": "a513a73e58a93816550fc08d944130328c777be8cabb472de71872397d41b7c9",
+    "lab.md": "1c348115396e5c0d5653fcd4d882ac424af6ecd597055b053d1107fd87cb05ed",
+    "lecture.pdf": "369e2d52ccbc737321d3d005d11fff439bf2e3a7bc8ef0875c299daf296ad60a",
+    "answers.md": "d23eb645d846d79d70eb0249636331499bb17d90d4c2e01fc47947fc8f52e955",
+    "README.md": "dfb0923d422eae6b02cad50b5adbbf5bd9f1cba5a030ae597494ed7e1c053a81",
+    "requirements.txt": "58e7845aacf1b6ee8486bdb1ed9b1116e31ae98ac2bb5f6cc4a048736644f0b1"
+  }
+}
