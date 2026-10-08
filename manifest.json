@@ -69,7 +69,12 @@
     "064",
     "065",
     "066",
-    "067"
+    "067",
+    "068",
+    "069",
+    "070",
+    "071",
+    "072"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2320,7 +2325,32 @@
       "figure": "预处理、模型、后处理与服务队列。",
       "lab": "导出或封装小模型，逐样本核对数值和预处理；测冷启动及稳态延迟，设置失败回退。",
       "pitfall": "只报平均延迟；部署预处理改变；把离线指标等同在线可用性。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/068/lecture.pdf",
+        "lab_pdf": "units/068/lab.pdf",
+        "answers_pdf": "units/068/answers.pdf",
+        "notebook": "units/068/experiment.ipynb",
+        "script": "units/068/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "461d971241f52de039271bf1f5ae3141005e8e35",
+        "verified_file_count": 33,
+        "verified_bytes": 2466617,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-08"
+      },
+      "release_record": "releases/068-072.json"
     },
     {
       "id": "069",
@@ -2335,7 +2365,32 @@
       "figure": "数据版本、代码、配置、权重和结果的追溯图。",
       "lab": "打包环境、运行入口、数据说明和校验信息；让全新环境重建实验并核对容差。",
       "pitfall": "未经许可发布数据或模型；把设seed当跨硬件逐位可复现保证。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/069/lecture.pdf",
+        "lab_pdf": "units/069/lab.pdf",
+        "answers_pdf": "units/069/answers.pdf",
+        "notebook": "units/069/experiment.ipynb",
+        "script": "units/069/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "a3b1b37baedbbf7efd4b393a13d90c5e9ed16360",
+        "verified_file_count": 38,
+        "verified_bytes": 2295013,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-08"
+      },
+      "release_record": "releases/068-072.json"
     },
     {
       "id": "070",
@@ -2350,7 +2405,32 @@
       "figure": "论文主张到可观测量和实验控制的映射。",
       "lab": "完成小规模复现或预注册计划，写完整消融和负结果；注明缩规模改变了哪些证据。",
       "pitfall": "只复刻网络结构；将资源差异造成的结果差异直接判为论文错误。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/070/lecture.pdf",
+        "lab_pdf": "units/070/lab.pdf",
+        "answers_pdf": "units/070/answers.pdf",
+        "notebook": "units/070/experiment.ipynb",
+        "script": "units/070/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "f0fd6c6487946609066439e487e854234a762f46",
+        "verified_file_count": 51,
+        "verified_bytes": 3263038,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-08"
+      },
+      "release_record": "releases/068-072.json"
     },
     {
       "id": "071",
@@ -2364,7 +2444,32 @@
       "figure": "风险覆盖曲线、域偏移和校准失效。",
       "lab": "建立预先定义的扰动与子群测试，报告覆盖率和风险；构造置信但错误的实例。",
       "pitfall": "把softmax最大值当可靠置信度；把通过有限测试解释为安全保证。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/071/lecture.pdf",
+        "lab_pdf": "units/071/lab.pdf",
+        "answers_pdf": "units/071/answers.pdf",
+        "notebook": "units/071/experiment.ipynb",
+        "script": "units/071/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "35a34c92897ceb11d9a5cbf7ef8ac4abd9ea0baa",
+        "verified_file_count": 38,
+        "verified_bytes": 4123680,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-08"
+      },
+      "release_record": "releases/068-072.json"
     },
     {
       "id": "072",
@@ -2379,7 +2484,32 @@
       "figure": "问题、主张、证据、替代解释与适用边界全图。",
       "lab": "提交研究问题、相关工作、可重跑代码、主要推导、基线消融、预算和限制；区分已验证与待验证。",
       "pitfall": "为了“完整”同时做所有路线；把课程项目等同已经具备发表价值。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/072/lecture.pdf",
+        "lab_pdf": "units/072/lab.pdf",
+        "answers_pdf": "units/072/answers.pdf",
+        "notebook": "units/072/experiment.ipynb",
+        "script": "units/072/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "passed",
+        "code": "passed",
+        "notebook": "passed_inprocess_kernel_transport_limitation_disclosed",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "da9b79f871151011baad48ddf2b2fdc24d8be60c",
+        "verified_file_count": 52,
+        "verified_bytes": 7162801,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-08"
+      },
+      "release_record": "releases/068-072.json"
     },
     {
       "id": "T1",
@@ -2904,6 +3034,11 @@
     "064",
     "065",
     "066",
-    "067"
+    "067",
+    "068",
+    "069",
+    "070",
+    "071",
+    "072"
   ]
 }
