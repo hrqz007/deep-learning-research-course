@@ -1,0 +1,5 @@
+id coverage 0.7717 risk 0.0 confident_wrong 0
+core_noise coverage 0.6433 risk 0.0 confident_wrong 0
+shortcut_fade coverage 0.0 risk None confident_wrong 19
+shortcut_flip coverage 0.5233 risk 1.0 confident_wrong 599
+subgroup_flip coverage 0.7117 risk 0.17330210772833723 confident_wrong 140

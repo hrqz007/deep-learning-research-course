@@ -1,0 +1,271 @@
+{
+  "unit": "071",
+  "verified_at": "2026-10-08",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.14.1+cpu",
+    "elapsed_seconds": 0.5986345510000319,
+    "device": "cpu",
+    "threads": 1,
+    "dtype": "float32"
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 16,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 16,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "fresh_process": true,
+    "kernel": "actual IPython InProcessKernel; browser and external socket transport not tested",
+    "code_cells": 8,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "cell": 11,
+        "bytes": 42140,
+        "width": 1105,
+        "height": 544
+      },
+      {
+        "cell": 13,
+        "bytes": 44989,
+        "width": 1385,
+        "height": 474
+      }
+    ],
+    "retraining": "full original experiment rerun into separate notebook_outputs",
+    "deterministic_reference_match": true
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 8,
+      "lab": 3,
+      "answers": 3
+    },
+    "figures": 6,
+    "visual_review": "Every final page rasterized with Poppler and visually reviewed via page contact sheets; mathematical, table and code pages additionally checked at full resolution. No missing CJK glyphs, clipped equations, overlapping figures or orphan-only final pages observed."
+  },
+  "checkpoint_reload": [
+    {
+      "file": "model_seed17.pt",
+      "max_abs_probability_difference": 0.0,
+      "sha256": "75690af2f4c0fecb592eeb3b79faebea174b6d287432b991643ecf11498f726f"
+    },
+    {
+      "file": "model_seed29.pt",
+      "max_abs_probability_difference": 0.0,
+      "sha256": "b87bb0f0942768387cc2ee81f29f9ed0a496f41081afe25ab830250a6f2bb4ff"
+    },
+    {
+      "file": "model_seed43.pt",
+      "max_abs_probability_difference": 0.0,
+      "sha256": "d6f34a79b618a17e4e78506077da7bd488d46d5e9c8b875f72ade3e09e233145"
+    }
+  ],
+  "dataset_pairwise_split_overlap_counts": [
+    0,
+    0,
+    0
+  ],
+  "execution_scope": "Independent standalone CPU script and actual notebook retraining; no GPU, browser UI, real-world deployment or attack evaluation.",
+  "limitations": [
+    "Synthetic paired stress tests are not a deployment safety guarantee.",
+    "Three seeds vary initialization only; data are fixed.",
+    "Calibration threshold targets coverage, not a risk bound.",
+    "Ensemble members can share the same shortcut.",
+    "Checkpoints support inference, not exact mid-run resumption."
+  ],
+  "public_path_scan": "passed",
+  "artifacts": [
+    {
+      "file": "DATA_LICENSE.md",
+      "bytes": 592,
+      "sha256": "e158f06d83bd24d20f3f086deff84efbb3d8e1a416ffeee09d39bd836c92c4bf"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3141,
+      "sha256": "fabd5e22ac57e2fb6fec41e0e145d31f066a60fb207dd1e63339dddf6a52649f"
+    },
+    {
+      "file": "answers.md",
+      "bytes": 7120,
+      "sha256": "c88de2eef57de15906b4cbea80145dd386ee72877ffc7d862d810d0107811e70"
+    },
+    {
+      "file": "answers.pdf",
+      "bytes": 532871,
+      "sha256": "96c14de51b439ffa28415b4e528a36f043df727e5c3b392dab2d2d96c36b1164"
+    },
+    {
+      "file": "build-tools/rebuild.sh",
+      "bytes": 399,
+      "sha256": "30782f9395c57b8cfcdeac2efde47fe434ef5b8e01f11d9c5d6513838d65fa78"
+    },
+    {
+      "file": "build_pdf.py",
+      "bytes": 5516,
+      "sha256": "24ddd5db0eca0fdf95f2ab1b95e2eba93d9e38a80b641899aca0f42e7a884701"
+    },
+    {
+      "file": "create_notebook.py",
+      "bytes": 4248,
+      "sha256": "864b8152febe4f9b5aab61d8eb643fa6e958588c928ecff99514fc821d747730"
+    },
+    {
+      "file": "environment.yml",
+      "bytes": 254,
+      "sha256": "d9dd8f030b57cd2a31f8e560e1af824cb0854eefa71aeb184588028d0ccf4235"
+    },
+    {
+      "file": "execute_notebook.py",
+      "bytes": 2190,
+      "sha256": "a708d111fe8d376d2c1520a3f6103125d1f68d0919ff7535fd5b7b707f17b8ba"
+    },
+    {
+      "file": "experiment.ipynb",
+      "bytes": 125110,
+      "sha256": "2f50baf914a8c2215ae2d82bb1bf5011eebb07a1bf49d8ad286bf77a5756db62"
+    },
+    {
+      "file": "experiment.py",
+      "bytes": 10707,
+      "sha256": "d3c76d4b8bebe4e64c81a023495e0f90211aba435df5283290214f9494f69aae"
+    },
+    {
+      "file": "figures/01_domains.png",
+      "bytes": 107297,
+      "sha256": "a43847a50cf9306ae2eb39c72a918fac353395daa123e34c3652944bc2f82171"
+    },
+    {
+      "file": "figures/02_uncertainty.png",
+      "bytes": 62564,
+      "sha256": "e118e2e376351a9ff2da02cf1bbaac93d7234695646cf450baad74b62c78905e"
+    },
+    {
+      "file": "figures/03_reliability.png",
+      "bytes": 82341,
+      "sha256": "c0cfe5c7c15934a7ac511fc673041ca2d50c908bf6230eaf56cf7e055e6fea72"
+    },
+    {
+      "file": "figures/04_risk_coverage.png",
+      "bytes": 84902,
+      "sha256": "ca68598e3bf1ddadfcc2af2a4f1f46dd2b678d00a210cc6346486ab3e8fa3d2c"
+    },
+    {
+      "file": "figures/05_subgroups.png",
+      "bytes": 53371,
+      "sha256": "90ad39e51f5c0e0dac1ec5176f4cd355b40eef8b95ac8a4699b038d92d28d145"
+    },
+    {
+      "file": "figures/06_confident_wrong.png",
+      "bytes": 50555,
+      "sha256": "7299d361468f7590f85b0ec9bd3fc726c8f54c37e7fd94a33e3836d5f11bf6a6"
+    },
+    {
+      "file": "lab.md",
+      "bytes": 6516,
+      "sha256": "23205363d8c4d68c2f8201a1516ff97a346670de9194e83c4a9178514d1b30b3"
+    },
+    {
+      "file": "lab.pdf",
+      "bytes": 628982,
+      "sha256": "b3d98f06614801ca0c0bc59ee28f799c078167279aed1c3673f11cbb234a26bc"
+    },
+    {
+      "file": "lecture.md",
+      "bytes": 18490,
+      "sha256": "969e84164afa602f19462e01f6a2d4900f116d783dc5aa6ee5c6da0ffe2e339f"
+    },
+    {
+      "file": "lecture.pdf",
+      "bytes": 1076168,
+      "sha256": "7e0c67099675d381dbd83e277a18b373213ba3eb40910edd7769c723f04a38c8"
+    },
+    {
+      "file": "make_figures.py",
+      "bytes": 5667,
+      "sha256": "1a5322c46939e80908d7e337163613cbf5f0359796ba6985c962550e3e229e52"
+    },
+    {
+      "file": "outputs/data.npz",
+      "bytes": 34306,
+      "sha256": "75761bf5088ed5e63233ac5dd65576e92d467a346acc464dfc03f8c5ee36e6d8"
+    },
+    {
+      "file": "outputs/model_seed17.pt",
+      "bytes": 6033,
+      "sha256": "75690af2f4c0fecb592eeb3b79faebea174b6d287432b991643ecf11498f726f"
+    },
+    {
+      "file": "outputs/model_seed29.pt",
+      "bytes": 6033,
+      "sha256": "b87bb0f0942768387cc2ee81f29f9ed0a496f41081afe25ab830250a6f2bb4ff"
+    },
+    {
+      "file": "outputs/model_seed43.pt",
+      "bytes": 6033,
+      "sha256": "d6f34a79b618a17e4e78506077da7bd488d46d5e9c8b875f72ade3e09e233145"
+    },
+    {
+      "file": "outputs/notebook-execution.json",
+      "bytes": 290,
+      "sha256": "d3a3a0b3421cee5c3352592517efa1a22abc40207952baf28064ddfd87a489a7"
+    },
+    {
+      "file": "outputs/predictions.npz",
+      "bytes": 312247,
+      "sha256": "88da3fbcaccdc9eab29b6f01d383aef25bbc42333746de2850e481898342b849"
+    },
+    {
+      "file": "outputs/results.json",
+      "bytes": 864183,
+      "sha256": "31646c9d0d253056bc9e413d4f53a59843347aeff37d7014862e469406f16891"
+    },
+    {
+      "file": "outputs/run-log.txt",
+      "bytes": 290,
+      "sha256": "bbf3804d09d2568e28b897c44177b5ba1dac8e667916f21ec3b5ec0c56822e28"
+    },
+    {
+      "file": "outputs/tests-normal.txt",
+      "bytes": 1859,
+      "sha256": "b5dd4f4aa5bb3dff9c1e8f5b40593772e0afe9c47bd88e272a1699204c0cc9b1"
+    },
+    {
+      "file": "outputs/tests-optimized.txt",
+      "bytes": 1859,
+      "sha256": "9d728acd354ece2b406efe7f38aaf6b569a47cffa38b3802a15127fc4e7609a8"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 112,
+      "sha256": "130645c6b743d0959a3e3c3fcd2c2c2640cf8f728e9d572c9ead1dc1cb1f1105"
+    },
+    {
+      "file": "source-checks.json",
+      "bytes": 1934,
+      "sha256": "bb0f2ef068fab6150c124fd27a4fb0a0d38d05102d769f066fcb09b69fd73709"
+    },
+    {
+      "file": "sources.md",
+      "bytes": 1494,
+      "sha256": "acdf772c10371d23aa198b4e31c6831a60bd2f1ddd2b782229e590858c052747"
+    },
+    {
+      "file": "test_experiment.py",
+      "bytes": 3958,
+      "sha256": "8540dfc951d2ee6015591ec6d152d4871603bcaf5db867178d960b99feeeaf84"
+    }
+  ]
+}

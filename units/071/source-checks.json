@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Guo et al. On Calibration of Modern Neural Networks",
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "温度缩放与现代网络校准；本课独立合成实验不声称复现论文基准。"
+  },
+  {
+    "title": "Ovadia et al. Can you trust your model's uncertainty?",
+    "url": "https://proceedings.neurips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "分布变化下的校准和不确定性评估局限；本课数据与指标由原创代码产生。"
+  },
+  {
+    "title": "Geifman and El-Yaniv. Selective Classification for Deep Neural Networks",
+    "url": "https://arxiv.org/abs/1705.08500",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "风险与覆盖权衡的研究背景；本课未实现原文统计风险控制算法。"
+  },
+  {
+    "title": "PyTorch 2.14 Reproducibility",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "随机种子、确定性算法和跨平台复现限制。"
+  },
+  {
+    "title": "PyTorch Saving and Loading Models",
+    "url": "https://docs.pytorch.org/tutorials/beginner/saving_loading_models.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "state_dict、weights_only与推理保存和续训保存的区别。"
+  },
+  {
+    "title": "PyTorch 2.14 CrossEntropyLoss",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "分类交叉熵直接接收logit与类别索引。"
+  }
+]

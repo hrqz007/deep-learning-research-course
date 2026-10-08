@@ -1,0 +1,21 @@
+test_all_accept_equals_error (test_experiment.ExperimentTests.test_all_accept_equals_error) ... ok
+test_coverage_quantile_includes_ties (test_experiment.ExperimentTests.test_coverage_quantile_includes_ties) ... ok
+test_curve_counts_ties_together (test_experiment.ExperimentTests.test_curve_counts_ties_together) ... ok
+test_ece_uses_all_bins (test_experiment.ExperimentTests.test_ece_uses_all_bins) ... ok
+test_empty_acceptance_is_undefined (test_experiment.ExperimentTests.test_empty_acceptance_is_undefined) ... ok
+test_entropy_disagreement_nonnegative (test_experiment.ExperimentTests.test_entropy_disagreement_nonnegative) ... ok
+test_invalid_probabilities_raise (test_experiment.ExperimentTests.test_invalid_probabilities_raise) ... ok
+test_invalid_shapes_and_threshold (test_experiment.ExperimentTests.test_invalid_shapes_and_threshold) ... ok
+test_pairing_and_mutation_boundary (test_experiment.ExperimentTests.test_pairing_and_mutation_boundary) ... ok
+test_rng_reproducibility (test_experiment.ExperimentTests.test_rng_reproducibility) ... ok
+test_selective_denominator (test_experiment.ExperimentTests.test_selective_denominator) ... ok
+test_softmax_temperature_preserves_argmax (test_experiment.ExperimentTests.test_softmax_temperature_preserves_argmax) ... ok
+test_temperature_search_does_not_increase_grid_best (test_experiment.ExperimentTests.test_temperature_search_does_not_increase_grid_best) ... ok
+test_threshold_equality_included (test_experiment.ExperimentTests.test_threshold_equality_included) ... ok
+test_training_and_inference_checkpoint (test_experiment.ExperimentTests.test_training_and_inference_checkpoint) ... ok
+test_wilson_zero_errors_nonzero_upper (test_experiment.ExperimentTests.test_wilson_zero_errors_nonzero_upper) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.901s
+
+OK
