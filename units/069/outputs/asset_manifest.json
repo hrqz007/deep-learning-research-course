@@ -1,0 +1,8 @@
+{
+  "data.npz": "662c7ae061f6a24027f82a60bb7d152cd594f2dff452fcd6bd1a2d5a7c678340",
+  "config.json": "45c7e4c749e3bb960410059e1174dd253823f3186f63a9c04e42b303dbc21ccb",
+  "resume_epoch12.pt": "5008cf65dd6a715ed426e0b7ef1190d463048d819bfb1acebaf80df41455fe2f",
+  "continuous_epoch24.pt": "95669d7f38be4895f7c018b440ee2a5a6cff6cb82c9ea63668e44bd42d59ed5d",
+  "resumed_epoch24.pt": "d9b451c14a73105c48560d32519f8fe757994a77c7be89442e6b565f58f9e6fd",
+  "weights_only_epoch24.pt": "fc6e43da9d08117fad4d3aaced2e8b1cc9cea945476f10ff38a94dd5e1a4e0d9"
+}

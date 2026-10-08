@@ -1,0 +1,261 @@
+{
+  "config": {
+    "data_seed": 6901,
+    "seed": 69,
+    "n_train": 256,
+    "n_test": 128,
+    "epochs": 24,
+    "split_epoch": 12,
+    "batch_size": 32,
+    "lr": 0.01
+  },
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "device": "CPU",
+  "threads": 1,
+  "histories": {
+    "continuous": [
+      {
+        "epoch": 1,
+        "train_loss": 0.6314966529607773
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.5405961275100708
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.46377989277243614
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.4109979309141636
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.3850310444831848
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.35433296859264374
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.36147451400756836
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.3243079613894224
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.2844419963657856
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.2715300228446722
+      },
+      {
+        "epoch": 11,
+        "train_loss": 0.2725272923707962
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.289004722610116
+      },
+      {
+        "epoch": 13,
+        "train_loss": 0.25477625243365765
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.26700064539909363
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.20205779001116753
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.22472691256552935
+      },
+      {
+        "epoch": 17,
+        "train_loss": 0.24080106057226658
+      },
+      {
+        "epoch": 18,
+        "train_loss": 0.22800522297620773
+      },
+      {
+        "epoch": 19,
+        "train_loss": 0.23108640685677528
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.17551597394049168
+      },
+      {
+        "epoch": 21,
+        "train_loss": 0.16972525510936975
+      },
+      {
+        "epoch": 22,
+        "train_loss": 0.24604258313775063
+      },
+      {
+        "epoch": 23,
+        "train_loss": 0.18682661280035973
+      },
+      {
+        "epoch": 24,
+        "train_loss": 0.20287782326340675
+      }
+    ],
+    "resumed": [
+      {
+        "epoch": 13,
+        "train_loss": 0.25477625243365765
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.26700064539909363
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.20205779001116753
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.22472691256552935
+      },
+      {
+        "epoch": 17,
+        "train_loss": 0.24080106057226658
+      },
+      {
+        "epoch": 18,
+        "train_loss": 0.22800522297620773
+      },
+      {
+        "epoch": 19,
+        "train_loss": 0.23108640685677528
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.17551597394049168
+      },
+      {
+        "epoch": 21,
+        "train_loss": 0.16972525510936975
+      },
+      {
+        "epoch": 22,
+        "train_loss": 0.24604258313775063
+      },
+      {
+        "epoch": 23,
+        "train_loss": 0.18682661280035973
+      },
+      {
+        "epoch": 24,
+        "train_loss": 0.20287782326340675
+      }
+    ],
+    "weights_only": [
+      {
+        "epoch": 13,
+        "train_loss": 0.2749516572803259
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.23704365268349648
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.2062207218259573
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.20300097577273846
+      },
+      {
+        "epoch": 17,
+        "train_loss": 0.23540850915014744
+      },
+      {
+        "epoch": 18,
+        "train_loss": 0.2339223437011242
+      },
+      {
+        "epoch": 19,
+        "train_loss": 0.24326183926314116
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.2408737652003765
+      },
+      {
+        "epoch": 21,
+        "train_loss": 0.19833477586507797
+      },
+      {
+        "epoch": 22,
+        "train_loss": 0.19635786302387714
+      },
+      {
+        "epoch": 23,
+        "train_loss": 0.19452158454805613
+      },
+      {
+        "epoch": 24,
+        "train_loss": 0.24139907583594322
+      }
+    ]
+  },
+  "resume_max_parameter_gap": 0.0,
+  "weights_only_max_parameter_gap": 0.29491493105888367,
+  "resume_loss_max_gap": 0.0,
+  "metrics": {
+    "continuous": {
+      "loss": 0.1543545126914978,
+      "accuracy": 0.9453125
+    },
+    "resumed": {
+      "loss": 0.1543545126914978,
+      "accuracy": 0.9453125
+    },
+    "weights_only": {
+      "loss": 0.1720796823501587,
+      "accuracy": 0.9296875
+    }
+  },
+  "manifest_failures": [],
+  "simulated_tamper_detected": true,
+  "duplicate_demo": {
+    "rows": 388,
+    "unique_rows": 384,
+    "duplicates": 4
+  },
+  "asset_graph": {
+    "data.npz": [
+      "config.json"
+    ],
+    "resume_epoch12.pt": [
+      "data.npz",
+      "config.json"
+    ],
+    "continuous_epoch24.pt": [
+      "resume_epoch12.pt"
+    ],
+    "resumed_epoch24.pt": [
+      "resume_epoch12.pt"
+    ]
+  },
+  "limits": [
+    "Exact match only tested in same Python/PyTorch CPU environment with deterministic operations",
+    "Hash matching establishes byte integrity relative to a trusted manifest, not provenance, permission or model correctness",
+    "Toy exact-row deduplication does not identify semantic near-duplicates"
+  ]
+}

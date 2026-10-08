@@ -1,0 +1,10 @@
+{
+  "batch_size": 32,
+  "data_seed": 6901,
+  "epochs": 24,
+  "lr": 0.01,
+  "n_test": 128,
+  "n_train": 256,
+  "seed": 69,
+  "split_epoch": 12
+}

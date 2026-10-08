@@ -1,0 +1,36 @@
+{
+  "checked_date": "2026-10-08",
+  "method": "official source pages opened and read",
+  "sources": [
+    {
+      "title": "Datasheets for Datasets",
+      "url": "https://arxiv.org/abs/1803.09010",
+      "supports": "数据来源与记录框架",
+      "status": "verified"
+    },
+    {
+      "title": "Model Cards for Model Reporting",
+      "url": "https://arxiv.org/abs/1810.03993",
+      "supports": "模型用途与限制报告",
+      "status": "verified"
+    },
+    {
+      "title": "Reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+      "supports": "跨环境确定性限制与随机源",
+      "status": "verified"
+    },
+    {
+      "title": "Saving and Loading",
+      "url": "https://docs.pytorch.org/tutorials/beginner/saving_loading_models.html",
+      "supports": "训练检查点与深拷贝",
+      "status": "verified"
+    },
+    {
+      "title": "hashlib",
+      "url": "https://docs.python.org/3/library/hashlib.html",
+      "supports": "字节摘要接口",
+      "status": "verified"
+    }
+  ]
+}
