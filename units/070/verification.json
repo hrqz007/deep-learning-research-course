@@ -1,0 +1,47 @@
+{
+  "unit": "070",
+  "verified_date": "2026-10-08",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "torch": "2.14.1+cpu",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "Markdown": "3.11",
+    "weasyprint": "70.0"
+  },
+  "device": "CPU",
+  "threads": 1,
+  "tests": {
+    "ordinary": {
+      "passed": true,
+      "test_count": 5
+    },
+    "optimized": {
+      "passed": true,
+      "test_count": 5
+    }
+  },
+  "notebook": {
+    "executed_code_cells": 7,
+    "embedded_png_outputs": 2,
+    "errors": 0,
+    "method": "fresh Python process with sequential IPython in-process kernel"
+  },
+  "pdf_pages": {
+    "lecture": 8,
+    "lab": 2,
+    "answers": 2
+  },
+  "figures": 6,
+  "experiment_scope": [
+    "One synthetic dataset, five initialization seeds, no original vision/speech/document benchmarks",
+    "No hyperparameter search; fixed dropout rate and weight decay",
+    "Seed interval excludes dataset and deployment distribution uncertainty",
+    "Validation-selected epochs differ despite equal maximum training budgets"
+  ],
+  "checkpoint_reloads": "All terminal checkpoints reloaded in executed notebook; 068 also exports and reloads two fixed-batch graphs",
+  "author_visual_review": "All pages rendered and inspected; independent review handled separately"
+}

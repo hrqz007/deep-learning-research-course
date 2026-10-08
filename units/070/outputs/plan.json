@@ -1,0 +1,40 @@
+{
+  "data_seed": 7001,
+  "epochs": 160,
+  "hypothesis": "dropout may reduce overfitting at this fixed capacity and budget",
+  "lr": 0.01,
+  "modes": {
+    "baseline": [
+      0.0,
+      0.0
+    ],
+    "both": [
+      0.4,
+      0.01
+    ],
+    "dropout": [
+      0.4,
+      0.0
+    ],
+    "weight_decay": [
+      0.0,
+      0.01
+    ]
+  },
+  "optimizer": "Adam",
+  "primary": "paired test NLL difference dropout - baseline; negative is better",
+  "scope": "mechanism-scale reproduction, not original paper benchmark scores",
+  "secondary": "accuracy, calibration, factorial interaction",
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    67
+  ],
+  "selection": "minimum validation NLL; earliest tie",
+  "task": "synthetic nonlinear binary classification",
+  "test_n": 512,
+  "train_n": 128,
+  "validation_n": 192
+}

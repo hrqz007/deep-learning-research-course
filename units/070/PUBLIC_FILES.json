@@ -1,0 +1,256 @@
+{
+  "scope": "All public teaching files except this self-referential manifest; packaging freeze separately hashes this file too",
+  "unit": "070",
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 836,
+      "sha256": "bd08ba3e209543ddb95b32f97ffe0e2539b4b16271af5e08a0851dee26aa32f5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1963,
+      "sha256": "2e01f37762ad3c72a77ab67f2340cdee228df3b77de14f0b1e80a540cecc55b9"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 4495,
+      "sha256": "f68a01883adb83a4becd90578f0cb0af283d25e1c1477c0cdfa00306f195c636"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 404784,
+      "sha256": "54507f2d5020c5ff7cd887563d605cbf9e2465320771b6b72ed7c51d8c29be45"
+    },
+    {
+      "path": "build-tools/rebuild.sh",
+      "bytes": 351,
+      "sha256": "57f39187af1ebf46547369ed6840f00e1f669d071e39076eb5eff3da42ade800"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 5390,
+      "sha256": "34d01b642fab873ea49fe506e5544dff9bbc31f6b6fc7bfb2bab797c15e4864b"
+    },
+    {
+      "path": "create_notebook.py",
+      "bytes": 2566,
+      "sha256": "e256c2b60335f00f1089526ff3a53c92f36919b62482e240b3053682ead0a4ce"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 111,
+      "sha256": "5482a7658fcf6b855fc06d3daccd6385ffa39f1e1a98fd31ff0b455eb66b7dec"
+    },
+    {
+      "path": "execute_notebook.py",
+      "bytes": 2174,
+      "sha256": "e56249e27124ff222d141d7b3f33c29dce311096edbf5221f576f56a9b9d763f"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 113794,
+      "sha256": "7deefaecec0650a117cf25bd002834a0ca1bf4cdf7505ea08594ea62d89e520e"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 5490,
+      "sha256": "49c1592742a5bc2ffb0798e4a799045282f92515e0f2fac125d82db225f77e2f"
+    },
+    {
+      "path": "figures/01_claims.png",
+      "bytes": 43035,
+      "sha256": "866db4c75078faf69683b246681b42c35db8cbb75c471e9bdd501445697ed4f4"
+    },
+    {
+      "path": "figures/02_curves.png",
+      "bytes": 112344,
+      "sha256": "4ba1e8f5a2299a73036384ccc76147fa2526a9b94a232279b40958b4813ddbe9"
+    },
+    {
+      "path": "figures/03_runs.png",
+      "bytes": 50376,
+      "sha256": "1cab706ec32cbe71ff27929472adba0ae7ad54095bff7de0b2c4cf2b9248f323"
+    },
+    {
+      "path": "figures/04_paired.png",
+      "bytes": 45134,
+      "sha256": "ada16400fb9d3a5b72c9520effd2c91464f5df8fc642dec9167112b1ba9cfb23"
+    },
+    {
+      "path": "figures/05_interaction.png",
+      "bytes": 36265,
+      "sha256": "321b64e602abb5ab50bbcd148d32073ff87a83b053448578bd4f7a90b6302a6c"
+    },
+    {
+      "path": "figures/06_selection.png",
+      "bytes": 45087,
+      "sha256": "85c9fcb3190193ff9ef4825e066c9993bb4e8074910fa5a0bf0c070811c01b28"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 4352,
+      "sha256": "c6c65206c6b0e4c45aab9d043bfde783cde67c5f423e7a0c2cbe7bde4f9263e6"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 417806,
+      "sha256": "a389656f4e454962a36644dc074ff917e65726dc7a95572420de64715ff97001"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 15953,
+      "sha256": "dcd2c5ac16a00adbf576e3ca62ea49c79e43b540bdf804f5a0b328d3471249af"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 892082,
+      "sha256": "5c5b06d7f1c59109fe005aa8d918aea8a7c16520dd3ddfb3b1d11bff4a53b4c1"
+    },
+    {
+      "path": "make_figures.py",
+      "bytes": 3434,
+      "sha256": "f55cb5470dd1c3c58d76fa0694a3f282ac11ca628ad868c0e49ef16c2f253a36"
+    },
+    {
+      "path": "outputs/baseline_seed11.pt",
+      "bytes": 25781,
+      "sha256": "fd37d676fa8ffc94df5dec5df9e74a9117687d0384d53337a1eebe2bbd0e102e"
+    },
+    {
+      "path": "outputs/baseline_seed23.pt",
+      "bytes": 25781,
+      "sha256": "3029431ff9e0022b1c15a877416bd9325a41cfcc15d997569f6490b463ef8bdc"
+    },
+    {
+      "path": "outputs/baseline_seed37.pt",
+      "bytes": 25781,
+      "sha256": "7b6737a624753a59a374b665f8b843c9a4b644aa4c06d1a988387d608035f9f2"
+    },
+    {
+      "path": "outputs/baseline_seed51.pt",
+      "bytes": 25781,
+      "sha256": "d327dc00ee4e39e0e67456716d8490040389bf36ae924a3e506a3f32f4df5923"
+    },
+    {
+      "path": "outputs/baseline_seed67.pt",
+      "bytes": 25781,
+      "sha256": "2364fb696281540feeb8bec8c88cc9b4300fb83f325a4741ae37d526eda0893e"
+    },
+    {
+      "path": "outputs/both_seed11.pt",
+      "bytes": 25733,
+      "sha256": "81d39b77e1a0802ae16695ec51ac6aae98fbf3a95276430f29c6646f2b27b28f"
+    },
+    {
+      "path": "outputs/both_seed23.pt",
+      "bytes": 25733,
+      "sha256": "be065eb873b1797cd4876fceeaab232b75180769529f43985db94c65cb1d52a8"
+    },
+    {
+      "path": "outputs/both_seed37.pt",
+      "bytes": 25733,
+      "sha256": "87ef03f996857418b306174af2e764caf26d8c5c08d752fb992e7b18e1f4d44f"
+    },
+    {
+      "path": "outputs/both_seed51.pt",
+      "bytes": 25733,
+      "sha256": "ac24b1f9a0dbd0ae45dc655db17f3c7f67b51e7b04d8020ddd24d15097e0243f"
+    },
+    {
+      "path": "outputs/both_seed67.pt",
+      "bytes": 25733,
+      "sha256": "e48c25854dd781aaa3a476d21b727e693d9a0172457a33e795bc96bdb97cde5f"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 81144,
+      "sha256": "e60bfc1ade1f2318e1ca413b3d2006ef890ae081c2a0f75a3943472f8ecbcae3"
+    },
+    {
+      "path": "outputs/dropout_seed11.pt",
+      "bytes": 25769,
+      "sha256": "be41e49e99c5e3f80835b07fbb4fce9ce8825943e5ee82057fdc0fb76e2c2ad8"
+    },
+    {
+      "path": "outputs/dropout_seed23.pt",
+      "bytes": 25769,
+      "sha256": "a75470fec310658aa4fdfc0c1c5389f19f3a6e53c8cfa4b04209f9d8b7fe09a2"
+    },
+    {
+      "path": "outputs/dropout_seed37.pt",
+      "bytes": 25769,
+      "sha256": "8191bd2e10e87a6b63a593e40231b4e1420d5bc05bac5df29b64d5609c1f1f13"
+    },
+    {
+      "path": "outputs/dropout_seed51.pt",
+      "bytes": 25769,
+      "sha256": "cf324a8950e10e35d7b3bae88af97348c48fcd9f4528df35fe46d3f04273b05e"
+    },
+    {
+      "path": "outputs/dropout_seed67.pt",
+      "bytes": 25769,
+      "sha256": "de7747ecba1dfef389f0788e8f8ed3e79be73c05b53fa22b7a6284855838a864"
+    },
+    {
+      "path": "outputs/plan.json",
+      "bytes": 813,
+      "sha256": "dea14a361f2fd2a8f2aef47cbf08dc40a8542c8fe6fae011846671963abcca36"
+    },
+    {
+      "path": "outputs/results.json",
+      "bytes": 445603,
+      "sha256": "004207bb220ac9b66621dbf84818c4cb319f0189f19557004258e7e1ccfc897c"
+    },
+    {
+      "path": "outputs/weight_decay_seed11.pt",
+      "bytes": 25829,
+      "sha256": "88ec98580737d6947da90a0836af335b360ece62636aa090b3a0c3e317eccf9d"
+    },
+    {
+      "path": "outputs/weight_decay_seed23.pt",
+      "bytes": 25829,
+      "sha256": "e53406cee199febbc56e1d05d1510bf328d239f152bc40cd4c58f41b89f9f890"
+    },
+    {
+      "path": "outputs/weight_decay_seed37.pt",
+      "bytes": 25829,
+      "sha256": "9ee47f27615d95163962597b651acd03b9023648b565c511b308072b25eb3e3e"
+    },
+    {
+      "path": "outputs/weight_decay_seed51.pt",
+      "bytes": 25829,
+      "sha256": "aa175e7751140a09cc821778c756a49cb369ae29cb5ce3b5ed6a491fa65f58ff"
+    },
+    {
+      "path": "outputs/weight_decay_seed67.pt",
+      "bytes": 25829,
+      "sha256": "1d73dfcbf570c7ac2991a990ef4434894907c2551575dbb71dbfcebc0eb89a8d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 126,
+      "sha256": "2b5b3073ae353f0f8589c621c3393728e780faa46ed2752675f59e48046dfef5"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 933,
+      "sha256": "a247d99546019ee0ce7c1ee02d1b702d1b1beddc2a9e8d1e91c45db62bd092af"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 663,
+      "sha256": "1bcb9417bd5d905e02a46dc2ff976786514af1a217e3f3d7ed210440517ff229"
+    },
+    {
+      "path": "test_experiment.py",
+      "bytes": 1089,
+      "sha256": "72bbc80cfe5065c5ec8cef43b7cd7542b828eb4a500eb4e733fe9df19193e755"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1351,
+      "sha256": "415a0c866b24f0e3e9b6fdd16a4427718dfa67c320a669b0841d8411f5698958"
+    }
+  ]
+}

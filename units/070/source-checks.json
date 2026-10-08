@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-08",
+  "method": "official source pages opened and read",
+  "sources": [
+    {
+      "title": "Dropout original paper",
+      "url": "https://jmlr.org/papers/v15/srivastava14a.html",
+      "supports": "2014论文主张与实验范围",
+      "status": "verified"
+    },
+    {
+      "title": "PyTorch Dropout",
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.Dropout.html",
+      "supports": "inverted dropout与eval语义",
+      "status": "verified"
+    },
+    {
+      "title": "ML Reproducibility Checklist",
+      "url": "https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf",
+      "supports": "预算拆分基线运行记录",
+      "status": "verified"
+    },
+    {
+      "title": "PyTorch Reproducibility",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+      "supports": "随机性与可复查边界",
+      "status": "verified"
+    }
+  ]
+}
