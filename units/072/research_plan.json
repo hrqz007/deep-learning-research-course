@@ -1,0 +1,55 @@
+{
+  "unit": "072",
+  "protocol_status": "Designed before the accompanying default run; not externally preregistered.",
+  "question": "Can label-independent training corner randomization reduce shortcut-reversal classification error?",
+  "hypothesis": "random_corner has lower mean flip error than erm across paired seeds; report ID cost separately",
+  "task": "12x12 noisy horizontal-versus-vertical synthetic line classification",
+  "variants": [
+    "linear",
+    "erm",
+    "random_corner",
+    "wrong_corner",
+    "mask_corner"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "data_seeds": [
+    4001,
+    4002,
+    4003,
+    4004
+  ],
+  "sizes": {
+    "train": 800,
+    "validation": 240,
+    "test": 600
+  },
+  "budget": {
+    "steps_per_model": 160,
+    "models": 15,
+    "optimizer": "Adam",
+    "lr": 0.006,
+    "weight_decay": 0.0001
+  },
+  "primary": "mean full-coverage error on paired shortcut-flip test domain",
+  "secondary": [
+    "id error",
+    "blank-corner error",
+    "core-noise error",
+    "subgroup errors",
+    "selective coverage and risk",
+    "timing and parameters"
+  ],
+  "statistical_summary": "mean and sample SD across three initialization/augmentation seeds; not a population confidence interval",
+  "threshold_rule": "20th percentile of validation max softmax, lower order method, accept ties together",
+  "selection": "No hyperparameter search, early stopping, best-seed or test-domain selection",
+  "limitations": [
+    "known nuisance location",
+    "synthetic data",
+    "three seeds with fixed datasets",
+    "equal steps not equal FLOPs"
+  ]
+}

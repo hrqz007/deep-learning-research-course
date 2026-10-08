@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Geirhos et al. Shortcut Learning in Deep Neural Networks",
+    "url": "https://arxiv.org/abs/2004.07780",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "捷径学习的研究问题与概念；未重现文中各基准，不声称方法创新。"
+  },
+  {
+    "title": "Ovadia et al. Can you trust your model's uncertainty?",
+    "url": "https://proceedings.neurips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "分布变化下不确定性评估的背景。"
+  },
+  {
+    "title": "NeurIPS Paper Checklist",
+    "url": "https://neurips.cc/public/guides/PaperChecklist",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "主张、限制、实验细节、误差条定义、计算预算、许可与复现报告要求。"
+  },
+  {
+    "title": "PyTorch Saving and Loading Models",
+    "url": "https://docs.pytorch.org/tutorials/beginner/saving_loading_models.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "模型权重保存、可信来源加载与完整续训状态的区别。"
+  },
+  {
+    "title": "PyTorch 2.14 Reproducibility",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "确定性与跨版本跨设备复现限制。"
+  },
+  {
+    "title": "PyTorch 2.14 CrossEntropyLoss",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.nn.CrossEntropyLoss.html",
+    "checked_at": "2026-10-08",
+    "access": "public primary source retrieved",
+    "used_for": "分类训练的logit输入语义。"
+  }
+]

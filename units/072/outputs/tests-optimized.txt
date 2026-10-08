@@ -1,0 +1,22 @@
+test_augmentation_is_label_independent (test_experiment.ProjectTests.test_augmentation_is_label_independent) ... ok
+test_augmentation_preserves_core (test_experiment.ProjectTests.test_augmentation_preserves_core) ... ok
+test_checkpoint_roundtrip (test_experiment.ProjectTests.test_checkpoint_roundtrip) ... ok
+test_curve_ties (test_experiment.ProjectTests.test_curve_ties) ... ok
+test_data_reproducibility (test_experiment.ProjectTests.test_data_reproducibility) ... ok
+test_data_seed_separation (test_experiment.ProjectTests.test_data_seed_separation) ... ok
+test_data_shapes (test_experiment.ProjectTests.test_data_shapes) ... ok
+test_invalid_metrics_raise (test_experiment.ProjectTests.test_invalid_metrics_raise) ... ok
+test_mask_applied_at_inference (test_experiment.ProjectTests.test_mask_applied_at_inference) ... ok
+test_metric_numerators (test_experiment.ProjectTests.test_metric_numerators) ... ok
+test_missing_rng_rejected (test_experiment.ProjectTests.test_missing_rng_rejected) ... ok
+test_parameter_counts (test_experiment.ProjectTests.test_parameter_counts) ... ok
+test_selective_empty (test_experiment.ProjectTests.test_selective_empty) ... ok
+test_shift_changes_only_declared_corner (test_experiment.ProjectTests.test_shift_changes_only_declared_corner) ... ok
+test_shift_preserves_input (test_experiment.ProjectTests.test_shift_preserves_input) ... ok
+test_training_reproducibility (test_experiment.ProjectTests.test_training_reproducibility) ... ok
+test_wrong_corner_preserves_shortcut (test_experiment.ProjectTests.test_wrong_corner_preserves_shortcut) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.363s
+
+OK
