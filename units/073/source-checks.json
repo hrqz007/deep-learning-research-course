@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "title": "Soudry et al. (2018), The Implicit Bias of Gradient Descent on Separable Data",
+      "url": "https://jmlr.org/papers/v19/18-188.html",
+      "checked": "2026-10-09",
+      "status": "publisher abstract accessed; homogeneous separable linear predictors and max-margin direction checked"
+    },
+    {
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+      "checked": "2026-10-09",
+      "status": "accessed author-hosted PDF; relevant chapter headings and contents checked; not redistributed"
+    },
+    {
+      "title": "SciPy expit official reference",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.expit.html",
+      "checked": "2026-10-09",
+      "status": "official API page accessed; sigmoid definition checked"
+    }
+  ],
+  "policy": "No third-party paper/data download included. Links are for further study. All experiments are original synthetic teaching examples, not claimed full paper replications."
+}

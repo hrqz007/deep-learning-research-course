@@ -1,0 +1,38 @@
+{
+  "release_unit": "076",
+  "catalog_id": "T4",
+  "catalog_prerequisites": [
+    "017",
+    "019",
+    "060",
+    "071"
+  ],
+  "status": "fixed teaching design; not externally preregistered",
+  "question": "三种方法在远域均发生零覆盖；工作模型后验精确不代表真实世界可靠。",
+  "data": "locally generated synthetic arrays; no downloads",
+  "seeds": {
+    "data": 7601,
+    "mc": 7602,
+    "members": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ]
+  },
+  "training": {
+    "steps_per_member": 2200,
+    "members": 5,
+    "optimizer": "full-batch Adam",
+    "learning_rate": 0.015
+  },
+  "selection": "No hyperparameter search, early stopping or test-based model selection",
+  "limitations": [
+    "single synthetic data realization",
+    "no browser UI claim",
+    "no CI claim",
+    "no paid API",
+    "fixed-feature empirical-Bayes-style plug-in ignores feature estimation"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "unit": "077",
+  "catalog_id": "T5",
+  "verified_at": "2026-10-09T16:38:24.282350+00:00",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "device": "CPU",
+    "numerical_dtype": "float64",
+    "blas_threads": 1,
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "IPython": "9.16.1",
+      "ipykernel": "7.4.0",
+      "Markdown": "3.11",
+      "weasyprint": "70.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 10,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 10,
+      "status": "passed"
+    }
+  },
+  "experiment": {
+    "status": "real training completed",
+    "external_data_downloads": false,
+    "paid_model_apis": false,
+    "all_saved_arrays_finite": true,
+    "script_notebook_arrays_exact_match": true,
+    "script_notebook_json_exact_match": true,
+    "checkpoint_reload_prediction_max_abs_difference": 0.0
+  },
+  "notebook": {
+    "fresh_process": true,
+    "kernel": "actual IPython InProcessKernel",
+    "code_cells": 4,
+    "sequential_execution_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "code_cell": 4,
+        "bytes": 35629,
+        "dimensions": [
+          1120,
+          420
+        ]
+      }
+    ],
+    "retraining": "full experiment rerun into notebook_outputs",
+    "browser_ui_tested": false
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 8,
+      "lab": 3,
+      "answers": 3
+    },
+    "figures": 6,
+    "visual_review": "All final pages rasterized with Poppler and inspected in page contact sheets; mathematical, table, code and revised layout pages additionally inspected at full resolution. No missing CJK glyphs, clipped content or figure overlap observed.",
+    "public_uri_count": 7,
+    "private_file_uri_count": 0
+  },
+  "sources": {
+    "records": 3,
+    "method": "actual HTTP byte retrieval from original publication or author institutional host, title/topic checked; byte counts and SHA256 in source-checks.json"
+  },
+  "scope_limits": [
+    "No GitHub CI claim; these are local course checks.",
+    "No browser Jupyter UI test.",
+    "No full fresh installation claim on every OS.",
+    "Independent review and remote publication verification are controlled by the release workflow."
+  ]
+}

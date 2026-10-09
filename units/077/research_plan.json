@@ -1,0 +1,30 @@
+{
+  "release_unit": "077",
+  "catalog_id": "T5",
+  "catalog_prerequisites": [
+    "011",
+    "022",
+    "071"
+  ],
+  "status": "fixed teaching design; not externally preregistered",
+  "question": "模型强依赖事后代理Z，但生成机制中do(Z)对Y效应为零；归因不推出世界因果。",
+  "data": "locally generated synthetic arrays; no downloads",
+  "seeds": {
+    "train_data": 7701,
+    "test_data": 7702,
+    "training": 17,
+    "randomization": 77
+  },
+  "training": {
+    "steps": 1800,
+    "optimizer": "full-batch Adam",
+    "learning_rate": 0.008
+  },
+  "selection": "No hyperparameter search, early stopping or test-based model selection",
+  "limitations": [
+    "known mechanism supplied by generator, not discovered",
+    "Z is a deliberately post-outcome proxy, not pre-outcome deployable input",
+    "no browser UI claim",
+    "no CI claim"
+  ]
+}

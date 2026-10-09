@@ -1,0 +1,72 @@
+{
+  "single": {
+    "in_domain": {
+      "rmse": 0.18356737535321074,
+      "gaussian_nll": -0.2758447514603008,
+      "coverage_95": 0.945273631840796,
+      "mean_width_95": 0.7056000000000002
+    },
+    "out_of_domain": {
+      "rmse": 2.4743012508140616,
+      "gaussian_nll": 93.68202096591565,
+      "coverage_95": 0.2325,
+      "mean_width_95": 0.7056000000000001
+    },
+    "far_out": {
+      "rmse": 3.3653753021367,
+      "gaussian_nll": 173.98424696054,
+      "coverage_95": 0.0,
+      "mean_width_95": 0.7056000000000002
+    }
+  },
+  "ensemble": {
+    "in_domain": {
+      "rmse": 0.18317554095322575,
+      "gaussian_nll": -0.2780283680169526,
+      "coverage_95": 0.9502487562189055,
+      "mean_width_95": 0.7057762751869884
+    },
+    "out_of_domain": {
+      "rmse": 2.3931242239930888,
+      "gaussian_nll": 46.771352793341684,
+      "coverage_95": 0.245,
+      "mean_width_95": 0.8616060518323068
+    },
+    "far_out": {
+      "rmse": 3.2581342968990192,
+      "gaussian_nll": 84.33336682050152,
+      "coverage_95": 0.0,
+      "mean_width_95": 0.9778668447095977
+    }
+  },
+  "last_layer_bayes": {
+    "in_domain": {
+      "rmse": 0.18402681238965476,
+      "gaussian_nll": -0.2739682450203984,
+      "coverage_95": 0.9502487562189055,
+      "mean_width_95": 0.7248116939097091
+    },
+    "out_of_domain": {
+      "rmse": 2.3931598325231067,
+      "gaussian_nll": 14.805605148259078,
+      "coverage_95": 0.2925,
+      "mean_width_95": 1.4180756740066203
+    },
+    "far_out": {
+      "rmse": 3.261536584377591,
+      "gaussian_nll": 26.610458763655938,
+      "coverage_95": 0.0,
+      "mean_width_95": 1.7419669337008585
+    }
+  },
+  "diagnostics": {
+    "mc_draws": 4000,
+    "mc_mean_max_abs_error": 0.004817498455970237,
+    "bayes_scope": "conditional on fitted features; not full-network posterior",
+    "ensemble_interval": "moment-matched Gaussian; not exact mixture quantiles",
+    "steps_per_member": 2200,
+    "members": 5,
+    "data_seed": 7601,
+    "weight_reload_max_abs_error": 0.0
+  }
+}

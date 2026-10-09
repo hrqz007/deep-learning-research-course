@@ -1,0 +1,12 @@
+{
+  "release_unit": "075",
+  "catalog_id": "T3",
+  "title": "宽网络核视角与特征学习",
+  "prereq": [
+    "013",
+    "015",
+    "027",
+    "038"
+  ],
+  "catalog_unchanged": true
+}

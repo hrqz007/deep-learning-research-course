@@ -1,0 +1,47 @@
+{
+  "unit": "073",
+  "catalog_id": "T1",
+  "question": "平滑凸二次目标的有限步界与可分logistic参数方向是否分别符合预定预测？",
+  "design": {
+    "quadratic": {
+      "Q_diagonal": [
+        1,
+        4
+      ],
+      "w0": [
+        4,
+        2
+      ],
+      "eta_good": 0.25,
+      "steps_good": 50,
+      "eta_bad": 0.6,
+      "steps_bad": 25
+    },
+    "logistic": {
+      "steps": 20000,
+      "initializations": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "eta": "1/L where L=lambda_max(X.T@X/n)/4",
+      "hard_margin_reference": [
+        1,
+        0.5
+      ]
+    },
+    "selection": "report all conditions"
+  },
+  "data": "original synthetic, no downloads",
+  "results": "all predetermined conditions retained",
+  "scope": "teaching mechanism experiment, not general deep-network guarantee"
+}

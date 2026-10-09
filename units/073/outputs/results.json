@@ -1,0 +1,67 @@
+{
+  "unit": "073",
+  "catalog_id": "T1",
+  "quadratic": {
+    "L": 4.0,
+    "eta": 0.25,
+    "max_bound_excess": -0.7999999999974343,
+    "final_loss": 2.565761748305203e-12,
+    "bad_eta": 0.6,
+    "bad_final_loss": 161991329.9181146
+  },
+  "logistic": {
+    "L": 0.7594233208908726,
+    "eta": 1.3167886374978701,
+    "steps": 20000,
+    "hard_margin_w": [
+      1.0,
+      0.5
+    ],
+    "hard_margin_geometric": 0.8944271909999159,
+    "runs": [
+      {
+        "initial": [
+          0.0,
+          0.0
+        ],
+        "final_loss": 4.69897755894719e-05,
+        "final_norm": 9.927727281873949,
+        "final_angle_deg": 3.618897351419806,
+        "final_margin": 0.8644156895906359,
+        "final_error": 0.0,
+        "angle_at_10": 16.246193154013167
+      },
+      {
+        "initial": [
+          3.0,
+          -2.0
+        ],
+        "final_loss": 4.68140731515134e-05,
+        "final_norm": 9.931635112244622,
+        "final_angle_deg": 3.5939629189684883,
+        "final_margin": 0.8646344105650271,
+        "final_error": 0.0,
+        "angle_at_10": 10.929014835738107
+      },
+      {
+        "initial": [
+          -2.0,
+          3.0
+        ],
+        "final_loss": 4.640239836179573e-05,
+        "final_norm": 9.944917344081462,
+        "final_angle_deg": 3.8309528010128164,
+        "final_margin": 0.8625489597964349,
+        "final_error": 0.0,
+        "angle_at_10": 54.884405092904494
+      }
+    ]
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "seconds": 1.463291082000012,
+    "device": "CPU",
+    "dtype": "float64"
+  }
+}

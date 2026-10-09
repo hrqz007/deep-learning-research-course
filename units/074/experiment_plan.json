@@ -1,0 +1,23 @@
+{
+  "unit": "074",
+  "catalog_id": "T2",
+  "question": "固定有限类的一致收敛界怎样随样本量变化，错误地漏算数据依赖选择会怎样？",
+  "design": {
+    "n": [
+      20,
+      100,
+      500,
+      2000
+    ],
+    "repeats": 400,
+    "delta": 0.05,
+    "named_candidates": 23,
+    "distinct_functions": 22,
+    "seed_rule": "740000+n*1000+repeat",
+    "selection": "argmin empirical risk; first index breaks ties",
+    "memory_rule": "majority per grid; tie/unseen zero"
+  },
+  "data": "original synthetic, no downloads",
+  "results": "all predetermined conditions retained",
+  "scope": "teaching mechanism experiment, not general deep-network guarantee"
+}

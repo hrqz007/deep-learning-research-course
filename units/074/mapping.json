@@ -1,0 +1,12 @@
+{
+  "release_unit": "074",
+  "catalog_id": "T2",
+  "title": "统计学习与泛化界",
+  "prereq": [
+    "018",
+    "020",
+    "022",
+    "038"
+  ],
+  "catalog_unchanged": true
+}

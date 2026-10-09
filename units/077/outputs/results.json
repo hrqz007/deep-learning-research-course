@@ -1,0 +1,75 @@
+{
+  "test_rmse": 0.08887379241783663,
+  "point": [
+    0.8,
+    4.0
+  ],
+  "baseline_zero": [
+    0.0,
+    0.0
+  ],
+  "baseline_alternative": [
+    0.5,
+    2.5
+  ],
+  "prediction": 3.9987162283754936,
+  "gradient": [
+    0.01421751019840789,
+    1.0076220621488043
+  ],
+  "ig_zero": [
+    -0.0034361504747634007,
+    3.995315405209069
+  ],
+  "ig_alternative": [
+    0.004103197837707085,
+    1.503372248708144
+  ],
+  "completeness_error": 2.2065115956593218e-08,
+  "randomization": {
+    "head": {
+      "relative_l2_change": 1.037912068416254,
+      "signed_cosine": -0.9269482639735486
+    },
+    "all": {
+      "relative_l2_change": 1.0109568998590044,
+      "signed_cosine": -0.6203859841421425
+    }
+  },
+  "perturbation": {
+    "delta": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "actual_change": [
+      0.001007623210122155,
+      0.010076335974184225,
+      0.10077426568935532,
+      1.0089790904900253
+    ],
+    "linearized_change": [
+      0.0010076220621488045,
+      0.010076220621488044,
+      0.10076220621488044,
+      1.0076220621488043
+    ]
+  },
+  "causal": {
+    "observational_x_slope": 4.593264689543422,
+    "u_adjusted_x_slope": 1.9836347162746741,
+    "do_x_effect_per_unit": 2.0,
+    "do_z_effect_per_unit": 0.0,
+    "model_response_to_z_plus_one": 0.9933889099502354,
+    "model_response_to_coherent_x_intervention": 1.9614893311790491
+  },
+  "steps": 1800,
+  "seeds": {
+    "train_data": 7701,
+    "test_data": 7702,
+    "train": 17,
+    "randomization": 77
+  },
+  "reload_max_abs_error": 0.0
+}

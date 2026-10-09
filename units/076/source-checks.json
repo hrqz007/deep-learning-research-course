@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Lakshminarayanan, Pritzel & Blundell (2017). Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles.",
+    "url": "https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html",
+    "final_url": "https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html",
+    "checked_at_utc": "2026-10-09T16:34:02.073058+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_bytes": 9602,
+    "sha256": "38777b45430788f00bb60622a54c51a32b661c7d97cc7cee2af9e2b3a93481fa",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "支持独立训练集成的不确定性估计思想；本课只实现同方差小网络版本，不复现全部原文方法。"
+  },
+  {
+    "id": 2,
+    "title": "Daxberger et al. (2021). Laplace Redux: Effortless Bayesian Deep Learning.",
+    "url": "https://proceedings.neurips.cc/paper/2021/hash/a7c9585703d275249f30a088cebba0ad-Abstract.html",
+    "final_url": "https://proceedings.neurips.cc/paper/2021/hash/a7c9585703d275249f30a088cebba0ad-Abstract.html",
+    "checked_at_utc": "2026-10-09T16:34:02.383503+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_bytes": 9765,
+    "sha256": "f5dfd056d4ad6cb348feb6adcd4b02d1e64bd4a9a21b472b1ce2ce09cc304aba",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "支持Laplace局部高斯及最后层近似的研究背景；本课推导线性高斯工作模型的可核查特例。"
+  },
+  {
+    "id": 3,
+    "title": "Gal & Ghahramani (2016). Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning.",
+    "url": "https://proceedings.mlr.press/v48/gal16.html",
+    "final_url": "https://proceedings.mlr.press/v48/gal16.html",
+    "checked_at_utc": "2026-10-09T16:34:02.672700+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_bytes": 17945,
+    "sha256": "3a5e5582d01625d00e91c8b48f4394d0a7c193667345e224123e836ed4eefe80",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "对照阅读；本课没有把普通dropout任意使用等同精确后验，也没有声称执行该算法。"
+  }
+]

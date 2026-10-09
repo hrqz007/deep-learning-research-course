@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Sundararajan, Taly & Yan (2017). Axiomatic Attribution for Deep Networks.",
+    "url": "https://proceedings.mlr.press/v70/sundararajan17a.html",
+    "final_url": "https://proceedings.mlr.press/v70/sundararajan17a.html",
+    "checked_at_utc": "2026-10-09T16:34:02.965968+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_bytes": 14283,
+    "sha256": "e4a2fd723252baa0446f797739f313aa762a6c23404e916d4581e3878d62db6b",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "积分梯度、基线及公理化归因背景；本课原创两字段演示并独立推导完整性。"
+  },
+  {
+    "id": 2,
+    "title": "Adebayo et al. (2018). Sanity Checks for Saliency Maps.",
+    "url": "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+    "final_url": "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+    "checked_at_utc": "2026-10-09T16:34:03.418883+00:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_bytes": 9523,
+    "sha256": "dbffbfb668373e8eaba5b20f28a84628e0a44e13fb325c487a7aaf8a2c511ccd",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "参数随机化检查思想；本课不是原文视觉数据实验的复制。"
+  },
+  {
+    "id": 3,
+    "title": "Pearl (2009). Causal inference in statistics: An overview. Statistics Surveys 3:96-146.",
+    "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf",
+    "final_url": "https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf",
+    "checked_at_utc": "2026-10-09T16:34:05.710059+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_bytes": 593923,
+    "sha256": "1a5ecb7cb7c55a9b4f2c09aac091bc01a3eabfc94fc55ee692efbc013a8b7581",
+    "verification_scope": "Original publication/author-hosted source reached; title and topic checked. Not a full replication or systematic review.",
+    "used_for": "结构方程、干预、混杂与识别语言；本课SCM是原创合成机制，未从观察数据发现因果图。"
+  }
+]

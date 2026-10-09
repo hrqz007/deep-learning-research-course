@@ -1,0 +1,77 @@
+{
+  "unit": "074",
+  "catalog_id": "T2",
+  "delta": 0.05,
+  "H": 23,
+  "best_true_risk": 0.15,
+  "population": "21 equiprobable inputs; label probabilities 0.15 or 0.85",
+  "rows": [
+    {
+      "n": 20,
+      "repeats": 400,
+      "H": 23,
+      "epsilon": 0.4130488370048718,
+      "violation_count": 1,
+      "mean_uniform_gap": 0.18029166666666668,
+      "mean_train": 0.13475,
+      "mean_true": 0.19758333333333333,
+      "max_erm_excess": 0.3333333333333335,
+      "memory_mean_train": 0.07612500000000001,
+      "memory_mean_true": 0.3481666666666667,
+      "wrong_singleton_radius": 0.3036807309541526,
+      "full_table_radius": 0.6753697181150631
+    },
+    {
+      "n": 100,
+      "repeats": 400,
+      "H": 23,
+      "epsilon": 0.1847210555140248,
+      "violation_count": 0,
+      "mean_uniform_gap": 0.07989166666666668,
+      "mean_train": 0.14934999999999998,
+      "mean_true": 0.15366666666666665,
+      "max_erm_excess": 0.10000000000000012,
+      "memory_mean_train": 0.142975,
+      "memory_mean_true": 0.19141666666666673,
+      "wrong_singleton_radius": 0.13581015157406195,
+      "full_table_radius": 0.30203451993003044
+    },
+    {
+      "n": 500,
+      "repeats": 400,
+      "H": 23,
+      "epsilon": 0.08260976740097437,
+      "violation_count": 0,
+      "mean_uniform_gap": 0.035888333333333335,
+      "mean_train": 0.149995,
+      "mean_true": 0.14999999999999997,
+      "max_erm_excess": 0.0,
+      "memory_mean_train": 0.149995,
+      "memory_mean_true": 0.14999999999999997,
+      "wrong_singleton_radius": 0.060736146190830516,
+      "full_table_radius": 0.13507394362301262
+    },
+    {
+      "n": 2000,
+      "repeats": 400,
+      "H": 23,
+      "epsilon": 0.04130488370048718,
+      "violation_count": 0,
+      "mean_uniform_gap": 0.017851666666666665,
+      "mean_train": 0.1500825,
+      "mean_true": 0.14999999999999997,
+      "max_erm_excess": 0.0,
+      "memory_mean_train": 0.1500825,
+      "memory_mean_true": 0.14999999999999997,
+      "wrong_singleton_radius": 0.030368073095415258,
+      "full_table_radius": 0.06753697181150631
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "seconds": 0.17986962099996617,
+    "device": "CPU",
+    "dtype": "float64"
+  }
+}

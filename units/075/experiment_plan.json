@@ -1,0 +1,31 @@
+{
+  "unit": "075",
+  "catalog_id": "T3",
+  "question": "相同初始化下真实tanh网络与固定初始Jacobian模型何时接近、何时分离？",
+  "design": {
+    "widths": [
+      8,
+      32,
+      128
+    ],
+    "amplitudes": [
+      0.2,
+      1,
+      4
+    ],
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "steps": 500,
+    "eta": "0.3/lambda_max(K0/n)",
+    "parameterization": "sum(a*tanh(w*x+b))/sqrt(m)",
+    "train_points": 24,
+    "grid_points": 151,
+    "selection": "report all 27 configurations; no tuned threshold"
+  },
+  "data": "original synthetic, no downloads",
+  "results": "all predetermined conditions retained",
+  "scope": "teaching mechanism experiment, not general deep-network guarantee"
+}

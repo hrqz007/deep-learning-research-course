@@ -1,0 +1,78 @@
+{
+  "unit": "075",
+  "catalog_id": "T3",
+  "verified_at": "2026-10-09",
+  "status": "author_checks_passed; independent review recorded by release coordinator",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "IPython": "9.16.1",
+    "weasyprint": "70.0",
+    "markdown": "3.11",
+    "device": "CPU",
+    "dtype": "float64"
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 11,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 11,
+      "status": "passed"
+    }
+  },
+  "experiment": {
+    "offline_code": true,
+    "data": "original synthetic; generated and included; no downloads",
+    "all_prespecified_conditions_executed": true,
+    "runtime_seconds": 1.135692921000043,
+    "model_api_calls": 0
+  },
+  "notebook": {
+    "fresh_python_process": true,
+    "kernel": "actual IPython InProcessKernel",
+    "code_cells": 8,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "embedded_images": [
+      {
+        "code_cell": 7,
+        "encoding": "base64 PNG"
+      },
+      {
+        "code_cell": 8,
+        "encoding": "base64 PNG"
+      }
+    ],
+    "all_experiment_configurations_recomputed": true,
+    "deterministic_reference_arrays_checked": 193,
+    "array_match": "rtol=1e-10, atol=1e-11, equal_nan only for defined missing directions in073",
+    "browser_tested": false,
+    "external_kernel_transport": "not tested by author; independent QA may record additional verification"
+  },
+  "pdf": {
+    "page_counts": {
+      "lecture": 7,
+      "lab": 3,
+      "answers": 3
+    },
+    "figures": 5,
+    "all_pages_rasterized": true,
+    "author_renderer": "PyMuPDF at 1.3 scale; all pages viewed in page contact sheets",
+    "visual_review": "all 13 final pages in this unit inspected; no missing CJK glyphs, clipped text/formulas, or image/text overlap observed",
+    "clickable_links_checked": 8,
+    "local_file_uris": 0
+  },
+  "ci": "No CI run claimed",
+  "scope_limitations": [
+    "Fixed synthetic teaching examples; no real-world or arbitrary deep-network guarantee",
+    "Software dependencies installed once from standard package registry; experiments themselves require no network",
+    "Only specified units, no future lecture generation or scheduling"
+  ]
+}

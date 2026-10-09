@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+      "checked": "2026-10-09",
+      "status": "accessed author-hosted PDF; relevant chapter headings and contents checked; not redistributed"
+    },
+    {
+      "title": "Hoeffding (1963), Probability Inequalities for Sums of Bounded Random Variables",
+      "url": "https://doi.org/10.1080/01621459.1963.10500830",
+      "checked": "2026-10-09",
+      "status": "DOI attempted; publisher redirect inaccessible to browser; original full article not accessed, theorem cross-checked using author textbook chapter 4"
+    }
+  ],
+  "policy": "No third-party paper/data download included. Links are for further study. All experiments are original synthetic teaching examples, not claimed full paper replications."
+}

@@ -1,0 +1,177 @@
+{
+  "unit": "077",
+  "catalog_id": "T5",
+  "scope": "Public teaching files excluding this self-referential manifest",
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 680,
+      "sha256": "86156d6e461775133d7e2a06c6f93c9f4024fdf0e87fb6b1ce2b3ce4d5d2038d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2481,
+      "sha256": "fe43ed41cb22eab5a7514d18aef39ecebe2a5e98600dc8ac3bd0def1c24588a4"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 6138,
+      "sha256": "1b6a42097de76b0deecb7360d54b335915864a3b3df1fdca671bb39d50f9912e"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 515354,
+      "sha256": "81229ab91548ce5cd18f47ed126ad9c691184ab06230f1fd86e58a185f918e8e"
+    },
+    {
+      "path": "build-tools/README.md",
+      "bytes": 1062,
+      "sha256": "064d189bbc5a3ffb29f15f22293e1b93f2d5d30b37026def51f93629a4afa29d"
+    },
+    {
+      "path": "build-tools/requirements.txt",
+      "bytes": 51,
+      "sha256": "8c6c8af5a062b60a46245c1e47ad58c32d3820ece5f86f121e55e7257dd461b0"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 5772,
+      "sha256": "d33453a9eaf52c777237259e7b0f99a4dd37750bf0335824494e12f8559b2306"
+    },
+    {
+      "path": "create_notebook.py",
+      "bytes": 2952,
+      "sha256": "001861f2e0f769f28038833ae76c60201cd5aac5821e25278c6616b9e85d1113"
+    },
+    {
+      "path": "data_dictionary.md",
+      "bytes": 1231,
+      "sha256": "6407a31a4f9d5d0c7cbf750910d8f90b23d2660fecab1b2bcd42850fd66baf49"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 208,
+      "sha256": "81810602f9a63fe56d509ed0ceefb64a47cfeaff0d1721984a05fb20aa25a2cd"
+    },
+    {
+      "path": "execute_notebook.py",
+      "bytes": 2196,
+      "sha256": "18043a4c24d8f25a6ca9eff0f5414d59cbeedcc625eb768043c825e05e4442da"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 57138,
+      "sha256": "3d1444569eb751eea7e4feb86ccbf191012ec52ced83e96c2964e86c57c62bbd"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 8709,
+      "sha256": "b53f87286347ba0d88a70319f12c093b21c9adeee049ea013210264082001b00"
+    },
+    {
+      "path": "figures/01_model_question.png",
+      "bytes": 38618,
+      "sha256": "d2320983e5cd8788b755f0b5a1986a57d4f4c7193dfd63e4dd0e15c4025593db"
+    },
+    {
+      "path": "figures/02_causal_graph.png",
+      "bytes": 35260,
+      "sha256": "6881143c3e11bada911e812169b9eccfcf7ec837d92753505382df81c3d11582"
+    },
+    {
+      "path": "figures/03_ig_path.png",
+      "bytes": 62015,
+      "sha256": "6ddb66ba043e8d9b3ade605e79ed39777ed5284d1eb78a27c6c659be920499e9"
+    },
+    {
+      "path": "figures/04_attribution_checks.png",
+      "bytes": 34691,
+      "sha256": "64e46e408be49f481d2211b6b790b8f7c4e2323c4fda681d11c5db1ca4fe41b3"
+    },
+    {
+      "path": "figures/05_input_perturbation.png",
+      "bytes": 68674,
+      "sha256": "26f819fe41e6279e633c216f9bc67144e920e12e5fb134ae2da1e32a62689c23"
+    },
+    {
+      "path": "figures/06_effect_comparison.png",
+      "bytes": 42676,
+      "sha256": "d45d7d20723d12223e4eb490c6bbe49a23112f438b0b1b3d97985f990b7f7aa3"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 6313,
+      "sha256": "fe5f4bd5c525711dd297d0ffed86afe16f29e95f22bfbf196350f232af2191d3"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 567433,
+      "sha256": "2d7b6667b408c6febb8e391a853c47892522fa76d52fd34bd61b8d1c54fce21d"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 15006,
+      "sha256": "9963b77624a387029bf6692ca11a7e511676b7230318e61b4e05e8e7c184eb7a"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 911683,
+      "sha256": "50104dadb0a2ffd72b551ef52fa67ec164c8c1984025d3da3c8b50274f60c2be"
+    },
+    {
+      "path": "make_figures.py",
+      "bytes": 4751,
+      "sha256": "8037498b4a19b648c29865f23060565e4fb3dea869b521caa904bba240568f93"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 69073,
+      "sha256": "934f867fe79e9037dffd77c6bc28ec9ff6ad458fc56dbfa655ecb8d7e10733bd"
+    },
+    {
+      "path": "outputs/predictions.npz",
+      "bytes": 5284,
+      "sha256": "504ada0dbcae4b39edf9918ef5692349518f414ab9da004cc7eda750a33e1924"
+    },
+    {
+      "path": "outputs/results.json",
+      "bytes": 1541,
+      "sha256": "003640c1d1cc1e5cb662b52f9791f46437c9f58af38e1093c87351b18de63151"
+    },
+    {
+      "path": "outputs/weights.npz",
+      "bytes": 1149,
+      "sha256": "1194b6fbc33a76fa90ecb604f877b0ff392eeca6832350f153a8dcc6639b837c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 82,
+      "sha256": "f7134f1f2a3df9403d696bf2724d67ea4a7c4cfe5bdac31e09d25367f6636693"
+    },
+    {
+      "path": "research_plan.json",
+      "bytes": 877,
+      "sha256": "6edb90211f3afcf047ca30ebd7d59c1e849bafec28341cb29b9a9c562c4c2c98"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 2348,
+      "sha256": "affa7ef0afb2ff8cd2b00ac4ec296a21ca131815cbbf66a076561575e0654436"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 965,
+      "sha256": "d66c5dccd9f39e1f8515fb69e3082b0a839d51a84000d5097ec5b481f49ae74b"
+    },
+    {
+      "path": "test_experiment.py",
+      "bytes": 2304,
+      "sha256": "035b79b6c71a5af8a31087e9e832026077be16168e39893969b5cbab3bfcdb48"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2407,
+      "sha256": "c611538c35cf55862b2125f53b3d180e2adbc984c2710bd0c2a3e24c2c43025d"
+    }
+  ]
+}

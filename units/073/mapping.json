@@ -1,0 +1,12 @@
+{
+  "release_unit": "073",
+  "catalog_id": "T1",
+  "title": "优化收敛与隐式偏置",
+  "prereq": [
+    "015",
+    "032",
+    "034",
+    "038"
+  ],
+  "catalog_unchanged": true
+}
