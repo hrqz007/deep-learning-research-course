@@ -74,7 +74,12 @@
     "069",
     "070",
     "071",
-    "072"
+    "072",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2525,7 +2530,34 @@
       "figure": "定理条件与现实训练的差距；不同算法选解路径。",
       "lab": "复现线性可分数据上的方向变化，核验一个收敛界；列出无法外推至深网的假设。",
       "pitfall": "把凸或线性结论无条件用于非凸有限宽网络。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/073/lecture.pdf",
+        "lab_pdf": "units/073/lab.pdf",
+        "answers_pdf": "units/073/answers.pdf",
+        "notebook": "units/073/experiment.ipynb",
+        "script": "units/073/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "checked_access_limits_disclosed_in_source_records",
+        "code": "independent_offline_normal_and_optimized_passed",
+        "notebook": "independent_fresh_kernel_passed_browser_not_tested",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eca8273a88f244a802b4c2a85a95ed4148bfb9a7",
+        "verified_file_count": 35,
+        "verified_bytes": 5045163,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-09"
+      },
+      "release_record": "releases/073-077.json",
+      "publication_sequence": "073",
+      "publication_directory": "units/073"
     },
     {
       "id": "T2",
@@ -2541,7 +2573,34 @@
       "figure": "复杂度、样本量与实际误差的对照。",
       "lab": "计算一个可检查泛化界并与实验比较；说明哪些数据依赖选择破坏前提。",
       "pitfall": "界数值很大便断言理论无用；从界的存在推断现实性能。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/074/lecture.pdf",
+        "lab_pdf": "units/074/lab.pdf",
+        "answers_pdf": "units/074/answers.pdf",
+        "notebook": "units/074/experiment.ipynb",
+        "script": "units/074/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "checked_access_limits_disclosed_in_source_records",
+        "code": "independent_offline_normal_and_optimized_passed",
+        "notebook": "independent_fresh_kernel_passed_browser_not_tested",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eca8273a88f244a802b4c2a85a95ed4148bfb9a7",
+        "verified_file_count": 35,
+        "verified_bytes": 2869946,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-09"
+      },
+      "release_record": "releases/073-077.json",
+      "publication_sequence": "074",
+      "publication_directory": "units/074"
     },
     {
       "id": "T3",
@@ -2557,7 +2616,34 @@
       "figure": "固定核学习与表示变化的对照。",
       "lab": "在小网络比较线性化预测与真实训练轨迹；扫描宽度和训练幅度，标注近似失效区域。",
       "pitfall": "把无限宽极限当全部网络的机制；忽略参数化改变尺度。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/075/lecture.pdf",
+        "lab_pdf": "units/075/lab.pdf",
+        "answers_pdf": "units/075/answers.pdf",
+        "notebook": "units/075/experiment.ipynb",
+        "script": "units/075/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "checked_access_limits_disclosed_in_source_records",
+        "code": "independent_offline_normal_and_optimized_passed",
+        "notebook": "independent_fresh_kernel_passed_browser_not_tested",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eca8273a88f244a802b4c2a85a95ed4148bfb9a7",
+        "verified_file_count": 35,
+        "verified_bytes": 3153663,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-09"
+      },
+      "release_record": "releases/073-077.json",
+      "publication_sequence": "075",
+      "publication_directory": "units/075"
     },
     {
       "id": "T4",
@@ -2573,7 +2659,34 @@
       "figure": "参数后验到预测分布的不确定性传播。",
       "lab": "在一维回归中比较单模型、集成和一种近似Bayes方法，测试域外过度自信。",
       "pitfall": "把集成自动称为精确后验；把高不确定性当必然正确的拒答依据。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/076/lecture.pdf",
+        "lab_pdf": "units/076/lab.pdf",
+        "answers_pdf": "units/076/answers.pdf",
+        "notebook": "units/076/experiment.ipynb",
+        "script": "units/076/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "checked_access_limits_disclosed_in_source_records",
+        "code": "independent_offline_normal_and_optimized_passed",
+        "notebook": "independent_fresh_kernel_passed_browser_not_tested",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eca8273a88f244a802b4c2a85a95ed4148bfb9a7",
+        "verified_file_count": 35,
+        "verified_bytes": 2915381,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-09"
+      },
+      "release_record": "releases/073-077.json",
+      "publication_sequence": "076",
+      "publication_directory": "units/076"
     },
     {
       "id": "T5",
@@ -2588,7 +2701,34 @@
       "figure": "相关特征、模型归因与干预结果的分叉。",
       "lab": "对归因方法做参数随机化与输入扰动检查；在已知生成机制数据上测试一项因果主张。",
       "pitfall": "将注意力或热力图直接解读为因果；忽略解释对基线和尺度的依赖。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/077/lecture.pdf",
+        "lab_pdf": "units/077/lab.pdf",
+        "answers_pdf": "units/077/answers.pdf",
+        "notebook": "units/077/experiment.ipynb",
+        "script": "units/077/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "checked_access_limits_disclosed_in_source_records",
+        "code": "independent_offline_normal_and_optimized_passed",
+        "notebook": "independent_fresh_kernel_passed_browser_not_tested",
+        "visual": "independent_all_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eca8273a88f244a802b4c2a85a95ed4148bfb9a7",
+        "verified_file_count": 35,
+        "verified_bytes": 2482460,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-09"
+      },
+      "release_record": "releases/073-077.json",
+      "publication_sequence": "077",
+      "publication_directory": "units/077"
     },
     {
       "id": "S1",
@@ -3039,6 +3179,11 @@
     "069",
     "070",
     "071",
-    "072"
+    "072",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
   ]
 }

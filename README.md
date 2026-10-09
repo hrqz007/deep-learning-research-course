@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–072讲的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–072讲主线与后续五个理论专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -80,6 +80,14 @@
 |070|论文复现消融与研究表达|[8页](units/070/lecture.pdf)|[2页](units/070/lab.pdf)|[2页](units/070/answers.pdf)|[进入单元](units/070/README.md)|
 |071|分布外鲁棒性与不确定性|[8页](units/071/lecture.pdf)|[3页](units/071/lab.pdf)|[3页](units/071/answers.pdf)|[进入单元](units/071/README.md)|
 |072|独立研究项目与审查|[9页](units/072/lecture.pdf)|[3页](units/072/lab.pdf)|[3页](units/072/answers.pdf)|[进入单元](units/072/README.md)|
+|073 / T1|优化收敛与隐式偏置|[7页](units/073/lecture.pdf)|[3页](units/073/lab.pdf)|[3页](units/073/answers.pdf)|[进入单元](units/073/README.md)|
+|074 / T2|统计学习与泛化界|[7页](units/074/lecture.pdf)|[3页](units/074/lab.pdf)|[3页](units/074/answers.pdf)|[进入单元](units/074/README.md)|
+|075 / T3|宽网络核视角与特征学习|[7页](units/075/lecture.pdf)|[3页](units/075/lab.pdf)|[3页](units/075/answers.pdf)|[进入单元](units/075/README.md)|
+|076 / T4|贝叶斯深度学习与模型集合|[8页](units/076/lecture.pdf)|[3页](units/076/lab.pdf)|[3页](units/076/answers.pdf)|[进入单元](units/076/README.md)|
+|077 / T5|可解释性与因果主张|[8页](units/077/lecture.pdf)|[3页](units/077/lab.pdf)|[3页](units/077/answers.pdf)|[进入单元](units/077/README.md)|
+
+发行目录073–077依次对应原大纲T1–T5；原大纲编号、102单元总数和先修关系保持不变。这五讲属于“理论与可信解释”分支，正文仍从必要的数学对象与手算例子逐步引导。
+
 
 每个单元包含对应Markdown、已执行Notebook、Python脚本、原创合成数据、完整练习答案、来源与核验记录。先读讲义和实验指南，再运行代码；不要只阅读Notebook留下的旧输出。
 
@@ -119,3 +127,5 @@
 仓库公开供学习。公开可读不等于为第三方参考内容授予额外版权许可；本仓库不替参考文献的作者变更其许可条件。
 
 029–042使用PyTorch2.7.1 CPU与NumPy，已在Linux CPU真实执行；请按各单元环境说明安装。GPU、跨平台新安装和Jupyter浏览器界面未验证。
+
+第073–077讲的完整文件清单、课程编号映射、PDF页数及逐文件远端大小/SHA256核验记录见[核验说明](releases/073-077.json)。本批实验使用本地合成数据离线执行，普通与优化模式测试及新内核Notebook已独立重跑；未测试Jupyter浏览器界面或跨平台安装。
