@@ -1,0 +1,192 @@
+{
+  "unit": "079",
+  "catalog_id": "S2",
+  "scope": "Public teaching files excluding this self-referential manifest",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "3007f8c4aea3ccb87726e942a607919a50f62a3ac00ba9c518aab06b070972ee"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 410,
+      "sha256": "4634ae0e0159b3e583ee87198a2f023d87149e73a056957ef44e3b3bf013c52d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1516,
+      "sha256": "fee9d5e489298f64170395c472b4dab4c11a67a413ae02e6e43917dc675bf4ac"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 6264,
+      "sha256": "2436237a4bc56b0414d02f77d7194f24526f3b29892c80e48bc6ec05c583d442"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 517152,
+      "sha256": "256f93f44f195b259c191cf90f1bed21234ac2786c51db34d0fa95190f6c6401"
+    },
+    {
+      "path": "build-tools/README.md",
+      "bytes": 549,
+      "sha256": "c5fa21324c440206c9445b003e18109d200077e107374016394cd8f9af3bac85"
+    },
+    {
+      "path": "build-tools/requirements.txt",
+      "bytes": 46,
+      "sha256": "b5facedaf52b75d161fe5beccf3b79891b589e2c3568a69674929b57d4b55c73"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 5772,
+      "sha256": "d33453a9eaf52c777237259e7b0f99a4dd37750bf0335824494e12f8559b2306"
+    },
+    {
+      "path": "create_notebook.py",
+      "bytes": 3031,
+      "sha256": "4d4c52e34f997460baede923b34a6a97481d44c6c8f7f05d49f087889458838b"
+    },
+    {
+      "path": "data_dictionary.md",
+      "bytes": 677,
+      "sha256": "98d1a0f77112109a34ea7199b8e4852085d650370099f02e821b24cfb6b0d8c9"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 109,
+      "sha256": "b0a41caefd930d7951ede0413babdd9f38851809b0551df8ada8b7b51eb6c0b4"
+    },
+    {
+      "path": "execute_notebook.py",
+      "bytes": 2196,
+      "sha256": "18043a4c24d8f25a6ca9eff0f5414d59cbeedcc625eb768043c825e05e4442da"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 75254,
+      "sha256": "318e85e3917d9b4f959627cfb78768ac6b64a8479ac55074d48b8cf1f77ba850"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 4315,
+      "sha256": "2d55c85ae949ba6f03b1a3cda1d7bd8852549bd1f8b797c3419a463d72bfe0cc"
+    },
+    {
+      "path": "figures/01_vectors.png",
+      "bytes": 48676,
+      "sha256": "918740a71317f7d5d6a07cbaff9c7e95d862ac8aa4de0e45a1c9158496fc6376"
+    },
+    {
+      "path": "figures/02_commute.png",
+      "bytes": 46601,
+      "sha256": "1d1656ddcd610aaa0e68be3eb9063041303d2ffb8a257997ec6594220770406e"
+    },
+    {
+      "path": "figures/03_distribution.png",
+      "bytes": 64766,
+      "sha256": "dfa3ca4c42a2d04d4d8addff45ad15d763d581e692b9849f310c8fc36a05dd54"
+    },
+    {
+      "path": "figures/04_equivariance.png",
+      "bytes": 79223,
+      "sha256": "6978d0656cf629c3e0ab84cfa934c87f1b7d3ac6a0bb53f1c78dc5fa2672cd71"
+    },
+    {
+      "path": "figures/05_accuracy.png",
+      "bytes": 70305,
+      "sha256": "3b472d0df97d3bd67beba150e0762d5ddf73991874e5e34dd871c65bdfe05bd0"
+    },
+    {
+      "path": "figures/06_counterexample.png",
+      "bytes": 46861,
+      "sha256": "6b28a75a93ba80df0952559c0ab8d8f0d8ee71d5a84210dfbff19c5fd0ca7c53"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 6537,
+      "sha256": "c9669a02ca921c12144a43993242565a0a8c1953334c551b384fe6c551e3ab16"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 550887,
+      "sha256": "b55018b7d0e5828f17b4b35aeeb36902b4395023de3e5f20cf73498773197931"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 12946,
+      "sha256": "4964b9d239117b4bdb0ef30555a9a16e1329bcdd98458c14eb9d90753d627dba"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 957766,
+      "sha256": "e1b4ed749797b33f5070877cceaca59a4c3b2529bf324622e9a186fc3e32e07b"
+    },
+    {
+      "path": "make_figures.py",
+      "bytes": 3636,
+      "sha256": "6bc350858fa83c8258c067f4b60bad37ee7e50bbe1aed389783f253b117534c6"
+    },
+    {
+      "path": "notebook-log.json",
+      "bytes": 301,
+      "sha256": "227474b7709473ae711a3cf3b88083a88927fdf545ae488512fd6c2520e1835d"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 23722,
+      "sha256": "44df9b870c599b4475028451a66e4b5f7b240d42c01fa7d3fd7410202a485cd5"
+    },
+    {
+      "path": "outputs/predictions.npz",
+      "bytes": 13062,
+      "sha256": "f0d977325ccac7887670779f485482dd7e9a09f5f071eb889233b8f3134c74ef"
+    },
+    {
+      "path": "outputs/results.json",
+      "bytes": 1042,
+      "sha256": "8ed4389f8868b277046db7457dd7633574c39dba4829dcca47658634d0e87222"
+    },
+    {
+      "path": "outputs/weights.npz",
+      "bytes": 4782,
+      "sha256": "15a75f87f47a9420ba8b2346a3389db2adf9ecbbc387c1cab025272130def79b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 82,
+      "sha256": "c04c326899faaf79c14c0b034d04b99604904ebb5fcab415334a69043107f1e7"
+    },
+    {
+      "path": "research_plan.json",
+      "bytes": 461,
+      "sha256": "0883134275f60182c6fa6de2c73d07113d0da0128193a2967b7845433abb5f52"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 259,
+      "sha256": "c09d8eb96801839125dbda53b938cedb3bdcc76b95f54ab266d813a4cc584a9d"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 438,
+      "sha256": "86442cc3d81eaedb137030259a402a2dc4aea3b4e2e9aed2ecbc84bcd91e4b97"
+    },
+    {
+      "path": "test-log.txt",
+      "bytes": 1612,
+      "sha256": "bde96b4f039473f17aaa45f8a4aef9511c9a86c971e02ba858339a6d5b62a650"
+    },
+    {
+      "path": "test_experiment.py",
+      "bytes": 1681,
+      "sha256": "98c020a3944b2427b8d32876c4e4d61fe425748026bd04ca983dbe4889a7551e"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 6611,
+      "sha256": "44636cf257d555859cb4975ea407e4560c0a17c1747bed943bc3cc4b953ffca3"
+    }
+  ]
+}

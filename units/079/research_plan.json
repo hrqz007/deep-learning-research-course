@@ -1,0 +1,21 @@
+{
+  "release_id": "079",
+  "catalog_id": "S2",
+  "title": "对称性几何与等变网络",
+  "prerequisites_original": [
+    "008",
+    "013",
+    "043",
+    "S1"
+  ],
+  "scope": "synthetic radial vector field; sector to full-circle evaluation",
+  "data": "locally generated synthetic or analytic reference",
+  "paid_api": false,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tests_expected": 11,
+  "selection": "all fixed seeds reported; no test-based selection"
+}

@@ -1,0 +1,288 @@
+{
+  "unit": "079",
+  "catalog_id": "S2",
+  "verified_date_utc": "2026-10-10",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "device": "CPU",
+    "dtype": "float64",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "IPython": "9.17.1",
+      "ipykernel": "7.4.0",
+      "Markdown": "3.11",
+      "weasyprint": "70.0",
+      "pypdf": "6.20.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "count": 11,
+      "status": "passed"
+    },
+    "optimized": {
+      "count": 11,
+      "status": "passed"
+    },
+    "evidence_file": "test-log.txt"
+  },
+  "experiment": {
+    "actually_run": true,
+    "paid_apis": false,
+    "external_downloads": false,
+    "arrays": {
+      "data.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "train_x": [
+            192,
+            2
+          ],
+          "train_y": [
+            192,
+            2
+          ],
+          "val_x": [
+            96,
+            2
+          ],
+          "val_y": [
+            96,
+            2
+          ],
+          "test_x": [
+            256,
+            2
+          ],
+          "test_y": [
+            256,
+            2
+          ],
+          "equivariant_history": [
+            40
+          ],
+          "equivariant_equivariance_errors": [
+            61
+          ],
+          "ordinary_history": [
+            40
+          ],
+          "ordinary_equivariance_errors": [
+            61
+          ],
+          "augmented_history": [
+            40
+          ],
+          "augmented_equivariance_errors": [
+            61
+          ],
+          "angles": [
+            61
+          ]
+        }
+      },
+      "weights.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "equivariant_w": [
+            1,
+            16
+          ],
+          "equivariant_b": [
+            16
+          ],
+          "equivariant_v": [
+            16,
+            1
+          ],
+          "equivariant_c": [
+            1
+          ],
+          "ordinary_w": [
+            2,
+            16
+          ],
+          "ordinary_b": [
+            16
+          ],
+          "ordinary_v": [
+            16,
+            2
+          ],
+          "ordinary_c": [
+            2
+          ],
+          "augmented_w": [
+            2,
+            16
+          ],
+          "augmented_b": [
+            16
+          ],
+          "augmented_v": [
+            16,
+            2
+          ],
+          "augmented_c": [
+            2
+          ]
+        }
+      },
+      "predictions.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "equivariant": [
+            256,
+            2
+          ],
+          "ordinary": [
+            256,
+            2
+          ],
+          "augmented": [
+            256,
+            2
+          ]
+        }
+      }
+    },
+    "checkpoint_reload_max_abs": {
+      "equivariant": 0.0,
+      "ordinary": 0.0,
+      "augmented": 0.0
+    },
+    "seconds_not_compared": true
+  },
+  "notebook": {
+    "fresh_python_process": true,
+    "actual_kernel": "IPython InProcessKernel",
+    "code_cells": 7,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "browser_UI_tested": false,
+    "embedded_images": 1
+  },
+  "pdfs": {
+    "lecture.pdf": {
+      "pages": 7,
+      "sha256": "e1b4ed749797b33f5070877cceaca59a4c3b2529bf324622e9a186fc3e32e07b",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 604,
+          "cjk_characters": 467,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 837,
+          "cjk_characters": 570,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 1089,
+          "cjk_characters": 793,
+          "replacement_characters": 0
+        },
+        {
+          "page": 4,
+          "characters": 644,
+          "cjk_characters": 467,
+          "replacement_characters": 0
+        },
+        {
+          "page": 5,
+          "characters": 675,
+          "cjk_characters": 492,
+          "replacement_characters": 0
+        },
+        {
+          "page": 6,
+          "characters": 502,
+          "cjk_characters": 379,
+          "replacement_characters": 0
+        },
+        {
+          "page": 7,
+          "characters": 506,
+          "cjk_characters": 278,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "lab.pdf": {
+      "pages": 3,
+      "sha256": "b55018b7d0e5828f17b4b35aeeb36902b4395023de3e5f20cf73498773197931",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1194,
+          "cjk_characters": 649,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1201,
+          "cjk_characters": 455,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 723,
+          "cjk_characters": 429,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "answers.pdf": {
+      "pages": 3,
+      "sha256": "256f93f44f195b259c191cf90f1bed21234ac2786c51db34d0fa95190f6c6401",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1013,
+          "cjk_characters": 618,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1193,
+          "cjk_characters": 692,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 444,
+          "cjk_characters": 315,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    }
+  },
+  "figures": {
+    "count": 6,
+    "font_missing_glyph_warnings_final": false,
+    "all_figures_visually_inspected": true
+  },
+  "scope_limits": [
+    "CPU Linux only; no claim of all-platform installation validation",
+    "Synthetic or analytic teaching world only",
+    "Finite tests do not establish unrestricted scientific validity"
+  ]
+}
