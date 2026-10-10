@@ -79,7 +79,12 @@
     "T2",
     "T3",
     "T4",
-    "T5"
+    "T5",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2742,7 +2747,34 @@
       "figure": "消息传递邻域、聚合与层间扩散。",
       "lab": "实现小图模型和关系无关基线，检查节点重编号一致性与跨图划分；观察过平滑。",
       "pitfall": "图边偷带测试标签；把同图节点随机拆分等同新图泛化。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/078/lecture.pdf",
+        "lab_pdf": "units/078/lab.pdf",
+        "answers_pdf": "units/078/answers.pdf",
+        "notebook": "units/078/experiment.ipynb",
+        "script": "units/078/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "independent_passed",
+        "code": "independent_normal_and_optimized_tests_passed",
+        "notebook": "independent_fresh_process_ipython_sequential_passed_socket_kernel_unavailable_browser_not_tested",
+        "visual": "independent_all_pdf_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "86f67edfae63d26bc143af926d761c25c601b4f7",
+        "verified_file_count": 38,
+        "verified_bytes": 2671246,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/078-082.json",
+      "publication_sequence": "078",
+      "publication_directory": "units/078"
     },
     {
       "id": "S2",
@@ -2758,7 +2790,34 @@
       "figure": "输入变换与输出变换的交换图。",
       "lab": "选二维旋转或分子几何任务，检验等变误差并与增强基线比较；记录坐标和单位。",
       "pitfall": "不验证任务是否真具有该对称性；把近似数值等变说成严格保证。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/079/lecture.pdf",
+        "lab_pdf": "units/079/lab.pdf",
+        "answers_pdf": "units/079/answers.pdf",
+        "notebook": "units/079/experiment.ipynb",
+        "script": "units/079/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "independent_passed",
+        "code": "independent_normal_and_optimized_tests_passed",
+        "notebook": "independent_fresh_process_ipython_sequential_passed_socket_kernel_unavailable_browser_not_tested",
+        "visual": "independent_all_pdf_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "71712ca0367dea94ccd7a9702254932e70e03389",
+        "verified_file_count": 38,
+        "verified_bytes": 2565378,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/078-082.json",
+      "publication_sequence": "079",
+      "publication_directory": "units/079"
     },
     {
       "id": "S3",
@@ -2774,7 +2833,34 @@
       "figure": "连续轨迹、离散步长与反向敏感度。",
       "lab": "用解析ODE核验状态与参数梯度，扫描步长误差；写清方程、初边值条件、离散化和传统求解器，区分解误差与残差。",
       "pitfall": "数值求解器误差被当成模型误差；无条件交换离散化与求导。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/080/lecture.pdf",
+        "lab_pdf": "units/080/lab.pdf",
+        "answers_pdf": "units/080/answers.pdf",
+        "notebook": "units/080/experiment.ipynb",
+        "script": "units/080/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "independent_passed",
+        "code": "independent_normal_and_optimized_tests_passed",
+        "notebook": "independent_fresh_process_ipython_sequential_passed_socket_kernel_unavailable_browser_not_tested",
+        "visual": "independent_all_pdf_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1531ff8d51f6f82be11c4df41e9d0505dec83f8a",
+        "verified_file_count": 38,
+        "verified_bytes": 3121828,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/078-082.json",
+      "publication_sequence": "080",
+      "publication_directory": "units/080"
     },
     {
       "id": "S4",
@@ -2789,7 +2875,34 @@
       "figure": "残差约束、采样点与输入函数到解函数的映射。",
       "lab": "选择PINN或神经算子完成小任务，对照传统数值方法；报告解误差、守恒、边界和计算成本。",
       "pitfall": "只报告训练残差；采样分布造成误导；把拟合单个解称为通用求解器。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/081/lecture.pdf",
+        "lab_pdf": "units/081/lab.pdf",
+        "answers_pdf": "units/081/answers.pdf",
+        "notebook": "units/081/experiment.ipynb",
+        "script": "units/081/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "independent_passed",
+        "code": "independent_normal_and_optimized_tests_passed",
+        "notebook": "independent_fresh_process_ipython_sequential_passed_socket_kernel_unavailable_browser_not_tested",
+        "visual": "independent_all_pdf_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "1f5d5075fda8723842ed01b42e2fcbf214e32002",
+        "verified_file_count": 42,
+        "verified_bytes": 2654951,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/078-082.json",
+      "publication_sequence": "081",
+      "publication_directory": "units/081"
     },
     {
       "id": "S5",
@@ -2804,7 +2917,34 @@
       "figure": "观测过程、参数恢复与等价解释。",
       "lab": "用合成真值检验识别与不确定性，再做真实数据验证；报告单位、守恒、外推和传统基线。",
       "pitfall": "参数拟合好就宣称机制真实；忽略观测偏差和不可识别性。",
-      "status": "planned"
+      "status": "published",
+      "artifacts": {
+        "lecture_pdf": "units/082/lecture.pdf",
+        "lab_pdf": "units/082/lab.pdf",
+        "answers_pdf": "units/082/answers.pdf",
+        "notebook": "units/082/experiment.ipynb",
+        "script": "units/082/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_passed",
+        "sources": "independent_passed",
+        "code": "independent_normal_and_optimized_tests_passed",
+        "notebook": "independent_fresh_process_ipython_sequential_passed_socket_kernel_unavailable_browser_not_tested",
+        "visual": "independent_all_pdf_pages_passed"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "f777bc8cc19669a5f41c2c4412b2fc1f7a973686",
+        "verified_file_count": 45,
+        "verified_bytes": 2811605,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/078-082.json",
+      "publication_sequence": "082",
+      "publication_directory": "units/082"
     },
     {
       "id": "L1",
@@ -3184,6 +3324,11 @@
     "T2",
     "T3",
     "T4",
-    "T5"
+    "T5",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
   ]
 }
