@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "system": "Linux",
+  "machine": "x86_64",
+  "device": "CPU",
+  "training_threads": {
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "ipython": "9.17.1",
+    "markdown": "3.11",
+    "weasyprint": "70.0",
+    "pypdf": "6.20.0"
+  }
+}

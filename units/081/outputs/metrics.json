@@ -1,0 +1,65 @@
+{
+  "pinn": {
+    "relative_l2": 2.3652206741131745e-05,
+    "max_error": 4.819023964297564e-05,
+    "boundary_max": 7.705831725102197e-06,
+    "heldout_residual_rmse": 0.009043136870281037,
+    "train_residual_rmse": 0.008780535078000242,
+    "flux_balance_abs": 0.00011876691984014087,
+    "training_seconds": 2.042298052998376,
+    "parameters": 61,
+    "collocation_points": 65,
+    "steps": 12000
+  },
+  "pinn_seed82": {
+    "relative_l2": 2.5077367721926128e-05,
+    "max_error": 4.932318016470649e-05,
+    "boundary_max": 8.453107930739279e-06,
+    "heldout_residual_rmse": 0.010180430547988166,
+    "train_residual_rmse": 0.009884074850615519,
+    "flux_balance_abs": 0.00014009927927460808,
+    "training_seconds": 2.1641096380008094,
+    "parameters": 61,
+    "collocation_points": 65,
+    "steps": 12000
+  },
+  "pinn_sparse": {
+    "relative_l2": 0.0015740725643688732,
+    "max_error": 0.0026574588722927395,
+    "boundary_max": 1.1102230246251565e-16,
+    "heldout_residual_rmse": 0.29920016479153266,
+    "train_residual_rmse": 0.0,
+    "flux_balance_abs": 0.009403439471448394,
+    "training_seconds": 1.1266954950006038,
+    "parameters": 61,
+    "collocation_points": 5,
+    "steps": 12000
+  },
+  "fd_31": {
+    "relative_l2": 0.0003597247986346063,
+    "max_error": 0.0008035776793697824,
+    "boundary_max": 0.0,
+    "flux_balance_discrete_abs": 1.4210854715202004e-14,
+    "continuum_flux_error": 0.005047405373178826,
+    "solve_seconds": 0.00016047000099206343,
+    "unknowns": 31
+  },
+  "fd_63": {
+    "relative_l2": 8.985391000880989e-05,
+    "max_error": 0.00020082180969560604,
+    "boundary_max": 0.0,
+    "flux_balance_discrete_abs": 4.085620730620576e-14,
+    "continuum_flux_error": 0.001261699298096275,
+    "solve_seconds": 6.85319973854348e-05,
+    "unknowns": 63
+  },
+  "fd_127": {
+    "relative_l2": 2.2458648121920943e-05,
+    "max_error": 5.020091591312337e-05,
+    "boundary_max": 0.0,
+    "flux_balance_discrete_abs": 7.549516567451064e-14,
+    "continuum_flux_error": 0.0003154153238069668,
+    "solve_seconds": 9.615499948267825e-05,
+    "unknowns": 127
+  }
+}
