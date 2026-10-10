@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–072讲主线、后续五个理论专题与五个科学机器学习专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–072讲主线、后续五个理论专题、五个科学机器学习专题与五个语言模型和Agent专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -90,6 +90,11 @@
 |080 / S3|微分方程与可微模拟基础|[7页](units/080/lecture.pdf)|[3页](units/080/lab.pdf)|[3页](units/080/answers.pdf)|[进入单元](units/080/README.md)|
 |081 / S4|物理约束网络与神经算子|[7页](units/081/lecture.pdf)|[4页](units/081/lab.pdf)|[3页](units/081/answers.pdf)|[进入单元](units/081/README.md)|
 |082 / S5|科学数据与逆问题研究|[8页](units/082/lecture.pdf)|[4页](units/082/lab.pdf)|[4页](units/082/answers.pdf)|[进入单元](units/082/README.md)|
+|083 / L1|语言模型适配与参数高效微调|[6页](units/083/lecture.pdf)|[2页](units/083/lab.pdf)|[2页](units/083/answers.pdf)|[进入单元](units/083/README.md)|
+|084 / L2|序贯决策与策略梯度桥接|[6页](units/084/lecture.pdf)|[2页](units/084/lab.pdf)|[2页](units/084/answers.pdf)|[进入单元](units/084/README.md)|
+|085 / L3|偏好学习与语言模型后训练|[6页](units/085/lecture.pdf)|[2页](units/085/lab.pdf)|[2页](units/085/answers.pdf)|[进入单元](units/085/README.md)|
+|086 / L4|检索工具与Agent实验系统|[6页](units/086/lecture.pdf)|[2页](units/086/lab.pdf)|[2页](units/086/answers.pdf)|[进入单元](units/086/README.md)|
+|087 / L5|Agent与检索系统的研究评价|[6页](units/087/lecture.pdf)|[2页](units/087/lab.pdf)|[2页](units/087/answers.pdf)|[进入单元](units/087/README.md)|
 
 发行目录073–077依次对应原大纲T1–T5；原大纲编号、102单元总数和先修关系保持不变。这五讲属于“理论与可信解释”分支，正文仍从必要的数学对象与手算例子逐步引导。
 
@@ -138,3 +143,5 @@
 第073–077讲的完整文件清单、课程编号映射、PDF页数及逐文件远端大小/SHA256核验记录见[核验说明](releases/073-077.json)。本批实验使用本地合成数据离线执行，普通与优化模式测试及新内核Notebook已独立重跑；未测试Jupyter浏览器界面或跨平台安装。
 
 第078–082讲的完整公开文件清单、课程编号映射、PDF页数及逐文件远端大小/SHA256核验记录见[核验说明](releases/078-082.json)。执行方式、数据来源与环境边界以各讲说明及verification.json为准；不据此声称验证Jupyter浏览器界面或跨平台安装。
+
+第083–087讲的公开文件清单、课程编号映射、PDF页数及逐文件远端核验记录见[核验说明](releases/083-087.json)。执行方式、数据来源与环境边界以各讲README及实验指南为准。

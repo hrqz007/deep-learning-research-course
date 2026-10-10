@@ -84,7 +84,12 @@
     "S2",
     "S3",
     "S4",
-    "S5"
+    "S5",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -2959,7 +2964,34 @@
       "figure": "全量微调、适配器和低秩更新的参数流。",
       "lab": "对合法小模型比较冻结、LoRA和可承担的全量微调；固定数据与评价，报告显存和遗忘。",
       "pitfall": "把量化权重与训练dtype混为一谈；训练集答案泄漏入测试prompt。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_scientific_and_pedagogy_review_passed",
+        "sources": "independent_source_and_scope_review_passed",
+        "code": "independent_normal_and_optimized_tests_and_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_all_cells_passed_browser_and_socket_not_tested",
+        "visual": "independent_one_page_per_document_visual_samples_and_all_page_boundary_checks_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/083/lecture.pdf",
+        "lab_pdf": "units/083/lab.pdf",
+        "answers_pdf": "units/083/answers.pdf",
+        "notebook": "units/083/experiment.ipynb",
+        "script": "units/083/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eb608537713109458502f8f0abe15557d613bd83",
+        "verified_file_count": 29,
+        "verified_bytes": 2252879,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/083-087.json",
+      "publication_sequence": "083",
+      "publication_directory": "units/083"
     },
     {
       "id": "L2",
@@ -2975,7 +3007,34 @@
       "figure": "轨迹、奖励归因与梯度估计图。",
       "lab": "先做bandit再做小MDP，手算策略梯度并核验Monte Carlo估计；报告方差和奖励设计。",
       "pitfall": "直接从PPO术语开始；把奖励当真实目标；忽略环境反馈改变数据分布。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_scientific_and_pedagogy_review_passed",
+        "sources": "independent_source_and_scope_review_passed",
+        "code": "independent_normal_and_optimized_tests_and_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_all_cells_passed_browser_and_socket_not_tested",
+        "visual": "independent_one_page_per_document_visual_samples_and_all_page_boundary_checks_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/084/lecture.pdf",
+        "lab_pdf": "units/084/lab.pdf",
+        "answers_pdf": "units/084/answers.pdf",
+        "notebook": "units/084/experiment.ipynb",
+        "script": "units/084/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eb608537713109458502f8f0abe15557d613bd83",
+        "verified_file_count": 31,
+        "verified_bytes": 4641884,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/083-087.json",
+      "publication_sequence": "084",
+      "publication_directory": "units/084"
     },
     {
       "id": "L3",
@@ -2990,7 +3049,34 @@
       "figure": "SFT、偏好数据、奖励与策略更新链。",
       "lab": "在玩具偏好任务复现一种方法并与SFT比较；独立留出评价，检查奖励投机与分布变化。",
       "pitfall": "把偏好胜率当事实或安全保证；从同一裁判生成并验证全部证据。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_scientific_and_pedagogy_review_passed",
+        "sources": "independent_source_and_scope_review_passed",
+        "code": "independent_normal_and_optimized_tests_and_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_all_cells_passed_browser_and_socket_not_tested",
+        "visual": "independent_one_page_per_document_visual_samples_and_all_page_boundary_checks_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/085/lecture.pdf",
+        "lab_pdf": "units/085/lab.pdf",
+        "answers_pdf": "units/085/answers.pdf",
+        "notebook": "units/085/experiment.ipynb",
+        "script": "units/085/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eb608537713109458502f8f0abe15557d613bd83",
+        "verified_file_count": 30,
+        "verified_bytes": 2436438,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/083-087.json",
+      "publication_sequence": "085",
+      "publication_directory": "units/085"
     },
     {
       "id": "L4",
@@ -3004,7 +3090,34 @@
       "figure": "检索生成数据流与带失败恢复的Agent状态机。",
       "lab": "以合成或授权数据建沙盒；固定模型与环境版本，用mock和replay核验轨迹、权限拒绝和失败恢复，不需训练大模型。",
       "pitfall": "把Agent系统性能直接归功模型参数；工具越多越好；把不可信内容当指令。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_scientific_and_pedagogy_review_passed",
+        "sources": "independent_source_and_scope_review_passed",
+        "code": "independent_normal_and_optimized_tests_and_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_all_cells_passed_browser_and_socket_not_tested",
+        "visual": "independent_one_page_per_document_visual_samples_and_all_page_boundary_checks_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/086/lecture.pdf",
+        "lab_pdf": "units/086/lab.pdf",
+        "answers_pdf": "units/086/answers.pdf",
+        "notebook": "units/086/experiment.ipynb",
+        "script": "units/086/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eb608537713109458502f8f0abe15557d613bd83",
+        "verified_file_count": 30,
+        "verified_bytes": 2215037,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/083-087.json",
+      "publication_sequence": "086",
+      "publication_directory": "units/086"
     },
     {
       "id": "L5",
@@ -3018,7 +3131,34 @@
       "figure": "失败树、组件消融与质量成本前沿。",
       "lab": "交付冻结任务集、可重放轨迹、预算匹配基线、检索召回和端到端指标；审计污染与裁判偏差。",
       "pitfall": "只统计最终答案；忽略工具失败、环境版本、随机采样和成功条件漂移。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_scientific_and_pedagogy_review_passed",
+        "sources": "independent_source_and_scope_review_passed",
+        "code": "independent_normal_and_optimized_tests_and_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_all_cells_passed_browser_and_socket_not_tested",
+        "visual": "independent_one_page_per_document_visual_samples_and_all_page_boundary_checks_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/087/lecture.pdf",
+        "lab_pdf": "units/087/lab.pdf",
+        "answers_pdf": "units/087/answers.pdf",
+        "notebook": "units/087/experiment.ipynb",
+        "script": "units/087/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "eb608537713109458502f8f0abe15557d613bd83",
+        "verified_file_count": 30,
+        "verified_bytes": 2989143,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-10"
+      },
+      "release_record": "releases/083-087.json",
+      "publication_sequence": "087",
+      "publication_directory": "units/087"
     },
     {
       "id": "M1",
@@ -3329,6 +3469,11 @@
     "S2",
     "S3",
     "S4",
-    "S5"
+    "S5",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
   ]
 }
