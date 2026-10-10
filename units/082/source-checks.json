@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-10",
+  "sources": [
+    {
+      "title": "Misra1a observed data",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/misra1a.shtml",
+      "check": "Official page explicitly states Observed Data"
+    },
+    {
+      "title": "Raw Misra1a",
+      "url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Misra1a.dat",
+      "check": "Downloaded 1932 raw bytes; hash in data/provenance.json"
+    },
+    {
+      "title": "NIST license",
+      "url": "https://www.nist.gov/open/license",
+      "check": "Official license page accessed; attribution and limits retained"
+    },
+    {
+      "title": "Raue identifiability",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19505944/",
+      "check": "Official Oxford Academic indexed abstract and PubMed bibliographic metadata verified; full article not relied upon."
+    },
+    {
+      "title": "Golub Pereyra",
+      "url": "https://doi.org/10.1137/0710036",
+      "check": "Official SIAM abstract accessed"
+    }
+  ]
+}

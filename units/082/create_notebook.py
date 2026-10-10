@@ -1,0 +1,23 @@
+from pathlib import Path
+import nbformat as n
+R=Path(__file__).resolve().parent;cells=[]
+def md(s):cells.append(n.v4.new_markdown_cell(s))
+def code(s):cells.append(n.v4.new_code_cell(s))
+md('# DL082 可运行实验：逆问题与科学数据\n完整套件13项测试，8个代码单元。\n先合成真值，后真实NIST观测。公开源文件已保存，本Notebook默认离线运行。')
+code('import numpy as np,json,hashlib\nfrom pathlib import Path\nimport experiment as ex\nprint("NumPy",np.__version__)\nprint(json.loads(Path("data/provenance.json").read_text()))')
+md('## 1 读取真实数据并承认单位缺口\n源文件列顺序为y,x，函数返回pressure,volume。具体单位名称未知，不能擅自标为SI。')
+code('p,v=ex.read_real()\nprint("观测数",len(p),"压力范围",p.min(),p.max())\nprint(np.column_stack([p,v])[:4])')
+md('## 2 不可辨识的代数检查\n增益与幅度同时未知，只有乘积被观测。')
+code('x=np.linspace(0,5,101)\nprint("两组参数最大差",np.max(np.abs(ex.forward(x,2.4,.55)-2*ex.forward(x,1.2,.55))))')
+md('## 3 无噪声恢复与数值校验\n这不是现实参数真值，只是检查已知生成模型的算法。')
+code('truth=np.array([2.4,.55]); x=np.linspace(.01,5,24)\ntheta,sse=ex.fit(x,ex.forward(x,*truth))\nprint("恢复",theta,"SSE",sse)\nassert np.allclose(theta,truth,rtol=1e-7)')
+md('## 4 完整重复噪声、正则与真实验证\n每个设计200次，真实条件自助法300次。全部实际执行，不使用预先硬编码的指标。')
+code('metrics=ex.run()\nprint(json.dumps(metrics,ensure_ascii=False,indent=2))')
+md('## 5 参数恢复与搜索边界\n窄设计的极端值及边界碰撞是结果的一部分，不能悄悄删除。')
+code('for design,m in metrics["synthetic"].items():\n    print(design,"条件数",m["sensitivity_condition"],"A分位数",m["q025"][0],m["q975"][0],"边界比例",m["b_search_boundary_fraction"])')
+md('## 6 留出与全数据拟合区分\n高4点只用于预设评价，最终全数据参数另行报告。')
+code('r=metrics["real"]\nprint("保留集：饱和/直线RMSE",r["heldout_saturation_rmse"],r["heldout_linear_rmse"])\nprint("全数据参数",r["full_fit_parameters_original_units"])\nprint("条件区间",r["conditional_parametric_bootstrap_95pct"])\nprint("守恒",r["conservation"])')
+md('## 7 画图并运行测试\n自助法样本不是新增真实观测。')
+code('import runpy,unittest,test_experiment\nrunpy.run_path("make_figures.py",run_name="__main__")\nfrom IPython.display import Image,display\ndisplay(Image(filename="figures/05_bootstrap.png"))\nresult=unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromModule(test_experiment))\nassert result.wasSuccessful()')
+md('## 8 你的研究结论\n请分别写出：计算认证、参数辨识、现实模型验证、领域结论。至少给出一个当前数据无法回答的问题。')
+nb=n.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'}});n.write(nb,R/'experiment.ipynb')

@@ -1,0 +1,121 @@
+{
+  "unit": "082",
+  "catalog_id": "S5",
+  "verified_at": "2026-10-10T03:01:45.663145+00:00",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "system": "Linux",
+    "machine": "x86_64",
+    "device": "CPU",
+    "training_threads": {
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "ipykernel": "7.4.0",
+      "ipython": "9.17.1",
+      "markdown": "3.11",
+      "weasyprint": "70.0",
+      "pypdf": "6.20.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 4.761,
+    "code_cells": 8,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "author replay uses in-process kernel; browser not tested; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "all_code_cells_executed": true,
+    "error_outputs": 0
+  },
+  "experiment": {
+    "status": "real NumPy optimization and Monte Carlo completed",
+    "paid_model_apis": false,
+    "real_data": "NIST StRD Misra1a observed dataset;1932 bytes;full provenance recorded",
+    "replay_comparison": {
+      "status": "passed",
+      "csv_count": 8,
+      "csv_bytes_exact_match": true,
+      "numerical_metrics_exact_match": true,
+      "excluded": "all *_seconds fields; wall clock is not deterministic"
+    }
+  },
+  "pdfs": [
+    {
+      "file": "lecture.pdf",
+      "pages": 8,
+      "bytes": 920072,
+      "sha256": "82dba0d37b25749c9d19bafe08d2d65ecacb5ec93fd19af223b3150c058c1b53",
+      "page_text_lengths": [
+        720,
+        817,
+        814,
+        746,
+        870,
+        850,
+        626,
+        915
+      ],
+      "chinese_present_each_page": true
+    },
+    {
+      "file": "lab.pdf",
+      "pages": 4,
+      "bytes": 732901,
+      "sha256": "a1c8382ec57b2e770aad34271f86609faab6c66abae36182b27bd9ea9b5989be",
+      "page_text_lengths": [
+        1284,
+        895,
+        1229,
+        312
+      ],
+      "chinese_present_each_page": true
+    },
+    {
+      "file": "answers.pdf",
+      "pages": 4,
+      "bytes": 623823,
+      "sha256": "47bf3c4aad2d5968c31f2908bdd7eefa5f90da7b2603fb8b60c3c1d31150f5c6",
+      "page_text_lengths": [
+        952,
+        967,
+        695,
+        301
+      ],
+      "chinese_present_each_page": true
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "method": "All final pages rendered with pdftoppm at 85 dpi, inspected in contact sheets; formula-heavy pages also viewed individually.",
+    "pages_reviewed": 16,
+    "checks": [
+      "Chinese glyphs readable",
+      "formulas and indices rendered",
+      "figures and captions not clipped",
+      "page headers/footers and ordering correct",
+      "no blank intermediary pages"
+    ],
+    "corrections": [
+      "moved bibliography to coherent final page",
+      "added observed residual sign-run diagnostic and corresponding limitations"
+    ]
+  }
+}
