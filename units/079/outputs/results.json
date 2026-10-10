@@ -1,0 +1,33 @@
+{
+  "equivariant_val_mse": 3.399339370267869e-06,
+  "equivariant_max_equivariance_error": 1.3322676295501878e-15,
+  "equivariant_test_mse_seeds": [
+    2.634178757785518e-06,
+    3.420826887946441e-05,
+    6.826507245845394e-07
+  ],
+  "equivariant_test_mse_mean": 1.250836612061149e-05,
+  "ordinary_val_mse": 0.20875636140933387,
+  "ordinary_max_equivariance_error": 1.6682717206257196,
+  "ordinary_test_mse_seeds": [
+    0.1371249444835806,
+    0.19434296878223156,
+    0.23302922342072963
+  ],
+  "ordinary_test_mse_mean": 0.18816571222884726,
+  "augmented_val_mse": 0.040432877804980706,
+  "augmented_max_equivariance_error": 0.22522115283911437,
+  "augmented_test_mse_seeds": [
+    0.03293482465867291,
+    0.03029388183120061,
+    0.020688160341299833
+  ],
+  "augmented_test_mse_mean": 0.027972288943724454,
+  "translated_relative_error": 8.881784197001252e-16,
+  "anisotropic_symmetry_violation": 1.7819880975412916,
+  "seconds": 1.3880027690029237,
+  "steps": 1600,
+  "train_positions": 192,
+  "test_positions": 256,
+  "seed_data": 79
+}
