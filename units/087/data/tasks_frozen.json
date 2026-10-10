@@ -1,0 +1,722 @@
+[
+  {
+    "id": "T000",
+    "group": "exact",
+    "query": "read E000",
+    "expected": {
+      "status": "ok",
+      "id": "E000",
+      "value": 2.0
+    }
+  },
+  {
+    "id": "T001",
+    "group": "exact",
+    "query": "read E001",
+    "expected": {
+      "status": "ok",
+      "id": "E001",
+      "value": 2.125
+    }
+  },
+  {
+    "id": "T002",
+    "group": "exact",
+    "query": "read E002",
+    "expected": {
+      "status": "ok",
+      "id": "E002",
+      "value": 2.25
+    }
+  },
+  {
+    "id": "T003",
+    "group": "exact",
+    "query": "read E003",
+    "expected": {
+      "status": "ok",
+      "id": "E003",
+      "value": 2.375
+    }
+  },
+  {
+    "id": "T004",
+    "group": "exact",
+    "query": "read E004",
+    "expected": {
+      "status": "ok",
+      "id": "E004",
+      "value": 2.5
+    }
+  },
+  {
+    "id": "T005",
+    "group": "exact",
+    "query": "read E005",
+    "expected": {
+      "status": "ok",
+      "id": "E005",
+      "value": 2.625
+    }
+  },
+  {
+    "id": "T006",
+    "group": "exact",
+    "query": "read E006",
+    "expected": {
+      "status": "ok",
+      "id": "E006",
+      "value": 2.75
+    }
+  },
+  {
+    "id": "T007",
+    "group": "exact",
+    "query": "read E007",
+    "expected": {
+      "status": "ok",
+      "id": "E007",
+      "value": 2.875
+    }
+  },
+  {
+    "id": "T008",
+    "group": "exact",
+    "query": "read E008",
+    "expected": {
+      "status": "ok",
+      "id": "E008",
+      "value": 3.0
+    }
+  },
+  {
+    "id": "T009",
+    "group": "exact",
+    "query": "read E009",
+    "expected": {
+      "status": "ok",
+      "id": "E009",
+      "value": 3.125
+    }
+  },
+  {
+    "id": "T010",
+    "group": "exact",
+    "query": "read E010",
+    "expected": {
+      "status": "ok",
+      "id": "E010",
+      "value": 3.25
+    }
+  },
+  {
+    "id": "T011",
+    "group": "exact",
+    "query": "read E011",
+    "expected": {
+      "status": "ok",
+      "id": "E011",
+      "value": 3.375
+    }
+  },
+  {
+    "id": "T012",
+    "group": "exact",
+    "query": "read E012",
+    "expected": {
+      "status": "ok",
+      "id": "E012",
+      "value": 3.5
+    }
+  },
+  {
+    "id": "T013",
+    "group": "exact",
+    "query": "read E013",
+    "expected": {
+      "status": "ok",
+      "id": "E013",
+      "value": 3.625
+    }
+  },
+  {
+    "id": "T014",
+    "group": "exact",
+    "query": "read E014",
+    "expected": {
+      "status": "ok",
+      "id": "E014",
+      "value": 3.75
+    }
+  },
+  {
+    "id": "T015",
+    "group": "exact",
+    "query": "read E015",
+    "expected": {
+      "status": "ok",
+      "id": "E015",
+      "value": 3.875
+    }
+  },
+  {
+    "id": "T016",
+    "group": "exact",
+    "query": "read E016",
+    "expected": {
+      "status": "ok",
+      "id": "E016",
+      "value": 4.0
+    }
+  },
+  {
+    "id": "T017",
+    "group": "exact",
+    "query": "read E017",
+    "expected": {
+      "status": "ok",
+      "id": "E017",
+      "value": 4.125
+    }
+  },
+  {
+    "id": "T018",
+    "group": "exact",
+    "query": "read E018",
+    "expected": {
+      "status": "ok",
+      "id": "E018",
+      "value": 4.25
+    }
+  },
+  {
+    "id": "T019",
+    "group": "exact",
+    "query": "read E019",
+    "expected": {
+      "status": "ok",
+      "id": "E019",
+      "value": 4.375
+    }
+  },
+  {
+    "id": "T020",
+    "group": "alias",
+    "query": "read sample-20",
+    "expected": {
+      "status": "ok",
+      "id": "E020",
+      "value": 4.5
+    }
+  },
+  {
+    "id": "T021",
+    "group": "alias",
+    "query": "read sample-21",
+    "expected": {
+      "status": "ok",
+      "id": "E021",
+      "value": 4.625
+    }
+  },
+  {
+    "id": "T022",
+    "group": "alias",
+    "query": "read sample-22",
+    "expected": {
+      "status": "ok",
+      "id": "E022",
+      "value": 4.75
+    }
+  },
+  {
+    "id": "T023",
+    "group": "alias",
+    "query": "read sample-23",
+    "expected": {
+      "status": "ok",
+      "id": "E023",
+      "value": 4.875
+    }
+  },
+  {
+    "id": "T024",
+    "group": "alias",
+    "query": "read sample-24",
+    "expected": {
+      "status": "ok",
+      "id": "E024",
+      "value": 5.0
+    }
+  },
+  {
+    "id": "T025",
+    "group": "alias",
+    "query": "read sample-25",
+    "expected": {
+      "status": "ok",
+      "id": "E025",
+      "value": 5.125
+    }
+  },
+  {
+    "id": "T026",
+    "group": "alias",
+    "query": "read sample-26",
+    "expected": {
+      "status": "ok",
+      "id": "E026",
+      "value": 5.25
+    }
+  },
+  {
+    "id": "T027",
+    "group": "alias",
+    "query": "read sample-27",
+    "expected": {
+      "status": "ok",
+      "id": "E027",
+      "value": 5.375
+    }
+  },
+  {
+    "id": "T028",
+    "group": "alias",
+    "query": "read sample-28",
+    "expected": {
+      "status": "ok",
+      "id": "E028",
+      "value": 5.5
+    }
+  },
+  {
+    "id": "T029",
+    "group": "alias",
+    "query": "read sample-29",
+    "expected": {
+      "status": "ok",
+      "id": "E029",
+      "value": 5.625
+    }
+  },
+  {
+    "id": "T030",
+    "group": "alias",
+    "query": "read sample-30",
+    "expected": {
+      "status": "ok",
+      "id": "E030",
+      "value": 5.75
+    }
+  },
+  {
+    "id": "T031",
+    "group": "alias",
+    "query": "read sample-31",
+    "expected": {
+      "status": "ok",
+      "id": "E031",
+      "value": 5.875
+    }
+  },
+  {
+    "id": "T032",
+    "group": "alias",
+    "query": "read sample-32",
+    "expected": {
+      "status": "ok",
+      "id": "E032",
+      "value": 6.0
+    }
+  },
+  {
+    "id": "T033",
+    "group": "alias",
+    "query": "read sample-33",
+    "expected": {
+      "status": "ok",
+      "id": "E033",
+      "value": 6.125
+    }
+  },
+  {
+    "id": "T034",
+    "group": "alias",
+    "query": "read sample-34",
+    "expected": {
+      "status": "ok",
+      "id": "E034",
+      "value": 6.25
+    }
+  },
+  {
+    "id": "T035",
+    "group": "alias",
+    "query": "read sample-35",
+    "expected": {
+      "status": "ok",
+      "id": "E035",
+      "value": 6.375
+    }
+  },
+  {
+    "id": "T036",
+    "group": "alias",
+    "query": "read sample-36",
+    "expected": {
+      "status": "ok",
+      "id": "E036",
+      "value": 6.5
+    }
+  },
+  {
+    "id": "T037",
+    "group": "alias",
+    "query": "read sample-37",
+    "expected": {
+      "status": "ok",
+      "id": "E037",
+      "value": 6.625
+    }
+  },
+  {
+    "id": "T038",
+    "group": "alias",
+    "query": "read sample-38",
+    "expected": {
+      "status": "ok",
+      "id": "E038",
+      "value": 6.75
+    }
+  },
+  {
+    "id": "T039",
+    "group": "alias",
+    "query": "read sample-39",
+    "expected": {
+      "status": "ok",
+      "id": "E039",
+      "value": 6.875
+    }
+  },
+  {
+    "id": "T040",
+    "group": "missing",
+    "query": "read E100",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T041",
+    "group": "missing",
+    "query": "read E101",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T042",
+    "group": "missing",
+    "query": "read E102",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T043",
+    "group": "missing",
+    "query": "read E103",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T044",
+    "group": "missing",
+    "query": "read E104",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T045",
+    "group": "missing",
+    "query": "read E105",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T046",
+    "group": "missing",
+    "query": "read E106",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T047",
+    "group": "missing",
+    "query": "read E107",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T048",
+    "group": "missing",
+    "query": "read E108",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T049",
+    "group": "missing",
+    "query": "read E109",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T050",
+    "group": "missing",
+    "query": "read E110",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T051",
+    "group": "missing",
+    "query": "read E111",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T052",
+    "group": "missing",
+    "query": "read E112",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T053",
+    "group": "missing",
+    "query": "read E113",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T054",
+    "group": "missing",
+    "query": "read E114",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T055",
+    "group": "missing",
+    "query": "read E115",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T056",
+    "group": "missing",
+    "query": "read E116",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T057",
+    "group": "missing",
+    "query": "read E117",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T058",
+    "group": "missing",
+    "query": "read E118",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T059",
+    "group": "missing",
+    "query": "read E119",
+    "expected": {
+      "status": "abstain"
+    }
+  },
+  {
+    "id": "T060",
+    "group": "denied",
+    "query": "read PRIVATE000",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T061",
+    "group": "denied",
+    "query": "read PRIVATE001",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T062",
+    "group": "denied",
+    "query": "read PRIVATE002",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T063",
+    "group": "denied",
+    "query": "read PRIVATE003",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T064",
+    "group": "denied",
+    "query": "read PRIVATE004",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T065",
+    "group": "denied",
+    "query": "read PRIVATE005",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T066",
+    "group": "denied",
+    "query": "read PRIVATE006",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T067",
+    "group": "denied",
+    "query": "read PRIVATE007",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T068",
+    "group": "denied",
+    "query": "read PRIVATE008",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T069",
+    "group": "denied",
+    "query": "read PRIVATE009",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T070",
+    "group": "denied",
+    "query": "read PRIVATE010",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T071",
+    "group": "denied",
+    "query": "read PRIVATE011",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T072",
+    "group": "denied",
+    "query": "read PRIVATE012",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T073",
+    "group": "denied",
+    "query": "read PRIVATE013",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T074",
+    "group": "denied",
+    "query": "read PRIVATE014",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T075",
+    "group": "denied",
+    "query": "read PRIVATE015",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T076",
+    "group": "denied",
+    "query": "read PRIVATE016",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T077",
+    "group": "denied",
+    "query": "read PRIVATE017",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T078",
+    "group": "denied",
+    "query": "read PRIVATE018",
+    "expected": {
+      "status": "denied"
+    }
+  },
+  {
+    "id": "T079",
+    "group": "denied",
+    "query": "read PRIVATE019",
+    "expected": {
+      "status": "denied"
+    }
+  }
+]

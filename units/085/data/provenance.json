@@ -1,0 +1,8 @@
+{
+  "kind": "original synthetic teaching data",
+  "generator": "experiment.py",
+  "generator_sha256": "bb1ba4ec2e18e87b35b9e1775a21a8a21b319b017a6bdea208b8b118dc981c22",
+  "third_party_data": false,
+  "real_personal_data": false,
+  "license_notice": "../DATA_LICENSE.md"
+}

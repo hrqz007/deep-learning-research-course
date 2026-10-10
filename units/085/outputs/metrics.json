@@ -1,0 +1,188 @@
+{
+  "seed": 85,
+  "model": "two-candidate conditional policy; not a text-generating LLM",
+  "train_pairs": 400,
+  "test_pairs_per_condition": 1000,
+  "results": {
+    "reference": {
+      "weights": [
+        0.8,
+        0.0
+      ],
+      "beta": null,
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.6899744811276124,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.871,
+          "mean_reference_kl": 0.0,
+          "mean_verbose_probability": 0.6762963184864245
+        },
+        "balanced": {
+          "sampled_correctness": 0.6899744811276124,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.899,
+          "mean_reference_kl": 0.0,
+          "mean_verbose_probability": 0.4920210717926402
+        },
+        "conflict": {
+          "sampled_correctness": 0.6899744811276124,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.884,
+          "mean_reference_kl": 0.0,
+          "mean_verbose_probability": 0.3100255188723874
+        }
+      }
+    },
+    "sft": {
+      "weights": [
+        2.0390105798837665,
+        -0.27746488925220864
+      ],
+      "beta": null,
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.8554489935722238,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.871,
+          "mean_reference_kl": 0.0741125542560614,
+          "mean_verbose_probability": 0.825912262972279
+        },
+        "balanced": {
+          "sampled_correctness": 0.8830111691921979,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.899,
+          "mean_reference_kl": 0.10772161585867401,
+          "mean_verbose_probability": 0.4555490402318859
+        },
+        "conflict": {
+          "sampled_correctness": 0.9102323694436777,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.884,
+          "mean_reference_kl": 0.14091489525589346,
+          "mean_verbose_probability": 0.08976763055632248
+        }
+      }
+    },
+    "dpo_b0.1": {
+      "weights": [
+        5.2802847691350125,
+        3.7746436136950736
+      ],
+      "beta": 0.1,
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.993350320338598,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.871,
+          "mean_reference_kl": 0.3582318447440644,
+          "mean_verbose_probability": 0.9704244887439929
+        },
+        "balanced": {
+          "sampled_correctness": 0.9053379174046381,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.899,
+          "mean_reference_kl": 0.19942349508693497,
+          "mean_verbose_probability": 0.5735501879382674
+        },
+        "conflict": {
+          "sampled_correctness": 0.8184143277028508,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.884,
+          "mean_reference_kl": 0.04257978480700709,
+          "mean_verbose_probability": 0.1815856722971489
+        }
+      }
+    },
+    "dpo_b0.5": {
+      "weights": [
+        3.725086617382037,
+        0.5979635336285171
+      ],
+      "beta": 0.5,
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.9858731432649059,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.871,
+          "mean_reference_kl": 0.3088965832132758,
+          "mean_verbose_probability": 0.9528973028234706
+        },
+        "balanced": {
+          "sampled_correctness": 0.9718487145432242,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.899,
+          "mean_reference_kl": 0.2694274149473183,
+          "mean_verbose_probability": 0.4946150237102327
+        },
+        "conflict": {
+          "sampled_correctness": 0.9579977839088212,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.884,
+          "mean_reference_kl": 0.23044652505166144,
+          "mean_verbose_probability": 0.04200221609117915
+        }
+      }
+    },
+    "dpo_b2": {
+      "weights": [
+        1.9394904238969486,
+        -0.2587175785811692
+      ],
+      "beta": 2.0,
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.8450617802061843,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.871,
+          "mean_reference_kl": 0.06435261292601899,
+          "mean_verbose_probability": 0.8162554101175803
+        },
+        "balanced": {
+          "sampled_correctness": 0.8727463717255044,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.899,
+          "mean_reference_kl": 0.09543927174268352,
+          "mean_verbose_probability": 0.45585418238765213
+        },
+        "conflict": {
+          "sampled_correctness": 0.9000884734528332,
+          "greedy_correctness": 1.0,
+          "annotator_agreement": 0.884,
+          "mean_reference_kl": 0.12614135333687385,
+          "mean_verbose_probability": 0.09991152654716672
+        }
+      }
+    },
+    "biased_judge_dpo": {
+      "weights": [
+        3.898671770957294,
+        5.734235828917149
+      ],
+      "evaluation": {
+        "id": {
+          "sampled_correctness": 0.968889590900654,
+          "greedy_correctness": 0.964,
+          "annotator_agreement": 0.837,
+          "mean_reference_kl": 0.38089783679454875,
+          "mean_verbose_probability": 0.9949840635485091
+        },
+        "balanced": {
+          "sampled_correctness": 0.5506461067423349,
+          "greedy_correctness": 0.479,
+          "annotator_agreement": 0.478,
+          "mean_reference_kl": 0.5215686157381187,
+          "mean_verbose_probability": 0.9282911136737948
+        },
+        "conflict": {
+          "sampled_correctness": 0.13757676877978883,
+          "greedy_correctness": 0.0,
+          "annotator_agreement": 0.116,
+          "mean_reference_kl": 0.660499137622593,
+          "mean_verbose_probability": 0.8624232312202108
+        }
+      },
+      "training_judge_agreement": 1.0
+    }
+  }
+}

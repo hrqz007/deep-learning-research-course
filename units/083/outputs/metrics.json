@@ -1,0 +1,89 @@
+{
+  "seed": 83,
+  "model": "single-step conditional softmax; not a Transformer or pretrained LLM",
+  "train_rows": 240,
+  "adaptation_test_rows": 120,
+  "retention_rows": 360,
+  "results": {
+    "frozen": {
+      "adaptation_test": {
+        "nll": 1.967390899396422,
+        "accuracy": 0.25
+      },
+      "retention_test": {
+        "nll": 1.662891943161282,
+        "accuracy": 0.3888888888888889
+      },
+      "train_nll": 2.102634762163676,
+      "trainable_parameters": 0,
+      "trainable_float64_bytes": 0,
+      "observed_cpu_seconds": 0.0008924549983930774,
+      "delta_rank": 0,
+      "merge_max_abs_error": 0
+    },
+    "full": {
+      "adaptation_test": {
+        "nll": 1.4567366953123222,
+        "accuracy": 0.48333333333333334
+      },
+      "retention_test": {
+        "nll": 3.281118815573175,
+        "accuracy": 0.26666666666666666
+      },
+      "train_nll": 0.9646055581134941,
+      "trainable_parameters": 96,
+      "trainable_float64_bytes": 768,
+      "observed_cpu_seconds": 0.07809253799496219,
+      "delta_rank": 7,
+      "merge_max_abs_error": 0
+    },
+    "lora_r1": {
+      "adaptation_test": {
+        "nll": 1.5969444465405127,
+        "accuracy": 0.4583333333333333
+      },
+      "retention_test": {
+        "nll": 2.4969008897047766,
+        "accuracy": 0.28055555555555556
+      },
+      "train_nll": 1.396396381763787,
+      "trainable_parameters": 20,
+      "trainable_float64_bytes": 160,
+      "observed_cpu_seconds": 0.07198156700178515,
+      "delta_rank": 1,
+      "merge_max_abs_error": 3.552713678800501e-15
+    },
+    "lora_r2": {
+      "adaptation_test": {
+        "nll": 1.3541941148880114,
+        "accuracy": 0.5583333333333333
+      },
+      "retention_test": {
+        "nll": 3.3465247317675497,
+        "accuracy": 0.225
+      },
+      "train_nll": 1.0616448480420837,
+      "trainable_parameters": 40,
+      "trainable_float64_bytes": 320,
+      "observed_cpu_seconds": 0.07003334099863423,
+      "delta_rank": 2,
+      "merge_max_abs_error": 2.6645352591003757e-15
+    },
+    "lora_r4": {
+      "adaptation_test": {
+        "nll": 1.4428778040840706,
+        "accuracy": 0.48333333333333334
+      },
+      "retention_test": {
+        "nll": 3.457631055464512,
+        "accuracy": 0.23333333333333334
+      },
+      "train_nll": 0.9975870203393481,
+      "trainable_parameters": 80,
+      "trainable_float64_bytes": 640,
+      "observed_cpu_seconds": 0.058112815000640694,
+      "delta_rank": 4,
+      "merge_max_abs_error": 2.6645352591003757e-15
+    }
+  }
+}

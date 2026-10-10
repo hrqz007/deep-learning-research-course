@@ -1,0 +1,12 @@
+{
+  "version": "sandbox-1.0",
+  "tasks": 14,
+  "answered": 12,
+  "missing_abstained": true,
+  "attack_denied": true,
+  "replays_verified": 14,
+  "idempotent_note_count": 1,
+  "note_results_equal": true,
+  "tool_attempts": 24,
+  "scope": "deterministic controller and injected mock failure, not an LLM evaluation"
+}
