@@ -1,0 +1,13 @@
+{
+  "unit": "081",
+  "original_outline": "S4",
+  "prerequisites": [
+    "S3",
+    "036",
+    "040"
+  ],
+  "language": "zh-CN",
+  "status": "implemented and executed; see verification.json",
+  "scope": "single-solution PINN with efficient finite-difference baseline",
+  "no_paid_api": true
+}

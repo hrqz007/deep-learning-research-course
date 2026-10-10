@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-10",
+  "sources": [
+    {
+      "title": "PINN original",
+      "url": "https://doi.org/10.1016/j.jcp.2018.10.045",
+      "check": "Publisher abstract accessible; method background, not performance evidence"
+    },
+    {
+      "title": "Neural Operator",
+      "url": "https://jmlr.org/papers/v24/21-1524.html",
+      "check": "Official JMLR page accessed"
+    },
+    {
+      "title": "DeepONet",
+      "url": "https://doi.org/10.1038/s42256-021-00302-5",
+      "check": "Direct publisher redirect failed initially; official Nature indexed abstract and bibliographic metadata verified through web search on 2026-10-10."
+    }
+  ]
+}

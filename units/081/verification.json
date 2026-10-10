@@ -1,0 +1,119 @@
+{
+  "unit": "081",
+  "catalog_id": "S4",
+  "verified_at": "2026-10-10T03:01:45.447683+00:00",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "system": "Linux",
+    "machine": "x86_64",
+    "device": "CPU",
+    "training_threads": {
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "ipykernel": "7.4.0",
+      "ipython": "9.17.1",
+      "markdown": "3.11",
+      "weasyprint": "70.0",
+      "pypdf": "6.20.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "command": "python -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_experiment.py",
+      "count": 13,
+      "status": "passed"
+    }
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 7.498,
+    "code_cells": 8,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "author replay uses in-process kernel; browser not tested; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "all_code_cells_executed": true,
+    "error_outputs": 0
+  },
+  "experiment": {
+    "status": "real NumPy training completed",
+    "paid_model_apis": false,
+    "real_data": false,
+    "replay_comparison": {
+      "status": "passed",
+      "csv_count": 4,
+      "csv_bytes_exact_match": true,
+      "numerical_metrics_exact_match": true,
+      "excluded": "all *_seconds fields; wall clock is not deterministic"
+    }
+  },
+  "pdfs": [
+    {
+      "file": "lecture.pdf",
+      "pages": 7,
+      "bytes": 884544,
+      "sha256": "33bdfb651877cb14b84e459d80409d6e6fea238d4e0d01e1c8344319851fa658",
+      "page_text_lengths": [
+        741,
+        937,
+        678,
+        575,
+        611,
+        905,
+        1125
+      ],
+      "chinese_present_each_page": true
+    },
+    {
+      "file": "lab.pdf",
+      "pages": 4,
+      "bytes": 613802,
+      "sha256": "7543e46f63ceafd4d70428e8e6731344f4cab54a93aecd9ae8e5d0403288a014",
+      "page_text_lengths": [
+        1305,
+        847,
+        751,
+        689
+      ],
+      "chinese_present_each_page": true
+    },
+    {
+      "file": "answers.pdf",
+      "pages": 3,
+      "bytes": 598980,
+      "sha256": "c5ed03f203d1ce051338c08184c475f5e779eea257bb98449e7338205cc70157",
+      "page_text_lengths": [
+        1054,
+        709,
+        863
+      ],
+      "chinese_present_each_page": true
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "method": "All final pages rendered with pdftoppm at 85 dpi, inspected in contact sheets; formula-heavy pages also viewed individually.",
+    "pages_reviewed": 14,
+    "checks": [
+      "Chinese glyphs readable",
+      "formulas and indices rendered",
+      "figures and captions not clipped",
+      "page headers/footers and ordering correct",
+      "no blank intermediary pages"
+    ],
+    "corrections": [
+      "removed premature manual page breaks",
+      "changed figure f subscript Unicode glyph to clear ASCII f0"
+    ]
+  }
+}
