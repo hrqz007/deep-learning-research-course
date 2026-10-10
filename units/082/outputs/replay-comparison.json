@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "csv_count": 8,
+  "csv_bytes_exact_match": true,
+  "numerical_metrics_exact_match": true,
+  "excluded": "all *_seconds fields; wall clock is not deterministic"
+}

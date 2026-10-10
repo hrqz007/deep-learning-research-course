@@ -1,0 +1,18 @@
+test_invalid_dimensions (test_experiment.RobustnessTests.test_invalid_dimensions) ... ok
+test_invalid_observations (test_experiment.RobustnessTests.test_invalid_observations) ... ok
+test_invalid_regularization (test_experiment.RobustnessTests.test_invalid_regularization) ... ok
+test_model_constraints (test_experiment.RobustnessTests.test_model_constraints) ... ok
+test_regularized_profile_gradient (test_experiment.RobustnessTests.test_regularized_profile_gradient) ... ok
+test_saved_outputs_finite (test_experiment.RobustnessTests.test_saved_outputs_finite) ... ok
+test_scaling_identity (test_experiment.RobustnessTests.test_scaling_identity) ... ok
+test_certified_nist (test_experiment.Tests.test_certified_nist) ... ok
+test_gain_nonidentifiability (test_experiment.Tests.test_gain_nonidentifiability) ... ok
+test_noiseless_recovery (test_experiment.Tests.test_noiseless_recovery) ... ok
+test_sensitivity (test_experiment.Tests.test_sensitivity) ... ok
+test_source_integrity (test_experiment.Tests.test_source_integrity) ... ok
+test_split_and_results (test_experiment.Tests.test_split_and_results) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.038s
+
+OK

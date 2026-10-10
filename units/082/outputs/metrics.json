@@ -1,0 +1,151 @@
+{
+  "seed": 82,
+  "synthetic_truth": [
+    2.4,
+    0.55
+  ],
+  "noise_sigma": 0.01,
+  "replicates": 200,
+  "synthetic": {
+    "narrow": {
+      "median": [
+        1.4918758622559447,
+        0.9510029281061487
+      ],
+      "q025": [
+        0.08663314833398256,
+        0.00010000000002070934
+      ],
+      "q975": [
+        14165.122867275042,
+        21.31756932855764
+      ],
+      "relative_parameter_rmse": [
+        3760.290489189801,
+        13.225752779728316
+      ],
+      "sensitivity_condition": 734.9400908101544,
+      "range": [
+        0.005,
+        0.05
+      ],
+      "b_search_boundary_fraction": 0.475,
+      "regularized_correct_prior": {
+        "median": [
+          2.399952933622468,
+          0.552613503782164
+        ],
+        "q025": [
+          2.3978661196446103,
+          0.5004506183027602
+        ],
+        "q975": [
+          2.4022007946408537,
+          0.6101252222038952
+        ],
+        "relative_parameter_rmse": [
+          0.0004333667299761471,
+          0.05151756702998021
+        ]
+      },
+      "regularized_wrong_prior": {
+        "median": [
+          1.200092023290197,
+          1.116059144865601
+        ],
+        "q025": [
+          1.191464004652812,
+          1.0058544204452378
+        ],
+        "q975": [
+          1.2090659126923975,
+          1.2353435614213035
+        ],
+        "relative_parameter_rmse": [
+          0.49995712609883086,
+          1.0380369201719717
+        ]
+      }
+    },
+    "medium": {
+      "median": [
+        2.403194814270435,
+        0.5502324188854832
+      ],
+      "q025": [
+        2.0758035985509116,
+        0.42908987649312486
+      ],
+      "q975": [
+        2.943370659488497,
+        0.6551225353300115
+      ],
+      "relative_parameter_rmse": [
+        0.09544975707833625,
+        0.10461669707768778
+      ],
+      "sensitivity_condition": 42.223347350890315,
+      "range": [
+        0.005,
+        0.8
+      ],
+      "b_search_boundary_fraction": 0.0
+    },
+    "wide": {
+      "median": [
+        2.400106927481448,
+        0.5499147638037323
+      ],
+      "q025": [
+        2.385741342901542,
+        0.5422886478523243
+      ],
+      "q975": [
+        2.41450901726393,
+        0.5575831736214232
+      ],
+      "relative_parameter_rmse": [
+        0.0031284859226268,
+        0.007320481682358102
+      ],
+      "sensitivity_condition": 7.221912196403836,
+      "range": [
+        0.005,
+        5.0
+      ],
+      "b_search_boundary_fraction": 0.0
+    }
+  },
+  "gain_equivalence_max_error": 0.0,
+  "real": {
+    "dataset": "NIST StRD Misra1a",
+    "kind": "observed",
+    "n": 14,
+    "full_fit_parameters_original_units": [
+      238.94212983229104,
+      0.0005501564300496555
+    ],
+    "sse_original_units_squared": 0.1245513889444018,
+    "residual_sigma_original_units": 0.10187876330243453,
+    "conditional_parametric_bootstrap_95pct": [
+      [
+        234.15493586194214,
+        0.0005357185501196986
+      ],
+      [
+        244.41088239198078,
+        0.0005633461048528205
+      ]
+    ],
+    "bootstrap_replicates": 300,
+    "heldout_high_pressure_n": 4,
+    "heldout_saturation_rmse": 0.5551703082113263,
+    "heldout_linear_rmse": 3.8733997455521,
+    "boundary_zero_error": 0.0,
+    "residual_sign_runs": 3,
+    "conservation": "not applicable: static adsorption response, no mass-flow/time information",
+    "extrapolated_pressure_2000_prediction": 159.43008417217342,
+    "sensitivity_condition": 40.89103905982908
+  },
+  "elapsed_seconds": 2.9720876320025127
+}
