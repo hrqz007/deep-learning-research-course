@@ -1,0 +1,253 @@
+{
+  "unit": "080",
+  "catalog_id": "S3",
+  "verified_date_utc": "2026-10-10",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "device": "CPU",
+    "dtype": "float64",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "IPython": "9.17.1",
+      "ipykernel": "7.4.0",
+      "Markdown": "3.11",
+      "weasyprint": "70.0",
+      "pypdf": "6.20.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "count": 15,
+      "status": "passed"
+    },
+    "optimized": {
+      "count": 15,
+      "status": "passed"
+    },
+    "evidence_file": "test-log.txt"
+  },
+  "experiment": {
+    "actually_run": true,
+    "paid_apis": false,
+    "external_downloads": false,
+    "arrays": {
+      "data.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "fit_history_4": [
+            400,
+            2
+          ],
+          "fit_history_8": [
+            400,
+            2
+          ],
+          "fit_history_16": [
+            400,
+            2
+          ],
+          "fit_history_32": [
+            400,
+            2
+          ],
+          "fit_history_64": [
+            400,
+            2
+          ],
+          "fit_history_128": [
+            400,
+            2
+          ],
+          "t": [
+            17
+          ],
+          "euler_y": [
+            17
+          ],
+          "exact_y": [
+            17
+          ],
+          "sensitivity": [
+            17
+          ],
+          "scan": [
+            6,
+            7
+          ],
+          "fit_scan": [
+            6,
+            2
+          ],
+          "stability_trajectories": [
+            3,
+            13
+          ],
+          "heat_x": [
+            41
+          ],
+          "heat_u": [
+            41
+          ],
+          "heat_exact": [
+            41
+          ]
+        }
+      },
+      "weights.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "estimated_k": [
+            6
+          ]
+        }
+      },
+      "predictions.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "ode": [
+            17
+          ],
+          "heat": [
+            41
+          ]
+        }
+      }
+    },
+    "checkpoint_reload_max_abs": {
+      "ode": 0.0
+    },
+    "seconds_not_compared": true
+  },
+  "notebook": {
+    "fresh_python_process": true,
+    "actual_kernel": "IPython InProcessKernel",
+    "code_cells": 7,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "browser_UI_tested": false,
+    "embedded_images": 1
+  },
+  "pdfs": {
+    "lecture.pdf": {
+      "pages": 7,
+      "sha256": "dc15fbe519b78f8f5327e28aee9f91c0f0c832d8f93397d63fc143ec9e208197",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 762,
+          "cjk_characters": 497,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 725,
+          "cjk_characters": 469,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 524,
+          "cjk_characters": 348,
+          "replacement_characters": 0
+        },
+        {
+          "page": 4,
+          "characters": 583,
+          "cjk_characters": 371,
+          "replacement_characters": 0
+        },
+        {
+          "page": 5,
+          "characters": 894,
+          "cjk_characters": 634,
+          "replacement_characters": 0
+        },
+        {
+          "page": 6,
+          "characters": 737,
+          "cjk_characters": 535,
+          "replacement_characters": 0
+        },
+        {
+          "page": 7,
+          "characters": 1016,
+          "cjk_characters": 622,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "lab.pdf": {
+      "pages": 3,
+      "sha256": "94bf5c1777e0cdaa7ed9b9e2d20e0ef87c22c68a7b2125ce41f9ce8292a9806b",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1045,
+          "cjk_characters": 488,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1282,
+          "cjk_characters": 490,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 967,
+          "cjk_characters": 408,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "answers.pdf": {
+      "pages": 3,
+      "sha256": "130687120f8c579bf56222f1f6b8a2eab5111c198b30d06a44c59efc04bc7733",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1066,
+          "cjk_characters": 512,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1278,
+          "cjk_characters": 720,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 746,
+          "cjk_characters": 497,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    }
+  },
+  "figures": {
+    "count": 6,
+    "font_missing_glyph_warnings_final": false,
+    "all_figures_visually_inspected": true
+  },
+  "scope_limits": [
+    "CPU Linux only; no claim of all-platform installation validation",
+    "Synthetic or analytic teaching world only",
+    "Finite tests do not establish unrestricted scientific validity"
+  ]
+}

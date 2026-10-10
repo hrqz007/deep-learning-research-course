@@ -1,0 +1,17 @@
+{
+  "release_id": "080",
+  "catalog_id": "S3",
+  "title": "微分方程与可微模拟基础",
+  "prerequisites_original": [
+    "010",
+    "011",
+    "015",
+    "029"
+  ],
+  "scope": "analytic ODE and PDE; discrete derivative and inverse solver bias",
+  "data": "locally generated synthetic or analytic reference",
+  "paid_api": false,
+  "seeds": "deterministic",
+  "tests_expected": 15,
+  "selection": "all fixed seeds reported; no test-based selection"
+}

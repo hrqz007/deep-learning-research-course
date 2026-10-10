@@ -1,0 +1,40 @@
+test_autodiff_shared_parameter (test_experiment.Tests.test_autodiff_shared_parameter) ... ok
+test_autodiff_solver (test_experiment.Tests.test_autodiff_solver) ... ok
+test_closed_discrete (test_experiment.Tests.test_closed_discrete) ... ok
+test_convergence (test_experiment.Tests.test_convergence) ... ok
+test_finite_difference (test_experiment.Tests.test_finite_difference) ... ok
+test_fit (test_experiment.Tests.test_fit) ... ok
+test_heat_boundary (test_experiment.Tests.test_heat_boundary) ... ok
+test_heat_guard (test_experiment.Tests.test_heat_guard) ... ok
+test_initial (test_experiment.Tests.test_initial) ... ok
+test_invalid_k (test_experiment.Tests.test_invalid_k) ... ok
+test_invalid_n (test_experiment.Tests.test_invalid_n) ... ok
+test_invalid_nan (test_experiment.Tests.test_invalid_nan) ... ok
+test_reverse (test_experiment.Tests.test_reverse) ... ok
+test_rk4 (test_experiment.Tests.test_rk4) ... ok
+test_zero_rate (test_experiment.Tests.test_zero_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.022s
+
+OK
+test_autodiff_shared_parameter (test_experiment.Tests.test_autodiff_shared_parameter) ... ok
+test_autodiff_solver (test_experiment.Tests.test_autodiff_solver) ... ok
+test_closed_discrete (test_experiment.Tests.test_closed_discrete) ... ok
+test_convergence (test_experiment.Tests.test_convergence) ... ok
+test_finite_difference (test_experiment.Tests.test_finite_difference) ... ok
+test_fit (test_experiment.Tests.test_fit) ... ok
+test_heat_boundary (test_experiment.Tests.test_heat_boundary) ... ok
+test_heat_guard (test_experiment.Tests.test_heat_guard) ... ok
+test_initial (test_experiment.Tests.test_initial) ... ok
+test_invalid_k (test_experiment.Tests.test_invalid_k) ... ok
+test_invalid_n (test_experiment.Tests.test_invalid_n) ... ok
+test_invalid_nan (test_experiment.Tests.test_invalid_nan) ... ok
+test_reverse (test_experiment.Tests.test_reverse) ... ok
+test_rk4 (test_experiment.Tests.test_rk4) ... ok
+test_zero_rate (test_experiment.Tests.test_zero_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.012s
+
+OK
