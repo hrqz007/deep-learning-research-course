@@ -1,0 +1,17 @@
+{
+  "dataset": "NIST StRD Misra1a",
+  "kind": "observed real experimental data",
+  "source_url": "https://www.itl.nist.gov/div898/strd/nls/data/LINKS/DATA/Misra1a.dat",
+  "landing_url": "https://www.itl.nist.gov/div898/strd/nls/data/misra1a.shtml",
+  "access_date": "2026-10-10",
+  "bytes": 1932,
+  "sha256": "9d3194d537d9a6bbf92eb819504070923a1885d0191f40b6b3aaeedd130b98e2",
+  "rows": 14,
+  "raw_column_order": [
+    "volume",
+    "pressure"
+  ],
+  "units": "source file names volume and pressure but does not specify measurement units",
+  "license_url": "https://www.nist.gov/open/license",
+  "changes": "raw downloaded bytes unchanged; analysis scales pressure /1000 and volume /100 in memory"
+}
