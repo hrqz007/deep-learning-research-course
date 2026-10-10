@@ -1,0 +1,19 @@
+{
+  "release_id": "078",
+  "catalog_id": "S1",
+  "title": "图神经网络与关系数据",
+  "prerequisites_original": [
+    "009",
+    "030"
+  ],
+  "scope": "synthetic graph-level split; true one-hop mechanism",
+  "data": "locally generated synthetic or analytic reference",
+  "paid_api": false,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tests_expected": 11,
+  "selection": "all fixed seeds reported; no test-based selection"
+}

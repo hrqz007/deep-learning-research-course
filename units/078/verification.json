@@ -1,0 +1,263 @@
+{
+  "unit": "078",
+  "catalog_id": "S1",
+  "verified_date_utc": "2026-10-10",
+  "status": "passed",
+  "runtime": {
+    "python": "3.12.14",
+    "device": "CPU",
+    "dtype": "float64",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "nbformat": "5.11.1",
+      "IPython": "9.17.1",
+      "ipykernel": "7.4.0",
+      "Markdown": "3.11",
+      "weasyprint": "70.0",
+      "pypdf": "6.20.0"
+    }
+  },
+  "tests": {
+    "normal": {
+      "count": 11,
+      "status": "passed"
+    },
+    "optimized": {
+      "count": 11,
+      "status": "passed"
+    },
+    "evidence_file": "test-log.txt"
+  },
+  "experiment": {
+    "actually_run": true,
+    "paid_apis": false,
+    "external_downloads": false,
+    "arrays": {
+      "data.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "adjacency": [
+            150,
+            8,
+            8
+          ],
+          "x": [
+            150,
+            8,
+            1
+          ],
+          "y": [
+            150,
+            8,
+            1
+          ],
+          "train_ids": [
+            100
+          ],
+          "val_ids": [
+            25
+          ],
+          "test_ids": [
+            25
+          ],
+          "gnn_history": [
+            40
+          ],
+          "blind_history": [
+            40
+          ],
+          "smooth_variance": [
+            41
+          ],
+          "intervention_effect": [
+            8,
+            1
+          ]
+        }
+      },
+      "weights.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "gnn_w": [
+            2,
+            12
+          ],
+          "gnn_b": [
+            12
+          ],
+          "gnn_v": [
+            12,
+            1
+          ],
+          "gnn_c": [
+            1
+          ],
+          "blind_w": [
+            2,
+            12
+          ],
+          "blind_b": [
+            12
+          ],
+          "blind_v": [
+            12,
+            1
+          ],
+          "blind_c": [
+            1
+          ]
+        }
+      },
+      "predictions.npz": {
+        "finite": true,
+        "notebook_exact_match": true,
+        "arrays": {
+          "gnn": [
+            25,
+            8,
+            1
+          ],
+          "blind": [
+            25,
+            8,
+            1
+          ]
+        }
+      }
+    },
+    "checkpoint_reload_max_abs": {
+      "gnn": 0.0,
+      "blind": 0.0
+    },
+    "seconds_not_compared": true
+  },
+  "notebook": {
+    "fresh_python_process": true,
+    "actual_kernel": "IPython InProcessKernel",
+    "code_cells": 7,
+    "sequential_counts": true,
+    "error_outputs": 0,
+    "browser_UI_tested": false,
+    "embedded_images": 1
+  },
+  "pdfs": {
+    "lecture.pdf": {
+      "pages": 7,
+      "sha256": "492d791e793162a31883e8ac803732eb06098e28e7a55468c7483b17ad744c59",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 686,
+          "cjk_characters": 549,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1101,
+          "cjk_characters": 778,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 680,
+          "cjk_characters": 509,
+          "replacement_characters": 0
+        },
+        {
+          "page": 4,
+          "characters": 711,
+          "cjk_characters": 546,
+          "replacement_characters": 0
+        },
+        {
+          "page": 5,
+          "characters": 812,
+          "cjk_characters": 559,
+          "replacement_characters": 0
+        },
+        {
+          "page": 6,
+          "characters": 461,
+          "cjk_characters": 378,
+          "replacement_characters": 0
+        },
+        {
+          "page": 7,
+          "characters": 755,
+          "cjk_characters": 465,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "lab.pdf": {
+      "pages": 3,
+      "sha256": "dc7e97422f35bb649a84a18af64edfe402a3d4bea41b2ece7b86e78dad4c3ced",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1267,
+          "cjk_characters": 619,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1266,
+          "cjk_characters": 657,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 803,
+          "cjk_characters": 468,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    },
+    "answers.pdf": {
+      "pages": 3,
+      "sha256": "2049fac21106d2344cecd8b3a0d1ebcb11c03beee8c8ba1d38f3fd841b2223a3",
+      "page_text_checks": [
+        {
+          "page": 1,
+          "characters": 1017,
+          "cjk_characters": 592,
+          "replacement_characters": 0
+        },
+        {
+          "page": 2,
+          "characters": 1123,
+          "cjk_characters": 756,
+          "replacement_characters": 0
+        },
+        {
+          "page": 3,
+          "characters": 738,
+          "cjk_characters": 570,
+          "replacement_characters": 0
+        }
+      ],
+      "all_pages_rendered": true,
+      "all_pages_visually_inspected": true,
+      "visual_findings": "Final version: no clipped text, overlapping plots, missing Chinese or formula glyphs observed."
+    }
+  },
+  "figures": {
+    "count": 6,
+    "font_missing_glyph_warnings_final": false,
+    "all_figures_visually_inspected": true
+  },
+  "scope_limits": [
+    "CPU Linux only; no claim of all-platform installation validation",
+    "Synthetic or analytic teaching world only",
+    "Finite tests do not establish unrestricted scientific validity"
+  ]
+}

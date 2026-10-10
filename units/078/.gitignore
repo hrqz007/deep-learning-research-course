@@ -1,0 +1,7 @@
+tmp/
+__pycache__/
+.venv/
+notebook_outputs/
+my_run/
+build-log.txt
+figure-log.txt

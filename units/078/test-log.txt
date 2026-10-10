@@ -1,0 +1,32 @@
+test_bad_shape (test_experiment.Tests.test_bad_shape) ... ok
+test_consensus (test_experiment.Tests.test_consensus) ... ok
+test_equivariance (test_experiment.Tests.test_equivariance) ... ok
+test_gradient (test_experiment.Tests.test_gradient) ... ok
+test_isolated_node (test_experiment.Tests.test_isolated_node) ... ok
+test_nan (test_experiment.Tests.test_nan) ... ok
+test_negative (test_experiment.Tests.test_negative) ... ok
+test_reproducible (test_experiment.Tests.test_reproducible) ... ok
+test_row_stochastic (test_experiment.Tests.test_row_stochastic) ... ok
+test_split (test_experiment.Tests.test_split) ... ok
+test_training (test_experiment.Tests.test_training) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.043s
+
+OK
+test_bad_shape (test_experiment.Tests.test_bad_shape) ... ok
+test_consensus (test_experiment.Tests.test_consensus) ... ok
+test_equivariance (test_experiment.Tests.test_equivariance) ... ok
+test_gradient (test_experiment.Tests.test_gradient) ... ok
+test_isolated_node (test_experiment.Tests.test_isolated_node) ... ok
+test_nan (test_experiment.Tests.test_nan) ... ok
+test_negative (test_experiment.Tests.test_negative) ... ok
+test_reproducible (test_experiment.Tests.test_reproducible) ... ok
+test_row_stochastic (test_experiment.Tests.test_row_stochastic) ... ok
+test_split (test_experiment.Tests.test_split) ... ok
+test_training (test_experiment.Tests.test_training) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.064s
+
+OK
