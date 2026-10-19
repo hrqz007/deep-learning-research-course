@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–072讲主线、后续五个理论专题、五个科学机器学习专题与五个语言模型和Agent专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–072讲主线、后续五个理论专题、五个科学机器学习专题、五个语言模型和Agent专题与五个多模态专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -96,6 +96,14 @@
 |086 / L4|检索工具与Agent实验系统|[6页](units/086/lecture.pdf)|[2页](units/086/lab.pdf)|[2页](units/086/answers.pdf)|[进入单元](units/086/README.md)|
 |087 / L5|Agent与检索系统的研究评价|[6页](units/087/lecture.pdf)|[2页](units/087/lab.pdf)|[2页](units/087/answers.pdf)|[进入单元](units/087/README.md)|
 
+|088 / M1|跨模态表示与对齐|[11页](units/088/lecture.pdf)|[2页](units/088/lab.pdf)|[3页](units/088/answers.pdf)|[进入单元](units/088/README.md)|
+|089 / M2|多模态融合与视觉语言模型|[13页](units/089/lecture.pdf)|[2页](units/089/lab.pdf)|[3页](units/089/answers.pdf)|[进入单元](units/089/README.md)|
+|090 / M3|音频视频与时间结构|[10页](units/090/lecture.pdf)|[3页](units/090/lab.pdf)|[3页](units/090/answers.pdf)|[进入单元](units/090/README.md)|
+|091 / M4|预测世界模型与模型式决策|[10页](units/091/lecture.pdf)|[3页](units/091/lab.pdf)|[3页](units/091/answers.pdf)|[进入单元](units/091/README.md)|
+|092 / M5|多模态研究的证据与偏差|[9页](units/092/lecture.pdf)|[3页](units/092/lab.pdf)|[3页](units/092/answers.pdf)|[进入单元](units/092/README.md)|
+
+发行目录088–092依次对应原大纲M1–M5；原大纲102单元总数和先修关系保持不变。
+
 发行目录073–077依次对应原大纲T1–T5；原大纲编号、102单元总数和先修关系保持不变。这五讲属于“理论与可信解释”分支，正文仍从必要的数学对象与手算例子逐步引导。
 
 
@@ -145,3 +153,5 @@
 第078–082讲的完整公开文件清单、课程编号映射、PDF页数及逐文件远端大小/SHA256核验记录见[核验说明](releases/078-082.json)。执行方式、数据来源与环境边界以各讲说明及verification.json为准；不据此声称验证Jupyter浏览器界面或跨平台安装。
 
 第083–087讲的公开文件清单、课程编号映射、PDF页数及逐文件远端核验记录见[核验说明](releases/083-087.json)。执行方式、数据来源与环境边界以各讲README及实验指南为准。
+
+第088–092讲的公开文件清单、课程编号映射、PDF页数及逐文件远端核验记录见[核验说明](releases/088-092.json)。实验、数据和验证边界以各讲README及verification.json为准；不据此声称验证Jupyter浏览器界面、跨平台安装或真实部署效果。

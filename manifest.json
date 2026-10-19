@@ -89,7 +89,12 @@
     "L2",
     "L3",
     "L4",
-    "L5"
+    "L5",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -3172,7 +3177,34 @@
       "figure": "双塔编码与跨模态相似度矩阵。",
       "lab": "用小型授权配对数据做检索实验，比较单向双向目标；检查近重复与语义假负样本。",
       "pitfall": "把相关图文当精确语义对齐；零样本标签模板只选最优版本。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_topic_derivation_and_code_review_passed",
+        "sources": "author_source_records_and_independent_scope_review",
+        "code": "independent_tests_and_complete_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_passed_browser_and_socket_not_tested",
+        "visual": "independent_pdf_visual_samples_and_all_page_text_extraction_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/088/lecture.pdf",
+        "lab_pdf": "units/088/lab.pdf",
+        "answers_pdf": "units/088/answers.pdf",
+        "notebook": "units/088/experiment.ipynb",
+        "script": "units/088/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "0a3bc46f42863a785c983847f7e8ebf94ee152aa",
+        "verified_file_count": 66,
+        "verified_bytes": 5967358,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-19"
+      },
+      "release_record": "releases/088-092.json",
+      "publication_sequence": "088",
+      "publication_directory": "units/088"
     },
     {
       "id": "M2",
@@ -3187,7 +3219,34 @@
       "figure": "视觉编码器到语言模型的接口与信息路径。",
       "lab": "在小模型或公开权重上做受控视觉问答，测试遮挡和文本干扰；记录输入尺寸与token预算。",
       "pitfall": "只用语言先验就通过任务；将视觉幻觉全部归为解码问题。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_topic_derivation_and_code_review_passed",
+        "sources": "author_source_records_and_independent_scope_review",
+        "code": "independent_tests_and_complete_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_passed_browser_and_socket_not_tested",
+        "visual": "independent_pdf_visual_samples_and_all_page_text_extraction_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/089/lecture.pdf",
+        "lab_pdf": "units/089/lab.pdf",
+        "answers_pdf": "units/089/answers.pdf",
+        "notebook": "units/089/experiment.ipynb",
+        "script": "units/089/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "0a3bc46f42863a785c983847f7e8ebf94ee152aa",
+        "verified_file_count": 79,
+        "verified_bytes": 17828431,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-19"
+      },
+      "release_record": "releases/088-092.json",
+      "publication_sequence": "089",
+      "publication_directory": "units/089"
     },
     {
       "id": "M3",
@@ -3201,7 +3260,34 @@
       "figure": "波形到频谱以及视频帧时间线。",
       "lab": "选择音频或短视频任务，核对采样与标签对齐；比较打乱时间顺序的基线。",
       "pitfall": "重采样后沿用旧时间戳；随机拆帧导致同视频泄漏。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_topic_derivation_and_code_review_passed",
+        "sources": "author_source_records_and_independent_scope_review",
+        "code": "independent_tests_and_complete_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_passed_browser_and_socket_not_tested",
+        "visual": "independent_pdf_visual_samples_and_all_page_text_extraction_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/090/lecture.pdf",
+        "lab_pdf": "units/090/lab.pdf",
+        "answers_pdf": "units/090/answers.pdf",
+        "notebook": "units/090/experiment.ipynb",
+        "script": "units/090/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "0a3bc46f42863a785c983847f7e8ebf94ee152aa",
+        "verified_file_count": 41,
+        "verified_bytes": 15280600,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-19"
+      },
+      "release_record": "releases/088-092.json",
+      "publication_sequence": "090",
+      "publication_directory": "units/090"
     },
     {
       "id": "M4",
@@ -3216,7 +3302,34 @@
       "figure": "真实环境、学习模型与规划闭环。",
       "lab": "在简单动力系统学习一步和多步模型，再测试闭环规划；报告模型误差与控制失败的区别。",
       "pitfall": "把漂亮视频视为可用世界模型；离线预测好便宣称闭环稳定。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_topic_derivation_and_code_review_passed",
+        "sources": "author_source_records_and_independent_scope_review",
+        "code": "independent_tests_and_complete_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_passed_browser_and_socket_not_tested",
+        "visual": "independent_pdf_visual_samples_and_all_page_text_extraction_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/091/lecture.pdf",
+        "lab_pdf": "units/091/lab.pdf",
+        "answers_pdf": "units/091/answers.pdf",
+        "notebook": "units/091/experiment.ipynb",
+        "script": "units/091/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "0a3bc46f42863a785c983847f7e8ebf94ee152aa",
+        "verified_file_count": 42,
+        "verified_bytes": 4121385,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-19"
+      },
+      "release_record": "releases/088-092.json",
+      "publication_sequence": "091",
+      "publication_directory": "units/091"
     },
     {
       "id": "M5",
@@ -3231,7 +3344,34 @@
       "figure": "模态消融矩阵与错误来源图。",
       "lab": "为所选任务建立单模态强基线、跨域和冲突测试；报告隐私许可、群体表现与局限。",
       "pitfall": "多模态模型更大就视为融合有效；忽略单模态可解题。",
-      "status": "planned"
+      "status": "published",
+      "checks": {
+        "scientific": "independent_topic_derivation_and_code_review_passed",
+        "sources": "author_source_records_and_independent_scope_review",
+        "code": "independent_tests_and_complete_numerical_replay_passed",
+        "notebook": "independent_fresh_process_inprocess_kernel_passed_browser_and_socket_not_tested",
+        "visual": "independent_pdf_visual_samples_and_all_page_text_extraction_passed"
+      },
+      "artifacts": {
+        "lecture_pdf": "units/092/lecture.pdf",
+        "lab_pdf": "units/092/lab.pdf",
+        "answers_pdf": "units/092/answers.pdf",
+        "notebook": "units/092/experiment.ipynb",
+        "script": "units/092/experiment.py"
+      },
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "0a3bc46f42863a785c983847f7e8ebf94ee152aa",
+        "verified_file_count": 43,
+        "verified_bytes": 3693796,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-19"
+      },
+      "release_record": "releases/088-092.json",
+      "publication_sequence": "092",
+      "publication_directory": "units/092"
     },
     {
       "id": "G1",
@@ -3474,6 +3614,11 @@
     "L2",
     "L3",
     "L4",
-    "L5"
+    "L5",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
   ]
 }
