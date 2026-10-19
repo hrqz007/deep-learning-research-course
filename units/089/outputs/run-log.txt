@@ -1,0 +1,65 @@
+{
+  "mean_accuracy": {
+    "text_only": {
+      "clean": 0.9333333333333332,
+      "conflict_hint": 0.0,
+      "blank_hint": 0.5,
+      "target_occluded": 0.9333333333333332,
+      "target_occluded_blank_hint": 0.5,
+      "other_occluded": 0.9333333333333332,
+      "image_blank": 0.9333333333333332,
+      "question_flip": 0.49583333333333335
+    },
+    "image_only": {
+      "clean": 0.7395833333333334,
+      "conflict_hint": 0.7395833333333334,
+      "blank_hint": 0.7395833333333334,
+      "target_occluded": 0.5,
+      "target_occluded_blank_hint": 0.5,
+      "other_occluded": 1.0,
+      "image_blank": 0.5,
+      "question_flip": 0.7604166666666666
+    },
+    "concat_biased": {
+      "clean": 0.9972222222222222,
+      "conflict_hint": 0.9770833333333333,
+      "blank_hint": 1.0,
+      "target_occluded": 0.9090277777777778,
+      "target_occluded_blank_hint": 0.5013888888888889,
+      "other_occluded": 1.0,
+      "image_blank": 0.9333333333333332,
+      "question_flip": 0.9833333333333333
+    },
+    "attention_biased": {
+      "clean": 1.0,
+      "conflict_hint": 1.0,
+      "blank_hint": 1.0,
+      "target_occluded": 0.7374999999999999,
+      "target_occluded_blank_hint": 0.4993055555555556,
+      "other_occluded": 1.0,
+      "image_blank": 0.8583333333333334,
+      "question_flip": 1.0
+    },
+    "attention_random_hint": {
+      "clean": 1.0,
+      "conflict_hint": 1.0,
+      "blank_hint": 1.0,
+      "target_occluded": 0.5027777777777778,
+      "target_occluded_blank_hint": 0.5006944444444444,
+      "other_occluded": 1.0,
+      "image_blank": 0.5,
+      "question_flip": 1.0
+    }
+  },
+  "gradient_check": {
+    "w1": 3.69217503792818e-12,
+    "b1": 1.9665588602002515e-12,
+    "w2": 4.1621844859562884e-12,
+    "b2": 5.526690216584029e-13,
+    "wq": 1.873164384019743e-12,
+    "wk": 7.084083591003126e-12,
+    "wv": 9.102604087152244e-12
+  },
+  "reload_error": 0.0,
+  "total_seconds": 2.1414510070026154
+}

@@ -1,0 +1,47 @@
+{
+  "unit": "090",
+  "verified_at": "2026-10-19",
+  "status": "passed",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "checks": [
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest -v test_experiment.py",
+      "exit_code": 0,
+      "output": "test_alias (test_experiment.TestAudio.test_alias) ... ok\ntest_alignment (test_experiment.TestAudio.test_alignment) ... ok\ntest_chunk_swap (test_experiment.TestAudio.test_chunk_swap) ... ok\ntest_features (test_experiment.TestAudio.test_features) ... ok\ntest_learns (test_experiment.TestAudio.test_learns) ... ok\ntest_normalization_training_only (test_experiment.TestAudio.test_normalization_training_only) ... ok\ntest_pair_balanced (test_experiment.TestAudio.test_pair_balanced) ... ok\ntest_pooled_invariant (test_experiment.TestAudio.test_pooled_invariant) ... ok\ntest_shape (test_experiment.TestAudio.test_shape) ... ok\ntest_short_input (test_experiment.TestAudio.test_short_input) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.040s\n\nOK\n"
+    },
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O -m unittest -v test_experiment.py",
+      "exit_code": 0,
+      "output": "test_alias (test_experiment.TestAudio.test_alias) ... ok\ntest_alignment (test_experiment.TestAudio.test_alignment) ... ok\ntest_chunk_swap (test_experiment.TestAudio.test_chunk_swap) ... ok\ntest_features (test_experiment.TestAudio.test_features) ... ok\ntest_learns (test_experiment.TestAudio.test_learns) ... ok\ntest_normalization_training_only (test_experiment.TestAudio.test_normalization_training_only) ... ok\ntest_pair_balanced (test_experiment.TestAudio.test_pair_balanced) ... ok\ntest_pooled_invariant (test_experiment.TestAudio.test_pooled_invariant) ... ok\ntest_shape (test_experiment.TestAudio.test_shape) ... ok\ntest_short_input (test_experiment.TestAudio.test_short_input) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.123s\n\nOK\n"
+    },
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python verify_replay.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"passed\", \"probability_arrays_replayed\": 18, \"max_probability_error\": 0.0, \"feature_reconstruction\": \"passed\", \"training_only_mean\": \"passed\"}\n"
+    }
+  ],
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 3.041,
+    "code_cells": 8,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "author replay uses in-process kernel; browser not tested; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "executed_cells": 8,
+    "errors": 0
+  },
+  "unit_test_count_per_mode": 10,
+  "source_check_file": "source-checks.json",
+  "figure_count": 5,
+  "pdf_pages": {
+    "lecture": 10,
+    "lab": 3,
+    "answers": 3
+  },
+  "pdf_review": "All final pages rendered and visually reviewed; no text/image clipping, overlap, missing glyphs or broken equations found."
+}

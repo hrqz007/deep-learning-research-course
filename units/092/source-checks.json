@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-19",
+  "sources": [
+    {
+      "url": "https://proceedings.mlr.press/v235/lin24c.html",
+      "status": "official paper page opened",
+      "title": "Revisiting the Role of Language Priors in Vision-Language Models"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v235/pinto24a.html",
+      "status": "official paper page opened",
+      "title": "Extracting Training Data From Document-Based VQA Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/1712.00377",
+      "status": "author preprint page opened",
+      "title": "Don’t Just Assume; Look and Answer: Overcoming Priors for Visual Question Answering"
+    }
+  ]
+}

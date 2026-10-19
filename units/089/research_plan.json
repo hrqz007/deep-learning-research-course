@@ -1,0 +1,64 @@
+{
+  "unit": "089",
+  "status": "教学包冻结设计，非外部预注册",
+  "data_origin": "Original procedural synthetic images and features",
+  "protocol": {
+    "data_seeds": [
+      8901,
+      8902,
+      8903
+    ],
+    "train": 960,
+    "validation": 240,
+    "test": 480,
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "methods": [
+      "text_only",
+      "image_only",
+      "concat_biased",
+      "attention_biased",
+      "attention_random_hint"
+    ],
+    "domains": [
+      "clean",
+      "conflict_hint",
+      "blank_hint",
+      "target_occluded",
+      "target_occluded_blank_hint",
+      "other_occluded",
+      "image_blank",
+      "question_flip"
+    ],
+    "input_shape": [
+      8,
+      8,
+      3
+    ],
+    "visual_token_count": 2,
+    "visual_token_width": 5,
+    "question_token_count": 1,
+    "hint_token_count": 1,
+    "attention_key_width": 4,
+    "attention_value_width": 6,
+    "answer_count": 2,
+    "steps": 300,
+    "batch": 96,
+    "learning_rate": 0.01,
+    "train_hint_agreement": 0.95625,
+    "test_hint_agreement": 0.9333333333333333,
+    "selection": "No test selection or early stopping; all variants/seeds reported",
+    "scope": "Fixed spatial pooling and 2-class answer heads; no pretrained language model; not LLaVA/Flamingo reproduction"
+  },
+  "primary_question": "Which inputs support controlled VQA answers under image occlusion and conflicting hints?",
+  "selection_rule": "All specified variants and seeds retained; no early stopping or test-set model selection.",
+  "stopping_rule": "Run the fixed update budget, then evaluate all declared conditions.",
+  "limitations": [
+    "Synthetic finite task; no real-world generalization claim",
+    "Three training seeds share the same dataset",
+    "No pretrained model or external service"
+  ]
+}

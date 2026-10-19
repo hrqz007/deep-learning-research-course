@@ -1,0 +1,35 @@
+{
+  "unit": "092",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests": {
+    "normal": 13,
+    "optimized": 13,
+    "status": "PASS"
+  },
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 0.918,
+    "code_cells": 7,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "author replay uses in-process kernel; browser not tested; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "executed_cells": 7,
+    "errors": 0
+  },
+  "replay": {
+    "saved_model_predictions_max_abs_diff": 0.0,
+    "metrics_checked": 120,
+    "notebook_aggregate_match": true,
+    "status": "PASS"
+  },
+  "pdf_pages": {
+    "lecture": 9,
+    "lab": 3,
+    "answers": 3
+  },
+  "figures": 5,
+  "pdf_review": "All 15 rendered pages reviewed in contact sheets; equation/table/plot pages individually inspected. No clipping, missing glyphs or overlap found.",
+  "scope": "Synthetic fixed-feature evidence audit, not large VLM replication"
+}

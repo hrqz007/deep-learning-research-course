@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "model_domain_predictions_replayed": 18,
+  "control_episodes_replayed": 84,
+  "max_prediction_error": 0.0,
+  "max_true_dynamics_residual": 0.0,
+  "cost_failure_action_replay": "passed"
+}

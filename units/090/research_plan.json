@@ -1,0 +1,31 @@
+{
+  "unit": "090",
+  "protocol_type": "Teaching protocol encoded in fixed source; not external preregistration",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "selection": "No test-based model, seed, or checkpoint selection",
+  "data": "Code-generated synthetic data; no third-party personal data",
+  "outputs": "All fixed methods, including failures, retained",
+  "limitations": [
+    "Synthetic two-tone task; not speech recognition",
+    "Only 8 held-out sources",
+    "Shuffling is a destructive intervention, not a valid natural distribution",
+    "Seed SD is not population confidence"
+  ],
+  "methods": [
+    "temporal",
+    "pooled",
+    "shuffle_train"
+  ],
+  "split_unit": "source",
+  "source_counts": [
+    24,
+    8,
+    8
+  ],
+  "update_budget": 600,
+  "primary_question": "Does temporal representation preserve tone order compared with pooled and shuffled controls?"
+}

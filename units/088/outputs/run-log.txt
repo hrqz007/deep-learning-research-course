@@ -1,0 +1,39 @@
+{
+  "audit": {
+    "exact_image_overlap": 0,
+    "unique_train_captions": 36,
+    "caption_overlap_across_splits": 36,
+    "off_diagonal_semantic_positive_count": 9936,
+    "off_diagonal_count": 186192,
+    "semantic_false_negative_fraction": 0.05336426914153132,
+    "cross_split_max_image_cosine": 0.8860434173052673,
+    "cross_split_mean_nearest_image_cosine": 0.8430716629243272,
+    "meaning": "Caption reuse is expected: independent image instances share semantic labels. No instance-ID signal is supplied."
+  },
+  "gradient_check": {
+    "image_to_text": 2.750445704524651e-11,
+    "symmetric": 3.359623690357694e-11,
+    "semantic_multi_positive": 2.3567092721776817e-11
+  },
+  "mean_recall": {
+    "image_to_text": {
+      "i2t_pair_r1": 0.09413580246913582,
+      "i2t_semantic_r1": 0.9953703703703703,
+      "t2i_pair_r1": 0.05864197530864198,
+      "t2i_semantic_r1": 1.0
+    },
+    "symmetric": {
+      "i2t_pair_r1": 0.09722222222222221,
+      "i2t_semantic_r1": 0.9938271604938271,
+      "t2i_pair_r1": 0.060185185185185175,
+      "t2i_semantic_r1": 1.0
+    },
+    "semantic_multi_positive": {
+      "i2t_pair_r1": 0.0787037037037037,
+      "i2t_semantic_r1": 1.0,
+      "t2i_pair_r1": 0.0787037037037037,
+      "t2i_semantic_r1": 1.0
+    }
+  },
+  "total_seconds": 1.7849409629998263
+}

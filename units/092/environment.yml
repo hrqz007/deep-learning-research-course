@@ -1,0 +1,13 @@
+name: dl092-evidence
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - nbformat>=5.10,<6
+      - ipykernel>=6.29,<8
+      - markdown>=3.7,<4
+      - weasyprint>=62,<71

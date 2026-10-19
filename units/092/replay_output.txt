@@ -1,0 +1,6 @@
+{
+  "saved_model_predictions_max_abs_diff": 0.0,
+  "metrics_checked": 120,
+  "notebook_aggregate_match": true,
+  "status": "PASS"
+}

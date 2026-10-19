@@ -1,0 +1,25 @@
+from pathlib import Path
+import nbformat as nbf
+ROOT=Path(__file__).resolve().parent
+cells=[]
+def md(s): cells.append(nbf.v4.new_markdown_cell(s))
+def code(s): cells.append(nbf.v4.new_code_cell(s))
+md('# DL088 完整实验回放\n双编码器：严格配对与语义检索。主实验9模型，另2次温度诊断。本Notebook真实重训到notebook_run，不覆盖发行outputs。CPU NumPy、合成数据、无需网络。')
+code('from pathlib import Path\nimport json, numpy as np\nimport experiment as exp\noriginal_root = exp.ROOT\nprint("NumPy", np.__version__)')
+md('## 数据与输入边界\n先检查shape，再运行优化。评价真值不能作为预测输入。')
+code('d = exp.make_data(4, 8801)\nprint({k: v.shape for k, v in d.items()})\nprint(d["captions"][:4])\nprint("parameters", sum(v.size for v in exp.initial(11).values()))')
+md('## 手算与梯度核验\n有限差分支持局部导数；它不替代数据切分和研究设计审查。')
+code('s = np.array([[2., 0.], [1., 0.]])\nli = -np.log(np.diag(exp.softmax(s, 1))).mean()\nlt = -np.log(np.diag(exp.softmax(s, 0))).mean()\nprint("row loss, column loss, symmetric:", li, lt, (li+lt)/2)\nprint("gradient check", exp.finite_difference())')
+md('## 从随机初始化完整重训\n固定全部方法、种子与更新步数。新结果写入独立子目录。')
+code('run_root = original_root / "notebook_run"\nrun_root.mkdir(exist_ok=True)\nexp.ROOT = run_root\ntry:\n    result = exp.main()\nfinally:\n    exp.ROOT = original_root')
+md('## 从本次运行重算结果\n不读取发行汇总表冒充Notebook运行。')
+code('for method in exp.METHODS:\n    rows = [r for r in result["records"] if r["method"] == method]\n    print(method, {k: float(np.mean([r[k] for r in rows])) for k in ["i2t_pair_r1", "i2t_semantic_r1", "t2i_pair_r1", "t2i_semantic_r1"]})\nprint("audit", result["audit"])')
+md('## 对研究假设做检查')
+code('print("false-negative rate", 23/431)\nprint("expected same-class competitors", 71*23/431)\nprint("Every primary checkpoint reload error:", [r["reload_max_error"] for r in result["records"]])')
+md('## 全部自动测试\n测试失败会中止回放，而不是继续绘制看起来成功的结果。')
+code('import unittest\nsuite = unittest.defaultTestLoader.discover(str(original_root), pattern="test_experiment.py")\ncheck = unittest.TextTestRunner(verbosity=2).run(suite)\nif not check.wasSuccessful():\n    raise RuntimeError("test failure")')
+md('## 显示本次真实训练图表\nPNG直接嵌入输出，离线打开Notebook也可看图。')
+code('from IPython.display import display, Image\ndisplay(Image(filename=str(run_root / "figures" / "04_training_retrieval.png")))')
+md('## 写下结论\n记录一个受证据支持的发现、一个不支持的预设、一个不能外推的能力。对照lecture.md、lab.md和answers.md，不把教学小模型称为大型VLM复现。')
+nb=nbf.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'}})
+nbf.write(nb, ROOT/'experiment.ipynb')

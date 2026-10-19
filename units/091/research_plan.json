@@ -1,0 +1,36 @@
+{
+  "unit": "091",
+  "protocol_type": "Teaching protocol encoded in fixed source; not external preregistration",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "selection": "No test-based model, seed, or checkpoint selection",
+  "data": "Code-generated synthetic data; no third-party personal data",
+  "outputs": "All fixed methods, including failures, retained",
+  "limitations": [
+    "Affine model is deliberately misspecified",
+    "Oracle has true dynamics but limited action candidates",
+    "12 fixed starts, no population guarantee",
+    "Partial controller sets velocity to zero; not a learned belief filter",
+    "Closed-loop comparisons use model seed 11 only",
+    "Action/state shift is not every kind of OOD"
+  ],
+  "methods": [
+    "one_step",
+    "multi_step"
+  ],
+  "split_unit": "trajectory",
+  "trajectory_counts": [
+    48,
+    16,
+    32,
+    32
+  ],
+  "multi_step_updates": 350,
+  "planning_horizon": 16,
+  "candidate_count": 81,
+  "control_model_seed": 11,
+  "primary_question": "How do prediction error, planning horizon, and observability differ in their effects on control?"
+}

@@ -1,0 +1,41 @@
+{
+  "unit": "088",
+  "status": "教学包冻结设计，非外部预注册",
+  "data_origin": "Original procedural synthetic images and features",
+  "protocol": {
+    "train": 432,
+    "validation": 108,
+    "test": 216,
+    "data_seeds": [
+      8801,
+      8802,
+      8803
+    ],
+    "train_seeds": [
+      11,
+      23,
+      37
+    ],
+    "primary_methods": [
+      "image_to_text",
+      "symmetric",
+      "semantic_multi_positive"
+    ],
+    "steps": 240,
+    "batch": 72,
+    "tau": 0.2,
+    "learning_rate": 0.012,
+    "optimizer": "Adam, hand-written gradients",
+    "test_used_for_selection": false,
+    "gallery": "216 images / 216 paired captions; same 18 classes; stable index tie break",
+    "temperature_ablation": "seed11 only, exploratory diagnostic, not used to choose primary tau"
+  },
+  "primary_question": "Do one-way and symmetric dual encoders differ, and how do semantic duplicates change retrieval interpretation?",
+  "selection_rule": "All specified variants and seeds retained; no early stopping or test-set model selection.",
+  "stopping_rule": "Run the fixed update budget, then evaluate all declared conditions.",
+  "limitations": [
+    "Synthetic finite task; no real-world generalization claim",
+    "Three training seeds share the same dataset",
+    "No pretrained model or external service"
+  ]
+}

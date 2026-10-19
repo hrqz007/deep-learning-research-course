@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "probability_arrays_replayed": 18,
+  "max_probability_error": 0.0,
+  "feature_reconstruction": "passed",
+  "training_only_mean": "passed"
+}

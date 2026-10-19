@@ -1,0 +1,31 @@
+{
+  "question": "Does training randomization of a known shortcut lower error on the predefined shortcut-flip domain?",
+  "data_seeds": [
+    9201,
+    9202,
+    9203
+  ],
+  "train_seeds": [
+    11,
+    23,
+    37
+  ],
+  "methods": [
+    "vision",
+    "text",
+    "concat",
+    "interaction",
+    "randomized_interaction"
+  ],
+  "primary_contrast": "randomized_interaction minus interaction, shortcut_flip error",
+  "steps": 600,
+  "learning_rate": 0.12,
+  "search": "none",
+  "note": "Executable teaching protocol, not externally timestamped preregistration",
+  "limitations": [
+    "known shortcut field",
+    "fixed handcrafted interaction",
+    "synthetic features, not raw pixels",
+    "three fixed-data seeds"
+  ]
+}

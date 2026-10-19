@@ -1,0 +1,36 @@
+test_bootstrap_constant (test_experiment.TestEvidence.test_bootstrap_constant) ... ok
+test_counterfactual (test_experiment.TestEvidence.test_counterfactual) ... ok
+test_features (test_experiment.TestEvidence.test_features) ... ok
+test_flip_keeps_label (test_experiment.TestEvidence.test_flip_keeps_label) ... ok
+test_gradient (test_experiment.TestEvidence.test_gradient) ... ok
+test_group (test_experiment.TestEvidence.test_group) ... ok
+test_interaction (test_experiment.TestEvidence.test_interaction) ... ok
+test_labels (test_experiment.TestEvidence.test_labels) ... ok
+test_loss_decreases (test_experiment.TestEvidence.test_loss_decreases) ... ok
+test_permutation_labels (test_experiment.TestEvidence.test_permutation_labels) ... ok
+test_reproduce (test_experiment.TestEvidence.test_reproduce) ... ok
+test_shape (test_experiment.TestEvidence.test_shape) ... ok
+test_training_determinism (test_experiment.TestEvidence.test_training_determinism) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.045s
+
+OK
+test_bootstrap_constant (test_experiment.TestEvidence.test_bootstrap_constant) ... ok
+test_counterfactual (test_experiment.TestEvidence.test_counterfactual) ... ok
+test_features (test_experiment.TestEvidence.test_features) ... ok
+test_flip_keeps_label (test_experiment.TestEvidence.test_flip_keeps_label) ... ok
+test_gradient (test_experiment.TestEvidence.test_gradient) ... ok
+test_group (test_experiment.TestEvidence.test_group) ... ok
+test_interaction (test_experiment.TestEvidence.test_interaction) ... ok
+test_labels (test_experiment.TestEvidence.test_labels) ... ok
+test_loss_decreases (test_experiment.TestEvidence.test_loss_decreases) ... ok
+test_permutation_labels (test_experiment.TestEvidence.test_permutation_labels) ... ok
+test_reproduce (test_experiment.TestEvidence.test_reproduce) ... ok
+test_shape (test_experiment.TestEvidence.test_shape) ... ok
+test_training_determinism (test_experiment.TestEvidence.test_training_determinism) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.218s
+
+OK

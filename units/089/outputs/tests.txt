@@ -1,0 +1,23 @@
+test_attention_probability (test_experiment.TestFusion.test_attention_probability) ... ok
+test_balanced_data (test_experiment.TestFusion.test_balanced_data) ... ok
+test_blank_hint (test_experiment.TestFusion.test_blank_hint) ... ok
+test_conflict (test_experiment.TestFusion.test_conflict) ... ok
+test_gradients (test_experiment.TestFusion.test_gradients) ... ok
+test_image_ignores_text (test_experiment.TestFusion.test_image_ignores_text) ... ok
+test_interventions_do_not_mutate (test_experiment.TestFusion.test_interventions_do_not_mutate) ... ok
+test_mask_exact_region (test_experiment.TestFusion.test_mask_exact_region) ... ok
+test_parameter_counts (test_experiment.TestFusion.test_parameter_counts) ... ok
+test_predict_cannot_read_labels (test_experiment.TestFusion.test_predict_cannot_read_labels) ... ok
+test_question_counterfactual (test_experiment.TestFusion.test_question_counterfactual) ... ok
+test_repeat_training (test_experiment.TestFusion.test_repeat_training) ... ok
+test_reproducible_data (test_experiment.TestFusion.test_reproducible_data) ... ok
+test_sample_prediction_independent_of_batch (test_experiment.TestFusion.test_sample_prediction_independent_of_batch) ... ok
+test_text_ignores_image (test_experiment.TestFusion.test_text_ignores_image) ... ok
+test_tokens (test_experiment.TestFusion.test_tokens) ... ok
+test_training_updates_attention (test_experiment.TestFusion.test_training_updates_attention) ... ok
+test_true_labels (test_experiment.TestFusion.test_true_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.066s
+
+OK

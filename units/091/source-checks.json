@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19",
+  "method": "Public web open of official documentation / original arXiv abstracts",
+  "sources": [
+    {
+      "title": "Ha and Schmidhuber, World Models, 2018",
+      "url": "https://arxiv.org/abs/1803.10122",
+      "status": "opened",
+      "scope": "压缩表示、递归预测和控制的研究背景。"
+    },
+    {
+      "title": "Hafner et al., PlaNet, 2019",
+      "url": "https://arxiv.org/abs/1811.04551",
+      "status": "opened",
+      "scope": "潜在动力学、在线规划和多步目标背景；未复现架构。"
+    },
+    {
+      "title": "Chua et al., PETS, 2018",
+      "url": "https://arxiv.org/abs/1805.12114",
+      "status": "opened",
+      "scope": "概率动力学与模型式控制背景；本课未实现PETS。"
+    },
+    {
+      "title": "Hafner et al., DreamerV3",
+      "url": "https://arxiv.org/abs/2301.04104",
+      "status": "opened",
+      "scope": "世界模型内想象训练背景；未引用当前性能排名。"
+    }
+  ]
+}

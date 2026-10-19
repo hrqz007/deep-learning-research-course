@@ -1,0 +1,43 @@
+{
+  "unit": "088",
+  "verified_on": "2026-10-19",
+  "required_files_present": true,
+  "lecture_characters": 12704,
+  "figures": 5,
+  "metric_rows": 9,
+  "prediction_rows": 3888,
+  "test_count": 15,
+  "ordinary_tests_passed": true,
+  "optimized_tests_passed": true,
+  "notebook_code_cells": 8,
+  "notebook_executed_cells": 8,
+  "notebook_errors": 0,
+  "notebook_embedded_pngs": 1,
+  "notebook_vs_script_max_metric_difference_excluding_time": 0,
+  "gradient_max_absolute_error": 3.359623690357694e-11,
+  "checkpoint_reload_max_error": 0.0,
+  "pdf_note": "PDF construction and visual QA coordinated separately; this file verifies content/code/data/notebook.",
+  "file_sha256": {
+    "lecture.md": "9385c58ae608fc64cd389a63683deb8c01f173dc2cd6b1b3b1779b247a627593",
+    "lab.md": "e1a8b78cc0f8d8838c040e6a13606d456527cb58385d8c131aa70fcbac633c50",
+    "answers.md": "7a0ee45b811627830f41beb215aeaf99605ce688766b85f5146bc1540281aa3a",
+    "experiment.py": "9cf507ba7314631d52dfc4e9815aa807ad612864c7ab2ea0b33a17d6e92b726c",
+    "test_experiment.py": "80723005284ceb636a696395dc6cb3f9cf1a9858803f0004e68ce6e530ff0af3",
+    "experiment.ipynb": "72895867eeb5581cd20b263fcb10ec56b86ae9e61acf2b49fd3383e5cc36d505",
+    "README.md": "ff07a95fe7dcd1a1557240a5b334b7adaea818204a26f27c7a5a44222ea9fcc6",
+    "requirements.txt": "fe65f9ce8cd1f11dee6a5be9b804cc1a4833707ec97bb02db7329e84584ac502",
+    "environment.yml": "8f7adde5c728b65efdd12d6141311642f671ac843deaec2474a04d5c959d3963",
+    "research_plan.json": "f858f9290cbfb74f2df238fe5d3d04f3287d9b4a6da97c6638661b4b19367523",
+    "DATA_LICENSE.md": "765ce2438c6465c4e6cb8873bfcd484c9ff1a623737cbfde3229b7c5fdd73019",
+    "data_dictionary.md": "698edc8ed2e53d459f4dec8828c4dcb18f43b4660e8197e9b549258439122606",
+    "project_report.md": "182f88175efface5a664b0358c9a7725b163906b49a70db053d13a40a96fd8ee",
+    "sources.md": "a15ce5de3ddfe8ad9a1cde9b934edb1cf0ca1b661350b8eb285531df305ff06e",
+    "source-checks.json": "c22614a6f12e006cd9783a53cf1cdd423db459620e1df75f93262493e6400b0f"
+  },
+  "pdf_pages": {
+    "lecture": 11,
+    "lab": 2,
+    "answers": 3
+  },
+  "pdf_review": "All final pages rendered and visually reviewed; no clipping, overlap, missing glyphs or broken equations found."
+}

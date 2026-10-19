@@ -1,0 +1,47 @@
+{
+  "unit": "091",
+  "verified_at": "2026-10-19",
+  "status": "passed",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "checks": [
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest -v test_experiment.py",
+      "exit_code": 0,
+      "output": "test_action_bounds (test_experiment.TestDynamics.test_action_bounds) ... ok\ntest_candidates (test_experiment.TestDynamics.test_candidates) ... ok\ntest_determinism (test_experiment.TestDynamics.test_determinism) ... ok\ntest_fit_finite (test_experiment.TestDynamics.test_fit_finite) ... ok\ntest_gradient (test_experiment.TestDynamics.test_gradient) ... ok\ntest_hidden_velocity (test_experiment.TestDynamics.test_hidden_velocity) ... ok\ntest_history_identity (test_experiment.TestDynamics.test_history_identity) ... ok\ntest_manual_step (test_experiment.TestDynamics.test_manual_step) ... ok\ntest_rollout_true (test_experiment.TestDynamics.test_rollout_true) ... ok\ntest_shape (test_experiment.TestDynamics.test_shape) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.035s\n\nOK\n"
+    },
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O -m unittest -v test_experiment.py",
+      "exit_code": 0,
+      "output": "test_action_bounds (test_experiment.TestDynamics.test_action_bounds) ... ok\ntest_candidates (test_experiment.TestDynamics.test_candidates) ... ok\ntest_determinism (test_experiment.TestDynamics.test_determinism) ... ok\ntest_fit_finite (test_experiment.TestDynamics.test_fit_finite) ... ok\ntest_gradient (test_experiment.TestDynamics.test_gradient) ... ok\ntest_hidden_velocity (test_experiment.TestDynamics.test_hidden_velocity) ... ok\ntest_history_identity (test_experiment.TestDynamics.test_history_identity) ... ok\ntest_manual_step (test_experiment.TestDynamics.test_manual_step) ... ok\ntest_rollout_true (test_experiment.TestDynamics.test_rollout_true) ... ok\ntest_shape (test_experiment.TestDynamics.test_shape) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.116s\n\nOK\n"
+    },
+    {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python verify_replay.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"passed\", \"model_domain_predictions_replayed\": 18, \"control_episodes_replayed\": 84, \"max_prediction_error\": 0.0, \"max_true_dynamics_residual\": 0.0, \"cost_failure_action_replay\": \"passed\"}\n"
+    }
+  ],
+  "notebook": {
+    "notebook": "experiment.ipynb",
+    "status": "passed",
+    "seconds": 3.963,
+    "code_cells": 8,
+    "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution",
+    "transport_note": "author replay uses in-process kernel; browser not tested; Jupyter browser UI not tested",
+    "python": "3.12.14",
+    "executed_cells": 8,
+    "errors": 0
+  },
+  "unit_test_count_per_mode": 10,
+  "source_check_file": "source-checks.json",
+  "figure_count": 6,
+  "pdf_pages": {
+    "lecture": 10,
+    "lab": 3,
+    "answers": 3
+  },
+  "pdf_review": "All final pages rendered and visually reviewed; no text/image clipping, overlap, missing glyphs or broken equations found."
+}

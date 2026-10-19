@@ -1,0 +1,20 @@
+test_both_towers_update (test_experiment.TestAlignment.test_both_towers_update) ... ok
+test_exact_losses (test_experiment.TestAlignment.test_exact_losses) ... ok
+test_false_negative_count (test_experiment.TestAlignment.test_false_negative_count) ... ok
+test_gradients (test_experiment.TestAlignment.test_gradients) ... ok
+test_independent_instances (test_experiment.TestAlignment.test_independent_instances) ... ok
+test_normalization (test_experiment.TestAlignment.test_normalization) ... ok
+test_parameter_count (test_experiment.TestAlignment.test_parameter_count) ... ok
+test_repeat_training (test_experiment.TestAlignment.test_repeat_training) ... ok
+test_retrieval_definitions (test_experiment.TestAlignment.test_retrieval_definitions) ... ok
+test_scoring_cannot_read_labels (test_experiment.TestAlignment.test_scoring_cannot_read_labels) ... ok
+test_seed_reproducible (test_experiment.TestAlignment.test_seed_reproducible) ... ok
+test_shapes_balance (test_experiment.TestAlignment.test_shapes_balance) ... ok
+test_softmax_axes (test_experiment.TestAlignment.test_softmax_axes) ... ok
+test_stable_ties (test_experiment.TestAlignment.test_stable_ties) ... ok
+test_text_attribute_groups (test_experiment.TestAlignment.test_text_attribute_groups) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.034s
+
+OK
