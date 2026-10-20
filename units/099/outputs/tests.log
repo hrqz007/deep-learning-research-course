@@ -1,0 +1,11 @@
+test_exact_random (__main__.Tests.test_exact_random) ... ok
+test_extreme_scores (__main__.Tests.test_extreme_scores) ... ok
+test_retrieval (__main__.Tests.test_retrieval) ... ok
+test_saved_correctness (__main__.Tests.test_saved_correctness) ... ok
+test_timing_records (__main__.Tests.test_timing_records) ... ok
+test_uniform_attention (__main__.Tests.test_uniform_attention) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.966s
+
+OK

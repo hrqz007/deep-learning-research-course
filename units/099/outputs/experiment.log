@@ -1,0 +1,8 @@
+{
+  "protocol": "CPU float64, one thread, warmup 1, 9 timed forward passes; alternating method order; block size 32. Bidirectional attention correctness. Synthetic single-query retrieval is not a trained language-model benchmark.",
+  "max_abs_error": 5.551115123125783e-16,
+  "full_successes": 12,
+  "local_successes": 5,
+  "retrieval_count": 12,
+  "memory_scope": "Score tile size is an analytical buffer lower-level accounting, not measured peak memory; GPU memory not available."
+}

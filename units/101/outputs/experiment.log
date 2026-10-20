@@ -1,0 +1,6 @@
+{
+  "simulation_runs": 48,
+  "request_records": 8640,
+  "cpu_simulator_seconds": 1.1405179660014255,
+  "all_service_metrics": "SIMULATED"
+}

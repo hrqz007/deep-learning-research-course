@@ -1,0 +1,11 @@
+test_pack_roundtrip (__main__.Tests.test_pack_roundtrip) ... ok
+test_protocol (__main__.Tests.test_protocol) ... ok
+test_quality_recompute (__main__.Tests.test_quality_recompute) ... ok
+test_real_payload_bytes (__main__.Tests.test_real_payload_bytes) ... ok
+test_rounding_bound (__main__.Tests.test_rounding_bound) ... ok
+test_zero_weight (__main__.Tests.test_zero_weight) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.023s
+
+OK

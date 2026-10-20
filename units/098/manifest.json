@@ -1,0 +1,158 @@
+{
+  "unit": "098",
+  "outline_id": "X1",
+  "title": "规模规律与实验外推",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 7,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel; browser UI not tested",
+  "pdf_pages": {
+    "lecture": 5,
+    "lab": 2,
+    "answers": 2
+  },
+  "experiment_kind": "real CPU experiment with stated analytical/modeling limits",
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 347,
+      "sha256": "8b5a26826b68cf7033ddb683a4af35118ad577ce58142c896a4e1c9f36c8cab3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 795,
+      "sha256": "b1a06558ad369e77c96d2d91a9c608ce2d5e0514eb9b68f37fe7ec80f92a9205"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 3270,
+      "sha256": "9d870dbb05e6f53e56eb35dd2ea7d9e564ac473e8f1712485bc4409ece5bf5ac"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 477721,
+      "sha256": "8920d2854b4159cd25501fc804ca2573082ebb42555db76bc0bd67a1a47cc1fb"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 457,
+      "sha256": "5a4f04146b0bef6ee18e80701c7b1aa345c30d4380ef5519762c7196ba730473"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 195807,
+      "sha256": "f7a3a8598d72e3eb331a06dd66d7d8e7f8fe0cdb9e70a95c186eae00884f25ca"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 5814,
+      "sha256": "0a7398230a5fa1c012a4f5c616d89741df511ea239525966500e67608a2d8013"
+    },
+    {
+      "path": "figures/00_mechanism.svg",
+      "bytes": 1803,
+      "sha256": "4bfe5387b8ddd5188557674ce50cbf72aa9d21c00d64bfa3de59bf8e10afaf4f"
+    },
+    {
+      "path": "figures/01_scaling.png",
+      "bytes": 74954,
+      "sha256": "effe67d7ae79faea9f5e58c38ebaf1650d87964200a383e1e4b9b01733d57d28"
+    },
+    {
+      "path": "figures/02_diagnostics.png",
+      "bytes": 65990,
+      "sha256": "465030281d44b0668293bd11d15dac64cda8fc41c916997749ff947fe8775458"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 3447,
+      "sha256": "2d8b792c57eeb8cdc2b36bde179e2129e6577ff0ad4c858a6f461fbb04ec1571"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 480371,
+      "sha256": "08f04142fd38f5456fdcffec03ce26d2efbc5b3fbb1730443d87b955e1630de8"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 11818,
+      "sha256": "71874f265d9a5ec9479f4f46516fdeda5287d4399d1955f0e02d5eebc3133206"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 754943,
+      "sha256": "d3623f3c85f4994d87132d7a73120bef126e2209e55b22cb20b0a9f89599ea7b"
+    },
+    {
+      "path": "outputs/build_answers.log",
+      "bytes": 90,
+      "sha256": "bc1c0ee8ae2db8d3186885ae140ad50a40e722dc4b9f0af8eeaa4e5ffb267fdb"
+    },
+    {
+      "path": "outputs/build_lab.log",
+      "bytes": 82,
+      "sha256": "5544ef840403397c95fb380f3ad034e9d9808a56049f44d14e9b1b7283f04781"
+    },
+    {
+      "path": "outputs/build_lecture.log",
+      "bytes": 90,
+      "sha256": "64af9f4fa74e7a62652e5e4c3721654c72456c37ffed4001d2d4a76d211d0412"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 52714,
+      "sha256": "e530c570c7e3a4056e3fd03248acefff06de7833480f8fb5a0d2ca7475c993b8"
+    },
+    {
+      "path": "outputs/experiment.log",
+      "bytes": 1374,
+      "sha256": "1d5ba4358ec7114c633366ed084195ea52cc6353c399a5ebf8746338e8343f89"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 10757,
+      "sha256": "a6a2d46dcb8a21158f17b162464471ea8bdb3d08165a5c0f53795d3f582aaa9b"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 291,
+      "sha256": "524a84591961045ac398829340e970aed37b2f7ebf9bd692f8cf7d0d868c2a77"
+    },
+    {
+      "path": "outputs/predictions.npz",
+      "bytes": 108552,
+      "sha256": "5bf9fb9802593e42aeb4b35653e85bd5f9b9925a62ea3fc90dc894e68c85f4d6"
+    },
+    {
+      "path": "outputs/runs.csv",
+      "bytes": 2981,
+      "sha256": "81dcef8c855baf1a98c11428b7764a9508845b716b6dd9046fca07d1a67b67e1"
+    },
+    {
+      "path": "outputs/tests.log",
+      "bytes": 548,
+      "sha256": "1ebeba42baa9b34222745146b1bb5e9c8562a9f6d898dd16213b939c0dbb3edf"
+    },
+    {
+      "path": "outputs/training_history.csv",
+      "bytes": 8438,
+      "sha256": "429c685faa717e483583cf62a071a6bb616ba985de52a0c6811c4a3ef8fd7fd3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 99,
+      "sha256": "53ad03a89ff5c92f9b2fc8baf67682cad46c08da9b5feeddcaaf96c72a0d0e26"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 356,
+      "sha256": "63b4ef16d913cef2b8b106b1e151b03883fe5d954fed9db18574cbef7d4a2761"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1602,
+      "sha256": "314c2544a79a5f160d23a803211f40d804c1a17548005543b57ac74d1759030b"
+    }
+  ]
+}

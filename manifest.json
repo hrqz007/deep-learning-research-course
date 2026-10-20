@@ -99,7 +99,12 @@
     "G2",
     "G3",
     "G4",
-    "G5"
+    "G5",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5"
   ],
   "status_definitions": {
     "planned": "按批准大纲规划，尚无完整正文",
@@ -3596,7 +3601,23 @@
       "figure": "训练规模、拟合区间与外推不确定性带。",
       "lab": "在小型模型族做受控规模实验，留出一个规模点验证；报告数据重复与最优超参数混杂。",
       "pitfall": "把经验幂律当定律；只用两点预测远超观测范围的模型能力。",
-      "status": "planned"
+      "status": "verified",
+      "publication_sequence": "098",
+      "publication_directory": "units/098",
+      "artifacts": {
+        "lecture_pdf": "units/098/lecture.pdf",
+        "lab_pdf": "units/098/lab.pdf",
+        "answers_pdf": "units/098/answers.pdf",
+        "notebook": "units/098/experiment.ipynb",
+        "script": "units/098/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_content_review_passed",
+        "code": "independent_complete_replay_and_tests_passed",
+        "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
+        "visual": "all_pdf_pages_independently_rendered_and_reviewed"
+      },
+      "release_record": "releases/098-102.json"
     },
     {
       "id": "X2",
@@ -3612,7 +3633,23 @@
       "figure": "注意力矩阵分块、内存访问及上下文位置。",
       "lab": "在可用硬件比较正确性、吞吐和显存；设计随位置和长度变化的检索测试。",
       "pitfall": "将低显存自动等同更快；长上下文窗口等于有效利用全部内容。",
-      "status": "planned"
+      "status": "verified",
+      "publication_sequence": "099",
+      "publication_directory": "units/099",
+      "artifacts": {
+        "lecture_pdf": "units/099/lecture.pdf",
+        "lab_pdf": "units/099/lab.pdf",
+        "answers_pdf": "units/099/answers.pdf",
+        "notebook": "units/099/experiment.ipynb",
+        "script": "units/099/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_content_review_passed",
+        "code": "independent_complete_replay_and_tests_passed",
+        "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
+        "visual": "all_pdf_pages_independently_rendered_and_reviewed"
+      },
+      "release_record": "releases/098-102.json"
     },
     {
       "id": "X3",
@@ -3628,7 +3665,23 @@
       "figure": "权重量化误差及教师学生信息流。",
       "lab": "选择量化或蒸馏完成质量延迟内存比较；评估尾部任务和分组退化。",
       "pitfall": "只比较模型文件大小；同一校准集兼任测试；平均指标掩盖关键能力损失。",
-      "status": "planned"
+      "status": "verified",
+      "publication_sequence": "100",
+      "publication_directory": "units/100",
+      "artifacts": {
+        "lecture_pdf": "units/100/lecture.pdf",
+        "lab_pdf": "units/100/lab.pdf",
+        "answers_pdf": "units/100/answers.pdf",
+        "notebook": "units/100/experiment.ipynb",
+        "script": "units/100/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_content_review_passed",
+        "code": "independent_complete_replay_and_tests_passed",
+        "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
+        "visual": "all_pdf_pages_independently_rendered_and_reviewed"
+      },
+      "release_record": "releases/098-102.json"
     },
     {
       "id": "X4",
@@ -3643,7 +3696,23 @@
       "figure": "计算通信时间线与连续批处理队列。",
       "lab": "有硬件则做小规模测量，无硬件则仅做可核对的容量模型；明确模拟不能证明真实性能。",
       "pitfall": "把理论峰值当应用吞吐；只优化单请求延迟却损害服务SLO。",
-      "status": "planned"
+      "status": "verified",
+      "publication_sequence": "101",
+      "publication_directory": "units/101",
+      "artifacts": {
+        "lecture_pdf": "units/101/lecture.pdf",
+        "lab_pdf": "units/101/lab.pdf",
+        "answers_pdf": "units/101/answers.pdf",
+        "notebook": "units/101/experiment.ipynb",
+        "script": "units/101/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_content_review_passed",
+        "code": "independent_complete_replay_and_tests_passed",
+        "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
+        "visual": "all_pdf_pages_independently_rendered_and_reviewed"
+      },
+      "release_record": "releases/098-102.json"
     },
     {
       "id": "X5",
@@ -3659,7 +3728,23 @@
       "figure": "质量成本前沿、压力测试和失效区域。",
       "lab": "交付可重放负载、质量回归、延迟吞吐与资源报告；阐明硬件版本和适用范围。",
       "pitfall": "速度提升没有质量约束；模拟结果写成生产保证；不报告长尾延迟。",
-      "status": "planned"
+      "status": "verified",
+      "publication_sequence": "102",
+      "publication_directory": "units/102",
+      "artifacts": {
+        "lecture_pdf": "units/102/lecture.pdf",
+        "lab_pdf": "units/102/lab.pdf",
+        "answers_pdf": "units/102/answers.pdf",
+        "notebook": "units/102/experiment.ipynb",
+        "script": "units/102/experiment.py"
+      },
+      "checks": {
+        "scientific": "independent_content_review_passed",
+        "code": "independent_complete_replay_and_tests_passed",
+        "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
+        "visual": "all_pdf_pages_independently_rendered_and_reviewed"
+      },
+      "release_record": "releases/098-102.json"
     }
   ],
   "archived_material_units": [

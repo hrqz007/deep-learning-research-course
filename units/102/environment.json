@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.14.1+cpu",
+  "device": "CPU",
+  "threads": 1,
+  "dtype": "float32",
+  "machine": "x86_64",
+  "platform": "Linux",
+  "gpu_used": false,
+  "published_run_cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "timing_caveat": "CPU frequency, system load and shared-resource contention were not controlled; microsecond rankings may change."
+}

@@ -1,0 +1,4 @@
+seed,hidden_clip_percentile,hidden_clip_limit,calibration_examples
+11,99.5,8.320393562316895,400
+23,99.5,10.351325988769531,400
+37,99.5,9.011069297790527,400

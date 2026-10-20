@@ -1,0 +1,132 @@
+{
+  "thresholds": {
+    "all_accuracy_min": 0.9,
+    "tail_accuracy_min": 0.8,
+    "batch_response_p95_max_seconds": 0.002
+  },
+  "quality": [
+    {
+      "model": "w8_s11",
+      "width": 8,
+      "seed": 11,
+      "accuracy": 0.9583333333333334,
+      "common_accuracy": 0.9819341126461212,
+      "tail_accuracy": 0.8725868725868726,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 168,
+      "training_seconds": 0.8743194669987133
+    },
+    {
+      "model": "w8_s23",
+      "width": 8,
+      "seed": 23,
+      "accuracy": 0.8433333333333334,
+      "common_accuracy": 0.9319872476089267,
+      "tail_accuracy": 0.5212355212355212,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 168,
+      "training_seconds": 1.0327106270015065
+    },
+    {
+      "model": "w8_s37",
+      "width": 8,
+      "seed": 37,
+      "accuracy": 0.8458333333333333,
+      "common_accuracy": 0.9287991498405951,
+      "tail_accuracy": 0.5444015444015444,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 168,
+      "training_seconds": 0.7497315189993969
+    },
+    {
+      "model": "w32_s11",
+      "width": 32,
+      "seed": 11,
+      "accuracy": 0.9733333333333334,
+      "common_accuracy": 0.9904357066950054,
+      "tail_accuracy": 0.9111969111969112,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 648,
+      "training_seconds": 0.9883773689998634
+    },
+    {
+      "model": "w32_s23",
+      "width": 32,
+      "seed": 23,
+      "accuracy": 0.9608333333333333,
+      "common_accuracy": 0.9872476089266737,
+      "tail_accuracy": 0.8648648648648649,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 648,
+      "training_seconds": 0.7038909610000701
+    },
+    {
+      "model": "w32_s37",
+      "width": 32,
+      "seed": 37,
+      "accuracy": 0.9616666666666667,
+      "common_accuracy": 0.9914984059511158,
+      "tail_accuracy": 0.8532818532818532,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 648,
+      "training_seconds": 0.5534188159999758
+    },
+    {
+      "model": "w64_s11",
+      "width": 64,
+      "seed": 11,
+      "accuracy": 0.955,
+      "common_accuracy": 0.9840595111583422,
+      "tail_accuracy": 0.8494208494208494,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 1288,
+      "training_seconds": 0.8994441079994431
+    },
+    {
+      "model": "w64_s23",
+      "width": 64,
+      "seed": 23,
+      "accuracy": 0.955,
+      "common_accuracy": 0.9808714133900106,
+      "tail_accuracy": 0.861003861003861,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 1288,
+      "training_seconds": 3.0033944480001082
+    },
+    {
+      "model": "w64_s37",
+      "width": 64,
+      "seed": 37,
+      "accuracy": 0.9558333333333333,
+      "common_accuracy": 0.9787460148777896,
+      "tail_accuracy": 0.8725868725868726,
+      "test_n": 1200,
+      "tail_n": 259,
+      "parameter_bytes": 1288,
+      "training_seconds": 0.7516120309992402
+    }
+  ],
+  "feasible_configurations": 42,
+  "total_configurations": 54,
+  "feasible_pareto": {
+    "mixed": [
+      "w8_s11_b64_mixed",
+      "w32_s11_b64_mixed",
+      "w32_s37_b64_mixed"
+    ],
+    "tail": [
+      "w8_s11_b64_tail",
+      "w32_s11_b64_tail",
+      "w32_s23_b64_tail"
+    ]
+  },
+  "tail_replay_unique_examples": 163
+}

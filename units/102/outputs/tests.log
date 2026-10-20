@@ -1,0 +1,11 @@
+test_batch_timing_accounting (__main__.Tests.test_batch_timing_accounting) ... ok
+test_pareto (__main__.Tests.test_pareto) ... ok
+test_quality_recompute (__main__.Tests.test_quality_recompute) ... ok
+test_replay_workload (__main__.Tests.test_replay_workload) ... ok
+test_summary_and_constraints (__main__.Tests.test_summary_and_constraints) ... ok
+test_threshold_boundary (__main__.Tests.test_threshold_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.316s
+
+OK

@@ -167,3 +167,15 @@
 | 097 / G5 | [生成算法比较与研究设计](units/097/README.md) | [正文](units/097/lecture.pdf) · [实验](units/097/lab.pdf) · [答案](units/097/answers.pdf) · [Notebook](units/097/experiment.ipynb) |
 
 本批通过独立内容、实验重跑、23项测试、5份Notebook及15份PDF共54页检查。均为低维合成数据上的解析或线性机制实验，不代表大型生成模型复现或真实部署效果。详见[发布核验记录](releases/093-097.json)。
+
+## 第098–102讲：系统研究专题 X1–X5
+
+| 讲次 / 大纲 | 主题 | 教学资料 |
+|---|---|---|
+| 098 / X1 | [规模规律与实验外推](units/098/README.md) | [正文](units/098/lecture.pdf) · [实验](units/098/lab.pdf) · [答案](units/098/answers.pdf) · [Notebook](units/098/experiment.ipynb) |
+| 099 / X2 | [高效注意力与长上下文](units/099/README.md) | [正文](units/099/lecture.pdf) · [实验](units/099/lab.pdf) · [答案](units/099/answers.pdf) · [Notebook](units/099/experiment.ipynb) |
+| 100 / X3 | [量化蒸馏与压缩](units/100/README.md) | [正文](units/100/lecture.pdf) · [实验](units/100/lab.pdf) · [答案](units/100/answers.pdf) · [Notebook](units/100/experiment.ipynb) |
+| 101 / X4 | [并行服务与系统级瓶颈](units/101/README.md) | [正文](units/101/lecture.pdf) · [实验](units/101/lab.pdf) · [答案](units/101/answers.pdf) · [Notebook](units/101/experiment.ipynb) |
+| 102 / X5 | [成本约束下的系统研究](units/102/README.md) | [正文](units/102/lecture.pdf) · [实验](units/102/lab.pdf) · [答案](units/102/answers.pdf) · [Notebook](units/102/experiment.ipynb) |
+
+本批通过独立内容、实验重跑、31项测试（普通与优化模式）、5份Notebook共30个代码单元及15份PDF共45页检查。CPU教学实验的解析和建模边界以各讲说明为准，不代表大型模型或生产系统复现。第049–050讲的原有待审状态保持不变。详见[发布核验记录](releases/098-102.json)。

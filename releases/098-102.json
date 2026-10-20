@@ -1,0 +1,81 @@
+{
+  "batch": "098-102",
+  "repository": "hrqz007/deep-learning-research-course",
+  "source_commit": "9038cbe0512bfa62321f6f9e7c6959b35b36dcec",
+  "outline_mapping": "X1-X5",
+  "date": "2026-10-20",
+  "units": [
+    {
+      "unit": "098",
+      "outline_id": "X1",
+      "title": "规模规律与实验外推",
+      "tests_passed": 7,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 5,
+        "lab": 2,
+        "answers": 2
+      },
+      "experiment_kind": "real CPU experiment with stated analytical/modeling limits"
+    },
+    {
+      "unit": "099",
+      "outline_id": "X2",
+      "title": "高效注意力与长上下文",
+      "tests_passed": 6,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 5,
+        "lab": 2,
+        "answers": 2
+      },
+      "experiment_kind": "real CPU experiment with stated analytical/modeling limits"
+    },
+    {
+      "unit": "100",
+      "outline_id": "X3",
+      "title": "量化蒸馏与压缩",
+      "tests_passed": 6,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 5,
+        "lab": 2,
+        "answers": 2
+      },
+      "experiment_kind": "real CPU experiment with stated analytical/modeling limits"
+    },
+    {
+      "unit": "101",
+      "outline_id": "X4",
+      "title": "并行服务与系统级瓶颈",
+      "tests_passed": 6,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 5,
+        "lab": 2,
+        "answers": 2
+      },
+      "experiment_kind": "deterministic capacity simulation, not real serving hardware"
+    },
+    {
+      "unit": "102",
+      "outline_id": "X5",
+      "title": "成本约束下的系统研究",
+      "tests_passed": 6,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 5,
+        "lab": 2,
+        "answers": 2
+      },
+      "experiment_kind": "real CPU experiment with stated analytical/modeling limits"
+    }
+  ],
+  "total_tests": 31,
+  "total_notebooks": 5,
+  "total_pdf_pages": 45,
+  "total_pdf_files": 15,
+  "status": "independent_review_passed",
+  "legacy_note": "No changes to prior units. Legacy 049/050 pending-review status preserved.",
+  "measurement_limits": "CPU only. 101 service metrics are simulated; 099 score memory is analytical; 100 dequantized float inference is not an integer kernel; 102 has no online arrivals or queue."
+}

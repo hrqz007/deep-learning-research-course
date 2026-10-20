@@ -1,0 +1,12 @@
+test_accounting (__main__.Tests.test_accounting) ... ok
+test_analytic_power (__main__.Tests.test_analytic_power) ... ok
+test_fit_excludes_holdout (__main__.Tests.test_fit_excludes_holdout) ... ok
+test_prediction_metrics (__main__.Tests.test_prediction_metrics) ... ok
+test_records (__main__.Tests.test_records) ... ok
+test_relative_error (__main__.Tests.test_relative_error) ... ok
+test_split_and_finite (__main__.Tests.test_split_and_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

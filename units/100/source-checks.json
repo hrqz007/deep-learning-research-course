@@ -1,0 +1,7 @@
+{
+  "accessed_date": "2026-10-20",
+  "curriculum_repository": "https://github.com/hrqz007/deep-learning-research-course",
+  "curriculum_commit": "9038cbe0512bfa62321f6f9e7c6959b35b36dcec",
+  "outline_unit": "X3",
+  "verification": "Official curriculum read at pinned commit; original CPU experiments and explanations; primary reference links in lecture."
+}

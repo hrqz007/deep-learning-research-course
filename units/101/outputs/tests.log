@@ -1,0 +1,11 @@
+test_capacity_one_equivalence (__main__.Tests.test_capacity_one_equivalence) ... ok
+test_no_early_events (__main__.Tests.test_no_early_events) ... ok
+test_parallel_boundary (__main__.Tests.test_parallel_boundary) ... ok
+test_single_request (__main__.Tests.test_single_request) ... ok
+test_summary_recompute (__main__.Tests.test_summary_recompute) ... ok
+test_work_conservation (__main__.Tests.test_work_conservation) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.196s
+
+OK
