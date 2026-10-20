@@ -1,0 +1,10 @@
+test_affine_reference (__main__.TestExperiment.test_affine_reference) ... ok
+test_constant_velocity (__main__.TestExperiment.test_constant_velocity) ... ok
+test_density_normalizes (__main__.TestExperiment.test_density_normalizes) ... ok
+test_output (__main__.TestExperiment.test_output) ... ok
+test_velocity_endpoints (__main__.TestExperiment.test_velocity_endpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.024s
+
+OK

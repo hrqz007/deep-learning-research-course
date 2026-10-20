@@ -1,0 +1,19 @@
+{
+  "paired_summary": [
+    {
+      "steps": 10,
+      "paired_difference_mean": 0.10816073546758842,
+      "paired_difference_se": 0.005467376311778142
+    },
+    {
+      "steps": 40,
+      "paired_difference_mean": 0.024422048195230243,
+      "paired_difference_se": 0.006496788308349289
+    },
+    {
+      "steps": 160,
+      "paired_difference_mean": 0.0028767801562861605,
+      "paired_difference_se": 0.005895289347424871
+    }
+  ]
+}

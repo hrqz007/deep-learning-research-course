@@ -1,0 +1,132 @@
+{
+  "unit": "097",
+  "outline_id": "G5",
+  "title": "生成算法比较与研究设计",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 5,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel",
+  "pdf_pages": {
+    "lecture": 6,
+    "lab": 2,
+    "answers": 2
+  },
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 341,
+      "sha256": "8321242f9d04123afa1a969a61d69ad2f666b8ff605c6f1328516ba08ca0e01c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1405,
+      "sha256": "32ea871182bd3526eab24490447a67b461d93e10be2f4a1b4e6a48ce84b14ee2"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 2988,
+      "sha256": "4458247ea4557aa59df920f6273b98d47b606dd300d3ebcf556f9be8bc56b1f2"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 511678,
+      "sha256": "951187c16d0b54c323003dc9e646e13bd4c9a627e369f62466083c67f125c53a"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 190,
+      "sha256": "1064711a9dcd5d9a76773053a4df362e8f5c6ee4fad5f98b2b6be3e003112882"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 209903,
+      "sha256": "a4bb9bcdb6ed9e9368ae88d606e6240bbca1b0cfc644fdedd8e2b45858fb1f48"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 3810,
+      "sha256": "b7d276769983a2bb11109a496b6b8c9abbd52a88141869db8ef89248a058ead6"
+    },
+    {
+      "path": "figures/01_quality.png",
+      "bytes": 61278,
+      "sha256": "600d476c37a94e9be2c00a563bc4ebcd99e8a64a5d889bb249a3db573441e308"
+    },
+    {
+      "path": "figures/02_cost.png",
+      "bytes": 36092,
+      "sha256": "2db912c962651c566687b23818d98f22fb0b8907712e46d5dfb60d958a5fc32a"
+    },
+    {
+      "path": "figures/03_distribution.png",
+      "bytes": 38825,
+      "sha256": "891985567cf0c4048f7c51159fad6a5079838c7baf2490512b2622a217f5584f"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 3016,
+      "sha256": "4513120bd57d15ebd90a6430357bbef4cbca286a1c29f7948dbb272a970bfa84"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 509619,
+      "sha256": "70ef64b862640387b1cd877a39cd187f554be6a5dfb474bc60d5676bcdc26d67"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 13874,
+      "sha256": "18ac18ac5f131fdb19f9179a8c815e2d944c1a29bc4992d4412788e3743f9d6b"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 763022,
+      "sha256": "d0d13281e90533baea2d9e19ee02c1ff1e067d608254899f28b0b72d403fd54a"
+    },
+    {
+      "path": "outputs/comparison.csv",
+      "bytes": 3260,
+      "sha256": "f4f35220bddf5c2094402bacea0dda9c3e4a6367a55b8374b9ed67a243d5523f"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 1128742,
+      "sha256": "591e74175a59848f53af28e5d4d24703dc6e8b7253df6f1c2f34f6fc51dce083"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 9417,
+      "sha256": "380a36b98f97eca0ad9068ca0c6c305379d2258cb770d2cb9750b33f46610c37"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 264,
+      "sha256": "53dc617470636e9ef36a81d40ad6a53b92fad5a406091b400ca463c99a3bc2e3"
+    },
+    {
+      "path": "outputs/run.log",
+      "bytes": 441,
+      "sha256": "633024f224a2148ee88a72095601b62d0654f7b95a244f039d59f4f3c537f835"
+    },
+    {
+      "path": "outputs/tests.log",
+      "bytes": 445,
+      "sha256": "37999c0a5803dd4abe1b345208962adaccff4a8c470ddf04f71bfc5e2c6851f7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 85,
+      "sha256": "fd59be793d90d023b7755ab8f8b241aa713c24ced1848857bbb6fc2cd271fb2c"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 470,
+      "sha256": "c9f4148acd54f95e1d4c7c6f3f65223545b6a66358b9ee5f299c3007a2aea97d"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1724,
+      "sha256": "2d1ba2f84005f5c258540c327056b2d84e6abaf29c3fbe58811f7a8c7387c607"
+    }
+  ]
+}

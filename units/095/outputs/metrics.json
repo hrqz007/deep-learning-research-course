@@ -1,0 +1,26 @@
+{
+  "seed": 95,
+  "training_pairs": 102000,
+  "target_mean": 2.0,
+  "target_std": 0.7,
+  "steps": {
+    "10": {
+      "mean": 1.9877370632518883,
+      "std": 0.6190350661211865,
+      "paired_affine_rmse": 0.08917793464039027,
+      "central_95_coverage": 0.9699
+    },
+    "40": {
+      "mean": 1.9992595424626771,
+      "std": 0.6878940190838302,
+      "paired_affine_rmse": 0.019599503734178268,
+      "central_95_coverage": 0.953
+    },
+    "160": {
+      "mean": 1.9999203151479763,
+      "std": 0.7053126215418386,
+      "paired_affine_rmse": 0.002346792828942579,
+      "central_95_coverage": 0.9466
+    }
+  }
+}

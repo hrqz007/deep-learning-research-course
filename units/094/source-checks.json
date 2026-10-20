@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://github.com/hrqz007/deep-learning-research-course/blob/main/catalog/units.md",
+    "role": "curriculum scope",
+    "verification": "read local cloned repository / catalog / units.md, G1 and G2 sections; web fetch unavailable"
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.13456",
+    "role": "SDE framework paper metadata and abstract",
+    "verification": "web page retrieved; Gaussian derivations independently developed"
+  }
+]

@@ -1,0 +1,9 @@
+test_compression_and_generation (__main__.TestExperiment.test_compression_and_generation) ... ok
+test_conditional_value (__main__.TestExperiment.test_conditional_value) ... ok
+test_mixture_symmetry (__main__.TestExperiment.test_mixture_symmetry) ... ok
+test_score_finite_difference (__main__.TestExperiment.test_score_finite_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.024s
+
+OK

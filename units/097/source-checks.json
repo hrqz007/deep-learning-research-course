@@ -1,0 +1,14 @@
+{
+  "accessed_date": "2026-10-19",
+  "curriculum_repository": "https://github.com/hrqz007/deep-learning-research-course",
+  "curriculum_commit": "b21fd81f867ceff9ce9138821ff417c03837d662",
+  "outline_unit": "G5",
+  "style_references": [
+    "088",
+    "089",
+    "090",
+    "091",
+    "092"
+  ],
+  "verification": "Read official author abstracts/publisher pages for references; original derivations and CPU experiments. No claim of reproducing published large models."
+}

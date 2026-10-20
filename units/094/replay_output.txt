@@ -1,0 +1,114 @@
+{
+  "n": 40000,
+  "mean": 0.7,
+  "v0": 0.5,
+  "beta": 2.0,
+  "T": 1.0,
+  "description": "oracle score, exact terminal initialization, Euler numerical study",
+  "forward_final_variance": 2.477165682900608,
+  "forward_theory_final_variance": 2.5,
+  "initial_sample_variance": 2.484392495849357,
+  "ode_200_rmse_to_exact_map": 0.001411173842749859,
+  "results": [
+    {
+      "method": "sde",
+      "steps": 10,
+      "h": 0.1,
+      "sample_mean": 0.6947173376303732,
+      "sample_variance": 0.6043272431373616,
+      "discrete_theory_variance": 0.6088406643733204,
+      "theory_variance_abs_error": 0.1088406643733204,
+      "ks_to_target": 0.024525215122861765
+    },
+    {
+      "method": "sde",
+      "steps": 20,
+      "h": 0.05,
+      "sample_mean": 0.6979093835167639,
+      "sample_variance": 0.5513526851861192,
+      "discrete_theory_variance": 0.5512807311997243,
+      "theory_variance_abs_error": 0.051280731199724316,
+      "ks_to_target": 0.01546659377572851
+    },
+    {
+      "method": "sde",
+      "steps": 50,
+      "h": 0.02,
+      "sample_mean": 0.7027117422526198,
+      "sample_variance": 0.5182938807056637,
+      "discrete_theory_variance": 0.5197283873116118,
+      "theory_variance_abs_error": 0.01972838731161175,
+      "ks_to_target": 0.007616758437804738
+    },
+    {
+      "method": "sde",
+      "steps": 100,
+      "h": 0.01,
+      "sample_mean": 0.7003262970836437,
+      "sample_variance": 0.5167660078282698,
+      "discrete_theory_variance": 0.5097322240623063,
+      "theory_variance_abs_error": 0.009732224062306338,
+      "ks_to_target": 0.005569403900935965
+    },
+    {
+      "method": "sde",
+      "steps": 200,
+      "h": 0.005,
+      "sample_mean": 0.6944444909764841,
+      "sample_variance": 0.5050198417179901,
+      "discrete_theory_variance": 0.5048330640016145,
+      "theory_variance_abs_error": 0.00483306400161454,
+      "ks_to_target": 0.00482064478106814
+    },
+    {
+      "method": "ode",
+      "steps": 10,
+      "h": 0.1,
+      "sample_mean": 0.6996992388149085,
+      "sample_variance": 0.5379216742036915,
+      "discrete_theory_variance": 0.5413010173537296,
+      "theory_variance_abs_error": 0.0413010173537296,
+      "ks_to_target": 0.010251730997562991
+    },
+    {
+      "method": "ode",
+      "steps": 20,
+      "h": 0.05,
+      "sample_mean": 0.6997051130744844,
+      "sample_variance": 0.5171142476331702,
+      "discrete_theory_variance": 0.5203628739189827,
+      "theory_variance_abs_error": 0.020362873918982727,
+      "ks_to_target": 0.005611200476752676
+    },
+    {
+      "method": "ode",
+      "steps": 50,
+      "h": 0.02,
+      "sample_mean": 0.6997086194376541,
+      "sample_variance": 0.5048898301007319,
+      "discrete_theory_variance": 0.5080616598869192,
+      "theory_variance_abs_error": 0.008061659886919204,
+      "ks_to_target": 0.0028366104790666924
+    },
+    {
+      "method": "ode",
+      "steps": 100,
+      "h": 0.01,
+      "sample_mean": 0.6997097819616386,
+      "sample_variance": 0.5008691386789049,
+      "discrete_theory_variance": 0.5040157095906763,
+      "theory_variance_abs_error": 0.00401570959067632,
+      "ks_to_target": 0.0019078289124843661
+    },
+    {
+      "method": "ode",
+      "steps": 200,
+      "h": 0.005,
+      "sample_mean": 0.6997103617339089,
+      "sample_variance": 0.49886995226495356,
+      "discrete_theory_variance": 0.5020039638446921,
+      "theory_variance_abs_error": 0.002003963844692147,
+      "ks_to_target": 0.0021090687482460124
+    }
+  ]
+}

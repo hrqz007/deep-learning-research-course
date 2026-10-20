@@ -1,0 +1,10 @@
+test_exact_center (__main__.TestExperiment.test_exact_center) ... ok
+test_ode_deterministic (__main__.TestExperiment.test_ode_deterministic) ... ok
+test_pairing (__main__.TestExperiment.test_pairing) ... ok
+test_recalculate_metric (__main__.TestExperiment.test_recalculate_metric) ... ok
+test_records (__main__.TestExperiment.test_records) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.034s
+
+OK

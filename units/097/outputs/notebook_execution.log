@@ -1,0 +1,1 @@
+{"notebook": "experiment.ipynb", "status": "passed", "seconds": 1.377, "code_cells": 6, "kernel": "ipykernel InProcessKernel, fresh Python process; sequential execution", "transport_note": "Jupyter browser UI and socket transport not tested", "python": "3.12.14"}

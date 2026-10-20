@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://github.com/hrqz007/deep-learning-research-course/blob/main/catalog/units.md",
+    "role": "curriculum scope",
+    "verification": "read local cloned repository / catalog / units.md, G1 and G2 sections; web fetch unavailable"
+  },
+  {
+    "url": "https://www.jmlr.org/papers/v6/hyvarinen05a.html",
+    "role": "original score matching paper metadata and abstract",
+    "verification": "web page retrieved"
+  },
+  {
+    "url": "https://doi.org/10.1162/NECO_a_00142",
+    "role": "bibliographic pointer for Vincent 2011",
+    "verification": "publisher / author full-text retrieval blocked; derivation in lecture independently developed, no claim of full-text review"
+  }
+]

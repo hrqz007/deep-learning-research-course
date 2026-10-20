@@ -1,0 +1,27 @@
+{
+  "seed_train": 9301,
+  "seed_test": 9302,
+  "n_train": 60000,
+  "n_test": 30000,
+  "sigma": 0.6,
+  "model": "affine least-squares DSM; not a deep network",
+  "score_mse_per_coordinate": 0.00013951473124586004,
+  "test_dsm_mse_per_coordinate": 2.0827888789654865,
+  "oracle_test_dsm_mse_per_coordinate": 2.0827534069252116,
+  "coefficient_max_absolute_error": 0.004539532658185186,
+  "groups": {
+    "central_r2_lt_2": {
+      "n": 18925,
+      "score_mse_per_coordinate": 0.0001145452319895337
+    },
+    "middle_r2_2_to_6": {
+      "n": 9623,
+      "score_mse_per_coordinate": 0.0001685190246127374
+    },
+    "tail_r2_ge_6": {
+      "n": 1452,
+      "score_mse_per_coordinate": 0.00027273749870902444
+    }
+  },
+  "uniform_grid_score_mse_per_coordinate": 0.0002604545698898832
+}

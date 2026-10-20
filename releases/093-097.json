@@ -1,0 +1,75 @@
+{
+  "batch": "093-097",
+  "repository": "hrqz007/deep-learning-research-course",
+  "source_commit": "b21fd81f867ceff9ce9138821ff417c03837d662",
+  "outline_mapping": "G1–G5, following 088–092 M1–M5",
+  "created_utc_date": "2026-10-19",
+  "units": [
+    {
+      "unit": "093",
+      "outline_id": "G1",
+      "title": "分数匹配与去噪关系",
+      "tests_passed": 4,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 8,
+        "lab": 2,
+        "answers": 2
+      }
+    },
+    {
+      "unit": "094",
+      "outline_id": "G2",
+      "title": "连续扩散与随机微分方程",
+      "tests_passed": 5,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 8,
+        "lab": 2,
+        "answers": 2
+      }
+    },
+    {
+      "unit": "095",
+      "outline_id": "G3",
+      "title": "流模型流匹配与输运",
+      "tests_passed": 5,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 6,
+        "lab": 2,
+        "answers": 2
+      }
+    },
+    {
+      "unit": "096",
+      "outline_id": "G4",
+      "title": "潜空间条件生成与引导",
+      "tests_passed": 4,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 6,
+        "lab": 2,
+        "answers": 2
+      }
+    },
+    {
+      "unit": "097",
+      "outline_id": "G5",
+      "title": "生成算法比较与研究设计",
+      "tests_passed": 5,
+      "notebook_code_cells": 6,
+      "pdf_pages": {
+        "lecture": 6,
+        "lab": 2,
+        "answers": 2
+      }
+    }
+  ],
+  "total_tests": 23,
+  "total_pdf_pages": 54,
+  "total_notebooks": 5,
+  "figure_count": 16,
+  "notes": "Independent content, complete numerical replay, 23 tests, 30 Notebook code cells and all 54 PDF pages reviewed. CPU-only synthetic analytic/linear mechanism experiments; no browser Jupyter UI, socket transport, cross-platform installation or large generative-model reproduction claim.",
+  "independent_review": "passed"
+}

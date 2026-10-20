@@ -1,0 +1,9 @@
+test_exact_affine_recovery (__main__.ScoreTests.test_exact_affine_recovery) ... ok
+test_gradient_finite_difference (__main__.ScoreTests.test_gradient_finite_difference) ... ok
+test_saved_run (__main__.ScoreTests.test_saved_run) ... ok
+test_target_identity (__main__.ScoreTests.test_target_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.039s
+
+OK

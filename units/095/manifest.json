@@ -1,0 +1,132 @@
+{
+  "unit": "095",
+  "outline_id": "G3",
+  "title": "流模型流匹配与输运",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 5,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel",
+  "pdf_pages": {
+    "lecture": 6,
+    "lab": 2,
+    "answers": 2
+  },
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 341,
+      "sha256": "8321242f9d04123afa1a969a61d69ad2f666b8ff605c6f1328516ba08ca0e01c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1390,
+      "sha256": "a2f7d9f1bff6dc253e4e484fda0a5bbf20462e6148b474cea80454e3eebccd62"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 2608,
+      "sha256": "0a85ee9b979a75d79b52e82e3aabbe194cace76b351817fc3840da6ca8ef1b48"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 503237,
+      "sha256": "e5deae4788cc9077bbe7be279479ea10af1afe954325468f22cf5fecd1f071a5"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 190,
+      "sha256": "1064711a9dcd5d9a76773053a4df362e8f5c6ee4fad5f98b2b6be3e003112882"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 197244,
+      "sha256": "a34afb7ed96d121e8acf19b005bf5784088a10de2009a24dc7d28e9bc28aca7d"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 3634,
+      "sha256": "b8f68f264b0c944065af0645d522f0583050d076c129d2e022171bc4ff5353a6"
+    },
+    {
+      "path": "figures/01_velocity.png",
+      "bytes": 56013,
+      "sha256": "e74fc39858a413f40666fdbfc1e6d4eaeddf2fd4f118ad280295ebec1d9fde11"
+    },
+    {
+      "path": "figures/02_distribution.png",
+      "bytes": 23688,
+      "sha256": "efcbaf0b2f7dcdd4215a62bb1ed0127b7b74dfd5eea3b582fe82bd0a70c6e816"
+    },
+    {
+      "path": "figures/03_paths.png",
+      "bytes": 57700,
+      "sha256": "61ba447e739ed5b3e2a68eddd7dc48133e7829b48e4ec97f4ba5ff362745d801"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 3287,
+      "sha256": "9129160b27b6e2e9816b104f1ac427f138ead2e950af9a12f446ab373ffb415f"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 510815,
+      "sha256": "87e3610ccb665999172e1be7498e2908d8663672bff731b1d40ed8271a9dd1c3"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 13111,
+      "sha256": "17b1299384eadd3eeec4aca6a377933eeaac01dcd2378125cf82eb7bbcdca718"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 785409,
+      "sha256": "9c0b64432134ad3f04996501092b42d6e8057624c7b68a35b688fbea2d755258"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 483234,
+      "sha256": "e21801f2cd9a875c23ef139850427de3281dba2d5ec1cc0e75ab1bda4d996851"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 619,
+      "sha256": "dca7528f77434c31649219c455a8bd977cf28442ca29d3239cbbbc240e37b66a"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 264,
+      "sha256": "77da4fb1456ac9833300a399a887c21cef1bc7d73ae8af9c67fb652b8234b281"
+    },
+    {
+      "path": "outputs/run.log",
+      "bytes": 620,
+      "sha256": "fa3fcc51360ee6106deb1547a6ecede4b019b95d6f002fd7e0a9d5acf3fe8b80"
+    },
+    {
+      "path": "outputs/tests.log",
+      "bytes": 473,
+      "sha256": "02f93fa3ea802b3203a8cc87c956b86cee82395b8435a5bd32efd66e0c6644a5"
+    },
+    {
+      "path": "outputs/training_loss.csv",
+      "bytes": 2580,
+      "sha256": "95bbf70a5eaabad16f412ff0c7a7024e3dc5f2ba4cfe2c82d7d581ae6e8a2a5b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 85,
+      "sha256": "fd59be793d90d023b7755ab8f8b241aa713c24ced1848857bbb6fc2cd271fb2c"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 470,
+      "sha256": "f35088a4d227e5dd7cacd5b1aec13259d4c6562769cdd212e88f20ecc1e17e5a"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1523,
+      "sha256": "99c6733d3141a754025de81e10fa087540bc2d17853860c4c117f9a2e84da0e4"
+    }
+  ]
+}

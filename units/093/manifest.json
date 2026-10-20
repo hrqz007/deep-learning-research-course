@@ -1,0 +1,132 @@
+{
+  "unit": "093",
+  "outline_id": "G1",
+  "title": "分数匹配与去噪关系",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 4,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel",
+  "pdf_pages": {
+    "lecture": 8,
+    "lab": 2,
+    "answers": 2
+  },
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 142,
+      "sha256": "faedf54e2bb6e4648a05428c418c10a36076cbe863d33106284ff1b4b610e2d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1066,
+      "sha256": "9e32c56c18f66287eb896984b3218692144aa07ef0f58ff5bfe65333878fc313"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 3322,
+      "sha256": "62f418ebdd8718619c2104b5eafcb98f4d1e95e471405dc389bca86c5aff6dbf"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 493372,
+      "sha256": "80f863685a2d186fd2a608c19a8150744ce8db64edc7edf87066a1882d503767"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 119,
+      "sha256": "d159e98ad75ff8d6135a564564227470bffa7c4eed3545e010921b7154996073"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 423179,
+      "sha256": "2caa16c0c21ee23f0dedf61d07858c0f842f052104f16f1ea6d5628ba678925c"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 4887,
+      "sha256": "57a4e67e65e5d16319b88f5153603488192724d0b1a4e9afde605ac287b35073"
+    },
+    {
+      "path": "figures/01_density_score.png",
+      "bytes": 186431,
+      "sha256": "4f3cab89d6c5a8d90240fd7030262031ba3e2873b9c63eff05359fa77d2424de"
+    },
+    {
+      "path": "figures/02_error_regions.png",
+      "bytes": 57931,
+      "sha256": "f7905899b85d82a415421c9a239c6fb835dc824680fc586e5d86b0f9b1ed07cc"
+    },
+    {
+      "path": "figures/03_noise_scales.png",
+      "bytes": 61131,
+      "sha256": "d76f7c3c1d83a7f31b9e74e9349b595b0996e2e12d4ebaf8fe71bd6d459506ab"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 4881,
+      "sha256": "fb51c858bb3f747e085d2b1ac1a028db607bb42b1883629a11ae14106078c92b"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 537550,
+      "sha256": "8c748a9374aa16d279071f9af43315b804c527862a7c9a674cc7182da0d4747e"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 20001,
+      "sha256": "594983ff19424cc728f077437a286dd5a703bdda009958a4b1ecb07d9da5b9b1"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 980194,
+      "sha256": "473e9a8b5a41030d5215d5f965b902223e7974968419a559858e64b493ad6041"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 4929671,
+      "sha256": "5d64acd8cc8795b16afb3129202666e3faf9ab46a355238e1fb396bdb34bd075"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 783,
+      "sha256": "1f7b6ff1e0116cd2a6a6da2886b4ff7270d3e094b8d7f76f157758f15c54d1f3"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 264,
+      "sha256": "b46c52f87936b551ef7367f2eb7834d25a0b4455a33d84beeb01a9ea8100d5ca"
+    },
+    {
+      "path": "replay_output.txt",
+      "bytes": 784,
+      "sha256": "d28ddf7eb3b1f19fd58c6caf61561ae4e2d24e28268b79116da1c85dc56c9ba6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 81,
+      "sha256": "b481e9b539b99432f58f61b672698da6cbdbc33a703d83ac85587b8e8a34f706"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 696,
+      "sha256": "9eac88b407ee6b059ee5c942c1245eed06dc023131f003f21626ab2a3b45b234"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 584,
+      "sha256": "f0f82bb8f5fc9e73849ba0607f9e045f3caa6577a07f0c403dba14182e93fa4b"
+    },
+    {
+      "path": "test_output.txt",
+      "bytes": 404,
+      "sha256": "fcababce5f7f36587a26a1fbc40138c4868bdec074aaeae34d567085e6639ce2"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1522,
+      "sha256": "9ec8fe6e6e31d19ef7621e61a9f2fcf6d92ee0d3d3e8effa19cdfba54aef450d"
+    }
+  ]
+}

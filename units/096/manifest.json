@@ -1,0 +1,132 @@
+{
+  "unit": "096",
+  "outline_id": "G4",
+  "title": "潜空间条件生成与引导",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 4,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel",
+  "pdf_pages": {
+    "lecture": 6,
+    "lab": 2,
+    "answers": 2
+  },
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 341,
+      "sha256": "8321242f9d04123afa1a969a61d69ad2f666b8ff605c6f1328516ba08ca0e01c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1402,
+      "sha256": "bcccde4df121826dc003c6f780da58a954abfc6b1a86ec520f814e3f062fdf80"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 2846,
+      "sha256": "13256b8df0ec50eae88076998a414838b4175d5ba6f152d592b66c276176d113"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 506345,
+      "sha256": "fd906405e0e86adcd261b7fa0df77afa13d98f52587024b339019ad16a6739c2"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 190,
+      "sha256": "1064711a9dcd5d9a76773053a4df362e8f5c6ee4fad5f98b2b6be3e003112882"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 269230,
+      "sha256": "2c726620d8eab9bb08dbf9b9c5c5826a400d21709a747785c9147734f71aafc7"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 4041,
+      "sha256": "f05a5bfd4e0bfdc75cae11ae841e0aaad433fd3bc82a5e9b60f92ecc8f5bac1c"
+    },
+    {
+      "path": "figures/01_compression.png",
+      "bytes": 60452,
+      "sha256": "f4fa2b093aed72e3651812e13008a91d82fb437b4c66cb24b8e1e9dde6ff7036"
+    },
+    {
+      "path": "figures/02_guidance.png",
+      "bytes": 33009,
+      "sha256": "528db25232cea6b30daf5463c351a094f7686e6fe8be6c9494a76e787d6fbf33"
+    },
+    {
+      "path": "figures/03_score.png",
+      "bytes": 50646,
+      "sha256": "5ffcaf912401f30af9a833ddcb77890f8d59abc1df555fc78f83c0b09b4ea71f"
+    },
+    {
+      "path": "figures/04_paths.png",
+      "bytes": 46005,
+      "sha256": "f681e10eb9e04e532d5844c111ff020d57f4b9b3fc64781d1cbeebbe432a0546"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 2941,
+      "sha256": "0ccf26f3393738af6331598aafadc6f3ed3217cfd6edf59de5f07bfc7ae8114e"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 505950,
+      "sha256": "5600590752476fa9345c0f3b3980ccbb80c036ba747783af470a37f243ff8c14"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 12857,
+      "sha256": "f44a3d217cef80ef9e57b3f2948d7f511c5b25a0432bffde5e92647cad3f4349"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 822531,
+      "sha256": "cb89e880e6ef6f3ec339a5428461316c4b65ffd16c4d0d3ddfcb93deee95b146"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 289724,
+      "sha256": "9209d034fc26a3f4edcba8ae2f5ff78a9d30e3f75fa17356739ce2bb60c71cd6"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 1044,
+      "sha256": "02784c46fed670c51fe78dfd9e87e94eddc055bf7b44fe557943d8e7b1b7c8f2"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 264,
+      "sha256": "9dbca14a1c63451630274b9149b8c7f3955b52797bcdceaac6d6093f8cdfddce"
+    },
+    {
+      "path": "outputs/run.log",
+      "bytes": 1045,
+      "sha256": "05adba84176a8b04011e30c3b352c15d079e32d079ce5dc35196acd2970429b7"
+    },
+    {
+      "path": "outputs/tests.log",
+      "bytes": 442,
+      "sha256": "2a69fd790bada42790dd27065349dc2b3ae561d378c131b9da383a608f18e693"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 85,
+      "sha256": "fd59be793d90d023b7755ab8f8b241aa713c24ced1848857bbb6fc2cd271fb2c"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 470,
+      "sha256": "1e8892bf8cfb5b3c676c673aadf3fb0d0e959cfc8b138c42866a69f6c281bc5d"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1148,
+      "sha256": "381ac61bc88d267caa35b158cd770c7639aea5ab466840fa389a14c5616aa66b"
+    }
+  ]
+}

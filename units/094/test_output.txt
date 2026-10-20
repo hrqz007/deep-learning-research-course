@@ -1,0 +1,10 @@
+test_ode_convergence (__main__.DiffusionTests.test_ode_convergence) ... ok
+test_one_step_recurrence (__main__.DiffusionTests.test_one_step_recurrence) ... ok
+test_saved_distribution (__main__.DiffusionTests.test_saved_distribution) ... ok
+test_score (__main__.DiffusionTests.test_score) ... ok
+test_variance_convergence (__main__.DiffusionTests.test_variance_convergence) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

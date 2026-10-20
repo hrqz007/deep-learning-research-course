@@ -1,0 +1,132 @@
+{
+  "unit": "094",
+  "outline_id": "G2",
+  "title": "连续扩散与随机微分方程",
+  "status": "independent_review_passed",
+  "cpu_only": true,
+  "tests_passed": 5,
+  "notebook_code_cells": 6,
+  "notebook_kernel": "fresh Python process / IPython InProcessKernel",
+  "pdf_pages": {
+    "lecture": 8,
+    "lab": 2,
+    "answers": 2
+  },
+  "files": [
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 142,
+      "sha256": "faedf54e2bb6e4648a05428c418c10a36076cbe863d33106284ff1b4b610e2d6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1095,
+      "sha256": "8043aff3e30641968fdf6469096316e4c08c6a2889b6544a4ec7519d6a421711"
+    },
+    {
+      "path": "answers.md",
+      "bytes": 3392,
+      "sha256": "fc1de0545c5b6b746879ad6ab3d0507dd7df187ee78819f55df4c64b35a49e53"
+    },
+    {
+      "path": "answers.pdf",
+      "bytes": 494225,
+      "sha256": "32f2e7953217dcc78b6b9b15d2b38f31287e81230618afb79ae4bd0de9da95b2"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 119,
+      "sha256": "d159e98ad75ff8d6135a564564227470bffa7c4eed3545e010921b7154996073"
+    },
+    {
+      "path": "experiment.ipynb",
+      "bytes": 472811,
+      "sha256": "ff0db00956c47951686050f607f0ea331880a153664d06285c79602beca8d3ec"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 5346,
+      "sha256": "d9db7f29aca59baaf37a42e91051486675174ab08c8144cdaa036f8dcee510b3"
+    },
+    {
+      "path": "figures/01_paths.png",
+      "bytes": 200913,
+      "sha256": "8352353fd5c0834ad5482d10ca2b454738e412b53934d3361a5adbae95b6b7fd"
+    },
+    {
+      "path": "figures/02_marginals.png",
+      "bytes": 47544,
+      "sha256": "4152d7898fbc22944f07a58e2773e7010b803dabcfcfd04faefd94955d5a52e0"
+    },
+    {
+      "path": "figures/03_step_error.png",
+      "bytes": 87843,
+      "sha256": "366508306b21b2e47509e12205d453d5802f9fbd768e8cbc9dd35dae86ff3e06"
+    },
+    {
+      "path": "lab.md",
+      "bytes": 4297,
+      "sha256": "1c4d6796b21d033aaf51a39efbb2fb1483ad0b6d0a4b80d8060a88936b14b51a"
+    },
+    {
+      "path": "lab.pdf",
+      "bytes": 502129,
+      "sha256": "5b5d745ddcd364e2339116bf54e0b7383f29817fdf7d0f3b5675d94afb5cf77a"
+    },
+    {
+      "path": "lecture.md",
+      "bytes": 19919,
+      "sha256": "ba58e880821338dbdc6d7569605fc5352fdd13f925cf5e0fc4bbcc4e093bf3cb"
+    },
+    {
+      "path": "lecture.pdf",
+      "bytes": 1033344,
+      "sha256": "d6dccbd838c3b5a77c5765b675114251d9275d61b423adf0ec0bd59d133a7aba"
+    },
+    {
+      "path": "outputs/data.npz",
+      "bytes": 4014618,
+      "sha256": "61cf7c0c03a79781b2a87550ef043f5acf311cd455bd72c011a6ca9c61f19206"
+    },
+    {
+      "path": "outputs/metrics.json",
+      "bytes": 3484,
+      "sha256": "f65f8b3335763ae2f1f38add0f5d5cd7e48726a847e5461e75db8a829c86a22d"
+    },
+    {
+      "path": "outputs/notebook_execution.log",
+      "bytes": 264,
+      "sha256": "d9841b3dd1ea88e600c1eb8ed4a076487b80070a0f9226d13083c7c35ad9f844"
+    },
+    {
+      "path": "replay_output.txt",
+      "bytes": 3485,
+      "sha256": "5b096c441d894fc81a0aa6216e50b4fc5fd631de1634e737eecaf99a9a7c2bb3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 81,
+      "sha256": "b481e9b539b99432f58f61b672698da6cbdbc33a703d83ac85587b8e8a34f706"
+    },
+    {
+      "path": "source-checks.json",
+      "bytes": 456,
+      "sha256": "1e3c2dfb8cc487fa9c247ffb72b15fd0a6e9f6970e335bf51b1086e3026499f3"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 478,
+      "sha256": "b0ef1c68c73b15c2693c2c9dbf8dd27c1d12367985e542fc671fbdeb01b2361f"
+    },
+    {
+      "path": "test_output.txt",
+      "bytes": 477,
+      "sha256": "ca14700e68b9dd7d27e3ff7510ed65fac8582be35b4b893cbb1646eef7fd7399"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 1352,
+      "sha256": "ef9f303a4e19e7525e627df9e3b20e1455586b4d4fec7652c395870154656ae4"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 ## 课程目录
 
-第001–072讲主线、后续五个理论专题、五个科学机器学习专题、五个语言模型和Agent专题与五个多模态专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
+第001–072讲主线、后续五个理论专题、五个科学机器学习专题、五个语言模型和Agent专题、五个多模态专题与五个生成模型专题的现有教学资料按顺序列在下表。逐单元制作与验收记录见 [manifest.json](manifest.json)。第049讲的大轨迹文件保存在本仓库 Release 资产中，使用前请按[大文件恢复说明](units/049/PUBLICATION_STATUS.md)放回原路径。
 
 |单元|主题|讲义|独立实验|练习详解|代码与运行说明|
 |---|---|---|---|---|---|
@@ -155,3 +155,15 @@
 第083–087讲的公开文件清单、课程编号映射、PDF页数及逐文件远端核验记录见[核验说明](releases/083-087.json)。执行方式、数据来源与环境边界以各讲README及实验指南为准。
 
 第088–092讲的公开文件清单、课程编号映射、PDF页数及逐文件远端核验记录见[核验说明](releases/088-092.json)。实验、数据和验证边界以各讲README及verification.json为准；不据此声称验证Jupyter浏览器界面、跨平台安装或真实部署效果。
+
+## 第093–097讲：生成模型专题 G1–G5
+
+| 讲次 / 大纲 | 主题 | 教学资料 |
+|---|---|---|
+| 093 / G1 | [分数匹配与去噪关系](units/093/README.md) | [正文](units/093/lecture.pdf) · [实验](units/093/lab.pdf) · [答案](units/093/answers.pdf) · [Notebook](units/093/experiment.ipynb) |
+| 094 / G2 | [连续扩散与随机微分方程](units/094/README.md) | [正文](units/094/lecture.pdf) · [实验](units/094/lab.pdf) · [答案](units/094/answers.pdf) · [Notebook](units/094/experiment.ipynb) |
+| 095 / G3 | [流模型流匹配与输运](units/095/README.md) | [正文](units/095/lecture.pdf) · [实验](units/095/lab.pdf) · [答案](units/095/answers.pdf) · [Notebook](units/095/experiment.ipynb) |
+| 096 / G4 | [潜空间条件生成与引导](units/096/README.md) | [正文](units/096/lecture.pdf) · [实验](units/096/lab.pdf) · [答案](units/096/answers.pdf) · [Notebook](units/096/experiment.ipynb) |
+| 097 / G5 | [生成算法比较与研究设计](units/097/README.md) | [正文](units/097/lecture.pdf) · [实验](units/097/lab.pdf) · [答案](units/097/answers.pdf) · [Notebook](units/097/experiment.ipynb) |
+
+本批通过独立内容、实验重跑、23项测试、5份Notebook及15份PDF共54页检查。均为低维合成数据上的解析或线性机制实验，不代表大型生成模型复现或真实部署效果。详见[发布核验记录](releases/093-097.json)。
