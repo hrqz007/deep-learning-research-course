@@ -3392,7 +3392,7 @@
       "figure": "密度、score向量场与噪声尺度。",
       "lab": "在已知二维密度上学习score并与解析解比对，观察低密度区域误差。",
       "pitfall": "将score视为样本概率；忽略边界条件及噪声分布假设。",
-      "status": "verified",
+      "status": "published",
       "publication_sequence": "093",
       "publication_directory": "units/093",
       "artifacts": {
@@ -3408,7 +3408,17 @@
         "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
         "visual": "all_pdf_pages_independently_rendered_and_reviewed"
       },
-      "release_record": "releases/093-097.json"
+      "release_record": "releases/093-097.json",
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "26f43fedb5a903ac510d85d63027f150cc2ba33e",
+        "verified_file_count": 24,
+        "verified_bytes": 7712816,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-20"
+      }
     },
     {
       "id": "G2",
@@ -3422,7 +3432,7 @@
       "figure": "SDE样本路径与概率流ODE轨迹对照。",
       "lab": "在解析过程中验证边缘分布与概率流ODE；比较步长误差，写清扩散系数、正则条件及哪些一般结论尚未完整证明。",
       "pitfall": "没有随机微积分先修便只背反向公式；混淆时间方向与符号。",
-      "status": "verified",
+      "status": "published",
       "publication_sequence": "094",
       "publication_directory": "units/094",
       "artifacts": {
@@ -3438,7 +3448,17 @@
         "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
         "visual": "all_pdf_pages_independently_rendered_and_reviewed"
       },
-      "release_record": "releases/093-097.json"
+      "release_record": "releases/093-097.json",
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "26f43fedb5a903ac510d85d63027f150cc2ba33e",
+        "verified_file_count": 24,
+        "verified_bytes": 6901630,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-20"
+      }
     },
     {
       "id": "G3",
@@ -3453,7 +3473,7 @@
       "figure": "概率质量经映射和速度场运输的图。",
       "lab": "先实现低维可逆流，再训练一个简单流匹配模型；检查质量覆盖与求解误差。",
       "pitfall": "把所有含flow的方法当同一目标；忽略Jacobian可算性的结构要求。",
-      "status": "verified",
+      "status": "published",
       "publication_sequence": "095",
       "publication_directory": "units/095",
       "artifacts": {
@@ -3469,7 +3489,17 @@
         "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
         "visual": "all_pdf_pages_independently_rendered_and_reviewed"
       },
-      "release_record": "releases/093-097.json"
+      "release_record": "releases/093-097.json",
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "26f43fedb5a903ac510d85d63027f150cc2ba33e",
+        "verified_file_count": 24,
+        "verified_bytes": 2652357,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-20"
+      }
     },
     {
       "id": "G4",
@@ -3484,7 +3514,7 @@
       "figure": "像素空间与潜空间扩散及条件输入路径。",
       "lab": "在玩具标签条件生成上扫描guidance强度，测条件一致性与覆盖；不依赖大型商业模型。",
       "pitfall": "引导增强被解释为精确后验采样；只报告选出的漂亮样本。",
-      "status": "verified",
+      "status": "published",
       "publication_sequence": "096",
       "publication_directory": "units/096",
       "artifacts": {
@@ -3500,7 +3530,17 @@
         "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
         "visual": "all_pdf_pages_independently_rendered_and_reviewed"
       },
-      "release_record": "releases/093-097.json"
+      "release_record": "releases/093-097.json",
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "26f43fedb5a903ac510d85d63027f150cc2ba33e",
+        "verified_file_count": 24,
+        "verified_bytes": 2616830,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-20"
+      }
     },
     {
       "id": "G5",
@@ -3515,7 +3555,7 @@
       "figure": "质量、覆盖、速度与内存的多目标前沿。",
       "lab": "交付两种可承担方法或采样器的配对比较，记录预处理、随机种子、步数及失败模式。",
       "pitfall": "混用不同评估实现；训练成本与采样成本未分开；单一分数决定全部结论。",
-      "status": "verified",
+      "status": "published",
       "publication_sequence": "097",
       "publication_directory": "units/097",
       "artifacts": {
@@ -3531,7 +3571,17 @@
         "notebook": "fresh_process_inprocess_kernel_passed_browser_socket_not_tested",
         "visual": "all_pdf_pages_independently_rendered_and_reviewed"
       },
-      "release_record": "releases/093-097.json"
+      "release_record": "releases/093-097.json",
+      "publication": {
+        "status": "published",
+        "repository": "hrqz007/deep-learning-research-course",
+        "branch": "main",
+        "content_commit": "26f43fedb5a903ac510d85d63027f150cc2ba33e",
+        "verified_file_count": 24,
+        "verified_bytes": 3304714,
+        "remote_file_hashes_verified": true,
+        "verified_on": "2026-10-20"
+      }
     },
     {
       "id": "X1",
